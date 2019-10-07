@@ -2,7 +2,7 @@
   "name": "fomantic-ui-vue",
   "version": "0.1.0",
   "description": "Integration for Fomantic UI and Vue.js",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "build": "webpack --env=dev",
     "buildDev": "webpack --env=dev",

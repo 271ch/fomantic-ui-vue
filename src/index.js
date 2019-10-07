@@ -28,10 +28,10 @@ if (GlobalVue) {
 
 // To allow use as module (npm/webpack/etc.) export component
 export default {
-  components: {
-    button,
+	components: {
+		button,
 		buttonGroup,
-  },
+	},
 }
 
 // if the code above works, it can be replaced with some automatic loading:
