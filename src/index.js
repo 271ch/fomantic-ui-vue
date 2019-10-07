@@ -1,20 +1,47 @@
-import * as collections from './collections';
-import * as elements from './elements';
-import * as modules from './modules';
-import * as views from './views';
+// Import vue component
+import  button from './elements/button/button.vue'
+import  buttonGroup from './elements/button/button-group.vue'
 
-export default (Vue) => {
-  Object.values({
-    ...collections,
-    ...elements,
-    ...modules,
-    ...views,
-  }).forEach(Comp => Vue.component(Comp.name, Comp));
+// Declare install function executed by Vue.use()
+export function install(Vue) {
+	if (install.installed) return;
+	install.installed = true;
+	Vue.component('fui-button', button);
+	Vue.component('fui-button-group', buttonGroup);
+}
 
-  Object.values(directives).forEach(directive => Vue.directive(directive.name, directive));
+// Create module definition for Vue.use()
+const plugin = {
+	install,
 };
 
-export * from './collections';
-export * from './elements';
-export * from './modules';
-export * from './views';
+// Auto-install when vue is found (eg. in browser via <script> tag)
+let GlobalVue = null;
+if (typeof window !== 'undefined') {
+	GlobalVue = window.Vue;
+} else if (typeof global !== 'undefined') {
+	GlobalVue = global.Vue;
+}
+if (GlobalVue) {
+	GlobalVue.use(plugin);
+}
+
+// To allow use as module (npm/webpack/etc.) export component
+export default {
+  components: {
+    button,
+		buttonGroup,
+  },
+}
+
+// if the code above works, it can be replaced with some automatic loading:
+
+/*
+// Load every component from the whole folder tree
+const req = require.context('.', true, /\.vue$/i)
+
+for (const key of req.keys()) {
+  const name = key.match(/\w+/)![0]
+  Vue.component(req(key).default.name, req(key).default)
+}
+*/
