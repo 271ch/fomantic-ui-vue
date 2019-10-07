@@ -1,0 +1,19 @@
+{
+  "name": "fomantic-ui-vue",
+  "version": "0.1.0",
+  "description": "Integration for Fomantic UI and Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/271ch/fomantic-ui-vue.git"
+  },
+  "author": "dev@271.ch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/271ch/fomantic-ui-vue/issues"
+  },
+  "homepage": "https://github.com/271ch/fomantic-ui-vue#readme"
+}
