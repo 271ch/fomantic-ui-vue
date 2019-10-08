@@ -14,8 +14,13 @@ export default {
       type: Boolean,
       description: 'A button can be formatted to show different levels of emphasis (empty,primary,secondary,tertiary).',
       validator: (value) => {
-        return ['', 'primary', 'secondary', 'tertiary'].indexOf(value) !== -1
-      }
+        return [
+          '',
+          'primary',
+          'secondary',
+          'tertiary',
+        ].indexOf(value) !== -1;
+      },
     },
   },
   events: {

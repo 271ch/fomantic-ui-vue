@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import u from '../../lib/util'
+import u from '../../lib/util';
 
 export default {
   name: 'FuiButtonContent',
@@ -16,7 +16,7 @@ export default {
     },
     hidden: {
       type: Boolean,
-      description: 'Content visible by pointer not hovering.'
+      description: 'Content visible by pointer not hovering.',
     },
   },
   events: {
@@ -25,13 +25,13 @@ export default {
     },
   },
   methods: {
-		classes: function() {
+    classes: function () {
       return u.concatClasses(
         (this.visible || !this.hidden) && 'visible',
         this.hidden && !this.visible && 'hidden',
         'content'
-      )
-    }
-	},
+      );
+    },
+  },
 };
 </script>
