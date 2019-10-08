@@ -1,6 +1,7 @@
 import Vue from 'vue'
 // Import vue component
 import  fuiButton from './elements/button/button.vue'
+import  fuiButtonContent from './elements/button/button-content.vue'
 import  fuiButtonGroup from './elements/button/button-group.vue'
 
 console.log('Package fomantic-ui-vue loaded.');
