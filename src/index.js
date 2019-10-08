@@ -1,47 +1,33 @@
+import Vue from 'vue'
 // Import vue component
-import  button from './elements/button/button.vue'
-import  buttonGroup from './elements/button/button-group.vue'
+import  fuiButton from './elements/button/button.vue'
+import  fuiButtonGroup from './elements/button/button-group.vue'
 
-// Declare install function executed by Vue.use()
-export function install(Vue) {
-	if (install.installed) return;
-	install.installed = true;
-	Vue.component('fui-button', button);
-	Vue.component('fui-button-group', buttonGroup);
-}
+console.log('Package fomantic-ui-vue loaded.');
 
-// Create module definition for Vue.use()
-const plugin = {
-	install,
+const comps = require.context('.', true, /\.vue$/i)
+
+const registerAll = (v) => {
+	for (const key of comps.keys()) {
+	  v.component(comps(key).default.name, comps(key).default);
+	}
+	console.log('fomantic-ui-vue: all components have been registered.');
 };
 
-// Auto-install when vue is found (eg. in browser via <script> tag)
-let GlobalVue = null;
-if (typeof window !== 'undefined') {
-	GlobalVue = window.Vue;
-} else if (typeof global !== 'undefined') {
-	GlobalVue = global.Vue;
-}
-if (GlobalVue) {
-	GlobalVue.use(plugin);
+const formatName = (n) => {
+	// from fui-button-group to fuiButtonGroup
+	return n.split('-')
+		.map((w,i) =>
+			(i>0)? w.substring(0, 1).toUpperCase() + w.substring(1) : w)
+		.join('')
 }
 
-// To allow use as module (npm/webpack/etc.) export component
+let components = {}
+for (const key of comps.keys()) {
+	components[formatName(comps(key).default.name)] = comps(key).default
+}
+
 export default {
-	components: {
-		button,
-		buttonGroup,
-	},
-}
-
-// if the code above works, it can be replaced with some automatic loading:
-
-/*
-// Load every component from the whole folder tree
-const req = require.context('.', true, /\.vue$/i)
-
-for (const key of req.keys()) {
-  const name = key.match(/\w+/)![0]
-  Vue.component(req(key).default.name, req(key).default)
-}
-*/
+	registerAll: registerAll,
+	components: components
+};
