@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'fui-button-group',
+  name: 'FuiButtonGroup',
   props: {
     focusable: {
       type: Boolean,

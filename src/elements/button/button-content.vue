@@ -1,12 +1,14 @@
 <template>
-  <div :class="classes()"><slot></slot></div>
+  <div :class="classes()">
+    <slot />
+  </div>
 </template>
 
 <script>
 import u from '../../lib/util'
 
 export default {
-  name: 'fui-button-content',
+  name: 'FuiButtonContent',
   props: {
     visible: {
       type: Boolean,
