@@ -1,8 +1,13 @@
 <template>
-  <div>FUI button</div>
+  <div :class="classes()">
+    <slot />
+  </div>
 </template>
 
 <script>
+import u from '../../lib/util';
+import Enum from '../../lib/enum';
+
 export default {
   name: 'FuiButton',
   props: {
@@ -14,18 +19,20 @@ export default {
       type: Boolean,
       description: 'A button can be formatted to show different levels of emphasis (empty,primary,secondary,tertiary).',
       validator: (value) => {
-        return [
-          '',
-          'primary',
-          'secondary',
-          'tertiary',
-        ].indexOf(value) !== -1;
+        return Enum.Emphasis.check(value);
       },
     },
   },
   events: {
     click: {
-      description: 'Click event passed to the button',
+      description: 'Click event',
+    },
+  },
+  methods: {
+    classes: function () {
+      return u.concatClasses(
+        'ui button'
+      );
     },
   },
 };
