@@ -2,7 +2,7 @@
   <div>
 <h1>Example button</h1>
 
-<fui-button>
+<fui-button animated>
   <fui-button-content>
     A
   </fui-button-content>

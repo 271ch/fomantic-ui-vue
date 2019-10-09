@@ -22,6 +22,10 @@ export default {
         return !value || Enum.Emphasis.check(value);
       },
     },
+    animated: {
+      type: Boolean,
+      description: 'A button can animate to show hidden content.',
+    },
   },
   events: {
     click: {
@@ -31,7 +35,9 @@ export default {
   methods: {
     classes: function () {
       return u.concatClasses(
-        'ui button'
+        'ui',
+        this.animated && 'animated',
+        'button'
       );
     },
   },
