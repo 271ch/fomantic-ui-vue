@@ -1,5 +1,3 @@
 npm run buildProd
 
 eslint src/*/*/*
-
-fomantic-ui-sass
