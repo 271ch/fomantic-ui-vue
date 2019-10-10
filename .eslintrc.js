@@ -33,14 +33,14 @@ module.exports = {
 
     // Stylistic Issues
     // 'array-bracket-newline' : 'error', // enforce linebreaks after opening and before closing array brackets
-    'array-bracket-spacing' : 'error', // enforce consistent spacing inside array brackets
-    'array-element-newline' : 'error', // enforce line breaks after each array element
+    // 'array-bracket-spacing' : 'error', // enforce consistent spacing inside array brackets
+    // 'array-element-newline' : 'error', // enforce line breaks after each array element
     'block-spacing' : 'error', // disallow or enforce spaces inside of blocks after opening block and before closing block
     'brace-style' : 'error', // enforce consistent brace style for blocks
     'camelcase' : 'error', // enforce camelcase naming convention
     //'capitalized-comments' : 'warn', // enforce or disallow capitalization of the first letter of a comment
     'comma-dangle': ['warn', {
-        'arrays': 'always',
+        'arrays': 'only-multiline',
         'objects': 'always',
         'imports': 'always',
         'exports': 'always',

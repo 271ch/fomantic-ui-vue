@@ -17,7 +17,7 @@ export default {
     },
     emphasis: {
       type: Boolean,
-      description: 'A button can be formatted to show different levels of emphasis (empty,primary,secondary,tertiary).',
+      description: 'A button can be formatted to show different levels of emphasis (${Enum.Emphasis.str()}).',
       validator: (value) => {
         return !value || Enum.Emphasis.check(value);
       },
