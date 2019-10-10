@@ -1,3 +1,6 @@
 npm run buildProd
 
 eslint src/*/*/*
+
+To open all code blocks on https://fomantic-ui.com/elements/button.html :
+$('.fitted.icon.code').trigger('click');

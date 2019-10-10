@@ -11,13 +11,13 @@ import Enum from '../../lib/enum';
 export default {
   name: 'FuiButton',
   props: {
-    focusable: {
+    focusable: { // TODO: not clear how to implement focusable, yet
       type: Boolean,
       description: 'The button is keyboard accessible.',
     },
     emphasis: {
       type: Boolean,
-      description: 'A button can be formatted to show different levels of emphasis (${Enum.Emphasis.str()}).',
+      description: `A button can be formatted to show different levels of emphasis (${Enum.Emphasis.str()}).`,
       validator: (value) => {
         return !value || Enum.Emphasis.check(value);
       },
@@ -25,6 +25,10 @@ export default {
     animated: {
       type: Boolean,
       description: 'A button can animate to show hidden content.',
+    },
+    labeled: {
+      type: Boolean,
+      description: 'A button can appear alongside a label',
     },
   },
   events: {

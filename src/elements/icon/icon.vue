@@ -72,6 +72,18 @@ export default {
       type: Boolean,
       description: 'An icon can have its colors inverted for contrast.',
     },
+    corner: {
+      type: Boolean, // TODO: check that the parent is icon-group, only DEV
+      description: 'An icon can be displayed as a smaller corner icon with its colors inverted for contrast.',
+    },
+    cornerPosition: {
+      type: String,
+      description: `Position of a corner icon (${Enum.CornerIconPosition.str()}).`,
+      validator: (value) => {
+        return !value || Enum.Color.check(value);
+      },
+      default: '',
+    },
   },
   events: {
     click: {
@@ -90,6 +102,8 @@ export default {
         this.bordered && 'bordered',
         this.color,
         this.inverted && 'inverted',
+        this.corner && this.cornerPosition,
+        this.corner && 'corner',
         this.iconName,
         this.loading && 'loading',
         this.link && 'link',

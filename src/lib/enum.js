@@ -20,6 +20,12 @@ const Enum = {
   Color: new Enumer('primary', 'secondary', 'red', 'orange', 'yellow',
     'olive', 'green', 'teal', 'blue', 'violet', 'purple', 'pink', 'brown',
     'grey', 'black'),
+  CornerIconPosition: new Enumer('top left', 'top right', 'bottom left',
+    'bottom right'),
+  PointingLabel: new Enumer('above', 'below', 'left', 'right'),
+  LeftRight: new Enumer('left', 'right'),
+  Attached: new Enumer('top', 'bottom', 'top right', 'top left',
+    'bottom right', 'bottom left'),
 };
 
 export default Enum;
