@@ -7,33 +7,15 @@
 <script>
 import u from '../../lib/util';
 import Enum from '../../lib/enum';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiButton',
+  mixins: [Mixins.PSocial, Mixins.PPrimSecTer],
   props: {
     focusable: { // TODO: not clear how to implement focusable, yet
       type: Boolean,
       description: 'The button is keyboard accessible.',
-    },
-    primary: {
-      type: Boolean,
-      description: 'A button can be formatted to show different levels of emphasis.',
-    },
-    secondary: {
-      type: Boolean,
-      description: 'A button can be formatted to show different levels of emphasis.',
-    },
-    tertiary: {
-      type: Boolean,
-      description: 'An none bordered less important button.',
-    },
-    emphasis: { // TODO: or switch to 3 separate Boolean props?
-      type: String,
-      description: `A button can be formatted to show different levels of emphasis (${Enum.Emphasis.str()}).`,
-      validator: (value) => {
-        return !value || Enum.Emphasis.check(value);
-      },
-      default: '',
     },
     animated: {
       type: Boolean,
@@ -78,11 +60,6 @@ export default {
     loading: {
       type: Boolean,
       description: 'A button can show a loading indicator.',
-    },
-    social: {
-      type: String,
-      description: 'A button can be formatted to link to a social website.',
-      default: '',
     },
     size: {
       type: String,
@@ -157,8 +134,7 @@ export default {
         this.icon && 'icon',
         this.inverted && 'inverted',
         this.color,
-        this.primary && 'primary',
-        this.secondary && 'secondary',
+        ...this.getClassesEmphasis(),
         this.tertiary && 'tertiary',
         this.basic && 'basic',
         this.labeled == 'left' && this.labeled,
@@ -168,7 +144,7 @@ export default {
         this.active && 'active',
         this.disabled && 'disabled',
         this.loading && 'loading',
-        this.social,
+        ...this.getClassesSocial(),
         this.size,
         this.floated,
         this.floated && 'floated',

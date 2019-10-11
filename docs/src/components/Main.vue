@@ -10,8 +10,14 @@
     Z
   </fui-button-content>
 </fui-button>
+
+<fui-button social=facebook>
+  Facebook
+</fui-button>
+
 </div>
 </template>
+
 
 <script>
 export default {
