@@ -13,7 +13,6 @@ class Enumer {
 }
 
 const Enum = {
-  Emphasis: new Enumer('primary', 'secondary', 'tertiary'),
   Size: new Enumer('mini', 'tiny', 'small', 'large', 'big',
     'huge', 'massive'),
   Rotation: new Enumer('clockwise', 'counterclockwise'),
@@ -26,6 +25,12 @@ const Enum = {
   LeftRight: new Enumer('left', 'right'),
   Attached: new Enumer('top', 'bottom', 'top right', 'top left',
     'bottom right', 'bottom left'),
+  AttachedLRTB: new Enumer('top', 'bottom', 'right', 'left'),
+  AttachedTB: new Enumer('top', 'bottom'),
+  Number: new Enumer(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,
+    'one', 'two', 'three', 'four', 'five', 'six', 'seven',
+    'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen',
+    'fourteen', 'fifteen', 'sixteen'),
 };
 
 export default Enum;
