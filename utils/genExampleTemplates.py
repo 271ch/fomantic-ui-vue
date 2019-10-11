@@ -26,10 +26,12 @@ class App:
 
   def generate(self):
     # ./tmp/Fomantic-UI-Docs/server/documents/elements/button.html.eco
+    self.summary_file = open(os.path.join('./tmp/Examples','summary.txt'),'w')
     subprocess.call(['mkdir', 'tmp/Examples'])
     for et in ElementTypes:
       print('> {}'.format(et))
       self.generateElementType(et)
+    self.summary_file.close()
 
   def generateElementType(self, et):
     if not os.path.isdir(os.path.join('./tmp/Examples',et)):
@@ -68,6 +70,7 @@ class App:
       return
 
     mc = m[0]
+    comps = []
 
     title1 = '???'
     title2 = '???'
@@ -99,7 +102,16 @@ class App:
 
         sourceHTML = self.prepText(pq(c).html())
 
-        comp_name = et.title()[:-1]+e.title()+'{:03d}'.format(gen_counter)+re.sub(r'\W+', '', title2)+str(counter)
+        comp_name = et.title()[:-1]+e.title()+re.sub(r'\W+', '', title2)+str(counter)
+        for i in range(100):
+          if i == 0:
+            comp_name_new = comp_name
+          else:
+            comp_name_new = comp_name + '_{}'.format(i)
+          if not comp_name_new in comps:
+            comp_name = comp_name_new
+            break
+        comps.append(comp_name)
 
         gen_counter += 1
         fname = comp_name+'.vue'
@@ -124,6 +136,7 @@ class App:
         fout.write(r'};'+'\n')
         fout.write(r'</script>'+'\n')
         fout.close()
+        self.summary_file.write(fname+'\n')
 
   def prepText(self, t):
     t2 = t.split('\n')
@@ -162,6 +175,7 @@ def main():
     return
 
   app.generate()
+
   app.statistics()
 
 

@@ -15,12 +15,13 @@ export default {
       type: Boolean,
       description: 'The button is keyboard accessible.',
     },
-    emphasis: {
-      type: Boolean,
+    emphasis: { // TODO: or switch to 3 separate Boolean props?
+      type: String,
       description: `A button can be formatted to show different levels of emphasis (${Enum.Emphasis.str()}).`,
       validator: (value) => {
         return !value || Enum.Emphasis.check(value);
       },
+      default: '',
     },
     animated: {
       type: Boolean,
@@ -28,7 +29,15 @@ export default {
     },
     labeled: {
       type: Boolean,
-      description: 'A button can appear alongside a label',
+      description: 'A button can appear alongside a label.',
+    },
+    icon: {
+      type: Boolean,
+      description: 'A button can have only an icon.',
+    },
+    labeledIcon: {
+      type: Boolean,
+      description: 'A button can use an icon as a label.',
     },
   },
   events: {
@@ -41,6 +50,8 @@ export default {
       return u.concatClasses(
         'ui',
         this.animated && 'animated',
+        this.icon && 'icon',
+        this.labelledIcon && 'labelled icon',
         'button'
       );
     },
