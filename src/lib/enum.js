@@ -1,3 +1,5 @@
+import country from './country';
+
 class Enum {
   constructor (...values) {
     this.values = values;
@@ -33,6 +35,9 @@ const enums = {
     'fourteen', 'fifteen', 'sixteen'),
   Social: new Enum('facebook', 'twitter', 'google plus', 'vk', 'linkedin',
     'instagram', 'youtube', 'whatsapp', 'telegram'),
+  Country: new Enum(...([].concat(...country.map(o => {
+    return [o[0], o[2]];
+  })))),
 };
 
 export default enums;

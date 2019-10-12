@@ -8,6 +8,9 @@
 import u from '../../lib/util';
 import Mixins from '../../lib/mixins';
 
+// TODO: integrate grid in container
+// https://fomantic-ui.com/elements/container.html#containers-using-grids
+
 export default {
   name: 'FuiContainer',
   mixins: [Mixins.PLRJAlignment],

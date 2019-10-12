@@ -9,6 +9,9 @@ import u from '../../lib/util';
 // import Enum from '../../lib/enum';
 // import Mixins from '../../lib/mixins';
 
+// TODO: header's contain also divider's:
+// https://fomantic-ui.com/elements/divider.html#horizontal-alignment
+
 export default {
   name: 'FuiDivider',
   mixins: [],
