@@ -1,8 +1,7 @@
 <template>
-  <div
-    :class="classes()"
-    :data-text="text"
-  />
+  <div :class="classes()">
+    <slot> or </slot>
+  </div>
 </template>
 
 <script>
@@ -10,13 +9,8 @@ import u from '../../lib/util';
 // import Enum from '../../lib/enum';
 
 export default {
-  name: 'FuiButtonGroup',
+  name: 'FuiButtonCondition',
   props: {
-    text: {
-      type: String,
-      description: 'The button is keyboard accessible.',
-      default: 'or',
-    },
   },
   events: {
     click: {
