@@ -6,17 +6,19 @@
 
 <script>
 import u from '../../lib/util';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiContainer',
+  mixins: [Mixins.PLRJAlignment],
   props: {
-    visible: {
+    text: {
       type: Boolean,
-      description: 'Content visible by pointer hovering.',
+      description: 'A container can reduce its maximum width to more naturally accomodate a single column of text.',
     },
-    hidden: {
+    fluid: {
       type: Boolean,
-      description: 'Content visible by pointer not hovering.',
+      description: 'A fluid container has no maximum width.',
     },
   },
   events: {
@@ -28,6 +30,9 @@ export default {
     classes: function () {
       return u.concatClasses(
         'ui',
+        ...this.getClassesLRJAlignment(),
+        this.text && 'text',
+        this.fluid && 'fluid',
         'container'
       );
     },

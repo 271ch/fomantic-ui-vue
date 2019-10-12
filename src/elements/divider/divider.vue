@@ -13,25 +13,34 @@ export default {
   name: 'FuiDivider',
   mixins: [],
   props: {
-    /*
-    prop1: { // TODO: Component FuiDivider
+    vertical: {
       type: Boolean,
-      description: '',
+      description: 'A divider can segment content vertically',
     },
-    prop2: {
-      type: String,
-      description: '',
-      default: '',
+    horizontal: {
+      type: Boolean,
+      description: 'A divider can segment content horizontally',
     },
-    prop3: {
-      type: String,
-      description: '',
-      validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
-      },
-      default: '',
+    inverted: {
+      type: Boolean,
+      description: 'A divider can have its colors inverted',
     },
-    */
+    fitted: {
+      type: Boolean,
+      description: 'A divider can be fitted, without any space above or below it.',
+    },
+    hidden: {
+      type: Boolean,
+      description: 'A hidden divider divides content without creating a dividing line',
+    },
+    section: {
+      type: Boolean,
+      description: 'A divider can provide greater margins to divide sections of content',
+    },
+    clearing: {
+      type: Boolean,
+      description: 'A divider can clear the contents above it',
+    },
   },
   events: {
     click: {
@@ -42,6 +51,13 @@ export default {
     classes: function () {
       return u.concatClasses(
         'ui',
+        this.vertical && 'vertical',
+        this.horizontal && 'horizontal',
+        this.inverted && 'inverted',
+        this.fitted && 'fitted',
+        this.hidden && 'hidden',
+        this.section && 'section',
+        this.clearing && 'clearing',
         'divider'
       );
     },

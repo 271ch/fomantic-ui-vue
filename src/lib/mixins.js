@@ -39,7 +39,7 @@ mixins.PPrimSec = {
     getClassesEmphasis: function () {
       return [
         (this.primary && 'primary') ||
-          (this.secondary && 'secondary')
+        (this.secondary && 'secondary')
       ];
     },
   },
@@ -59,12 +59,44 @@ mixins.PPrimSecTer = Object.assign({},
       getClassesEmphasis: function () {
         return [
           (this.primary && 'primary') ||
-            (this.secondary && 'secondary') ||
-            (this.tertiary && 'tertiary')
+          (this.secondary && 'secondary') ||
+          (this.tertiary && 'tertiary')
         ];
       },
     },
   }
 );
+
+// left/center/right aligned, justified
+mixins.PLRJAlignment = {
+  props: {
+    leftAligned: {
+      type: Boolean,
+      description: 'Left aligned',
+    },
+    rightAligned: {
+      type: Boolean,
+      description: 'Right aligned',
+    },
+    centerAligned: {
+      type: Boolean,
+      description: 'Center aligned',
+    },
+    justified: {
+      type: Boolean,
+      description: 'Justified',
+    },
+  },
+  methods: {
+    getClassesLRJAlignment: function () {
+      return [
+        (this.leftAligned && 'left aligned') ||
+        (this.rightAligned && 'right aligned') ||
+        (this.centerAligned && 'center aligned') ||
+        (this.justified && 'justified')
+      ];
+    },
+  },
+};
 
 export default mixins;

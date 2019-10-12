@@ -21,7 +21,7 @@ export default {
   mixins: [],
   props: {
     /*
-    prop1: { // TODO: Component Fui[[1]]
+    prop1: { // [[0]]: Component Fui[[1]]
       type: Boolean,
       description: '',
     },
@@ -95,6 +95,7 @@ class App:
     conv = Converter()
 
     t = template \
+      .replace('[[0]]','TODO') \
       .replace('[[1]]',(conv.dashToCamel('a-'+name))[1:]) \
       .replace('[[2]]',cl)
     f = open(os.path.join(path,name+'.vue'),'w')
@@ -103,7 +104,7 @@ class App:
 
   def help(self):
     print('python3 genVueComp.py [comp-name w/o Fui] [path] [last class]')
-
+    # python3 genVueComp.py image ../src/elements/image image
 
 def main():
   app = App()
