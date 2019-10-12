@@ -99,4 +99,27 @@ mixins.PLRJAlignment = {
   },
 };
 
+// country
+mixins.PCountry = {
+  props: {
+    country: {
+      type: String,
+      description: 'Country (2 leller or code, e.g. ch or switzerland)',
+      validator: (value) => {
+        return !value || Enum.Country.check(value);
+      },
+      default: '',
+      required: true,
+    },
+  },
+  methods: {
+    getClassesCountry: function () {
+      return [
+        this.country,
+      ];
+    },
+  },
+};
+
+
 export default mixins;

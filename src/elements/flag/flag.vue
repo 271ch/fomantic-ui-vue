@@ -1,38 +1,18 @@
 <template>
-  <div :class="classes()">
+  <i :class="classes()">
     <slot />
-  </div>
+  </i>
 </template>
 
 <script>
 import u from '../../lib/util';
 // import Enum from '../../lib/enum';
-// import Mixins from '../../lib/mixins';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiFlag',
-  mixins: [],
-  props: {
-    /*
-    prop1: { // TODO: Component FuiFlag
-      type: Boolean,
-      description: '',
-    },
-    prop2: {
-      type: String,
-      description: '',
-      default: '',
-    },
-    prop3: {
-      type: String,
-      description: '',
-      validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
-      },
-      default: '',
-    },
-    */
-  },
+  mixins: [Mixins.PCountry],
+  props: { },
   events: {
     click: {
       description: 'Click event',
@@ -41,6 +21,7 @@ export default {
   methods: {
     classes: function () {
       return u.concatClasses(
+        ...this.getClassesCountry(),
         'flag'
       );
     },

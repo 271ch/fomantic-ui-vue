@@ -29,7 +29,7 @@ const enums = {
     'bottom right', 'bottom left'),
   AttachedLRTB: new Enum('top', 'bottom', 'right', 'left'),
   AttachedTB: new Enum('top', 'bottom'),
-  Number: new Enum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,
+  Number: new Enum(// 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,
     'one', 'two', 'three', 'four', 'five', 'six', 'seven',
     'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen',
     'fourteen', 'fifteen', 'sixteen'),
