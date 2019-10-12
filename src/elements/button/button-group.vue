@@ -7,9 +7,11 @@
 <script>
 import u from '../../lib/util';
 import Enum from '../../lib/enum';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiButtonGroup',
+  mixins: [Mixins.PSize],
   props: {
     focusable: {
       type: Boolean,
@@ -56,14 +58,6 @@ export default {
       type: Boolean,
       description: 'Button groups can be less pronounced.',
     },
-    size: {
-      type: String,
-      description: 'Button groups can have different sizes.',
-      validator: (value) => {
-        return !value || Enum.Size.check(value);
-      },
-      default: '',
-    },
   },
   events: {
     click: {
@@ -75,7 +69,7 @@ export default {
       return u.concatClasses(
         this.equalWidth,
         'ui',
-        this.size,
+        ...this.getClassesSize(),
         this.color,
         this.attached,
         this.attached && 'attached',

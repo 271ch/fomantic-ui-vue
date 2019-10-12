@@ -1,17 +1,20 @@
 <template>
-  <div :class="classes()">
+  <component
+    :is="tag()"
+    :class="classes()"
+  >
     <slot />
-  </div>
+  </component>
 </template>
 
 <script>
 import u from '../../lib/util';
-// import Enum from '../../lib/enum';
-// import Mixins from '../../lib/mixins';
+import Enum from '../../lib/enum';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiHeader',
-  mixins: [],
+  mixins: [Mixins.PHeaderLevel],
   props: {
     /*
     prop1: { // TODO: Component FuiHeader
@@ -39,8 +42,15 @@ export default {
     },
   },
   methods: {
+    tag: function () {
+      if (this.level !== '')
+        return Enum.HeaderLevel.value(this.level).tag;
+      else
+        return 'div';
+    },
     classes: function () {
       return u.concatClasses(
+        'ui',
         'header'
       );
     },

@@ -1,43 +1,65 @@
 import country from './country';
 
 class Enum {
-  constructor (...values) {
-    this.values = values;
+  constructor (pairs) {
+    this.d = {};
+    for (let [name, val] of pairs)
+      this.d[name] = val;
+  }
+  static fromArray (names) {
+    return new this([...names.entries()].map(([n, v]) => [v, n]));
+  }
+  static from (...names) {
+    return this.fromArray(names);
+  }
+  static fromObject (obj) {
+    return new this(Object.entries(obj));
   }
 
-  check (value) {
-    return this.values.indexOf(value) !== -1;
+  check (name) {
+    return name in this.d;
+  }
+
+  value (name) {
+    return (name in this.d ? (Number.isInteger(this.d[name]) ? name : this.d[name]) : null);
   }
 
   str () {
-    return this.values.join(', ');
+    return Object.keys(this.d).join(', ');
   }
 }
 
 const enums = {
-  Size: new Enum('mini', 'tiny', 'small', 'large', 'big',
+  Size: Enum.from('mini', 'tiny', 'small', 'large', 'big',
     'huge', 'massive'),
-  Rotation: new Enum('clockwise', 'counterclockwise'),
-  Color: new Enum('primary', 'secondary', 'red', 'orange', 'yellow',
+  Rotation: Enum.from('clockwise', 'counterclockwise'),
+  Color: Enum.from('primary', 'secondary', 'red', 'orange', 'yellow',
     'olive', 'green', 'teal', 'blue', 'violet', 'purple', 'pink', 'brown',
     'grey', 'black'),
-  CornerIconPosition: new Enum('top left', 'top right', 'bottom left',
+  CornerIconPosition: Enum.from('top left', 'top right', 'bottom left',
     'bottom right'),
-  PointingLabel: new Enum('above', 'below', 'left', 'right'),
-  LeftRight: new Enum('left', 'right'),
-  Attached: new Enum('top', 'bottom', 'top right', 'top left',
+  PointingLabel: Enum.from('above', 'below', 'left', 'right'),
+  LeftRight: Enum.from('left', 'right'),
+  Attached: Enum.from('top', 'bottom', 'top right', 'top left',
     'bottom right', 'bottom left'),
-  AttachedLRTB: new Enum('top', 'bottom', 'right', 'left'),
-  AttachedTB: new Enum('top', 'bottom'),
-  Number: new Enum(// 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,
+  AttachedLRTB: Enum.from('top', 'bottom', 'right', 'left'),
+  AttachedTB: Enum.from('top', 'bottom'),
+  Number: Enum.from(// 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,
     'one', 'two', 'three', 'four', 'five', 'six', 'seven',
     'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen',
     'fourteen', 'fifteen', 'sixteen'),
-  Social: new Enum('facebook', 'twitter', 'google plus', 'vk', 'linkedin',
+  Social: Enum.from('facebook', 'twitter', 'google plus', 'vk', 'linkedin',
     'instagram', 'youtube', 'whatsapp', 'telegram'),
-  Country: new Enum(...([].concat(...country.map(o => {
+  Country: Enum.fromArray([].concat(...country.map(o => {
     return [o[0], o[2]];
-  })))),
+  }))),
+  HeaderLevel: Enum.fromObject({
+    '1': { tag: 'h1', },
+    '2': { tag: 'h2', },
+    '3': { tag: 'h3', },
+    '4': { tag: 'h4', },
+    '5': { tag: 'h5', },
+  }),
 };
 
 export default enums;

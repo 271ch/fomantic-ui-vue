@@ -11,7 +11,7 @@ import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiButton',
-  mixins: [Mixins.PSocial, Mixins.PPrimSecTer],
+  mixins: [Mixins.PSocial, Mixins.PPrimSecTer, Mixins.PSize],
   props: {
     focusable: { // TODO: not clear how to implement focusable, yet
       type: Boolean,
@@ -60,14 +60,6 @@ export default {
     loading: {
       type: Boolean,
       description: 'A button can show a loading indicator.',
-    },
-    size: {
-      type: String,
-      description: 'A button can have different sizes.',
-      validator: (value) => {
-        return !value || Enum.Size.check(value);
-      },
-      default: '',
     },
     floated: {
       description: 'A button can be aligned to the left or right of its container.',
@@ -145,7 +137,7 @@ export default {
         this.disabled && 'disabled',
         this.loading && 'loading',
         ...this.getClassesSocial(),
-        this.size,
+        ...this.getClassesSize(),
         this.floated,
         this.floated && 'floated',
         this.toggle && 'toggle',

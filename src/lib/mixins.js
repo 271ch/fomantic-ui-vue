@@ -121,5 +121,43 @@ mixins.PCountry = {
   },
 };
 
+// headel level
+mixins.PHeaderLevel = {
+  props: {
+    level: {
+      type: String,
+      description: 'Headel level (???)',
+      validator: (value) => {
+        return !value || Enum.HeaderLevel.check(value);
+      },
+      default: '',
+      required: true,
+    },
+  },
+  methods: {
+  },
+};
+
+// size
+mixins.PSize = {
+  props: {
+    size: {
+      type: String,
+      description: `Size of the element (${Enum.Size.str()}).`,
+      validator: (value) => {
+        return !value || Enum.Size.check(value);
+      },
+      default: '',
+    },
+  },
+  methods: {
+    getClassesSize: function () {
+      return [
+        this.size,
+      ];
+    },
+  },
+};
+
 
 export default mixins;
