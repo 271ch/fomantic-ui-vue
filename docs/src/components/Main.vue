@@ -15,15 +15,26 @@
   Facebook
 </fui-button>
 
+<fui-header level=1 attached=bottom>
+  Facebook
+</fui-header>
+
+<ElementButtonActive1 />
+
 </div>
 </template>
 
 
 <script>
+import ElementButtonActive1 from './Examples/elements/button/ElementButtonActive1.vue'
+
 export default {
   name: 'Main',
   props: {
     msg: String
+  },
+  components: {
+    ElementButtonActive1,
   }
 }
 </script>

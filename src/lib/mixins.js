@@ -159,5 +159,38 @@ mixins.PSize = {
   },
 };
 
+// header: ['', 'top', 'bottom'], ''
+// button: ['top', 'bottom', 'left', 'right'], null
+// buttons: ['top', 'bottom'], null
+// label: ['top', 'bottom', 'top right', 'bottom right', 'top left', 'bottom left', ]
+// menu: ['top', 'bottom'], null
+// message: ['', 'bottom'], ''
+// rail: ['left', 'right', 'left internal', 'right internal'], null
+// segment: ['', 'top', 'bottom'], ''
+// steps: ['top', 'bottom'], null
+mixins.getMixinAttached = function (values, def) {
+  const e = Enum.Enum.fromArray(values);
+  return {
+    props: {
+      attached: {
+        type: [Boolean, String],
+        description: `The element is attached to the parent container (${e.str()})`,
+        validator: (value) => {
+          return (!value && def != null) || e.check(value);
+        },
+        default: false,
+      },
+    },
+    methods: {
+      getClassesAttached: function () {
+        return [
+          this.attached === true && def,
+          this.attached !== true && this.attached,
+          this.attached && 'attached',
+        ];
+      },
+    },
+  };
+};
 
 export default mixins;

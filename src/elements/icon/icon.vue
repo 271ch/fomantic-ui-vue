@@ -13,7 +13,7 @@ export default {
   name: 'FuiIcon',
   mixins: [Mixins.PSize],
   props: {
-    iconName: {
+    name: {
       type: String,
       description: 'Icon name (help, home, ...).',
       required: true,
@@ -98,7 +98,7 @@ export default {
         this.inverted && 'inverted',
         this.corner && this.cornerPosition,
         this.corner && 'corner',
-        this.iconName,
+        this.name,
         this.loading && 'loading',
         this.link && 'link',
         'icon'

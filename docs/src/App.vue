@@ -6,6 +6,7 @@
 
 <script>
 import Main from './components/Main.vue'
+import examples from './components/Examples/examples'
 
 export default {
   name: 'app',

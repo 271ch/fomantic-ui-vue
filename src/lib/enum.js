@@ -30,6 +30,7 @@ class Enum {
 }
 
 const enums = {
+  Enum: Enum,
   Size: Enum.from('mini', 'tiny', 'small', 'large', 'big',
     'huge', 'massive'),
   Rotation: Enum.from('clockwise', 'counterclockwise'),
