@@ -1,9 +1,9 @@
 <template>
   <div>
-    <button class="ui active button">
-      <i class="user icon"/>
+    <FuiButton active>
+      <FuiIcon name=user></FuiIcon>
       Follow
-    </button>
+    </FuiButton>
   </div>
 </template>
 
@@ -12,7 +12,7 @@ export default {
   name: 'ElementButtonActive1',
   data: function () {
     return {
-      converted: false,
+      converted: true,
       elementType: 'elements',
       element: 'button',
       title1: 'States',
