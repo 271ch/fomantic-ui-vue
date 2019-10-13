@@ -61,8 +61,7 @@ export default {
       converted: false,
       elementType: 'elements',
       element: 'label',
-      title1: 'Inverted
-    ',
+      title1: 'Inverted',
       title2: 'All Variants of Label can be inverted',
       description: '???',
       model: '    <div class="ui inverted segment">\n' +

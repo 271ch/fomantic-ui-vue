@@ -15,7 +15,7 @@ export default {
       title1: 'Types',
       title2: 'Placeholder',
       description: 'A placeholder is used to reserve space for content that soon will appear in a layout.',
-      model: ,
+      model: '',
     };
   },
 };

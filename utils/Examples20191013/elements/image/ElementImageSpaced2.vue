@@ -15,7 +15,7 @@ export default {
       title1: 'Variations',
       title2: 'Spaced',
       description: 'An image can specify that it needs an additional spacing to separate it from nearby content',
-      model: ,
+      model: '',
     };
   },
 };
