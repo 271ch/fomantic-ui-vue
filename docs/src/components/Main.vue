@@ -10,15 +10,39 @@
     Z
   </fui-button-content>
 </fui-button>
+
+<fui-button social=facebook>
+  Facebook
+</fui-button>
+
+<fui-header level=1 attached=bottom>
+  Facebook
+</fui-header>
+
+<ElementButtonActive1 />
+
+{{ myTest() }}
+
 </div>
 </template>
 
+
 <script>
+import ElementButtonActive1 from './Examples/elements/button/ElementButtonActive1.vue'
+
 export default {
   name: 'Main',
   props: {
     msg: String
-  }
+  },
+  components: {
+    ElementButtonActive1,
+  },
+  methods: {
+    myTest: function () {
+      return ''+ElementButtonActive1.info.converted;
+    }
+  },
 }
 </script>
 

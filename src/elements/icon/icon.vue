@@ -7,11 +7,13 @@
 <script>
 import u from '../../lib/util';
 import Enum from '../../lib/enum';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiIcon',
+  mixins: [Mixins.PSize],
   props: {
-    iconName: {
+    name: {
       type: String,
       description: 'Icon name (help, home, ...).',
       required: true,
@@ -27,14 +29,6 @@ export default {
     fitted: {
       type: Boolean,
       description: 'An icon can be fitted, without any space to the left or right of it.',
-    },
-    size: {
-      type: String,
-      description: 'An icon can vary in size.',
-      validator: (value) => {
-        return !value || Enum.Size.check(value);
-      },
-      default: '',
     },
     link: {
       type: Boolean,
@@ -95,7 +89,7 @@ export default {
       return u.concatClasses(
         this.disabled && 'disabled',
         this.fitted && 'fitted',
-        this.size,
+        ...this.getClassesSize(),
         this.flipped && 'flipped',
         this.rotated && [this.rotated, 'rotated'].join(' '),
         this.circular && 'circular',
@@ -104,7 +98,7 @@ export default {
         this.inverted && 'inverted',
         this.corner && this.cornerPosition,
         this.corner && 'corner',
-        this.iconName,
+        this.name,
         this.loading && 'loading',
         this.link && 'link',
         'icon'
