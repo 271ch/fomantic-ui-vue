@@ -1,7 +1,11 @@
 <template>
   <div>
-<h1>Example button</h1>
 
+<fui-header level=1 attached=bottom>
+  This page will contain some example
+</fui-header>
+<br />
+<br />
 <fui-button animated>
   <fui-button-content>
     A
@@ -10,18 +14,14 @@
     Z
   </fui-button-content>
 </fui-button>
-
+<br />
+<br />
 <fui-button social=facebook>
   Facebook
 </fui-button>
-
-<fui-header level=1 attached=bottom>
-  Facebook
-</fui-header>
-
+<br />
+<br />
 <ElementButtonActive1 />
-
-{{ myTest() }}
 
 </div>
 </template>
@@ -39,9 +39,6 @@ export default {
     ElementButtonActive1,
   },
   methods: {
-    myTest: function () {
-      return ''+ElementButtonActive1.info.converted;
-    }
   },
 }
 </script>

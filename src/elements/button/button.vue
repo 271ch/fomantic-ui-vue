@@ -1,7 +1,11 @@
 <template>
-  <div :class="classes()">
+  <component
+    :is="gTag()"
+    :class="classes()"
+    :tabindex="getTabindex()"
+  >
     <slot />
-  </div>
+  </component>
 </template>
 
 <script>
@@ -11,11 +15,16 @@ import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiButton',
-  mixins: [Mixins.PSocial, Mixins.PPrimSecTer, Mixins.PSize],
+  mixins: [
+    Mixins.PSocial,
+    Mixins.PPrimSecTer,
+    Mixins.PSize,
+    Mixins.getMixinTag(['button'], 'div'),
+  ],
   props: {
-    focusable: { // TODO: not clear how to implement focusable, yet
+    notFocusable: {
       type: Boolean,
-      description: 'The button is keyboard accessible.',
+      description: 'The button is not keyboard accessible (default is focusable).',
     },
     animated: {
       type: Boolean,
@@ -112,6 +121,13 @@ export default {
     },
   },
   methods: {
+    getTabindex: function () {
+      if (this.tag !== 'button' && !this.notFocusable) {
+        return '0';
+      } else {
+        return false;
+      }
+    },
     classes: function () {
       return u.concatClasses(
         this.positive && 'positive',

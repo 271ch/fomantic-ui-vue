@@ -124,17 +124,35 @@ mixins.PCountry = {
 // headel level
 mixins.PHeaderLevel = {
   props: {
+    useDiv: {
+      type: Boolean,
+      description: 'Use div instead of h1, ..., h5',
+    },
     level: {
       type: String,
       description: 'Headel level (???)',
       validator: (value) => {
-        return !value || Enum.HeaderLevel.check(value);
+        return Enum.HeaderLevel.check(value);
       },
       default: '',
       required: true,
     },
   },
   methods: {
+    gTag: function () {
+      if (this.useDiv) {
+        return 'div';
+      } else {
+        return Enum.HeaderLevel.value(this.level).tag;
+      }
+    },
+    getClassesHeaderLevel: function () {
+      if (this.useDiv) {
+        return [Enum.HeaderLevel.value(this.level).tag];
+      } else {
+        return [];
+      }
+    },
   },
 };
 
@@ -188,6 +206,30 @@ mixins.getMixinAttached = function (values, def) {
           this.attached !== true && this.attached,
           this.attached && 'attached',
         ];
+      },
+    },
+  };
+};
+
+// possible tag's
+mixins.getMixinTag = function (values, def) {
+  const e = Enum.Enum.fromArray(values);
+  return {
+    props: {
+      tag: {
+        type: [Boolean, String],
+        description: `Possible alternative tags: ${e.str()}` +
+          (def != null ? ` (default value: '${def}')` : '') + '.',
+        validator: (value) => {
+          return (!value && def != null) || e.check(value);
+        },
+        default: false,
+      },
+    },
+    methods: {
+      gTag: function () {
+        return (this.tag === false && def) ||
+          (this.tag && this.tag != true && this.tag);
       },
     },
   };

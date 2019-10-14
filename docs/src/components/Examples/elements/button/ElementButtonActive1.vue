@@ -1,6 +1,6 @@
 <template>
   <div>
-    <FuiButton active>
+    <FuiButton active tag=button>
       <FuiIcon name=user></FuiIcon>
       Follow
     </FuiButton>

@@ -1,6 +1,6 @@
 <template>
   <component
-    :is="tag()"
+    :is="gTag()"
     :class="classes()"
   >
     <slot />
@@ -9,10 +9,10 @@
 
 <script>
 import u from '../../lib/util';
-import Enum from '../../lib/enum';
+// import Enum from '../../lib/enum';
 import Mixins from '../../lib/mixins';
 
-export default {
+export default {  // TODO: Component FuiHeader
   name: 'FuiHeader',
   mixins: [
     Mixins.PHeaderLevel,
@@ -39,25 +39,6 @@ export default {
       type: Boolean,
       description: 'A header can be formatted to appear inside a content block.',
     },
-    /*
-    prop1: { // TODO: Component FuiHeader
-      type: Boolean,
-      description: '',
-    },
-    prop2: {
-      type: String,
-      description: '',
-      default: '',
-    },
-    prop3: {
-      type: String,
-      description: '',
-      validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
-      },
-      default: '',
-    },
-    */
   },
   events: {
     click: {
@@ -65,12 +46,6 @@ export default {
     },
   },
   methods: {
-    tag: function () {
-      if (this.level !== '')
-        return Enum.HeaderLevel.value(this.level).tag;
-      else
-        return 'div';
-    },
     classes: function () {
       return u.concatClasses(
         'ui',
@@ -80,6 +55,7 @@ export default {
         this.dividing && 'dividing',
         this.block && 'block',
         ...this.getClassesAttached(),
+        ...this.getClassesHeaderLevel(),
         'header'
       );
     },

@@ -2,4 +2,4 @@
 
 require('jsdom-global')()
 
-global.expect = require('expect')
+global.chai = require('chai')
