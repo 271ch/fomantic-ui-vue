@@ -12,12 +12,16 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  resolve: {
+    extensions: ['.js', '.vue']
+  },
   module: {
     rules: [
       {
         test: /\.vue$/,
         exclude: /node_modules/,
         loader: 'vue-loader',
+        options: { prettify: false },
       },
       {
         test: /\.js$/,
