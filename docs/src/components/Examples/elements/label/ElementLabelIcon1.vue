@@ -22,15 +22,14 @@
 <script>
 export default {
   name: 'ElementLabelIcon1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Content',
-      title2: 'Icon',
-      description: 'A label can include an icon',
-      model: '    <div class="ui label">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Content',
+    title2: 'Icon',
+    description: 'A label can include an icon',
+    model: '    <div class="ui label">\n' +
       '      <i class="mail icon"/>\n' +
       '      Mail\n' +
       '    </div>\n' +
@@ -46,7 +45,6 @@ export default {
       '      <i class="cat icon"/>\n' +
       '      Cat\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

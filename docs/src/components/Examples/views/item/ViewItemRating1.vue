@@ -33,15 +33,14 @@
 <script>
 export default {
   name: 'ViewItemRating1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'item',
-      title1: 'Content',
-      title2: 'Rating',
-      description: 'An item can contain icons signifying a \'like\' or \'favorite\' action',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'item',
+    title1: 'Content',
+    title2: 'Rating',
+    description: 'An item can contain icons signifying a \'like\' or \'favorite\' action',
+    model: '    <div class="ui ignored info message">\n' +
       '      You can use the <a href="/modules/rating.html">rating</a> component to attach events to like and favorite icons\n' +
       '    </div>\n' +
       '    <div class="ui items">\n' +
@@ -68,7 +67,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

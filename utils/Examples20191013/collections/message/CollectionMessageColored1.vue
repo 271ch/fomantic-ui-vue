@@ -18,15 +18,14 @@
 <script>
 export default {
   name: 'CollectionMessageColored1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'message',
-      title1: 'Variations',
-      title2: 'Colored',
-      description: 'A message can be formatted to be different colors',
-      model: '    <div class="ui red message">Red</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'message',
+    title1: 'Variations',
+    title2: 'Colored',
+    description: 'A message can be formatted to be different colors',
+    model: '    <div class="ui red message">Red</div>\n' +
       '    <div class="ui orange message">Orange</div>\n' +
       '    <div class="ui yellow message">Yellow</div>\n' +
       '    <div class="ui olive message">Olive</div>\n' +
@@ -38,7 +37,6 @@ export default {
       '    <div class="ui pink message">Pink</div>\n' +
       '    <div class="ui brown message">Brown</div>\n' +
       '    <div class="ui black message">Black</div>\n',
-    };
   },
 };
 </script>

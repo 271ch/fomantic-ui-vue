@@ -14,15 +14,14 @@
 <script>
 export default {
   name: 'CollectionMenuMenu1A',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Content',
-      title2: 'Menu',
-      description: 'A menu may contain another menu group in the same level as menu items.',
-      model: '    <div class="ui menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Content',
+    title2: 'Menu',
+    description: 'A menu may contain another menu group in the same level as menu items.',
+    model: '    <div class="ui menu">\n' +
       '      <a class="item">Browse</a>\n' +
       '      <a class="item">Submit</a>\n' +
       '      <div class="right menu">\n' +
@@ -30,7 +29,6 @@ export default {
       '        <a class="item">Help</a>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

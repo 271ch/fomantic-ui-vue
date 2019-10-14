@@ -23,15 +23,14 @@
 <script>
 export default {
   name: 'ViewCardTextAlignment1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Variations',
-      title2: 'Text Alignment',
-      description: 'Any element inside a card can have its text alignment specified',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Variations',
+    title2: 'Text Alignment',
+    description: 'Any element inside a card can have its text alignment specified',
+    model: '    <div class="ui ignored info message">\n' +
       '      <i class="info icon"/>\n' +
       '      You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
       '    </div>\n' +
@@ -48,7 +47,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

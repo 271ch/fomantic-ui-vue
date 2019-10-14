@@ -28,15 +28,14 @@
 <script>
 export default {
   name: 'ViewCommentActions1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'comment',
-      title1: 'Content',
-      title2: 'Actions',
-      description: 'A comment can contain an list of actions a user may perform related to this comment.',
-      model: '    <div class="ui comments">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'comment',
+    title1: 'Content',
+    title2: 'Actions',
+    description: 'A comment can contain an list of actions a user may perform related to this comment.',
+    model: '    <div class="ui comments">\n' +
       '      <div class="comment">\n' +
       '        <a class="avatar">\n' +
       '          <img src="/images/avatar/small/joe.jpg"/>\n' +
@@ -58,7 +57,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

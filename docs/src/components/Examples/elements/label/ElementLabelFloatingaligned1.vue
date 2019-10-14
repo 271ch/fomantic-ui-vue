@@ -16,15 +16,14 @@
 <script>
 export default {
   name: 'ElementLabelFloatingaligned1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Types',
-      title2: 'Floating aligned',
-      description: 'Floating Labels containing large text can be aligned to the left or right',
-      model: '    <div class="ui compact menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Types',
+    title2: 'Floating aligned',
+    description: 'Floating Labels containing large text can be aligned to the left or right',
+    model: '    <div class="ui compact menu">\n' +
       '      <a class="item">\n' +
       '        <i class="icon mail"/> Messages from Fomantic-UI-Users\n' +
       '        <div class="left aligned floating ui red label">22 Mails unread</div>\n' +
@@ -34,7 +33,6 @@ export default {
       '        <div class="right aligned floating ui teal label">22 Friends online</div>\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

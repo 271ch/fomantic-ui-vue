@@ -32,15 +32,14 @@
 <script>
 export default {
   name: 'CollectionTableBasic2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Basic',
-      description: 'A table can reduce its complexity to increase readability.',
-      model: '    <table class="ui very basic table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Basic',
+    description: 'A table can reduce its complexity to increase readability.',
+    model: '    <table class="ui very basic table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th>Name</th>\n' +
@@ -66,7 +65,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

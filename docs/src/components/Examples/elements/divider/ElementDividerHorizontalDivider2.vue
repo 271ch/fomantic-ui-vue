@@ -30,15 +30,14 @@
 <script>
 export default {
   name: 'ElementDividerHorizontalDivider2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'divider',
-      title1: 'Types',
-      title2: 'Horizontal Divider',
-      description: 'A divider can segment content horizontally',
-      model: '    <h4 class="ui horizontal divider header">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'divider',
+    title1: 'Types',
+    title2: 'Horizontal Divider',
+    description: 'A divider can segment content horizontally',
+    model: '    <h4 class="ui horizontal divider header">\n' +
       '      <i class="bar chart icon"/>\n' +
       '      Specifications\n' +
       '    </h4>\n' +
@@ -62,7 +61,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

@@ -23,15 +23,14 @@
 <script>
 export default {
   name: 'ViewItemImage1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'item',
-      title1: 'Content',
-      title2: 'Image',
-      description: 'An item can contain an image',
-      model: '    <div class="ui divided items">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'item',
+    title1: 'Content',
+    title2: 'Image',
+    description: 'An item can contain an image',
+    model: '    <div class="ui divided items">\n' +
       '      <div class="item">\n' +
       '        <div class="image">\n' +
       '          <img src="/images/wireframe/image.png"/>\n' +
@@ -48,7 +47,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -42,15 +42,14 @@
 <script>
 export default {
   name: 'ElementButtonSocial1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Variations',
-      title2: 'Social',
-      description: 'A button can be formatted to link to a social website',
-      model: '    <button class="ui facebook button">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Variations',
+    title2: 'Social',
+    description: 'A button can be formatted to link to a social website',
+    model: '    <button class="ui facebook button">\n' +
       '      <i class="facebook icon"/>\n' +
       '      Facebook\n' +
       '    </button>\n' +
@@ -86,7 +85,6 @@ export default {
       '      <i class="telegram icon"/>\n' +
       '      Telegram\n' +
       '    </button>\n',
-    };
   },
 };
 </script>

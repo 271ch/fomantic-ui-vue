@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'ElementButtonMixedGroup1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Group Variations',
-      title2: 'Mixed Group',
-      description: 'Groups can be formatted to use multiple button types together',
-      model: '    <div class="ui buttons">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Group Variations',
+    title2: 'Mixed Group',
+    description: 'Groups can be formatted to use multiple button types together',
+    model: '    <div class="ui buttons">\n' +
       '      <button class="ui labeled icon button">\n' +
       '        <i class="left chevron icon"/>\n' +
       '        Back\n' +
@@ -42,7 +41,6 @@ export default {
       '        <i class="right chevron icon"/>\n' +
       '      </button>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

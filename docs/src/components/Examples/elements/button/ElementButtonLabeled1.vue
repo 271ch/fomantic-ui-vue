@@ -30,15 +30,14 @@
 <script>
 export default {
   name: 'ElementButtonLabeled1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Types',
-      title2: 'Labeled',
-      description: 'A button can appear alongside a',
-      model: '    <div class="ui labeled button" tabindex="0">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Types',
+    title2: 'Labeled',
+    description: 'A button can appear alongside a',
+    model: '    <div class="ui labeled button" tabindex="0">\n' +
       '      <div class="ui button">\n' +
       '        <i class="heart icon"/> Like\n' +
       '      </div>\n' +
@@ -62,7 +61,6 @@ export default {
       '        <i class="fork icon"/>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

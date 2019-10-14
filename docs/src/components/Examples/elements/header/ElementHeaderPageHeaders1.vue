@@ -17,15 +17,14 @@
 <script>
 export default {
   name: 'ElementHeaderPageHeaders1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'header',
-      title1: 'Types',
-      title2: 'Page Headers',
-      description: 'Headers may be oriented to give the hierarchy of a section in the context of the page',
-      model: '    <div class="ignored info ui message">Page headings are sized using <a href="https://j.eremy.net/confused-about-rem-and-em/" target="_blank"><code>rem</code></a> and are not affected by surrounding content size.</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'header',
+    title1: 'Types',
+    title2: 'Page Headers',
+    description: 'Headers may be oriented to give the hierarchy of a section in the context of the page',
+    model: '    <div class="ignored info ui message">Page headings are sized using <a href="https://j.eremy.net/confused-about-rem-and-em/" target="_blank"><code>rem</code></a> and are not affected by surrounding content size.</div>\n' +
       '    <h1 class="ui header">First header</h1>\n' +
       '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
       '    <h2 class="ui header">Second header</h2>\n' +
@@ -36,7 +35,6 @@ export default {
       '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
       '    <h5 class="ui header">Fifth header</h5>\n' +
       '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n',
-    };
   },
 };
 </script>

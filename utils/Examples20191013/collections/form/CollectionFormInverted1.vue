@@ -27,15 +27,14 @@
 <script>
 export default {
   name: 'CollectionFormInverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Form Variations',
-      title2: 'Inverted',
-      description: 'A form on a dark background may have to invert its color scheme',
-      model: '    <div class="ui inverted segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Form Variations',
+    title2: 'Inverted',
+    description: 'A form on a dark background may have to invert its color scheme',
+    model: '    <div class="ui inverted segment">\n' +
       '      <div class="ui inverted form">\n' +
       '        <div class="two fields">\n' +
       '          <div class="field">\n' +
@@ -56,7 +55,6 @@ export default {
       '        <div class="ui submit button">Submit</div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

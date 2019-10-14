@@ -32,15 +32,14 @@
 <script>
 export default {
   name: 'ViewItemRelaxed1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'item',
-      title1: 'Variations',
-      title2: 'Relaxed',
-      description: 'A group of items can relax its padding to provide more negative space',
-      model: '    <div class="ui relaxed items">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'item',
+    title1: 'Variations',
+    title2: 'Relaxed',
+    description: 'A group of items can relax its padding to provide more negative space',
+    model: '    <div class="ui relaxed items">\n' +
       '      <div class="item">\n' +
       '        <div class="ui tiny image">\n' +
       '          <img src="/images/wireframe/image.png"/>\n' +
@@ -66,7 +65,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

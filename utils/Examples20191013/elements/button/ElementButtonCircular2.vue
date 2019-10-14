@@ -18,15 +18,14 @@
 <script>
 export default {
   name: 'ElementButtonCircular2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Variations',
-      title2: 'Circular',
-      description: 'A button can be circular',
-      model: '    <button class="ui circular facebook icon button">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Variations',
+    title2: 'Circular',
+    description: 'A button can be circular',
+    model: '    <button class="ui circular facebook icon button">\n' +
       '      <i class="facebook icon"/>\n' +
       '    </button>\n' +
       '    <button class="ui circular twitter icon button">\n' +
@@ -38,7 +37,6 @@ export default {
       '    <button class="ui circular google plus icon button">\n' +
       '      <i class="google plus icon"/>\n' +
       '    </button>\n',
-    };
   },
 };
 </script>

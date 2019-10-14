@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'ViewCardMetadata1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Content',
-      title2: 'Metadata',
-      description: 'A card can contain content metadata',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Content',
+    title2: 'Metadata',
+    description: 'A card can contain content metadata',
+    model: '    <div class="ui ignored info message">\n' +
       '      <i class="info icon"/>\n' +
       '      You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
       '    </div>\n' +
@@ -42,7 +41,6 @@ export default {
       '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

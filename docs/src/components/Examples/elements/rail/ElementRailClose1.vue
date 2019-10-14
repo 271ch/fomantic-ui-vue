@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'ElementRailClose1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'rail',
-      title1: 'Variations',
-      title2: 'Close',
-      description: 'A rail can appear closer to the main viewport',
-      model: '    <div class="ui segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'rail',
+    title1: 'Variations',
+    title2: 'Close',
+    description: 'A rail can appear closer to the main viewport',
+    model: '    <div class="ui segment">\n' +
       '      <div class="ui left close rail">\n' +
       '        <div class="ui segment">\n' +
       '          Left Rail Content\n' +
@@ -42,7 +41,6 @@ export default {
       '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
       '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -42,15 +42,14 @@
 <script>
 export default {
   name: 'ElementInputTextarea1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'input',
-      title1: 'Variations',
-      title2: 'Textarea',
-      description: 'Using the input class you can also use some features on',
-      model: '    <div class="ui form">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'input',
+    title1: 'Variations',
+    title2: 'Textarea',
+    description: 'Using the input class you can also use some features on',
+    model: '    <div class="ui form">\n' +
       '        <div class="ui left corner labeled input">\n' +
       '            <div class="ui left corner label">\n' +
       '                <i class="asterisk icon"/>\n' +
@@ -86,7 +85,6 @@ export default {
       '            <i class="search icon"/>\n' +
       '        </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

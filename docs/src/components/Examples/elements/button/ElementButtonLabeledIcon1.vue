@@ -14,15 +14,14 @@
 <script>
 export default {
   name: 'ElementButtonLabeledIcon1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Types',
-      title2: 'Labeled Icon',
-      description: 'A button can use an icon as a label',
-      model: '    <button class="ui labeled icon button">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Types',
+    title2: 'Labeled Icon',
+    description: 'A button can use an icon as a label',
+    model: '    <button class="ui labeled icon button">\n' +
       '      <i class="pause icon"/>\n' +
       '      Pause\n' +
       '    </button>\n' +
@@ -30,7 +29,6 @@ export default {
       '      <i class="right arrow icon"/>\n' +
       '      Next\n' +
       '    </button>\n',
-    };
   },
 };
 </script>

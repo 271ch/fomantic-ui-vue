@@ -25,15 +25,14 @@
 <script>
 export default {
   name: 'CollectionTableDefinition1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Types',
-      title2: 'Definition',
-      description: 'A table may be formatted to emphasize a first column that defines a rows content',
-      model: '    <div class="ui ignored info message">Definition tables are designed to display on a single background color. You can adjust this by changing <code>@definitionPageBackground</code>, or specifying a background color on the first cell</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Types',
+    title2: 'Definition',
+    description: 'A table may be formatted to emphasize a first column that defines a rows content',
+    model: '    <div class="ui ignored info message">Definition tables are designed to display on a single background color. You can adjust this by changing <code>@definitionPageBackground</code>, or specifying a background color on the first cell</div>\n' +
       '    <table class="ui definition table">\n' +
       '      <thead>\n' +
       '        <th/>\n' +
@@ -52,7 +51,6 @@ export default {
       '          <td>Sets the current star rating to specified value</td>\n' +
       '        </tr>\n' +
       '    </tbody></table>\n',
-    };
   },
 };
 </script>

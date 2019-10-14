@@ -15,15 +15,14 @@
 <script>
 export default {
   name: 'ElementStepActive1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'step',
-      title1: 'States',
-      title2: 'Active',
-      description: 'A step can be highlighted as active',
-      model: '    <div class="ui steps">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'step',
+    title1: 'States',
+    title2: 'Active',
+    description: 'A step can be highlighted as active',
+    model: '    <div class="ui steps">\n' +
       '      <div class="active step">\n' +
       '        <i class="payment icon"/>\n' +
       '        <div class="content">\n' +
@@ -32,7 +31,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

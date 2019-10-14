@@ -29,15 +29,14 @@
 <script>
 export default {
   name: 'ViewCardCard1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Types',
-      title2: 'Card',
-      description: 'A single card.',
-      model: '    <div class="ui ignored warning message">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Types',
+    title2: 'Card',
+    description: 'A single card.',
+    model: '    <div class="ui ignored warning message">\n' +
       '      To ensure cards are equal height use the plural, <a href="#cards"><code>cards</code></a>. Card groups automatically uses <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes" target="_blank">flex</a> styles to match height between cards in the same row.\n' +
       '    </div>\n' +
       '    <div class="ui card">\n' +
@@ -60,7 +59,6 @@ export default {
       '        </a>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

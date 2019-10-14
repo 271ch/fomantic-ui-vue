@@ -51,15 +51,14 @@
 <script>
 export default {
   name: 'ViewCommentReplyForm2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'comment',
-      title1: 'Content',
-      title2: 'Reply Form',
-      description: 'A comment can contain a form to reply to a comment. This may have arbitrary content.',
-      model: '    <div class="ui comments">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'comment',
+    title1: 'Content',
+    title2: 'Reply Form',
+    description: 'A comment can contain a form to reply to a comment. This may have arbitrary content.',
+    model: '    <div class="ui comments">\n' +
       '      <div class="comment">\n' +
       '        <a class="avatar">\n' +
       '          <img src="/images/avatar/small/joe.jpg"/>\n' +
@@ -104,7 +103,6 @@ export default {
       '        </div>\n' +
       '      </form>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

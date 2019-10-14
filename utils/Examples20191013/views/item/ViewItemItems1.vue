@@ -49,15 +49,14 @@
 <script>
 export default {
   name: 'ViewItemItems1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'item',
-      title1: 'Types',
-      title2: 'Items',
-      description: 'A group of items.',
-      model: '    <div class="ui ignored positive icon message">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'item',
+    title1: 'Types',
+    title2: 'Items',
+    description: 'A group of items.',
+    model: '    <div class="ui ignored positive icon message">\n' +
       '      <i class="mobile icon"/>\n' +
       '      <div class="content">\n' +
       '        <h3 class="header">Responsive Element</h3>\n' +
@@ -100,7 +99,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

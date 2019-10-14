@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ElementSegmentColored2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'segment',
-      title1: 'Variations',
-      title2: 'Colored',
-      description: 'A segment can be colored',
-      model: '    <div class="ui red inverted segment">Red</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'segment',
+    title1: 'Variations',
+    title2: 'Colored',
+    description: 'A segment can be colored',
+    model: '    <div class="ui red inverted segment">Red</div>\n' +
       '    <div class="ui orange inverted segment">Orange</div>\n' +
       '    <div class="ui yellow inverted segment">Yellow</div>\n' +
       '    <div class="ui olive inverted segment">Olive</div>\n' +
@@ -40,7 +39,6 @@ export default {
       '    <div class="ui brown inverted segment">Brown</div>\n' +
       '    <div class="ui grey inverted segment">Grey</div>\n' +
       '    <div class="ui black inverted segment">Black</div>\n',
-    };
   },
 };
 </script>

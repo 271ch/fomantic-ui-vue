@@ -79,15 +79,14 @@
 <script>
 export default {
   name: 'ViewCardInverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'Card\'s colors can be inverted',
-      model: '    <div class="ui inverted segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'Card\'s colors can be inverted',
+    model: '    <div class="ui inverted segment">\n' +
       '      <div class="ui inverted cards">\n' +
       '        <div class="card">\n' +
       '          <div class="image">\n' +
@@ -160,7 +159,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

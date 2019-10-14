@@ -28,15 +28,14 @@
 <script>
 export default {
   name: 'ElementListInverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'A list can be inverted to appear on a dark background',
-      model: '    <div class="ui inverted segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'A list can be inverted to appear on a dark background',
+    model: '    <div class="ui inverted segment">\n' +
       '      <div class="ui inverted relaxed divided list">\n' +
       '        <div class="item">\n' +
       '          <div class="content">\n' +
@@ -58,7 +57,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

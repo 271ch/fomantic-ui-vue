@@ -44,15 +44,14 @@
 <script>
 export default {
   name: 'ElementListFloated1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Content Variations',
-      title2: 'Floated',
-      description: 'An list, or an element inside a list can be floated left or right',
-      model: '    <div class="ui middle aligned divided list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Content Variations',
+    title2: 'Floated',
+    description: 'An list, or an element inside a list can be floated left or right',
+    model: '    <div class="ui middle aligned divided list">\n' +
       '      <div class="item">\n' +
       '        <div class="right floated content">\n' +
       '          <div class="ui button">Add</div>\n' +
@@ -90,7 +89,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

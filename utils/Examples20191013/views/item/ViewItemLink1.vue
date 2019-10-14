@@ -45,15 +45,14 @@
 <script>
 export default {
   name: 'ViewItemLink1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'item',
-      title1: 'Content',
-      title2: 'Link',
-      description: 'An item can contain links as images, headers, or inside content',
-      model: '    <div class="ui yellow message">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'item',
+    title1: 'Content',
+    title2: 'Link',
+    description: 'An item can contain links as images, headers, or inside content',
+    model: '    <div class="ui yellow message">\n' +
       '      <i class="star icon"/>\n' +
       '      To make the entire content of an item link, check out the link variation below\n' +
       '    </div>\n' +
@@ -92,7 +91,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

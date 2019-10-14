@@ -27,15 +27,14 @@
 <script>
 export default {
   name: 'CollectionMenuSize1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Variations',
-      title2: 'Size',
-      description: 'A menu can vary in size',
-      model: '    <div class="ui mini menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Variations',
+    title2: 'Size',
+    description: 'A menu can vary in size',
+    model: '    <div class="ui mini menu">\n' +
       '      <a class="active item">\n' +
       '        Home\n' +
       '      </a>\n' +
@@ -56,7 +55,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

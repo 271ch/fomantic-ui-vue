@@ -30,15 +30,14 @@
 <script>
 export default {
   name: 'ElementButtonSize1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Variations',
-      title2: 'Size',
-      description: 'A button can have different sizes',
-      model: '    <button class="mini ui button">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Variations',
+    title2: 'Size',
+    description: 'A button can have different sizes',
+    model: '    <button class="mini ui button">\n' +
       '      Mini\n' +
       '    </button>\n' +
       '    <button class="tiny ui button">\n' +
@@ -62,7 +61,6 @@ export default {
       '    <button class="massive ui button">\n' +
       '      Massive\n' +
       '    </button>\n',
-    };
   },
 };
 </script>

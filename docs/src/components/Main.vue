@@ -21,6 +21,8 @@
 
 <ElementButtonActive1 />
 
+{{ myTest() }}
+
 </div>
 </template>
 
@@ -35,7 +37,12 @@ export default {
   },
   components: {
     ElementButtonActive1,
-  }
+  },
+  methods: {
+    myTest: function () {
+      return ''+ElementButtonActive1.info.converted;
+    }
+  },
 }
 </script>
 

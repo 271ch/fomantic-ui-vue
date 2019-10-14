@@ -15,15 +15,14 @@
 <script>
 export default {
   name: 'CollectionFormHTMLSelect1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Content',
-      title2: 'HTML Select',
-      description: 'If Javascript or',
-      model: '    <div class="ui form">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Content',
+    title2: 'HTML Select',
+    description: 'If Javascript or',
+    model: '    <div class="ui form">\n' +
       '      <div class="field">\n' +
       '        <select>\n' +
       '          <option value="">Gender</option>\n' +
@@ -32,7 +31,6 @@ export default {
       '        </select>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -36,15 +36,14 @@
 <script>
 export default {
   name: 'ElementListDescription1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Content',
-      title2: 'Description',
-      description: 'A list item can contain a description',
-      model: '    <div class="ui list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Content',
+    title2: 'Description',
+    description: 'A list item can contain a description',
+    model: '    <div class="ui list">\n' +
       '      <div class="item">\n' +
       '        <i class="map marker icon"/>\n' +
       '        <div class="content">\n' +
@@ -74,7 +73,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

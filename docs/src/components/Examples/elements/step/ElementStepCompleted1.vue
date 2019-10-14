@@ -15,15 +15,14 @@
 <script>
 export default {
   name: 'ElementStepCompleted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'step',
-      title1: 'States',
-      title2: 'Completed',
-      description: 'A step can show that a user has completed it',
-      model: '    <div class="ui steps">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'step',
+    title1: 'States',
+    title2: 'Completed',
+    description: 'A step can show that a user has completed it',
+    model: '    <div class="ui steps">\n' +
       '      <div class="completed step">\n' +
       '        <i class="payment icon"/>\n' +
       '        <div class="content">\n' +
@@ -32,7 +31,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

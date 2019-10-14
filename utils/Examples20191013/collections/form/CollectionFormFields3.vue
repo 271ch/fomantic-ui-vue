@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'CollectionFormFields3',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Content',
-      title2: 'Fields',
-      description: 'A set of fields can appear grouped together',
-      model: '    <div class="ui form">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Content',
+    title2: 'Fields',
+    description: 'A set of fields can appear grouped together',
+    model: '    <div class="ui form">\n' +
       '      <div class="inline fields">\n' +
       '        <div class="eight wide field">\n' +
       '          <label>Name</label>\n' +
@@ -42,7 +41,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

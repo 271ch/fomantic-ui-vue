@@ -38,15 +38,14 @@
 <script>
 export default {
   name: 'ViewCardFluidCard1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Variations',
-      title2: 'Fluid Card',
-      description: 'A fluid card takes up the width of its container',
-      model: '    <div class="ui three column grid">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Variations',
+    title2: 'Fluid Card',
+    description: 'A fluid card takes up the width of its container',
+    model: '    <div class="ui three column grid">\n' +
       '      <div class="column">\n' +
       '        <div class="ui fluid card">\n' +
       '          <div class="image">\n' +
@@ -78,7 +77,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

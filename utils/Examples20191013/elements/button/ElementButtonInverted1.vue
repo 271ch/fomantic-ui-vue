@@ -24,15 +24,14 @@
 <script>
 export default {
   name: 'ElementButtonInverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Types',
-      title2: 'Inverted',
-      description: 'A button can be formatted to appear on dark backgrounds',
-      model: '    <div class="ui inverted segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Types',
+    title2: 'Inverted',
+    description: 'A button can be formatted to appear on dark backgrounds',
+    model: '    <div class="ui inverted segment">\n' +
       '      <button class="ui inverted button">Standard</button>\n' +
       '      <button class="ui inverted primary button">Primary</button>\n' +
       '      <button class="ui inverted secondary button">Secondary</button>\n' +
@@ -50,7 +49,6 @@ export default {
       '      <button class="ui inverted grey button">Grey</button>\n' +
       '      <button class="ui inverted black button">Black</button>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

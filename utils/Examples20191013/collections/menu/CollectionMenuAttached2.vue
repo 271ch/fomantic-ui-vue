@@ -25,15 +25,14 @@
 <script>
 export default {
   name: 'CollectionMenuAttached2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Variations',
-      title2: 'Attached',
-      description: 'A menu may be attached to other content segments',
-      model: '    <div class="ui top attached menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Variations',
+    title2: 'Attached',
+    description: 'A menu may be attached to other content segments',
+    model: '    <div class="ui top attached menu">\n' +
       '      <a class="active item">\n' +
       '        Section 1\n' +
       '      </a>\n' +
@@ -52,7 +51,6 @@ export default {
       '        Section 2\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

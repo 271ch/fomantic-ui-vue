@@ -22,15 +22,14 @@
 <script>
 export default {
   name: 'ViewCardLinkCard2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Variations',
-      title2: 'Link Card',
-      description: 'A card can be formatted so that the entire contents link to another page',
-      model: '    <div class="ui link card">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Variations',
+    title2: 'Link Card',
+    description: 'A card can be formatted so that the entire contents link to another page',
+    model: '    <div class="ui link card">\n' +
       '      <div class="content">\n' +
       '        <div class="header">Cute Dog</div>\n' +
       '        <div class="meta">\n' +
@@ -46,7 +45,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

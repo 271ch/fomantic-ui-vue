@@ -68,15 +68,14 @@
 <script>
 export default {
   name: 'CollectionTableFullWidthHeaderFooter1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Full-Width Header / Footer',
-      description: 'A definition table can have a full width header or footer, filling in the gap left by the first column',
-      model: '    <table class="ui compact celled definition table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Full-Width Header / Footer',
+    description: 'A definition table can have a full width header or footer, filling in the gap left by the first column',
+    model: '    <table class="ui compact celled definition table">\n' +
       '      <thead class="full-width">\n' +
       '        <tr>\n' +
       '          <th/>\n' +
@@ -138,7 +137,6 @@ export default {
       '        </tr>\n' +
       '      </tfoot>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

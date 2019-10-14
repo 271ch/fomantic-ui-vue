@@ -93,15 +93,14 @@
 <script>
 export default {
   name: 'ViewCommentComments1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'comment',
-      title1: 'Types',
-      title2: 'Comments',
-      description: 'A basic list of comments',
-      model: '    <div class="ui ignored info attached message">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'comment',
+    title1: 'Types',
+    title2: 'Comments',
+    description: 'A basic list of comments',
+    model: '    <div class="ui ignored info attached message">\n' +
       '      <p>These examples uses <a href="/elements/segment.html">ui segment</a> to create content segments. This is not required.</p>\n' +
       '    </div>\n' +
       '    <div class="ui ignored bottom attached warning message">\n' +
@@ -188,7 +187,6 @@ export default {
       '        </div>\n' +
       '      </form>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

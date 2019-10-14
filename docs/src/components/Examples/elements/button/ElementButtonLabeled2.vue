@@ -22,15 +22,14 @@
 <script>
 export default {
   name: 'ElementButtonLabeled2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Types',
-      title2: 'Labeled',
-      description: 'A button can appear alongside a',
-      model: '    <div class="ui labeled button" tabindex="0">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Types',
+    title2: 'Labeled',
+    description: 'A button can appear alongside a',
+    model: '    <div class="ui labeled button" tabindex="0">\n' +
       '      <div class="ui red button">\n' +
       '        <i class="heart icon"/> Like\n' +
       '      </div>\n' +
@@ -46,7 +45,6 @@ export default {
       '        1,048\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

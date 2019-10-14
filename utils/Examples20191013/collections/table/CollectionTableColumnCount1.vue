@@ -45,15 +45,14 @@
 <script>
 export default {
   name: 'CollectionTableColumnCount1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Column Count',
-      description: 'A table can specify its column count to divide its content evenly',
-      model: '    <table class="ui five column table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Column Count',
+    description: 'A table can specify its column count to divide its content evenly',
+    model: '    <table class="ui five column table">\n' +
       '      <thead>\n' +
       '        <th>Name</th>\n' +
       '        <th>Status</th>\n' +
@@ -92,7 +91,6 @@ export default {
       '        <th/>\n' +
       '      </tfoot>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

@@ -24,15 +24,14 @@
 <script>
 export default {
   name: 'ElementLabelBasicGroup1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Groups',
-      title2: 'Basic Group',
-      description: 'Labels can share their style together',
-      model: '    <div class="ui basic labels">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Groups',
+    title2: 'Basic Group',
+    description: 'Labels can share their style together',
+    model: '    <div class="ui basic labels">\n' +
       '        <a class="ui label">\n' +
       '            Fun <i class="icon close"/>\n' +
       '        </a>\n' +
@@ -50,7 +49,6 @@ export default {
       '            Exciting\n' +
       '        </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

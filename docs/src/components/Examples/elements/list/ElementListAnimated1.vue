@@ -29,15 +29,14 @@
 <script>
 export default {
   name: 'ElementListAnimated1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Variations',
-      title2: 'Animated',
-      description: 'A list can animate to set the current item apart from the list',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Variations',
+    title2: 'Animated',
+    description: 'A list can animate to set the current item apart from the list',
+    model: '    <div class="ui ignored info message">\n' +
       '      Be sure content can fit on one line when using the animated variation, otherwise text content will reflow when hovered.\n' +
       '    </div>\n' +
       '    <div class="ui middle aligned animated list">\n' +
@@ -60,7 +59,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

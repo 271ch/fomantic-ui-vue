@@ -27,15 +27,14 @@
 <script>
 export default {
   name: 'CollectionMessageSize1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'message',
-      title1: 'Variations',
-      title2: 'Size',
-      description: 'A message can have different sizes',
-      model: '    <div class="ui mini message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'message',
+    title1: 'Variations',
+    title2: 'Size',
+    description: 'A message can have different sizes',
+    model: '    <div class="ui mini message">\n' +
       '      This is a mini message.\n' +
       '    </div>\n' +
       '    <div class="ui tiny message">\n' +
@@ -56,7 +55,6 @@ export default {
       '    <div class="ui massive message">\n' +
       '      This is massive\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -67,15 +67,14 @@
 <script>
 export default {
   name: 'CollectionFormRadioCheckbox1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Content',
-      title2: 'Radio Checkbox',
-      description: 'A form can include a',
-      model: '    <div class="evaluated code" data-type="javascript" data-label="true">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Content',
+    title2: 'Radio Checkbox',
+    description: 'A form can include a',
+    model: '    <div class="evaluated code" data-type="javascript" data-label="true">\n' +
       '    $(\'.ui.radio.checkbox\')\n' +
       '      .checkbox()\n' +
       '    ;\n' +
@@ -136,7 +135,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

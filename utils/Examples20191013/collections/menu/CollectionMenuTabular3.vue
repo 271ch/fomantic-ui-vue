@@ -25,15 +25,14 @@
 <script>
 export default {
   name: 'CollectionMenuTabular3',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Types',
-      title2: 'Tabular',
-      description: 'A menu can be formatted to show tabs of information',
-      model: '    <div class="ui top attached segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Types',
+    title2: 'Tabular',
+    description: 'A menu can be formatted to show tabs of information',
+    model: '    <div class="ui top attached segment">\n' +
       '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
       '    </div>\n' +
       '    <div class="ui bottom attached tabular menu">\n' +
@@ -52,7 +51,6 @@ export default {
       '        </a>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

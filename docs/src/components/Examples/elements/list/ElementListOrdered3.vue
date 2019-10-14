@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ElementListOrdered3',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Types',
-      title2: 'Ordered',
-      description: 'A list can be ordered numerically',
-      model: '    <div class="ui ignored info message">An ordered list has a suffixed variation in which a dot <code>.</code> follows number.</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Types',
+    title2: 'Ordered',
+    description: 'A list can be ordered numerically',
+    model: '    <div class="ui ignored info message">An ordered list has a suffixed variation in which a dot <code>.</code> follows number.</div>\n' +
       '    <ol class="ui suffixed list">\n' +
       '      <li>Signing Up</li>\n' +
       '      <li>User Benefits</li>\n' +
@@ -40,7 +39,6 @@ export default {
       '      </li>\n' +
       '      <li>Deleting Your Account</li>\n' +
       '    </ol>\n',
-    };
   },
 };
 </script>

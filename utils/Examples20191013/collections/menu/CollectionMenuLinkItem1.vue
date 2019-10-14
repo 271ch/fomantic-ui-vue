@@ -14,15 +14,14 @@
 <script>
 export default {
   name: 'CollectionMenuLinkItem1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Content',
-      title2: 'Link Item',
-      description: 'A menu may contain a link item, or an item formatted as if it is a link.',
-      model: '    <div class="ui vertical menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Content',
+    title2: 'Link Item',
+    description: 'A menu may contain a link item, or an item formatted as if it is a link.',
+    model: '    <div class="ui vertical menu">\n' +
       '      <a href="http://www.google.com" class="item">\n' +
       '        Visit Google\n' +
       '      </a>\n' +
@@ -30,7 +29,6 @@ export default {
       '        Javascript Link\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -39,15 +39,14 @@
 <script>
 export default {
   name: 'ViewCardStackable1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Variations',
-      title2: 'Stackable',
-      description: 'A group of cards can automatically stack rows to a single columns on mobile devices',
-      model: '    <div class="ui ignored warning message">Resize your browser to a smaller size to see the cards stack after reaching mobile breakpoints</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Variations',
+    title2: 'Stackable',
+    description: 'A group of cards can automatically stack rows to a single columns on mobile devices',
+    model: '    <div class="ui ignored warning message">Resize your browser to a smaller size to see the cards stack after reaching mobile breakpoints</div>\n' +
       '    <div class="ui three stackable cards">\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
@@ -80,7 +79,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

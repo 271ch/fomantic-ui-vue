@@ -61,15 +61,14 @@
 <script>
 export default {
   name: 'ViewCardImage2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Content',
-      title2: 'Image',
-      description: 'A card can contain an image',
-      model: '    <div class="evaluated code" data-type="javascript">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Content',
+    title2: 'Image',
+    description: 'A card can contain an image',
+    model: '    <div class="evaluated code" data-type="javascript">\n' +
       '    $(\'.special.cards .image\').dimmer({\n' +
       '      on: \'hover\'\n' +
       '    });\n' +
@@ -124,7 +123,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -26,15 +26,14 @@
 <script>
 export default {
   name: 'ElementStepEvenlyDivided1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'step',
-      title1: 'Variations',
-      title2: 'Evenly Divided',
-      description: 'Steps can be divided evenly inside their parent',
-      model: '    <div class="ui three steps">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'step',
+    title1: 'Variations',
+    title2: 'Evenly Divided',
+    description: 'Steps can be divided evenly inside their parent',
+    model: '    <div class="ui three steps">\n' +
       '      <div class="step">\n' +
       '        <i class="truck icon"/>\n' +
       '        <div class="content">\n' +
@@ -54,7 +53,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

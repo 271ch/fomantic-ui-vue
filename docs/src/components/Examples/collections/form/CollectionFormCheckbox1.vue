@@ -35,15 +35,14 @@
 <script>
 export default {
   name: 'CollectionFormCheckbox1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Content',
-      title2: 'Checkbox',
-      description: 'A form can contain a',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Content',
+    title2: 'Checkbox',
+    description: 'A form can contain a',
+    model: '    <div class="ui ignored info message">\n' +
       '      UI checkbox are special, styled versions of standard HTML checkboxes.\n' +
       '    </div>\n' +
       '    <div class="evaluated code" data-type="javascript" data-label="true">\n' +
@@ -72,7 +71,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

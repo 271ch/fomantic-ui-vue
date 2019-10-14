@@ -41,15 +41,14 @@
 <script>
 export default {
   name: 'ViewItemLinkItem1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'item',
-      title1: 'Variations',
-      title2: 'Link Item',
-      description: 'An item can be formatted so that the entire contents link to another page',
-      model: '    <div class="ui link items">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'item',
+    title1: 'Variations',
+    title2: 'Link Item',
+    description: 'An item can be formatted so that the entire contents link to another page',
+    model: '    <div class="ui link items">\n' +
       '      <div class="item">\n' +
       '        <div class="ui tiny image">\n' +
       '          <img src="/images/avatar/large/stevie.jpg"/>\n' +
@@ -84,7 +83,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

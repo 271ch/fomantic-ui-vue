@@ -25,15 +25,14 @@
 <script>
 export default {
   name: 'ElementButtonAnimated1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Types',
-      title2: 'Animated',
-      description: 'A button can animate to show hidden content',
-      model: '    <div class="ui ignored message">The button will be automatically sized according to the visible content size. Make sure there is enough room for the hidden content to show</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Types',
+    title2: 'Animated',
+    description: 'A button can animate to show hidden content',
+    model: '    <div class="ui ignored message">The button will be automatically sized according to the visible content size. Make sure there is enough room for the hidden content to show</div>\n' +
       '    <div class="ui animated button" tabindex="0">\n' +
       '      <div class="visible content">Next</div>\n' +
       '      <div class="hidden content">\n' +
@@ -52,7 +51,6 @@ export default {
       '        $12.99 a month\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

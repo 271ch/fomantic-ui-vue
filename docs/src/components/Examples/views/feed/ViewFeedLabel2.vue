@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ViewFeedLabel2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'feed',
-      title1: 'Content',
-      title2: 'Label',
-      description: 'An event can contain an image or icon label',
-      model: '    <div class="ui feed">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'feed',
+    title1: 'Content',
+    title2: 'Label',
+    description: 'An event can contain an image or icon label',
+    model: '    <div class="ui feed">\n' +
       '      <div class="event">\n' +
       '        <div class="label">\n' +
       '          <i class="pencil icon"/>\n' +
@@ -40,7 +39,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

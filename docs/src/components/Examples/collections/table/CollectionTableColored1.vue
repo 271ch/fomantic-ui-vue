@@ -222,15 +222,14 @@
 <script>
 export default {
   name: 'CollectionTableColored1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Colored',
-      description: 'A table can be given a color to distinguish it from other tables.',
-      model: '    <table class="ui red table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Colored',
+    description: 'A table can be given a color to distinguish it from other tables.',
+    model: '    <table class="ui red table">\n' +
       '      <thead>\n' +
       '        <th>Food</th>\n' +
       '        <th>Calories</th>\n' +
@@ -446,7 +445,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

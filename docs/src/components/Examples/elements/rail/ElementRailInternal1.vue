@@ -18,15 +18,14 @@
 <script>
 export default {
   name: 'ElementRailInternal1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'rail',
-      title1: 'Types',
-      title2: 'Internal',
-      description: 'A rail can attach itself to the inside of a container',
-      model: '    <div class="ui segment" style="left: -150px; width: 960px;min-height: 300px;">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'rail',
+    title1: 'Types',
+    title2: 'Internal',
+    description: 'A rail can attach itself to the inside of a container',
+    model: '    <div class="ui segment" style="left: -150px; width: 960px;min-height: 300px;">\n' +
       '      <div class="ui left internal rail">\n' +
       '        <div class="ui segment">\n' +
       '          Left Rail Content\n' +
@@ -38,7 +37,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

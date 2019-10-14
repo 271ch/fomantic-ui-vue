@@ -29,15 +29,14 @@
 <script>
 export default {
   name: 'ElementListList3',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Types',
-      title2: 'List',
-      description: 'A list groups related content',
-      model: '    <div class="ui relaxed divided list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Types',
+    title2: 'List',
+    description: 'A list groups related content',
+    model: '    <div class="ui relaxed divided list">\n' +
       '      <div class="item">\n' +
       '        <i class="large github middle aligned icon"/>\n' +
       '        <div class="content">\n' +
@@ -60,7 +59,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

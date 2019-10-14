@@ -32,15 +32,14 @@
 <script>
 export default {
   name: 'ViewItemHeader1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'item',
-      title1: 'Content',
-      title2: 'Header',
-      description: 'An item can contain a header',
-      model: '    <div class="ui items">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'item',
+    title1: 'Content',
+    title2: 'Header',
+    description: 'An item can contain a header',
+    model: '    <div class="ui items">\n' +
       '      <div class="item">\n' +
       '        <div class="ui tiny image">\n' +
       '          <img src="/images/wireframe/image.png"/>\n' +
@@ -66,7 +65,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

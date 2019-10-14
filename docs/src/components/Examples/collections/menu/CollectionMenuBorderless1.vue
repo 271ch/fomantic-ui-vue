@@ -14,15 +14,14 @@
 <script>
 export default {
   name: 'CollectionMenuBorderless1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Variations',
-      title2: 'Borderless',
-      description: 'A menu item or menu can have no borders',
-      model: '    <div class="ui borderless menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Variations',
+    title2: 'Borderless',
+    description: 'A menu item or menu can have no borders',
+    model: '    <div class="ui borderless menu">\n' +
       '      <a class="item">1</a>\n' +
       '      <a class="item">2</a>\n' +
       '      <a class="item">3</a>\n' +
@@ -30,7 +29,6 @@ export default {
       '      <a class="item">5</a>\n' +
       '      <a class="item">6</a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

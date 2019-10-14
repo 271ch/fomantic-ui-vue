@@ -37,15 +37,14 @@
 <script>
 export default {
   name: 'CollectionTableCollapsingCell1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Collapsing Cell',
-      description: 'A cell can be collapsing so that it only uses as much space as required',
-      model: '    <div class="ui ignored warning icon message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Collapsing Cell',
+    description: 'A cell can be collapsing so that it only uses as much space as required',
+    model: '    <div class="ui ignored warning icon message">\n' +
       '      <i class="warning icon"/>\n' +
       '      <div class="content">\n' +
       '        To ensure icons don\'t wrap to a separate line you must either specify collapsing on the widest row in the collapsing column, or on all rows\n' +
@@ -76,7 +75,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

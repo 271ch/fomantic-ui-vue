@@ -26,15 +26,14 @@
 <script>
 export default {
   name: 'ViewCommentMetadata1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'comment',
-      title1: 'Content',
-      title2: 'Metadata',
-      description: 'A comment can contain metadata about the comment, an arbitrary amount of metadata may be defined.',
-      model: '    <div class="ui comments">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'comment',
+    title1: 'Content',
+    title2: 'Metadata',
+    description: 'A comment can contain metadata about the comment, an arbitrary amount of metadata may be defined.',
+    model: '    <div class="ui comments">\n' +
       '      <div class="comment">\n' +
       '        <a class="avatar">\n' +
       '          <img src="/images/avatar/small/stevie.jpg"/>\n' +
@@ -54,7 +53,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

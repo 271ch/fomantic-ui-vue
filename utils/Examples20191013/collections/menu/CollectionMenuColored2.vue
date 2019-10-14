@@ -138,15 +138,14 @@
 <script>
 export default {
   name: 'CollectionMenuColored2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Variations',
-      title2: 'Colored',
-      description: 'Additional colors can be specified.',
-      model: '    <div class="ui red three item menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Variations',
+    title2: 'Colored',
+    description: 'Additional colors can be specified.',
+    model: '    <div class="ui red three item menu">\n' +
       '      <a class="active item">\n' +
       '        Home\n' +
       '      </a>\n' +
@@ -278,7 +277,6 @@ export default {
       '        Friends\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

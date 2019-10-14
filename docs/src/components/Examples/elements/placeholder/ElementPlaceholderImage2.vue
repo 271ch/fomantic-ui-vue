@@ -32,15 +32,14 @@
 <script>
 export default {
   name: 'ElementPlaceholderImage2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'placeholder',
-      title1: 'Content',
-      title2: 'Image',
-      description: 'A placeholder can contain an image',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'placeholder',
+    title1: 'Content',
+    title2: 'Image',
+    description: 'A placeholder can contain an image',
+    model: '    <div class="ui ignored info message">\n' +
       '      Using <code>square</code> (1:1) or <code>rectangular</code> (4:3) will embed an aspect ratio into the image loader so that they modify size correctly with responsive styles.\n' +
       '    </div>\n' +
       '    <div class="ui three cards">\n' +
@@ -66,7 +65,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -26,15 +26,14 @@
 <script>
 export default {
   name: 'ViewCardApproval1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Content',
-      title2: 'Approval',
-      description: 'A card can contain a like or star action.',
-      model: '    <div class="ui card">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Content',
+    title2: 'Approval',
+    description: 'A card can contain a like or star action.',
+    model: '    <div class="ui card">\n' +
       '      <div class="content">\n' +
       '        <i class="right floated like icon"/>\n' +
       '        <i class="right floated star icon"/>\n' +
@@ -54,7 +53,6 @@ export default {
       '        </span>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

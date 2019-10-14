@@ -16,15 +16,14 @@
 <script>
 export default {
   name: 'ElementPlaceholderLineLength2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'placeholder',
-      title1: 'Variations',
-      title2: 'Line Length',
-      description: 'A line can specify how long its contents should appear',
-      model: '    <div class="ui placeholder">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'placeholder',
+    title1: 'Variations',
+    title2: 'Line Length',
+    description: 'A line can specify how long its contents should appear',
+    model: '    <div class="ui placeholder">\n' +
       '      <div class="image header">\n' +
       '        <div class="medium line"/>\n' +
       '        <div class="full line"/>\n' +
@@ -34,7 +33,6 @@ export default {
       '        <div class="medium line"/>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

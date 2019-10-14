@@ -22,15 +22,14 @@
 <script>
 export default {
   name: 'ElementLabelBasicTagLabels1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Variations',
-      title2: 'Basic Tag Labels',
-      description: '???',
-      model: '    <a class="ui basic tag label">Standard Tag</a>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Variations',
+    title2: 'Basic Tag Labels',
+    description: '???',
+    model: '    <a class="ui basic tag label">Standard Tag</a>\n' +
       '    <a class="ui primary basic tag label">Primary</a>\n' +
       '    <a class="ui secondary basic tag label">Secondary</a>\n' +
       '    <a class="ui red basic tag label">Red</a>\n' +
@@ -46,7 +45,6 @@ export default {
       '    <a class="ui brown basic tag label">Brown</a>\n' +
       '    <a class="ui grey basic tag label">Grey</a>\n' +
       '    <a class="ui black basic tag label">Black</a>\n',
-    };
   },
 };
 </script>

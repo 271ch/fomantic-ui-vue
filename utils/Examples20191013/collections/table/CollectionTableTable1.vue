@@ -33,15 +33,14 @@
 <script>
 export default {
   name: 'CollectionTableTable1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Types',
-      title2: 'Table',
-      description: 'A standard table',
-      model: '    <div class="ui ignored positive message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Types',
+    title2: 'Table',
+    description: 'A standard table',
+    model: '    <div class="ui ignored positive message">\n' +
       '      Tables will automatically stack their layouts for mobile devices. To disable this behavior, use the <code>unstackable</code> variation or <code>tablet stackable</code> to allow responsive adjustments for tablet.\n' +
       '    </div>\n' +
       '    <table class="ui celled table">\n' +
@@ -68,7 +67,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

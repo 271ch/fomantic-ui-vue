@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ElementListOrdered2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Types',
-      title2: 'Ordered',
-      description: 'A list can be ordered numerically',
-      model: '    <div class="ignored ui info message">An ordered list can also use the <code>ol</code> tag</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Types',
+    title2: 'Ordered',
+    description: 'A list can be ordered numerically',
+    model: '    <div class="ignored ui info message">An ordered list can also use the <code>ol</code> tag</div>\n' +
       '    <ol class="ui list">\n' +
       '      <li>Signing Up</li>\n' +
       '      <li>User Benefits</li>\n' +
@@ -40,7 +39,6 @@ export default {
       '      </li>\n' +
       '      <li>Deleting Your Account</li>\n' +
       '    </ol>\n',
-    };
   },
 };
 </script>

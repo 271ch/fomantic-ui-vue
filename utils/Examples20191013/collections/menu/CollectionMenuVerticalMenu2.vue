@@ -24,15 +24,14 @@
 <script>
 export default {
   name: 'CollectionMenuVerticalMenu2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Types',
-      title2: 'Vertical Menu',
-      description: 'A vertical menu displays elements vertically..',
-      model: '    <div class="ui secondary vertical menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Types',
+    title2: 'Vertical Menu',
+    description: 'A vertical menu displays elements vertically..',
+    model: '    <div class="ui secondary vertical menu">\n' +
       '      <a class="active item">\n' +
       '        Account\n' +
       '      </a>\n' +
@@ -50,7 +49,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

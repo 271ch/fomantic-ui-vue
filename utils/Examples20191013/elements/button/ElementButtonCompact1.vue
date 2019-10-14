@@ -16,15 +16,14 @@
 <script>
 export default {
   name: 'ElementButtonCompact1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Variations',
-      title2: 'Compact',
-      description: 'A button can reduce its padding to fit into tighter spaces',
-      model: '    <button class="compact ui button">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Variations',
+    title2: 'Compact',
+    description: 'A button can reduce its padding to fit into tighter spaces',
+    model: '    <button class="compact ui button">\n' +
       '      Hold\n' +
       '    </button>\n' +
       '    <button class="ui compact icon button">\n' +
@@ -34,7 +33,6 @@ export default {
       '      <i class="pause icon"/>\n' +
       '      Pause\n' +
       '    </button>\n',
-    };
   },
 };
 </script>

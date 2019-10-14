@@ -17,15 +17,14 @@
 <script>
 export default {
   name: 'ElementListCelled2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Variations',
-      title2: 'Celled',
-      description: 'A list can divide its items into cells',
-      model: '    <div class="ui celled ordered list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Variations',
+    title2: 'Celled',
+    description: 'A list can divide its items into cells',
+    model: '    <div class="ui celled ordered list">\n' +
       '      <div class="item">Cats</div>\n' +
       '      <div class="item">Horses</div>\n' +
       '      <div class="item">Dogs\n' +
@@ -36,7 +35,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

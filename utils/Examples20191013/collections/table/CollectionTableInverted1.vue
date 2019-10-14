@@ -37,15 +37,14 @@
 <script>
 export default {
   name: 'CollectionTableInverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'A table\'s colors can be inverted',
-      model: '    <table class="ui inverted table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'A table\'s colors can be inverted',
+    model: '    <table class="ui inverted table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th>Name</th>\n' +
@@ -76,7 +75,6 @@ export default {
       '        <th/>\n' +
       '      </tfoot>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

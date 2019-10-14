@@ -14,15 +14,14 @@
 <script>
 export default {
   name: 'ElementButtonConditionals2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Content',
-      title2: 'Conditionals',
-      description: 'Button groups can contain conditionals',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Content',
+    title2: 'Conditionals',
+    description: 'Button groups can contain conditionals',
+    model: '    <div class="ui ignored info message">\n' +
       '      Or buttons can have their text localized, or adjusted by using the <code>data-text</code> attribute. If the size of the conditional changes you will need to adjust <code>@orCircleSize</code>\n' +
       '    </div>\n' +
       '    <div class="ui buttons">\n' +
@@ -30,7 +29,6 @@ export default {
       '      <div class="or" data-text="ou"/>\n' +
       '      <button class="ui positive button">deux</button>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

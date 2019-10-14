@@ -28,15 +28,14 @@
 <script>
 export default {
   name: 'ElementSegmentAttached2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'segment',
-      title1: 'Variations',
-      title2: 'Attached',
-      description: 'A segment can be attached to other content on a page',
-      model: '    <h5 class="ui top attached header">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'segment',
+    title1: 'Variations',
+    title2: 'Attached',
+    description: 'A segment can be attached to other content on a page',
+    model: '    <h5 class="ui top attached header">\n' +
       '      Dogs\n' +
       '    </h5>\n' +
       '    <div class="ui attached segment">\n' +
@@ -58,7 +57,6 @@ export default {
       '      <i class="warning icon"/>\n' +
       '      You\'ve reached the end of this content segment!\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

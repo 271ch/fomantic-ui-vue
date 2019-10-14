@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ElementLabelCircular2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Variations',
-      title2: 'Circular',
-      description: 'A label can be circular',
-      model: '    <a class="ui red empty circular label"/>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Variations',
+    title2: 'Circular',
+    description: 'A label can be circular',
+    model: '    <a class="ui red empty circular label"/>\n' +
       '    <a class="ui orange empty circular label"/>\n' +
       '    <a class="ui yellow empty circular label"/>\n' +
       '    <a class="ui olive empty circular label"/>\n' +
@@ -40,7 +39,6 @@ export default {
       '    <a class="ui brown empty circular label"/>\n' +
       '    <a class="ui grey empty circular label"/>\n' +
       '    <a class="ui black empty circular label"/>\n',
-    };
   },
 };
 </script>

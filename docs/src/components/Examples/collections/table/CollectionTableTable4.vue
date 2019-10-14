@@ -50,15 +50,14 @@
 <script>
 export default {
   name: 'CollectionTableTable4',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Types',
-      title2: 'Table',
-      description: 'A standard table',
-      model: '    <table class="ui celled striped table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Types',
+    title2: 'Table',
+    description: 'A standard table',
+    model: '    <table class="ui celled striped table">\n' +
       '      <thead>\n' +
       '        <th colspan="3">\n' +
       '          Git Repository\n' +
@@ -102,7 +101,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

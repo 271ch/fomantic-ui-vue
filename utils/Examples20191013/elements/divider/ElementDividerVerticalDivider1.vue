@@ -31,15 +31,14 @@
 <script>
 export default {
   name: 'ElementDividerVerticalDivider1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'divider',
-      title1: 'Types',
-      title2: 'Vertical Divider',
-      description: 'A divider can segment content vertically',
-      model: '    <div class="ui ignored message">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'divider',
+    title1: 'Types',
+    title2: 'Vertical Divider',
+    description: 'A divider can segment content vertically',
+    model: '    <div class="ui ignored message">\n' +
       '      Vertical dividers requires <code>position: relative</code> on the element that you would like to contain the divider\n' +
       '    </div>\n' +
       '    <div class="ui warning ignored message">\n' +
@@ -64,7 +63,6 @@ export default {
       '        and\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

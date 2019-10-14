@@ -37,15 +37,14 @@
 <script>
 export default {
   name: 'CollectionMenuHeader2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Content',
-      title2: 'Header',
-      description: 'A menu item may include a header or may itself be a header',
-      model: '    <div class="ui vertical menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Content',
+    title2: 'Header',
+    description: 'A menu item may include a header or may itself be a header',
+    model: '    <div class="ui vertical menu">\n' +
       '      <div class="item">\n' +
       '        <div class="header">Products</div>\n' +
       '        <div class="menu">\n' +
@@ -76,7 +75,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

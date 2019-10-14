@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'CollectionMenuInverted4',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'A menu may have its colors inverted to show greater contrast',
-      model: '    <div class="ui inverted segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'A menu may have its colors inverted to show greater contrast',
+    model: '    <div class="ui inverted segment">\n' +
       '      <div class="ui inverted secondary menu">\n' +
       '        <a class="active item">\n' +
       '          Home\n' +
@@ -40,7 +39,6 @@ export default {
       '        </a>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

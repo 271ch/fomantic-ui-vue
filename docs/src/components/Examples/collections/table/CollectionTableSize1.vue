@@ -37,15 +37,14 @@
 <script>
 export default {
   name: 'CollectionTableSize1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Size',
-      description: 'A table can also be small or large',
-      model: '    <table class="ui small table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Size',
+    description: 'A table can also be small or large',
+    model: '    <table class="ui small table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th>Name</th>\n' +
@@ -76,7 +75,6 @@ export default {
       '        <th/>\n' +
       '      </tfoot>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

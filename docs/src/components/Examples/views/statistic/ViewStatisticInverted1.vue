@@ -112,15 +112,14 @@
 <script>
 export default {
   name: 'ViewStatisticInverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'statistic',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'A statistic can be formatted to fit on a dark background',
-      model: '    <div class="ui inverted segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'statistic',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'A statistic can be formatted to fit on a dark background',
+    model: '    <div class="ui inverted segment">\n' +
       '      <div class="ui inverted statistic">\n' +
       '        <div class="value">\n' +
       '          54\n' +
@@ -226,7 +225,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

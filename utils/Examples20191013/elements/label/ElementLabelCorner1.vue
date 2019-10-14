@@ -25,15 +25,14 @@
 <script>
 export default {
   name: 'ElementLabelCorner1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Types',
-      title2: 'Corner',
-      description: 'A label can position itself in the corner of an element',
-      model: '    <div class="ui ignored warning message">A corner label must be positioned inside a container with <b>position: relative</b> to display properly. If a container is rounded you will need to add <code>overflow:hidden</code> to the container to produce a rounded label.</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Types',
+    title2: 'Corner',
+    description: 'A label can position itself in the corner of an element',
+    model: '    <div class="ui ignored warning message">A corner label must be positioned inside a container with <b>position: relative</b> to display properly. If a container is rounded you will need to add <code>overflow:hidden</code> to the container to produce a rounded label.</div>\n' +
       '    <div class="ui two column grid">\n' +
       '      <div class="column">\n' +
       '        <div class="ui fluid image">\n' +
@@ -52,7 +51,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

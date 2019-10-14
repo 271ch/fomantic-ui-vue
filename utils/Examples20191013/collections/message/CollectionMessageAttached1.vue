@@ -43,15 +43,14 @@
 <script>
 export default {
   name: 'CollectionMessageAttached1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'message',
-      title1: 'Variations',
-      title2: 'Attached',
-      description: 'A message can be formatted to attach itself to other content',
-      model: '    <div class="ui attached message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'message',
+    title1: 'Variations',
+    title2: 'Attached',
+    description: 'A message can be formatted to attach itself to other content',
+    model: '    <div class="ui attached message">\n' +
       '      <div class="header">\n' +
       '        Welcome to our site!\n' +
       '      </div>\n' +
@@ -88,7 +87,6 @@ export default {
       '      <i class="icon help"/>\n' +
       '      Already signed up? <a href="#">Login here</a> instead.\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

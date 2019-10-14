@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'ElementListLink2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Content',
-      title2: 'Link',
-      description: 'A list can contain links',
-      model: '    <div class="ui list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Content',
+    title2: 'Link',
+    description: 'A list can contain links',
+    model: '    <div class="ui list">\n' +
       '      <div class="item">\n' +
       '        <a class="header">Header</a>\n' +
       '        <div class="description">\n' +
@@ -42,7 +41,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

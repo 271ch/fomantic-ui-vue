@@ -18,15 +18,14 @@
 <script>
 export default {
   name: 'CollectionFormMessage1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Content',
-      title2: 'Message',
-      description: 'A form can contain a',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Content',
+    title2: 'Message',
+    description: 'A form can contain a',
+    model: '    <div class="ui ignored info message">\n' +
       '      Any <code>info</code>, <code>error</code>, <code>success</code>, or <code>warning</code> message blocks found inside a form are hidden by default.\n' +
       '    </div>\n' +
       '    <div class="ui form">\n' +
@@ -38,7 +37,6 @@ export default {
       '        </ul>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

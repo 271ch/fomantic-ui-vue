@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'CollectionMenuHeader1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Content',
-      title2: 'Header',
-      description: 'A menu item may include a header or may itself be a header',
-      model: '    <div class="ui menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Content',
+    title2: 'Header',
+    description: 'A menu item may include a header or may itself be a header',
+    model: '    <div class="ui menu">\n' +
       '      <div class="header item">\n' +
       '        Our Company\n' +
       '      </div>\n' +
@@ -42,7 +41,6 @@ export default {
       '        Locations\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'CollectionFormWarning1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'States',
-      title2: 'Warning',
-      description: 'If a form is in warning state, it will automatically show any warning message block.',
-      model: '    <div class="ui form warning">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'States',
+    title2: 'Warning',
+    description: 'If a form is in warning state, it will automatically show any warning message block.',
+    model: '    <div class="ui form warning">\n' +
       '      <div class="field">\n' +
       '        <label>E-mail</label>\n' +
       '        <input type="email" placeholder="joe@schmoe.com"/>\n' +
@@ -40,7 +39,6 @@ export default {
       '      </div>\n' +
       '      <div class="ui submit button">Submit</div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

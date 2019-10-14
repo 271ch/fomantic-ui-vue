@@ -17,15 +17,14 @@
 <script>
 export default {
   name: 'ElementSegmentHorizontalSegments1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'segment',
-      title1: 'Groups',
-      title2: 'Horizontal Segments',
-      description: 'A segment group can appear horizontally',
-      model: '    <div class="ui horizontal segments">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'segment',
+    title1: 'Groups',
+    title2: 'Horizontal Segments',
+    description: 'A segment group can appear horizontally',
+    model: '    <div class="ui horizontal segments">\n' +
       '      <div class="ui segment">\n' +
       '        <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
       '      </div>\n' +
@@ -36,7 +35,6 @@ export default {
       '        <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

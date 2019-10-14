@@ -18,15 +18,14 @@
 <script>
 export default {
   name: 'CollectionMenuText1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Types',
-      title2: 'Text',
-      description: 'A menu can be formatted for text content',
-      model: '    <div class="ui text menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Types',
+    title2: 'Text',
+    description: 'A menu can be formatted for text content',
+    model: '    <div class="ui text menu">\n' +
       '      <div class="header item">Sort By</div>\n' +
       '      <a class="active item">\n' +
       '        Closest\n' +
@@ -38,7 +37,6 @@ export default {
       '        Most Popular\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

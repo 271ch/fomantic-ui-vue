@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'ElementHeaderTextAlignment1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'header',
-      title1: 'Variations',
-      title2: 'Text Alignment',
-      description: 'A header can have its text aligned to a side',
-      model: '    <div class="ui segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'header',
+    title1: 'Variations',
+    title2: 'Text Alignment',
+    description: 'A header can have its text aligned to a side',
+    model: '    <div class="ui segment">\n' +
       '      <h3 class="ui right aligned header">\n' +
       '        Right\n' +
       '      </h3>\n' +
@@ -42,7 +41,6 @@ export default {
       '        Center\n' +
       '      </h3>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

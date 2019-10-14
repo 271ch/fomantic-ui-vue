@@ -65,15 +65,14 @@
 <script>
 export default {
   name: 'CollectionTableStructured1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Types',
-      title2: 'Structured',
-      description: 'A table can be formatted to display complex structured data',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Types',
+    title2: 'Structured',
+    description: 'A table can be formatted to display complex structured data',
+    model: '    <div class="ui ignored info message">\n' +
       '      <p>UI tables use <code>border-collapse: separate</code> to allow for tables to receive styles that cannot usually be applied to tables like <code>border-radius</code>. However this can cause some cell borders to appear missing with complex layouts that use <code>rowspan</code> or <code>colspan</code> and rows with varying column count.</p>\n' +
       '      <p><code>ui structured table</code> does not support some style features, but can correctly display all valid HTML table content.</p>\n' +
       '    </div>\n' +
@@ -132,7 +131,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

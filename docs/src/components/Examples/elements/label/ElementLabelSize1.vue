@@ -30,15 +30,14 @@
 <script>
 export default {
   name: 'ElementLabelSize1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Variations',
-      title2: 'Size',
-      description: 'A label can be small or large',
-      model: '    <div class="ui mini label">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Variations',
+    title2: 'Size',
+    description: 'A label can be small or large',
+    model: '    <div class="ui mini label">\n' +
       '      Mini\n' +
       '    </div>\n' +
       '    <div class="ui tiny label">\n' +
@@ -62,7 +61,6 @@ export default {
       '    <div class="ui massive label">\n' +
       '      Massive\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -28,15 +28,14 @@
 <script>
 export default {
   name: 'ViewStatisticFloated1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'statistic',
-      title1: 'Variations',
-      title2: 'Floated',
-      description: 'An statistic can sit to the left or right of other content',
-      model: '    <div class="ui segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'statistic',
+    title1: 'Variations',
+    title2: 'Floated',
+    description: 'An statistic can sit to the left or right of other content',
+    model: '    <div class="ui segment">\n' +
       '      <div class="ui right floated statistic">\n' +
       '        <div class="value">\n' +
       '          2,204\n' +
@@ -58,7 +57,6 @@ export default {
       '      <p>Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.</p>\n' +
       '      <p>Audiam quaerendum eu sea, pro omittam definiebas ex. Te est latine definitiones. Quot wisi nulla ex duo. Vis sint solet expetenda ne, his te phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide phaedrum, vim vivendum maiestatis in.</p>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

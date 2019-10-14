@@ -263,15 +263,14 @@
 <script>
 export default {
   name: 'CollectionFormDropdown2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Content',
-      title2: 'Dropdown',
-      description: 'A form can contain a',
-      model: '    <div class="ui form">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Content',
+    title2: 'Dropdown',
+    description: 'A form can contain a',
+    model: '    <div class="ui form">\n' +
       '      <div class="field">\n' +
       '        <label>Country</label>\n' +
       '        <select class="ui search dropdown">\n' +
@@ -528,7 +527,6 @@ export default {
       '        </select>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

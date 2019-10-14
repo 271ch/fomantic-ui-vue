@@ -11,20 +11,18 @@
 <script>
 export default {
   name: 'CollectionMessageHidden1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'message',
-      title1: 'States',
-      title2: 'Hidden',
-      description: 'A message can be hidden',
-      model: '    <div class="existing code">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'message',
+    title1: 'States',
+    title2: 'Hidden',
+    description: 'A message can be hidden',
+    model: '    <div class="existing code">\n' +
       '      <div class="ui hidden message">\n' +
       '        <p>You can\'t see me</p>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

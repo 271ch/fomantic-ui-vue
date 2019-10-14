@@ -37,15 +37,14 @@
 <script>
 export default {
   name: 'CollectionTablePositiveNegative1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'States',
-      title2: 'Positive / Negative',
-      description: 'A cell or row may let a user know whether a value is good or bad',
-      model: '    <table class="ui celled table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'States',
+    title2: 'Positive / Negative',
+    description: 'A cell or row may let a user know whether a value is good or bad',
+    model: '    <table class="ui celled table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th>Name</th>\n' +
@@ -76,7 +75,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

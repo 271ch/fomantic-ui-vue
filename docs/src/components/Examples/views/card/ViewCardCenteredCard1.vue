@@ -14,15 +14,14 @@
 <script>
 export default {
   name: 'ViewCardCenteredCard1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Variations',
-      title2: 'Centered Card',
-      description: 'A card can center itself inside its container',
-      model: '    <div class="ui centered card">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Variations',
+    title2: 'Centered Card',
+    description: 'A card can center itself inside its container',
+    model: '    <div class="ui centered card">\n' +
       '      <div class="image">\n' +
       '        <img src="/images/avatar2/large/elyse.png"/>\n' +
       '      </div>\n' +
@@ -30,7 +29,6 @@ export default {
       '        <a class="header">Elyse</a>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

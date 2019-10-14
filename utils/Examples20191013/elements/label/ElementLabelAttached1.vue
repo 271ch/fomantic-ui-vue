@@ -60,15 +60,14 @@
 <script>
 export default {
   name: 'ElementLabelAttached1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Types',
-      title2: 'Attached',
-      description: 'A label can attach to a content segment',
-      model: '    <div class="ui ignored warning message">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Types',
+    title2: 'Attached',
+    description: 'A label can attach to a content segment',
+    model: '    <div class="ui ignored warning message">\n' +
       '      <p>Attached labels attempt to intelligently pad other content to account for their position, but may not in all cases apply this padding correctly.</p>\n' +
       '      <p>If this happens you may need to manually correct the padding of the other elements inside the container.\n' +
       '    </p></div>\n' +
@@ -122,7 +121,6 @@ export default {
       '    <div class="ui bottom left attached label">User View</div>\n' +
       '    <div class="ui bottom right attached label">Admin View</div>\n' +
       '      </div>\n',
-    };
   },
 };
 </script>

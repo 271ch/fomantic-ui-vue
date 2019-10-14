@@ -14,15 +14,14 @@
 <script>
 export default {
   name: 'ElementDividerInverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'divider',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'A divider can have its colors inverted',
-      model: '    <div class="ui inverted segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'divider',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'A divider can have its colors inverted',
+    model: '    <div class="ui inverted segment">\n' +
       '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
       '      <div class="ui inverted divider"/>\n' +
       '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
@@ -30,7 +29,6 @@ export default {
       '        Horizontal\n' +
       '      </h4>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

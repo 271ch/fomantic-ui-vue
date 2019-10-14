@@ -63,15 +63,14 @@
 <script>
 export default {
   name: 'ViewCommentCollapsed1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'comment',
-      title1: 'States',
-      title2: 'Collapsed',
-      description: 'Comments can be collapsed, or hidden from view',
-      model: '    <div class="ui comments">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'comment',
+    title1: 'States',
+    title2: 'Collapsed',
+    description: 'Comments can be collapsed, or hidden from view',
+    model: '    <div class="ui comments">\n' +
       '      <div class="comment">\n' +
       '        <a class="avatar">\n' +
       '          <img src="/images/avatar/small/christian.jpg"/>\n' +
@@ -128,7 +127,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -16,15 +16,14 @@
 <script>
 export default {
   name: 'ViewCommentAvatar1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'comment',
-      title1: 'Content',
-      title2: 'Avatar',
-      description: 'A comment can contain an image or avatar',
-      model: '    <div class="ui comments">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'comment',
+    title1: 'Content',
+    title2: 'Avatar',
+    description: 'A comment can contain an image or avatar',
+    model: '    <div class="ui comments">\n' +
       '      <div class="comment">\n' +
       '        <a class="avatar">\n' +
       '          <img src="/images/avatar/small/elliot.jpg"/>\n' +
@@ -34,7 +33,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

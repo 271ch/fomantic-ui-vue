@@ -21,15 +21,14 @@
 <script>
 export default {
   name: 'ElementButtonTertiary2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Types',
-      title2: 'Tertiary',
-      description: 'An none bordered less important button',
-      model: '    <button class="ui primary tertiary button">Primary</button>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Types',
+    title2: 'Tertiary',
+    description: 'An none bordered less important button',
+    model: '    <button class="ui primary tertiary button">Primary</button>\n' +
       '    <button class="ui secondary tertiary button">Secondary</button>\n' +
       '    <button class="ui red tertiary button">Red</button>\n' +
       '    <button class="ui orange tertiary button">Orange</button>\n' +
@@ -44,7 +43,6 @@ export default {
       '    <button class="ui brown tertiary button">Brown</button>\n' +
       '    <button class="ui grey tertiary button">Grey</button>\n' +
       '    <button class="ui black tertiary button">Black</button>\n',
-    };
   },
 };
 </script>

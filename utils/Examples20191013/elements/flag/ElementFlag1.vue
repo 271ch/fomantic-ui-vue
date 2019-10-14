@@ -1500,15 +1500,14 @@
 <script>
 export default {
   name: 'ElementFlag1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'flag',
-      title1: '???',
-      title2: '???',
-      description: '???',
-      model: '    <h2 class="ui header">Definition</h2>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'flag',
+    title1: '???',
+    title2: '???',
+    description: '???',
+    model: '    <h2 class="ui header">Definition</h2>\n' +
       '    <div class="no example">\n' +
       '      <h4 class="ui header">Flag</h4>\n' +
       '      <p>A flag can use the two digit country code, the full name, or a common alias</p>\n' +
@@ -3002,7 +3001,6 @@ export default {
       '      </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

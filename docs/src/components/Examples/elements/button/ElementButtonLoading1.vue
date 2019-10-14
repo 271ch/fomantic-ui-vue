@@ -22,15 +22,14 @@
 <script>
 export default {
   name: 'ElementButtonLoading1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'States',
-      title2: 'Loading',
-      description: 'A button can show a loading indicator',
-      model: '    <button class="ui loading button">Loading</button>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'States',
+    title2: 'Loading',
+    description: 'A button can show a loading indicator',
+    model: '    <button class="ui loading button">Loading</button>\n' +
       '    <button class="ui basic loading button">Loading</button>\n' +
       '    <button class="ui primary loading button">Loading</button>\n' +
       '    <button class="ui secondary loading button">Loading</button>\n' +
@@ -46,7 +45,6 @@ export default {
       '    <button class="ui basic elastic loading button">Loading</button>\n' +
       '    <button class="ui primary elastic loading button">Loading</button>\n' +
       '    <button class="ui secondary elastic loading button">Loading</button>\n',
-    };
   },
 };
 </script>

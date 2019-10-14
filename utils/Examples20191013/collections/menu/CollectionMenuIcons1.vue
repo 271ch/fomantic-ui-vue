@@ -29,15 +29,14 @@
 <script>
 export default {
   name: 'CollectionMenuIcons1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Variations',
-      title2: 'Icons',
-      description: 'A menu may have just icons',
-      model: '    <div class="ui icon menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Variations',
+    title2: 'Icons',
+    description: 'A menu may have just icons',
+    model: '    <div class="ui icon menu">\n' +
       '      <a class="item">\n' +
       '        <i class="gamepad icon"/>\n' +
       '      </a>\n' +
@@ -60,7 +59,6 @@ export default {
       '        <i class="video play icon"/>\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

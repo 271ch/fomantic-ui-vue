@@ -21,15 +21,14 @@
 <script>
 export default {
   name: 'CollectionFormLoading1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'States',
-      title2: 'Loading',
-      description: 'If a form is in loading state, it will automatically show a loading indicator.',
-      model: '    <div class="ui ignored info message"><code>elastic</code> as loading style is currently not supported  because form uses the <code>:before</code> pseudoclass to dimm the background.</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'States',
+    title2: 'Loading',
+    description: 'If a form is in loading state, it will automatically show a loading indicator.',
+    model: '    <div class="ui ignored info message"><code>elastic</code> as loading style is currently not supported  because form uses the <code>:before</code> pseudoclass to dimm the background.</div>\n' +
       '    <div class="ui loading form">\n' +
       '      <div class="field">\n' +
       '        <label>E-mail</label>\n' +
@@ -44,7 +43,6 @@ export default {
       '      </div>\n' +
       '    <div class="ui submit button">Submit</div>\n' +
       '  </div>\n',
-    };
   },
 };
 </script>

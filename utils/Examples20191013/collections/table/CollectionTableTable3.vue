@@ -70,15 +70,14 @@
 <script>
 export default {
   name: 'CollectionTableTable3',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Types',
-      title2: 'Table',
-      description: 'A standard table',
-      model: '    <table class="ui very basic collapsing celled table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Types',
+    title2: 'Table',
+    description: 'A standard table',
+    model: '    <table class="ui very basic collapsing celled table">\n' +
       '      <thead>\n' +
       '        <th>Employee</th>\n' +
       '        <th>Correct Guesses</th>\n' +
@@ -142,7 +141,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

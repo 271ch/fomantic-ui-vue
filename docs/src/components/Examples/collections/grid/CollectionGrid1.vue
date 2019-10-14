@@ -420,15 +420,14 @@
 <script>
 export default {
   name: 'CollectionGrid1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'grid',
-      title1: '???',
-      title2: '???',
-      description: '???',
-      model: '    <h2 class="ui dividing header">Introduction</h2>\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'grid',
+    title1: '???',
+    title2: '???',
+    description: '???',
+    model: '    <h2 class="ui dividing header">Introduction</h2>\n' +
       '    <div class="highlighted example" data-class="grid">\n' +
       '      <h4 class="ui header">Grids</h4>\n' +
       '      <p>A grid is a structure with a <a href="http://99designs.com/designer-blog/2013/03/21/history-of-the-grid-part-1/" target="_blank">long history</a> used to align negative space in designs.</p>\n' +
@@ -842,7 +841,6 @@ export default {
       '        <div class="six wide tablet eight wide computer column"/>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

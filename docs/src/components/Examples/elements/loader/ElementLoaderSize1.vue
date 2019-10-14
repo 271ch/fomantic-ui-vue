@@ -63,15 +63,14 @@
 <script>
 export default {
   name: 'ElementLoaderSize1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'loader',
-      title1: 'Variations',
-      title2: 'Size',
-      description: 'Loaders can have different sizes',
-      model: '    <div class="ui segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'loader',
+    title1: 'Variations',
+    title2: 'Size',
+    description: 'Loaders can have different sizes',
+    model: '    <div class="ui segment">\n' +
       '      <div class="ui active dimmer">\n' +
       '        <div class="ui mini text loader">Loading</div>\n' +
       '      </div>\n' +
@@ -128,7 +127,6 @@ export default {
       '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
       '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -41,15 +41,14 @@
 <script>
 export default {
   name: 'ElementDividerVerticalDivider2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'divider',
-      title1: 'Types',
-      title2: 'Vertical Divider',
-      description: 'A divider can segment content vertically',
-      model: '    <div class="ui info ignored message">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'divider',
+    title1: 'Types',
+    title2: 'Vertical Divider',
+    description: 'A divider can segment content vertically',
+    model: '    <div class="ui info ignored message">\n' +
       '      A vertical divider will automatically swap to a horizontal divider at mobile resolutions when used inside a <a href="/collections/grid.html#stackable-grid"><code>stackable grid</code></a>\n' +
       '    </div>\n' +
       '    <div class="ui placeholder segment">\n' +
@@ -84,7 +83,6 @@ export default {
       '        Or\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

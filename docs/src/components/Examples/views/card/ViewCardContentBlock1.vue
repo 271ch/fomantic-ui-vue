@@ -40,15 +40,14 @@
 <script>
 export default {
   name: 'ViewCardContentBlock1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Content',
-      title2: 'Content Block',
-      description: 'A card can contain blocks of content',
-      model: '    <div class="ui card">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Content',
+    title2: 'Content Block',
+    description: 'A card can contain blocks of content',
+    model: '    <div class="ui card">\n' +
       '      <div class="content">\n' +
       '        <div class="header">Project Timeline</div>\n' +
       '      </div>\n' +
@@ -82,7 +81,6 @@ export default {
       '        <button class="ui button">Join Project</button>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

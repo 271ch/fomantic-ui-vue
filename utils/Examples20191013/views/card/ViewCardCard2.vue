@@ -29,15 +29,14 @@
 <script>
 export default {
   name: 'ViewCardCard2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Types',
-      title2: 'Card',
-      description: 'A single card.',
-      model: '    <div class="ui card">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Types',
+    title2: 'Card',
+    description: 'A single card.',
+    model: '    <div class="ui card">\n' +
       '      <div class="content">\n' +
       '        <div class="right floated meta">14h</div>\n' +
       '        <img class="ui avatar image" src="/images/avatar/large/elliot.jpg"/> Elliot\n' +
@@ -60,7 +59,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

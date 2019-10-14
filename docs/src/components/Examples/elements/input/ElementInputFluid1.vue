@@ -15,15 +15,14 @@
 <script>
 export default {
   name: 'ElementInputFluid1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'input',
-      title1: 'Variations',
-      title2: 'Fluid',
-      description: 'An input can take the size of its container',
-      model: '    <div class="ui fluid icon input">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'input',
+    title1: 'Variations',
+    title2: 'Fluid',
+    description: 'An input can take the size of its container',
+    model: '    <div class="ui fluid icon input">\n' +
       '      <input type="text" placeholder="Search a very wide input..."/>\n' +
       '      <i class="search icon"/>\n' +
       '    </div>\n' +
@@ -32,7 +31,6 @@ export default {
       '      <input type="text" placeholder="Search..."/>\n' +
       '      <div class="ui button">Search</div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

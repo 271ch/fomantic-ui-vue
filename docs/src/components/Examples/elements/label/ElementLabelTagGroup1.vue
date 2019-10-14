@@ -23,15 +23,14 @@
 <script>
 export default {
   name: 'ElementLabelTagGroup1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Groups',
-      title2: 'Tag Group',
-      description: 'Labels can share tag formatting',
-      model: '    <div class="ui tag labels">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Groups',
+    title2: 'Tag Group',
+    description: 'Labels can share tag formatting',
+    model: '    <div class="ui tag labels">\n' +
       '      <a class="ui label">\n' +
       '        $10.00\n' +
       '      </a>\n' +
@@ -48,7 +47,6 @@ export default {
       '        $10.25\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

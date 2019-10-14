@@ -44,15 +44,14 @@
 <script>
 export default {
   name: 'ViewCardButtons1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Content',
-      title2: 'Buttons',
-      description: 'A card can contain buttons',
-      model: '    <div class="ui cards">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Content',
+    title2: 'Buttons',
+    description: 'A card can contain buttons',
+    model: '    <div class="ui cards">\n' +
       '      <div class="card">\n' +
       '        <div class="content">\n' +
       '          <div class="header">Elliot Fu</div>\n' +
@@ -90,7 +89,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -26,15 +26,14 @@
 <script>
 export default {
   name: 'ElementStepOrdered1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'step',
-      title1: 'Groups',
-      title2: 'Ordered',
-      description: 'A step can show a ordered sequence of steps',
-      model: '    <div class="ui ordered steps">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'step',
+    title1: 'Groups',
+    title2: 'Ordered',
+    description: 'A step can show a ordered sequence of steps',
+    model: '    <div class="ui ordered steps">\n' +
       '      <div class="completed step">\n' +
       '        <div class="content">\n' +
       '          <div class="title">Shipping</div>\n' +
@@ -54,7 +53,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -149,15 +149,14 @@
 <script>
 export default {
   name: 'CollectionFormForm2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Types',
-      title2: 'Form',
-      description: 'A form',
-      model: '    <div class="ui ignored hidden divider"/>\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Types',
+    title2: 'Form',
+    description: 'A form',
+    model: '    <div class="ui ignored hidden divider"/>\n' +
       '    <form class="ui form">\n' +
       '      <h4 class="ui dividing header">Shipping Information</h4>\n' +
       '      <div class="field">\n' +
@@ -300,7 +299,6 @@ export default {
       '      </div>\n' +
       '      <div class="ui button" tabindex="0">Submit Order</div>\n' +
       '    </form>\n',
-    };
   },
 };
 </script>

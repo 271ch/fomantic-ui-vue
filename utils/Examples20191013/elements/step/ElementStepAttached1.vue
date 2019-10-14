@@ -55,15 +55,14 @@
 <script>
 export default {
   name: 'ElementStepAttached1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'step',
-      title1: 'Variations',
-      title2: 'Attached',
-      description: 'Steps can be attached to other elements',
-      model: '    <div class="ui three top attached steps">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'step',
+    title1: 'Variations',
+    title2: 'Attached',
+    description: 'Steps can be attached to other elements',
+    model: '    <div class="ui three top attached steps">\n' +
       '      <div class="step">\n' +
       '        <i class="truck icon"/>\n' +
       '        <div class="content">\n' +
@@ -112,7 +111,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

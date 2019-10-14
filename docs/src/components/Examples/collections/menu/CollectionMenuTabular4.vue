@@ -29,15 +29,14 @@
 <script>
 export default {
   name: 'CollectionMenuTabular4',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Types',
-      title2: 'Tabular',
-      description: 'A menu can be formatted to show tabs of information',
-      model: '    <div class="ui grid">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Types',
+    title2: 'Tabular',
+    description: 'A menu can be formatted to show tabs of information',
+    model: '    <div class="ui grid">\n' +
       '      <div class="four wide column">\n' +
       '        <div class="ui vertical fluid tabular menu">\n' +
       '          <a class="active item">\n' +
@@ -60,7 +59,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

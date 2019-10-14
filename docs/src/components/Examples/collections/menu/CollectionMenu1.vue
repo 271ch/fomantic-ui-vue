@@ -27,15 +27,14 @@
 <script>
 export default {
   name: 'CollectionMenu1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Variations',
-      title2: '???',
-      description: 'A vertical menu can point to content adjacent to itself to show ownership',
-      model: '    <div class="ui pointing vertical menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Variations',
+    title2: '???',
+    description: 'A vertical menu can point to content adjacent to itself to show ownership',
+    model: '    <div class="ui pointing vertical menu">\n' +
       '      <a class="item">\n' +
       '        Site Title\n' +
       '      </a>\n' +
@@ -56,7 +55,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

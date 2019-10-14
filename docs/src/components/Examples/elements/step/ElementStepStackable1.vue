@@ -29,15 +29,14 @@
 <script>
 export default {
   name: 'ElementStepStackable1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'step',
-      title1: 'Variations',
-      title2: 'Stackable',
-      description: 'A step can stack vertically only on smaller screens',
-      model: '    <div class="ui tablet stackable steps">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'step',
+    title1: 'Variations',
+    title2: 'Stackable',
+    description: 'A step can stack vertically only on smaller screens',
+    model: '    <div class="ui tablet stackable steps">\n' +
       '      <div class="step">\n' +
       '        <i class="plane icon"/>\n' +
       '        <div class="content">\n' +
@@ -60,7 +59,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

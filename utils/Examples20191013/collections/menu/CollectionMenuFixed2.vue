@@ -27,15 +27,14 @@
 <script>
 export default {
   name: 'CollectionMenuFixed2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Variations',
-      title2: 'Fixed',
-      description: 'A menu can be fixed to a side of its context',
-      model: '    <iframe src="/iframe/fixed-vertical-menu.html"/>\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Variations',
+    title2: 'Fixed',
+    description: 'A menu can be fixed to a side of its context',
+    model: '    <iframe src="/iframe/fixed-vertical-menu.html"/>\n' +
       '    <div class="existing code">\n' +
       '      <div class="ui left fixed vertical menu">\n' +
       '        <div class="item">\n' +
@@ -56,7 +55,6 @@ export default {
       '      <p/>\n' +
       '      <p/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

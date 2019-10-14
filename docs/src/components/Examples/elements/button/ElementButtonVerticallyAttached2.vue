@@ -17,15 +17,14 @@
 <script>
 export default {
   name: 'ElementButtonVerticallyAttached2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Variations',
-      title2: 'Vertically Attached',
-      description: 'A button can be attached to the top or bottom of other content',
-      model: '    <div class="ui two top attached buttons">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Variations',
+    title2: 'Vertically Attached',
+    description: 'A button can be attached to the top or bottom of other content',
+    model: '    <div class="ui two top attached buttons">\n' +
       '        <div class="ui button">One</div>\n' +
       '        <div class="ui button">Two</div>\n' +
       '    </div>\n' +
@@ -36,7 +35,6 @@ export default {
       '        <div class="ui button">One</div>\n' +
       '        <div class="ui button">Two</div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

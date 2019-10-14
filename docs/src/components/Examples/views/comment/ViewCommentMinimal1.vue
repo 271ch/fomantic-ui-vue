@@ -87,15 +87,14 @@
 <script>
 export default {
   name: 'ViewCommentMinimal1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'comment',
-      title1: 'Variations',
-      title2: 'Minimal',
-      description: 'Comments can hide extra information unless a user shows intent to interact with a comment.',
-      model: '    <div class="ui minimal comments">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'comment',
+    title1: 'Variations',
+    title2: 'Minimal',
+    description: 'Comments can hide extra information unless a user shows intent to interact with a comment.',
+    model: '    <div class="ui minimal comments">\n' +
       '      <h3 class="ui dividing header">Comments</h3>\n' +
       '      <div class="comment">\n' +
       '        <a class="avatar">\n' +
@@ -176,7 +175,6 @@ export default {
       '        </div>\n' +
       '      </form>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

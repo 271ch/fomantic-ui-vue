@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ElementSegmentColored1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'segment',
-      title1: 'Variations',
-      title2: 'Colored',
-      description: 'A segment can be colored',
-      model: '    <div class="ui red segment">Red</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'segment',
+    title1: 'Variations',
+    title2: 'Colored',
+    description: 'A segment can be colored',
+    model: '    <div class="ui red segment">Red</div>\n' +
       '    <div class="ui orange segment">Orange</div>\n' +
       '    <div class="ui yellow segment">Yellow</div>\n' +
       '    <div class="ui olive segment">Olive</div>\n' +
@@ -40,7 +39,6 @@ export default {
       '    <div class="ui brown segment">Brown</div>\n' +
       '    <div class="ui grey segment">Grey</div>\n' +
       '    <div class="ui black segment">Black</div>\n',
-    };
   },
 };
 </script>

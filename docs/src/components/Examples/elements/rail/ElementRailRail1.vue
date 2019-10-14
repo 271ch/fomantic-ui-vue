@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'ElementRailRail1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'rail',
-      title1: 'Types',
-      title2: 'Rail',
-      description: 'A rail can be presented on the left or right side of a container',
-      model: '    <div class="ui segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'rail',
+    title1: 'Types',
+    title2: 'Rail',
+    description: 'A rail can be presented on the left or right side of a container',
+    model: '    <div class="ui segment">\n' +
       '      <div class="ui left rail">\n' +
       '        <div class="ui segment">\n' +
       '          Left Rail Content\n' +
@@ -42,7 +41,6 @@ export default {
       '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
       '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

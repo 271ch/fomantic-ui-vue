@@ -14,15 +14,14 @@
 <script>
 export default {
   name: 'ViewStatisticStatistic2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'statistic',
-      title1: 'Types',
-      title2: 'Statistic',
-      description: 'A statistic can display a value with a label above or below it.',
-      model: '    <div class="ui statistic">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'statistic',
+    title1: 'Types',
+    title2: 'Statistic',
+    description: 'A statistic can display a value with a label above or below it.',
+    model: '    <div class="ui statistic">\n' +
       '      <div class="label">\n' +
       '        Views\n' +
       '      </div>\n' +
@@ -30,7 +29,6 @@ export default {
       '        40,509\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

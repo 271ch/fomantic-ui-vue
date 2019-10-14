@@ -13,22 +13,20 @@
 <script>
 export default {
   name: 'ElementInputLabeled5',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'input',
-      title1: 'Variations',
-      title2: 'Labeled',
-      description: 'An input can be formatted with a label',
-      model: '    <div class="ui right labeled left icon input">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'input',
+    title1: 'Variations',
+    title2: 'Labeled',
+    description: 'An input can be formatted with a label',
+    model: '    <div class="ui right labeled left icon input">\n' +
       '      <i class="tags icon"/>\n' +
       '      <input type="text" placeholder="Enter tags"/>\n' +
       '      <a class="ui tag label">\n' +
       '        Add Tag\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

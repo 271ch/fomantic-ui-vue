@@ -37,15 +37,14 @@
 <script>
 export default {
   name: 'CollectionTableActive1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'States',
-      title2: 'Active',
-      description: 'A cell or row can be active or selected by a user',
-      model: '    <table class="ui celled table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'States',
+    title2: 'Active',
+    description: 'A cell or row can be active or selected by a user',
+    model: '    <table class="ui celled table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th>Name</th>\n' +
@@ -76,7 +75,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

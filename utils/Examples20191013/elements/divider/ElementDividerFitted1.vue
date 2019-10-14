@@ -11,20 +11,18 @@
 <script>
 export default {
   name: 'ElementDividerFitted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'divider',
-      title1: 'Variations',
-      title2: 'Fitted',
-      description: 'A divider can be fitted, without any space above or below it.',
-      model: '    <div class="ui segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'divider',
+    title1: 'Variations',
+    title2: 'Fitted',
+    description: 'A divider can be fitted, without any space above or below it.',
+    model: '    <div class="ui segment">\n' +
       '      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.\n' +
       '      <div class="ui fitted divider"/>\n' +
       '      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

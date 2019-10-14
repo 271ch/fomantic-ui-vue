@@ -42,15 +42,14 @@
 <script>
 export default {
   name: 'ViewItemStacking1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'item',
-      title1: 'Variations',
-      title2: 'Stacking',
-      description: 'A table can specify how it stacks items responsively',
-      model: '    <div class="ui unstackable items">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'item',
+    title1: 'Variations',
+    title2: 'Stacking',
+    description: 'A table can specify how it stacks items responsively',
+    model: '    <div class="ui unstackable items">\n' +
       '      <div class="item">\n' +
       '        <div class="image">\n' +
       '          <img src="/images/wireframe/image.png"/>\n' +
@@ -86,7 +85,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

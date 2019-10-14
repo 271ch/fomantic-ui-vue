@@ -21,15 +21,14 @@
 <script>
 export default {
   name: 'ElementLabelColored1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Variations',
-      title2: 'Colored',
-      description: 'A label can have different colors',
-      model: '    <a class="ui primary label">Primary</a>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Variations',
+    title2: 'Colored',
+    description: 'A label can have different colors',
+    model: '    <a class="ui primary label">Primary</a>\n' +
       '    <a class="ui secondary label">Secondary</a>\n' +
       '    <a class="ui red label">Red</a>\n' +
       '    <a class="ui orange label">Orange</a>\n' +
@@ -44,7 +43,6 @@ export default {
       '    <a class="ui brown label">Brown</a>\n' +
       '    <a class="ui grey label">Grey</a>\n' +
       '    <a class="ui black label">Black</a>\n',
-    };
   },
 };
 </script>

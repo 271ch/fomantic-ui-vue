@@ -16,15 +16,14 @@
 <script>
 export default {
   name: 'ViewCardDescription1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Content',
-      title2: 'Description',
-      description: 'A card can contain a description with one or more paragraphs',
-      model: '    <div class="ui card">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Content',
+    title2: 'Description',
+    description: 'A card can contain a description with one or more paragraphs',
+    model: '    <div class="ui card">\n' +
       '      <div class="content">\n' +
       '        <div class="header">Cute Dog</div>\n' +
       '        <div class="meta">2 days ago</div>\n' +
@@ -34,7 +33,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -197,15 +197,14 @@
 <script>
 export default {
   name: 'ViewFeedSize2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'feed',
-      title1: 'Variations',
-      title2: 'Size',
-      description: 'A feed can have different sizes',
-      model: '    <div class="ui large feed">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'feed',
+    title1: 'Variations',
+    title2: 'Size',
+    description: 'A feed can have different sizes',
+    model: '    <div class="ui large feed">\n' +
       '      <div class="event">\n' +
       '        <div class="label">\n' +
       '          <img src="/images/avatar/small/elliot.jpg"/>\n' +
@@ -396,7 +395,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

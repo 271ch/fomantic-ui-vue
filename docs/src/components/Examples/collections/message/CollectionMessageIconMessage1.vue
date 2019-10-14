@@ -15,15 +15,14 @@
 <script>
 export default {
   name: 'CollectionMessageIconMessage1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'message',
-      title1: 'Types',
-      title2: 'Icon Message',
-      description: 'A message can contain an icon.',
-      model: '    <div class="ui icon message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'message',
+    title1: 'Types',
+    title2: 'Icon Message',
+    description: 'A message can contain an icon.',
+    model: '    <div class="ui icon message">\n' +
       '      <i class="inbox icon"/>\n' +
       '      <div class="content">\n' +
       '        <div class="header">\n' +
@@ -32,7 +31,6 @@ export default {
       '        <p>Get the best news in your e-mail every day.</p>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -28,15 +28,14 @@
 <script>
 export default {
   name: 'CollectionFormDropdown1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Content',
-      title2: 'Dropdown',
-      description: 'A form can contain a',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Content',
+    title2: 'Dropdown',
+    description: 'A form can contain a',
+    model: '    <div class="ui ignored info message">\n' +
       '      Dropdown will automatically convert <code>select</code> elements initialized as dropdowns. For more details check out <a href="/modules/dropdown.html#usage">the dropdown docs</a>\n' +
       '    </div>\n' +
       '    <div class="code" data-type="javascript" data-label="true">\n' +
@@ -58,7 +57,6 @@ export default {
       '          </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

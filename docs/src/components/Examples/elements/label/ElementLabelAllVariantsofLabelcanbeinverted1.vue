@@ -56,15 +56,14 @@
 <script>
 export default {
   name: 'ElementLabelAllVariantsofLabelcanbeinverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Inverted',
-      title2: 'All Variants of Label can be inverted',
-      description: '???',
-      model: '    <div class="ui inverted segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Inverted',
+    title2: 'All Variants of Label can be inverted',
+    description: '???',
+    model: '    <div class="ui inverted segment">\n' +
       '        <a class="ui primary inverted label">Primary</a>\n' +
       '        <a class="ui secondary inverted label">Secondary</a>\n' +
       '        <a class="ui red inverted label">Red</a>\n' +
@@ -114,7 +113,6 @@ export default {
       '        <a class="ui grey inverted tag label">Grey</a>\n' +
       '        <a class="ui black inverted tag label">Black</a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

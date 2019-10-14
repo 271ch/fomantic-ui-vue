@@ -26,15 +26,14 @@
 <script>
 export default {
   name: 'ElementListSize2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Variations',
-      title2: 'Size',
-      description: 'A list can vary in size',
-      model: '    <div class="ui tiny horizontal list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Variations',
+    title2: 'Size',
+    description: 'A list can vary in size',
+    model: '    <div class="ui tiny horizontal list">\n' +
       '      <div class="item">\n' +
       '        <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
       '        <div class="content">\n' +
@@ -54,7 +53,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

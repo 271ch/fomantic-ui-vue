@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'CollectionMenuInput1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Content',
-      title2: 'Input',
-      description: 'A menu item can contain an',
-      model: '    <div class="ui menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Content',
+    title2: 'Input',
+    description: 'A menu item can contain an',
+    model: '    <div class="ui menu">\n' +
       '      <div class="item">\n' +
       '        <div class="ui icon input">\n' +
       '          <input type="text" placeholder="Search..."/>\n' +
@@ -42,7 +41,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

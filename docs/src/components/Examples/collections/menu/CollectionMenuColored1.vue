@@ -22,15 +22,14 @@
 <script>
 export default {
   name: 'CollectionMenuColored1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Variations',
-      title2: 'Colored',
-      description: 'Additional colors can be specified.',
-      model: '    <div class="ui menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Variations',
+    title2: 'Colored',
+    description: 'Additional colors can be specified.',
+    model: '    <div class="ui menu">\n' +
       '      <a class="active red item">Red</a>\n' +
       '      <a class="orange item">Orange</a>\n' +
       '      <a class="yellow item">Yellow</a>\n' +
@@ -46,7 +45,6 @@ export default {
       '      <a class="brown item">Brown</a>\n' +
       '      <a class="grey item">Grey</a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

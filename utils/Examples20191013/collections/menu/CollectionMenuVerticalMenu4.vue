@@ -17,15 +17,14 @@
 <script>
 export default {
   name: 'CollectionMenuVerticalMenu4',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Types',
-      title2: 'Vertical Menu',
-      description: 'A vertical menu displays elements vertically..',
-      model: '    <div class="ui vertical pointing menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Types',
+    title2: 'Vertical Menu',
+    description: 'A vertical menu displays elements vertically..',
+    model: '    <div class="ui vertical pointing menu">\n' +
       '      <a class="active item">\n' +
       '        Home\n' +
       '      </a>\n' +
@@ -36,7 +35,6 @@ export default {
       '        Friends\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

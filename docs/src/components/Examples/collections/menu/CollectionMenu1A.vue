@@ -26,15 +26,14 @@
 <script>
 export default {
   name: 'CollectionMenu1A',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Variations',
-      title2: '???',
-      description: 'A vertical menu can also vary in size',
-      model: '    <div class="ui mini vertical menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Variations',
+    title2: '???',
+    description: 'A vertical menu can also vary in size',
+    model: '    <div class="ui mini vertical menu">\n' +
       '      <a class="active item">\n' +
       '        <div class="ui teal label">1</div>\n' +
       '        Inbox\n' +
@@ -54,7 +53,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

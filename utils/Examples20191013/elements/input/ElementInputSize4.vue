@@ -10,19 +10,17 @@
 <script>
 export default {
   name: 'ElementInputSize4',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'input',
-      title1: 'Variations',
-      title2: 'Size',
-      description: 'An input can vary in size',
-      model: '    <div class="ui big icon input">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'input',
+    title1: 'Variations',
+    title2: 'Size',
+    description: 'An input can vary in size',
+    model: '    <div class="ui big icon input">\n' +
       '      <input type="text" placeholder="Search big..."/>\n' +
       '      <i class="search icon"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -26,15 +26,14 @@
 <script>
 export default {
   name: 'ElementListVerticallyAligned1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Content Variations',
-      title2: 'Vertically Aligned',
-      description: 'An element inside a list can be vertically aligned',
-      model: '    <div class="ui horizontal list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Content Variations',
+    title2: 'Vertically Aligned',
+    description: 'An element inside a list can be vertically aligned',
+    model: '    <div class="ui horizontal list">\n' +
       '      <div class="item">\n' +
       '        <img class="ui avatar image" src="/images/wireframe/square-image.png"/>\n' +
       '        <div class="top aligned content">\n' +
@@ -54,7 +53,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

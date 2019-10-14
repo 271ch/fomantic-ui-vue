@@ -26,15 +26,14 @@
 <script>
 export default {
   name: 'ElementListDivided1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Variations',
-      title2: 'Divided',
-      description: 'A list can show divisions between content',
-      model: '    <div class="ui middle aligned divided list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Variations',
+    title2: 'Divided',
+    description: 'A list can show divisions between content',
+    model: '    <div class="ui middle aligned divided list">\n' +
       '      <div class="item">\n' +
       '        <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
       '        <div class="content">\n' +
@@ -54,7 +53,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

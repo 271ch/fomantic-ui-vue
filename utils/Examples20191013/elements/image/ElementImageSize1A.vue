@@ -12,21 +12,19 @@
 <script>
 export default {
   name: 'ElementImageSize1A',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'image',
-      title1: 'Groups',
-      title2: 'Size',
-      description: 'A group of images can be formatted to have the same size.',
-      model: '    <div class="ui tiny images">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'image',
+    title1: 'Groups',
+    title2: 'Size',
+    description: 'A group of images can be formatted to have the same size.',
+    model: '    <div class="ui tiny images">\n' +
       '      <img class="ui image" src="/images/wireframe/image.png"/>\n' +
       '      <img class="ui image" src="/images/wireframe/image.png"/>\n' +
       '      <img class="ui image" src="/images/wireframe/image.png"/>\n' +
       '      <img class="ui image" src="/images/wireframe/image.png"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

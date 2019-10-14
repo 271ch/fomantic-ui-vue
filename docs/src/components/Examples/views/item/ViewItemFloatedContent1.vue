@@ -66,15 +66,14 @@
 <script>
 export default {
   name: 'ViewItemFloatedContent1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'item',
-      title1: 'Variations',
-      title2: 'Floated Content',
-      description: 'Any content element can be floated left or right',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'item',
+    title1: 'Variations',
+    title2: 'Floated Content',
+    description: 'Any content element can be floated left or right',
+    model: '    <div class="ui ignored info message">\n' +
       '      <i class="info icon"/>\n' +
       '      You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
       '    </div>\n' +
@@ -134,7 +133,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

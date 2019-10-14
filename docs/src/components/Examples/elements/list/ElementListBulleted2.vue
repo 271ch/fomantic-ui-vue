@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ElementListBulleted2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Types',
-      title2: 'Bulleted',
-      description: 'A list can mark items with a bullet',
-      model: '    <div class="ignored ui info message">For convenience, a simple bulleted list can also use <code>ul</code> tag.</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Types',
+    title2: 'Bulleted',
+    description: 'A list can mark items with a bullet',
+    model: '    <div class="ignored ui info message">For convenience, a simple bulleted list can also use <code>ul</code> tag.</div>\n' +
       '    <ul class="ui list">\n' +
       '      <li>Gaining Access</li>\n' +
       '      <li>Inviting Friends</li>\n' +
@@ -40,7 +39,6 @@ export default {
       '      </li>\n' +
       '      <li>Warranty</li>\n' +
       '    </ul>\n',
-    };
   },
 };
 </script>

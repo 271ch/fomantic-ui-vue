@@ -34,15 +34,14 @@
 <script>
 export default {
   name: 'ElementLoaderInverted2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'loader',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'Loaders can have their colors inverted.',
-      model: '    <div class="ui ignored info message">Loaders will automatically be inverted inside <code>inverted dimmer</code></div>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'loader',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'Loaders can have their colors inverted.',
+    model: '    <div class="ui ignored info message">Loaders will automatically be inverted inside <code>inverted dimmer</code></div>\n' +
       '    <div class="ui segment">\n' +
       '      <div class="ui active inverted dimmer">\n' +
       '        <div class="ui mini text loader">Loading</div>\n' +
@@ -70,7 +69,6 @@ export default {
       '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
       '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -17,15 +17,14 @@
 <script>
 export default {
   name: 'ElementListItem1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Content',
-      title2: 'Item',
-      description: 'A list item can contain a set of items',
-      model: '    <div class="ui list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Content',
+    title2: 'Item',
+    description: 'A list item can contain a set of items',
+    model: '    <div class="ui list">\n' +
       '      <div class="item">\n' +
       '        1\n' +
       '      </div>\n' +
@@ -36,7 +35,6 @@ export default {
       '        3\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

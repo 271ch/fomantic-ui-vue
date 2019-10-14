@@ -57,15 +57,14 @@
 <script>
 export default {
   name: 'CollectionMenuMenu2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Types',
-      title2: 'Menu',
-      description: 'A menu',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Types',
+    title2: 'Menu',
+    description: 'A menu',
+    model: '    <div class="ui ignored info message">\n' +
       '      Many of the following examples use a coupling with <a href="/modules/dropdown.html">dropdowns</a> to display dropdown menus inside of <code>ui menu</code>. Please consult the dropdown documentation for the correct javascript initialization for this component.\n' +
       '    </div>\n' +
       '    <div class="ui text menu">\n' +
@@ -116,7 +115,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

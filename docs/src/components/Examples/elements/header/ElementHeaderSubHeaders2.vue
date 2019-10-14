@@ -29,15 +29,14 @@
 <script>
 export default {
   name: 'ElementHeaderSubHeaders2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'header',
-      title1: 'Types',
-      title2: 'Sub Headers',
-      description: 'Headers may be formatted to label smaller or de-emphasized content.',
-      model: '    <div class="ui horizontal list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'header',
+    title1: 'Types',
+    title2: 'Sub Headers',
+    description: 'Headers may be formatted to label smaller or de-emphasized content.',
+    model: '    <div class="ui horizontal list">\n' +
       '      <div class="item">\n' +
       '        <img class="ui mini circular image" src="/images/avatar2/small/molly.png"/>\n' +
       '        <div class="content">\n' +
@@ -60,7 +59,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

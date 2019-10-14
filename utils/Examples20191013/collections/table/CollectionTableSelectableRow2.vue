@@ -32,15 +32,14 @@
 <script>
 export default {
   name: 'CollectionTableSelectableRow2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Selectable Row',
-      description: 'A table can have its rows appear selectable',
-      model: '    <table class="ui selectable inverted table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Selectable Row',
+    description: 'A table can have its rows appear selectable',
+    model: '    <table class="ui selectable inverted table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th>Name</th>\n' +
@@ -66,7 +65,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

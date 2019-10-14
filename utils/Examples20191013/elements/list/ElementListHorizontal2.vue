@@ -29,15 +29,14 @@
 <script>
 export default {
   name: 'ElementListHorizontal2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Variations',
-      title2: 'Horizontal',
-      description: 'A list can be formatted to have items appear horizontally',
-      model: '    <div class="ui ordered horizontal list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Variations',
+    title2: 'Horizontal',
+    description: 'A list can be formatted to have items appear horizontally',
+    model: '    <div class="ui ordered horizontal list">\n' +
       '      <div class="item">\n' +
       '        <img class="ui avatar image" src="/images/avatar/small/tom.jpg"/>\n' +
       '        <div class="content">\n' +
@@ -60,7 +59,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

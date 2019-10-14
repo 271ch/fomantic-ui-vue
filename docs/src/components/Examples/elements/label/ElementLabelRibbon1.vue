@@ -25,15 +25,14 @@
 <script>
 export default {
   name: 'ElementLabelRibbon1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Types',
-      title2: 'Ribbon',
-      description: 'A label can appear as a ribbon attaching itself to an element.',
-      model: '    <div class="ui two column grid">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Types',
+    title2: 'Ribbon',
+    description: 'A label can appear as a ribbon attaching itself to an element.',
+    model: '    <div class="ui two column grid">\n' +
       '      <div class="column">\n' +
       '        <div class="ui raised segment">\n' +
       '          <a class="ui red ribbon label">Overview</a>\n' +
@@ -52,7 +51,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -30,15 +30,14 @@
 <script>
 export default {
   name: 'ElementLabelIcon4',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Content',
-      title2: 'Icon',
-      description: 'A label can include an icon',
-      model: '    <div class="ignored ui warning message">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Content',
+    title2: 'Icon',
+    description: 'A label can include an icon',
+    model: '    <div class="ignored ui warning message">\n' +
       '      For backward-compatibility during v2.x, <code>close</code>/<code>delete</code> icon.\n' +
       '      <ul>\n' +
       '        <li>Requires <code>left icon</code> to be added to the parent <code>label</code> when the icon is placed on the left of a label.</li>\n' +
@@ -62,7 +61,6 @@ export default {
       '      Delete\n' +
       '      <i class="delete icon"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

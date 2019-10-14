@@ -25,15 +25,14 @@
 <script>
 export default {
   name: 'CollectionFormFields1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Content',
-      title2: 'Fields',
-      description: 'A set of fields can appear grouped together',
-      model: '    <div class="ui ignored positive message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Content',
+    title2: 'Fields',
+    description: 'A set of fields can appear grouped together',
+    model: '    <div class="ui ignored positive message">\n' +
       '      Field groups automatically receive responsive styling, swapping to one field per row on mobile devices.\n' +
       '    </div>\n' +
       '    <div class="ui form">\n' +
@@ -52,7 +51,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

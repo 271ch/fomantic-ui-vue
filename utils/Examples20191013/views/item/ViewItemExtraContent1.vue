@@ -21,15 +21,14 @@
 <script>
 export default {
   name: 'ViewItemExtraContent1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'item',
-      title1: 'Content',
-      title2: 'Extra Content',
-      description: 'An item can contain extra content meant to be formatted separately from the main content',
-      model: '    <div class="ui items">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'item',
+    title1: 'Content',
+    title2: 'Extra Content',
+    description: 'An item can contain extra content meant to be formatted separately from the main content',
+    model: '    <div class="ui items">\n' +
       '      <div class="item">\n' +
       '        <div class="content">\n' +
       '          <a class="header">Cute Dog</a>\n' +
@@ -44,7 +43,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'ElementStepSize5',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'step',
-      title1: 'Variations',
-      title2: 'Size',
-      description: 'Steps can have different sizes',
-      model: '    <div class="ui big steps">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'step',
+    title1: 'Variations',
+    title2: 'Size',
+    description: 'Steps can have different sizes',
+    model: '    <div class="ui big steps">\n' +
       '      <div class="step">\n' +
       '        <i class="truck icon"/>\n' +
       '        <div class="content">\n' +
@@ -42,7 +41,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>
