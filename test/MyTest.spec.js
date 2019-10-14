@@ -1,43 +1,25 @@
 /* eslint-disable */
 
-// Step 1: make this test compile
-//    - `import b` should work also without the ending `vue`
-//    - no compilation error (TypeError: Super expression must either be null or a function)
-// Step 2: replace `expect('1').toMatch('1')` with
-//                 `expect(b.converted).toMatch(true)`
-// Step 3: if `b.converted == true`, check that the generated html from the
-//         template is equivalent (as html) to `b.model`
-// Step 4: run the test on all components, see commented code at the bottom
+// TODO: if `b.converted == true`, check that the generated html from the
+//       template is equivalent (as html) to `b.model`
 
 import Vue from 'vue'
-// import FuiVue from '../src'
 
 import { shallowMount } from '@vue/test-utils'
-// import examples from '../docs/src/components/Examples/examples'
+import examples from '../docs/src/components/Examples/examples'
 
-import b from '../docs/src/components/Examples/elements/button/ElementButtonButton1.vue'
-// import b from '../docs/src/components/Examples/elements/button/ElementButtonButton1'
-
-
-describe('dummy', () => {
-  it('dummy test', () => {
-    expect('1').toMatch('1')
-    // expect(b.converted).toMatch(true)
-  })
-})
-
-/*
-for (let et in examples) {
-  describe(et[0], () => {
-    for (let e in et[1]) {
-      describe(e[0], () => {
-        for (let c in e[1]) {
-          it(c, () => {
-            expect(e[1][c].converted).toMatch(true)
+for (let a in examples) {
+  let [et,bb] = examples[a]
+  describe(`Element type: [${et}]`, () => {
+    for (let bbb in bb) {
+      let [e,b2] = bb[bbb]
+      describe(`Element: [${e}]`, () => {
+        for (let b in b2) {
+          it(`Template ${b2[b].name}`, () => {
+            expect(b2[b].info.converted).toBe(true)
           })
-        }
+        };
       })
-    }
+    };
   })
-}
-*/
+};
