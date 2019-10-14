@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "fomantic-ui-css": "^2.7.8",
     "fomantic-ui-vue": "file:../../fomantic-ui-vue",
     "vue": "^2.6.10"
   },
@@ -19,7 +20,6 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "fomantic-ui-sass": "^2.7.80006",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
