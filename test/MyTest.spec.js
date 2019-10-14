@@ -5,7 +5,9 @@
 //    - no compilation error (TypeError: Super expression must either be null or a function)
 // Step 2: replace `expect('1').toMatch('1')` with
 //                 `expect(b.converted).toMatch(true)`
-// Step 3: run the test on all components, see commented code at the bottom
+// Step 3: if `b.converted == true`, check that the generated html from the
+//         template is equivalent (as html) to `b.model`
+// Step 4: run the test on all components, see commented code at the bottom
 
 import Vue from 'vue'
 // import FuiVue from '../src'
