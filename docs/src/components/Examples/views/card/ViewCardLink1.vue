@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ViewCardLink1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Content',
-      title2: 'Link',
-      description: 'A card can contain contain links as images, headers, or inside content',
-      model: '    <div class="ui ignored info message">To make the entire content of a card link, check out the link variation below\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Content',
+    title2: 'Link',
+    description: 'A card can contain contain links as images, headers, or inside content',
+    model: '    <div class="ui ignored info message">To make the entire content of a card link, check out the link variation below\n' +
       '    </div>\n' +
       '    <div class="ui card">\n' +
       '      <a class="image" href="#">\n' +
@@ -40,7 +39,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

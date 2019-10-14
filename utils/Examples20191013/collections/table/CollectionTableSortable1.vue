@@ -39,15 +39,14 @@
 <script>
 export default {
   name: 'CollectionTableSortable1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Sortable',
-      description: 'A table may allow a user to sort contents by clicking on a table header.',
-      model: '    <div class="ui ignored warning message">Adding the class <code>ascending</code> or <code>descending</code> to the <code>th</code> will show the user the sorting direction. This example uses a modified version of the kylefox\'s <a href="https://github.com/kylefox/jquery-tablesort">tablesort plugin</a> to provide the proper class names. To make sortable tables work, include <a href="http://semantic-ui.com/javascript/library/tablesort.js">this javascript</a> into your page and call <code>$(\'table\').tablesort()</code> when the DOM is ready.\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Sortable',
+    description: 'A table may allow a user to sort contents by clicking on a table header.',
+    model: '    <div class="ui ignored warning message">Adding the class <code>ascending</code> or <code>descending</code> to the <code>th</code> will show the user the sorting direction. This example uses a modified version of the kylefox\'s <a href="https://github.com/kylefox/jquery-tablesort">tablesort plugin</a> to provide the proper class names. To make sortable tables work, include <a href="http://semantic-ui.com/javascript/library/tablesort.js">this javascript</a> into your page and call <code>$(\'table\').tablesort()</code> when the DOM is ready.\n' +
       '    </div>\n' +
       '    <table class="ui sortable celled table">\n' +
       '      <thead>\n' +
@@ -80,7 +79,6 @@ export default {
       '        <th/>\n' +
       '      </tfoot>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

@@ -51,15 +51,14 @@
 <script>
 export default {
   name: 'ViewCardCards1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Types',
-      title2: 'Cards',
-      description: 'A group of cards.',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Types',
+    title2: 'Cards',
+    description: 'A group of cards.',
+    model: '    <div class="ui ignored info message">\n' +
       '      <p>Cards are designed to be flexible to your content. <code>content</code> blocks can include any custom elements related to your content.</p>\n' +
       '    </div>\n' +
       '    <div class="ui cards">\n' +
@@ -104,7 +103,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

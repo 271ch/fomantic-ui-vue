@@ -37,15 +37,14 @@
 <script>
 export default {
   name: 'ElementSegmentPlaceholderSegment3',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'segment',
-      title1: 'Types',
-      title2: 'Placeholder Segment',
-      description: 'A segment can be used to reserve space for conditionally displayed content.',
-      model: '    <div class="ui placeholder segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'segment',
+    title1: 'Types',
+    title2: 'Placeholder Segment',
+    description: 'A segment can be used to reserve space for conditionally displayed content.',
+    model: '    <div class="ui placeholder segment">\n' +
       '      <div class="ui two column stackable center aligned grid">\n' +
       '        <div class="ui vertical divider">Or</div>\n' +
       '        <div class="middle aligned row">\n' +
@@ -76,7 +75,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

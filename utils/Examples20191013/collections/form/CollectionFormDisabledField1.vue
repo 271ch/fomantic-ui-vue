@@ -18,15 +18,14 @@
 <script>
 export default {
   name: 'CollectionFormDisabledField1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'States',
-      title2: 'Disabled Field',
-      description: 'Individual fields may be disabled',
-      model: '    <div class="ui form">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'States',
+    title2: 'Disabled Field',
+    description: 'Individual fields may be disabled',
+    model: '    <div class="ui form">\n' +
       '      <div class="two fields">\n' +
       '        <div class="disabled field">\n' +
       '          <label>First Name</label>\n' +
@@ -38,7 +37,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

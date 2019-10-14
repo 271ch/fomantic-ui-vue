@@ -18,15 +18,14 @@
 <script>
 export default {
   name: 'ElementRailAttached2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'rail',
-      title1: 'Variations',
-      title2: 'Attached',
-      description: 'A rail can appear attached to the main viewport',
-      model: '    <div class="ui segment" style="left: -150px; width: 960px;min-height: 300px;">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'rail',
+    title1: 'Variations',
+    title2: 'Attached',
+    description: 'A rail can appear attached to the main viewport',
+    model: '    <div class="ui segment" style="left: -150px; width: 960px;min-height: 300px;">\n' +
       '      <div class="ui left internal attached rail">\n' +
       '        <div class="ui segment">\n' +
       '          Left Rail Content\n' +
@@ -38,7 +37,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

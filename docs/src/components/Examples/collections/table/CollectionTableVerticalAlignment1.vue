@@ -35,15 +35,14 @@
 <script>
 export default {
   name: 'CollectionTableVerticalAlignment1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Vertical Alignment',
-      description: 'A table header, row, or cell can adjust its vertical alignment',
-      model: '    <table class="ui striped table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Vertical Alignment',
+    description: 'A table header, row, or cell can adjust its vertical alignment',
+    model: '    <table class="ui striped table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th>Name</th>\n' +
@@ -72,7 +71,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

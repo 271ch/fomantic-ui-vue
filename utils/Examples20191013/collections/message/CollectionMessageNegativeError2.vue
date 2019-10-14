@@ -16,15 +16,14 @@
 <script>
 export default {
   name: 'CollectionMessageNegativeError2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'message',
-      title1: 'Variations',
-      title2: 'Negative / Error',
-      description: 'A message may be formatted to display a negative message.',
-      model: '    <div class="ui error message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'message',
+    title1: 'Variations',
+    title2: 'Negative / Error',
+    description: 'A message may be formatted to display a negative message.',
+    model: '    <div class="ui error message">\n' +
       '      <i class="close icon"/>\n' +
       '      <div class="header">\n' +
       '        There were some errors with your submission\n' +
@@ -34,7 +33,6 @@ export default {
       '        <li>You need to select your home country.</li>\n' +
       '      </ul>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

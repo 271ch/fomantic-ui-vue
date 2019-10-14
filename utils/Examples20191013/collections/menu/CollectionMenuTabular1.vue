@@ -17,15 +17,14 @@
 <script>
 export default {
   name: 'CollectionMenuTabular1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Types',
-      title2: 'Tabular',
-      description: 'A menu can be formatted to show tabs of information',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Types',
+    title2: 'Tabular',
+    description: 'A menu can be formatted to show tabs of information',
+    model: '    <div class="ui ignored info message">\n' +
       '      Be sure to visit the <a href="/modules/tab.html">tab documentation</a> for information on how to set up dynamic tabs\n' +
       '    </div>\n' +
       '    <div class="ui tabular menu">\n' +
@@ -36,7 +35,6 @@ export default {
       '        Photos\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

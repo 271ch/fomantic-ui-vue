@@ -10,19 +10,17 @@
 <script>
 export default {
   name: 'ElementInputLoading3',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'input',
-      title1: 'States',
-      title2: 'Loading',
-      description: 'An icon input field can show that it is currently loading data',
-      model: '    <div class="ui icon input purple double loading">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'input',
+    title1: 'States',
+    title2: 'Loading',
+    description: 'An icon input field can show that it is currently loading data',
+    model: '    <div class="ui icon input purple double loading">\n' +
       '        <input type="text" placeholder="Search..."/>\n' +
       '        <i class="search icon"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

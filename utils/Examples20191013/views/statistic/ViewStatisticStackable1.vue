@@ -104,15 +104,14 @@
 <script>
 export default {
   name: 'ViewStatisticStackable1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'statistic',
-      title1: 'Variations',
-      title2: 'Stackable',
-      description: 'A statistic can automatically stack rows to a single columns on mobile devices',
-      model: '    <div class="ui stackable statistics">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'statistic',
+    title1: 'Variations',
+    title2: 'Stackable',
+    description: 'A statistic can automatically stack rows to a single columns on mobile devices',
+    model: '    <div class="ui stackable statistics">\n' +
       '      <div class="red statistic">\n' +
       '        <div class="value">\n' +
       '          27\n' +
@@ -210,7 +209,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

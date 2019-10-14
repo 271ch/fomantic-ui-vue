@@ -32,15 +32,14 @@
 <script>
 export default {
   name: 'CollectionFormEqualWidthFields1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Group Variations',
-      title2: 'Equal Width Fields',
-      description: 'Fields can automatically divide fields to be equal width',
-      model: '    <div class="ui form">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Group Variations',
+    title2: 'Equal Width Fields',
+    description: 'Fields can automatically divide fields to be equal width',
+    model: '    <div class="ui form">\n' +
       '      <div class="fields">\n' +
       '        <div class="field">\n' +
       '          <label>Username</label>\n' +
@@ -66,7 +65,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

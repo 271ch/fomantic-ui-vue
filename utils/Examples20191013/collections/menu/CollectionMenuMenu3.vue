@@ -47,15 +47,14 @@
 <script>
 export default {
   name: 'CollectionMenuMenu3',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Types',
-      title2: 'Menu',
-      description: 'A menu',
-      model: '    <div class="ui top attached menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Types',
+    title2: 'Menu',
+    description: 'A menu',
+    model: '    <div class="ui top attached menu">\n' +
       '      <div class="ui dropdown icon item">\n' +
       '        <i class="wrench icon"/>\n' +
       '        <div class="menu">\n' +
@@ -96,7 +95,6 @@ export default {
       '    <div class="ui bottom attached segment">\n' +
       '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -15,15 +15,14 @@
 <script>
 export default {
   name: 'ElementSegmentEmphasis3',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'segment',
-      title1: 'Variations',
-      title2: 'Emphasis',
-      description: 'A segment can be formatted to appear more or less noticeable',
-      model: '    <div class="ui inverted red segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'segment',
+    title1: 'Variations',
+    title2: 'Emphasis',
+    description: 'A segment can be formatted to appear more or less noticeable',
+    model: '    <div class="ui inverted red segment">\n' +
       '      <p>I\'m here to tell you something, and you will probably read me first.</p>\n' +
       '    </div>\n' +
       '    <div class="ui secondary inverted red segment">\n' +
@@ -32,7 +31,6 @@ export default {
       '    <div class="ui tertiary inverted red segment">\n' +
       '      <p>If you notice me you must be looking very hard.</p>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

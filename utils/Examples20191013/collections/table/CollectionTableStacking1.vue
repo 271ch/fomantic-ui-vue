@@ -58,15 +58,14 @@
 <script>
 export default {
   name: 'CollectionTableStacking1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Stacking',
-      description: 'A table can specify how it stacks table content responsively',
-      model: '    <table class="ui unstackable table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Stacking',
+    description: 'A table can specify how it stacks table content responsively',
+    model: '    <table class="ui unstackable table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th>Name</th>\n' +
@@ -118,7 +117,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

@@ -9,18 +9,16 @@
 <script>
 export default {
   name: 'ElementSegmentPadded1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'segment',
-      title1: 'Variations',
-      title2: 'Padded',
-      description: 'A segment can increase its padding',
-      model: '    <div class="ui padded segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'segment',
+    title1: 'Variations',
+    title2: 'Padded',
+    description: 'A segment can increase its padding',
+    model: '    <div class="ui padded segment">\n' +
       '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

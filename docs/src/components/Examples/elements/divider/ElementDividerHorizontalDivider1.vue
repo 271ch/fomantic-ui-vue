@@ -23,15 +23,14 @@
 <script>
 export default {
   name: 'ElementDividerHorizontalDivider1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'divider',
-      title1: 'Types',
-      title2: 'Horizontal Divider',
-      description: 'A divider can segment content horizontally',
-      model: '    <div class="ui ignored message">Horizontal dividers can also be used in combination with <a href="/elements/header.html">headers</a> and <a href="/elements/icon.html">icons</a> to create different styles of dividers.\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'divider',
+    title1: 'Types',
+    title2: 'Horizontal Divider',
+    description: 'A divider can segment content horizontally',
+    model: '    <div class="ui ignored message">Horizontal dividers can also be used in combination with <a href="/elements/header.html">headers</a> and <a href="/elements/icon.html">icons</a> to create different styles of dividers.\n' +
       '    </div>\n' +
       '    <div class="ui ignored info message">Dividers will automatically vary the size of their dividing rules to match the length of your text</div>\n' +
       '    <div class="ui center aligned basic segment">\n' +
@@ -48,7 +47,6 @@ export default {
       '        <i class="add icon"/>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

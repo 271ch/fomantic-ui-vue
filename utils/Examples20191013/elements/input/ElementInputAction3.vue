@@ -18,15 +18,14 @@
 <script>
 export default {
   name: 'ElementInputAction3',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'input',
-      title1: 'Variations',
-      title2: 'Action',
-      description: 'An input can be formatted to alert the user to an action they may perform',
-      model: '    <div class="ui right action left icon input">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'input',
+    title1: 'Variations',
+    title2: 'Action',
+    description: 'An input can be formatted to alert the user to an action they may perform',
+    model: '    <div class="ui right action left icon input">\n' +
       '      <i class="search icon"/>\n' +
       '      <input type="text" placeholder="Search"/>\n' +
       '      <div class="ui basic floating dropdown button">\n' +
@@ -38,7 +37,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

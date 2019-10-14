@@ -68,15 +68,14 @@
 <script>
 export default {
   name: 'CollectionTableDefinition2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Types',
-      title2: 'Definition',
-      description: 'A table may be formatted to emphasize a first column that defines a rows content',
-      model: '    <table class="ui compact celled definition table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Types',
+    title2: 'Definition',
+    description: 'A table may be formatted to emphasize a first column that defines a rows content',
+    model: '    <table class="ui compact celled definition table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th/>\n' +
@@ -138,7 +137,6 @@ export default {
       '        </tr>\n' +
       '      </tfoot>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

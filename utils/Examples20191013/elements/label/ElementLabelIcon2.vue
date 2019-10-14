@@ -23,15 +23,14 @@
 <script>
 export default {
   name: 'ElementLabelIcon2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Content',
-      title2: 'Icon',
-      description: 'A label can include an icon',
-      model: '    <div class="ignored ui info message">Icons can be placed to the right inside a label.</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Content',
+    title2: 'Icon',
+    description: 'A label can include an icon',
+    model: '    <div class="ignored ui info message">Icons can be placed to the right inside a label.</div>\n' +
       '    <div class="ui right icon label">\n' +
       '      Mail\n' +
       '      <i class="mail icon"/>\n' +
@@ -48,7 +47,6 @@ export default {
       '      Cat\n' +
       '      <i class="cat icon"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

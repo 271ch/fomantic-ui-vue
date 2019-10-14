@@ -36,15 +36,14 @@
 <script>
 export default {
   name: 'ViewCommentReplyForm1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'comment',
-      title1: 'Content',
-      title2: 'Reply Form',
-      description: 'A comment can contain a form to reply to a comment. This may have arbitrary content.',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'comment',
+    title1: 'Content',
+    title2: 'Reply Form',
+    description: 'A comment can contain a form to reply to a comment. This may have arbitrary content.',
+    model: '    <div class="ui ignored info message">\n' +
       '      <p>If a comment form is located inside a <code> ui comment</code> it will be formatted as an nested reply form. If the comment form is included after all comments, it will be formatted as a normal reply form.</p>\n' +
       '    </div>\n' +
       '    <div class="ui comments">\n' +
@@ -74,7 +73,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

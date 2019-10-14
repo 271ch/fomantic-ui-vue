@@ -25,15 +25,14 @@
 <script>
 export default {
   name: 'ViewCardImage1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Content',
-      title2: 'Image',
-      description: 'A card can contain an image',
-      model: '    <div class="ui ignored info message">Cards can use <a href="/elements/reveal.html">reveal</a> or <a href="/modules/dimmer.html">dimmers</a> to easily show additional content, or options on hover</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Content',
+    title2: 'Image',
+    description: 'A card can contain an image',
+    model: '    <div class="ui ignored info message">Cards can use <a href="/elements/reveal.html">reveal</a> or <a href="/modules/dimmer.html">dimmers</a> to easily show additional content, or options on hover</div>\n' +
       '    <div class="ui card">\n' +
       '      <div class="ui slide masked reveal image">\n' +
       '        <img src="/images/avatar/large/jenny.jpg" class="visible content"/>\n' +
@@ -52,7 +51,6 @@ export default {
       '        </a>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

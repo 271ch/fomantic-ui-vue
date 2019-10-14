@@ -14,15 +14,14 @@
 <script>
 export default {
   name: 'ElementHeaderIcon2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'header',
-      title1: 'Content',
-      title2: 'Icon',
-      description: 'A header may contain an',
-      model: '    <h2 class="ui header">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'header',
+    title1: 'Content',
+    title2: 'Icon',
+    description: 'A header may contain an',
+    model: '    <h2 class="ui header">\n' +
       '      <i class="settings icon"/>\n' +
       '      <div class="content">\n' +
       '        Account Settings\n' +
@@ -30,7 +29,6 @@ export default {
       '      </div>\n' +
       '    </h2>\n' +
       '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n',
-    };
   },
 };
 </script>

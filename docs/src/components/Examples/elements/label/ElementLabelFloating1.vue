@@ -52,15 +52,14 @@
 <script>
 export default {
   name: 'ElementLabelFloating1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Types',
-      title2: 'Floating',
-      description: 'A label can float above or below another element.',
-      model: '    <div class="ui ignored warning message">A floating label must be positioned inside a container with <b>position: relative</b> to display properly.</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Types',
+    title2: 'Floating',
+    description: 'A label can float above or below another element.',
+    model: '    <div class="ui ignored warning message">A floating label must be positioned inside a container with <b>position: relative</b> to display properly.</div>\n' +
       '    <div class="ui compact menu">\n' +
       '      <a class="item">\n' +
       '        <i class="icon mail"/> Messages\n' +
@@ -106,7 +105,6 @@ export default {
       '        <div class="bottom floating ui teal label">22 Friends</div>\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

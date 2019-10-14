@@ -68,15 +68,14 @@
 <script>
 export default {
   name: 'ElementImageSize1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'image',
-      title1: 'Variations',
-      title2: 'Size',
-      description: 'An image may appear at different sizes',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'image',
+    title1: 'Variations',
+    title2: 'Size',
+    description: 'An image may appear at different sizes',
+    model: '    <div class="ui ignored info message">\n' +
       '      Fomantic uses arbitrary default values for image sizes from mini to massive. It is recommended to update these with values used in your project in <code>image.variables</code>.\n' +
       '    </div>\n' +
       '    <table class="ui definition table">\n' +
@@ -138,7 +137,6 @@ export default {
       '      <img class="ui huge image" src="/images/wireframe/image.png"/>\n' +
       '      <img class="ui massive image" src="/images/wireframe/image.png"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

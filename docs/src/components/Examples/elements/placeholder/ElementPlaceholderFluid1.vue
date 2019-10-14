@@ -17,15 +17,14 @@
 <script>
 export default {
   name: 'ElementPlaceholderFluid1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'placeholder',
-      title1: 'Variations',
-      title2: 'Fluid',
-      description: 'A fluid placeholder takes up the width of its container',
-      model: '    <div class="ui fluid placeholder">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'placeholder',
+    title1: 'Variations',
+    title2: 'Fluid',
+    description: 'A fluid placeholder takes up the width of its container',
+    model: '    <div class="ui fluid placeholder">\n' +
       '      <div class="image header">\n' +
       '        <div class="line"/>\n' +
       '        <div class="line"/>\n' +
@@ -36,7 +35,6 @@ export default {
       '        <div class="line"/>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

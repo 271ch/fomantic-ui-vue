@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'ViewCardExtraContent1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Content',
-      title2: 'Extra Content',
-      description: 'A card can contain extra content meant to be formatted separately from the main content',
-      model: '    <div class="ui card">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Content',
+    title2: 'Extra Content',
+    description: 'A card can contain extra content meant to be formatted separately from the main content',
+    model: '    <div class="ui card">\n' +
       '      <div class="content">\n' +
       '        <div class="header">Cute Dog</div>\n' +
       '        <div class="meta">2 days ago</div>\n' +
@@ -42,7 +41,6 @@ export default {
       '        121 Votes\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

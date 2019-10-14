@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ElementListOrdered1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Types',
-      title2: 'Ordered',
-      description: 'A list can be ordered numerically',
-      model: '    <div class="ui ordered list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Types',
+    title2: 'Ordered',
+    description: 'A list can be ordered numerically',
+    model: '    <div class="ui ordered list">\n' +
       '      <a class="item">Getting Started</a>\n' +
       '      <a class="item">Introduction</a>\n' +
       '      <div class="item">\n' +
@@ -40,7 +39,6 @@ export default {
       '      </div>\n' +
       '      <a class="item">Review</a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

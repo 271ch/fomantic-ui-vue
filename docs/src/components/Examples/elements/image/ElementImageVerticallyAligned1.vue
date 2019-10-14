@@ -14,15 +14,14 @@
 <script>
 export default {
   name: 'ElementImageVerticallyAligned1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'image',
-      title1: 'Variations',
-      title2: 'Vertically Aligned',
-      description: 'An image can specify its vertical alignment',
-      model: '    <img class="ui top aligned tiny image" src="/images/wireframe/square-image.png"/>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'image',
+    title1: 'Variations',
+    title2: 'Vertically Aligned',
+    description: 'An image can specify its vertical alignment',
+    model: '    <img class="ui top aligned tiny image" src="/images/wireframe/square-image.png"/>\n' +
       '    <span>Top Aligned</span>\n' +
       '    <div class="ui divider"/>\n' +
       '    <img class="ui middle aligned tiny image" src="/images/wireframe/square-image.png"/>\n' +
@@ -30,7 +29,6 @@ export default {
       '    <div class="ui divider"/>\n' +
       '    <img class="ui bottom aligned tiny image" src="/images/wireframe/square-image.png"/>\n' +
       '    <span>Bottom Aligned</span>\n',
-    };
   },
 };
 </script>

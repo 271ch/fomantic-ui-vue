@@ -29,15 +29,14 @@
 <script>
 export default {
   name: 'CollectionMenuFixed1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Variations',
-      title2: 'Fixed',
-      description: 'A menu can be fixed to a side of its context',
-      model: '    <div class="ui ignored info message">These examples use a an <code>iframe</code>, to prevent content from sticking to the browser viewport.</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Variations',
+    title2: 'Fixed',
+    description: 'A menu can be fixed to a side of its context',
+    model: '    <div class="ui ignored info message">These examples use a an <code>iframe</code>, to prevent content from sticking to the browser viewport.</div>\n' +
       '    <div class="ui ignored positive message">For more advanced behaviors consider using a <a href="/modules/sticky.html">sticky menu</a> or <a href="/behaviors/visibility.html#fixing-content-to-viewport">visibility APIs</a>.</div>\n' +
       '    <iframe src="/iframe/fixed-menu.html"/>\n' +
       '    <div class="existing code">\n' +
@@ -60,7 +59,6 @@ export default {
       '      <p/>\n' +
       '      <p/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

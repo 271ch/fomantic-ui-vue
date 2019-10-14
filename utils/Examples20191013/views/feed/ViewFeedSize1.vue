@@ -37,15 +37,14 @@
 <script>
 export default {
   name: 'ViewFeedSize1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'feed',
-      title1: 'Variations',
-      title2: 'Size',
-      description: 'A feed can have different sizes',
-      model: '    <div class="ui small feed">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'feed',
+    title1: 'Variations',
+    title2: 'Size',
+    description: 'A feed can have different sizes',
+    model: '    <div class="ui small feed">\n' +
       '      <h4 class="ui header">Followers Activity</h4>\n' +
       '      <div class="event">\n' +
       '        <div class="content">\n' +
@@ -76,7 +75,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

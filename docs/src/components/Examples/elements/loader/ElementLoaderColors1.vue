@@ -21,15 +21,14 @@
 <script>
 export default {
   name: 'ElementLoaderColors1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'loader',
-      title1: 'Variations',
-      title2: 'Colors',
-      description: 'Loaders can be different colors',
-      model: '    <div class="ui active primary inline loader"/>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'loader',
+    title1: 'Variations',
+    title2: 'Colors',
+    description: 'Loaders can be different colors',
+    model: '    <div class="ui active primary inline loader"/>\n' +
       '    <div class="ui active secondary inline loader"/>\n' +
       '    <div class="ui active red inline loader"/>\n' +
       '    <div class="ui active orange inline loader"/>\n' +
@@ -44,7 +43,6 @@ export default {
       '    <div class="ui active brown inline loader"/>\n' +
       '    <div class="ui active grey inline loader"/>\n' +
       '    <div class="ui active black inline loader"/>\n',
-    };
   },
 };
 </script>

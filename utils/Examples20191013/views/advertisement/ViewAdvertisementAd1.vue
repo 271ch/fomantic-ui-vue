@@ -65,15 +65,14 @@
 <script>
 export default {
   name: 'ViewAdvertisementAd1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'advertisement',
-      title1: 'Types',
-      title2: 'Ad',
-      description: 'A standard ad',
-      model: '    <div class="ui ignored message">The following example uses a basic <a href="https://support.google.com/adsense/answer/181947?ctx=as2&amp;rd=2&amp;ref_topic=29033" target="_blank">AdSense implementation</a>. Your code will vary depending on your ad network.</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'advertisement',
+    title1: 'Types',
+    title2: 'Ad',
+    description: 'A standard ad',
+    model: '    <div class="ui ignored message">The following example uses a basic <a href="https://support.google.com/adsense/answer/181947?ctx=as2&amp;rd=2&amp;ref_topic=29033" target="_blank">AdSense implementation</a>. Your code will vary depending on your ad network.</div>\n' +
       '    <div class="ui medium rectangle ad">\n' +
       '      <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>\n' +
       '      <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-4591861188995436" data-ad-slot="4640466102"/>\n' +
@@ -132,7 +131,6 @@ export default {
       '      !-->\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

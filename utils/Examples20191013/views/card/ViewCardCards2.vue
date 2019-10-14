@@ -77,15 +77,14 @@
 <script>
 export default {
   name: 'ViewCardCards2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Types',
-      title2: 'Cards',
-      description: 'A group of cards.',
-      model: '    <div class="ui link cards">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Types',
+    title2: 'Cards',
+    description: 'A group of cards.',
+    model: '    <div class="ui link cards">\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
       '          <img src="/images/avatar2/large/matthew.png"/>\n' +
@@ -156,7 +155,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

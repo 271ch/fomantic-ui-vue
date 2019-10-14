@@ -34,15 +34,14 @@
 <script>
 export default {
   name: 'CollectionMenuSubMenu1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Content',
-      title2: 'Sub Menu',
-      description: 'A menu item may contain another menu nested inside that acts as a grouped sub-menu.',
-      model: '    <div class="ui vertical menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Content',
+    title2: 'Sub Menu',
+    description: 'A menu item may contain another menu nested inside that acts as a grouped sub-menu.',
+    model: '    <div class="ui vertical menu">\n' +
       '      <div class="item">\n' +
       '        <div class="ui input"><input type="text" placeholder="Search..."/></div>\n' +
       '      </div>\n' +
@@ -70,7 +69,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -23,15 +23,14 @@
 <script>
 export default {
   name: 'CollectionBreadcrumbInverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'breadcrumb',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'A breadcrumb can be inverted',
-      model: '    <div class="ui inverted segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'breadcrumb',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'A breadcrumb can be inverted',
+    model: '    <div class="ui inverted segment">\n' +
       '        <div class="ui inverted breadcrumb">\n' +
       '            <a class="section">Home</a>\n' +
       '            <i class="right chevron icon divider"/>\n' +
@@ -48,7 +47,6 @@ export default {
       '            <div class="active section">Personal Information</div>\n' +
       '        </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

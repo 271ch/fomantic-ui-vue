@@ -43,15 +43,14 @@
 <script>
 export default {
   name: 'ElementRailSize1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'rail',
-      title1: 'Variations',
-      title2: 'Size',
-      description: 'A rail can have different sizes',
-      model: '    <div class="ui segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'rail',
+    title1: 'Variations',
+    title2: 'Size',
+    description: 'A rail can have different sizes',
+    model: '    <div class="ui segment">\n' +
       '      <div class="ui left mini rail">\n' +
       '        Mini\n' +
       '      </div>\n' +
@@ -88,7 +87,6 @@ export default {
       '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
       '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

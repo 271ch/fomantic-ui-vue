@@ -60,15 +60,14 @@
 <script>
 export default {
   name: 'ViewStatisticSize2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'statistic',
-      title1: 'Variations',
-      title2: 'Size',
-      description: 'A statistic can vary in size',
-      model: '    <div class="ui ignored divider"/>\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'statistic',
+    title1: 'Variations',
+    title2: 'Size',
+    description: 'A statistic can vary in size',
+    model: '    <div class="ui ignored divider"/>\n' +
       '    <div class="ui mini horizontal statistic">\n' +
       '      <div class="value">\n' +
       '        2,204\n' +
@@ -122,7 +121,6 @@ export default {
       '        Views\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

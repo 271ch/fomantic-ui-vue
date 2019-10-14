@@ -42,15 +42,14 @@
 <script>
 export default {
   name: 'ViewStatisticEvenlyDivided1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'statistic',
-      title1: 'Variations',
-      title2: 'Evenly Divided',
-      description: 'A statistic group can have its items divided evenly',
-      model: '    <div class="ui four statistics">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'statistic',
+    title1: 'Variations',
+    title2: 'Evenly Divided',
+    description: 'A statistic group can have its items divided evenly',
+    model: '    <div class="ui four statistics">\n' +
       '      <div class="statistic">\n' +
       '        <div class="value">\n' +
       '          22\n' +
@@ -86,7 +85,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

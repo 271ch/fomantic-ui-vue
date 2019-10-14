@@ -35,15 +35,14 @@
 <script>
 export default {
   name: 'CollectionMenuLabeledIcon1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Variations',
-      title2: 'Labeled Icon',
-      description: 'A menu may have labeled icons',
-      model: '    <div class="ui labeled icon menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Variations',
+    title2: 'Labeled Icon',
+    description: 'A menu may have labeled icons',
+    model: '    <div class="ui labeled icon menu">\n' +
       '      <a class="item">\n' +
       '        <i class="gamepad icon"/>\n' +
       '        Games\n' +
@@ -72,7 +71,6 @@ export default {
       '        Videos\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

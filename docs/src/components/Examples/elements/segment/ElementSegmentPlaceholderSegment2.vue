@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ElementSegmentPlaceholderSegment2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'segment',
-      title1: 'Types',
-      title2: 'Placeholder Segment',
-      description: 'A segment can be used to reserve space for conditionally displayed content.',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'segment',
+    title1: 'Types',
+    title2: 'Placeholder Segment',
+    description: 'A segment can be used to reserve space for conditionally displayed content.',
+    model: '    <div class="ui ignored info message">\n' +
       '      To use inline-block content inside a placeholder, wrap the content in <code>inline</code>.\n' +
       '    </div>\n' +
       '    <div class="ui placeholder segment">\n' +
@@ -40,7 +39,6 @@ export default {
       '        <div class="ui button">Add Document</div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

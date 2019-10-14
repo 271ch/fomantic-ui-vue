@@ -1095,15 +1095,14 @@
 <script>
 export default {
   name: 'CollectionGrid1A',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'grid',
-      title1: '???',
-      title2: '???',
-      description: '???',
-      model: '    <h2 class="ui dividing header">Types</h2>\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'grid',
+    title1: '???',
+    title2: '???',
+    description: '???',
+    model: '    <h2 class="ui dividing header">Types</h2>\n' +
       '    <div class="highlighted example">\n' +
       '      <h4 class="ui header">\n' +
       '        Grid\n' +
@@ -2192,7 +2191,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

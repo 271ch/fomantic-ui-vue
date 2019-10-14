@@ -21,15 +21,14 @@
 <script>
 export default {
   name: 'ElementInputInverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'input',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'An input can be formatted to appear on dark backgrounds',
-      model: '    <div class="ui inverted segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'input',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'An input can be formatted to appear on dark backgrounds',
+    model: '    <div class="ui inverted segment">\n' +
       '      <div class="ui inverted input">\n' +
       '        <input type="text" placeholder="Search..."/>\n' +
       '      </div>\n' +
@@ -44,7 +43,6 @@ export default {
       '        <i class="search icon"/>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

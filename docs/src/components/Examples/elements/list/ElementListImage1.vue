@@ -46,15 +46,14 @@
 <script>
 export default {
   name: 'ElementListImage1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Content',
-      title2: 'Image',
-      description: 'A list item can contain an image',
-      model: '<!--     <div class="ui ignored warning message">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Content',
+    title2: 'Image',
+    description: 'A list item can contain an image',
+    model: '<!--     <div class="ui ignored warning message">\n' +
       '      Due to issues with <a href="https://github.com/philipwalton/flexbugs#5-column-flex-items-dont-always-preserve-intrinsic-aspect-ratios" target="_blank">intrinsic aspect ratio in flexbox</a> <code>img</code> should use a container element.\n' +
       '    </div> -->\n' +
       '    <div class="ui list">\n' +
@@ -94,7 +93,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

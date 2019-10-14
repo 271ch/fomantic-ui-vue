@@ -28,15 +28,14 @@
 <script>
 export default {
   name: 'ElementStepInverted2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'step',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'A step\'s color can be inverted',
-      model: '    <div class="ui inverted segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'step',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'A step\'s color can be inverted',
+    model: '    <div class="ui inverted segment">\n' +
       '      <div class="ui inverted ordered steps">\n' +
       '        <div class="completed step">\n' +
       '          <div class="content">\n' +
@@ -58,7 +57,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -31,15 +31,14 @@
 <script>
 export default {
   name: 'CollectionTableColumnWidth1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Column Width',
-      description: 'A table can specify the width of individual columns independently.',
-      model: '    <div class="ui ignored info message">Tables use a 16 column grid similar to <a href="/collections/grid.html">ui grid</a></div>\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Column Width',
+    description: 'A table can specify the width of individual columns independently.',
+    model: '    <div class="ui ignored info message">Tables use a 16 column grid similar to <a href="/collections/grid.html">ui grid</a></div>\n' +
       '    <table class="ui table">\n' +
       '      <thead>\n' +
       '        <th class="ten wide">Name</th>\n' +
@@ -64,7 +63,6 @@ export default {
       '        <th>2 Approved</th>\n' +
       '      </tfoot>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

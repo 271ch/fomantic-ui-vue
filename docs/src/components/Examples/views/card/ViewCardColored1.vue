@@ -83,15 +83,14 @@
 <script>
 export default {
   name: 'ViewCardColored1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Variations',
-      title2: 'Colored',
-      description: 'A card can specify a color',
-      model: '    <div class="ui four cards">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Variations',
+    title2: 'Colored',
+    description: 'A card can specify a color',
+    model: '    <div class="ui four cards">\n' +
       '      <a class="primary card">\n' +
       '        <div class="image">\n' +
       '          <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
@@ -168,7 +167,6 @@ export default {
       '        </div>\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

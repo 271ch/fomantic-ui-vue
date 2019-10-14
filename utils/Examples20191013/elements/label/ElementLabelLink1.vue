@@ -9,18 +9,16 @@
 <script>
 export default {
   name: 'ElementLabelLink1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Content',
-      title2: 'Link',
-      description: 'A label can be a link or contain an item that links',
-      model: '    <a class="ui label">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Content',
+    title2: 'Link',
+    description: 'A label can be a link or contain an item that links',
+    model: '    <a class="ui label">\n' +
       '      <i class="mail icon"/> 23\n' +
       '    </a>\n',
-    };
   },
 };
 </script>

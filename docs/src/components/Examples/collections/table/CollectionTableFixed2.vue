@@ -33,15 +33,14 @@
 <script>
 export default {
   name: 'CollectionTableFixed2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Fixed',
-      description: 'A table can use',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Fixed',
+    description: 'A table can use',
+    model: '    <div class="ui ignored info message">\n' +
       '      Fixed <code>single line</code> tables will automatically ensure content that does not fit in a single line will receive "..." ellipsis\n' +
       '    </div>\n' +
       '    <table class="ui fixed single line celled table">\n' +
@@ -68,7 +67,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

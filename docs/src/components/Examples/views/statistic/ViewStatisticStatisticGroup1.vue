@@ -32,15 +32,14 @@
 <script>
 export default {
   name: 'ViewStatisticStatisticGroup1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'statistic',
-      title1: 'Types',
-      title2: 'Statistic Group',
-      description: 'A group of statistics',
-      model: '    <div class="ui statistics">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'statistic',
+    title1: 'Types',
+    title2: 'Statistic Group',
+    description: 'A group of statistics',
+    model: '    <div class="ui statistics">\n' +
       '      <div class="statistic">\n' +
       '        <div class="value">\n' +
       '          22\n' +
@@ -66,7 +65,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

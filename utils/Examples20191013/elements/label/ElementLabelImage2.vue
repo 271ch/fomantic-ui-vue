@@ -21,15 +21,14 @@
 <script>
 export default {
   name: 'ElementLabelImage2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Types',
-      title2: 'Image',
-      description: 'A label can be formatted to emphasize an image',
-      model: '    <a class="ui blue image label">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Types',
+    title2: 'Image',
+    description: 'A label can be formatted to emphasize an image',
+    model: '    <a class="ui blue image label">\n' +
       '      <img src="/images/avatar/small/veronika.jpg"/>\n' +
       '      Veronika\n' +
       '      <div class="detail">Friend</div>\n' +
@@ -44,7 +43,6 @@ export default {
       '      Helen\n' +
       '      <div class="detail">Co-worker</div>\n' +
       '    </a>\n',
-    };
   },
 };
 </script>

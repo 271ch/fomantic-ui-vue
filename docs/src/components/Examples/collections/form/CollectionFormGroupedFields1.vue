@@ -34,15 +34,14 @@
 <script>
 export default {
   name: 'CollectionFormGroupedFields1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Group Variations',
-      title2: 'Grouped Fields',
-      description: 'Fields can show related choices',
-      model: '    <div class="ui form">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Group Variations',
+    title2: 'Grouped Fields',
+    description: 'Fields can show related choices',
+    model: '    <div class="ui form">\n' +
       '      <div class="grouped fields">\n' +
       '        <div class="field">\n' +
       '          <div class="ui radio checkbox">\n' +
@@ -70,7 +69,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

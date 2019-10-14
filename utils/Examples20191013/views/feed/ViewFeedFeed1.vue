@@ -113,15 +113,14 @@
 <script>
 export default {
   name: 'ViewFeedFeed1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'feed',
-      title1: 'Types',
-      title2: 'Feed',
-      description: 'A feed',
-      model: '    <div class="ui feed">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'feed',
+    title1: 'Types',
+    title2: 'Feed',
+    description: 'A feed',
+    model: '    <div class="ui feed">\n' +
       '      <div class="event">\n' +
       '        <div class="label">\n' +
       '          <img src="/images/avatar/small/elliot.jpg"/>\n' +
@@ -228,7 +227,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

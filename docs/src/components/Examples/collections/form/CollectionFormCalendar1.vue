@@ -22,15 +22,14 @@
 <script>
 export default {
   name: 'CollectionFormCalendar1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Content',
-      title2: 'Calendar',
-      description: 'A form can contain a',
-      model: '    <div class="code" data-type="javascript" data-label="true">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Content',
+    title2: 'Calendar',
+    description: 'A form can contain a',
+    model: '    <div class="code" data-type="javascript" data-label="true">\n' +
       '      $(\'.ui.calendar\').calendar({\n' +
       '        type: \'date\'\n' +
       '      });\n' +
@@ -46,7 +45,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

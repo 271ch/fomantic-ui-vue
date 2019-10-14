@@ -18,15 +18,14 @@
 <script>
 export default {
   name: 'ElementInputLabeled2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'input',
-      title1: 'Variations',
-      title2: 'Labeled',
-      description: 'An input can be formatted with a label',
-      model: '    <div class="ui right labeled input">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'input',
+    title1: 'Variations',
+    title2: 'Labeled',
+    description: 'An input can be formatted with a label',
+    model: '    <div class="ui right labeled input">\n' +
       '      <input type="text" placeholder="Find domain"/>\n' +
       '      <div class="ui dropdown label">\n' +
       '        <div class="text">.com</div>\n' +
@@ -38,7 +37,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

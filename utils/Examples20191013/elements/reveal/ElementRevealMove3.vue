@@ -14,15 +14,14 @@
 <script>
 export default {
   name: 'ElementRevealMove3',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'reveal',
-      title1: 'Types',
-      title2: 'Move',
-      description: 'An element can move in a direction to reveal content',
-      model: '    <div class="ui move up reveal">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'reveal',
+    title1: 'Types',
+    title2: 'Move',
+    description: 'An element can move in a direction to reveal content',
+    model: '    <div class="ui move up reveal">\n' +
       '      <div class="visible content">\n' +
       '        <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
       '      </div>\n' +
@@ -30,7 +29,6 @@ export default {
       '        <img src="/images/avatar/large/justen.jpg" class="ui small image"/>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -9,18 +9,16 @@
 <script>
 export default {
   name: 'ElementPlaceholderImage1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'placeholder',
-      title1: 'Content',
-      title2: 'Image',
-      description: 'A placeholder can contain an image',
-      model: '    <div class="ui placeholder" style="width:150px;height:150px;">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'placeholder',
+    title1: 'Content',
+    title2: 'Image',
+    description: 'A placeholder can contain an image',
+    model: '    <div class="ui placeholder" style="width:150px;height:150px;">\n' +
       '      <div class="image"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -15,15 +15,14 @@
 <script>
 export default {
   name: 'CollectionMessageListMessage1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'message',
-      title1: 'Types',
-      title2: 'List Message',
-      description: 'A message with a list',
-      model: '    <div class="ui message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'message',
+    title1: 'Types',
+    title2: 'List Message',
+    description: 'A message with a list',
+    model: '    <div class="ui message">\n' +
       '      <div class="header">\n' +
       '        New Site Features\n' +
       '      </div>\n' +
@@ -32,7 +31,6 @@ export default {
       '        <li>Drafts will now auto-save while writing</li>\n' +
       '      </ul>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

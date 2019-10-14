@@ -41,15 +41,14 @@
 <script>
 export default {
   name: 'ViewFeedAdditionalinformation1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'feed',
-      title1: 'Content',
-      title2: 'Additional information',
-      description: 'An event can contain additional information like a set of images or text',
-      model: '    <div class="ui feed">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'feed',
+    title1: 'Content',
+    title2: 'Additional information',
+    description: 'An event can contain additional information like a set of images or text',
+    model: '    <div class="ui feed">\n' +
       '      <div class="event">\n' +
       '        <div class="label">\n' +
       '          <img src="/images/avatar/small/helen.jpg"/>\n' +
@@ -84,7 +83,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

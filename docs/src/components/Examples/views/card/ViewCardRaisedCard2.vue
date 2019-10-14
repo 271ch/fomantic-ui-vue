@@ -22,15 +22,14 @@
 <script>
 export default {
   name: 'ViewCardRaisedCard2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Variations',
-      title2: 'Raised Card',
-      description: 'A card may be formatted to raise above the page.',
-      model: '    <div class="ui raised link card">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Variations',
+    title2: 'Raised Card',
+    description: 'A card may be formatted to raise above the page.',
+    model: '    <div class="ui raised link card">\n' +
       '      <div class="content">\n' +
       '        <div class="header">Cute Dog</div>\n' +
       '        <div class="meta">\n' +
@@ -46,7 +45,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -15,15 +15,14 @@
 <script>
 export default {
   name: 'ElementStepIcon1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'step',
-      title1: 'Content',
-      title2: 'Icon',
-      description: 'A step can contain an icon',
-      model: '    <div class="ui steps">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'step',
+    title1: 'Content',
+    title2: 'Icon',
+    description: 'A step can contain an icon',
+    model: '    <div class="ui steps">\n' +
       '      <div class="step">\n' +
       '        <i class="truck icon"/>\n' +
       '        <div class="content">\n' +
@@ -32,7 +31,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

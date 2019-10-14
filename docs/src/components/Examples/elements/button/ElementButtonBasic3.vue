@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ElementButtonBasic3',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Types',
-      title2: 'Basic',
-      description: 'A basic button is less pronounced',
-      model: '    <button class="ui red basic button">Red</button>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Types',
+    title2: 'Basic',
+    description: 'A basic button is less pronounced',
+    model: '    <button class="ui red basic button">Red</button>\n' +
       '    <button class="ui orange basic button">Orange</button>\n' +
       '    <button class="ui yellow basic button">Yellow</button>\n' +
       '    <button class="ui olive basic button">Olive</button>\n' +
@@ -40,7 +39,6 @@ export default {
       '    <button class="ui brown basic button">Brown</button>\n' +
       '    <button class="ui grey basic button">Grey</button>\n' +
       '    <button class="ui black basic button">Black</button>\n',
-    };
   },
 };
 </script>

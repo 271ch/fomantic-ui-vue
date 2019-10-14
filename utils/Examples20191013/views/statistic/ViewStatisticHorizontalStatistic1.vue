@@ -14,15 +14,14 @@
 <script>
 export default {
   name: 'ViewStatisticHorizontalStatistic1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'statistic',
-      title1: 'Variations',
-      title2: 'Horizontal Statistic',
-      description: 'A statistic can present its measurement horizontally',
-      model: '    <div class="ui horizontal statistic">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'statistic',
+    title1: 'Variations',
+    title2: 'Horizontal Statistic',
+    description: 'A statistic can present its measurement horizontally',
+    model: '    <div class="ui horizontal statistic">\n' +
       '      <div class="value">\n' +
       '        2,204\n' +
       '      </div>\n' +
@@ -30,7 +29,6 @@ export default {
       '        Views\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

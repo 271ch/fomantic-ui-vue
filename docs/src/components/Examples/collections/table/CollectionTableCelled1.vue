@@ -37,15 +37,14 @@
 <script>
 export default {
   name: 'CollectionTableCelled1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Celled',
-      description: 'A table may be divided each row into separate cells',
-      model: '    <table class="ui celled table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Celled',
+    description: 'A table may be divided each row into separate cells',
+    model: '    <table class="ui celled table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th>Name</th>\n' +
@@ -76,7 +75,6 @@ export default {
       '        <th/>\n' +
       '      </tfoot>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

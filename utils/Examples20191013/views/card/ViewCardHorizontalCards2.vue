@@ -36,15 +36,14 @@
 <script>
 export default {
   name: 'ViewCardHorizontalCards2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Variations',
-      title2: 'Horizontal Cards',
-      description: 'A card can display horizontally',
-      model: '    <div class="ui horizontal cards">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Variations',
+    title2: 'Horizontal Cards',
+    description: 'A card can display horizontally',
+    model: '    <div class="ui horizontal cards">\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
       '          <img src="/images/avatar2/large/matthew.png"/>\n' +
@@ -74,7 +73,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -65,15 +65,14 @@
 <script>
 export default {
   name: 'CollectionTableTable2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Types',
-      title2: 'Table',
-      description: 'A standard table',
-      model: '    <table class="ui celled padded table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Types',
+    title2: 'Table',
+    description: 'A standard table',
+    model: '    <table class="ui celled padded table">\n' +
       '      <thead>\n' +
       '        <th class="single line">Evidence Rating</th>\n' +
       '        <th>Effect</th>\n' +
@@ -132,7 +131,6 @@ export default {
       '        </th>\n' +
       '      </tfoot>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

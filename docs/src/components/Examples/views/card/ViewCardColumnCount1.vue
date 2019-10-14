@@ -80,15 +80,14 @@
 <script>
 export default {
   name: 'ViewCardColumnCount1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Variations',
-      title2: 'Column Count',
-      description: 'A group of cards can set how many cards should exist in a row',
-      model: '    <div class="ui four cards">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Variations',
+    title2: 'Column Count',
+    description: 'A group of cards can set how many cards should exist in a row',
+    model: '    <div class="ui four cards">\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
       '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
@@ -162,7 +161,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

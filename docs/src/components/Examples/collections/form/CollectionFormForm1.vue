@@ -26,15 +26,14 @@
 <script>
 export default {
   name: 'CollectionFormForm1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Types',
-      title2: 'Form',
-      description: 'A form',
-      model: '    <div class="ui ignored warning message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Types',
+    title2: 'Form',
+    description: 'A form',
+    model: '    <div class="ui ignored warning message">\n' +
       '      <p>If you are looking for validation you should check out <a href="/behaviors/form.html">form behaviors</a>.</p>\n' +
       '    </div>\n' +
       '    <form class="ui form">\n' +
@@ -54,7 +53,6 @@ export default {
       '      </div>\n' +
       '      <button class="ui button" type="submit">Submit</button>\n' +
       '    </form>\n',
-    };
   },
 };
 </script>

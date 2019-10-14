@@ -29,15 +29,14 @@
 <script>
 export default {
   name: 'ElementStepVertical1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'step',
-      title1: 'Groups',
-      title2: 'Vertical',
-      description: 'A step can be displayed stacked vertically',
-      model: '    <div class="ui vertical steps">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'step',
+    title1: 'Groups',
+    title2: 'Vertical',
+    description: 'A step can be displayed stacked vertically',
+    model: '    <div class="ui vertical steps">\n' +
       '      <div class="completed step">\n' +
       '        <i class="truck icon"/>\n' +
       '        <div class="content">\n' +
@@ -60,7 +59,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -30,15 +30,14 @@
 <script>
 export default {
   name: 'CollectionTableFixed1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Fixed',
-      description: 'A table can use',
-      model: '    <table class="ui fixed table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Fixed',
+    description: 'A table can use',
+    model: '    <table class="ui fixed table">\n' +
       '      <thead>\n' +
       '        <th>Name</th>\n' +
       '        <th>Status</th>\n' +
@@ -62,7 +61,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

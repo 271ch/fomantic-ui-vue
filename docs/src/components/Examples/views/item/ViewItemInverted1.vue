@@ -44,15 +44,14 @@
 <script>
 export default {
   name: 'ViewItemInverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'item',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'An item can be inverted to appear on a dark background',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'item',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'An item can be inverted to appear on a dark background',
+    model: '    <div class="ui ignored info message">\n' +
       '      <i class="info icon"/>\n' +
       '      You need to make sure to set a dark background on your own or wrap your items in an <code>inverted segment</code>\n' +
       '    </div>\n' +
@@ -90,7 +89,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -23,15 +23,14 @@
 <script>
 export default {
   name: 'ElementLabelCircularGroup1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Groups',
-      title2: 'Circular Group',
-      description: 'Labels can share shapes',
-      model: '    <div class="ui circular labels">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Groups',
+    title2: 'Circular Group',
+    description: 'Labels can share shapes',
+    model: '    <div class="ui circular labels">\n' +
       '      <a class="ui label">\n' +
       '        11\n' +
       '      </a>\n' +
@@ -48,7 +47,6 @@ export default {
       '        141\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

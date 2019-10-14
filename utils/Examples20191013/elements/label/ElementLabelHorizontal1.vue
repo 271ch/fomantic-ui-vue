@@ -24,15 +24,14 @@
 <script>
 export default {
   name: 'ElementLabelHorizontal1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Types',
-      title2: 'Horizontal',
-      description: 'A horizontal label is formatted to label content along-side it horizontally',
-      model: '    <div class="ui divided selection list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Types',
+    title2: 'Horizontal',
+    description: 'A horizontal label is formatted to label content along-side it horizontally',
+    model: '    <div class="ui divided selection list">\n' +
       '      <a class="item">\n' +
       '        <div class="ui red horizontal label">Fruit</div>\n' +
       '        Kumquats\n' +
@@ -50,7 +49,6 @@ export default {
       '        Poodle\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

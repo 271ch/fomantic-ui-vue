@@ -37,15 +37,14 @@
 <script>
 export default {
   name: 'CollectionTableCollapsing1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Collapsing',
-      description: 'A table can be collapsing, taking up only as much space as its rows.',
-      model: '    <table class="ui collapsing table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Collapsing',
+    description: 'A table can be collapsing, taking up only as much space as its rows.',
+    model: '    <table class="ui collapsing table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th>Name</th>\n' +
@@ -76,7 +75,6 @@ export default {
       '        <th/>\n' +
       '      </tfoot>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

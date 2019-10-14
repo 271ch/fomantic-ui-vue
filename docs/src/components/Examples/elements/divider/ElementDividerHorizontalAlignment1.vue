@@ -18,15 +18,14 @@
 <script>
 export default {
   name: 'ElementDividerHorizontalAlignment1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'divider',
-      title1: 'Types',
-      title2: 'Horizontal Alignment',
-      description: 'A horizontal divider can be aligned',
-      model: '    <h4 class="ui horizontal left aligned divider header">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'divider',
+    title1: 'Types',
+    title2: 'Horizontal Alignment',
+    description: 'A horizontal divider can be aligned',
+    model: '    <h4 class="ui horizontal left aligned divider header">\n' +
       '      <i class="left align icon"/>\n' +
       '      Left Aligned\n' +
       '    </h4>\n' +
@@ -38,7 +37,6 @@ export default {
       '      <i class="right align icon"/>\n' +
       '      Right Aligned\n' +
       '    </h4>\n',
-    };
   },
 };
 </script>

@@ -28,15 +28,14 @@
 <script>
 export default {
   name: 'CollectionMenuSecondaryMenu1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Types',
-      title2: 'Secondary Menu',
-      description: 'A menu can adjust its appearance to de-emphasize its contents',
-      model: '    <div class="ui secondary  menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Types',
+    title2: 'Secondary Menu',
+    description: 'A menu can adjust its appearance to de-emphasize its contents',
+    model: '    <div class="ui secondary  menu">\n' +
       '      <a class="active item">\n' +
       '        Home\n' +
       '      </a>\n' +
@@ -58,7 +57,6 @@ export default {
       '        </a>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -50,15 +50,14 @@
 <script>
 export default {
   name: 'ElementPlaceholderPlaceholder2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'placeholder',
-      title1: 'Types',
-      title2: 'Placeholder',
-      description: 'A placeholder is used to reserve space for content that soon will appear in a layout.',
-      model: '    <div class="ui three column stackable grid">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'placeholder',
+    title1: 'Types',
+    title2: 'Placeholder',
+    description: 'A placeholder is used to reserve space for content that soon will appear in a layout.',
+    model: '    <div class="ui three column stackable grid">\n' +
       '      <div class="column">\n' +
       '        <div class="ui raised segment">\n' +
       '          <div class="ui placeholder">\n' +
@@ -102,7 +101,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

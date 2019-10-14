@@ -29,15 +29,14 @@
 <script>
 export default {
   name: 'CollectionMenuTabular5',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Types',
-      title2: 'Tabular',
-      description: 'A menu can be formatted to show tabs of information',
-      model: '    <div class="ui grid">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Types',
+    title2: 'Tabular',
+    description: 'A menu can be formatted to show tabs of information',
+    model: '    <div class="ui grid">\n' +
       '      <div class="twelve wide stretched column">\n' +
       '        <div class="ui segment">\n' +
       '          This is an stretched grid column. This segment will always match the tab height\n' +
@@ -60,7 +59,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

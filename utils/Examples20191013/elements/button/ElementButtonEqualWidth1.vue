@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ElementButtonEqualWidth1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Group Variations',
-      title2: 'Equal Width',
-      description: 'Groups can have their widths divided evenly',
-      model: '    <div class="five ui buttons">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Group Variations',
+    title2: 'Equal Width',
+    description: 'Groups can have their widths divided evenly',
+    model: '    <div class="five ui buttons">\n' +
       '      <button class="ui button">Overview</button>\n' +
       '      <button class="ui button">Specs</button>\n' +
       '      <button class="ui button">Warranty</button>\n' +
@@ -40,7 +39,6 @@ export default {
       '      <button class="ui button">Specs</button>\n' +
       '      <button class="ui button">Support</button>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

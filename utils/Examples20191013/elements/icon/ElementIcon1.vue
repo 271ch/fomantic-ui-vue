@@ -6812,15 +6812,14 @@
 <script>
 export default {
   name: 'ElementIcon1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'icon',
-      title1: '???',
-      title2: '???',
-      description: 'An icon set contains an arbitrary number of glyphs',
-      model: '    <iconsearch class="ui right aligned search">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'icon',
+    title1: '???',
+    title2: '???',
+    description: 'An icon set contains an arbitrary number of glyphs',
+    model: '    <iconsearch class="ui right aligned search">\n' +
       '      <div class="ui icon input">\n' +
       '        <input class="prompt" type="text" placeholder="Search icons..."/>\n' +
       '        <i class="search icon"/>\n' +
@@ -13626,7 +13625,6 @@ export default {
       '        <i class="zhihu icon"/>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

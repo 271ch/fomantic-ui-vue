@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'CollectionFormSize7',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Form Variations',
-      title2: 'Size',
-      description: 'A form can vary in size',
-      model: '    <div class="ui massive form">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Form Variations',
+    title2: 'Size',
+    description: 'A form can vary in size',
+    model: '    <div class="ui massive form">\n' +
       '      <div class="two fields">\n' +
       '        <div class="field">\n' +
       '          <label>First Name</label>\n' +
@@ -40,7 +39,6 @@ export default {
       '      </div>\n' +
       '      <div class="ui submit button">Submit</div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

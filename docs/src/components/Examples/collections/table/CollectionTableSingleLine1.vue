@@ -36,15 +36,14 @@
 <script>
 export default {
   name: 'CollectionTableSingleLine1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Single Line',
-      description: 'A table can specify that its cell contents should remain on a single line, and not wrap.',
-      model: '    <table class="ui single line table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Single Line',
+    description: 'A table can specify that its cell contents should remain on a single line, and not wrap.',
+    model: '    <table class="ui single line table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th>Name</th>\n' +
@@ -74,7 +73,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

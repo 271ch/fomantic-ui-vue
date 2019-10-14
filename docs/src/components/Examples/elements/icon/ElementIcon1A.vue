@@ -171,15 +171,14 @@
 <script>
 export default {
   name: 'ElementIcon1A',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'icon',
-      title1: '???',
-      title2: '???',
-      description: '???',
-      model: '    <h2 class="ui dividing header">States</h2>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'icon',
+    title1: '???',
+    title2: '???',
+    description: '???',
+    model: '    <h2 class="ui dividing header">States</h2>\n' +
       '    <div class="example">\n' +
       '      <h4 class="ui header">Disabled</h4>\n' +
       '      <p>An icon can show that it is disabled</p>\n' +
@@ -344,7 +343,6 @@ export default {
       '        Add on Twitter\n' +
       '      </h2>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -222,15 +222,14 @@
 <script>
 export default {
   name: 'CollectionTableInverted2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'A table\'s colors can be inverted',
-      model: '    <table class="ui inverted red table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'A table\'s colors can be inverted',
+    model: '    <table class="ui inverted red table">\n' +
       '      <thead>\n' +
       '        <th>Food</th>\n' +
       '        <th>Calories</th>\n' +
@@ -446,7 +445,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

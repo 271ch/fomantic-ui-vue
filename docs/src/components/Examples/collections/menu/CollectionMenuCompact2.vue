@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'CollectionMenuCompact2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Variations',
-      title2: 'Compact',
-      description: 'A menu can take up only the space necessary to fit its content',
-      model: '    <div class="ui compact vertical labeled icon menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Variations',
+    title2: 'Compact',
+    description: 'A menu can take up only the space necessary to fit its content',
+    model: '    <div class="ui compact vertical labeled icon menu">\n' +
       '      <a class="item">\n' +
       '        <i class="gamepad icon"/>\n' +
       '        Games\n' +
@@ -42,7 +41,6 @@ export default {
       '        Videos\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

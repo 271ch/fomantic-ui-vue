@@ -21,15 +21,14 @@
 <script>
 export default {
   name: 'ElementPlaceholderParagraph1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'placeholder',
-      title1: 'Content',
-      title2: 'Paragraph',
-      description: 'A placeholder can contain a paragraph',
-      model: '    <div class="ui ignored info message">Paragraphs are used to group lines together.</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'placeholder',
+    title1: 'Content',
+    title2: 'Paragraph',
+    description: 'A placeholder can contain a paragraph',
+    model: '    <div class="ui ignored info message">Paragraphs are used to group lines together.</div>\n' +
       '    <div class="ui placeholder">\n' +
       '      <div class="paragraph">\n' +
       '        <div class="line"/>\n' +
@@ -44,7 +43,6 @@ export default {
       '        <div class="line"/>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

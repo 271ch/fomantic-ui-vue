@@ -27,15 +27,14 @@
 <script>
 export default {
   name: 'CollectionMenuVerticalMenu1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Types',
-      title2: 'Vertical Menu',
-      description: 'A vertical menu displays elements vertically..',
-      model: '    <div class="ui ignore warning message">A vertical menu\'s width defaults to an arbitrary size. To have it fit your content more precisely use the fluid variation in conjunction with <a href="grid.html">ui grid</a>.</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Types',
+    title2: 'Vertical Menu',
+    description: 'A vertical menu displays elements vertically..',
+    model: '    <div class="ui ignore warning message">A vertical menu\'s width defaults to an arbitrary size. To have it fit your content more precisely use the fluid variation in conjunction with <a href="grid.html">ui grid</a>.</div>\n' +
       '    <div class="ui vertical menu">\n' +
       '      <a class="active teal item">\n' +
       '        Inbox\n' +
@@ -56,7 +55,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

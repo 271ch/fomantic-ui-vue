@@ -16,15 +16,14 @@
 <script>
 export default {
   name: 'ElementLabelIcon3',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Content',
-      title2: 'Icon',
-      description: 'A label can include an icon',
-      model: '    <div class="ignored ui info message">Labels can contain individual icons without text.</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Content',
+    title2: 'Icon',
+    description: 'A label can include an icon',
+    model: '    <div class="ignored ui info message">Labels can contain individual icons without text.</div>\n' +
       '    <div class="ui icon label">\n' +
       '      <i class="mail icon"/>\n' +
       '    </div>\n' +
@@ -34,7 +33,6 @@ export default {
       '    <div class="ui icon label">\n' +
       '      <i class="cat icon"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

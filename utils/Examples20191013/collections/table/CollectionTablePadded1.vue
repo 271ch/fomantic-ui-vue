@@ -27,15 +27,14 @@
 <script>
 export default {
   name: 'CollectionTablePadded1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Padded',
-      description: 'A table may sometimes need to be more padded for legibility',
-      model: '    <table class="ui padded table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Padded',
+    description: 'A table may sometimes need to be more padded for legibility',
+    model: '    <table class="ui padded table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th>Name</th>\n' +
@@ -56,7 +55,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

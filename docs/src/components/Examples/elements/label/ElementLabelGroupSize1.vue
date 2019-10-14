@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'ElementLabelGroupSize1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Groups',
-      title2: 'Group Size',
-      description: 'Labels can share sizes together',
-      model: '    <div class="ui huge labels">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Groups',
+    title2: 'Group Size',
+    description: 'Labels can share sizes together',
+    model: '    <div class="ui huge labels">\n' +
       '      <div class="ui label">\n' +
       '        Fun\n' +
       '      </div>\n' +
@@ -42,7 +41,6 @@ export default {
       '        Witty\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

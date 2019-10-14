@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'ViewCardHorizontalCards1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Variations',
-      title2: 'Horizontal Cards',
-      description: 'A card can display horizontally',
-      model: '    <div class="ui horizontal card">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Variations',
+    title2: 'Horizontal Cards',
+    description: 'A card can display horizontally',
+    model: '    <div class="ui horizontal card">\n' +
       '      <div class="image">\n' +
       '        <img src="/images/avatar2/large/elyse.png"/>\n' +
       '      </div>\n' +
@@ -42,7 +41,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -64,15 +64,14 @@
 <script>
 export default {
   name: 'CollectionTableCompact2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Compact',
-      description: 'A table may sometimes need to be more compact to make more rows visible at a time',
-      model: '    <table class="ui very compact table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Compact',
+    description: 'A table may sometimes need to be more compact to make more rows visible at a time',
+    model: '    <table class="ui very compact table">\n' +
       '      <thead>\n' +
       '        <th>Name</th>\n' +
       '        <th>Status</th>\n' +
@@ -130,7 +129,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

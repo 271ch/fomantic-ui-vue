@@ -21,15 +21,14 @@
 <script>
 export default {
   name: 'ElementHeaderAttached1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'header',
-      title1: 'Variations',
-      title2: 'Attached',
-      description: 'A header can be attached to other content, like a',
-      model: '    <h3 class="ui top attached header">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'header',
+    title1: 'Variations',
+    title2: 'Attached',
+    description: 'A header can be attached to other content, like a',
+    model: '    <h3 class="ui top attached header">\n' +
       '      Top Attached\n' +
       '    </h3>\n' +
       '    <div class="ui attached segment">\n' +
@@ -44,7 +43,6 @@ export default {
       '    <h3 class="ui bottom attached header">\n' +
       '      Bottom Attached\n' +
       '    </h3>\n',
-    };
   },
 };
 </script>

@@ -36,15 +36,14 @@
 <script>
 export default {
   name: 'CollectionFormFieldError1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'States',
-      title2: 'Field Error',
-      description: 'Individual fields may display an error state',
-      model: '    <div class="ui form">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'States',
+    title2: 'Field Error',
+    description: 'Individual fields may display an error state',
+    model: '    <div class="ui form">\n' +
       '      <div class="two fields">\n' +
       '        <div class="field error">\n' +
       '          <label>First Name</label>\n' +
@@ -74,7 +73,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

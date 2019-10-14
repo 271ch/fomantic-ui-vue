@@ -11,20 +11,18 @@
 <script>
 export default {
   name: 'ElementHeaderIconHeaders2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'header',
-      title1: 'Types',
-      title2: 'Icon Headers',
-      description: 'A header can be formatted to emphasize an icon',
-      model: '    <h2 class="ui center aligned icon header">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'header',
+    title1: 'Types',
+    title2: 'Icon Headers',
+    description: 'A header can be formatted to emphasize an icon',
+    model: '    <h2 class="ui center aligned icon header">\n' +
       '      <i class="circular users icon"/>\n' +
       '      Friends\n' +
       '    </h2>\n' +
       '    <img class="ui centered wireframe image" src="/images/wireframe/centered-paragraph.png"/>\n',
-    };
   },
 };
 </script>

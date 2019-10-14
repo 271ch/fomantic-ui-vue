@@ -23,15 +23,14 @@
 <script>
 export default {
   name: 'ElementHeaderInverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'header',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'A header can have its colors inverted for contrast',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'header',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'A header can have its colors inverted for contrast',
+    model: '    <div class="ui ignored info message">\n' +
       '      Inverted headers use modified light versions of your site\'s color scheme that are adapted to have more contrast on dark background\n' +
       '    </div>\n' +
       '    <div class="ui inverted segment">\n' +
@@ -48,7 +47,6 @@ export default {
       '      <h4 class="ui brown inverted header">Brown</h4>\n' +
       '      <h4 class="ui grey inverted header">Grey</h4>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -18,15 +18,14 @@
 <script>
 export default {
   name: 'ElementSegmentAttached1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'segment',
-      title1: 'Variations',
-      title2: 'Attached',
-      description: 'A segment can be attached to other content on a page',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'segment',
+    title1: 'Variations',
+    title2: 'Attached',
+    description: 'A segment can be attached to other content on a page',
+    model: '    <div class="ui ignored info message">\n' +
       '      <p>Attached segments are designed to be used with other <code>attached</code> variations like <a href="/elements/header.html#attached">attached header</a> or <a href="/collections/message.html#attached">attached messages</a>.</p>\n' +
       '    </div>\n' +
       '    <div class="ui top attached segment">\n' +
@@ -38,7 +37,6 @@ export default {
       '    <div class="ui bottom attached segment">\n' +
       '      <p>This segment is on bottom</p>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

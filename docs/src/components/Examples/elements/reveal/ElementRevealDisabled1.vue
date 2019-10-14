@@ -14,15 +14,14 @@
 <script>
 export default {
   name: 'ElementRevealDisabled1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'reveal',
-      title1: 'States',
-      title2: 'Disabled',
-      description: 'A disabled reveal will not animate when hovered',
-      model: '    <div class="ui disabled move reveal">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'reveal',
+    title1: 'States',
+    title2: 'Disabled',
+    description: 'A disabled reveal will not animate when hovered',
+    model: '    <div class="ui disabled move reveal">\n' +
       '      <div class="visible content">\n' +
       '        <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
       '      </div>\n' +
@@ -30,7 +29,6 @@ export default {
       '        <img src="/images/avatar/large/chris.jpg" class="ui small image"/>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

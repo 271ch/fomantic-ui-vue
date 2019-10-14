@@ -17,15 +17,14 @@
 <script>
 export default {
   name: 'CollectionMenuStackable1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Variations',
-      title2: 'Stackable',
-      description: 'A menu can stack at mobile resolutions',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Variations',
+    title2: 'Stackable',
+    description: 'A menu can stack at mobile resolutions',
+    model: '    <div class="ui ignored info message">\n' +
       '      Stackable menus are intended to be used with only simple menu content. Stacked menus will not replicate all additional stylings for vertical menus like adjusting dropdown position.\n' +
       '    </div>\n' +
       '    <div class="ui stackable menu">\n' +
@@ -36,7 +35,6 @@ export default {
       '      <a class="item">Testimonials</a>\n' +
       '      <a class="item">Sign-in</a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

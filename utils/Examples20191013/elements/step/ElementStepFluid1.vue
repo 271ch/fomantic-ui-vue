@@ -29,15 +29,14 @@
 <script>
 export default {
   name: 'ElementStepFluid1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'step',
-      title1: 'Variations',
-      title2: 'Fluid',
-      description: 'A fluid step takes up the width of its container',
-      model: '    <div class="ui two column grid">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'step',
+    title1: 'Variations',
+    title2: 'Fluid',
+    description: 'A fluid step takes up the width of its container',
+    model: '    <div class="ui two column grid">\n' +
       '      <div class="column">\n' +
       '        <div class="ui fluid vertical steps">\n' +
       '          <div class="completed step">\n' +
@@ -60,7 +59,6 @@ export default {
       '        <p>The steps take up the entire column width</p>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

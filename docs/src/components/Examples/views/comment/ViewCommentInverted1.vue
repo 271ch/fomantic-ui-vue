@@ -89,15 +89,14 @@
 <script>
 export default {
   name: 'ViewCommentInverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'comment',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'Comments\'s colors can be inverted',
-      model: '    <div class="ui inverted segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'comment',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'Comments\'s colors can be inverted',
+    model: '    <div class="ui inverted segment">\n' +
       '      <div class="ui inverted threaded comments">\n' +
       '        <h3 class="ui inverted dividing header">Comments</h3>\n' +
       '        <div class="comment">\n' +
@@ -180,7 +179,6 @@ export default {
       '        </form>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

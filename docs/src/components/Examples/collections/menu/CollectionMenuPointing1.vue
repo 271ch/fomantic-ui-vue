@@ -28,15 +28,14 @@
 <script>
 export default {
   name: 'CollectionMenuPointing1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Types',
-      title2: 'Pointing',
-      description: 'A menu can point to show its relationship to nearby content',
-      model: '    <div class="ui pointing menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Types',
+    title2: 'Pointing',
+    description: 'A menu can point to show its relationship to nearby content',
+    model: '    <div class="ui pointing menu">\n' +
       '      <a class="active item">\n' +
       '        Home\n' +
       '      </a>\n' +
@@ -58,7 +57,6 @@ export default {
       '    <div class="ui segment">\n' +
       '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

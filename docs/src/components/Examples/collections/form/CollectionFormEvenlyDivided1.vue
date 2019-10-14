@@ -22,15 +22,14 @@
 <script>
 export default {
   name: 'CollectionFormEvenlyDivided1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Group Variations',
-      title2: 'Evenly Divided',
-      description: 'Fields can have their widths divided evenly',
-      model: '    <div class="ui form">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Group Variations',
+    title2: 'Evenly Divided',
+    description: 'Fields can have their widths divided evenly',
+    model: '    <div class="ui form">\n' +
       '      <div class="three fields">\n' +
       '        <div class="field">\n' +
       '          <label>First name</label>\n' +
@@ -46,7 +45,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

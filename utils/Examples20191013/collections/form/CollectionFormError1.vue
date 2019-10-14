@@ -17,15 +17,14 @@
 <script>
 export default {
   name: 'CollectionFormError1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'States',
-      title2: 'Error',
-      description: 'If a form is in an error state, it will automatically show any error message blocks.',
-      model: '    <div class="ui form error">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'States',
+    title2: 'Error',
+    description: 'If a form is in an error state, it will automatically show any error message blocks.',
+    model: '    <div class="ui form error">\n' +
       '      <div class="field">\n' +
       '        <label>E-mail</label>\n' +
       '        <input type="email" placeholder="joe@schmoe.com"/>\n' +
@@ -36,7 +35,6 @@ export default {
       '      </div>\n' +
       '      <div class="ui submit button">Submit</div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

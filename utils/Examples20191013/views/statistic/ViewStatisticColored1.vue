@@ -104,15 +104,14 @@
 <script>
 export default {
   name: 'ViewStatisticColored1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'statistic',
-      title1: 'Variations',
-      title2: 'Colored',
-      description: 'A statistic can be formatted to be different colors',
-      model: '    <div class="ui statistics">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'statistic',
+    title1: 'Variations',
+    title2: 'Colored',
+    description: 'A statistic can be formatted to be different colors',
+    model: '    <div class="ui statistics">\n' +
       '      <div class="red statistic">\n' +
       '        <div class="value">\n' +
       '          27\n' +
@@ -210,7 +209,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

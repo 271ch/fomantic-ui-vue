@@ -17,15 +17,14 @@
 <script>
 export default {
   name: 'ElementButtonIconButtons1A',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Group Variations',
-      title2: 'Icon Buttons',
-      description: 'Groups can be formatted as icons',
-      model: '    <div class="ui icon buttons">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Group Variations',
+    title2: 'Icon Buttons',
+    description: 'Groups can be formatted as icons',
+    model: '    <div class="ui icon buttons">\n' +
       '      <button class="ui button">\n' +
       '        <i class="play icon"/>\n' +
       '      </button>\n' +
@@ -36,7 +35,6 @@ export default {
       '        <i class="shuffle icon"/>\n' +
       '      </button>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -9,18 +9,16 @@
 <script>
 export default {
   name: 'ElementImageImage2',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'image',
-      title1: 'Types',
-      title2: 'Image',
-      description: 'An image',
-      model: '    <div class="ui small image">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'image',
+    title1: 'Types',
+    title2: 'Image',
+    description: 'An image',
+    model: '    <div class="ui small image">\n' +
       '      <img src="/images/wireframe/image.png"/>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

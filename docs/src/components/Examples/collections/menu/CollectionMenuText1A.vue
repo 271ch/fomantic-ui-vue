@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'CollectionMenuText1A',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Content',
-      title2: 'Text',
-      description: 'A vertical menu item can include any type of text content.',
-      model: '    <div class="ui vertical menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Content',
+    title2: 'Text',
+    description: 'A vertical menu item can include any type of text content.',
+    model: '    <div class="ui vertical menu">\n' +
       '      <a class="item">\n' +
       '        <h4 class="ui header">Promotions</h4>\n' +
       '        <p>Check out our new promotions</p>\n' +
@@ -42,7 +41,6 @@ export default {
       '        <p>Visit our rebate forum for information on claiming rebates</p>\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

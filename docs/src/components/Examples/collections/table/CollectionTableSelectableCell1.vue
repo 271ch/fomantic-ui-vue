@@ -60,15 +60,14 @@
 <script>
 export default {
   name: 'CollectionTableSelectableCell1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'Variations',
-      title2: 'Selectable Cell',
-      description: 'A table cell can be selectable',
-      model: '    <div class="ui ignored info message">Using an <code>a</code> link inside a selectable cell will automatically make the hit box the entire cell area. By default links will inherit their cell color.</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'Variations',
+    title2: 'Selectable Cell',
+    description: 'A table cell can be selectable',
+    model: '    <div class="ui ignored info message">Using an <code>a</code> link inside a selectable cell will automatically make the hit box the entire cell area. By default links will inherit their cell color.</div>\n' +
       '    <table class="ui celled table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
@@ -122,7 +121,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

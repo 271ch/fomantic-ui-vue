@@ -21,15 +21,14 @@
 <script>
 export default {
   name: 'ElementStepLink1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'step',
-      title1: 'Content',
-      title2: 'Link',
-      description: 'A step can link',
-      model: '    <div class="ui steps">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'step',
+    title1: 'Content',
+    title2: 'Link',
+    description: 'A step can link',
+    model: '    <div class="ui steps">\n' +
       '      <a class="active step">\n' +
       '        <i class="truck icon"/>\n' +
       '        <div class="content">\n' +
@@ -44,7 +43,6 @@ export default {
       '        </div>\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

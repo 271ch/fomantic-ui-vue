@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'CollectionFormInlineFields1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Group Variations',
-      title2: 'Inline Fields',
-      description: 'Multiple fields may be inline in a row',
-      model: '    <div class="ui form">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Group Variations',
+    title2: 'Inline Fields',
+    description: 'Multiple fields may be inline in a row',
+    model: '    <div class="ui form">\n' +
       '      <div class="inline fields">\n' +
       '        <label>Phone Number</label>\n' +
       '        <div class="field">\n' +
@@ -42,7 +41,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

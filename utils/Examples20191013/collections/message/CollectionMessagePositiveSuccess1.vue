@@ -17,15 +17,14 @@
 <script>
 export default {
   name: 'CollectionMessagePositiveSuccess1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'message',
-      title1: 'Variations',
-      title2: 'Positive / Success',
-      description: 'A message may be formatted to display a positive message.',
-      model: '    <b class="ignored">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'message',
+    title1: 'Variations',
+    title2: 'Positive / Success',
+    description: 'A message may be formatted to display a positive message.',
+    model: '    <b class="ignored">\n' +
       '      <i class="attention icon"/>\n' +
       '      Positive/Success and Negative/Error messages by default use similar colors, but each has their own color  variables that can be distinguished in your theme.\n' +
       '    </b>\n' +
@@ -36,7 +35,6 @@ export default {
       '      </div>\n' +
       '      <p>Go to your <b>special offers</b> page to see now.</p>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

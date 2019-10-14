@@ -26,15 +26,14 @@
 <script>
 export default {
   name: 'ElementListRelaxed4',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Variations',
-      title2: 'Relaxed',
-      description: 'A list can relax its padding to provide more negative space',
-      model: '    <div class="ui very relaxed horizontal list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Variations',
+    title2: 'Relaxed',
+    description: 'A list can relax its padding to provide more negative space',
+    model: '    <div class="ui very relaxed horizontal list">\n' +
       '      <div class="item">\n' +
       '        <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
       '        <div class="content">\n' +
@@ -54,7 +53,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

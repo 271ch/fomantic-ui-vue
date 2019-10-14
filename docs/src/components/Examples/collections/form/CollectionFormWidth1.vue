@@ -44,15 +44,14 @@
 <script>
 export default {
   name: 'CollectionFormWidth1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Field Variations',
-      title2: 'Width',
-      description: 'A field can specify its width in',
-      model: '    <div class="ui form">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Field Variations',
+    title2: 'Width',
+    description: 'A field can specify its width in',
+    model: '    <div class="ui form">\n' +
       '      <div class="fields">\n' +
       '        <div class="six wide field">\n' +
       '          <label>First name</label>\n' +
@@ -90,7 +89,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

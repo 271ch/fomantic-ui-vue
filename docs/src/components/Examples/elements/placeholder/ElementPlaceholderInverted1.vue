@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ElementPlaceholderInverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'placeholder',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'A placeholder can have their colors inverted.',
-      model: '    <div class="ui inverted segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'placeholder',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'A placeholder can have their colors inverted.',
+    model: '    <div class="ui inverted segment">\n' +
       '      <div class="ui active inverted placeholder">\n' +
       '        <div class="image header">\n' +
       '          <div class="line"/>\n' +
@@ -40,7 +39,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

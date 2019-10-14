@@ -24,15 +24,14 @@
 <script>
 export default {
   name: 'ElementListHeader1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Content',
-      title2: 'Header',
-      description: 'A list item can contain a header',
-      model: '    <div class="ui list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Content',
+    title2: 'Header',
+    description: 'A list item can contain a header',
+    model: '    <div class="ui list">\n' +
       '      <div class="item">\n' +
       '        <div class="header">New York City</div>\n' +
       '        A lovely city\n' +
@@ -50,7 +49,6 @@ export default {
       '        What a lovely city\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

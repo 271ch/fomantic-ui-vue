@@ -18,15 +18,14 @@
 <script>
 export default {
   name: 'CollectionFormRequired1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'form',
-      title1: 'Field Variations',
-      title2: 'Required',
-      description: 'A field can show that input is mandatory',
-      model: '    <div class="ui form">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'form',
+    title1: 'Field Variations',
+    title2: 'Required',
+    description: 'A field can show that input is mandatory',
+    model: '    <div class="ui form">\n' +
       '      <div class="required field">\n' +
       '        <label>Last name</label>\n' +
       '        <input type="text" placeholder="Full Name"/>\n' +
@@ -38,7 +37,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

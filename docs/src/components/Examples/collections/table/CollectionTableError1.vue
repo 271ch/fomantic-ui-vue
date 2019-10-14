@@ -37,15 +37,14 @@
 <script>
 export default {
   name: 'CollectionTableError1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'table',
-      title1: 'States',
-      title2: 'Error',
-      description: 'A cell or row may call attention to an error or a negative value',
-      model: '    <table class="ui celled table">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'table',
+    title1: 'States',
+    title2: 'Error',
+    description: 'A cell or row may call attention to an error or a negative value',
+    model: '    <table class="ui celled table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th>Name</th>\n' +
@@ -76,7 +75,6 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n',
-    };
   },
 };
 </script>

@@ -35,15 +35,14 @@
 <script>
 export default {
   name: 'ElementLabelPointing1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'label',
-      title1: 'Types',
-      title2: 'Pointing',
-      description: 'A label can point to content next to it',
-      model: '    <form class="ui fluid form">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'label',
+    title1: 'Types',
+    title2: 'Pointing',
+    description: 'A label can point to content next to it',
+    model: '    <form class="ui fluid form">\n' +
       '      <div class="field">\n' +
       '        <input type="text" placeholder="First name"/>\n' +
       '        <div class="ui pointing label">\n' +
@@ -72,7 +71,6 @@ export default {
       '        <input type="password"/>\n' +
       '      </div>\n' +
       '    </form>\n',
-    };
   },
 };
 </script>

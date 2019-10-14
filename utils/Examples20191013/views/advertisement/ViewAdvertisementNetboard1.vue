@@ -7,16 +7,14 @@
 <script>
 export default {
   name: 'ViewAdvertisementNetboard1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'advertisement',
-      title1: 'Types',
-      title2: 'Netboard',
-      description: 'An ad can use netboard ad unit size',
-      model: '    <div class="ui netboard test ad" data-text="Netboard"/>\n',
-    };
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'advertisement',
+    title1: 'Types',
+    title2: 'Netboard',
+    description: 'An ad can use netboard ad unit size',
+    model: '    <div class="ui netboard test ad" data-text="Netboard"/>\n',
   },
 };
 </script>

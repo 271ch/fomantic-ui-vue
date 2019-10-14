@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ElementSegmentCircular1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'segment',
-      title1: 'Variations',
-      title2: 'Circular',
-      description: 'A segment can be circular',
-      model: '    <div class="ui ignored info message">A circular segment will most likely have to have its content manually sized to be equal width and height, otherwise it will flow to the size of your content</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'segment',
+    title1: 'Variations',
+    title2: 'Circular',
+    description: 'A segment can be circular',
+    model: '    <div class="ui ignored info message">A circular segment will most likely have to have its content manually sized to be equal width and height, otherwise it will flow to the size of your content</div>\n' +
       '    <div class="ui circular segment">\n' +
       '      <h2 class="ui header">\n' +
       '        Buy Now\n' +
@@ -40,7 +39,6 @@ export default {
       '        <div class="sub header">$10.99</div>\n' +
       '      </h2>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

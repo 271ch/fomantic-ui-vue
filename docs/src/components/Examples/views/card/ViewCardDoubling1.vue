@@ -39,15 +39,14 @@
 <script>
 export default {
   name: 'ViewCardDoubling1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'card',
-      title1: 'Variations',
-      title2: 'Doubling',
-      description: 'A group of cards can double its column width for mobile',
-      model: '    <div class="ui ignored warning message">Resize your browser to a smaller size to see the cards stack after reaching mobile breakpoints</div>\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'card',
+    title1: 'Variations',
+    title2: 'Doubling',
+    description: 'A group of cards can double its column width for mobile',
+    model: '    <div class="ui ignored warning message">Resize your browser to a smaller size to see the cards stack after reaching mobile breakpoints</div>\n' +
       '    <div class="ui six doubling cards">\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
@@ -80,7 +79,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

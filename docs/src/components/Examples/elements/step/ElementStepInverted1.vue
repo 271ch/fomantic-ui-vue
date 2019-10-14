@@ -30,15 +30,14 @@
 <script>
 export default {
   name: 'ElementStepInverted1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'step',
-      title1: 'Variations',
-      title2: 'Inverted',
-      description: 'A step\'s color can be inverted',
-      model: '    <div class="ui inverted segment">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'step',
+    title1: 'Variations',
+    title2: 'Inverted',
+    description: 'A step\'s color can be inverted',
+    model: '    <div class="ui inverted segment">\n' +
       '      <div class="ui inverted steps">\n' +
       '        <div class="step">\n' +
       '          <i class="truck icon"/>\n' +
@@ -62,7 +61,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

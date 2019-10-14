@@ -19,15 +19,14 @@
 <script>
 export default {
   name: 'ElementButtonColored1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Variations',
-      title2: 'Colored',
-      description: 'A button can have different colors',
-      model: '    <button class="ui red button">Red</button>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Variations',
+    title2: 'Colored',
+    description: 'A button can have different colors',
+    model: '    <button class="ui red button">Red</button>\n' +
       '    <button class="ui orange button">Orange</button>\n' +
       '    <button class="ui yellow button">Yellow</button>\n' +
       '    <button class="ui olive button">Olive</button>\n' +
@@ -40,7 +39,6 @@ export default {
       '    <button class="ui brown button">Brown</button>\n' +
       '    <button class="ui grey button">Grey</button>\n' +
       '    <button class="ui black button">Black</button>\n',
-    };
   },
 };
 </script>

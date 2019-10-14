@@ -51,15 +51,14 @@
 <script>
 export default {
   name: 'CollectionMenuPopupMenu1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Content',
-      title2: 'Popup Menu',
-      description: 'A menu item may show a large menu, or additional content using a',
-      model: '    <div class="ui menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Content',
+    title2: 'Popup Menu',
+    description: 'A menu item may show a large menu, or additional content using a',
+    model: '    <div class="ui menu">\n' +
       '      <a class="browse item">\n' +
       '        Browse\n' +
       '        <i class="dropdown icon"/>\n' +
@@ -104,7 +103,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

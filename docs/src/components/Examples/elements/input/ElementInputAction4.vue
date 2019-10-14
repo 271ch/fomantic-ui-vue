@@ -15,15 +15,14 @@
 <script>
 export default {
   name: 'ElementInputAction4',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'input',
-      title1: 'Variations',
-      title2: 'Action',
-      description: 'An input can be formatted to alert the user to an action they may perform',
-      model: '    <div class="ui action input">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'input',
+    title1: 'Variations',
+    title2: 'Action',
+    description: 'An input can be formatted to alert the user to an action they may perform',
+    model: '    <div class="ui action input">\n' +
       '      <input type="text" placeholder="Search..."/>\n' +
       '      <select class="ui compact selection dropdown">\n' +
       '        <option value="all">All</option>\n' +
@@ -32,7 +31,6 @@ export default {
       '      </select>\n' +
       '      <div class="ui button">Search</div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

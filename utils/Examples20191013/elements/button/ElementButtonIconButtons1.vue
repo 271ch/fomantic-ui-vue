@@ -17,15 +17,14 @@
 <script>
 export default {
   name: 'ElementButtonIconButtons1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'button',
-      title1: 'Groups',
-      title2: 'Icon Buttons',
-      description: 'Button groups can show groups of icons',
-      model: '    <div class="ui icon buttons">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'button',
+    title1: 'Groups',
+    title2: 'Icon Buttons',
+    description: 'Button groups can show groups of icons',
+    model: '    <div class="ui icon buttons">\n' +
       '      <button class="ui button"><i class="align left icon"/></button>\n' +
       '      <button class="ui button"><i class="align center icon"/></button>\n' +
       '      <button class="ui button"><i class="align right icon"/></button>\n' +
@@ -36,7 +35,6 @@ export default {
       '      <button class="ui button"><i class="underline icon"/></button>\n' +
       '      <button class="ui button"><i class="text width icon"/></button>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

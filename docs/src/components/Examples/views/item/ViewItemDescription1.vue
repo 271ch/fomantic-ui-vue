@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'ViewItemDescription1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'item',
-      title1: 'Content',
-      title2: 'Description',
-      description: 'An item can contain a description with a single or multiple paragraphs',
-      model: '    <div class="ui items">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'item',
+    title1: 'Content',
+    title2: 'Description',
+    description: 'An item can contain a description with a single or multiple paragraphs',
+    model: '    <div class="ui items">\n' +
       '      <div class="item">\n' +
       '        <a class="ui small image">\n' +
       '          <img src="/images/wireframe/image.png" class="ui wireframe image"/>\n' +
@@ -42,7 +41,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

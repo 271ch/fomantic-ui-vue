@@ -87,15 +87,14 @@
 <script>
 export default {
   name: 'ViewCommentThreaded1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'comment',
-      title1: 'Variations',
-      title2: 'Threaded',
-      description: 'A comment list can be threaded to showing the relationship between conversations',
-      model: '    <div class="ui threaded comments">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'comment',
+    title1: 'Variations',
+    title2: 'Threaded',
+    description: 'A comment list can be threaded to showing the relationship between conversations',
+    model: '    <div class="ui threaded comments">\n' +
       '      <h3 class="ui dividing header">Comments</h3>\n' +
       '      <div class="comment">\n' +
       '        <a class="avatar">\n' +
@@ -176,7 +175,6 @@ export default {
       '        </div>\n' +
       '      </form>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

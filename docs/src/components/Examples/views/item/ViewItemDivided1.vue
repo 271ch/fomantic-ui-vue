@@ -71,15 +71,14 @@
 <script>
 export default {
   name: 'ViewItemDivided1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'item',
-      title1: 'Variations',
-      title2: 'Divided',
-      description: 'Items can be divided to better distinguish between grouped content',
-      model: '    <div class="ui ignored info message">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'item',
+    title1: 'Variations',
+    title2: 'Divided',
+    description: 'Items can be divided to better distinguish between grouped content',
+    model: '    <div class="ui ignored info message">\n' +
       '      <i class="info icon"/>\n' +
       '      The following example uses <a href="/elements/segment.html">ui</a> for legibility only. This is not necessary for using <code>ui items</code>\n' +
       '    </div>\n' +
@@ -144,7 +143,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

@@ -26,15 +26,14 @@
 <script>
 export default {
   name: 'CollectionMessageDismissableBlock1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'message',
-      title1: 'Types',
-      title2: 'Dismissable Block',
-      description: 'A message that the user can choose to hide',
-      model: '    <div class="ui message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'message',
+    title1: 'Types',
+    title2: 'Dismissable Block',
+    description: 'A message that the user can choose to hide',
+    model: '    <div class="ui message">\n' +
       '      <i class="close icon"/>\n' +
       '      <div class="header">\n' +
       '        Welcome back!\n' +
@@ -54,7 +53,6 @@ export default {
       '      ;\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

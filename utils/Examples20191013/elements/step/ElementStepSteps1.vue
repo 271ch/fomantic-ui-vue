@@ -35,15 +35,14 @@
 <script>
 export default {
   name: 'ElementStepSteps1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'step',
-      title1: 'Groups',
-      title2: 'Steps',
-      description: 'A set of steps',
-      model: '    <div class="ui ignored positive icon message">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'step',
+    title1: 'Groups',
+    title2: 'Steps',
+    description: 'A set of steps',
+    model: '    <div class="ui ignored positive icon message">\n' +
       '      <i class="mobile icon"/>\n' +
       '      <div class="content">\n' +
       '        <h3 class="header">Responsive Element</h3>\n' +
@@ -72,7 +71,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

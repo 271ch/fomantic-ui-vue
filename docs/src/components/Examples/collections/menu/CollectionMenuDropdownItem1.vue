@@ -20,15 +20,14 @@
 <script>
 export default {
   name: 'CollectionMenuDropdownItem1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Content',
-      title2: 'Dropdown Item',
-      description: 'An item may contain a nested menu in a',
-      model: '    <div class="ui ignored message">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Content',
+    title2: 'Dropdown Item',
+    description: 'An item may contain a nested menu in a',
+    model: '    <div class="ui ignored message">\n' +
       '      <p>To have a dropdown open without Javascript, use the <a href="/modules/dropdown.html#simple">simple</a> variation</p>\n' +
       '    </div>\n' +
       '    <div class="ui vertical menu">\n' +
@@ -42,7 +41,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

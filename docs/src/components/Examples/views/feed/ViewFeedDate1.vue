@@ -21,15 +21,14 @@
 <script>
 export default {
   name: 'ViewFeedDate1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'feed',
-      title1: 'Content',
-      title2: 'Date',
-      description: 'An event or an event summary can contain a date',
-      model: '    <div class="ui feed">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'feed',
+    title1: 'Content',
+    title2: 'Date',
+    description: 'An event or an event summary can contain a date',
+    model: '    <div class="ui feed">\n' +
       '      <div class="event">\n' +
       '        <div class="label">\n' +
       '          <img src="/images/avatar/small/jenny.jpg"/>\n' +
@@ -44,7 +43,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

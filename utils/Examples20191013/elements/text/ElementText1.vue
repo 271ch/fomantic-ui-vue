@@ -39,15 +39,14 @@
 <script>
 export default {
   name: 'ElementText1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'text',
-      title1: '???',
-      title2: '???',
-      description: '???',
-      model: '    <h2 class="ui header">Definition</h2>\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'text',
+    title1: '???',
+    title2: '???',
+    description: '???',
+    model: '    <h2 class="ui header">Definition</h2>\n' +
       '    <div class="no example">\n' +
       '      <h4 class="ui header">Text</h4>\n' +
       '      <p>A text is always used inline and uses one color from the FUI color palette</p>\n' +
@@ -80,7 +79,6 @@ export default {
       '          <p>to finally become <span class="ui red massive text">massive</span> text</p>\n' +
       '        </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

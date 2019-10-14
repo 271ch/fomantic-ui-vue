@@ -17,15 +17,14 @@
 <script>
 export default {
   name: 'ElementListBulleted3',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Types',
-      title2: 'Bulleted',
-      description: 'A list can mark items with a bullet',
-      model: '    <div class="ui horizontal bulleted list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Types',
+    title2: 'Bulleted',
+    description: 'A list can mark items with a bullet',
+    model: '    <div class="ui horizontal bulleted list">\n' +
       '      <a class="item">\n' +
       '        About Us\n' +
       '      </a>\n' +
@@ -36,7 +35,6 @@ export default {
       '        Contact\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

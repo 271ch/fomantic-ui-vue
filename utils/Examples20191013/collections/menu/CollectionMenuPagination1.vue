@@ -23,15 +23,14 @@
 <script>
 export default {
   name: 'CollectionMenuPagination1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'collections',
-      element: 'menu',
-      title1: 'Types',
-      title2: 'Pagination',
-      description: 'A pagination menu is specially formatted to present links to pages of content',
-      model: '    <div class="ui pagination menu">\n' +
+  info: {
+    converted: false,
+    elementType: 'collections',
+    element: 'menu',
+    title1: 'Types',
+    title2: 'Pagination',
+    description: 'A pagination menu is specially formatted to present links to pages of content',
+    model: '    <div class="ui pagination menu">\n' +
       '      <a class="active item">\n' +
       '        1\n' +
       '      </a>\n' +
@@ -48,7 +47,6 @@ export default {
       '        12\n' +
       '      </a>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

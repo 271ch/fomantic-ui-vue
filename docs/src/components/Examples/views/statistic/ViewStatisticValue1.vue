@@ -42,15 +42,14 @@
 <script>
 export default {
   name: 'ViewStatisticValue1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'views',
-      element: 'statistic',
-      title1: 'Content',
-      title2: 'Value',
-      description: 'A statistic can contain a numeric, icon, image, or text value',
-      model: '    <div class="ui statistics">\n' +
+  info: {
+    converted: false,
+    elementType: 'views',
+    element: 'statistic',
+    title1: 'Content',
+    title2: 'Value',
+    description: 'A statistic can contain a numeric, icon, image, or text value',
+    model: '    <div class="ui statistics">\n' +
       '      <div class="statistic">\n' +
       '        <div class="value">\n' +
       '          22\n' +
@@ -86,7 +85,6 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>

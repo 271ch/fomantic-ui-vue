@@ -26,15 +26,14 @@
 <script>
 export default {
   name: 'ElementListIcon1',
-  data: function () {
-    return {
-      converted: false,
-      elementType: 'elements',
-      element: 'list',
-      title1: 'Content',
-      title2: 'Icon',
-      description: 'A list item can contain an icon',
-      model: '    <div class="ui list">\n' +
+  info: {
+    converted: false,
+    elementType: 'elements',
+    element: 'list',
+    title1: 'Content',
+    title2: 'Icon',
+    description: 'A list item can contain an icon',
+    model: '    <div class="ui list">\n' +
       '      <a class="item">\n' +
       '        <i class="help icon"/>\n' +
       '        <div class="content">\n' +
@@ -54,7 +53,6 @@ export default {
       '        Inline Text\n' +
       '      </div>\n' +
       '    </div>\n',
-    };
   },
 };
 </script>
