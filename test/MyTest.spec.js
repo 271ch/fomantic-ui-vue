@@ -14,7 +14,9 @@ import Vue from 'vue'
 
 import { shallowMount } from '@vue/test-utils'
 // import examples from '../docs/src/components/Examples/examples'
-import b from '../docs/src/components/Examples/elements/button/ElementButtonButton1'
+
+import b from '../docs/src/components/Examples/elements/button/ElementButtonButton1.vue'
+// import b from '../docs/src/components/Examples/elements/button/ElementButtonButton1'
 
 
 describe('dummy', () => {
