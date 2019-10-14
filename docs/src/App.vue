@@ -15,7 +15,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
   @import "~fomantic-ui-css/semantic.min.css";
 
   #app {
