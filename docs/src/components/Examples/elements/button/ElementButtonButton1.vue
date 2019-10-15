@@ -1,6 +1,6 @@
 <template>
   <div>
-    <FuiButton tag=button>
+    <FuiButton>
       Follow
     </FuiButton>
   </div>

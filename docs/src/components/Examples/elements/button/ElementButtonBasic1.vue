@@ -1,9 +1,9 @@
 <template>
   <div>
-    <button class="ui basic button">
-      <i class="icon user"/>
+    <FuiButton basic>
+      <FuiIcon name=user></FuiIcon>
       Add Friend
-    </button>
+    </FuiButton>
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 export default {
   name: 'ElementButtonBasic1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Types',

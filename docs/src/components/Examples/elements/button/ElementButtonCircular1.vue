@@ -1,8 +1,8 @@
 <template>
   <div>
-    <button class="circular ui icon button">
-      <i class="icon settings"/>
-    </button>
+    <FuiButton circular icon>
+      <FuiIcon name=settings></FuiIcon>
+    </FuiButton>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'ElementButtonCircular1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Variations',

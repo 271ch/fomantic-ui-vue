@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui buttons">
-      <button class="ui button">One</button>
-      <button class="ui button">Two</button>
-      <button class="ui button">Three</button>
-    </div>
+    <FuiButtonGroup>
+      <FuiButton>One</FuiButton>
+      <FuiButton>Two</FuiButton>
+      <FuiButton>Three</FuiButton>
+    </FuiButtonGroup>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementButtonButtons1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Groups',

@@ -1,17 +1,17 @@
 <template>
   <div>
-    <button class="ui circular facebook icon button">
-      <i class="facebook icon"/>
-    </button>
-    <button class="ui circular twitter icon button">
-      <i class="twitter icon"/>
-    </button>
-    <button class="ui circular linkedin icon button">
-      <i class="linkedin icon"/>
-    </button>
-    <button class="ui circular google plus icon button">
-      <i class="google plus icon"/>
-    </button>
+    <FuiButton circular social=facebook icon>
+      <FuiIcon name=facebook></FuiIcon>
+    </FuiButton>
+    <FuiButton circular social=twitter icon>
+      <FuiIcon name=twitter></FuiIcon>
+    </FuiButton>
+    <FuiButton circular social=linkedin icon>
+      <FuiIcon name=linkedin></FuiIcon>
+    </FuiButton>
+    <FuiButton circular social="google plus" icon>
+      <FuiIcon name="google plus"></FuiIcon>
+    </FuiButton>
   </div>
 </template>
 
@@ -19,7 +19,7 @@
 export default {
   name: 'ElementButtonCircular2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Variations',

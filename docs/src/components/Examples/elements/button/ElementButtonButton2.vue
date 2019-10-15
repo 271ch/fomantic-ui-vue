@@ -1,12 +1,12 @@
 <template>
   <div>
-    <FuiButton tag=button>
+    <FuiButton>
       Button
     </FuiButton>
-    <FuiButton>
+    <FuiButton tag=div focusable>
       Focusable
     </FuiButton>
-    <FuiButton notFocusable>
+    <FuiButton tag=div>
       Not focusable
     </FuiButton>
   </div>

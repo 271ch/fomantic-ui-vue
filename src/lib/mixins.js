@@ -8,12 +8,12 @@ let mixins = { };
 mixins.PSocial = {
   props: {
     social: {
-      type: String,
-      description: `Design for asocial websites (${Enum.Social.str()}).`,
+      type: [Boolean, String],
+      description: `Design for social websites (${Enum.Social.str()}).`,
       validator: (value) => {
-        return !value || Enum.Social.check(value);
+        return value === false || Enum.Social.check(value);
       },
-      default: '',
+      default: false,
     },
   },
   methods: {

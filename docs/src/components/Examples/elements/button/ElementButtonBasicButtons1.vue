@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="ui basic buttons">
-      <div class="ui button">One</div>
-      <div class="ui button">Two</div>
-      <div class="ui button">Three</div>
-    </div>
-    <div class="ui divider"/>
-    <div class="ui vertical basic buttons">
-      <button class="ui button">One</button>
-      <button class="ui button">Two</button>
-      <button class="ui button">Three</button>
-    </div>
+    <FuiButtonGroup basic>
+      <FuiButton tag=div>One</FuiButton>
+      <FuiButton tag=div>Two</FuiButton>
+      <FuiButton tag=div>Three</FuiButton>
+    </FuiButtonGroup>
+    <FuiDivider></FuiDivider>
+    <FuiButtonGroup vertical basic>
+      <FuiButton>One</FuiButton>
+      <FuiButton>Two</FuiButton>
+      <FuiButton>Three</FuiButton>
+    </FuiButtonGroup>
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 export default {
   name: 'ElementButtonBasicButtons1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Group Variations',

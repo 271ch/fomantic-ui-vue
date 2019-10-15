@@ -1,9 +1,9 @@
 <template>
   <div>
-    <button class="ui primary basic button">Primary</button>
-    <button class="ui secondary basic button">Secondary</button>
-    <button class="ui positive basic button">Positive</button>
-    <button class="ui negative basic button">Negative</button>
+    <FuiButton primary basic>Primary</FuiButton>
+    <FuiButton secondary basic>Secondary</FuiButton>
+    <FuiButton positive basic>Positive</FuiButton>
+    <FuiButton negative basic>Negative</FuiButton>
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 export default {
   name: 'ElementButtonBasic2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Types',

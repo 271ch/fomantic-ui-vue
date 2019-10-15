@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui buttons">
-      <button class="ui red basic button">One</button>
-      <button class="ui blue basic button">Two</button>
-      <button class="ui green basic button">Three</button>
-    </div>
+    <FuiButtonGroup>
+      <FuiButton color=red basic>One</FuiButton>
+      <FuiButton color=blue basic>Two</FuiButton>
+      <FuiButton color=green basic>Three</FuiButton>
+    </FuiButtonGroup>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementButtonBasicButtons2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Group Variations',

@@ -7,15 +7,17 @@ import FuiVue from '../src'
 import examples from '../docs/src/components/Examples/examples'
 import {compare} from 'dom-compare';
 
-FuiVue.registerAll(Vue)
-
-let notConverted = 0;
 let options = {
   stripSpaces: true,
   compareComments: true,
   collapseSpaces: true,
   normalizeNewlines: true
 };
+
+FuiVue.registerAll(Vue)
+
+let converted = 0;
+let notConverted = 0;
 
 for (let idxPairET in examples) {
   let [et,listTypes] = examples[idxPairET]
@@ -30,6 +32,7 @@ for (let idxPairET in examples) {
             if (listTemplates[idxTempl].info.converted == false ) {
               notConverted += 1;
             } else {
+              converted += 1;
               chai.assert.equal(listTemplates[idxTempl].info.converted, true,
                 'the template is converted');
               // check that the generated html from the template is equivalent
@@ -53,6 +56,6 @@ for (let idxPairET in examples) {
 describe(`Final check`, () => {
   it(`All templates have been converted`, () => {
     chai.assert.equal(notConverted, 0,
-      `${notConverted} templates have not been converted`);
+      `${notConverted} templates out of ${converted + notConverted} have not been converted`);
   })
 })

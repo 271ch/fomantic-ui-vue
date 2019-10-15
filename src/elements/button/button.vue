@@ -19,12 +19,12 @@ export default {
     Mixins.PSocial,
     Mixins.PPrimSecTer,
     Mixins.PSize,
-    Mixins.getMixinTag(['button'], 'div'),
+    Mixins.getMixinTag(['div'], 'button'),
   ],
   props: {
-    notFocusable: {
+    focusable: {
       type: Boolean,
-      description: 'The button is not keyboard accessible (default is focusable).',
+      description: 'The button is keyboard accessible (default is focusable for button and not focusable for div).',
     },
     animated: {
       type: Boolean,
@@ -122,7 +122,7 @@ export default {
   },
   methods: {
     getTabindex: function () {
-      if (this.tag !== 'button' && !this.notFocusable) {
+      if (this.tag === 'div' && this.focusable) {
         return '0';
       } else {
         return false;
