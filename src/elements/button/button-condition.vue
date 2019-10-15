@@ -19,9 +19,9 @@ export default {
   },
   methods: {
     classes: function () {
-      return u.concatClasses(
-        'or'
-      );
+      return u.concatClasses([
+        'or',
+      ]);
     },
   },
 };

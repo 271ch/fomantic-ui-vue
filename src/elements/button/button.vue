@@ -44,12 +44,12 @@ export default {
       description: 'A button can have only an icon.',
     },
     labeledIcon: {
-      type: String,
+      type: [Boolean, String],
       description: 'A button can use an icon as a label.',
       validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
+        return false || Enum.LeftRight.check(value);
       },
-      default: '',
+      default: 'false',
     },
     basic: {
       type: Boolean,
@@ -149,8 +149,8 @@ export default {
         this.basic && 'basic',
         this.labeled == 'left' && this.labeled,
         this.labeled && 'labelled',
-        this.labelledIcon == 'right' && this.labelledIcon,
-        this.labelledIcon && 'labeled icon',
+        (this.labeledIcon === true || this.labeledIcon === 'left') && 'labeled icon',
+        this.labeledIcon === 'right' && 'right labeled icon',
         this.active && 'active',
         this.disabled && 'disabled',
         this.loading && 'loading',

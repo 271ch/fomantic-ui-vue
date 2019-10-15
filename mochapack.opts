@@ -1,5 +1,4 @@
 --webpack-env=dev
 --webpack-config webpack.config.js
 --require test/setup.js
---watch
 test/**/*.spec.js

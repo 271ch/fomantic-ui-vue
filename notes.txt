@@ -4,3 +4,7 @@ eslint src/*/*/*
 
 To open all code blocks on https://fomantic-ui.com/elements/button.html :
 $('.fitted.icon.code').trigger('click');
+
+
+npm package nyc + package.json:
+"coverage": "nyc npm run test"

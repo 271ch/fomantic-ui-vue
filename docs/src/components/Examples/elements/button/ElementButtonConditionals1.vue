@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui buttons">
-      <button class="ui button">Cancel</button>
-      <div class="or"/>
-      <button class="ui positive button">Save</button>
-    </div>
+    <FuiButtonGroup>
+      <FuiButton>Cancel</FuiButton>
+      <FuiButtonCondition></FuiButtonCondition>
+      <FuiButton positive>Save</FuiButton>
+    </FuiButtonGroup>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementButtonConditionals1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Content',
