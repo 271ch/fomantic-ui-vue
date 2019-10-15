@@ -5,10 +5,17 @@ import { shallowMount } from '@vue/test-utils'
 import { mount } from '@vue/test-utils'
 import FuiVue from '../src'
 import examples from '../docs/src/components/Examples/examples'
+import {compare} from 'dom-compare';
 
 FuiVue.registerAll(Vue)
 
 let notConverted = 0;
+let options = {
+  stripSpaces: true,
+  compareComments: true,
+  collapseSpaces: true,
+  normalizeNewlines: true
+};
 
 for (let idxPairET in examples) {
   let [et,listTypes] = examples[idxPairET]
@@ -28,9 +35,12 @@ for (let idxPairET in examples) {
               // check that the generated html from the template is equivalent
               // to the html saved in the component `[comp].info.model`
               const wrapper = mount(listTemplates[idxTempl]);
+              let htmlModel = `<div>${listTemplates[idxTempl].info.model}</div>`;
               let html = wrapper.html();
-              let htmlModel = `<div>${listTemplates[idxTempl].info.model}</div>`
-              chai.assert.equal(html, htmlModel,
+              const parser = new window.DOMParser();
+              const htmlParsed = parser.parseFromString(html, "text/xml");
+              const htmlModelParsed = parser.parseFromString(htmlModel, "text/xml");
+              chai.assert.isTrue(compare(htmlParsed, htmlModelParsed, options).getResult(),
                 'the Vue.js template is correct');
             }
           })
