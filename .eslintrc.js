@@ -57,7 +57,7 @@ module.exports = {
     'no-tabs' : 'error', // disallow all tabs
     'no-trailing-spaces' : 'error', // disallow trailing whitespace at the end of lines
     'object-curly-newline' : 'error', // enforce consistent line breaks inside braces
-    'object-curly-spacing' : 'error', // enforce consistent spacing inside braces
+    'object-curly-spacing' : ["error", "always", { "objectsInObjects": false }], // enforce consistent spacing inside braces
     'object-property-newline' : 'error', // enforce placing object properties on separate lines
     'semi': 'error', // require or disallow semicolons instead of ASI
     'space-before-blocks': 'error', // enforce consistent spacing before blocks

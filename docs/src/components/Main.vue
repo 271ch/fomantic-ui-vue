@@ -1,7 +1,11 @@
 <template>
   <div>
-<h1>Example button</h1>
 
+<fui-header level=1 attached=bottom>
+  This page will contain some example
+</fui-header>
+<br />
+<br />
 <fui-button animated>
   <fui-button-content>
     A
@@ -10,15 +14,32 @@
     Z
   </fui-button-content>
 </fui-button>
+<br />
+<br />
+<fui-button social=facebook>
+  Facebook
+</fui-button>
+<br />
+<br />
+<ElementButtonActive1 />
+
 </div>
 </template>
 
+
 <script>
+import ElementButtonActive1 from './Examples/elements/button/ElementButtonActive1.vue'
+
 export default {
   name: 'Main',
   props: {
     msg: String
-  }
+  },
+  components: {
+    ElementButtonActive1,
+  },
+  methods: {
+  },
 }
 </script>
 

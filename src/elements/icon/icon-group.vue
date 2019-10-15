@@ -6,19 +6,13 @@
 
 <script>
 import u from '../../lib/util';
-import Enum from '../../lib/enum';
+// import Enum from '../../lib/enum';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiIconGroup',
+  mixins: [Mixins.PSize],
   props: {
-    size: {
-      type: String,
-      description: 'A group of icons can vary in size.',
-      validator: (value) => {
-        return !value || Enum.Size.check(value);
-      },
-      default: '',
-    },
   },
   events: {
     click: {
@@ -28,7 +22,7 @@ export default {
   methods: {
     classes: function () {
       return u.concatClasses(
-        this.size,
+        ...this.getClassesSize(),
         'icons'
       );
     },

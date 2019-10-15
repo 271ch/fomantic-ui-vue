@@ -11,6 +11,11 @@ from pyquery import PyQuery as pq
 
 ElementTypes = ['elements', 'collections', 'views'] #, 'modules']
 
+def convQuote(str):
+  return str.replace('\'', '\\\'')
+def convQuoteCR(str):
+  return convQuote(str).replace('\n', '').strip()
+
 class App:
   "This is my second class"
   a = 10
@@ -27,11 +32,18 @@ class App:
   def generate(self):
     # ./tmp/Fomantic-UI-Docs/server/documents/elements/button.html.eco
     subprocess.call(['mkdir', 'tmp/Examples'])
+    self.summary_file = open(os.path.join('./tmp/Examples','examples.js'),'w')
+    self.summary_file.write('let a = [];\n')
+    self.summary_file.write('let b = [];\n')
+    self.summary_file.write('let c = [];\n')
     for et in ElementTypes:
       print('> {}'.format(et))
       self.generateElementType(et)
+    self.summary_file.write('export default a;\n')
+    self.summary_file.close()
 
   def generateElementType(self, et):
+    self.summary_file.write('// begin of element type [{}]\n'.format(et))
     if not os.path.isdir(os.path.join('./tmp/Examples',et)):
       subprocess.call(['mkdir', os.path.join('./tmp/Examples',et)])
     p = os.path.join('./tmp/Fomantic-UI-Docs/server/documents',et)
@@ -50,8 +62,11 @@ class App:
         subprocess.call(['mkdir', os.path.join('./tmp/Examples',et,e)])
       self.extractExamples(os.path.join(p, f),
                            os.path.join('./tmp/Examples',et,e), et, e)
+    self.summary_file.write('a.push([\'{}\', b]); b = [];\n'.format(et))
+    self.summary_file.write('// end of element type [{}]\n'.format(et))
 
   def extractExamples(self, f, path, et, e):
+    self.summary_file.write('// begin of element [{}]\n'.format(e))
     print(' extract {} in {}'.format(f,path))
     lines = open(f, 'r').readlines()
     index = 0
@@ -68,6 +83,7 @@ class App:
       return
 
     mc = m[0]
+    comps = []
 
     title1 = '???'
     title2 = '???'
@@ -99,7 +115,15 @@ class App:
 
         sourceHTML = self.prepText(pq(c).html())
 
-        comp_name = et.title()[:-1]+e.title()+'{:03d}'.format(gen_counter)+re.sub(r'\W+', '', title2)+str(counter)
+        CONV = ['','A','B','C','D','E','F','G','H']
+
+        comp_name = et.title()[:-1]+e.title()+re.sub(r'\W+', '', title2)+str(counter)
+        for i in range(100):
+          comp_name_new = comp_name + CONV[i]
+          if not comp_name_new in comps:
+            comp_name = comp_name_new
+            break
+        comps.append(comp_name)
 
         gen_counter += 1
         fname = comp_name+'.vue'
@@ -113,17 +137,23 @@ class App:
         fout.write(r'<script>'+'\n')
         fout.write(r'export default {'+'\n')
         fout.write( '  name: \'{}\',\n'.format(comp_name))
-        fout.write(r'  props: {'+'\n')
+        fout.write(r'  info: {'+'\n')
+        fout.write( '    converted: false,\n')
         fout.write( '    elementType: \'{}\',\n'.format(et))
         fout.write( '    element: \'{}\',\n'.format(e))
-        fout.write( '    title1: \'{}\',\n'.format(title1))
-        fout.write( '    title2: \'{}\',\n'.format(title2))
-        fout.write( '    description: \'{}\',\n'.format(descr))
+        fout.write( '    title1: \'{}\',\n'.format(convQuoteCR(title1)))
+        fout.write( '    title2: \'{}\',\n'.format(convQuoteCR(title2)))
+        fout.write( '    description: \'{}\',\n'.format(convQuote(descr)))
         fout.write( '    model: {},\n'.format(self.prepTextJS(pq(c).html())))
         fout.write( '  },\n')
         fout.write(r'};'+'\n')
         fout.write(r'</script>'+'\n')
         fout.close()
+        self.summary_file.write('import {} from \'./{}/{}/{}\';\n'
+                                .format(comp_name,et,e,comp_name))
+        self.summary_file.write('c.push({});\n'.format(comp_name))
+    self.summary_file.write('b.push([\'{}\', c]); c = [];\n'.format(e))
+    self.summary_file.write('// end of element [{}]\n'.format(e))
 
   def prepText(self, t):
     t2 = t.split('\n')
@@ -141,11 +171,14 @@ class App:
     for l in t2:
       l2 = l.strip()
       if l2 != '':
-        t3.append(('' if first else '      ')+'\''+l.replace('\'','\\\'')+'\\n\' +')
+        t3.append(('' if first else '      ')+'\''+convQuote(l)+'\\n\' +')
         first = False
     if len(t3) >0 and len(t3[len(t3)-1])>1:
       t3[len(t3)-1]=t3[len(t3)-1][:-2]
-    return '\n'.join(t3)
+    if len(t3)==0:
+      return '\'\''
+    else:
+      return '\n'.join(t3)
 
 
   def statistics(self):
@@ -162,6 +195,7 @@ def main():
     return
 
   app.generate()
+
   app.statistics()
 
 
