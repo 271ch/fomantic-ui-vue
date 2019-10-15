@@ -7,7 +7,7 @@
     "build": "webpack --env=dev",
     "buildDev": "webpack --env=dev",
     "buildProd": "webpack --env=prod",
-    "test": "mochapack --webpack-env=dev --webpack-config webpack.config.js --require test/setup.js test/**/*.spec.js || true"
+    "test": "mochapack || true"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,6 @@
     "babel-loader": "^8.0.6",
     "chai": "^4.2.0",
     "chai-xml": "^0.3.2",
-    "dom-compare": "^0.6.0",
     "eslint": "^6.5.1",
     "eslint-loader": "^3.0.2",
     "eslint-plugin-vue": "^5.2.3",
