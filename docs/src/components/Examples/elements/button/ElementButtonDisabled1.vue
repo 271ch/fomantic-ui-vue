@@ -1,9 +1,9 @@
 <template>
   <div>
-    <button class="ui disabled button">
-      <i class="user icon"/>
+    <FuiButton disabled>
+      <FuiIcon name=user></FuiIcon>
       Followed
-    </button>
+    </FuiButton>
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 export default {
   name: 'ElementButtonDisabled1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'States',

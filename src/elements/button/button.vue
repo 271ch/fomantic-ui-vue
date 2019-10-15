@@ -47,9 +47,9 @@ export default {
       type: [Boolean, String],
       description: 'A button can use an icon as a label.',
       validator: (value) => {
-        return false || Enum.LeftRight.check(value);
+        return value === false || value === true || Enum.LeftRight.check(value);
       },
-      default: 'false',
+      default: false,
     },
     basic: {
       type: Boolean,

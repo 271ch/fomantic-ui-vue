@@ -1,4 +1,5 @@
 --webpack-env=dev
 --webpack-config webpack.config.js
+--require mocha-clean
 --require test/setup.js
 test/**/*.spec.js
