@@ -26,15 +26,30 @@ for (let idxPairET in examples) {
       let [e,listTemplates] = listTypes[idxPaitT]
       describe(`Element: [${e}]`, () => {
         for (let idxTempl in listTemplates) {
-          it(`Template: [${listTemplates[idxTempl].name}]`, () => {
-            chai.assert.equal('converted' in listTemplates[idxTempl].info, true,
-              'the template has \'converted\' key');
+          it(`Template: [${listTemplates[idxTempl].name}]`, function () {
+            chai.assert.isTrue('info' in listTemplates[idxTempl],
+              'the template has an \'info\' key');
+            chai.assert.isTrue('converted' in listTemplates[idxTempl].info,
+              'info has \'converted\' key');
             if (listTemplates[idxTempl].info.converted == false ) {
               notConverted += 1;
+              return this.skip();
             } else {
               converted += 1;
-              chai.assert.equal(listTemplates[idxTempl].info.converted, true,
-                'the template is converted');
+              const wrapper = mount(listTemplates[idxTempl]);
+              let html = wrapper.html();
+              let htmlModel = `<div>${listTemplates[idxTempl].info.model}</div>`;
+
+              chai.expect(htmlModel, 'the xml of the model is not valid').xml.to.be.valid();
+              chai.expect(html, 'the xml of the template is not valid').xml.to.be.valid();
+
+              chai.expect(html, 'the template differs').xml.to.deep.equal(htmlModel);
+
+              // TODO: if the xml solution does not show problem
+              //       the commented ode below can be removed;
+              //       and also dom-compare from package.json
+
+              /*
               // check that the generated html from the template is equivalent
               // to the html saved in the component `[comp].info.model`
               const wrapper = mount(listTemplates[idxTempl]);
@@ -45,6 +60,7 @@ for (let idxPairET in examples) {
               const htmlModelParsed = parser.parseFromString(htmlModel, "text/xml");
               chai.assert.isTrue(compare(htmlParsed, htmlModelParsed, options).getResult(),
                 'the Vue.js template is correct');
+              */
             }
           })
         };

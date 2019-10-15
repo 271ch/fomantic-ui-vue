@@ -6,13 +6,13 @@
         <FuiIcon name="right arrow"></FuiIcon>
       </FuiButtonContent>
     </FuiButton>
-    <FuiButton tag=div focusable vertical animated>
+    <FuiButton tag=div focusable animated=vertical>
       <FuiButtonContent hidden>Shop</FuiButtonContent>
       <FuiButtonContent visible>
         <FuiIcon name=shop></FuiIcon>
       </FuiButtonContent>
     </FuiButton>
-    <FuiButton tag=div focusable animated fade>
+    <FuiButton tag=div focusable animated=fade>
       <FuiButtonContent visible>Sign-up for a Pro account</FuiButtonContent>
       <FuiButtonContent hidden>$12.99 a month</FuiButtonContent>
     </FuiButton>

@@ -1,18 +1,18 @@
 <template>
   <div>
-    <FuiButton red basic>Red</FuiButton>
-    <FuiButton orange basic>Orange</FuiButton>
-    <FuiButton yellow basic>Yellow</FuiButton>
-    <FuiButton olive basic>Olive</FuiButton>
-    <FuiButton green basic>Green</FuiButton>
-    <FuiButton teal basic>Teal</FuiButton>
-    <FuiButton blue basic>Blue</FuiButton>
-    <FuiButton violet basic>Violet</FuiButton>
-    <FuiButton purple basic>Purple</FuiButton>
-    <FuiButton pink basic>Pink</FuiButton>
-    <FuiButton brown basic>Brown</FuiButton>
-    <FuiButton grey basic>Grey</FuiButton>
-    <FuiButton black basic>Black</FuiButton>
+    <FuiButton color=red basic>Red</FuiButton>
+    <FuiButton color=orange basic>Orange</FuiButton>
+    <FuiButton color=yellow basic>Yellow</FuiButton>
+    <FuiButton color=olive basic>Olive</FuiButton>
+    <FuiButton color=green basic>Green</FuiButton>
+    <FuiButton color=teal basic>Teal</FuiButton>
+    <FuiButton color=blue basic>Blue</FuiButton>
+    <FuiButton color=violet basic>Violet</FuiButton>
+    <FuiButton color=purple basic>Purple</FuiButton>
+    <FuiButton color=pink basic>Pink</FuiButton>
+    <FuiButton color=brown basic>Brown</FuiButton>
+    <FuiButton color=grey basic>Grey</FuiButton>
+    <FuiButton color=black basic>Black</FuiButton>
   </div>
 </template>
 

@@ -16,8 +16,8 @@ export default {
     title1: 'Variations',
     title2: 'Circular',
     description: 'A button can be circular',
-    model: '    <button class="circular ui icon button">\n' +
-      '      <i class="icon settings"/>\n' +
+    model: '    <button class="ui circular icon button">\n' +
+      '      <i class="settings icon"/>\n' +
       '    </button>\n',
   },
 };
