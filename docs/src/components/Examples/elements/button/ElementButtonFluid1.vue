@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button class="fluid ui button">Fits container</button>
+    <FuiButton fluid>Fits container</FuiButton>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   name: 'ElementButtonFluid1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Variations',

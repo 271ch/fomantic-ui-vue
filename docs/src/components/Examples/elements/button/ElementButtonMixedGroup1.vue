@@ -1,19 +1,19 @@
 <template>
   <div>
-    <div class="ui buttons">
-      <button class="ui labeled icon button">
-        <i class="left chevron icon"/>
+    <FuiButtons>
+      <FuiButton labeledIcon>
+        <FuiIcon name="left chevron"></FuiIcon>
         Back
-      </button>
-      <button class="ui button">
-        <i class="stop icon"/>
+      </FuiButton>
+      <FuiButton>
+        <FuiIcon name=stop></FuiIcon>
         Stop
-      </button>
-      <button class="ui right labeled icon button">
+      </FuiButton>
+      <FuiButton labeledIcon=right>
         Forward
-        <i class="right chevron icon"/>
-      </button>
-    </div>
+        <FuiIcon name="right chevron"></FuiIcon>
+      </FuiButton>
+    </FuiButtons>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
 export default {
   name: 'ElementButtonMixedGroup1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Group Variations',

@@ -1,19 +1,19 @@
 <template>
   <div>
-    <div class="ui vertical labeled icon buttons">
-      <button class="ui button">
-        <i class="pause icon"/>
+    <FuiButtons vertical labeledIcon>
+      <FuiButton>
+        <FuiIcon name=pause></FuiIcon>
         Pause
-      </button>
-      <button class="ui button">
-        <i class="play icon"/>
+      </FuiButton>
+      <FuiButton>
+        <FuiIcon name=play></FuiIcon>
         Play
-      </button>
-      <button class="ui button">
-        <i class="shuffle icon"/>
+      </FuiButton>
+      <FuiButton>
+        <FuiIcon name=shuffle></FuiIcon>
         Shuffle
-      </button>
-    </div>
+      </FuiButton>
+    </FuiButtons>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
 export default {
   name: 'ElementButtonLabeledIconButtons1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Group Variations',

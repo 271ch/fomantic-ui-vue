@@ -31,10 +31,10 @@ class Enum {
 
 const enums = {
   Enum: Enum,
-  Size: Enum.from('mini', 'tiny', 'small', 'large', 'big',
+  Size: Enum.from('mini', 'tiny', 'small', 'medium', 'large', 'big',
     'huge', 'massive'),
   Rotation: Enum.from('clockwise', 'counterclockwise'),
-  Color: Enum.from('primary', 'secondary', 'red', 'orange', 'yellow',
+  Color: Enum.from('red', 'orange', 'yellow',
     'olive', 'green', 'teal', 'blue', 'violet', 'purple', 'pink', 'brown',
     'grey', 'black'),
   CornerIconPosition: Enum.from('top left', 'top right', 'bottom left',

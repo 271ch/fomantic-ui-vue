@@ -1,7 +1,5 @@
 <template>
-  <div :class="classes">
-    <slot />
-  </div>
+  <img :class="classes" :src="src" />
 </template>
 
 <script>
@@ -13,6 +11,15 @@ export default {
   name: 'FuiImage',
   mixins: [],
   props: {
+    wireframe: { // TODO: description
+      type: Boolean,
+      description: '',
+    },
+    src: {
+      type: String,
+      description: '',
+      default: '', // TODO: descr
+    },
     /*
     prop1: { // TODO: Component FuiImage
       type: Boolean,
@@ -41,6 +48,8 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
+        'ui',
+        this.wireframe && 'wireframe',
         'image'
       );
     },

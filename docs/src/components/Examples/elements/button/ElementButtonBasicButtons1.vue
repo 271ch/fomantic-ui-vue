@@ -1,16 +1,16 @@
 <template>
   <div>
-    <FuiButtonGroup basic>
+    <FuiButtons basic>
       <FuiButton tag=div>One</FuiButton>
       <FuiButton tag=div>Two</FuiButton>
       <FuiButton tag=div>Three</FuiButton>
-    </FuiButtonGroup>
+    </FuiButtons>
     <FuiDivider></FuiDivider>
-    <FuiButtonGroup vertical basic>
+    <FuiButtons vertical basic>
       <FuiButton>One</FuiButton>
       <FuiButton>Two</FuiButton>
       <FuiButton>Three</FuiButton>
-    </FuiButtonGroup>
+    </FuiButtons>
   </div>
 </template>
 

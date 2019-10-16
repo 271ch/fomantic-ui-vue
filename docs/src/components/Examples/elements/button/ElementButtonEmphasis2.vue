@@ -1,11 +1,11 @@
 <template>
   <div>
-    <button class="ui secondary button">
+    <FuiButton secondary>
       Okay
-    </button>
-    <button class="ui button">
+    </FuiButton>
+    <FuiButton>
       Cancel
-    </button>
+    </FuiButton>
   </div>
 </template>
 
@@ -13,7 +13,7 @@
 export default {
   name: 'ElementButtonEmphasis2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Types',

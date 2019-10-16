@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button class="positive ui button">Positive Button</button>
+    <FuiButton positive>Positive Button</FuiButton>
   </div>
 </template>
 
@@ -8,13 +8,13 @@
 export default {
   name: 'ElementButtonPositive1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Variations',
     title2: 'Positive',
     description: 'A button can hint towards a positive consequence',
-    model: '    <button class="positive ui button">Positive Button</button>\n',
+    model: '    <button class="ui positive button">Positive Button</button>\n',
   },
 };
 </script>

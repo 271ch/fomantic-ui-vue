@@ -89,7 +89,7 @@ export default {
       return u.concatClasses(
         this.disabled && 'disabled',
         this.fitted && 'fitted',
-        ...this.getClassesSize(),
+        ...this.getClassesSize,
         this.flipped && 'flipped',
         this.rotated && [this.rotated, 'rotated'].join(' '),
         this.circular && 'circular',

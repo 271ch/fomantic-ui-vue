@@ -13,6 +13,10 @@ export default {
   name: 'FuiSegment',
   mixins: [],
   props: {
+    inverted: { // TODO: descr
+      type: Boolean,
+      description: '',
+    },
     /*
     prop1: { // TODO: Component FuiSegment
       type: Boolean,
@@ -41,6 +45,8 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
+        'ui',
+        this.inverted && 'inverted',
         'segment'
       );
     },

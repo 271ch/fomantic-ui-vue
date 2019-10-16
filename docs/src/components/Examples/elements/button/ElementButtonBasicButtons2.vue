@@ -1,10 +1,10 @@
 <template>
   <div>
-    <FuiButtonGroup>
+    <FuiButtons>
       <FuiButton color=red basic>One</FuiButton>
       <FuiButton color=blue basic>Two</FuiButton>
       <FuiButton color=green basic>Three</FuiButton>
-    </FuiButtonGroup>
+    </FuiButtons>
   </div>
 </template>
 

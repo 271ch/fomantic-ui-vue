@@ -1,7 +1,7 @@
 <template>
   <div>
-    <button class="ui right floated button">Right Floated</button>
-    <button class="ui left floated button">Left Floated</button>
+    <FuiButton floated=right>Right Floated</FuiButton>
+    <FuiButton floated=left>Left Floated</FuiButton>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 export default {
   name: 'ElementButtonFloated1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Variations',

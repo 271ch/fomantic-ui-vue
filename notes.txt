@@ -5,6 +5,8 @@ eslint src/*/*/*
 To open all code blocks on https://fomantic-ui.com/elements/button.html :
 $('.fitted.icon.code').trigger('click');
 
-
 npm package nyc + package.json:
 "coverage": "nyc npm run test"
+
+find ./ -type f -regex ".*\.vue"  -exec sed -i -e 's/class="classes()">/class="classes">/g' {} \;
+find ./ -type f -regex ".*\.vue"  -exec sed -i -e 's/methods: {/computed: {/g' {} \;

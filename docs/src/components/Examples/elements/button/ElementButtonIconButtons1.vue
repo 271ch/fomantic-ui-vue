@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="ui icon buttons">
-      <button class="ui button"><i class="align left icon"/></button>
-      <button class="ui button"><i class="align center icon"/></button>
-      <button class="ui button"><i class="align right icon"/></button>
-      <button class="ui button"><i class="align justify icon"/></button>
-    </div>
-    <div class="ui icon buttons">
-      <button class="ui button"><i class="bold icon"/></button>
-      <button class="ui button"><i class="underline icon"/></button>
-      <button class="ui button"><i class="text width icon"/></button>
-    </div>
+    <FuiButtons icon>
+      <FuiButton><FuiIcon name="align left"></FuiIcon></FuiIcon></FuiButton>
+      <FuiButton><FuiIcon name="align center"></FuiIcon></FuiButton>
+      <FuiButton><FuiIcon name="align right"></FuiIcon></FuiButton>
+      <FuiButton><FuiIcon name="align justify"></FuiIcon></FuiButton>
+    </FuiButtons>
+    <FuiButtons icon>
+      <FuiButton><FuiIcon name=bold></FuiIcon></FuiButton>
+      <FuiButton><FuiIcon name=underline></FuiIcon></FuiButton>
+      <FuiButton><FuiIcon name="text width"></FuiIcon></FuiButton>
+    </FuiButtons>
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 export default {
   name: 'ElementButtonIconButtons1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Groups',

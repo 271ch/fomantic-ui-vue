@@ -1,7 +1,7 @@
 <template>
   <component
     :is="gTag()"
-    :class="classes()"
+    :class="classes"
   >
     <slot />
   </component>

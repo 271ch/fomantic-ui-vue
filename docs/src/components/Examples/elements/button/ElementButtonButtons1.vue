@@ -1,10 +1,10 @@
 <template>
   <div>
-    <FuiButtonGroup>
+    <FuiButtons>
       <FuiButton>One</FuiButton>
       <FuiButton>Two</FuiButton>
       <FuiButton>Three</FuiButton>
-    </FuiButtonGroup>
+    </FuiButtons>
   </div>
 </template>
 

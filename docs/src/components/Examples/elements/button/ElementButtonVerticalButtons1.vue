@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="ui vertical buttons">
-      <button class="ui button">Feed</button>
-      <button class="ui button">Messages</button>
-      <button class="ui button">Events</button>
-      <button class="ui button">Photos</button>
-    </div>
+    <FuiButtons vertical>
+      <FuiButton>Feed</FuiButton>
+      <FuiButton>Messages</FuiButton>
+      <FuiButton>Events</FuiButton>
+      <FuiButton>Photos</FuiButton>
+    </FuiButtons>
   </div>
 </template>
 
@@ -13,7 +13,7 @@
 export default {
   name: 'ElementButtonVerticalButtons1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Group Variations',

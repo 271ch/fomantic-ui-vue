@@ -1,8 +1,8 @@
 <template>
   <div>
-    <button class="ui tertiary button">
+    <FuiButton tertiary>
       Cancel Action
-    </button>
+    </FuiButton>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'ElementButtonTertiary1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Types',

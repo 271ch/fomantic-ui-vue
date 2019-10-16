@@ -11,6 +11,9 @@ FuiVue.registerAll(Vue)
 let converted = 0;
 let notConverted = 0;
 
+let moreLog = ['ElementButtonLabeled1'];
+moreLog = [];
+
 const testElementType = function (et, elemList) {
   describe(`Element type: [${et}]`, () => {
     for (let idxPaitE in elemList) {
@@ -42,6 +45,14 @@ const testTemplate = function (templ) {
       const wrapper = mount(templ);
       let html = wrapper.html();
       let htmlModel = `<div>${templ.info.model}</div>`;
+
+      if (moreLog.indexOf(templ.name) !== -1) {
+        console.log(`---------------- ${templ.name}: model ----------------`);
+        console.log(htmlModel);
+        console.log(`---------------- ${templ.name}: templ. ----------------`);
+        console.log(html);
+        console.log(`---------------- ${templ.name}: end ----------------`);
+      }
 
       chai.expect(htmlModel, 'the xml of the model is not valid').xml.to.be.valid();
       chai.expect(html, 'the xml of the template is not valid').xml.to.be.valid();

@@ -1,10 +1,8 @@
 <template>
   <div
-    :class="classes()"
-    :data-text="text"
-  >
-    <slot :v-bind="text" />
-  </div>
+    :class="classes"
+    :data-text="dText()"
+  />
 </template>
 
 <script>
@@ -13,30 +11,32 @@ import u from '../../lib/util';
 
 export default {
   name: 'FuiButtonCondition',
-  props: {
-    text: {
-      type: [Boolean, String],
-      default: false,
-    },
-  },
+  data: () => ({
+    text: "",
+  }),
   events: {
     click: {
       description: 'Click event',
     },
   },
   computed: {
-    /*
-    getText: function () {
-      let t = this.text.trim()
-      if (t==='') return false
-      else return t;
-    },
-    */
     classes: function () {
-      console.log('>>>> ' + this.text);
       return u.concatClasses([
         'or',
       ]);
+    },
+  },
+  mounted () {
+    if (this.$slots.default === undefined) return;
+    if (!(0 in this.$slots.default)) return;
+    let slot = this.$slots.default[0];
+    if (!('text' in slot)) return;
+    this.text = slot.text;
+  },
+  methods: {
+    dText: function () {
+      if (this.text.trim() === "") return false;
+      return this.text.trim();
     },
   },
 };

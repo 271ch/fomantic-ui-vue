@@ -1,7 +1,7 @@
 /* eslint-disable */
 import Vue from 'vue'
 import App from './App.vue'
-import FuiVue from '../../src'
+import FuiVue from 'fomantic-ui-vue/src'
 
 Vue.config.productionTip = false
 

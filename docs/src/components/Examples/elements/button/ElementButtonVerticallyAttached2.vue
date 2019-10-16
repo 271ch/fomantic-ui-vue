@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="ui two top attached buttons">
-        <div class="ui button">One</div>
-        <div class="ui button">Two</div>
-    </div>
-    <div class="ui attached segment">
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
-    </div>
-    <div class="ui two bottom attached buttons">
-        <div class="ui button">One</div>
-        <div class="ui button">Two</div>
-    </div>
+    <FuiButtons equalWidth=two attached=top>
+        <FuiButton tag=div>One</FuiButton>
+        <FuiButton tag=div>Two</FuiButton>
+    </FuiButtons>
+    <FuiSegment attached>
+      <FuiImage wireframe src="/images/wireframe/paragraph.png"></FuiImage>
+    </FuiSegment>
+    <FuiButtons equalWidth=two attached=bottom>
+      <FuiButton tag=div>One</FuiButton>
+      <FuiButton tag=div>Two</FuiButton>
+    </FuiButtons>
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 export default {
   name: 'ElementButtonVerticallyAttached2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Variations',

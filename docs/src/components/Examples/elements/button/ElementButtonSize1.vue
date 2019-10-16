@@ -1,29 +1,29 @@
 <template>
   <div>
-    <button class="mini ui button">
+    <FuiButton size=mini>
       Mini
-    </button>
-    <button class="tiny ui button">
+   </FuiButton>
+    <FuiButton size=tiny>
       Tiny
-    </button>
-    <button class="small ui button">
+   </FuiButton>
+    <FuiButton size=small>
       Small
-    </button>
-    <button class="medium ui button">
+   </FuiButton>
+    <FuiButton size=medium>
       Medium
-    </button>
-    <button class="large ui button">
+   </FuiButton>
+    <FuiButton size=large>
       Large
-    </button>
-    <button class="big ui button">
+   </FuiButton>
+    <FuiButton size=big>
       Big
-    </button>
-    <button class="huge ui button">
+   </FuiButton>
+    <FuiButton size=huge>
       Huge
-    </button>
-    <button class="massive ui button">
+   </FuiButton>
+    <FuiButton size=massive>
       Massive
-    </button>
+   </FuiButton>
   </div>
 </template>
 
@@ -31,34 +31,34 @@
 export default {
   name: 'ElementButtonSize1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Variations',
     title2: 'Size',
     description: 'A button can have different sizes',
-    model: '    <button class="mini ui button">\n' +
+    model: '    <button class="ui mini button">\n' +
       '      Mini\n' +
       '    </button>\n' +
-      '    <button class="tiny ui button">\n' +
+      '    <button class="ui tiny button">\n' +
       '      Tiny\n' +
       '    </button>\n' +
-      '    <button class="small ui button">\n' +
+      '    <button class="ui small button">\n' +
       '      Small\n' +
       '    </button>\n' +
-      '    <button class="medium ui button">\n' +
+      '    <button class="ui medium button">\n' +
       '      Medium\n' +
       '    </button>\n' +
-      '    <button class="large ui button">\n' +
+      '    <button class="ui large button">\n' +
       '      Large\n' +
       '    </button>\n' +
-      '    <button class="big ui button">\n' +
+      '    <button class="ui big button">\n' +
       '      Big\n' +
       '    </button>\n' +
-      '    <button class="huge ui button">\n' +
+      '    <button class="ui huge button">\n' +
       '      Huge\n' +
       '    </button>\n' +
-      '    <button class="massive ui button">\n' +
+      '    <button class="ui massive button">\n' +
       '      Massive\n' +
       '    </button>\n',
   },

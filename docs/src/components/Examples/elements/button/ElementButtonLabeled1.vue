@@ -1,29 +1,29 @@
 <template>
   <div>
-    <div class="ui labeled button" tabindex="0">
-      <div class="ui button">
-        <i class="heart icon"/> Like
-      </div>
-      <a class="ui basic label">
+    <FuiButton tag=div focusable labeled>
+      <FuiButton tag=div>
+        <FuiIcon name=heart></FuiIcon> Like
+      </FuiButton>
+      <FuiLabel tag=a basic>
         2,048
-      </a>
-    </div>
-    <div class="ui left labeled button" tabindex="0">
-      <a class="ui basic right pointing label">
+      </FuiLabel>
+    </FuiButton>
+    <FuiButton tag=div focusable labeled=left>
+      <FuiLabel tag=a basic pointing=right>
         2,048
-      </a>
-      <div class="ui button">
-        <i class="heart icon"/> Like
-      </div>
-    </div>
-    <div class="ui left labeled button" tabindex="0">
-      <a class="ui basic label">
+      </FuiLabel>
+      <FuiButton tag=div>
+        <FuiIcon name=heart></FuiIcon> Like
+      </FuiButton>
+    </FuiButton>
+    <FuiButton tag=div focusable labeled=left>
+      <FuiLabel tag=a basic>
         1,048
-      </a>
-      <div class="ui icon button">
-        <i class="fork icon"/>
-      </div>
-    </div>
+      </FuiLabel>
+      <FuiButton icon tag=div>
+        <FuiIcon name=fork></FuiIcon>
+      </FuiButton>
+    </FuiButton>
   </div>
 </template>
 
@@ -31,7 +31,7 @@
 export default {
   name: 'ElementButtonLabeled1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Types',
@@ -46,7 +46,7 @@ export default {
       '      </a>\n' +
       '    </div>\n' +
       '    <div class="ui left labeled button" tabindex="0">\n' +
-      '      <a class="ui basic right pointing label">\n' +
+      '      <a class="ui right pointing basic label">\n' +
       '        2,048\n' +
       '      </a>\n' +
       '      <div class="ui button">\n' +

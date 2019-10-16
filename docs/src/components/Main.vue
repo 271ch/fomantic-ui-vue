@@ -22,6 +22,10 @@
 <br />
 <br />
 <ElementButtonActive1 />
+<br />
+<ElementButtonConditionals2 />
+<br />
+<ElementButtonVerticallyAttached1 />
 
 </div>
 </template>
@@ -29,6 +33,9 @@
 
 <script>
 import ElementButtonActive1 from './Examples/elements/button/ElementButtonActive1.vue'
+import ElementButtonConditionals2 from './Examples/elements/button/ElementButtonConditionals2.vue'
+import ElementButtonVerticallyAttached1 from './Examples/elements/button/ElementButtonVerticallyAttached1.vue'
+
 
 export default {
   name: 'Main',
@@ -37,6 +44,8 @@ export default {
   },
   components: {
     ElementButtonActive1,
+    ElementButtonConditionals2,
+    ElementButtonVerticallyAttached1,
   },
   methods: {
   },

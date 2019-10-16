@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "fomantic-ui-css": "^2.7.8",
-    "fomantic-ui-vue": "file:../../fomantic-ui-vue",
+    "fomantic-ui-vue": "file:..",
     "vue": "^2.6.10"
   },
   "devDependencies": {

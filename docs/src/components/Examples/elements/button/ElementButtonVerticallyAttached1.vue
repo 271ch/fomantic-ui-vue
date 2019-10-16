@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui top attached button" tabindex="0">Top</div>
-    <div class="ui attached segment">
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
-    </div>
-    <div class="ui bottom attached button" tabindex="0">Bottom</div>
+    <FuiButton tag=div attached=top focusable>Top</FuiButton>
+    <FuiSegment attached>
+      <FuiImage wireframe src="/images/wireframe/paragraph.png"></FuiImage>
+    </FuiSegment>
+    <FuiButton tag=div attached=bottom focusable>Bottom</FuiButton>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementButtonVerticallyAttached1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Variations',

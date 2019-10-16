@@ -17,9 +17,17 @@ export default {
   name: 'FuiButton',
   mixins: [
     Mixins.PSocial,
-    Mixins.PPrimSecTer,
+    Mixins.getMixinOfBools(
+      'Emphasis',
+      {
+        primary: 'Format showing a higher level of emphasis.',
+        secondary: 'Format showing a lower level of emphasis.',
+        tertiary: 'A none bordered less important button.',
+      }
+    ),
     Mixins.PSize,
     Mixins.getMixinTag(['div'], 'button'),
+    Mixins.PColor,
   ],
   props: {
     focusable: {
@@ -32,12 +40,12 @@ export default {
       default: false,
     },
     labeled: {
-      type: String,
+      type: [Boolean, String],
       description: 'A button can appear alongside a label.',
       validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
+        return value === false || value === true || Enum.LeftRight.check(value);
       },
-      default: '',
+      default: false,
     },
     icon: {
       type: Boolean,
@@ -67,6 +75,14 @@ export default {
       type: Boolean,
       description: 'A button can show it is currently unable to be interacted with.',
     },
+    elastic: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
+    double: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
     loading: {
       type: Boolean,
       description: 'A button can show a loading indicator.',
@@ -76,11 +92,6 @@ export default {
       validator: (value) => {
         return !value || Enum.LeftRight.check(value);
       },
-      default: '',
-    },
-    color: {
-      type: String,
-      description: 'A button can have different colors.',
       default: '',
     },
     compact: {
@@ -131,10 +142,10 @@ export default {
     },
     classes: function () {
       return u.concatClasses(
+        this.fluid && 'fluid',
         'ui',
         this.positive && 'positive',
         this.negative && 'negative',
-        this.fluid && 'fluid',
         this.circular && 'circular',
         this.attached,
         this.attached && 'attached',
@@ -143,19 +154,21 @@ export default {
         this.animated === 'fade' && 'animated fade',
         this.animated === 'vertical' && 'vertical animated',
         this.inverted && 'inverted',
-        this.color,
+        ...this.getClassesColor,
         ...this.getClassesEmphasis(),
         this.tertiary && 'tertiary',
         this.basic && 'basic',
-        this.labeled == 'left' && this.labeled,
-        this.labeled && 'labelled',
+        this.labeled === 'left' && this.labeled,
+        this.labeled && 'labeled',
         (this.labeledIcon === true || this.labeledIcon === 'left') && 'labeled icon',
         this.labeledIcon === 'right' && 'right labeled icon',
         this.active && 'active',
         this.disabled && 'disabled',
+        this.elastic && 'elastic',
+        this.double && 'double',  // TODO: elastic, double and loading together?
         this.loading && 'loading',
         ...this.getClassesSocial(),
-        ...this.getClassesSize(),
+        ...this.getClassesSize,
         this.icon && 'icon',
         this.floated,
         this.floated && 'floated',

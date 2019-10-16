@@ -1,12 +1,11 @@
 <template>
   <div>
-    <div class="ui ignored info message">Setting your brand colors to primary and secondary color variables in <a href="/usage/theming.html"><code>site.variables</code></a> will allow you to use your color theming for UI elements</div>
-    <button class="ui primary button">
+    <FuiButton primary>
       Save
-    </button>
-    <button class="ui button">
+    </FuiButton>
+    <FuiButton>
       Discard
-    </button>
+    </FuiButton>
   </div>
 </template>
 
@@ -14,14 +13,13 @@
 export default {
   name: 'ElementButtonEmphasis1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Types',
     title2: 'Emphasis',
     description: 'A button can be formatted to show different levels of emphasis',
-    model: '    <div class="ui ignored info message">Setting your brand colors to primary and secondary color variables in <a href="/usage/theming.html"><code>site.variables</code></a> will allow you to use your color theming for UI elements</div>\n' +
-      '    <button class="ui primary button">\n' +
+    model: '    <button class="ui primary button">\n' +
       '      Save\n' +
       '    </button>\n' +
       '    <button class="ui button">\n' +

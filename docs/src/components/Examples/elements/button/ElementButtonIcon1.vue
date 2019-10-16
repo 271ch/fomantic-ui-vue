@@ -1,8 +1,8 @@
 <template>
   <div>
-    <button class="ui icon button">
-      <i class="cloud icon"/>
-    </button>
+    <FuiButton icon>
+      <FuiIcon name=cloud></FuiIcon>
+    </FuiButton>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'ElementButtonIcon1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Types',

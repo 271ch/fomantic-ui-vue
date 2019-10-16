@@ -22,7 +22,7 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
-        ...this.getClassesSize(),
+        ...this.getClassesSize,
         'icons'
       );
     },

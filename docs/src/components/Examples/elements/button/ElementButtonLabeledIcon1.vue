@@ -1,13 +1,13 @@
 <template>
   <div>
-    <button class="ui labeled icon button">
-      <i class="pause icon"/>
+    <FuiButton labeledIcon>
+      <FuiIcon name=pause></FuiIcon>
       Pause
-    </button>
-    <button class="ui right labeled icon button">
-      <i class="right arrow icon"/>
+    </FuiButton>
+    <FuiButton labeledIcon=right>
+      <FuiIcon name="right arrow"></FuiIcon>
       Next
-    </button>
+    </FuiButton>
   </div>
 </template>
 
@@ -15,7 +15,7 @@
 export default {
   name: 'ElementButtonLabeledIcon1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Types',

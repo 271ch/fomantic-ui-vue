@@ -1,10 +1,10 @@
 <template>
   <div>
-    <FuiButtonGroup>
+    <FuiButtons>
       <FuiButton>un</FuiButton>
       <FuiButtonCondition>ou</FuiButtonCondition>
       <FuiButton positive>deux</FuiButton>
-    </FuiButtonGroup>
+    </FuiButtons>
   </div>
 </template>
 

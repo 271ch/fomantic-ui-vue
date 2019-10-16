@@ -6,7 +6,7 @@ import re
 import os
 
 template = """<template>
-  <div :class="classes()">
+  <div :class="classes">
     <slot />
   </div>
 </template>
@@ -45,7 +45,7 @@ export default {
       description: 'Click event',
     },
   },
-  methods: {
+  computed: {
     classes: function () {
       return u.concatClasses(
         '[[2]]'

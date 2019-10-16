@@ -10,7 +10,7 @@ import Enum from '../../lib/enum';
 import Mixins from '../../lib/mixins';
 
 export default {
-  name: 'FuiButtonGroup',
+  name: 'FuiButtons',
   mixins: [Mixins.PSize],
   props: {
     focusable: {
@@ -25,7 +25,7 @@ export default {
       type: Boolean,
       description: 'Button groups can show groups of icons.',
     },
-    labelledIcon: {
+    labeledIcon: {
       type: Boolean,
       description: 'Button groups can be formatted as labeled icons.',
     },
@@ -47,12 +47,12 @@ export default {
       default: '',
     },
     equalWidth: {
-      type: String,
+      type: [Boolean, String],
       description: `Button groups can have their widths divided evenly.`,
       validator: (value) => {
-        return !value || Enum.Number.check(value);
+        return value === false || Enum.Number.check(value);
       },
-      default: '',
+      default: false,
     },
     basic: {
       type: Boolean,
@@ -67,16 +67,16 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
-        this.equalWidth,
         'ui',
-        ...this.getClassesSize(),
+        this.equalWidth,
+        ...this.getClassesSize,
         this.color,
         this.attached,
         this.attached && 'attached',
-        this.icon && 'icon',
         this.vertical && 'vertical',
-        this.labelledIcon && 'labelled icon',
         this.basic && 'basic',
+        this.icon && 'icon',
+        this.labeledIcon && 'labeled icon',
         'buttons'
       );
     },

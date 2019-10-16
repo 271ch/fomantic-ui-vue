@@ -1,19 +1,27 @@
 <template>
-  <div :class="classes">
+  <component
+    :is="gTag()"
+    :class="classes"
+  >
     <img
       v-if="image"
       :src="imageSrc"
     >
     <slot />
-  </div>
+  </component>
 </template>
 
 <script>
 import u from '../../lib/util';
 import Enum from '../../lib/enum';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiLabel',
+  mixins: [
+    Mixins.getMixinTag(['a', 'span', 'label'], 'div'),
+    Mixins.PColor,
+  ],
   props: {
     image: {
       type: Boolean,
@@ -44,10 +52,6 @@ export default {
       },
       default: '',
     },
-    tag: {
-      type: Boolean,
-      description: 'A label can appear as a tag.',
-    },
     ribbon: {
       type: Boolean,
       description: 'A label can appear as a ribbon attaching itself to an element.',
@@ -72,6 +76,10 @@ export default {
       type: Boolean,
       description: 'A horizontal label is formatted to label content along-side it horizontally.',
     },
+    basic: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
   },
   events: {
     click: {
@@ -82,18 +90,17 @@ export default {
     classes: function () {
       return u.concatClasses(
         'ui',
-        this.pointing && 'pointing',
         this.pointing !== 'above' && this.pointing,
-        // color
+        this.pointing && 'pointing',
+        ...this.getClassesColor,
         this.image && 'image',
         this.corner && [this.cornerPosition, 'corner'].join(' '),
-        this.tag && 'tag',
         this.ribbonPosition !== 'left' && this.ribbonPosition,
         this.ribbon && 'ribbon',
         // icon position
         // icon
         this.horizontal && 'horizontal',
-        // basic
+        this.basic && 'basic',
         'label'
       );
     },

@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui large buttons">
-      <button class="ui button">One</button>
-      <div class="or"/>
-      <button class="ui button">Two</button>
-    </div>
+    <FuiButtons size=large>
+      <FuiButton>One</FuiButton>
+      <FuiButtonCondition></FuiButtonCondition>
+      <FuiButton>Two</FuiButton>
+    </FuiButtons>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementButtonGroupSizes3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Group Variations',

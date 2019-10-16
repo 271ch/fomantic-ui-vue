@@ -23,49 +23,34 @@ mixins.PSocial = {
   },
 };
 
-// primary econdary
-mixins.PPrimSec = {
-  props: {
-    primary: {
-      type: Boolean,
-      description: 'Format showing a higher level of emphasis.',
-    },
-    secondary: {
-      type: Boolean,
-      description: 'Format showing a lower level of emphasis.',
-    },
-  },
-  methods: {
-    getClassesEmphasis: function () {
-      return [
-        (this.primary && 'primary') ||
-        (this.secondary && 'secondary')
-      ];
-    },
-  },
-};
-
-// primary secondary tertiary (merge)
-mixins.PPrimSecTer = Object.assign({},
-  mixins.PPrimSec,
-  {
-    props: {
-      tertiary: {
+// generic Boolean mixin
+mixins.getMixinOfBools = function (name, props) {
+  let m = {
+    props: { },
+    methods: { },
+  };
+  m.methods['getClasses' + name] = function () {
+    return [
+      (this.primary && 'primary') ||
+      (this.secondary && 'secondary')
+    ];
+  };
+  for (let prop in props) {
+    if (typeof prop === 'string') {
+      m.props[prop] = {
         type: Boolean,
-        description: 'A none bordered less important button.',
-      },
-    },
-    methods: {
-      getClassesEmphasis: function () {
-        return [
-          (this.primary && 'primary') ||
-          (this.secondary && 'secondary') ||
-          (this.tertiary && 'tertiary')
-        ];
-      },
-    },
+        description: '',
+      };
+    } else {
+      const k = Object.keys(prop)[0];
+      m.props[k] = {
+        type: Boolean,
+        description: prop[k],
+      };
+    }
   }
-);
+  return m;
+};
 
 // left/center/right aligned, justified
 mixins.PLRJAlignment = {
@@ -160,15 +145,15 @@ mixins.PHeaderLevel = {
 mixins.PSize = {
   props: {
     size: {
-      type: String,
+      type: [Boolean, String],
       description: `Size of the element (${Enum.Size.str()}).`,
       validator: (value) => {
-        return !value || Enum.Size.check(value);
+        return value === false || Enum.Size.check(value);
       },
-      default: '',
+      default: false,
     },
   },
-  methods: {
+  computed: {
     getClassesSize: function () {
       return [
         this.size,
@@ -233,6 +218,25 @@ mixins.getMixinTag = function (values, def) {
       },
     },
   };
+};
+
+// mixin for color
+mixins.PColor = {
+  props: {
+    color: {
+      type: [Boolean, String],
+      description: `Predefined colors (${Enum.Color.str()}).`,
+      validator: (value) => {
+        return value === false || Enum.Color.check(value);
+      },
+      default: false,
+    },
+  },
+  computed: {
+    getClassesColor: function () {
+      return [this.color];
+    },
+  },
 };
 
 export default mixins;

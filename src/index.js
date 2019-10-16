@@ -2,6 +2,7 @@ const comps = require.context('.', true, /\.vue$/i); // eslint-disable-line no-u
 
 const registerAll = (v) => {
   for (const key of comps.keys()) {
+    // console.log('Registering ' + key);
     v.component(comps(key).default.name, comps(key).default);
   }
 };
