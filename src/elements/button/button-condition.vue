@@ -24,7 +24,7 @@ export default {
       description: 'Click event',
     },
   },
-  methods: {
+  computed: {
     /*
     getText: function () {
       let t = this.text.trim()

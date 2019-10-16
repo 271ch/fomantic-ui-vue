@@ -50,7 +50,7 @@ export default {
       description: 'Click event',
     },
   },
-  methods: {
+  computed: {
     classes: function () {
       return u.concatClasses(
         'ui',

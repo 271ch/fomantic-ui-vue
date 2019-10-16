@@ -45,7 +45,7 @@ export default {  // TODO: Component FuiHeader
       description: 'Click event',
     },
   },
-  methods: {
+  computed: {
     classes: function () {
       return u.concatClasses(
         'ui',
