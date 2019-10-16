@@ -1,6 +1,9 @@
 <template>
-  <div :class="classes()">
-    <slot> or </slot>
+  <div
+    :class="classes()"
+    :data-text="text"
+  >
+    <slot :v-bind="text" />
   </div>
 </template>
 
@@ -11,6 +14,10 @@ import u from '../../lib/util';
 export default {
   name: 'FuiButtonCondition',
   props: {
+    text: {
+      type: [Boolean, String],
+      default: false,
+    },
   },
   events: {
     click: {
@@ -18,7 +25,15 @@ export default {
     },
   },
   methods: {
+    /*
+    getText: function () {
+      let t = this.text.trim()
+      if (t==='') return false
+      else return t;
+    },
+    */
     classes: function () {
+      console.log('>>>> ' + this.text);
       return u.concatClasses([
         'or',
       ]);

@@ -1,41 +1,41 @@
 <template>
   <div>
-    <button class="ui facebook button">
-      <i class="facebook icon"/>
+    <FuiButton social=facebook>
+      <FuiIcon name="facebook"></FuiIcon>
       Facebook
-    </button>
-    <button class="ui twitter button">
-      <i class="twitter icon"/>
+    </FuiButton>
+    <FuiButton social=twitter>
+      <FuiIcon name="twitter"></FuiIcon>
       Twitter
-    </button>
-    <button class="ui google plus button">
-      <i class="google plus icon"/>
+    </FuiButton>
+    <FuiButton social="google plus">
+      <FuiIcon name="google plus"></FuiIcon>
       Google Plus
-    </button>
-    <button class="ui vk button">
-      <i class="vk icon"/>
+    </FuiButton>
+    <FuiButton social=vk>
+      <FuiIcon name="vk"></FuiIcon>
       VK
-    </button>
-    <button class="ui linkedin button">
-      <i class="linkedin icon"/>
+    </FuiButton>
+    <FuiButton social=linkedin>
+      <FuiIcon name="linkedin"></FuiIcon>
       LinkedIn
-    </button>
-    <button class="ui instagram button">
-      <i class="instagram icon"/>
+    </FuiButton>
+    <FuiButton social=instagram>
+      <FuiIcon name="instagram"></FuiIcon>
       Instagram
-    </button>
-    <button class="ui youtube button">
-      <i class="youtube icon"/>
+    </FuiButton>
+    <FuiButton social=youtube>
+      <FuiIcon name="youtube"></FuiIcon>
       YouTube
-    </button>
-    <button class="ui whatsapp button">
-      <i class="whatsapp icon"/>
+    </FuiButton>
+    <FuiButton social=whatsapp>
+      <FuiIcon name="whatsapp"></FuiIcon>
       WhatsApp
-    </button>
-    <button class="ui telegram button">
-      <i class="telegram icon"/>
+    </FuiButton>
+    <FuiButton social=telegram>
+      <FuiIcon name="telegram"></FuiIcon>
       Telegram
-    </button>
+    </FuiButton>
   </div>
 </template>
 
@@ -43,7 +43,7 @@
 export default {
   name: 'ElementButtonSocial1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'Variations',

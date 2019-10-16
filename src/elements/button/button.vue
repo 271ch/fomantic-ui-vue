@@ -1,8 +1,8 @@
 <template>
   <component
     :is="gTag()"
-    :class="classes()"
-    :tabindex="getTabindex()"
+    :class="classes"
+    :tabindex="getTabindex"
   >
     <slot />
   </component>
@@ -121,7 +121,7 @@ export default {
       description: 'Click event',
     },
   },
-  methods: {
+  computed: {
     getTabindex: function () {
       if (this.tag === 'div' && this.focusable) {
         return '0';
