@@ -16,7 +16,8 @@ export default {  // TODO: Component FuiHeader
   name: 'FuiHeader',
   mixins: [
     Mixins.PHeaderLevel,
-    Mixins.getMixinAttached(['', 'top', 'bottom'], '')
+    Mixins.getMixinAttached(['', 'top', 'bottom'], ''),
+    Mixins.getMixinAligned(['left', 'right'], null),
   ],
   props: {
     icon: {
@@ -30,6 +31,14 @@ export default {  // TODO: Component FuiHeader
     disabled: {
       type: Boolean,
       description: 'A header can show that it is inactive.',
+    },
+    horizontal: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
+    divider: {
+      type: Boolean,
+      description: '', // TODO: descr
     },
     dividing: {
       type: Boolean,
@@ -50,12 +59,15 @@ export default {  // TODO: Component FuiHeader
       return u.concatClasses(
         'ui',
         this.icon && 'icon',
-        this.sub && 'sub',
         this.disabled && 'disabled',
         this.dividing && 'dividing',
         this.block && 'block',
         ...this.getClassesAttached(),
         ...this.getClassesHeaderLevel(),
+        this.horizontal && 'horizontal',
+        ...this.getClassesAligned(),
+        this.divider && 'divider',
+        this.sub && 'sub',
         'header'
       );
     },

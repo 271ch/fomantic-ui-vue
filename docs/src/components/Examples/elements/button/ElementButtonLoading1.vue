@@ -23,7 +23,7 @@
 export default {
   name: 'ElementButtonLoading1',
   info: {
-    converted: true,
+    converted: false,
     elementType: 'elements',
     element: 'button',
     title1: 'States',

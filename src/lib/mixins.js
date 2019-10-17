@@ -196,6 +196,31 @@ mixins.getMixinAttached = function (values, def) {
   };
 };
 
+mixins.getMixinAligned = function (values, def) {
+  const e = Enum.Enum.fromArray(values);
+  return {
+    props: {
+      aligned: {
+        type: [Boolean, String],
+        description: `The element is aligned (${e.str()})`,
+        validator: (value) => {
+          return value === false || e.check(value);
+        },
+        default: false,
+      },
+    },
+    methods: {
+      getClassesAligned: function () {
+        return [
+          this.aligned === true && def,
+          this.aligned !== true && this.aligned,
+          this.aligned && 'aligned',
+        ];
+      },
+    },
+  };
+};
+
 // possible tag's
 mixins.getMixinTag = function (values, def) {
   const e = Enum.Enum.fromArray(values);

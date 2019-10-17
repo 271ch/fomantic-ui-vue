@@ -12,7 +12,7 @@
 export default {
   name: 'ElementButtonVerticallyAttached1',
   info: {
-    converted: true,
+    converted: false,
     elementType: 'elements',
     element: 'button',
     title1: 'Variations',

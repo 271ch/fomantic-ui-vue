@@ -1,17 +1,17 @@
 <template>
   <div>
-    <h4 class="ui horizontal left aligned divider header">
-      <i class="left align icon"/>
+    <FuiHeader level=4 aligned=left horizontal divider>
+      <FuiIcon name="left align"></FuiIcon>
       Left Aligned
-    </h4>
-    <h4 class="ui horizontal divider header">
-      <i class="center align icon"/>
+    </FuiHeader>
+    <FuiHeader level=4 horizontal divider>
+      <FuiIcon name="center align"></FuiIcon>
       Center Aligned
-    </h4>
-    <h4 class="ui horizontal right aligned divider header">
-      <i class="right align icon"/>
+    </FuiHeader>
+    <FuiHeader level=4 aligned=right horizontal divider>
+      <FuiIcon name="right align"></FuiIcon>
       Right Aligned
-    </h4>
+    </FuiHeader>
   </div>
 </template>
 
@@ -19,7 +19,7 @@
 export default {
   name: 'ElementDividerHorizontalAlignment1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'divider',
     title1: 'Types',

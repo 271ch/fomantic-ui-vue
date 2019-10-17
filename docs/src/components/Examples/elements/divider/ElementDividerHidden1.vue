@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h3 class="ui header">Section One</h3>
-    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
-    <div class="ui hidden divider"/>
-    <h3 class="ui header">Section Two</h3>
-    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+    <FuiHeader level=3>Section One</FuiHeader>
+    <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
+    <FuiDivider hidden></FuiDivider>
+    <FuiHeader level=3>Section Two</FuiHeader>
+    <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementDividerHidden1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'divider',
     title1: 'Variations',

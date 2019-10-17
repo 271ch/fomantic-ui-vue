@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui segment">
-      <h2 class="ui right floated header">Floated Content</h2>
-      <div class="ui clearing divider"/>
-      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
-    </div>
+    <FuiSegment>
+      <FuiHeader level=2 floated=right>Floated Content</FuiHeader>
+      <FuiDivider clearing></FuiDivider>
+      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementDividerClearing1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'divider',
     title1: 'Variations',

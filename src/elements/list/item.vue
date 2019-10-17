@@ -10,9 +10,28 @@ import u from '../../lib/util';
 // import Mixins from '../../lib/mixins';
 
 export default {
-  name: 'FuiSubHeader',
+  name: 'FuiList',
   mixins: [],
   props: {
+    /*
+    prop1: { // TODO: Component FuiList
+      type: Boolean,
+      description: '',
+    },
+    prop2: {
+      type: String,
+      description: '',
+      default: '',
+    },
+    prop3: {
+      type: String,
+      description: '',
+      validator: (value) => {
+        return !value || Enum.LeftRight.check(value);
+      },
+      default: '',
+    },
+    */
   },
   events: {
     click: {
@@ -22,7 +41,7 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
-        'sub header'
+        'list'
       );
     },
   },

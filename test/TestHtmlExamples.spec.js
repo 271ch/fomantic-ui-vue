@@ -11,7 +11,7 @@ FuiVue.registerAll(Vue)
 let converted = 0;
 let notConverted = 0;
 
-let moreLog = ['ElementButtonLabeled1'];
+let moreLog = ['ElementFlag1'];
 moreLog = [];
 
 const testElementType = function (et, elemList) {

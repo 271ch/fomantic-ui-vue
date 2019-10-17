@@ -10,11 +10,11 @@ import u from '../../lib/util';
 // import Mixins from '../../lib/mixins';
 
 export default {
-  name: 'FuiItem',
+  name: 'FuiInputDiv',
   mixins: [],
   props: {
     /*
-    prop1: { // TODO: Component FuiList
+    prop1: { // TODO: Component FuiInput
       type: Boolean,
       description: '',
     },
@@ -41,7 +41,7 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
-        'item'
+        'input'
       );
     },
   },

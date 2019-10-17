@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="ui action input">
+    <FuiInput action>
       <input type="text" placeholder="Search..."/>
       <button class="ui button">Search</button>
-    </div>
+    </FuiInput>
   </div>
 </template>
 

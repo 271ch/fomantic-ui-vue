@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui segment">
+    <FuiSegment>
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
-      <div class="ui fitted divider"/>
+      <FuiDivider fitted></FuiDivider>
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
-    </div>
+    </FuiSegment>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementDividerFitted1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'divider',
     title1: 'Variations',
@@ -20,8 +20,8 @@ export default {
     description: 'A divider can be fitted, without any space above or below it.',
     model: '    <div class="ui segment">\n' +
       '      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.\n' +
-      '      <div class="ui fitted divider"/>\n' +
-      '      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.\n' +
+      '    <div class="ui fitted divider"/>\n' +
+      '    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.\n' +
       '    </div>\n',
   },
 };
