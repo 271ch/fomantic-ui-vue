@@ -17,6 +17,10 @@ export default {
       type: Boolean,
       description: '',
     },
+    attached: { // TODO: descr
+      type: Boolean,
+      description: '',
+    },
     /*
     prop1: { // TODO: Component FuiSegment
       type: Boolean,
@@ -47,6 +51,7 @@ export default {
       return u.concatClasses(
         'ui',
         this.inverted && 'inverted',
+        this.attached && 'attached',
         'segment'
       );
     },

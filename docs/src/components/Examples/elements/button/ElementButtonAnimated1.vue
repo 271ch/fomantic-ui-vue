@@ -32,13 +32,13 @@ export default {
     model: '    <div class="ui animated button" tabindex="0">\n' +
       '      <div class="visible content">Next</div>\n' +
       '      <div class="hidden content">\n' +
-      '        <i class="right arrow icon"/>\n' +
+      '        <i class="right arrow icon"></i>\n' +
       '      </div>\n' +
       '    </div>\n' +
       '    <div class="ui vertical animated button" tabindex="0">\n' +
       '      <div class="hidden content">Shop</div>\n' +
       '      <div class="visible content">\n' +
-      '        <i class="shop icon"/>\n' +
+      '        <i class="shop icon"></i>\n' +
       '      </div>\n' +
       '    </div>\n' +
       '    <div class="ui animated fade button" tabindex="0">\n' +

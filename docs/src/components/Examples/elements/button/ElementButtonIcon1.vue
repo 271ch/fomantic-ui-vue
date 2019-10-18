@@ -17,7 +17,7 @@ export default {
     title2: 'Icon',
     description: 'A button can have only an icon',
     model: '    <button class="ui icon button">\n' +
-      '      <i class="cloud icon"/>\n' +
+      '      <i class="cloud icon"></i>\n' +
       '    </button>\n',
   },
 };

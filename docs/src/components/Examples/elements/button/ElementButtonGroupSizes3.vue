@@ -20,7 +20,7 @@ export default {
     description: 'Groups can have a shared size',
     model: '    <div class="ui large buttons">\n' +
       '      <button class="ui button">One</button>\n' +
-      '      <div class="or"/>\n' +
+      '      <div class="or"></div>\n' +
       '      <button class="ui button">Two</button>\n' +
       '    </div>\n',
   },

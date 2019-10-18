@@ -4,14 +4,14 @@
     <FuiButton basic loading>Loading</FuiButton>
     <FuiButton primary loading>Loading</FuiButton>
     <FuiButton secondary loading>Loading</FuiButton>
-    <br></br>
-    <br></br>
+    <br/>
+    <br/>
     <FuiButton double loading>Loading</FuiButton>
     <FuiButton basic double loading>Loading</FuiButton>
     <FuiButton primary double loading>Loading</FuiButton>
     <FuiButton secondary double loading>Loading</FuiButton>
-    <br></br>
-    <br></br>
+    <br/>
+    <br/>
     <FuiButton elastic loading>Loading</FuiButton>
     <FuiButton basic elastic loading>Loading</FuiButton>
     <FuiButton primary elastic loading>Loading</FuiButton>

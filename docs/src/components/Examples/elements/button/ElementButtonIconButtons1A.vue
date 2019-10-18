@@ -26,13 +26,13 @@ export default {
     description: 'Groups can be formatted as icons',
     model: '    <div class="ui icon buttons">\n' +
       '      <button class="ui button">\n' +
-      '        <i class="play icon"/>\n' +
+      '        <i class="play icon"></i>\n' +
       '      </button>\n' +
       '      <button class="ui button">\n' +
-      '        <i class="pause icon"/>\n' +
+      '        <i class="pause icon"></i>\n' +
       '      </button>\n' +
       '      <button class="ui button">\n' +
-      '        <i class="shuffle icon"/>\n' +
+      '        <i class="shuffle icon"></i>\n' +
       '      </button>\n' +
       '    </div>\n',
   },

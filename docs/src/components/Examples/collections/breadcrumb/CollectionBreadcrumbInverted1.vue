@@ -3,17 +3,17 @@
     <div class="ui inverted segment">
         <div class="ui inverted breadcrumb">
             <a class="section">Home</a>
-            <i class="right chevron icon divider"/>
+            <i class="right chevron icon divider"></i>
             <a class="section">Registration</a>
-            <i class="right chevron icon divider"/>
+            <i class="right chevron icon divider"></i>
             <div class="active section">Personal Information</div>
         </div>
-        <p/>
+        <p></p>
         <div class="ui inverted breadcrumb">
             <div class="section">Home</div>
-            <i class="right chevron icon divider"/>
+            <i class="right chevron icon divider"></i>
             <div class="section">Registration</div>
-            <i class="right chevron icon divider"/>
+            <i class="right chevron icon divider"></i>
             <div class="active section">Personal Information</div>
         </div>
     </div>
@@ -33,17 +33,17 @@ export default {
     model: '    <div class="ui inverted segment">\n' +
       '        <div class="ui inverted breadcrumb">\n' +
       '            <a class="section">Home</a>\n' +
-      '            <i class="right chevron icon divider"/>\n' +
+      '            <i class="right chevron icon divider"></i>\n' +
       '            <a class="section">Registration</a>\n' +
-      '            <i class="right chevron icon divider"/>\n' +
+      '            <i class="right chevron icon divider"></i>\n' +
       '            <div class="active section">Personal Information</div>\n' +
       '        </div>\n' +
-      '        <p/>\n' +
+      '        <p></p>\n' +
       '        <div class="ui inverted breadcrumb">\n' +
       '            <div class="section">Home</div>\n' +
-      '            <i class="right chevron icon divider"/>\n' +
+      '            <i class="right chevron icon divider"></i>\n' +
       '            <div class="section">Registration</div>\n' +
-      '            <i class="right chevron icon divider"/>\n' +
+      '            <i class="right chevron icon divider"></i>\n' +
       '            <div class="active section">Personal Information</div>\n' +
       '        </div>\n' +
       '    </div>\n',

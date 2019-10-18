@@ -50,39 +50,39 @@ export default {
     title2: 'Social',
     description: 'A button can be formatted to link to a social website',
     model: '    <button class="ui facebook button">\n' +
-      '      <i class="facebook icon"/>\n' +
+      '      <i class="facebook icon"></i>\n' +
       '      Facebook\n' +
       '    </button>\n' +
       '    <button class="ui twitter button">\n' +
-      '      <i class="twitter icon"/>\n' +
+      '      <i class="twitter icon"></i>\n' +
       '      Twitter\n' +
       '    </button>\n' +
       '    <button class="ui google plus button">\n' +
-      '      <i class="google plus icon"/>\n' +
+      '      <i class="google plus icon"></i>\n' +
       '      Google Plus\n' +
       '    </button>\n' +
       '    <button class="ui vk button">\n' +
-      '      <i class="vk icon"/>\n' +
+      '      <i class="vk icon"></i>\n' +
       '      VK\n' +
       '    </button>\n' +
       '    <button class="ui linkedin button">\n' +
-      '      <i class="linkedin icon"/>\n' +
+      '      <i class="linkedin icon"></i>\n' +
       '      LinkedIn\n' +
       '    </button>\n' +
       '    <button class="ui instagram button">\n' +
-      '      <i class="instagram icon"/>\n' +
+      '      <i class="instagram icon"></i>\n' +
       '      Instagram\n' +
       '    </button>\n' +
       '    <button class="ui youtube button">\n' +
-      '      <i class="youtube icon"/>\n' +
+      '      <i class="youtube icon"></i>\n' +
       '      YouTube\n' +
       '    </button>\n' +
       '    <button class="ui whatsapp button">\n' +
-      '      <i class="whatsapp icon"/>\n' +
+      '      <i class="whatsapp icon"></i>\n' +
       '      WhatsApp\n' +
       '    </button>\n' +
       '    <button class="ui telegram button">\n' +
-      '      <i class="telegram icon"/>\n' +
+      '      <i class="telegram icon"></i>\n' +
       '      Telegram\n' +
       '    </button>\n',
   },

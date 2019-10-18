@@ -18,7 +18,7 @@ export default {
     title2: 'Basic',
     description: 'A basic button is less pronounced',
     model: '    <button class="ui basic button">\n' +
-      '      <i class="user icon"/>\n' +
+      '      <i class="user icon"></i>\n' +
       '      Add Friend\n' +
       '    </button>\n',
   },

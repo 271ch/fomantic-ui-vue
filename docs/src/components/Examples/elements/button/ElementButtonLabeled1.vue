@@ -39,7 +39,7 @@ export default {
     description: 'A button can appear alongside a',
     model: '    <div class="ui labeled button" tabindex="0">\n' +
       '      <div class="ui button">\n' +
-      '        <i class="heart icon"/> Like\n' +
+      '        <i class="heart icon"></i> Like\n' +
       '      </div>\n' +
       '      <a class="ui basic label">\n' +
       '        2,048\n' +
@@ -50,7 +50,7 @@ export default {
       '        2,048\n' +
       '      </a>\n' +
       '      <div class="ui button">\n' +
-      '        <i class="heart icon"/> Like\n' +
+      '        <i class="heart icon"></i> Like\n' +
       '      </div>\n' +
       '    </div>\n' +
       '    <div class="ui left labeled button" tabindex="0">\n' +
@@ -58,7 +58,7 @@ export default {
       '        1,048\n' +
       '      </a>\n' +
       '      <div class="ui icon button">\n' +
-      '        <i class="fork icon"/>\n' +
+      '        <i class="fork icon"></i>\n' +
       '      </div>\n' +
       '    </div>\n',
   },

@@ -22,11 +22,11 @@ export default {
     title2: 'Labeled Icon',
     description: 'A button can use an icon as a label',
     model: '    <button class="ui labeled icon button">\n' +
-      '      <i class="pause icon"/>\n' +
+      '      <i class="pause icon"></i>\n' +
       '      Pause\n' +
       '    </button>\n' +
       '    <button class="ui right labeled icon button">\n' +
-      '      <i class="right arrow icon"/>\n' +
+      '      <i class="right arrow icon"></i>\n' +
       '      Next\n' +
       '    </button>\n',
   },

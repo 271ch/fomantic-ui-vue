@@ -27,10 +27,10 @@ export default {
       '      Hold\n' +
       '    </button>\n' +
       '    <button class="ui compact icon button">\n' +
-      '      <i class="pause icon"/>\n' +
+      '      <i class="pause icon"></i>\n' +
       '    </button>\n' +
       '    <button class="ui compact labeled icon button">\n' +
-      '      <i class="pause icon"/>\n' +
+      '      <i class="pause icon"></i>\n' +
       '      Pause\n' +
       '    </button>\n',
   },

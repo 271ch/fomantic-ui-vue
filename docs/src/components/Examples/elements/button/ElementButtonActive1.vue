@@ -18,7 +18,7 @@ export default {
     title2: 'Active',
     description: 'A button can show it is currently the active user selection',
     model: '    <button class="ui active button">\n' +
-      '      <i class="user icon"/>\n' +
+      '      <i class="user icon"></i>\n' +
       '      Follow\n' +
       '    </button>\n',
   },

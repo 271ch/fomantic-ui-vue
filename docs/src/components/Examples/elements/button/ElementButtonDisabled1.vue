@@ -18,7 +18,7 @@ export default {
     title2: 'Disabled',
     description: 'A button can show it is currently unable to be interacted with',
     model: '    <button class="ui disabled button">\n' +
-      '      <i class="user icon"/>\n' +
+      '      <i class="user icon"></i>\n' +
       '      Followed\n' +
       '    </button>\n',
   },

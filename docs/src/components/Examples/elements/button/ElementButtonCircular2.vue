@@ -26,16 +26,16 @@ export default {
     title2: 'Circular',
     description: 'A button can be circular',
     model: '    <button class="ui circular facebook icon button">\n' +
-      '      <i class="facebook icon"/>\n' +
+      '      <i class="facebook icon"></i>\n' +
       '    </button>\n' +
       '    <button class="ui circular twitter icon button">\n' +
-      '      <i class="twitter icon"/>\n' +
+      '      <i class="twitter icon"></i>\n' +
       '    </button>\n' +
       '    <button class="ui circular linkedin icon button">\n' +
-      '      <i class="linkedin icon"/>\n' +
+      '      <i class="linkedin icon"></i>\n' +
       '    </button>\n' +
       '    <button class="ui circular google plus icon button">\n' +
-      '      <i class="google plus icon"/>\n' +
+      '      <i class="google plus icon"></i>\n' +
       '    </button>\n',
   },
 };

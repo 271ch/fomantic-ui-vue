@@ -29,7 +29,7 @@ export default {
       '      <div class="ui button">Two</div>\n' +
       '      <div class="ui button">Three</div>\n' +
       '    </div>\n' +
-      '    <div class="ui divider"/>\n' +
+      '    <div class="ui divider"></div>\n' +
       '    <div class="ui vertical basic buttons">\n' +
       '      <button class="ui button">One</button>\n' +
       '      <button class="ui button">Two</button>\n' +

@@ -3732,7 +3732,7 @@ s.ElementButtonEqualWidth1 =
   '  <FuiButton>Reviews</FuiButton>\n' +
   '  <FuiButton>Support</FuiButton>\n' +
   '</FuiButtons>\n' +
-  '<div class="ui ignored divider"/>\n' +
+  '<FuiDivider ignored></FuiDivider>\n' +
   '<FuiButtons equalWidth=three>\n' +
   '  <FuiButton>Overview</FuiButton>\n' +
   '  <FuiButton>Specs</FuiButton>\n' +
@@ -3996,14 +3996,14 @@ s.ElementButtonLoading1 =
   '<FuiButton basic loading>Loading</FuiButton>\n' +
   '<FuiButton primary loading>Loading</FuiButton>\n' +
   '<FuiButton secondary loading>Loading</FuiButton>\n' +
-  '<br></br>\n' +
-  '<br></br>\n' +
+  '<br/>\n' +
+  '<br/>\n' +
   '<FuiButton double loading>Loading</FuiButton>\n' +
   '<FuiButton basic double loading>Loading</FuiButton>\n' +
   '<FuiButton primary double loading>Loading</FuiButton>\n' +
   '<FuiButton secondary double loading>Loading</FuiButton>\n' +
-  '<br></br>\n' +
-  '<br></br>\n' +
+  '<br/>\n' +
+  '<br/>\n' +
   '<FuiButton elastic loading>Loading</FuiButton>\n' +
   '<FuiButton basic elastic loading>Loading</FuiButton>\n' +
   '<FuiButton primary elastic loading>Loading</FuiButton>\n' +
@@ -11316,9 +11316,9 @@ s.CollectionBreadcrumbActive1 =
 s.CollectionBreadcrumbDivider2 = 
   '<div class="ui breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
-  '  <i class="right arrow icon divider"/>\n' +
+  '  <i class="right arrow icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
   '</div>' 
 s.CollectionBreadcrumbSize5 = 
@@ -11333,17 +11333,17 @@ s.CollectionBreadcrumbInverted1 =
   '<div class="ui inverted segment">\n' +
   '    <div class="ui inverted breadcrumb">\n' +
   '        <a class="section">Home</a>\n' +
-  '        <i class="right chevron icon divider"/>\n' +
+  '        <i class="right chevron icon divider"></i>\n' +
   '        <a class="section">Registration</a>\n' +
-  '        <i class="right chevron icon divider"/>\n' +
+  '        <i class="right chevron icon divider"></i>\n' +
   '        <div class="active section">Personal Information</div>\n' +
   '    </div>\n' +
-  '    <p/>\n' +
+  '    <p></p>\n' +
   '    <div class="ui inverted breadcrumb">\n' +
   '        <div class="section">Home</div>\n' +
-  '        <i class="right chevron icon divider"/>\n' +
+  '        <i class="right chevron icon divider"></i>\n' +
   '        <div class="section">Registration</div>\n' +
-  '        <i class="right chevron icon divider"/>\n' +
+  '        <i class="right chevron icon divider"></i>\n' +
   '        <div class="active section">Personal Information</div>\n' +
   '    </div>\n' +
   '</div>' 
@@ -11356,9 +11356,9 @@ s.CollectionBreadcrumbLink1 =
 s.CollectionBreadcrumbSize1 = 
   '<div class="ui mini breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
   '</div>' 
 s.CollectionBreadcrumbSize4 = 
@@ -11402,9 +11402,9 @@ s.CollectionBreadcrumbSize2 =
 s.CollectionBreadcrumbBreadcrumb2 = 
   '<div class="ui breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
-  '  <i class="right angle icon divider"/>\n' +
+  '  <i class="right angle icon divider"></i>\n' +
   '  <a class="section">Store</a>\n' +
-  '  <i class="right angle icon divider"/>\n' +
+  '  <i class="right angle icon divider"></i>\n' +
   '  <div class="active section">T-Shirt</div>\n' +
   '</div>' 
 s.CollectionBreadcrumbDivider1 = 

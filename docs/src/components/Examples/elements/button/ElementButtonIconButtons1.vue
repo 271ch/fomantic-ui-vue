@@ -25,15 +25,15 @@ export default {
     title2: 'Icon Buttons',
     description: 'Button groups can show groups of icons',
     model: '    <div class="ui icon buttons">\n' +
-      '      <button class="ui button"><i class="align left icon"/></button>\n' +
-      '      <button class="ui button"><i class="align center icon"/></button>\n' +
-      '      <button class="ui button"><i class="align right icon"/></button>\n' +
-      '      <button class="ui button"><i class="align justify icon"/></button>\n' +
+      '      <button class="ui button"><i class="align left icon"></i></button>\n' +
+      '      <button class="ui button"><i class="align center icon"></i></button>\n' +
+      '      <button class="ui button"><i class="align right icon"></i></button>\n' +
+      '      <button class="ui button"><i class="align justify icon"></i></button>\n' +
       '    </div>\n' +
       '    <div class="ui icon buttons">\n' +
-      '      <button class="ui button"><i class="bold icon"/></button>\n' +
-      '      <button class="ui button"><i class="underline icon"/></button>\n' +
-      '      <button class="ui button"><i class="text width icon"/></button>\n' +
+      '      <button class="ui button"><i class="bold icon"></i></button>\n' +
+      '      <button class="ui button"><i class="underline icon"></i></button>\n' +
+      '      <button class="ui button"><i class="text width icon"></i></button>\n' +
       '    </div>\n',
   },
 };

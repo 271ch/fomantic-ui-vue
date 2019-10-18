@@ -7,7 +7,7 @@
       <FuiButton>Reviews</FuiButton>
       <FuiButton>Support</FuiButton>
     </FuiButtons>
-    <div class="ui ignored divider"/>
+    <FuiDivider ignored></FuiDivider>
     <FuiButtons equalWidth=three>
       <FuiButton>Overview</FuiButton>
       <FuiButton>Specs</FuiButton>
@@ -33,7 +33,7 @@ export default {
       '      <button class="ui button">Reviews</button>\n' +
       '      <button class="ui button">Support</button>\n' +
       '    </div>\n' +
-      '    <div class="ui ignored divider"/>\n' +
+      '    <div class="ui ignored divider"></div>\n' +
       '    <div class="ui three buttons">\n' +
       '      <button class="ui button">Overview</button>\n' +
       '      <button class="ui button">Specs</button>\n' +

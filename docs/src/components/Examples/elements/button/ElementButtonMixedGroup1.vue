@@ -29,16 +29,16 @@ export default {
     description: 'Groups can be formatted to use multiple button types together',
     model: '    <div class="ui buttons">\n' +
       '      <button class="ui labeled icon button">\n' +
-      '        <i class="left chevron icon"/>\n' +
+      '        <i class="left chevron icon"></i>\n' +
       '        Back\n' +
       '      </button>\n' +
       '      <button class="ui button">\n' +
-      '        <i class="stop icon"/>\n' +
+      '        <i class="stop icon"></i>\n' +
       '        Stop\n' +
       '      </button>\n' +
       '      <button class="ui right labeled icon button">\n' +
       '        Forward\n' +
-      '        <i class="right chevron icon"/>\n' +
+      '        <i class="right chevron icon"></i>\n' +
       '      </button>\n' +
       '    </div>\n',
   },

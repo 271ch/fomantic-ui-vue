@@ -20,7 +20,7 @@ export default {
     description: 'Button groups can contain conditionals',
     model: '    <div class="ui buttons">\n' +
       '      <button class="ui button">un</button>\n' +
-      '      <div class="or" data-text="ou"/>\n' +
+      '      <div class="or" data-text="ou"></div>\n' +
       '      <button class="ui positive button">deux</button>\n' +
       '    </div>\n',
   },

@@ -1,9 +1,10 @@
 <template>
   <div>
+    <FuiHeader level=3>{{example}}</FuiHeader>
     <FuiGrid>
       <FuiRow>
         <FuiColumn wide=eight>
-          <div v-html="getHtmlModel()"> </div>
+          <div v-html="getHtmlModel()"></div>
         </FuiColumn>
         <FuiColumn wide=eight>
           <component :is="example"></component>
@@ -56,6 +57,10 @@ export default {
     },
     getSourceHtmlModel: function () {
       let comp = exUtils.getCompFromName(this.example)
+      if (this.example === 'ElementButtonLabeled1') {
+        console.log('ElementButtonLabeled1--------------');
+        console.log(comp.info.model);
+      }
       return (comp.info.model.trim());
     },
     getSourceHtmlTempl: function () {
