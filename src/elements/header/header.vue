@@ -57,7 +57,7 @@ export default {  // TODO: Component FuiHeader
   computed: {
     classes: function () {
       return u.concatClasses(
-        'ui',
+        !this.sub && 'ui',
         this.icon && 'icon',
         this.disabled && 'disabled',
         this.dividing && 'dividing',

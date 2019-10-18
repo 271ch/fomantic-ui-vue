@@ -1,7 +1,7 @@
 <template>
   <div>
     <FuiButtons icon>
-      <FuiButton><FuiIcon name="align left"></FuiIcon></FuiIcon></FuiButton>
+      <FuiButton><FuiIcon name="align left"></FuiIcon></FuiButton>
       <FuiButton><FuiIcon name="align center"></FuiIcon></FuiButton>
       <FuiButton><FuiIcon name="align right"></FuiIcon></FuiButton>
       <FuiButton><FuiIcon name="align justify"></FuiIcon></FuiButton>

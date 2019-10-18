@@ -6,6 +6,8 @@
 
 <script>
 import u from '../../lib/util';
+// import Enum from '../../lib/enum';
+// import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiGrid',
@@ -19,6 +21,7 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
+        'ui',
         'grid'
       );
     },

@@ -114,18 +114,17 @@ mixins.PHeaderLevel = {
       description: 'Use div instead of h1, ..., h5',
     },
     level: {
-      type: String,
+      type: [Boolean, String],
       description: 'Headel level (???)',
       validator: (value) => {
-        return Enum.HeaderLevel.check(value);
+        return value === false || Enum.HeaderLevel.check(value);
       },
-      default: '',
-      required: true,
+      default: false,
     },
   },
   methods: {
     gTag: function () {
-      if (this.useDiv) {
+      if (this.useDiv || this.level === false) { // TODO: false => prop 'sub' required
         return 'div';
       } else {
         return Enum.HeaderLevel.value(this.level).tag;

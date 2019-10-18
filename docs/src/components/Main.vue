@@ -1,41 +1,12 @@
 <template>
   <div>
-
-<fui-header level=1 attached=bottom>
-  This page will contain some example
-</fui-header>
-<br />
-<br />
-<fui-button animated>
-  <fui-button-content>
-    A
-  </fui-button-content>
-  <fui-button-content hidden>
-    Z
-  </fui-button-content>
-</fui-button>
-<br />
-<br />
-<fui-button social=facebook>
-  Facebook
-</fui-button>
-<br />
-<br />
-<ElementButtonActive1 />
-<br />
-<ElementButtonConditionals2 />
-<br />
-<ElementButtonVerticallyAttached1 />
-
-</div>
+    <PageButtons></PageButtons>
+  </div>
 </template>
 
 
 <script>
-import ElementButtonActive1 from './Examples/elements/button/ElementButtonActive1.vue'
-import ElementButtonConditionals2 from './Examples/elements/button/ElementButtonConditionals2.vue'
-import ElementButtonVerticallyAttached1 from './Examples/elements/button/ElementButtonVerticallyAttached1.vue'
-
+import PageButtons from './PageButtons'
 
 export default {
   name: 'Main',
@@ -43,9 +14,7 @@ export default {
     msg: String
   },
   components: {
-    ElementButtonActive1,
-    ElementButtonConditionals2,
-    ElementButtonVerticallyAttached1,
+    PageButtons,
   },
   methods: {
   },

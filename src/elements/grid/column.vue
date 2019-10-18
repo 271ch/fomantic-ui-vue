@@ -6,10 +6,20 @@
 
 <script>
 import u from '../../lib/util';
+import Enum from '../../lib/enum';
+// import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiColumn',
   props: {
+    wide: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
+      validator: (value) => {
+        return value === false || Enum.Number.check(value);
+      },
+      default: false,
+    },
   },
   events: {
     click: {
@@ -19,6 +29,8 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
+        this.wide,
+        this.wide && 'wide',
         // left,right floated
         // right,left,middle aligned
         // begin repeat
