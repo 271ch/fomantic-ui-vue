@@ -1,5 +1,6 @@
 --webpack-env=dev
 --webpack-config webpack.config.js
 --require mocha-clean
+--require jsdom-global/register
 --require test/setup.js
 test/**/*.spec.js
