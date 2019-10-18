@@ -57,10 +57,6 @@ export default {
     },
     getSourceHtmlModel: function () {
       let comp = exUtils.getCompFromName(this.example)
-      if (this.example === 'ElementButtonLabeled1') {
-        console.log('ElementButtonLabeled1--------------');
-        console.log(comp.info.model);
-      }
       return (comp.info.model.trim());
     },
     getSourceHtmlTempl: function () {

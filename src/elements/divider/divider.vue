@@ -44,6 +44,10 @@ export default {
       type: Boolean,
       description: 'A divider can clear the contents above it',
     },
+    ignored: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
   },
   events: {
     click: {
@@ -61,6 +65,7 @@ export default {
         this.hidden && 'hidden',
         this.section && 'section',
         this.clearing && 'clearing',
+        this.ignored && 'ignored',
         'divider'
       );
     },
