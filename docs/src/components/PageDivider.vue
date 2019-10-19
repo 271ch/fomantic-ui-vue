@@ -17,7 +17,6 @@
     <ExampleWithSource example="ElementDividerHidden1"></ExampleWithSource>
     <ExampleWithSource example="ElementDividerSection1"></ExampleWithSource>
     <ExampleWithSource example="ElementDividerClearing1"></ExampleWithSource>
-
   </FuiContainer>
 </template>
 

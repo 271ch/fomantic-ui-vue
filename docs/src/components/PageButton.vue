@@ -6,7 +6,6 @@
         Button examples
       </FuiHeader>
     </FuiHeader>
-
     <ExampleWithSource example="ElementButtonButton1"></ExampleWithSource>
     <ExampleWithSource example="ElementButtonButton2"></ExampleWithSource>
     <ExampleWithSource example="ElementButtonEmphasis1"></ExampleWithSource>
