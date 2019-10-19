@@ -1,10 +1,10 @@
 <template>
   <div>
-    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
-    <h3 class="ui dividing header">
+    <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
+    <FuiHeader level=3 dividing>
       Dividing Header
-    </h3>
-    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+    </FuiHeader>
+    <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementHeaderDividing1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'header',
     title1: 'Variations',

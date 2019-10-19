@@ -65,7 +65,7 @@ import exUtils from './examplesUtils'
 exUtils.registerComponents('elements', 'button', '');
 
 export default {
-  name: 'PageButtons',
+  name: 'PageButton',
   components: {
     ExampleWithSource,
   },

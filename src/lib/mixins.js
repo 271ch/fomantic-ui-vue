@@ -27,9 +27,9 @@ mixins.PSocial = {
 mixins.getMixinOfBools = function (name, props) {
   let m = {
     props: { },
-    methods: { },
+    computed: { },
   };
-  m.methods['getClasses' + name] = function () {
+  m.computed['getClasses' + name] = function () {
     return [
       (this.primary && 'primary') ||
       (this.secondary && 'secondary')
@@ -208,12 +208,37 @@ mixins.getMixinAligned = function (values, def) {
         default: false,
       },
     },
-    methods: {
+    computed: {
       getClassesAligned: function () {
         return [
           this.aligned === true && def,
           this.aligned !== true && this.aligned,
           this.aligned && 'aligned',
+        ];
+      },
+    },
+  };
+};
+
+mixins.getMixinFloated = function (values, def) {
+  const e = Enum.Enum.fromArray(values);
+  return {
+    props: {
+      floated: {
+        type: [Boolean, String],
+        description: `The element is floated (${e.str()})`,
+        validator: (value) => {
+          return value === false || e.check(value);
+        },
+        default: false,
+      },
+    },
+    computed: {
+      getClassesFloated: function () {
+        return [
+          this.floated === true && def,
+          this.floated !== true && this.floated,
+          this.floated && 'floated',
         ];
       },
     },

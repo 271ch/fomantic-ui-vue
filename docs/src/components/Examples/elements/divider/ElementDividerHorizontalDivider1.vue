@@ -21,7 +21,7 @@
 export default {
   name: 'ElementDividerHorizontalDivider1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'divider',
     title1: 'Types',
@@ -29,8 +29,8 @@ export default {
     description: 'A divider can segment content horizontally',
     model: '    <div class="ui center aligned basic segment">\n' +
       '      <div class="ui left icon action input">\n' +
-      '        <i class="search icon"/>\n' +
-      '        <input type="text" placeholder="Order #"/>\n' +
+      '        <i class="search icon"></i>\n' +
+      '        <input type="text" placeholder="Order #" />\n' +
       '        <div class="ui blue submit button">Search</div>\n' +
       '      </div>\n' +
       '      <div class="ui horizontal divider">\n' +
@@ -38,7 +38,7 @@ export default {
       '      </div>\n' +
       '      <div class="ui teal labeled icon button">\n' +
       '        Create New Order\n' +
-      '        <i class="add icon"/>\n' +
+      '        <i class="add icon"></i>\n' +
       '      </div>\n' +
       '    </div>\n',
   },

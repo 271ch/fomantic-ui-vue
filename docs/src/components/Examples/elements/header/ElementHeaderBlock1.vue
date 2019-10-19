@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h3 class="ui block header">
+    <FuiHeader level=3 block>
       Block Header
-    </h3>
-    <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>
+    </FuiHeader>
+    <FuiImage wireframe src="/images/wireframe/media-paragraph.png"></FuiImage>
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 export default {
   name: 'ElementHeaderBlock1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'header',
     title1: 'Variations',

@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="ui inverted segment">
-      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
-      <div class="ui inverted divider"/>
-      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+    <FuiSegment inverted>
+      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
+      <FuiDivider inverted></FuiDivider>
+      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
       <h4 class="ui horizontal inverted divider">
         Horizontal
       </h4>
-    </div>
+    </FuiSegment>
   </div>
 </template>
 
@@ -23,7 +23,7 @@ export default {
     description: 'A divider can have its colors inverted',
     model: '    <div class="ui inverted segment">\n' +
       '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-      '      <div class="ui inverted divider"/>\n' +
+      '      <div class="ui inverted divider"></div>\n' +
       '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
       '      <h4 class="ui horizontal inverted divider">\n' +
       '        Horizontal\n' +

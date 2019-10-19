@@ -1,20 +1,32 @@
 <template>
   <div>
-    <PageButtons></PageButtons>
+    <router-link to = "/button">Button</router-link>,
+    <router-link to = "/divider">Divider</router-link>,
+    <br /><br />
+    <router-view></router-view>
   </div>
 </template>
 
-
 <script>
-import PageButtons from './PageButtons'
+import PageButton from './PageButton'
+import PageDivider from './PageDivider'
+import VueRouter from 'vue-router'
+
+const routes = [
+  { path: '/button', component: PageButton },
+  { path: '/divider', component: PageDivider },
+];
+const router = new VueRouter({
+  routes,
+});
 
 export default {
   name: 'Main',
+  router,
   props: {
     msg: String
   },
   components: {
-    PageButtons,
   },
   methods: {
   },
@@ -23,18 +35,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
 </style>

@@ -20,7 +20,7 @@ export default {
     description: 'A divider can clear the contents above it',
     model: '    <div class="ui segment">\n' +
       '      <h2 class="ui right floated header">Floated Content</h2>\n' +
-      '      <div class="ui clearing divider"/>\n' +
+      '      <div class="ui clearing divider"></div>\n' +
       '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
       '    </div>\n',
   },

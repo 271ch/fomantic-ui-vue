@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h2 class="ui header">
-      <i class="plug icon"/>
+    <FuiHeader level=2>
+      <FuiIcon name=plug></FuiIcon>
       <div class="content">
         Uptime Guarantee
       </div>
-    </h2>
-    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+    </FuiHeader>
+    <FuiImage wireframe src="/images/wireframe/media-paragraph.png"></FuiImage>
   </div>
 </template>
 

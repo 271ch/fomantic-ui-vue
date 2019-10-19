@@ -1,40 +1,37 @@
 <template>
   <div>
-    <div class="ui info ignored message">
-      A vertical divider will automatically swap to a horizontal divider at mobile resolutions when used inside a <a href="/collections/grid.html#stackable-grid"><code>stackable grid</code></a>
-    </div>
-    <div class="ui placeholder segment">
-      <div class="ui two column very relaxed stackable grid">
-        <div class="column">
+    <FuiSegment placeholder>
+      <FuiGrid column=two relaxed=very stackable>
+        <FuiColumn>
           <div class="ui form">
             <div class="field">
               <label>Username</label>
               <div class="ui left icon input">
                 <input type="text" placeholder="Username"/>
-                <i class="user icon"/>
+                <FuiIcon name=user></FuiIcon>
               </div>
             </div>
             <div class="field">
               <label>Password</label>
               <div class="ui left icon input">
                 <input type="password"/>
-                <i class="lock icon"/>
+                <FuiIcon name=lock></FuiIcon>
               </div>
             </div>
             <div class="ui blue submit button">Login</div>
           </div>
-        </div>
-        <div class="middle aligned column">
-          <div class="ui big button">
-            <i class="signup icon"/>
+        </FuiColumn>
+        <FuiColumn middle aligned>
+          <FuiButton size=big>
+            <FuiIcon name=signup></FuiIcon>
             Sign Up
-          </div>
-        </div>
-      </div>
-      <div class="ui vertical divider">
+          </FuiButton>
+        </FuiColumn>
+      </FuiGrid>
+      <FuiDivider vertical>
         Or
-      </div>
-    </div>
+      </FuiDivider>
+    </FuiSegment>
   </div>
 </template>
 
@@ -48,10 +45,7 @@ export default {
     title1: 'Types',
     title2: 'Vertical Divider',
     description: 'A divider can segment content vertically',
-    model: '    <div class="ui info ignored message">\n' +
-      '      A vertical divider will automatically swap to a horizontal divider at mobile resolutions when used inside a <a href="/collections/grid.html#stackable-grid"><code>stackable grid</code></a>\n' +
-      '    </div>\n' +
-      '    <div class="ui placeholder segment">\n' +
+    model: '    <div class="ui placeholder segment">\n' +
       '      <div class="ui two column very relaxed stackable grid">\n' +
       '        <div class="column">\n' +
       '          <div class="ui form">\n' +
@@ -59,14 +53,14 @@ export default {
       '              <label>Username</label>\n' +
       '              <div class="ui left icon input">\n' +
       '                <input type="text" placeholder="Username"/>\n' +
-      '                <i class="user icon"/>\n' +
+      '                <i class="user icon"></i>\n' +
       '              </div>\n' +
       '            </div>\n' +
       '            <div class="field">\n' +
       '              <label>Password</label>\n' +
       '              <div class="ui left icon input">\n' +
       '                <input type="password"/>\n' +
-      '                <i class="lock icon"/>\n' +
+      '                <i class="lock icon"></i>\n' +
       '              </div>\n' +
       '            </div>\n' +
       '            <div class="ui blue submit button">Login</div>\n' +
@@ -74,7 +68,7 @@ export default {
       '        </div>\n' +
       '        <div class="middle aligned column">\n' +
       '          <div class="ui big button">\n' +
-      '            <i class="signup icon"/>\n' +
+      '            <i class="signup icon"></i>\n' +
       '            Sign Up\n' +
       '          </div>\n' +
       '        </div>\n' +

@@ -26,8 +26,10 @@ utils.registerComponents = (elemType, elem, name) => {
       if (elem !== '' && e !== elem) continue;
       for (let idxTempl in listTemplates) {
         const comp = listTemplates[idxTempl];
-        if (name === '' || name === comp.name)
+        if (name === '' || name === comp.name) {
           Vue.component(comp.name, comp);
+          // console.log(`    <ExampleWithSource example="${comp.name}"></ExampleWithSource>`);
+        }
       }
     }
   }

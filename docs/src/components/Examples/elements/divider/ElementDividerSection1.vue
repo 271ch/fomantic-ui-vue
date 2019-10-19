@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h3 class="ui header">Section One</h3>
-    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
-    <div class="ui section divider"/>
-    <h3 class="ui header">Section Two</h3>
-    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+    <FuiHeader level=3>Section One</FuiHeader>
+    <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
+    <FuiDivider section></FuiDivider>
+    <FuiHeader level=3>Section Two</FuiHeader>
+    <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementDividerSection1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'divider',
     title1: 'Variations',
@@ -20,7 +20,7 @@ export default {
     description: 'A divider can provide greater margins to divide sections of content',
     model: '    <h3 class="ui header">Section One</h3>\n' +
       '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-      '    <div class="ui section divider"/>\n' +
+      '    <div class="ui section divider"></div>\n' +
       '    <h3 class="ui header">Section Two</h3>\n' +
       '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n',
   },

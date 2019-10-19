@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="ui clearing segment">
-      <h3 class="ui right floated header">
+    <FuiSegment clearing>
+      <FuiHeader level=3 floated=right>
         Go Forward
-      </h3>
-      <h3 class="ui left floated header">
+      </FuiHeader>
+      <FuiHeader level=3 floated=left>
         Go Back
-      </h3>
-    </div>
+      </FuiHeader>
+    </FuiSegment>
   </div>
 </template>
 
@@ -15,7 +15,7 @@
 export default {
   name: 'ElementHeaderFloating1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'header',
     title1: 'Variations',

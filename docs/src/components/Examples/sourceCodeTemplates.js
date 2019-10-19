@@ -2570,79 +2570,70 @@ s.ElementDividerClearing1 =
   '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
   '</FuiSegment>' 
 s.ElementDividerInverted1 = 
-  '<div class="ui inverted segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '  <div class="ui inverted divider"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '<FuiSegment inverted>\n' +
+  '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '  <FuiDivider inverted></FuiDivider>\n' +
+  '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
   '  <h4 class="ui horizontal inverted divider">\n' +
   '    Horizontal\n' +
   '  </h4>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementDividerVerticalDivider1 = 
-  '<div class="ui ignored message">\n' +
-  '  Vertical dividers requires <code>position: relative</code> on the element that you would like to contain the divider\n' +
-  '</div>\n' +
-  '<div class="ui warning ignored message">\n' +
-  '  Due to a change in W3C implementation of <a href="https://github.com/w3c/csswg-drafts/issues/401" target="_blank" rel="nofollow">absolutely positioned elements in flex containers</a> vertical dividers now currently only support 50/50 splits automatically, and only if not positioned <b>as direct children of flex containers</b> (like grid).\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui two column very relaxed grid">\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui vertical divider">\n' +
+  '<FuiSegment>\n' +
+  '  <FuiGrid column=two relaxed=very>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiGrid>\n' +
+  '  <FuiDivider vertical>\n' +
   '    and\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiDivider>\n' +
+  '</FuiSegment>' 
 s.ElementDividerVerticalDivider2 = 
-  '<div class="ui info ignored message">\n' +
-  '  A vertical divider will automatically swap to a horizontal divider at mobile resolutions when used inside a <a href="/collections/grid.html#stackable-grid"><code>stackable grid</code></a>\n' +
-  '</div>\n' +
-  '<div class="ui placeholder segment">\n' +
-  '  <div class="ui two column very relaxed stackable grid">\n' +
-  '    <div class="column">\n' +
+  '<FuiSegment placeholder>\n' +
+  '  <FuiGrid column=two relaxed=very stackable>\n' +
+  '    <FuiColumn>\n' +
   '      <div class="ui form">\n' +
   '        <div class="field">\n' +
   '          <label>Username</label>\n' +
   '          <div class="ui left icon input">\n' +
   '            <input type="text" placeholder="Username"/>\n' +
-  '            <i class="user icon"/>\n' +
+  '            <FuiIcon name=user></FuiIcon>\n' +
   '          </div>\n' +
   '        </div>\n' +
   '        <div class="field">\n' +
   '          <label>Password</label>\n' +
   '          <div class="ui left icon input">\n' +
   '            <input type="password"/>\n' +
-  '            <i class="lock icon"/>\n' +
+  '            <FuiIcon name=lock></FuiIcon>\n' +
   '          </div>\n' +
   '        </div>\n' +
   '        <div class="ui blue submit button">Login</div>\n' +
   '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="middle aligned column">\n' +
-  '      <div class="ui big button">\n' +
-  '        <i class="signup icon"/>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn middle aligned>\n' +
+  '      <FuiButton size=big>\n' +
+  '        <FuiIcon name=signup></FuiIcon>\n' +
   '        Sign Up\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui vertical divider">\n' +
+  '      </FuiButton>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiGrid>\n' +
+  '  <FuiDivider vertical>\n' +
   '    Or\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiDivider>\n' +
+  '</FuiSegment>' 
 s.ElementDividerHorizontalDivider2 = 
   '<h4 class="ui horizontal divider header">\n' +
-  '  <i class="bar chart icon"/>\n' +
+  '  <FuiIcon name="bar chart"></FuiIcon>\n' +
   '  Specifications\n' +
   '</h4>\n' +
   '<table class="ui definition table">\n' +
@@ -2679,11 +2670,11 @@ s.ElementDividerHorizontalAlignment1 =
   '  Right Aligned\n' +
   '</FuiHeader>' 
 s.ElementDividerSection1 = 
-  '<h3 class="ui header">Section One</h3>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '<div class="ui section divider"/>\n' +
-  '<h3 class="ui header">Section Two</h3>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>' 
+  '<FuiHeader level=3>Section One</FuiHeader>\n' +
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '<FuiDivider section></FuiDivider>\n' +
+  '<FuiHeader level=3>Section Two</FuiHeader>\n' +
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
 s.ElementLabelBasic1 = 
   '<a class="ui basic label">Basic</a>\n' +
   '<a class="ui pointing basic label">Pointing</a>\n' +
@@ -3378,7 +3369,6 @@ s.ElementLabelColored1 =
   '<a class="ui grey label">Grey</a>\n' +
   '<a class="ui black label">Black</a>' 
 s.ElementHeaderContentHeaders1 = 
-  '<div class="ignored info ui message">Content headings are sized with <a href="https://j.eremy.net/confused-about-rem-and-em/" target="_blank"><code>em</code></a> and are based on the font-size of their container.</div>\n' +
   '<div class="ui ignored icon font buttons">\n' +
   '  <a class="increase ui button"> <i class="plus icon"/></a>\n' +
   '  <a class="decrease ui button"> <i class="minus icon"/></a>\n' +
@@ -3396,10 +3386,10 @@ s.ElementHeaderContentHeaders1 =
   '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
   '</div>' 
 s.ElementHeaderDisabled1 = 
-  '<div class="ui disabled header">\n' +
+  '<FuiHeader disabled>\n' +
   '  Disabled Header\n' +
-  '</div>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>' 
+  '</FuiHeader>\n' +
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
 s.ElementHeaderImage1 = 
   '<h2 class="ui header">\n' +
   '  <img class="ui image" src="/images/icons/school.png"/>\n' +
@@ -3409,20 +3399,20 @@ s.ElementHeaderImage1 =
   '</h2>\n' +
   '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>' 
 s.ElementHeaderColored1 = 
-  '<h4 class="ui primary header">Primary</h4>\n' +
-  '<h4 class="ui secondary header">Secondary</h4>\n' +
-  '<h4 class="ui red header">Red</h4>\n' +
-  '<h4 class="ui orange header">Orange</h4>\n' +
-  '<h4 class="ui yellow header">Yellow</h4>\n' +
-  '<h4 class="ui olive header">Olive</h4>\n' +
-  '<h4 class="ui green header">Green</h4>\n' +
-  '<h4 class="ui teal header">Teal</h4>\n' +
-  '<h4 class="ui blue header">Blue</h4>\n' +
-  '<h4 class="ui purple header">Purple</h4>\n' +
-  '<h4 class="ui violet header">Violet</h4>\n' +
-  '<h4 class="ui pink header">Pink</h4>\n' +
-  '<h4 class="ui brown header">Brown</h4>\n' +
-  '<h4 class="ui grey header">Grey</h4>' 
+  '<FuiHeader level=4 primary>Primary</FuiHeader>\n' +
+  '<FuiHeader level=4 secondary>Secondary</FuiHeader>\n' +
+  '<FuiHeader level=4 color=red>Red</FuiHeader>\n' +
+  '<FuiHeader level=4 color=orange>Orange</FuiHeader>\n' +
+  '<FuiHeader level=4 color=yellow>Yellow</FuiHeader>\n' +
+  '<FuiHeader level=4 color=olive>Olive</FuiHeader>\n' +
+  '<FuiHeader level=4 color=green>Green</FuiHeader>\n' +
+  '<FuiHeader level=4 color=teal>Teal</FuiHeader>\n' +
+  '<FuiHeader level=4 color=blue>Blue</FuiHeader>\n' +
+  '<FuiHeader level=4 color=purple>Purple</FuiHeader>\n' +
+  '<FuiHeader level=4 color=violet>Violet</FuiHeader>\n' +
+  '<FuiHeader level=4 color=pink>Pink</FuiHeader>\n' +
+  '<FuiHeader level=4 color=brown>Brown</FuiHeader>\n' +
+  '<FuiHeader level=4 color=grey>Grey</FuiHeader>' 
 s.ElementHeaderSubHeaders1 = 
   '<h2 class="ui sub header">\n' +
   '  Price\n' +
@@ -3435,24 +3425,24 @@ s.ElementHeaderIconHeaders2 =
   '</h2>\n' +
   '<img class="ui centered wireframe image" src="/images/wireframe/centered-paragraph.png"/>' 
 s.ElementHeaderBlock1 = 
-  '<h3 class="ui block header">\n' +
+  '<FuiHeader level=3 block>\n' +
   '  Block Header\n' +
-  '</h3>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>' 
+  '</FuiHeader>\n' +
+  '<FuiImage wireframe src="/images/wireframe/media-paragraph.png"></FuiImage>' 
 s.ElementHeaderDividing1 = 
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '<h3 class="ui dividing header">\n' +
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '<FuiHeader level=3 dividing>\n' +
   '  Dividing Header\n' +
-  '</h3>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>' 
+  '</FuiHeader>\n' +
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
 s.ElementHeaderIcon1 = 
-  '<h2 class="ui header">\n' +
-  '  <i class="plug icon"/>\n' +
+  '<FuiHeader level=2>\n' +
+  '  <FuiIcon name=plug></FuiIcon>\n' +
   '  <div class="content">\n' +
   '    Uptime Guarantee\n' +
   '  </div>\n' +
-  '</h2>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>' 
+  '</FuiHeader>\n' +
+  '<FuiImage wireframe src="/images/wireframe/media-paragraph.png"></FuiImage>' 
 s.ElementHeaderPageHeaders1 = 
   '<div class="ignored info ui message">Page headings are sized using <a href="https://j.eremy.net/confused-about-rem-and-em/" target="_blank"><code>rem</code></a> and are not affected by surrounding content size.</div>\n' +
   '<h1 class="ui header">First header</h1>\n' +
@@ -3490,14 +3480,14 @@ s.ElementHeaderInverted1 =
   '  <h4 class="ui grey inverted header">Grey</h4>\n' +
   '</div>' 
 s.ElementHeaderFloating1 = 
-  '<div class="ui clearing segment">\n' +
-  '  <h3 class="ui right floated header">\n' +
+  '<FuiSegment clearing>\n' +
+  '  <FuiHeader level=3 floated=right>\n' +
   '    Go Forward\n' +
-  '  </h3>\n' +
-  '  <h3 class="ui left floated header">\n' +
+  '  </FuiHeader>\n' +
+  '  <FuiHeader level=3 floated=left>\n' +
   '    Go Back\n' +
-  '  </h3>\n' +
-  '</div>' 
+  '  </FuiHeader>\n' +
+  '</FuiSegment>' 
 s.ElementHeaderIcon2 = 
   '<h2 class="ui header">\n' +
   '  <i class="settings icon"/>\n' +
@@ -3573,21 +3563,21 @@ s.ElementHeaderTextAlignment1 =
   '  </h3>\n' +
   '</div>' 
 s.ElementHeaderAttached1 = 
-  '<h3 class="ui top attached header">\n' +
+  '<FuiHeader level=3 attached=top>\n' +
   '  Top Attached\n' +
-  '</h3>\n' +
-  '<div class="ui attached segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '</div>\n' +
-  '<h3 class="ui attached header">\n' +
+  '</FuiHeader>\n' +
+  '<FuiSegment attached>\n' +
+  '  <FuiImage wireframe src="/images/wireframe/paragraph.png"></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiHeader level=3 attached>\n' +
   '  Attached\n' +
-  '</h3>\n' +
-  '<div class="ui attached segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '</div>\n' +
-  '<h3 class="ui bottom attached header">\n' +
+  '</FuiHeader>\n' +
+  '<FuiSegment attached>\n' +
+  '  <FuiImage wireframe src="/images/wireframe/paragraph.png"></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiHeader level=3 attached=bottom>\n' +
   '  Bottom Attached\n' +
-  '</h3>' 
+  '</FuiHeader>' 
 s.ElementHeaderImage2 = 
   '<h2 class="ui header">\n' +
   '  <img src="/images/avatar2/large/patrick.png" class="ui circular image"/>\n' +

@@ -155,7 +155,7 @@ export default {
         this.animated === 'vertical' && 'vertical animated',
         this.inverted && 'inverted',
         ...this.getClassesColor,
-        ...this.getClassesEmphasis(),
+        ...this.getClassesEmphasis,
         this.tertiary && 'tertiary',
         this.basic && 'basic',
         this.labeled === 'left' && this.labeled,

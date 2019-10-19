@@ -26,15 +26,15 @@ export default {
     title2: 'Horizontal Alignment',
     description: 'A horizontal divider can be aligned',
     model: '    <h4 class="ui horizontal left aligned divider header">\n' +
-      '      <i class="left align icon"/>\n' +
+      '      <i class="left align icon"></i>\n' +
       '      Left Aligned\n' +
       '    </h4>\n' +
       '    <h4 class="ui horizontal divider header">\n' +
-      '      <i class="center align icon"/>\n' +
+      '      <i class="center align icon"></i>\n' +
       '      Center Aligned\n' +
       '    </h4>\n' +
       '    <h4 class="ui horizontal right aligned divider header">\n' +
-      '      <i class="right align icon"/>\n' +
+      '      <i class="right align icon"></i>\n' +
       '      Right Aligned\n' +
       '    </h4>\n',
   },

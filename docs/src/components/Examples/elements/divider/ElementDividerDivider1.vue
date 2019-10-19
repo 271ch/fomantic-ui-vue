@@ -17,7 +17,7 @@ export default {
     title2: 'Divider',
     description: 'A standard divider',
     model: '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-      '    <div class="ui divider"/>\n' +
+      '    <div class="ui divider"></div>\n' +
       '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n',
   },
 };

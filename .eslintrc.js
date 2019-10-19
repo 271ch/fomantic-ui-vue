@@ -86,7 +86,7 @@ module.exports = {
     'vue/require-prop-types': 'error',
     'vue/attribute-hyphenation': 'error',
     'vue/html-quotes': 'error',
-    'vue/html-self-closing': 'error',
+    // 'vue/html-self-closing': 'error',
     'vue/max-attributes-per-line': 'error',
     'vue/name-property-casing': 'error',
     'vue/v-bind-style': 'error',

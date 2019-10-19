@@ -1,7 +1,7 @@
 <template>
   <div>
     <h4 class="ui horizontal divider header">
-      <i class="bar chart icon"/>
+      <FuiIcon name="bar chart"></FuiIcon>
       Specifications
     </h4>
     <table class="ui definition table">
@@ -38,7 +38,7 @@ export default {
     title2: 'Horizontal Divider',
     description: 'A divider can segment content horizontally',
     model: '    <h4 class="ui horizontal divider header">\n' +
-      '      <i class="bar chart icon"/>\n' +
+      '      <i class="bar chart icon"></i>\n' +
       '      Specifications\n' +
       '    </h4>\n' +
       '    <table class="ui definition table">\n' +

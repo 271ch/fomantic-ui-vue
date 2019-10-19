@@ -1,20 +1,20 @@
 <template>
   <div>
-    <h3 class="ui top attached header">
+    <FuiHeader level=3 attached=top>
       Top Attached
-    </h3>
-    <div class="ui attached segment">
-      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-    </div>
-    <h3 class="ui attached header">
+    </FuiHeader>
+    <FuiSegment attached>
+      <FuiImage wireframe src="/images/wireframe/paragraph.png"></FuiImage>
+    </FuiSegment>
+    <FuiHeader level=3 attached>
       Attached
-    </h3>
-    <div class="ui attached segment">
-      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-    </div>
-    <h3 class="ui bottom attached header">
+    </FuiHeader>
+    <FuiSegment attached>
+      <FuiImage wireframe src="/images/wireframe/paragraph.png"></FuiImage>
+    </FuiSegment>
+    <FuiHeader level=3 attached=bottom>
       Bottom Attached
-    </h3>
+    </FuiHeader>
   </div>
 </template>
 
@@ -22,7 +22,7 @@
 export default {
   name: 'ElementHeaderAttached1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'header',
     title1: 'Variations',

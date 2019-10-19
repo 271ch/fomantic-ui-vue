@@ -18,6 +18,15 @@ export default {  // TODO: Component FuiHeader
     Mixins.PHeaderLevel,
     Mixins.getMixinAttached(['', 'top', 'bottom'], ''),
     Mixins.getMixinAligned(['left', 'right'], null),
+    Mixins.getMixinFloated(['left', 'right'], null),
+    Mixins.getMixinOfBools(
+      'Emphasis',
+      {
+        primary: 'Format showing a higher level of emphasis.',
+        secondary: 'Format showing a lower level of emphasis.',
+      }
+    ),
+    Mixins.PColor,
   ],
   props: {
     icon: {
@@ -65,7 +74,10 @@ export default {  // TODO: Component FuiHeader
         ...this.getClassesAttached(),
         ...this.getClassesHeaderLevel(),
         this.horizontal && 'horizontal',
-        ...this.getClassesAligned(),
+        ...this.getClassesAligned,
+        ...this.getClassesFloated,
+        ...this.getClassesColor,
+        ...this.getClassesEmphasis,
         this.divider && 'divider',
         this.sub && 'sub',
         'header'

@@ -20,7 +20,7 @@ export default {
     description: 'A divider can be fitted, without any space above or below it.',
     model: '    <div class="ui segment">\n' +
       '      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.\n' +
-      '    <div class="ui fitted divider"/>\n' +
+      '    <div class="ui fitted divider"></div>\n' +
       '    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.\n' +
       '    </div>\n',
   },

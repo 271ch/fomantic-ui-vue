@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="ui disabled header">
+    <FuiHeader disabled>
       Disabled Header
-    </div>
-    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+    </FuiHeader>
+    <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 export default {
   name: 'ElementHeaderDisabled1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'header',
     title1: 'States',
