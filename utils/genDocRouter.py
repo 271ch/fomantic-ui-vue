@@ -25,7 +25,7 @@ class App:
     for d in dirs:
       print('<router-link to="/{}">{}{}</router-link>,'.format(d,d[0].upper(),d[1:]))
     for d in dirs:
-      print("import Page{}{} from './Page{}{}'".format(d[0].upper(),d[1:],d[0].upper(),d[1:]))
+      print("import Page{}{} from './Pages/Page{}{}'".format(d[0].upper(),d[1:],d[0].upper(),d[1:]))
     for d in dirs:
       print("{{ path: '/{}', component: Page{}{} }},".format(d,d[0].upper(),d[1:]))
 

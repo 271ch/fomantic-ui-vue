@@ -3369,22 +3369,22 @@ s.ElementLabelColored1 =
   '<a class="ui grey label">Grey</a>\n' +
   '<a class="ui black label">Black</a>' 
 s.ElementHeaderContentHeaders1 = 
-  '<div class="ui ignored icon font buttons">\n' +
-  '  <a class="increase ui button"> <i class="plus icon"/></a>\n' +
-  '  <a class="decrease ui button"> <i class="minus icon"/></a>\n' +
-  '</div>\n' +
-  '<div class="ui sizer vertical segment">\n' +
+  '<FuiButtons ignored icon font>\n' +
+  '  <FuiButton increase> <FuiIcon name=plus></FuiIcon></FuiButton>\n' +
+  '  <FuiButton decrease> <FuiIcon name=minus></FuiIcon></FuiButton>\n' +
+  '</FuiButtons>\n' +
+  '<FuiSegment class="ui sizer vertical segment">\n' +
   '  <div class="ui huge header">Huge Header</div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
   '  <div class="ui large header">Large Header</div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
   '  <div class="ui medium header">Medium Header</div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
   '  <div class="ui small header">Small Header</div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
   '  <div class="ui tiny header">Tiny Header</div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '</div>' 
+  '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementHeaderDisabled1 = 
   '<FuiHeader disabled>\n' +
   '  Disabled Header\n' +
@@ -3414,9 +3414,9 @@ s.ElementHeaderColored1 =
   '<FuiHeader level=4 color=brown>Brown</FuiHeader>\n' +
   '<FuiHeader level=4 color=grey>Grey</FuiHeader>' 
 s.ElementHeaderSubHeaders1 = 
-  '<h2 class="ui sub header">\n' +
+  '<FuiHeader level=2 sub>\n' +
   '  Price\n' +
-  '</h2>\n' +
+  '</FuiHeader>\n' +
   '<span>$10.99</span>' 
 s.ElementHeaderIconHeaders2 = 
   '<h2 class="ui center aligned icon header">\n' +
@@ -3442,19 +3442,18 @@ s.ElementHeaderIcon1 =
   '    Uptime Guarantee\n' +
   '  </div>\n' +
   '</FuiHeader>\n' +
-  '<FuiImage wireframe src="/images/wireframe/media-paragraph.png"></FuiImage>' 
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
 s.ElementHeaderPageHeaders1 = 
-  '<div class="ignored info ui message">Page headings are sized using <a href="https://j.eremy.net/confused-about-rem-and-em/" target="_blank"><code>rem</code></a> and are not affected by surrounding content size.</div>\n' +
-  '<h1 class="ui header">First header</h1>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '<h2 class="ui header">Second header</h2>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '<h3 class="ui header">Third header</h3>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '<h4 class="ui header">Fourth header</h4>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '<h5 class="ui header">Fifth header</h5>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>' 
+  '<FuiHeader level=1>First header</FuiHeader>\n' +
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '<FuiHeader level=2>Second header</FuiHeader>\n' +
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '<FuiHeader level=3>Third header</FuiHeader>\n' +
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '<FuiHeader level=4>Fourth header</FuiHeader>\n' +
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
+  '<FuiHeader level=5>Fifth header</FuiHeader>\n' +
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
 s.ElementHeaderSubheader1 = 
   '<h2 class="ui header">\n' +
   '  Account Settings\n' +
@@ -3462,23 +3461,20 @@ s.ElementHeaderSubheader1 =
   '</h2>\n' +
   '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>' 
 s.ElementHeaderInverted1 = 
-  '<div class="ui ignored info message">\n' +
-  '  Inverted headers use modified light versions of your site\'s color scheme that are adapted to have more contrast on dark background\n' +
-  '</div>\n' +
-  '<div class="ui inverted segment">\n' +
-  '  <h4 class="ui red inverted header">Red</h4>\n' +
-  '  <h4 class="ui orange inverted header">Orange</h4>\n' +
-  '  <h4 class="ui yellow inverted header">Yellow</h4>\n' +
-  '  <h4 class="ui olive inverted header">Olive</h4>\n' +
-  '  <h4 class="ui green inverted header">Green</h4>\n' +
-  '  <h4 class="ui teal inverted header">Teal</h4>\n' +
-  '  <h4 class="ui blue inverted header">Blue</h4>\n' +
-  '  <h4 class="ui purple inverted header">Purple</h4>\n' +
-  '  <h4 class="ui violet inverted header">Violet</h4>\n' +
-  '  <h4 class="ui pink inverted header">Pink</h4>\n' +
-  '  <h4 class="ui brown inverted header">Brown</h4>\n' +
-  '  <h4 class="ui grey inverted header">Grey</h4>\n' +
-  '</div>' 
+  '<FuiSegment inverted>\n' +
+  '  <FuiHeader level=4 color=red inverted>Red</FuiHeader>\n' +
+  '  <FuiHeader level=4 color=orange inverted>Orange</FuiHeader>\n' +
+  '  <FuiHeader level=4 color=yellow inverted>Yellow</FuiHeader>\n' +
+  '  <FuiHeader level=4 color=olive inverted>Olive</FuiHeader>\n' +
+  '  <FuiHeader level=4 color=green inverted>Green</FuiHeader>\n' +
+  '  <FuiHeader level=4 color=teal inverted>Teal</FuiHeader>\n' +
+  '  <FuiHeader level=4 color=blue inverted>Blue</FuiHeader>\n' +
+  '  <FuiHeader level=4 color=purple inverted>Purple</FuiHeader>\n' +
+  '  <FuiHeader level=4 color=violet inverted>Violet</FuiHeader>\n' +
+  '  <FuiHeader level=4 color=pink inverted>Pink</FuiHeader>\n' +
+  '  <FuiHeader level=4 color=brown inverted>Brown</FuiHeader>\n' +
+  '  <FuiHeader level=4 color=grey inverted>Grey</FuiHeader>\n' +
+  '</FuiSegment>' 
 s.ElementHeaderFloating1 = 
   '<FuiSegment clearing>\n' +
   '  <FuiHeader level=3 floated=right>\n' +
@@ -3489,14 +3485,14 @@ s.ElementHeaderFloating1 =
   '  </FuiHeader>\n' +
   '</FuiSegment>' 
 s.ElementHeaderIcon2 = 
-  '<h2 class="ui header">\n' +
-  '  <i class="settings icon"/>\n' +
-  '  <div class="content">\n' +
+  '<FuiHeader level=2>\n' +
+  '  <FuiIcon name=settings></FuiIcon>\n' +
+  '  <FuiContent>\n' +
   '    Account Settings\n' +
-  '    <div class="sub header">Manage your preferences</div>\n' +
-  '  </div>\n' +
-  '</h2>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>' 
+  '    <FuiHeader sub>Manage your preferences</FuiHeader>\n' +
+  '  </FuiContent>\n' +
+  '</FuiHeader>\n' +
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
 s.ElementHeaderSubHeaders2 = 
   '<div class="ui horizontal list">\n' +
   '  <div class="item">\n' +
@@ -3585,13 +3581,13 @@ s.ElementHeaderImage2 =
   '</h2>\n' +
   '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>' 
 s.ElementHeaderIconHeaders1 = 
-  '<h2 class="ui icon header">\n' +
-  '  <i class="settings icon"/>\n' +
-  '  <div class="content">\n' +
+  '<FuiHeader level=2 icon>\n' +
+  '  <FuiIcon name=settings></FuiIcon>\n' +
+  '  <FuiContent>\n' +
   '    Account Settings\n' +
-  '    <div class="sub header">Manage your account settings and set e-mail preferences.</div>\n' +
-  '  </div>\n' +
-  '</h2>' 
+  '    <FuiHeader sub>Manage your account settings and set e-mail preferences.</FuiHeader>\n' +
+  '  </FuiContent>\n' +
+  '</FuiHeader>' 
 s.ElementButtonCircular2 = 
   '<FuiButton circular social=facebook icon>\n' +
   '  <FuiIcon name=facebook></FuiIcon>\n' +

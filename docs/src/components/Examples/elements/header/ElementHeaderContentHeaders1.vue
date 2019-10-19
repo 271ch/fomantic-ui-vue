@@ -1,21 +1,21 @@
 <template>
   <div>
-    <div class="ui ignored icon font buttons">
-      <a class="increase ui button"> <i class="plus icon"/></a>
-      <a class="decrease ui button"> <i class="minus icon"/></a>
-    </div>
-    <div class="ui sizer vertical segment">
+    <FuiButtons ignored icon font>
+      <FuiButton increase> <FuiIcon name=plus></FuiIcon></FuiButton>
+      <FuiButton decrease> <FuiIcon name=minus></FuiIcon></FuiButton>
+    </FuiButtons>
+    <FuiSegment class="ui sizer vertical segment">
       <div class="ui huge header">Huge Header</div>
-      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
       <div class="ui large header">Large Header</div>
-      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
       <div class="ui medium header">Medium Header</div>
-      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
       <div class="ui small header">Small Header</div>
-      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
       <div class="ui tiny header">Tiny Header</div>
-      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
-    </div>
+      <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -30,8 +30,8 @@ export default {
     title2: 'Content Headers',
     description: 'Headers may be oriented to give the importance of a section in the context of the content that surrounds it',
     model: '    <div class="ui ignored icon font buttons">\n' +
-      '      <a class="increase ui button"> <i class="plus icon"/></a>\n' +
-      '      <a class="decrease ui button"> <i class="minus icon"/></a>\n' +
+      '      <a class="increase ui button"> <i class="plus icon"></i></a>\n' +
+      '      <a class="decrease ui button"> <i class="minus icon"></i></a>\n' +
       '    </div>\n' +
       '    <div class="ui sizer vertical segment">\n' +
       '      <div class="ui huge header">Huge Header</div>\n' +

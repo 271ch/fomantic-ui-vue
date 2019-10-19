@@ -16,7 +16,7 @@ export default {  // TODO: Component FuiHeader
   name: 'FuiHeader',
   mixins: [
     Mixins.PHeaderLevel,
-    Mixins.getMixinAttached(['', 'top', 'bottom'], ''),
+    Mixins.getMixinAttached(['top', 'bottom'], null),
     Mixins.getMixinAligned(['left', 'right'], null),
     Mixins.getMixinFloated(['left', 'right'], null),
     Mixins.getMixinOfBools(
@@ -57,6 +57,10 @@ export default {  // TODO: Component FuiHeader
       type: Boolean,
       description: 'A header can be formatted to appear inside a content block.',
     },
+    inverted: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
   },
   events: {
     click: {
@@ -71,7 +75,7 @@ export default {  // TODO: Component FuiHeader
         this.disabled && 'disabled',
         this.dividing && 'dividing',
         this.block && 'block',
-        ...this.getClassesAttached(),
+        ...this.getClassesAttached,
         ...this.getClassesHeaderLevel(),
         this.horizontal && 'horizontal',
         ...this.getClassesAligned,
@@ -79,6 +83,7 @@ export default {  // TODO: Component FuiHeader
         ...this.getClassesColor,
         ...this.getClassesEmphasis,
         this.divider && 'divider',
+        this.inverted && 'inverted',
         this.sub && 'sub',
         'header'
       );

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h2 class="ui sub header">
+    <FuiHeader level=2 sub>
       Price
-    </h2>
+    </FuiHeader>
     <span>$10.99</span>
   </div>
 </template>

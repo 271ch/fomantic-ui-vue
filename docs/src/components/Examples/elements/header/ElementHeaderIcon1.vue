@@ -6,7 +6,7 @@
         Uptime Guarantee
       </div>
     </FuiHeader>
-    <FuiImage wireframe src="/images/wireframe/media-paragraph.png"></FuiImage>
+    <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
   </div>
 </template>
 
@@ -21,7 +21,7 @@ export default {
     title2: 'Icon',
     description: 'A header may contain an',
     model: '    <h2 class="ui header">\n' +
-      '      <i class="plug icon"/>\n' +
+      '      <i class="plug icon"></i>\n' +
       '      <div class="content">\n' +
       '        Uptime Guarantee\n' +
       '      </div>\n' +

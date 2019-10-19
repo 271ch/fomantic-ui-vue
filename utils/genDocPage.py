@@ -24,8 +24,8 @@ templateEnd = """  </FuiContainer>
 </template>
 
 <script>
-import ExampleWithSource from './ExampleWithSource'
-import exUtils from './examplesUtils'
+import ExampleWithSource from '../ExampleWithSource'
+import exUtils from '../examplesUtils'
 
 exUtils.registerComponents('[[2]]', '[[3]]', '');
 
@@ -62,7 +62,7 @@ class App:
     out = out.replace('[[1]]', e[0].upper()+e[1:]).replace('[[2]]', et+'s').replace('[[3]]', e)
     # print(out)
 
-    outFile = os.path.join('.','Page{}{}.vue'.format(e[0].upper(),e[1:]))
+    outFile = os.path.join('./Pages','Page{}{}.vue'.format(e[0].upper(),e[1:]))
     if os.path.isfile(outFile):
       print('File {} already exits. If you want to replace it, delete it first.'.format(outFile))
     else:

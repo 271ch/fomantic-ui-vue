@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h2 class="ui header">
-      <i class="settings icon"/>
-      <div class="content">
+    <FuiHeader level=2>
+      <FuiIcon name=settings></FuiIcon>
+      <FuiContent>
         Account Settings
-        <div class="sub header">Manage your preferences</div>
-      </div>
-    </h2>
-    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+        <FuiHeader sub>Manage your preferences</FuiHeader>
+      </FuiContent>
+    </FuiHeader>
+    <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
   </div>
 </template>
 
@@ -15,14 +15,14 @@
 export default {
   name: 'ElementHeaderIcon2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'header',
     title1: 'Content',
     title2: 'Icon',
     description: 'A header may contain an',
     model: '    <h2 class="ui header">\n' +
-      '      <i class="settings icon"/>\n' +
+      '      <i class="settings icon"></i>\n' +
       '      <div class="content">\n' +
       '        Account Settings\n' +
       '        <div class="sub header">Manage your preferences</div>\n' +

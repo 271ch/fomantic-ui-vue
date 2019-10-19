@@ -49,8 +49,8 @@
 </template>
 
 <script>
-import ExampleWithSource from './ExampleWithSource'
-import exUtils from './examplesUtils'
+import ExampleWithSource from '../ExampleWithSource'
+import exUtils from '../examplesUtils'
 
 exUtils.registerComponents('elements', 'input', '');
 

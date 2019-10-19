@@ -178,12 +178,12 @@ mixins.getMixinAttached = function (values, def) {
         type: [Boolean, String],
         description: `The element is attached to the parent container (${e.str()})`,
         validator: (value) => {
-          return (!value && def != null) || e.check(value);
+          return value === false || value === true || e.check(value);
         },
         default: false,
       },
     },
-    methods: {
+    computed: {
       getClassesAttached: function () {
         return [
           this.attached === true && def,
