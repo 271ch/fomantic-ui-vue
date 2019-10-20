@@ -3,19 +3,19 @@
     <div class="ignored ui info message">Icons can be placed to the right inside a label.</div>
     <div class="ui right icon label">
       Mail
-      <i class="mail icon"/>
+      <i class="mail icon"></i>
     </div>
     <div class="ui right icon label">
       Test Passed
-      <i class="checkmark icon"/>
+      <i class="checkmark icon"></i>
     </div>
     <div class="ui right icon label">
       Dog
-      <i class="dog icon"/>
+      <i class="dog icon"></i>
     </div>
     <div class="ui right icon label">
       Cat
-      <i class="cat icon"/>
+      <i class="cat icon"></i>
     </div>
   </div>
 </template>
@@ -33,19 +33,19 @@ export default {
     model: '    <div class="ignored ui info message">Icons can be placed to the right inside a label.</div>\n' +
       '    <div class="ui right icon label">\n' +
       '      Mail\n' +
-      '      <i class="mail icon"/>\n' +
+      '      <i class="mail icon"></i>\n' +
       '    </div>\n' +
       '    <div class="ui right icon label">\n' +
       '      Test Passed\n' +
-      '      <i class="checkmark icon"/>\n' +
+      '      <i class="checkmark icon"></i>\n' +
       '    </div>\n' +
       '    <div class="ui right icon label">\n' +
       '      Dog\n' +
-      '      <i class="dog icon"/>\n' +
+      '      <i class="dog icon"></i>\n' +
       '    </div>\n' +
       '    <div class="ui right icon label">\n' +
       '      Cat\n' +
-      '      <i class="cat icon"/>\n' +
+      '      <i class="cat icon"></i>\n' +
       '    </div>\n',
   },
 };

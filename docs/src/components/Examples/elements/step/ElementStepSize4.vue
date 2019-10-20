@@ -2,13 +2,13 @@
   <div>
     <div class="ui large steps">
       <div class="step">
-        <i class="truck icon"/>
+        <i class="truck icon"></i>
         <div class="content">
           <div class="title">Shipping</div>
         </div>
       </div>
       <div class="active step">
-        <i class="payment icon"/>
+        <i class="payment icon"></i>
         <div class="content">
           <div class="title">Billing</div>
         </div>
@@ -29,13 +29,13 @@ export default {
     description: 'Steps can have different sizes',
     model: '    <div class="ui large steps">\n' +
       '      <div class="step">\n' +
-      '        <i class="truck icon"/>\n' +
+      '        <i class="truck icon"></i>\n' +
       '        <div class="content">\n' +
       '          <div class="title">Shipping</div>\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="active step">\n' +
-      '        <i class="payment icon"/>\n' +
+      '        <i class="payment icon"></i>\n' +
       '        <div class="content">\n' +
       '          <div class="title">Billing</div>\n' +
       '        </div>\n' +

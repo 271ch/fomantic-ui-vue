@@ -2,10 +2,10 @@
   <div>
     <div class="ui top attached menu">
       <div class="ui dropdown icon item">
-        <i class="wrench icon"/>
+        <i class="wrench icon"></i>
         <div class="menu">
           <div class="item">
-            <i class="dropdown icon"/>
+            <i class="dropdown icon"></i>
             <span class="text">New</span>
             <div class="menu">
               <div class="item">Document</div>
@@ -32,7 +32,7 @@
         <div class="ui right aligned category search item">
           <div class="ui transparent icon input">
             <input class="prompt" type="text" placeholder="Search animals..."/>
-            <i class="search link icon"/>
+            <i class="search link icon"></i>
           </div>
           <div class="results"/>
         </div>
@@ -56,10 +56,10 @@ export default {
     description: 'A menu',
     model: '    <div class="ui top attached menu">\n' +
       '      <div class="ui dropdown icon item">\n' +
-      '        <i class="wrench icon"/>\n' +
+      '        <i class="wrench icon"></i>\n' +
       '        <div class="menu">\n' +
       '          <div class="item">\n' +
-      '            <i class="dropdown icon"/>\n' +
+      '            <i class="dropdown icon"></i>\n' +
       '            <span class="text">New</span>\n' +
       '            <div class="menu">\n' +
       '              <div class="item">Document</div>\n' +
@@ -86,7 +86,7 @@ export default {
       '        <div class="ui right aligned category search item">\n' +
       '          <div class="ui transparent icon input">\n' +
       '            <input class="prompt" type="text" placeholder="Search animals..."/>\n' +
-      '            <i class="search link icon"/>\n' +
+      '            <i class="search link icon"></i>\n' +
       '          </div>\n' +
       '          <div class="results"/>\n' +
       '        </div>\n' +

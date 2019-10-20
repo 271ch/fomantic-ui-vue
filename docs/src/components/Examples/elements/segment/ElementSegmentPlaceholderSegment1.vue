@@ -2,7 +2,7 @@
   <div>
     <div class="ui placeholder segment">
       <div class="ui icon header">
-        <i class="pdf file outline icon"/>
+        <i class="pdf file outline icon"></i>
         No documents are listed for this customer.
       </div>
       <div class="ui primary button">Add Document</div>
@@ -22,7 +22,7 @@ export default {
     description: 'A segment can be used to reserve space for conditionally displayed content.',
     model: '    <div class="ui placeholder segment">\n' +
       '      <div class="ui icon header">\n' +
-      '        <i class="pdf file outline icon"/>\n' +
+      '        <i class="pdf file outline icon"></i>\n' +
       '        No documents are listed for this customer.\n' +
       '      </div>\n' +
       '      <div class="ui primary button">Add Document</div>\n' +

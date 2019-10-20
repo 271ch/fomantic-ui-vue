@@ -16,13 +16,13 @@
       </tr>
       <tr class="blue">
         <td>Jimmy</td>
-        <td><i class="microphone icon"/> Recording session</td>
+        <td><i class="microphone icon"></i> Recording session</td>
         <td>None</td>
       </tr>
       <tr>
         <td>Jamie</td>
         <td>Unknown</td>
-        <td class="pink"><i class="child icon"/> Baby Party</td>
+        <td class="pink"><i class="child icon"></i> Baby Party</td>
       </tr>
       <tr>
         <td>Jill</td>
@@ -60,13 +60,13 @@ export default {
       '      </tr>\n' +
       '      <tr class="blue">\n' +
       '        <td>Jimmy</td>\n' +
-      '        <td><i class="microphone icon"/> Recording session</td>\n' +
+      '        <td><i class="microphone icon"></i> Recording session</td>\n' +
       '        <td>None</td>\n' +
       '      </tr>\n' +
       '      <tr>\n' +
       '        <td>Jamie</td>\n' +
       '        <td>Unknown</td>\n' +
-      '        <td class="pink"><i class="child icon"/> Baby Party</td>\n' +
+      '        <td class="pink"><i class="child icon"></i> Baby Party</td>\n' +
       '      </tr>\n' +
       '      <tr>\n' +
       '        <td>Jill</td>\n' +

@@ -6,14 +6,14 @@
         <div class="middle aligned row">
           <div class="column">
             <div class="ui icon header">
-              <i class="search icon"/>
+              <i class="search icon"></i>
               Find Country
             </div>
             <div class="field">
               <div class="ui search">
                 <div class="ui icon input">
                   <input class="prompt" type="text" placeholder="Search countries..."/>
-                  <i class="search icon"/>
+                  <i class="search icon"></i>
                 </div>
                 <div class="results"/>
               </div>
@@ -21,7 +21,7 @@
           </div>
           <div class="column">
             <div class="ui icon header">
-              <i class="world icon"/>
+              <i class="world icon"></i>
               Add New Country
             </div>
             <div class="ui primary button">
@@ -50,14 +50,14 @@ export default {
       '        <div class="middle aligned row">\n' +
       '          <div class="column">\n' +
       '            <div class="ui icon header">\n' +
-      '              <i class="search icon"/>\n' +
+      '              <i class="search icon"></i>\n' +
       '              Find Country\n' +
       '            </div>\n' +
       '            <div class="field">\n' +
       '              <div class="ui search">\n' +
       '                <div class="ui icon input">\n' +
       '                  <input class="prompt" type="text" placeholder="Search countries..."/>\n' +
-      '                  <i class="search icon"/>\n' +
+      '                  <i class="search icon"></i>\n' +
       '                </div>\n' +
       '                <div class="results"/>\n' +
       '              </div>\n' +
@@ -65,7 +65,7 @@ export default {
       '          </div>\n' +
       '          <div class="column">\n' +
       '            <div class="ui icon header">\n' +
-      '              <i class="world icon"/>\n' +
+      '              <i class="world icon"></i>\n' +
       '              Add New Country\n' +
       '            </div>\n' +
       '            <div class="ui primary button">\n' +

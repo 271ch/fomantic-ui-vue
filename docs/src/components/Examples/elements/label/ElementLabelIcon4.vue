@@ -9,20 +9,20 @@
       This rule may be simplified in a later minor or major version.
     </div>
     <div class="ui left icon label">
-      <i class="close icon"/>
+      <i class="close icon"></i>
       Close
     </div>
     <div class="ui left icon label">
-      <i class="delete icon"/>
+      <i class="delete icon"></i>
       Delete
     </div>
     <div class="ui label">
       Close
-      <i class="close icon"/>
+      <i class="close icon"></i>
     </div>
     <div class="ui label">
       Delete
-      <i class="delete icon"/>
+      <i class="delete icon"></i>
     </div>
   </div>
 </template>
@@ -46,20 +46,20 @@ export default {
       '      This rule may be simplified in a later minor or major version.\n' +
       '    </div>\n' +
       '    <div class="ui left icon label">\n' +
-      '      <i class="close icon"/>\n' +
+      '      <i class="close icon"></i>\n' +
       '      Close\n' +
       '    </div>\n' +
       '    <div class="ui left icon label">\n' +
-      '      <i class="delete icon"/>\n' +
+      '      <i class="delete icon"></i>\n' +
       '      Delete\n' +
       '    </div>\n' +
       '    <div class="ui label">\n' +
       '      Close\n' +
-      '      <i class="close icon"/>\n' +
+      '      <i class="close icon"></i>\n' +
       '    </div>\n' +
       '    <div class="ui label">\n' +
       '      Delete\n' +
-      '      <i class="delete icon"/>\n' +
+      '      <i class="delete icon"></i>\n' +
       '    </div>\n',
   },
 };

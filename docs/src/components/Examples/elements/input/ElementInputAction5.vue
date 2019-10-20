@@ -3,7 +3,7 @@
     <div class="ui action input">
       <input type="text" value="http://ww.short.url/c0opq"/>
       <button class="ui teal right labeled icon button">
-        <i class="copy icon"/>
+        <i class="copy icon"></i>
         Copy
       </button>
     </div>
@@ -23,7 +23,7 @@ export default {
     model: '    <div class="ui action input">\n' +
       '      <input type="text" value="http://ww.short.url/c0opq"/>\n' +
       '      <button class="ui teal right labeled icon button">\n' +
-      '        <i class="copy icon"/>\n' +
+      '        <i class="copy icon"></i>\n' +
       '        Copy\n' +
       '      </button>\n' +
       '    </div>\n',

@@ -24,7 +24,7 @@
               <textarea/>
             </div>
             <div class="ui primary submit labeled icon button">
-              <i class="icon edit"/> Add Reply
+              <i class="icon edit"></i> Add Reply
             </div>
           </form>
         </div>
@@ -67,7 +67,7 @@ export default {
       '              <textarea/>\n' +
       '            </div>\n' +
       '            <div class="ui primary submit labeled icon button">\n' +
-      '              <i class="icon edit"/> Add Reply\n' +
+      '              <i class="icon edit"></i> Add Reply\n' +
       '            </div>\n' +
       '          </form>\n' +
       '        </div>\n' +

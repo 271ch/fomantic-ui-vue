@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui ignored info message">
-      <i class="info icon"/>
+      <i class="info icon"></i>
       You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced
     </div>
     <div class="ui items">
@@ -50,7 +50,7 @@ export default {
     title2: 'Vertical Alignment',
     description: 'Content can specify its vertical alignment',
     model: '    <div class="ui ignored info message">\n' +
-      '      <i class="info icon"/>\n' +
+      '      <i class="info icon"></i>\n' +
       '      You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
       '    </div>\n' +
       '    <div class="ui items">\n' +

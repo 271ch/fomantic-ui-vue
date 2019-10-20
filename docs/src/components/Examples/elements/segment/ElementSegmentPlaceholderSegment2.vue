@@ -5,7 +5,7 @@
     </div>
     <div class="ui placeholder segment">
       <div class="ui icon header">
-        <i class="search icon"/>
+        <i class="search icon"></i>
         We don't have any documents matching your query
       </div>
       <div class="inline">
@@ -31,7 +31,7 @@ export default {
       '    </div>\n' +
       '    <div class="ui placeholder segment">\n' +
       '      <div class="ui icon header">\n' +
-      '        <i class="search icon"/>\n' +
+      '        <i class="search icon"></i>\n' +
       '        We don\'t have any documents matching your query\n' +
       '      </div>\n' +
       '      <div class="inline">\n' +

@@ -5,7 +5,7 @@
     </div>
     <div class="ui icon input">
       <input type="text" placeholder="Search..."/>
-      <i class="search icon"/>
+      <i class="search icon"></i>
     </div>
   </div>
 </template>
@@ -25,7 +25,7 @@ export default {
       '    </div>\n' +
       '    <div class="ui icon input">\n' +
       '      <input type="text" placeholder="Search..."/>\n' +
-      '      <i class="search icon"/>\n' +
+      '      <i class="search icon"></i>\n' +
       '    </div>\n',
   },
 };

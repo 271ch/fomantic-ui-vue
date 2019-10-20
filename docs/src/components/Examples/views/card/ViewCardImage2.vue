@@ -25,7 +25,7 @@
         </div>
         <div class="extra content">
           <a>
-            <i class="users icon"/>
+            <i class="users icon"></i>
             2 Members
           </a>
         </div>
@@ -49,7 +49,7 @@
         </div>
         <div class="extra content">
           <a>
-            <i class="users icon"/>
+            <i class="users icon"></i>
             2 Members
           </a>
         </div>
@@ -93,7 +93,7 @@ export default {
       '        </div>\n' +
       '        <div class="extra content">\n' +
       '          <a>\n' +
-      '            <i class="users icon"/>\n' +
+      '            <i class="users icon"></i>\n' +
       '            2 Members\n' +
       '          </a>\n' +
       '        </div>\n' +
@@ -117,7 +117,7 @@ export default {
       '        </div>\n' +
       '        <div class="extra content">\n' +
       '          <a>\n' +
-      '            <i class="users icon"/>\n' +
+      '            <i class="users icon"></i>\n' +
       '            2 Members\n' +
       '          </a>\n' +
       '        </div>\n' +

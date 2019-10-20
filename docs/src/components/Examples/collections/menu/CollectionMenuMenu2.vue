@@ -9,11 +9,11 @@
       </div>
       <a class="browse item">
         Browse Courses
-        <i class="dropdown icon"/>
+        <i class="dropdown icon"></i>
       </a>
       <div class="ui right dropdown item">
         More
-        <i class="dropdown icon"/>
+        <i class="dropdown icon"></i>
         <div class="menu">
           <div class="item">Applications</div>
           <div class="item">International Students</div>
@@ -73,11 +73,11 @@ export default {
       '      </div>\n' +
       '      <a class="browse item">\n' +
       '        Browse Courses\n' +
-      '        <i class="dropdown icon"/>\n' +
+      '        <i class="dropdown icon"></i>\n' +
       '      </a>\n' +
       '      <div class="ui right dropdown item">\n' +
       '        More\n' +
-      '        <i class="dropdown icon"/>\n' +
+      '        <i class="dropdown icon"></i>\n' +
       '        <div class="menu">\n' +
       '          <div class="item">Applications</div>\n' +
       '          <div class="item">International Students</div>\n' +

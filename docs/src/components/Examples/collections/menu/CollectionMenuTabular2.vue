@@ -11,7 +11,7 @@
         <div class="item">
           <div class="ui transparent icon input">
             <input type="text" placeholder="Search users..."/>
-            <i class="search link icon"/>
+            <i class="search link icon"></i>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ export default {
       '        <div class="item">\n' +
       '          <div class="ui transparent icon input">\n' +
       '            <input type="text" placeholder="Search users..."/>\n' +
-      '            <i class="search link icon"/>\n' +
+      '            <i class="search link icon"></i>\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +

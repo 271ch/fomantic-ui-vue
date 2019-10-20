@@ -15,7 +15,7 @@
             <a class="save">Save</a>
             <a class="hide">Hide</a>
             <a>
-              <i class="expand icon"/>
+              <i class="expand icon"></i>
               Full-screen
             </a>
           </div>
@@ -50,7 +50,7 @@ export default {
       '            <a class="save">Save</a>\n' +
       '            <a class="hide">Hide</a>\n' +
       '            <a>\n' +
-      '              <i class="expand icon"/>\n' +
+      '              <i class="expand icon"></i>\n' +
       '              Full-screen\n' +
       '            </a>\n' +
       '          </div>\n' +

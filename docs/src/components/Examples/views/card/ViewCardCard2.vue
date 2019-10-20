@@ -10,15 +10,15 @@
       </div>
       <div class="content">
         <span class="right floated">
-          <i class="heart outline like icon"/>
+          <i class="heart outline like icon"></i>
           17 likes
         </span>
-        <i class="comment icon"/>
+        <i class="comment icon"></i>
         3 comments
       </div>
       <div class="extra content">
         <div class="ui large transparent left icon input">
-          <i class="heart outline icon"/>
+          <i class="heart outline icon"></i>
           <input type="text" placeholder="Add Comment..."/>
         </div>
       </div>
@@ -46,15 +46,15 @@ export default {
       '      </div>\n' +
       '      <div class="content">\n' +
       '        <span class="right floated">\n' +
-      '          <i class="heart outline like icon"/>\n' +
+      '          <i class="heart outline like icon"></i>\n' +
       '          17 likes\n' +
       '        </span>\n' +
-      '        <i class="comment icon"/>\n' +
+      '        <i class="comment icon"></i>\n' +
       '        3 comments\n' +
       '      </div>\n' +
       '      <div class="extra content">\n' +
       '        <div class="ui large transparent left icon input">\n' +
-      '          <i class="heart outline icon"/>\n' +
+      '          <i class="heart outline icon"></i>\n' +
       '          <input type="text" placeholder="Add Comment..."/>\n' +
       '        </div>\n' +
       '      </div>\n' +

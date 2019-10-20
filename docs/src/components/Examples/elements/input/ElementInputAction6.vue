@@ -3,7 +3,7 @@
     <div class="ui action input">
       <input type="text" placeholder="Search..."/>
       <button class="ui icon button">
-        <i class="search icon"/>
+        <i class="search icon"></i>
       </button>
     </div>
   </div>
@@ -22,7 +22,7 @@ export default {
     model: '    <div class="ui action input">\n' +
       '      <input type="text" placeholder="Search..."/>\n' +
       '      <button class="ui icon button">\n' +
-      '        <i class="search icon"/>\n' +
+      '        <i class="search icon"></i>\n' +
       '      </button>\n' +
       '    </div>\n',
   },

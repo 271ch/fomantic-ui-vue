@@ -9,7 +9,7 @@
             <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
           </div>
           <div class="extra">
-            <i class="green check icon"/>
+            <i class="green check icon"></i>
             121 Votes
           </div>
         </div>
@@ -37,7 +37,7 @@ export default {
       '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
       '          </div>\n' +
       '          <div class="extra">\n' +
-      '            <i class="green check icon"/>\n' +
+      '            <i class="green check icon"></i>\n' +
       '            121 Votes\n' +
       '          </div>\n' +
       '        </div>\n' +

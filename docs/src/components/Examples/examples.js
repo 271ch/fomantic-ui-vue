@@ -177,8 +177,156 @@ c.push(ElementHeaderInverted1);
 b.push(['header', c]); c = [];
 // end of element [header]
 // begin of element [icon]
-import ElementIcon1 from './elements/icon/ElementIcon1';
-c.push(ElementIcon1);
+import ElementIconAccessibility1 from './elements/icon/ElementIconAccessibility1'
+c.push(ElementIconAccessibility1);
+import ElementIconAlert1 from './elements/icon/ElementIconAlert1'
+c.push(ElementIconAlert1);
+import ElementIconAnimals1 from './elements/icon/ElementIconAnimals1'
+c.push(ElementIconAnimals1);
+import ElementIconArrows1 from './elements/icon/ElementIconArrows1'
+c.push(ElementIconArrows1);
+import ElementIconAudioVideo1 from './elements/icon/ElementIconAudioVideo1'
+c.push(ElementIconAudioVideo1);
+import ElementIconAutomotive1 from './elements/icon/ElementIconAutomotive1'
+c.push(ElementIconAutomotive1);
+import ElementIconAutumn1 from './elements/icon/ElementIconAutumn1'
+c.push(ElementIconAutumn1);
+import ElementIconBeverage1 from './elements/icon/ElementIconBeverage1'
+c.push(ElementIconBeverage1);
+import ElementIconBuildings1 from './elements/icon/ElementIconBuildings1'
+c.push(ElementIconBuildings1);
+import ElementIconBusiness1 from './elements/icon/ElementIconBusiness1'
+c.push(ElementIconBusiness1);
+import ElementIconCamping1 from './elements/icon/ElementIconCamping1'
+c.push(ElementIconCamping1);
+import ElementIconCharity1 from './elements/icon/ElementIconCharity1'
+c.push(ElementIconCharity1);
+import ElementIconChat1 from './elements/icon/ElementIconChat1'
+c.push(ElementIconChat1);
+import ElementIconChess1 from './elements/icon/ElementIconChess1'
+c.push(ElementIconChess1);
+import ElementIconChildhood1 from './elements/icon/ElementIconChildhood1'
+c.push(ElementIconChildhood1);
+import ElementIconClothing1 from './elements/icon/ElementIconClothing1'
+c.push(ElementIconClothing1);
+import ElementIconCode1 from './elements/icon/ElementIconCode1'
+c.push(ElementIconCode1);
+import ElementIconCommunication1 from './elements/icon/ElementIconCommunication1'
+c.push(ElementIconCommunication1);
+import ElementIconComputers1 from './elements/icon/ElementIconComputers1'
+c.push(ElementIconComputers1);
+import ElementIconConstruction1 from './elements/icon/ElementIconConstruction1'
+c.push(ElementIconConstruction1);
+import ElementIconCurrency1 from './elements/icon/ElementIconCurrency1'
+c.push(ElementIconCurrency1);
+import ElementIconDateTime1 from './elements/icon/ElementIconDateTime1'
+c.push(ElementIconDateTime1);
+import ElementIconDesign1 from './elements/icon/ElementIconDesign1'
+c.push(ElementIconDesign1);
+import ElementIconEditors1 from './elements/icon/ElementIconEditors1'
+c.push(ElementIconEditors1);
+import ElementIconEducation1 from './elements/icon/ElementIconEducation1'
+c.push(ElementIconEducation1);
+import ElementIconEmoji1 from './elements/icon/ElementIconEmoji1'
+c.push(ElementIconEmoji1);
+import ElementIconEnergy1 from './elements/icon/ElementIconEnergy1'
+c.push(ElementIconEnergy1);
+import ElementIconFiles1 from './elements/icon/ElementIconFiles1'
+c.push(ElementIconFiles1);
+import ElementIconFinance1 from './elements/icon/ElementIconFinance1'
+c.push(ElementIconFinance1);
+import ElementIconFitness1 from './elements/icon/ElementIconFitness1'
+c.push(ElementIconFitness1);
+import ElementIconFood1 from './elements/icon/ElementIconFood1'
+c.push(ElementIconFood1);
+import ElementIconFruitsVegetables1 from './elements/icon/ElementIconFruitsVegetables1'
+c.push(ElementIconFruitsVegetables1);
+import ElementIconGames1 from './elements/icon/ElementIconGames1'
+c.push(ElementIconGames1);
+import ElementIconGenders1 from './elements/icon/ElementIconGenders1'
+c.push(ElementIconGenders1);
+import ElementIconHalloween1 from './elements/icon/ElementIconHalloween1'
+c.push(ElementIconHalloween1);
+import ElementIconHands1 from './elements/icon/ElementIconHands1'
+c.push(ElementIconHands1);
+import ElementIconHealth1 from './elements/icon/ElementIconHealth1'
+c.push(ElementIconHealth1);
+import ElementIconHoliday1 from './elements/icon/ElementIconHoliday1'
+c.push(ElementIconHoliday1);
+import ElementIconHotel1 from './elements/icon/ElementIconHotel1'
+c.push(ElementIconHotel1);
+import ElementIconHousehold1 from './elements/icon/ElementIconHousehold1'
+c.push(ElementIconHousehold1);
+import ElementIconImages1 from './elements/icon/ElementIconImages1'
+c.push(ElementIconImages1);
+import ElementIconInterfaces1 from './elements/icon/ElementIconInterfaces1'
+c.push(ElementIconInterfaces1);
+import ElementIconLogistics1 from './elements/icon/ElementIconLogistics1'
+c.push(ElementIconLogistics1);
+import ElementIconMaps1 from './elements/icon/ElementIconMaps1'
+c.push(ElementIconMaps1);
+import ElementIconMaritime1 from './elements/icon/ElementIconMaritime1'
+c.push(ElementIconMaritime1);
+import ElementIconMarketing1 from './elements/icon/ElementIconMarketing1'
+c.push(ElementIconMarketing1);
+import ElementIconMathematics1 from './elements/icon/ElementIconMathematics1'
+c.push(ElementIconMathematics1);
+import ElementIconMedical1 from './elements/icon/ElementIconMedical1'
+c.push(ElementIconMedical1);
+import ElementIconMoving1 from './elements/icon/ElementIconMoving1'
+c.push(ElementIconMoving1);
+import ElementIconMusic1 from './elements/icon/ElementIconMusic1'
+c.push(ElementIconMusic1);
+import ElementIconObjects1 from './elements/icon/ElementIconObjects1'
+c.push(ElementIconObjects1);
+import ElementIconPaymentsShopping1 from './elements/icon/ElementIconPaymentsShopping1'
+c.push(ElementIconPaymentsShopping1);
+import ElementIconPharmacy1 from './elements/icon/ElementIconPharmacy1'
+c.push(ElementIconPharmacy1);
+import ElementIconPolitical1 from './elements/icon/ElementIconPolitical1'
+c.push(ElementIconPolitical1);
+import ElementIconReligion1 from './elements/icon/ElementIconReligion1'
+c.push(ElementIconReligion1);
+import ElementIconScience1 from './elements/icon/ElementIconScience1'
+c.push(ElementIconScience1);
+import ElementIconScienceFiction1 from './elements/icon/ElementIconScienceFiction1'
+c.push(ElementIconScienceFiction1);
+import ElementIconSecurity1 from './elements/icon/ElementIconSecurity1'
+c.push(ElementIconSecurity1);
+import ElementIconShapes1 from './elements/icon/ElementIconShapes1'
+c.push(ElementIconShapes1);
+import ElementIconShopping1 from './elements/icon/ElementIconShopping1'
+c.push(ElementIconShopping1);
+import ElementIconSocial1 from './elements/icon/ElementIconSocial1'
+c.push(ElementIconSocial1);
+import ElementIconSpinners1 from './elements/icon/ElementIconSpinners1'
+c.push(ElementIconSpinners1);
+import ElementIconSports1 from './elements/icon/ElementIconSports1'
+c.push(ElementIconSports1);
+import ElementIconSpring1 from './elements/icon/ElementIconSpring1'
+c.push(ElementIconSpring1);
+import ElementIconStatus1 from './elements/icon/ElementIconStatus1'
+c.push(ElementIconStatus1);
+import ElementIconSummer1 from './elements/icon/ElementIconSummer1'
+c.push(ElementIconSummer1);
+import ElementIconTabletopGaming1 from './elements/icon/ElementIconTabletopGaming1'
+c.push(ElementIconTabletopGaming1);
+import ElementIconToggle1 from './elements/icon/ElementIconToggle1'
+c.push(ElementIconToggle1);
+import ElementIconTravel1 from './elements/icon/ElementIconTravel1'
+c.push(ElementIconTravel1);
+import ElementIconUsersPeople1 from './elements/icon/ElementIconUsersPeople1'
+c.push(ElementIconUsersPeople1);
+import ElementIconVehicles1 from './elements/icon/ElementIconVehicles1'
+c.push(ElementIconVehicles1);
+import ElementIconWeather1 from './elements/icon/ElementIconWeather1'
+c.push(ElementIconWeather1);
+import ElementIconWinter1 from './elements/icon/ElementIconWinter1'
+c.push(ElementIconWinter1);
+import ElementIconWriting1 from './elements/icon/ElementIconWriting1'
+c.push(ElementIconWriting1);
+import ElementIconBrands1 from './elements/icon/ElementIconBrands1'
+c.push(ElementIconBrands1);
 import ElementIcon1A from './elements/icon/ElementIcon1A';
 c.push(ElementIcon1A);
 b.push(['icon', c]); c = [];

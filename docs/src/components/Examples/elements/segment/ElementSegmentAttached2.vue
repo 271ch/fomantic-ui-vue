@@ -19,7 +19,7 @@
       <p>Humans don't think of lions as being like cats, but they are.</p>
     </div>
     <div class="ui bottom attached warning message">
-      <i class="warning icon"/>
+      <i class="warning icon"></i>
       You've reached the end of this content segment!
     </div>
   </div>
@@ -54,7 +54,7 @@ export default {
       '      <p>Humans don\'t think of lions as being like cats, but they are.</p>\n' +
       '    </div>\n' +
       '    <div class="ui bottom attached warning message">\n' +
-      '      <i class="warning icon"/>\n' +
+      '      <i class="warning icon"></i>\n' +
       '      You\'ve reached the end of this content segment!\n' +
       '    </div>\n',
   },

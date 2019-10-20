@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui label">
-      <i class="mail icon"/> 23
+      <i class="mail icon"></i> 23
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
     title2: 'Label',
     description: 'A label',
     model: '    <div class="ui label">\n' +
-      '      <i class="mail icon"/> 23\n' +
+      '      <i class="mail icon"></i> 23\n' +
       '    </div>\n',
   },
 };

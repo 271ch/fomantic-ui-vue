@@ -2,9 +2,9 @@
   <div>
     <div class="ui tiny breadcrumb">
       <a class="section">Home</a>
-      <i class="right chevron icon divider"/>
+      <i class="right chevron icon divider"></i>
       <a class="section">Registration</a>
-      <i class="right chevron icon divider"/>
+      <i class="right chevron icon divider"></i>
       <div class="active section">Personal Information</div>
     </div>
   </div>
@@ -22,9 +22,9 @@ export default {
     description: 'A breadcrumb can vary in size',
     model: '    <div class="ui tiny breadcrumb">\n' +
       '      <a class="section">Home</a>\n' +
-      '      <i class="right chevron icon divider"/>\n' +
+      '      <i class="right chevron icon divider"></i>\n' +
       '      <a class="section">Registration</a>\n' +
-      '      <i class="right chevron icon divider"/>\n' +
+      '      <i class="right chevron icon divider"></i>\n' +
       '      <div class="active section">Personal Information</div>\n' +
       '    </div>\n',
   },

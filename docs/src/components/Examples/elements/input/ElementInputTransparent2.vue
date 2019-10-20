@@ -2,7 +2,7 @@
   <div>
     <div class="ui transparent icon input">
       <input type="text" placeholder="Search..."/>
-      <i class="search icon"/>
+      <i class="search icon"></i>
     </div>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
     description: 'A transparent input has no background',
     model: '    <div class="ui transparent icon input">\n' +
       '      <input type="text" placeholder="Search..."/>\n' +
-      '      <i class="search icon"/>\n' +
+      '      <i class="search icon"></i>\n' +
       '    </div>\n',
   },
 };

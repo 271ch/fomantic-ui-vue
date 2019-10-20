@@ -14,7 +14,7 @@
         <div class="item">
           <div class="ui icon input">
             <input type="text" placeholder="Search..."/>
-            <i class="search link icon"/>
+            <i class="search link icon"></i>
           </div>
         </div>
         <a class="ui item">
@@ -49,7 +49,7 @@ export default {
       '        <div class="item">\n' +
       '          <div class="ui icon input">\n' +
       '            <input type="text" placeholder="Search..."/>\n' +
-      '            <i class="search link icon"/>\n' +
+      '            <i class="search link icon"></i>\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <a class="ui item">\n' +

@@ -2,7 +2,7 @@
   <div>
     <div class="ui fluid icon input">
       <input type="text" placeholder="Search a very wide input..."/>
-      <i class="search icon"/>
+      <i class="search icon"></i>
     </div>
     <div class="ui ignored divider"/>
     <div class="ui fluid action input">
@@ -24,7 +24,7 @@ export default {
     description: 'An input can take the size of its container',
     model: '    <div class="ui fluid icon input">\n' +
       '      <input type="text" placeholder="Search a very wide input..."/>\n' +
-      '      <i class="search icon"/>\n' +
+      '      <i class="search icon"></i>\n' +
       '    </div>\n' +
       '    <div class="ui ignored divider"/>\n' +
       '    <div class="ui fluid action input">\n' +

@@ -2,7 +2,7 @@
   <div>
     <div class="ui icon input">
       <input type="text" placeholder="Search..."/>
-      <i class="inverted circular search link icon"/>
+      <i class="inverted circular search link icon"></i>
     </div>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
     description: 'An input can be formatted with an icon',
     model: '    <div class="ui icon input">\n' +
       '      <input type="text" placeholder="Search..."/>\n' +
-      '      <i class="inverted circular search link icon"/>\n' +
+      '      <i class="inverted circular search link icon"></i>\n' +
       '    </div>\n',
   },
 };

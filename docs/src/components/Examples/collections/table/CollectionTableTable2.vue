@@ -46,14 +46,14 @@
         <th colspan="5">
           <div class="ui right floated pagination menu">
             <a class="icon item">
-              <i class="left chevron icon"/>
+              <i class="left chevron icon"></i>
             </a>
             <a class="item">1</a>
             <a class="item">2</a>
             <a class="item">3</a>
             <a class="item">4</a>
             <a class="icon item">
-              <i class="right chevron icon"/>
+              <i class="right chevron icon"></i>
             </a>
           </div>
         </th>
@@ -118,14 +118,14 @@ export default {
       '        <th colspan="5">\n' +
       '          <div class="ui right floated pagination menu">\n' +
       '            <a class="icon item">\n' +
-      '              <i class="left chevron icon"/>\n' +
+      '              <i class="left chevron icon"></i>\n' +
       '            </a>\n' +
       '            <a class="item">1</a>\n' +
       '            <a class="item">2</a>\n' +
       '            <a class="item">3</a>\n' +
       '            <a class="item">4</a>\n' +
       '            <a class="icon item">\n' +
-      '              <i class="right chevron icon"/>\n' +
+      '              <i class="right chevron icon"></i>\n' +
       '            </a>\n' +
       '          </div>\n' +
       '        </th>\n' +

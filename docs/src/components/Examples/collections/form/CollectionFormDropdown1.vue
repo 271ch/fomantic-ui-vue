@@ -13,7 +13,7 @@
           <label>Gender</label>
           <div class="ui selection dropdown">
               <input type="hidden" name="gender"/>
-              <i class="dropdown icon"/>
+              <i class="dropdown icon"></i>
               <div class="default text">Gender</div>
               <div class="menu">
                   <div class="item" data-value="1">Male</div>
@@ -48,7 +48,7 @@ export default {
       '          <label>Gender</label>\n' +
       '          <div class="ui selection dropdown">\n' +
       '              <input type="hidden" name="gender"/>\n' +
-      '              <i class="dropdown icon"/>\n' +
+      '              <i class="dropdown icon"></i>\n' +
       '              <div class="default text">Gender</div>\n' +
       '              <div class="menu">\n' +
       '                  <div class="item" data-value="1">Male</div>\n' +

@@ -2,7 +2,7 @@
   <div>
     <div class="ui icon input red fast elastic loading">
         <input type="text" placeholder="Search..."/>
-        <i class="search icon"/>
+        <i class="search icon"></i>
     </div>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
     description: 'An icon input field can show that it is currently loading data',
     model: '    <div class="ui icon input red fast elastic loading">\n' +
       '        <input type="text" placeholder="Search..."/>\n' +
-      '        <i class="search icon"/>\n' +
+      '        <i class="search icon"></i>\n' +
       '    </div>\n',
   },
 };

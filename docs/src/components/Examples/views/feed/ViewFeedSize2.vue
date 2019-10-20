@@ -16,14 +16,14 @@
           </div>
           <div class="meta">
             <a class="like">
-              <i class="like icon"/> 4 Likes
+              <i class="like icon"></i> 4 Likes
             </a>
           </div>
         </div>
       </div>
       <div class="event">
         <div class="label">
-          <i class="pencil icon"/>
+          <i class="pencil icon"></i>
         </div>
         <div class="content">
           <div class="summary">
@@ -37,7 +37,7 @@
           </div>
           <div class="meta">
             <a class="like">
-              <i class="like icon"/> 11 Likes
+              <i class="like icon"></i> 11 Likes
             </a>
           </div>
         </div>
@@ -59,7 +59,7 @@
           </div>
           <div class="meta">
             <a class="like">
-              <i class="like icon"/> 1 Like
+              <i class="like icon"></i> 1 Like
             </a>
           </div>
         </div>
@@ -120,7 +120,7 @@
               </div>
               <div class="meta">
                 <a class="like">
-                  <i class="like icon"/> 1 Like
+                  <i class="like icon"></i> 1 Like
                 </a>
               </div>
             </div>
@@ -140,7 +140,7 @@
               </div>
               <div class="meta">
                 <a class="like">
-                  <i class="like icon"/> 8 Likes
+                  <i class="like icon"></i> 8 Likes
                 </a>
               </div>
             </div>
@@ -161,7 +161,7 @@
               </div>
               <div class="meta">
                 <a class="like">
-                  <i class="like icon"/> 5 Likes
+                  <i class="like icon"></i> 5 Likes
                 </a>
               </div>
             </div>
@@ -183,7 +183,7 @@
               </div>
               <div class="meta">
                 <a class="like">
-                  <i class="like icon"/> 41 Likes
+                  <i class="like icon"></i> 41 Likes
                 </a>
               </div>
             </div>
@@ -220,14 +220,14 @@ export default {
       '          </div>\n' +
       '          <div class="meta">\n' +
       '            <a class="like">\n' +
-      '              <i class="like icon"/> 4 Likes\n' +
+      '              <i class="like icon"></i> 4 Likes\n' +
       '            </a>\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="event">\n' +
       '        <div class="label">\n' +
-      '          <i class="pencil icon"/>\n' +
+      '          <i class="pencil icon"></i>\n' +
       '        </div>\n' +
       '        <div class="content">\n' +
       '          <div class="summary">\n' +
@@ -241,7 +241,7 @@ export default {
       '          </div>\n' +
       '          <div class="meta">\n' +
       '            <a class="like">\n' +
-      '              <i class="like icon"/> 11 Likes\n' +
+      '              <i class="like icon"></i> 11 Likes\n' +
       '            </a>\n' +
       '          </div>\n' +
       '        </div>\n' +
@@ -263,7 +263,7 @@ export default {
       '          </div>\n' +
       '          <div class="meta">\n' +
       '            <a class="like">\n' +
-      '              <i class="like icon"/> 1 Like\n' +
+      '              <i class="like icon"></i> 1 Like\n' +
       '            </a>\n' +
       '          </div>\n' +
       '        </div>\n' +
@@ -324,7 +324,7 @@ export default {
       '              </div>\n' +
       '              <div class="meta">\n' +
       '                <a class="like">\n' +
-      '                  <i class="like icon"/> 1 Like\n' +
+      '                  <i class="like icon"></i> 1 Like\n' +
       '                </a>\n' +
       '              </div>\n' +
       '            </div>\n' +
@@ -344,7 +344,7 @@ export default {
       '              </div>\n' +
       '              <div class="meta">\n' +
       '                <a class="like">\n' +
-      '                  <i class="like icon"/> 8 Likes\n' +
+      '                  <i class="like icon"></i> 8 Likes\n' +
       '                </a>\n' +
       '              </div>\n' +
       '            </div>\n' +
@@ -365,7 +365,7 @@ export default {
       '              </div>\n' +
       '              <div class="meta">\n' +
       '                <a class="like">\n' +
-      '                  <i class="like icon"/> 5 Likes\n' +
+      '                  <i class="like icon"></i> 5 Likes\n' +
       '                </a>\n' +
       '              </div>\n' +
       '            </div>\n' +
@@ -387,7 +387,7 @@ export default {
       '              </div>\n' +
       '              <div class="meta">\n' +
       '                <a class="like">\n' +
-      '                  <i class="like icon"/> 41 Likes\n' +
+      '                  <i class="like icon"></i> 41 Likes\n' +
       '                </a>\n' +
       '              </div>\n' +
       '            </div>\n' +

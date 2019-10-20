@@ -33,6 +33,10 @@ export default {
       type: Boolean,
       description: '',
     },
+    doubling: { // TODO:descr
+      type: Boolean,
+      description: '',
+    },
     /*
     prop1: { // TODO: Component FuiGrid
       type: Boolean,
@@ -62,6 +66,7 @@ export default {
     classes: function () {
       return u.concatClasses(
         'ui',
+        this.doubling && 'doubling',
         this.column && this.column,
         this.column && 'column',
         this.relaxed === 'very' && 'very',

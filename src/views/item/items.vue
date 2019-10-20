@@ -10,28 +10,21 @@ import u from '../../lib/util';
 // import Mixins from '../../lib/mixins';
 
 export default {
-  name: 'FuiList',
+  name: 'FuiItems',
   mixins: [],
   props: {
-    /*
-    prop1: { // TODO: Component FuiList
-      type: Boolean,
-      description: '',
-    },
-    prop2: {
-      type: String,
-      description: '',
-      default: '',
-    },
-    prop3: {
-      type: String,
-      description: '',
+    relaxed: { // TODO:descr
+      type: [Boolean, String],
       validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
+        return value === false || value === true || value === 'very';
       },
-      default: '',
+      default: false,
+      description: '',
     },
-    */
+    divided: {
+      type: Boolean,
+      description: '', // TODO:descr
+    },
   },
   events: {
     click: {
@@ -41,7 +34,11 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
-        'list'
+        'ui',
+        this.relaxed !== true && this.relaxed,
+        this.relaxed && 'relaxed',
+        this.divided && 'divided',
+        'items'
       );
     },
   },

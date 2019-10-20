@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="ui dropdown item">
-        Dropdown <i class="dropdown icon"/>
+        Dropdown <i class="dropdown icon"></i>
         <div class="menu">
           <div class="item">Choice 1</div>
           <div class="item">Choice 2</div>
@@ -47,7 +47,7 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="ui dropdown item">\n' +
-      '        Dropdown <i class="dropdown icon"/>\n' +
+      '        Dropdown <i class="dropdown icon"></i>\n' +
       '        <div class="menu">\n' +
       '          <div class="item">Choice 1</div>\n' +
       '          <div class="item">Choice 2</div>\n' +

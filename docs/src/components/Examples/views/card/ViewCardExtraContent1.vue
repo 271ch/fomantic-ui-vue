@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="extra content">
-        <i class="check icon"/>
+        <i class="check icon"></i>
         121 Votes
       </div>
     </div>
@@ -37,7 +37,7 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="extra content">\n' +
-      '        <i class="check icon"/>\n' +
+      '        <i class="check icon"></i>\n' +
       '        121 Votes\n' +
       '      </div>\n' +
       '    </div>\n',

@@ -10,7 +10,7 @@ import u from '../../lib/util';
 // import Mixins from '../../lib/mixins';
 
 export default {
-  name: 'FuiItem',
+  name: 'FuiList',
   mixins: [],
   props: {
     /*
@@ -41,7 +41,7 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
-        'item'
+        'list'
       );
     },
   },

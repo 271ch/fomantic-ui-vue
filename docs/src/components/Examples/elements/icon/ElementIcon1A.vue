@@ -4,65 +4,65 @@
     <div class="example">
       <h4 class="ui header">Disabled</h4>
       <p>An icon can show that it is disabled</p>
-      <i class="disabled users icon"/>
+      <i class="disabled users icon"></i>
     </div>
     <div class="example">
       <h4 class="ui header">Loading</h4>
       <p>An icon can be used as a simple loader</p>
-      <i class="spinner loading icon"/>
-      <i class="notched circle loading icon"/>
-      <i class="asterisk loading icon"/>
+      <i class="spinner loading icon"></i>
+      <i class="notched circle loading icon"></i>
+      <i class="asterisk loading icon"></i>
     </div>
     <h2 class="ui dividing header">Variations</h2>
     <div class="example">
       <h4 class="ui header">Fitted</h4>
       <p>An icon can be fitted, without any space to the left or right of it.</p>
       Tight spacing
-      <i class="fitted help icon"/>
+      <i class="fitted help icon"></i>
       Tight spacing
     </div>
     <div class="example">
       <h4 class="ui header">Size</h4>
       <p>An icon can vary in size</p>
-      <i class="mini home icon"/>
-      <i class="tiny home icon"/>
-      <i class="small home icon"/>
+      <i class="mini home icon"></i>
+      <i class="tiny home icon"></i>
+      <i class="small home icon"></i>
       <br/>
-      <i class="home icon"/>
+      <i class="home icon"></i>
       <br/>
-      <i class="large home icon"/>
+      <i class="large home icon"></i>
       <br/>
-      <i class="big home icon"/>
+      <i class="big home icon"></i>
       <br/>
-      <i class="huge home icon"/>
+      <i class="huge home icon"></i>
       <br/>
-      <i class="massive home icon"/>
+      <i class="massive home icon"></i>
     </div>
     <div class="example">
       <h4 class="ui header">Link</h4>
       <p>An icon can be formatted as a link</p>
-      <i class="close link icon"/>
-      <i class="help link icon"/>
+      <i class="close link icon"></i>
+      <i class="help link icon"></i>
     </div>
     <div class="example">
       <h4 class="ui header">Flipped</h4>
       <p>An icon can be flipped</p>
-      <i class="horizontally flipped cloud icon"/>
-      <i class="vertically flipped cloud icon"/>
+      <i class="horizontally flipped cloud icon"></i>
+      <i class="vertically flipped cloud icon"></i>
     </div>
     <div class="example">
       <h4 class="ui header">Rotated</h4>
       <p>An icon can be rotated</p>
-      <i class="clockwise rotated cloud icon"/>
-      <i class="counterclockwise rotated cloud icon"/>
+      <i class="clockwise rotated cloud icon"></i>
+      <i class="counterclockwise rotated cloud icon"></i>
     </div>
     <div class="example">
       <h4 class="ui header">Circular</h4>
       <p>An icon can be formatted to appear circular</p>
-      <i class="circular users icon"/>
-      <i class="circular teal users icon"/>
-      <i class="circular inverted users icon"/>
-      <i class="circular inverted teal users icon"/>
+      <i class="circular users icon"></i>
+      <i class="circular teal users icon"></i>
+      <i class="circular inverted users icon"></i>
+      <i class="circular inverted teal users icon"></i>
     </div>
     <div class="example">
       <h4 class="ui header">Bordered</h4>
@@ -70,49 +70,49 @@
         In <code>0.x.x</code> bordered was formally known as <code>squared</code>
       </div>
       <p>An icon can be formatted to appear bordered</p>
-      <i class="bordered users icon"/>
-      <i class="bordered teal users icon"/>
-      <i class="bordered inverted black users icon"/>
-      <i class="bordered inverted teal users icon"/>
+      <i class="bordered users icon"></i>
+      <i class="bordered teal users icon"></i>
+      <i class="bordered inverted black users icon"></i>
+      <i class="bordered inverted teal users icon"></i>
     </div>
     <div class="example">
       <h4 class="ui header">Colored</h4>
       <p>An icon can be formatted with different colors</p>
-      <i class="primary users icon"/>
-      <i class="secondary users icon"/>
-      <i class="red users icon"/>
-      <i class="orange users icon"/>
-      <i class="yellow users icon"/>
-      <i class="olive users icon"/>
-      <i class="green users icon"/>
-      <i class="teal users icon"/>
-      <i class="blue users icon"/>
-      <i class="violet users icon"/>
-      <i class="purple users icon"/>
-      <i class="pink users icon"/>
-      <i class="brown users icon"/>
-      <i class="grey users icon"/>
-      <i class="black users icon"/>
+      <i class="primary users icon"></i>
+      <i class="secondary users icon"></i>
+      <i class="red users icon"></i>
+      <i class="orange users icon"></i>
+      <i class="yellow users icon"></i>
+      <i class="olive users icon"></i>
+      <i class="green users icon"></i>
+      <i class="teal users icon"></i>
+      <i class="blue users icon"></i>
+      <i class="violet users icon"></i>
+      <i class="purple users icon"></i>
+      <i class="pink users icon"></i>
+      <i class="brown users icon"></i>
+      <i class="grey users icon"></i>
+      <i class="black users icon"></i>
     </div>
     <div class="example">
       <h4 class="ui header">Inverted</h4>
       <p>An icon can have its colors inverted for contrast</p>
       <div class="ui inverted segment">
-        <i class="inverted users icon"/>
-        <i class="inverted primary users icon"/>
-        <i class="inverted secondary users icon"/>
-        <i class="inverted red users icon"/>
-        <i class="inverted orange users icon"/>
-        <i class="inverted yellow users icon"/>
-        <i class="inverted olive users icon"/>
-        <i class="inverted green users icon"/>
-        <i class="inverted teal users icon"/>
-        <i class="inverted blue users icon"/>
-        <i class="inverted violet users icon"/>
-        <i class="inverted purple users icon"/>
-        <i class="inverted pink users icon"/>
-        <i class="inverted brown users icon"/>
-        <i class="inverted grey users icon"/>
+        <i class="inverted users icon"></i>
+        <i class="inverted primary users icon"></i>
+        <i class="inverted secondary users icon"></i>
+        <i class="inverted red users icon"></i>
+        <i class="inverted orange users icon"></i>
+        <i class="inverted yellow users icon"></i>
+        <i class="inverted olive users icon"></i>
+        <i class="inverted green users icon"></i>
+        <i class="inverted teal users icon"></i>
+        <i class="inverted blue users icon"></i>
+        <i class="inverted violet users icon"></i>
+        <i class="inverted purple users icon"></i>
+        <i class="inverted pink users icon"></i>
+        <i class="inverted brown users icon"></i>
+        <i class="inverted grey users icon"></i>
       </div>
     </div>
     <h2 class="ui dividing header">Groups</h2>
@@ -120,47 +120,47 @@
       <h4 class="ui header">Icons</h4>
       <p>Several icons can be used together as a group</p>
       <i class="huge icons">
-        <i class="big circle outline icon"/>
-        <i class="user icon"/>
+        <i class="big circle outline icon"></i>
+        <i class="user icon"></i>
       </i>
     </div>
     <div class="another example">
       <i class="huge icons">
-        <i class="big red dont icon"/>
-        <i class="black user icon"/>
+        <i class="big red dont icon"></i>
+        <i class="black user icon"></i>
       </i>
     </div>
     <div class="example" data-class="corner">
       <h4 class="ui header">Corner Icon</h4>
       <p>A group of icons can display a smaller corner icon</p>
       <i class="huge icons">
-        <i class="puzzle icon"/>
-        <i class="corner add icon"/>
+        <i class="puzzle icon"></i>
+        <i class="corner add icon"></i>
       </i>
     </div>
     <div class="another example">
       <i class="huge icons">
-        <i class="puzzle icon"/>
-        <i class="top left corner add icon"/>
+        <i class="puzzle icon"></i>
+        <i class="top left corner add icon"></i>
       </i>
       <i class="huge icons">
-        <i class="puzzle icon"/>
-        <i class="top right corner add icon"/>
+        <i class="puzzle icon"></i>
+        <i class="top right corner add icon"></i>
       </i>
       <i class="huge icons">
-        <i class="puzzle icon"/>
-        <i class="bottom left corner add icon"/>
+        <i class="puzzle icon"></i>
+        <i class="bottom left corner add icon"></i>
       </i>
       <i class="huge icons">
-        <i class="puzzle icon"/>
-        <i class="bottom right corner add icon"/>
+        <i class="puzzle icon"></i>
+        <i class="bottom right corner add icon"></i>
       </i>
     </div>
     <div class="another example">
       <h2 class="ui header">
         <i class="large icons">
-          <i class="twitter icon"/>
-          <i class="inverted corner add icon"/>
+          <i class="twitter icon"></i>
+          <i class="inverted corner add icon"></i>
         </i>
         Add on Twitter
       </h2>
@@ -182,65 +182,65 @@ export default {
       '    <div class="example">\n' +
       '      <h4 class="ui header">Disabled</h4>\n' +
       '      <p>An icon can show that it is disabled</p>\n' +
-      '      <i class="disabled users icon"/>\n' +
+      '      <i class="disabled users icon"></i>\n' +
       '    </div>\n' +
       '    <div class="example">\n' +
       '      <h4 class="ui header">Loading</h4>\n' +
       '      <p>An icon can be used as a simple loader</p>\n' +
-      '      <i class="spinner loading icon"/>\n' +
-      '      <i class="notched circle loading icon"/>\n' +
-      '      <i class="asterisk loading icon"/>\n' +
+      '      <i class="spinner loading icon"></i>\n' +
+      '      <i class="notched circle loading icon"></i>\n' +
+      '      <i class="asterisk loading icon"></i>\n' +
       '    </div>\n' +
       '    <h2 class="ui dividing header">Variations</h2>\n' +
       '    <div class="example">\n' +
       '      <h4 class="ui header">Fitted</h4>\n' +
       '      <p>An icon can be fitted, without any space to the left or right of it.</p>\n' +
       '      Tight spacing\n' +
-      '      <i class="fitted help icon"/>\n' +
+      '      <i class="fitted help icon"></i>\n' +
       '      Tight spacing\n' +
       '    </div>\n' +
       '    <div class="example">\n' +
       '      <h4 class="ui header">Size</h4>\n' +
       '      <p>An icon can vary in size</p>\n' +
-      '      <i class="mini home icon"/>\n' +
-      '      <i class="tiny home icon"/>\n' +
-      '      <i class="small home icon"/>\n' +
+      '      <i class="mini home icon"></i>\n' +
+      '      <i class="tiny home icon"></i>\n' +
+      '      <i class="small home icon"></i>\n' +
       '      <br/>\n' +
-      '      <i class="home icon"/>\n' +
+      '      <i class="home icon"></i>\n' +
       '      <br/>\n' +
-      '      <i class="large home icon"/>\n' +
+      '      <i class="large home icon"></i>\n' +
       '      <br/>\n' +
-      '      <i class="big home icon"/>\n' +
+      '      <i class="big home icon"></i>\n' +
       '      <br/>\n' +
-      '      <i class="huge home icon"/>\n' +
+      '      <i class="huge home icon"></i>\n' +
       '      <br/>\n' +
-      '      <i class="massive home icon"/>\n' +
+      '      <i class="massive home icon"></i>\n' +
       '    </div>\n' +
       '    <div class="example">\n' +
       '      <h4 class="ui header">Link</h4>\n' +
       '      <p>An icon can be formatted as a link</p>\n' +
-      '      <i class="close link icon"/>\n' +
-      '      <i class="help link icon"/>\n' +
+      '      <i class="close link icon"></i>\n' +
+      '      <i class="help link icon"></i>\n' +
       '    </div>\n' +
       '    <div class="example">\n' +
       '      <h4 class="ui header">Flipped</h4>\n' +
       '      <p>An icon can be flipped</p>\n' +
-      '      <i class="horizontally flipped cloud icon"/>\n' +
-      '      <i class="vertically flipped cloud icon"/>\n' +
+      '      <i class="horizontally flipped cloud icon"></i>\n' +
+      '      <i class="vertically flipped cloud icon"></i>\n' +
       '    </div>\n' +
       '    <div class="example">\n' +
       '      <h4 class="ui header">Rotated</h4>\n' +
       '      <p>An icon can be rotated</p>\n' +
-      '      <i class="clockwise rotated cloud icon"/>\n' +
-      '      <i class="counterclockwise rotated cloud icon"/>\n' +
+      '      <i class="clockwise rotated cloud icon"></i>\n' +
+      '      <i class="counterclockwise rotated cloud icon"></i>\n' +
       '    </div>\n' +
       '    <div class="example">\n' +
       '      <h4 class="ui header">Circular</h4>\n' +
       '      <p>An icon can be formatted to appear circular</p>\n' +
-      '      <i class="circular users icon"/>\n' +
-      '      <i class="circular teal users icon"/>\n' +
-      '      <i class="circular inverted users icon"/>\n' +
-      '      <i class="circular inverted teal users icon"/>\n' +
+      '      <i class="circular users icon"></i>\n' +
+      '      <i class="circular teal users icon"></i>\n' +
+      '      <i class="circular inverted users icon"></i>\n' +
+      '      <i class="circular inverted teal users icon"></i>\n' +
       '    </div>\n' +
       '    <div class="example">\n' +
       '      <h4 class="ui header">Bordered</h4>\n' +
@@ -248,49 +248,49 @@ export default {
       '        In <code>0.x.x</code> bordered was formally known as <code>squared</code>\n' +
       '      </div>\n' +
       '      <p>An icon can be formatted to appear bordered</p>\n' +
-      '      <i class="bordered users icon"/>\n' +
-      '      <i class="bordered teal users icon"/>\n' +
-      '      <i class="bordered inverted black users icon"/>\n' +
-      '      <i class="bordered inverted teal users icon"/>\n' +
+      '      <i class="bordered users icon"></i>\n' +
+      '      <i class="bordered teal users icon"></i>\n' +
+      '      <i class="bordered inverted black users icon"></i>\n' +
+      '      <i class="bordered inverted teal users icon"></i>\n' +
       '    </div>\n' +
       '    <div class="example">\n' +
       '      <h4 class="ui header">Colored</h4>\n' +
       '      <p>An icon can be formatted with different colors</p>\n' +
-      '      <i class="primary users icon"/>\n' +
-      '      <i class="secondary users icon"/>\n' +
-      '      <i class="red users icon"/>\n' +
-      '      <i class="orange users icon"/>\n' +
-      '      <i class="yellow users icon"/>\n' +
-      '      <i class="olive users icon"/>\n' +
-      '      <i class="green users icon"/>\n' +
-      '      <i class="teal users icon"/>\n' +
-      '      <i class="blue users icon"/>\n' +
-      '      <i class="violet users icon"/>\n' +
-      '      <i class="purple users icon"/>\n' +
-      '      <i class="pink users icon"/>\n' +
-      '      <i class="brown users icon"/>\n' +
-      '      <i class="grey users icon"/>\n' +
-      '      <i class="black users icon"/>\n' +
+      '      <i class="primary users icon"></i>\n' +
+      '      <i class="secondary users icon"></i>\n' +
+      '      <i class="red users icon"></i>\n' +
+      '      <i class="orange users icon"></i>\n' +
+      '      <i class="yellow users icon"></i>\n' +
+      '      <i class="olive users icon"></i>\n' +
+      '      <i class="green users icon"></i>\n' +
+      '      <i class="teal users icon"></i>\n' +
+      '      <i class="blue users icon"></i>\n' +
+      '      <i class="violet users icon"></i>\n' +
+      '      <i class="purple users icon"></i>\n' +
+      '      <i class="pink users icon"></i>\n' +
+      '      <i class="brown users icon"></i>\n' +
+      '      <i class="grey users icon"></i>\n' +
+      '      <i class="black users icon"></i>\n' +
       '    </div>\n' +
       '    <div class="example">\n' +
       '      <h4 class="ui header">Inverted</h4>\n' +
       '      <p>An icon can have its colors inverted for contrast</p>\n' +
       '      <div class="ui inverted segment">\n' +
-      '        <i class="inverted users icon"/>\n' +
-      '        <i class="inverted primary users icon"/>\n' +
-      '        <i class="inverted secondary users icon"/>\n' +
-      '        <i class="inverted red users icon"/>\n' +
-      '        <i class="inverted orange users icon"/>\n' +
-      '        <i class="inverted yellow users icon"/>\n' +
-      '        <i class="inverted olive users icon"/>\n' +
-      '        <i class="inverted green users icon"/>\n' +
-      '        <i class="inverted teal users icon"/>\n' +
-      '        <i class="inverted blue users icon"/>\n' +
-      '        <i class="inverted violet users icon"/>\n' +
-      '        <i class="inverted purple users icon"/>\n' +
-      '        <i class="inverted pink users icon"/>\n' +
-      '        <i class="inverted brown users icon"/>\n' +
-      '        <i class="inverted grey users icon"/>\n' +
+      '        <i class="inverted users icon"></i>\n' +
+      '        <i class="inverted primary users icon"></i>\n' +
+      '        <i class="inverted secondary users icon"></i>\n' +
+      '        <i class="inverted red users icon"></i>\n' +
+      '        <i class="inverted orange users icon"></i>\n' +
+      '        <i class="inverted yellow users icon"></i>\n' +
+      '        <i class="inverted olive users icon"></i>\n' +
+      '        <i class="inverted green users icon"></i>\n' +
+      '        <i class="inverted teal users icon"></i>\n' +
+      '        <i class="inverted blue users icon"></i>\n' +
+      '        <i class="inverted violet users icon"></i>\n' +
+      '        <i class="inverted purple users icon"></i>\n' +
+      '        <i class="inverted pink users icon"></i>\n' +
+      '        <i class="inverted brown users icon"></i>\n' +
+      '        <i class="inverted grey users icon"></i>\n' +
       '      </div>\n' +
       '    </div>\n' +
       '    <h2 class="ui dividing header">Groups</h2>\n' +
@@ -298,47 +298,47 @@ export default {
       '      <h4 class="ui header">Icons</h4>\n' +
       '      <p>Several icons can be used together as a group</p>\n' +
       '      <i class="huge icons">\n' +
-      '        <i class="big circle outline icon"/>\n' +
-      '        <i class="user icon"/>\n' +
+      '        <i class="big circle outline icon"></i>\n' +
+      '        <i class="user icon"></i>\n' +
       '      </i>\n' +
       '    </div>\n' +
       '    <div class="another example">\n' +
       '      <i class="huge icons">\n' +
-      '        <i class="big red dont icon"/>\n' +
-      '        <i class="black user icon"/>\n' +
+      '        <i class="big red dont icon"></i>\n' +
+      '        <i class="black user icon"></i>\n' +
       '      </i>\n' +
       '    </div>\n' +
       '    <div class="example" data-class="corner">\n' +
       '      <h4 class="ui header">Corner Icon</h4>\n' +
       '      <p>A group of icons can display a smaller corner icon</p>\n' +
       '      <i class="huge icons">\n' +
-      '        <i class="puzzle icon"/>\n' +
-      '        <i class="corner add icon"/>\n' +
+      '        <i class="puzzle icon"></i>\n' +
+      '        <i class="corner add icon"></i>\n' +
       '      </i>\n' +
       '    </div>\n' +
       '    <div class="another example">\n' +
       '      <i class="huge icons">\n' +
-      '        <i class="puzzle icon"/>\n' +
-      '        <i class="top left corner add icon"/>\n' +
+      '        <i class="puzzle icon"></i>\n' +
+      '        <i class="top left corner add icon"></i>\n' +
       '      </i>\n' +
       '      <i class="huge icons">\n' +
-      '        <i class="puzzle icon"/>\n' +
-      '        <i class="top right corner add icon"/>\n' +
+      '        <i class="puzzle icon"></i>\n' +
+      '        <i class="top right corner add icon"></i>\n' +
       '      </i>\n' +
       '      <i class="huge icons">\n' +
-      '        <i class="puzzle icon"/>\n' +
-      '        <i class="bottom left corner add icon"/>\n' +
+      '        <i class="puzzle icon"></i>\n' +
+      '        <i class="bottom left corner add icon"></i>\n' +
       '      </i>\n' +
       '      <i class="huge icons">\n' +
-      '        <i class="puzzle icon"/>\n' +
-      '        <i class="bottom right corner add icon"/>\n' +
+      '        <i class="puzzle icon"></i>\n' +
+      '        <i class="bottom right corner add icon"></i>\n' +
       '      </i>\n' +
       '    </div>\n' +
       '    <div class="another example">\n' +
       '      <h2 class="ui header">\n' +
       '        <i class="large icons">\n' +
-      '          <i class="twitter icon"/>\n' +
-      '          <i class="inverted corner add icon"/>\n' +
+      '          <i class="twitter icon"></i>\n' +
+      '          <i class="inverted corner add icon"></i>\n' +
       '        </i>\n' +
       '        Add on Twitter\n' +
       '      </h2>\n' +

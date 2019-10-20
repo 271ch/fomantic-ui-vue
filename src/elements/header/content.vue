@@ -9,11 +9,12 @@
 <script>
 import u from '../../lib/util';
 // import Enum from '../../lib/enum';
-// import Mixins from '../../lib/mixins';
+import Mixins from '../../lib/mixins';
 
 export default {  // TODO: Component FuiContent
   name: 'FuiContent',
   mixins: [
+    Mixins.getMixinAligned(['middle'], null),
   ],
   props: {
   },
@@ -25,6 +26,7 @@ export default {  // TODO: Component FuiContent
   computed: {
     classes: function () {
       return u.concatClasses(
+        ...this.getClassesAligned,
         'content'
       );
     },

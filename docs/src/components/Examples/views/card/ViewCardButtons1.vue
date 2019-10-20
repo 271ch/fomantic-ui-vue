@@ -9,7 +9,7 @@
           </div>
         </div>
         <div class="ui bottom attached button">
-          <i class="add icon"/>
+          <i class="add icon"></i>
           Add Friend
         </div>
       </div>
@@ -21,7 +21,7 @@
           </div>
         </div>
         <div class="ui bottom attached button">
-          <i class="add icon"/>
+          <i class="add icon"></i>
           Add Friend
         </div>
       </div>
@@ -33,7 +33,7 @@
           </div>
         </div>
         <div class="ui bottom attached button">
-          <i class="add icon"/>
+          <i class="add icon"></i>
           Add Friend
         </div>
       </div>
@@ -60,7 +60,7 @@ export default {
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="ui bottom attached button">\n' +
-      '          <i class="add icon"/>\n' +
+      '          <i class="add icon"></i>\n' +
       '          Add Friend\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -72,7 +72,7 @@ export default {
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="ui bottom attached button">\n' +
-      '          <i class="add icon"/>\n' +
+      '          <i class="add icon"></i>\n' +
       '          Add Friend\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -84,7 +84,7 @@ export default {
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="ui bottom attached button">\n' +
-      '          <i class="add icon"/>\n' +
+      '          <i class="add icon"></i>\n' +
       '          Add Friend\n' +
       '        </div>\n' +
       '      </div>\n' +

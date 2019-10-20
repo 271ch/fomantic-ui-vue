@@ -24,7 +24,7 @@
           <td>Project 1</td>
           <td class="right aligned">2</td>
           <td class="center aligned">
-            <i class="large green checkmark icon"/>
+            <i class="large green checkmark icon"></i>
           </td>
           <td/>
           <td/>
@@ -34,7 +34,7 @@
           <td>Project 1</td>
           <td class="right aligned">52</td>
           <td class="center aligned">
-            <i class="large green checkmark icon"/>
+            <i class="large green checkmark icon"></i>
           </td>
           <td/>
           <td/>
@@ -44,7 +44,7 @@
           <td class="right aligned">12</td>
           <td/>
           <td class="center aligned">
-            <i class="large green checkmark icon"/>
+            <i class="large green checkmark icon"></i>
           </td>
           <td/>
         </tr>
@@ -52,7 +52,7 @@
           <td>Project 3</td>
           <td class="right aligned">21</td>
           <td class="center aligned">
-            <i class="large green checkmark icon"/>
+            <i class="large green checkmark icon"></i>
           </td>
           <td/>
           <td/>
@@ -96,7 +96,7 @@ export default {
       '          <td>Project 1</td>\n' +
       '          <td class="right aligned">2</td>\n' +
       '          <td class="center aligned">\n' +
-      '            <i class="large green checkmark icon"/>\n' +
+      '            <i class="large green checkmark icon"></i>\n' +
       '          </td>\n' +
       '          <td/>\n' +
       '          <td/>\n' +
@@ -106,7 +106,7 @@ export default {
       '          <td>Project 1</td>\n' +
       '          <td class="right aligned">52</td>\n' +
       '          <td class="center aligned">\n' +
-      '            <i class="large green checkmark icon"/>\n' +
+      '            <i class="large green checkmark icon"></i>\n' +
       '          </td>\n' +
       '          <td/>\n' +
       '          <td/>\n' +
@@ -116,7 +116,7 @@ export default {
       '          <td class="right aligned">12</td>\n' +
       '          <td/>\n' +
       '          <td class="center aligned">\n' +
-      '            <i class="large green checkmark icon"/>\n' +
+      '            <i class="large green checkmark icon"></i>\n' +
       '          </td>\n' +
       '          <td/>\n' +
       '        </tr>\n' +
@@ -124,7 +124,7 @@ export default {
       '          <td>Project 3</td>\n' +
       '          <td class="right aligned">21</td>\n' +
       '          <td class="center aligned">\n' +
-      '            <i class="large green checkmark icon"/>\n' +
+      '            <i class="large green checkmark icon"></i>\n' +
       '          </td>\n' +
       '          <td/>\n' +
       '          <td/>\n' +

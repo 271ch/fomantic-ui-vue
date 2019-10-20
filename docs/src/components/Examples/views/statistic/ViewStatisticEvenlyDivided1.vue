@@ -20,7 +20,7 @@
       </div>
       <div class="statistic">
         <div class="value">
-          <i class="plane icon"/> 5
+          <i class="plane icon"></i> 5
         </div>
         <div class="label">
           Flights
@@ -69,7 +69,7 @@ export default {
       '      </div>\n' +
       '      <div class="statistic">\n' +
       '        <div class="value">\n' +
-      '          <i class="plane icon"/> 5\n' +
+      '          <i class="plane icon"></i> 5\n' +
       '        </div>\n' +
       '        <div class="label">\n' +
       '          Flights\n' +

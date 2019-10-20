@@ -35,7 +35,7 @@
           <label>Country</label>
           <div class="ui fluid search selection dropdown">
             <input type="hidden" name="country"/>
-            <i class="dropdown icon"/>
+            <i class="dropdown icon"></i>
             <div class="default text">Select Country</div>
           </div>
         </div>
@@ -46,18 +46,18 @@
         <div class="ui selection dropdown">
           <input type="hidden" name="card[type]"/>
           <div class="default text">Type</div>
-          <i class="dropdown icon"/>
+          <i class="dropdown icon"></i>
           <div class="menu">
             <div class="item" data-value="visa">
-              <i class="visa icon"/>
+              <i class="visa icon"></i>
               Visa
             </div>
             <div class="item" data-value="amex">
-              <i class="amex icon"/>
+              <i class="amex icon"></i>
               American Express
             </div>
             <div class="item" data-value="discover">
-              <i class="discover icon"/>
+              <i class="discover icon"></i>
               Discover
             </div>
           </div>
@@ -103,7 +103,7 @@
         <label>Send Receipt To:</label>
         <div class="ui fluid multiple search selection dropdown">
           <input type="hidden" name="receipt"/>
-          <i class="dropdown icon"/>
+          <i class="dropdown icon"></i>
           <div class="default text">Saved Contacts</div>
           <div class="menu">
             <div class="item" data-value="jenny" data-text="Jenny">
@@ -191,7 +191,7 @@ export default {
       '          <label>Country</label>\n' +
       '          <div class="ui fluid search selection dropdown">\n' +
       '            <input type="hidden" name="country"/>\n' +
-      '            <i class="dropdown icon"/>\n' +
+      '            <i class="dropdown icon"></i>\n' +
       '            <div class="default text">Select Country</div>\n' +
       '          </div>\n' +
       '        </div>\n' +
@@ -202,18 +202,18 @@ export default {
       '        <div class="ui selection dropdown">\n' +
       '          <input type="hidden" name="card[type]"/>\n' +
       '          <div class="default text">Type</div>\n' +
-      '          <i class="dropdown icon"/>\n' +
+      '          <i class="dropdown icon"></i>\n' +
       '          <div class="menu">\n' +
       '            <div class="item" data-value="visa">\n' +
-      '              <i class="visa icon"/>\n' +
+      '              <i class="visa icon"></i>\n' +
       '              Visa\n' +
       '            </div>\n' +
       '            <div class="item" data-value="amex">\n' +
-      '              <i class="amex icon"/>\n' +
+      '              <i class="amex icon"></i>\n' +
       '              American Express\n' +
       '            </div>\n' +
       '            <div class="item" data-value="discover">\n' +
-      '              <i class="discover icon"/>\n' +
+      '              <i class="discover icon"></i>\n' +
       '              Discover\n' +
       '            </div>\n' +
       '          </div>\n' +
@@ -259,7 +259,7 @@ export default {
       '        <label>Send Receipt To:</label>\n' +
       '        <div class="ui fluid multiple search selection dropdown">\n' +
       '          <input type="hidden" name="receipt"/>\n' +
-      '          <i class="dropdown icon"/>\n' +
+      '          <i class="dropdown icon"></i>\n' +
       '          <div class="default text">Saved Contacts</div>\n' +
       '          <div class="menu">\n' +
       '            <div class="item" data-value="jenny" data-text="Jenny">\n' +

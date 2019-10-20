@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui warning message">
-      <i class="close icon"/>
+      <i class="close icon"></i>
       <div class="header">
         You must register before you can do that!
       </div>
@@ -21,7 +21,7 @@ export default {
     title2: 'Warning',
     description: 'A message may be formatted to display warning messages.',
     model: '    <div class="ui warning message">\n' +
-      '      <i class="close icon"/>\n' +
+      '      <i class="close icon"></i>\n' +
       '      <div class="header">\n' +
       '        You must register before you can do that!\n' +
       '      </div>\n' +

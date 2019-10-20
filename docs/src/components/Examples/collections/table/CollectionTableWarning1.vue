@@ -16,13 +16,13 @@
         </tr>
         <tr class="warning">
           <td>Jimmy</td>
-          <td><i class="attention icon"/> Requires Action</td>
+          <td><i class="attention icon"></i> Requires Action</td>
           <td>None</td>
         </tr>
         <tr>
           <td>Jamie</td>
           <td>Unknown</td>
-          <td class="warning"><i class="attention icon"/> Hostile</td>
+          <td class="warning"><i class="attention icon"></i> Hostile</td>
         </tr>
         <tr>
           <td>Jill</td>
@@ -60,13 +60,13 @@ export default {
       '        </tr>\n' +
       '        <tr class="warning">\n' +
       '          <td>Jimmy</td>\n' +
-      '          <td><i class="attention icon"/> Requires Action</td>\n' +
+      '          <td><i class="attention icon"></i> Requires Action</td>\n' +
       '          <td>None</td>\n' +
       '        </tr>\n' +
       '        <tr>\n' +
       '          <td>Jamie</td>\n' +
       '          <td>Unknown</td>\n' +
-      '          <td class="warning"><i class="attention icon"/> Hostile</td>\n' +
+      '          <td class="warning"><i class="attention icon"></i> Hostile</td>\n' +
       '        </tr>\n' +
       '        <tr>\n' +
       '          <td>Jill</td>\n' +

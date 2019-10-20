@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui ignored info message">
-      <i class="info icon"/>
+      <i class="info icon"></i>
       The following example uses <a href="/elements/segment.html">ui</a> for legibility only. This is not necessary for using <code>ui items</code>
     </div>
     <div class="ui divided items">
@@ -19,7 +19,7 @@
           </div>
           <div class="extra">
             <div class="ui label">IMAX</div>
-            <div class="ui label"><i class="globe icon"/> Additional Languages</div>
+            <div class="ui label"><i class="globe icon"></i> Additional Languages</div>
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@
           <div class="extra">
             <div class="ui right floated primary button">
               Buy tickets
-              <i class="right chevron icon"/>
+              <i class="right chevron icon"></i>
             </div>
             <div class="ui label">Limited</div>
           </div>
@@ -59,7 +59,7 @@
           <div class="extra">
             <div class="ui right floated primary button">
               Buy tickets
-              <i class="right chevron icon"/>
+              <i class="right chevron icon"></i>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default {
     title2: 'Divided',
     description: 'Items can be divided to better distinguish between grouped content',
     model: '    <div class="ui ignored info message">\n' +
-      '      <i class="info icon"/>\n' +
+      '      <i class="info icon"></i>\n' +
       '      The following example uses <a href="/elements/segment.html">ui</a> for legibility only. This is not necessary for using <code>ui items</code>\n' +
       '    </div>\n' +
       '    <div class="ui divided items">\n' +
@@ -97,7 +97,7 @@ export default {
       '          </div>\n' +
       '          <div class="extra">\n' +
       '            <div class="ui label">IMAX</div>\n' +
-      '            <div class="ui label"><i class="globe icon"/> Additional Languages</div>\n' +
+      '            <div class="ui label"><i class="globe icon"></i> Additional Languages</div>\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -116,7 +116,7 @@ export default {
       '          <div class="extra">\n' +
       '            <div class="ui right floated primary button">\n' +
       '              Buy tickets\n' +
-      '              <i class="right chevron icon"/>\n' +
+      '              <i class="right chevron icon"></i>\n' +
       '            </div>\n' +
       '            <div class="ui label">Limited</div>\n' +
       '          </div>\n' +
@@ -137,7 +137,7 @@ export default {
       '          <div class="extra">\n' +
       '            <div class="ui right floated primary button">\n' +
       '              Buy tickets\n' +
-      '              <i class="right chevron icon"/>\n' +
+      '              <i class="right chevron icon"></i>\n' +
       '            </div>\n' +
       '          </div>\n' +
       '        </div>\n' +

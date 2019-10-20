@@ -50,7 +50,7 @@
           <th/>
           <th colspan="4">
             <div class="ui right floated small primary labeled icon button">
-              <i class="user icon"/> Add User
+              <i class="user icon"></i> Add User
             </div>
             <div class="ui small button">
               Approve
@@ -125,7 +125,7 @@ export default {
       '          <th/>\n' +
       '          <th colspan="4">\n' +
       '            <div class="ui right floated small primary labeled icon button">\n' +
-      '              <i class="user icon"/> Add User\n' +
+      '              <i class="user icon"></i> Add User\n' +
       '            </div>\n' +
       '            <div class="ui small button">\n' +
       '              Approve\n' +

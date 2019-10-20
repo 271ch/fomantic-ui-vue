@@ -4,7 +4,7 @@
       <input type="text" placeholder="Find domain"/>
       <div class="ui dropdown label">
         <div class="text">.com</div>
-        <i class="dropdown icon"/>
+        <i class="dropdown icon"></i>
         <div class="menu">
           <div class="item">.com</div>
           <div class="item">.net</div>
@@ -29,7 +29,7 @@ export default {
       '      <input type="text" placeholder="Find domain"/>\n' +
       '      <div class="ui dropdown label">\n' +
       '        <div class="text">.com</div>\n' +
-      '        <i class="dropdown icon"/>\n' +
+      '        <i class="dropdown icon"></i>\n' +
       '        <div class="menu">\n' +
       '          <div class="item">.com</div>\n' +
       '          <div class="item">.net</div>\n' +

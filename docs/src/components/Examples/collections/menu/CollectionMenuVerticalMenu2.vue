@@ -8,7 +8,7 @@
         Settings
       </a>
       <div class="ui dropdown item">
-        <i class="dropdown icon"/>
+        <i class="dropdown icon"></i>
         Display Options
         <div class="menu">
           <div class="header">Text Size</div>
@@ -39,7 +39,7 @@ export default {
       '        Settings\n' +
       '      </a>\n' +
       '      <div class="ui dropdown item">\n' +
-      '        <i class="dropdown icon"/>\n' +
+      '        <i class="dropdown icon"></i>\n' +
       '        Display Options\n' +
       '        <div class="menu">\n' +
       '          <div class="header">Text Size</div>\n' +

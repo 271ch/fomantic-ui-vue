@@ -34,7 +34,7 @@
       <div class="ui blue submit button">Submit</div>
     </form>
     <div class="ui bottom attached warning message">
-      <i class="icon help"/>
+      <i class="icon help"></i>
       Already signed up? <a href="#">Login here</a> instead.
     </div>
   </div>
@@ -84,7 +84,7 @@ export default {
       '      <div class="ui blue submit button">Submit</div>\n' +
       '    </form>\n' +
       '    <div class="ui bottom attached warning message">\n' +
-      '      <i class="icon help"/>\n' +
+      '      <i class="icon help"></i>\n' +
       '      Already signed up? <a href="#">Login here</a> instead.\n' +
       '    </div>\n',
   },

@@ -3,7 +3,7 @@
     <div class="ui feed">
       <div class="event">
         <div class="label">
-          <i class="pencil icon"/>
+          <i class="pencil icon"></i>
         </div>
         <div class="content">
           <div class="summary">
@@ -29,7 +29,7 @@ export default {
     model: '    <div class="ui feed">\n' +
       '      <div class="event">\n' +
       '        <div class="label">\n' +
-      '          <i class="pencil icon"/>\n' +
+      '          <i class="pencil icon"></i>\n' +
       '        </div>\n' +
       '        <div class="content">\n' +
       '          <div class="summary">\n' +

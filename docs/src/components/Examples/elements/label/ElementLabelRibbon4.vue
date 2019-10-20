@@ -4,7 +4,7 @@
       <div class="column">
         <div class="ui fluid image">
           <div class="ui black ribbon icon label">
-            <i class="hotel icon"/> 
+            <i class="hotel icon"></i> 
           </div>
           <img src="/images/wireframe/image.png">
         </div>
@@ -12,7 +12,7 @@
       <div class="column">
         <div class="ui fluid image">
           <div class="ui blue right ribbon icon label">
-            <i class="spoon icon"/>
+            <i class="spoon icon"></i>
           </div>
           <img src="/images/wireframe/image.png">
         </div>
@@ -35,7 +35,7 @@ export default {
       '      <div class="column">\n' +
       '        <div class="ui fluid image">\n' +
       '          <div class="ui black ribbon icon label">\n' +
-      '            <i class="hotel icon"/> \n' +
+      '            <i class="hotel icon"></i> \n' +
       '          </div>\n' +
       '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
@@ -43,7 +43,7 @@ export default {
       '      <div class="column">\n' +
       '        <div class="ui fluid image">\n' +
       '          <div class="ui blue right ribbon icon label">\n' +
-      '            <i class="spoon icon"/>\n' +
+      '            <i class="spoon icon"></i>\n' +
       '          </div>\n' +
       '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +

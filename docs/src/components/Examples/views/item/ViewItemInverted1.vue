@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui ignored info message">
-      <i class="info icon"/>
+      <i class="info icon"></i>
       You need to make sure to set a dark background on your own or wrap your items in an <code>inverted segment</code>
     </div>
     <div class="ui inverted segment">
@@ -52,7 +52,7 @@ export default {
     title2: 'Inverted',
     description: 'An item can be inverted to appear on a dark background',
     model: '    <div class="ui ignored info message">\n' +
-      '      <i class="info icon"/>\n' +
+      '      <i class="info icon"></i>\n' +
       '      You need to make sure to set a dark background on your own or wrap your items in an <code>inverted segment</code>\n' +
       '    </div>\n' +
       '    <div class="ui inverted segment">\n' +

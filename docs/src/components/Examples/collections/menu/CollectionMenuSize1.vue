@@ -9,7 +9,7 @@
       </a>
       <div class="right menu">
         <div class="ui dropdown item">
-          Language <i class="dropdown icon"/>
+          Language <i class="dropdown icon"></i>
           <div class="menu">
             <a class="item">English</a>
             <a class="item">Russian</a>
@@ -43,7 +43,7 @@ export default {
       '      </a>\n' +
       '      <div class="right menu">\n' +
       '        <div class="ui dropdown item">\n' +
-      '          Language <i class="dropdown icon"/>\n' +
+      '          Language <i class="dropdown icon"></i>\n' +
       '          <div class="menu">\n' +
       '            <a class="item">English</a>\n' +
       '            <a class="item">Russian</a>\n' +

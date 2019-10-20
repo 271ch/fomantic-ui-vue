@@ -2,7 +2,7 @@
   <div>
     <div class="ui left icon input">
       <input type="text" placeholder="Search users..."/>
-      <i class="users icon"/>
+      <i class="users icon"></i>
     </div>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
     description: 'An input can be formatted with an icon',
     model: '    <div class="ui left icon input">\n' +
       '      <input type="text" placeholder="Search users..."/>\n' +
-      '      <i class="users icon"/>\n' +
+      '      <i class="users icon"></i>\n' +
       '    </div>\n',
   },
 };

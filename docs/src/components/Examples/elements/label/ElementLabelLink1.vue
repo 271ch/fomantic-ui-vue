@@ -1,7 +1,7 @@
 <template>
   <div>
     <a class="ui label">
-      <i class="mail icon"/> 23
+      <i class="mail icon"></i> 23
     </a>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
     title2: 'Link',
     description: 'A label can be a link or contain an item that links',
     model: '    <a class="ui label">\n' +
-      '      <i class="mail icon"/> 23\n' +
+      '      <i class="mail icon"></i> 23\n' +
       '    </a>\n',
   },
 };

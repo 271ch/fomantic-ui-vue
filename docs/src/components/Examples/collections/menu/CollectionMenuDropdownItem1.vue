@@ -6,7 +6,7 @@
     <div class="ui vertical menu">
       <div class="ui dropdown item">
         Categories
-        <i class="dropdown icon"/>
+        <i class="dropdown icon"></i>
         <div class="menu">
           <a class="item">Electronics</a>
           <a class="item">Automotive</a>
@@ -33,7 +33,7 @@ export default {
       '    <div class="ui vertical menu">\n' +
       '      <div class="ui dropdown item">\n' +
       '        Categories\n' +
-      '        <i class="dropdown icon"/>\n' +
+      '        <i class="dropdown icon"></i>\n' +
       '        <div class="menu">\n' +
       '          <a class="item">Electronics</a>\n' +
       '          <a class="item">Automotive</a>\n' +

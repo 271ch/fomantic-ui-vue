@@ -1,31 +1,31 @@
 <template>
   <div>
-    <div class="ui very relaxed items">
-      <div class="item">
-        <div class="ui tiny image">
+    <FuiItems relaxed=very>
+      <FuiItem>
+        <FuiImage tag=div size=tiny>
           <img src="/images/wireframe/image.png">
-        </div>
-        <div class="middle aligned content">
+        </FuiImage>
+        <FuiContent aligned=middle>
           <a class="header">12 Years a Slave</a>
-        </div>
-      </div>
-      <div class="item">
-        <div class="ui tiny image">
+        </FuiContent>
+      </FuiItem>
+      <FuiItem>
+        <FuiImage tag=div size=tiny>
           <img src="/images/wireframe/image.png">
-        </div>
-        <div class="middle aligned content">
+        </FuiImage>
+        <FuiContent aligned=middle>
           <a class="header">My Neighbor Totoro</a>
-        </div>
-      </div>
-      <div class="item">
-        <div class="ui tiny image">
+        </FuiContent>
+      </FuiItem>
+      <FuiItem>
+        <FuiImage tag=div size=tiny>
           <img src="/images/wireframe/image.png">
-        </div>
-        <div class="middle aligned content">
+        </FuiImage>
+        <FuiContent aligned=middle>
           <a class="header">Watchmen</a>
-        </div>
-      </div>
-    </div>
+        </FuiContent>
+      </FuiItem>
+    </FuiItems>
   </div>
 </template>
 
@@ -33,7 +33,7 @@
 export default {
   name: 'ViewItemRelaxed2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'views',
     element: 'item',
     title1: 'Variations',

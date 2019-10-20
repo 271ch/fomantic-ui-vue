@@ -3,7 +3,7 @@
     <div class="ui menu">
       <a class="browse item">
         Browse
-        <i class="dropdown icon"/>
+        <i class="dropdown icon"></i>
       </a>
     </div>
     <div class="ui fluid popup">
@@ -61,7 +61,7 @@ export default {
     model: '    <div class="ui menu">\n' +
       '      <a class="browse item">\n' +
       '        Browse\n' +
-      '        <i class="dropdown icon"/>\n' +
+      '        <i class="dropdown icon"></i>\n' +
       '      </a>\n' +
       '    </div>\n' +
       '    <div class="ui fluid popup">\n' +

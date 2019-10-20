@@ -2,7 +2,7 @@
   <div>
     <div class="ui big icon input">
       <input type="text" placeholder="Search big..."/>
-      <i class="search icon"/>
+      <i class="search icon"></i>
     </div>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
     description: 'An input can vary in size',
     model: '    <div class="ui big icon input">\n' +
       '      <input type="text" placeholder="Search big..."/>\n' +
-      '      <i class="search icon"/>\n' +
+      '      <i class="search icon"></i>\n' +
       '    </div>\n',
   },
 };

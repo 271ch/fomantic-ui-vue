@@ -10,7 +10,7 @@
           <div class="metadata">
             <div class="date">2 days ago</div>
             <div class="rating">
-              <i class="star icon"/>
+              <i class="star icon"></i>
               5 Faves
             </div>
           </div>
@@ -43,7 +43,7 @@ export default {
       '          <div class="metadata">\n' +
       '            <div class="date">2 days ago</div>\n' +
       '            <div class="rating">\n' +
-      '              <i class="star icon"/>\n' +
+      '              <i class="star icon"></i>\n' +
       '              5 Faves\n' +
       '            </div>\n' +
       '          </div>\n' +

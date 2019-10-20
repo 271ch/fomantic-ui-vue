@@ -4,14 +4,14 @@
       <div class="column">
         <div class="ui fluid vertical steps">
           <div class="completed step">
-            <i class="truck icon"/>
+            <i class="truck icon"></i>
             <div class="content">
               <div class="title">Shipping</div>
               <div class="description">Choose your shipping options</div>
             </div>
           </div>
           <div class="active step">
-            <i class="dollar icon"/>
+            <i class="dollar icon"></i>
             <div class="content">
               <div class="title">Billing</div>
               <div class="description">Enter billing information</div>
@@ -40,14 +40,14 @@ export default {
       '      <div class="column">\n' +
       '        <div class="ui fluid vertical steps">\n' +
       '          <div class="completed step">\n' +
-      '            <i class="truck icon"/>\n' +
+      '            <i class="truck icon"></i>\n' +
       '            <div class="content">\n' +
       '              <div class="title">Shipping</div>\n' +
       '              <div class="description">Choose your shipping options</div>\n' +
       '            </div>\n' +
       '          </div>\n' +
       '          <div class="active step">\n' +
-      '            <i class="dollar icon"/>\n' +
+      '            <i class="dollar icon"></i>\n' +
       '            <div class="content">\n' +
       '              <div class="title">Billing</div>\n' +
       '              <div class="description">Enter billing information</div>\n' +

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui ignored info message">
-      <i class="info icon"/>
+      <i class="info icon"></i>
       You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced
     </div>
     <div class="ui card">
@@ -31,7 +31,7 @@ export default {
     title2: 'Text Alignment',
     description: 'Any element inside a card can have its text alignment specified',
     model: '    <div class="ui ignored info message">\n' +
-      '      <i class="info icon"/>\n' +
+      '      <i class="info icon"></i>\n' +
       '      You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
       '    </div>\n' +
       '    <div class="ui card">\n' +

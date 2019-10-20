@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui info message">
-      <i class="close icon"/>
+      <i class="close icon"></i>
       <div class="header">
         Was this what you wanted?
       </div>
@@ -24,7 +24,7 @@ export default {
     title2: 'Info',
     description: 'A message may be formatted to display information.',
     model: '    <div class="ui info message">\n' +
-      '      <i class="close icon"/>\n' +
+      '      <i class="close icon"></i>\n' +
       '      <div class="header">\n' +
       '        Was this what you wanted?\n' +
       '      </div>\n' +

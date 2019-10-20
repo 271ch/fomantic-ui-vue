@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui message">
-      <i class="close icon"/>
+      <i class="close icon"></i>
       <div class="header">
         Welcome back!
       </div>
@@ -34,7 +34,7 @@ export default {
     title2: 'Dismissable Block',
     description: 'A message that the user can choose to hide',
     model: '    <div class="ui message">\n' +
-      '      <i class="close icon"/>\n' +
+      '      <i class="close icon"></i>\n' +
       '      <div class="header">\n' +
       '        Welcome back!\n' +
       '      </div>\n' +

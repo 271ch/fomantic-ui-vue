@@ -2,21 +2,21 @@
   <div>
     <div class="ui relaxed divided list">
       <div class="item">
-        <i class="large github middle aligned icon"/>
+        <i class="large github middle aligned icon"></i>
         <div class="content">
           <a class="header">Semantic-Org/Semantic-UI</a>
           <div class="description">Updated 10 mins ago</div>
         </div>
       </div>
       <div class="item">
-        <i class="large github middle aligned icon"/>
+        <i class="large github middle aligned icon"></i>
         <div class="content">
           <a class="header">Semantic-Org/Semantic-UI-Docs</a>
           <div class="description">Updated 22 mins ago</div>
         </div>
       </div>
       <div class="item">
-        <i class="large github middle aligned icon"/>
+        <i class="large github middle aligned icon"></i>
         <div class="content">
           <a class="header">Semantic-Org/Semantic-UI-Meteor</a>
           <div class="description">Updated 34 mins ago</div>
@@ -38,21 +38,21 @@ export default {
     description: 'A list groups related content',
     model: '    <div class="ui relaxed divided list">\n' +
       '      <div class="item">\n' +
-      '        <i class="large github middle aligned icon"/>\n' +
+      '        <i class="large github middle aligned icon"></i>\n' +
       '        <div class="content">\n' +
       '          <a class="header">Semantic-Org/Semantic-UI</a>\n' +
       '          <div class="description">Updated 10 mins ago</div>\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="item">\n' +
-      '        <i class="large github middle aligned icon"/>\n' +
+      '        <i class="large github middle aligned icon"></i>\n' +
       '        <div class="content">\n' +
       '          <a class="header">Semantic-Org/Semantic-UI-Docs</a>\n' +
       '          <div class="description">Updated 22 mins ago</div>\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="item">\n' +
-      '        <i class="large github middle aligned icon"/>\n' +
+      '        <i class="large github middle aligned icon"></i>\n' +
       '        <div class="content">\n' +
       '          <a class="header">Semantic-Org/Semantic-UI-Meteor</a>\n' +
       '          <div class="description">Updated 34 mins ago</div>\n' +

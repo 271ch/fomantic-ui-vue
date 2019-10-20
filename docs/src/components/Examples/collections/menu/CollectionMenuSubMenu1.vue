@@ -13,18 +13,18 @@
         </div>
       </div>
       <a class="item">
-        <i class="grid layout icon"/> Browse
+        <i class="grid layout icon"></i> Browse
       </a>
       <a class="item">
         Messages
       </a>
       <div class="ui dropdown item">
         More
-        <i class="dropdown icon"/>
+        <i class="dropdown icon"></i>
         <div class="menu">
-          <a class="item"><i class="edit icon"/> Edit Profile</a>
-          <a class="item"><i class="globe icon"/> Choose Language</a>
-          <a class="item"><i class="settings icon"/> Account Settings</a>
+          <a class="item"><i class="edit icon"></i> Edit Profile</a>
+          <a class="item"><i class="globe icon"></i> Choose Language</a>
+          <a class="item"><i class="settings icon"></i> Account Settings</a>
         </div>
       </div>
     </div>
@@ -54,18 +54,18 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '      <a class="item">\n' +
-      '        <i class="grid layout icon"/> Browse\n' +
+      '        <i class="grid layout icon"></i> Browse\n' +
       '      </a>\n' +
       '      <a class="item">\n' +
       '        Messages\n' +
       '      </a>\n' +
       '      <div class="ui dropdown item">\n' +
       '        More\n' +
-      '        <i class="dropdown icon"/>\n' +
+      '        <i class="dropdown icon"></i>\n' +
       '        <div class="menu">\n' +
-      '          <a class="item"><i class="edit icon"/> Edit Profile</a>\n' +
-      '          <a class="item"><i class="globe icon"/> Choose Language</a>\n' +
-      '          <a class="item"><i class="settings icon"/> Account Settings</a>\n' +
+      '          <a class="item"><i class="edit icon"></i> Edit Profile</a>\n' +
+      '          <a class="item"><i class="globe icon"></i> Choose Language</a>\n' +
+      '          <a class="item"><i class="settings icon"></i> Account Settings</a>\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',

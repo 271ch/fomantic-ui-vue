@@ -2,7 +2,7 @@
   <div>
     <div class="ui basic labels">
         <a class="ui label">
-            Fun <i class="icon close"/>
+            Fun <i class="icon close"></i>
         </a>
         <a class="ui label">
             Happy
@@ -33,7 +33,7 @@ export default {
     description: 'Labels can share their style together',
     model: '    <div class="ui basic labels">\n' +
       '        <a class="ui label">\n' +
-      '            Fun <i class="icon close"/>\n' +
+      '            Fun <i class="icon close"></i>\n' +
       '        </a>\n' +
       '        <a class="ui label">\n' +
       '            Happy\n' +

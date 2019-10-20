@@ -7,12 +7,12 @@
       <div class="ui inverted divider"/>
       <div class="ui inverted left icon input">
         <input type="text" placeholder="Search..."/>
-        <i class="search icon"/>
+        <i class="search icon"></i>
       </div>
       <div class="ui inverted divider"/>
       <div class="ui inverted transparent icon input">
         <input type="text" placeholder="Search..."/>
-        <i class="search icon"/>
+        <i class="search icon"></i>
       </div>
     </div>
   </div>
@@ -35,12 +35,12 @@ export default {
       '      <div class="ui inverted divider"/>\n' +
       '      <div class="ui inverted left icon input">\n' +
       '        <input type="text" placeholder="Search..."/>\n' +
-      '        <i class="search icon"/>\n' +
+      '        <i class="search icon"></i>\n' +
       '      </div>\n' +
       '      <div class="ui inverted divider"/>\n' +
       '      <div class="ui inverted transparent icon input">\n' +
       '        <input type="text" placeholder="Search..."/>\n' +
-      '        <i class="search icon"/>\n' +
+      '        <i class="search icon"></i>\n' +
       '      </div>\n' +
       '    </div>\n',
   },

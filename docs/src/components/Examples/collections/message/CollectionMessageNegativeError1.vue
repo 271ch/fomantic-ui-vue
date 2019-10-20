@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui negative message">
-      <i class="close icon"/>
+      <i class="close icon"></i>
       <div class="header">
         We're sorry we can't apply that discount
       </div>
@@ -21,7 +21,7 @@ export default {
     title2: 'Negative / Error',
     description: 'A message may be formatted to display a negative message.',
     model: '    <div class="ui negative message">\n' +
-      '      <i class="close icon"/>\n' +
+      '      <i class="close icon"></i>\n' +
       '      <div class="header">\n' +
       '        We\'re sorry we can\'t apply that discount\n' +
       '      </div>\n' +

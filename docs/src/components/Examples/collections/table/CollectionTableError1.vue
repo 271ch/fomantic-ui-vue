@@ -22,7 +22,7 @@
         <tr>
           <td>Jamie</td>
           <td>Approved</td>
-          <td class="error"><i class="attention icon"/> Classified</td>
+          <td class="error"><i class="attention icon"></i> Classified</td>
         </tr>
         <tr>
           <td>Jill</td>
@@ -66,7 +66,7 @@ export default {
       '        <tr>\n' +
       '          <td>Jamie</td>\n' +
       '          <td>Approved</td>\n' +
-      '          <td class="error"><i class="attention icon"/> Classified</td>\n' +
+      '          <td class="error"><i class="attention icon"></i> Classified</td>\n' +
       '        </tr>\n' +
       '        <tr>\n' +
       '          <td>Jill</td>\n' +

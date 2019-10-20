@@ -2,15 +2,15 @@
   <div>
     <div class="ui compact menu">
       <a class="item">
-        <i class="gamepad icon"/>
+        <i class="gamepad icon"></i>
         Games
       </a>
       <a class="item">
-        <i class="video camera icon"/>
+        <i class="video camera icon"></i>
         Channels
       </a>
       <a class="item">
-        <i class="video play icon"/>
+        <i class="video play icon"></i>
         Videos
       </a>
     </div>
@@ -29,15 +29,15 @@ export default {
     description: 'A menu can take up only the space necessary to fit its content',
     model: '    <div class="ui compact menu">\n' +
       '      <a class="item">\n' +
-      '        <i class="gamepad icon"/>\n' +
+      '        <i class="gamepad icon"></i>\n' +
       '        Games\n' +
       '      </a>\n' +
       '      <a class="item">\n' +
-      '        <i class="video camera icon"/>\n' +
+      '        <i class="video camera icon"></i>\n' +
       '        Channels\n' +
       '      </a>\n' +
       '      <a class="item">\n' +
-      '        <i class="video play icon"/>\n' +
+      '        <i class="video play icon"></i>\n' +
       '        Videos\n' +
       '      </a>\n' +
       '    </div>\n',

@@ -10,7 +10,7 @@
         <label>Date</label>
         <div class="ui calendar">
           <div class="ui input left icon">
-            <i class="calendar icon"/>
+            <i class="calendar icon"></i>
             <input type="text" placeholder="Pick up a date" name="date"/>
           </div>        
         </div>
@@ -39,7 +39,7 @@ export default {
       '        <label>Date</label>\n' +
       '        <div class="ui calendar">\n' +
       '          <div class="ui input left icon">\n' +
-      '            <i class="calendar icon"/>\n' +
+      '            <i class="calendar icon"></i>\n' +
       '            <input type="text" placeholder="Pick up a date" name="date"/>\n' +
       '          </div>        \n' +
       '        </div>\n' +

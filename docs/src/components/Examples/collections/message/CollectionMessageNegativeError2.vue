@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui error message">
-      <i class="close icon"/>
+      <i class="close icon"></i>
       <div class="header">
         There were some errors with your submission
       </div>
@@ -24,7 +24,7 @@ export default {
     title2: 'Negative / Error',
     description: 'A message may be formatted to display a negative message.',
     model: '    <div class="ui error message">\n' +
-      '      <i class="close icon"/>\n' +
+      '      <i class="close icon"></i>\n' +
       '      <div class="header">\n' +
       '        There were some errors with your submission\n' +
       '      </div>\n' +

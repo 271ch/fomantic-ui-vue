@@ -2,7 +2,7 @@
   <div>
     <div class="ui steps">
       <div class="completed step">
-        <i class="payment icon"/>
+        <i class="payment icon"></i>
         <div class="content">
           <div class="title">Billing</div>
           <div class="description">Enter billing information</div>
@@ -24,7 +24,7 @@ export default {
     description: 'A step can show that a user has completed it',
     model: '    <div class="ui steps">\n' +
       '      <div class="completed step">\n' +
-      '        <i class="payment icon"/>\n' +
+      '        <i class="payment icon"></i>\n' +
       '        <div class="content">\n' +
       '          <div class="title">Billing</div>\n' +
       '          <div class="description">Enter billing information</div>\n' +

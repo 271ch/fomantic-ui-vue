@@ -1,22 +1,22 @@
 <template>
   <div>
-    <div class="ui divided items">
-      <div class="item">
-        <div class="image">
+    <FuiItems divided>
+      <FuiItem>
+        <FuiImage tag=div>
           <img src="/images/wireframe/image.png">
-        </div>
-      </div>
-      <div class="item">
-        <div class="image">
+        </FuiImage>
+      </FuiItem>
+      <FuiItem>
+        <FuiImage tag=div>
           <img src="/images/wireframe/image.png">
-        </div>
-      </div>
-      <div class="item">
-        <div class="image">
+        </FuiImage>
+      </FuiItem>
+      <FuiItem>
+        <FuiImage tag=div>
           <img src="/images/wireframe/image.png">
-        </div>
-      </div>
-    </div>
+        </FuiImage>
+      </FuiItem>
+    </FuiItems>
   </div>
 </template>
 
@@ -24,7 +24,7 @@
 export default {
   name: 'ViewItemImage1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'views',
     element: 'item',
     title1: 'Content',

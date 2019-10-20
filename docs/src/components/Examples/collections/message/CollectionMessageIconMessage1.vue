@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui icon message">
-      <i class="inbox icon"/>
+      <i class="inbox icon"></i>
       <div class="content">
         <div class="header">
           Have you heard about our mailing list?
@@ -23,7 +23,7 @@ export default {
     title2: 'Icon Message',
     description: 'A message can contain an icon.',
     model: '    <div class="ui icon message">\n' +
-      '      <i class="inbox icon"/>\n' +
+      '      <i class="inbox icon"></i>\n' +
       '      <div class="content">\n' +
       '        <div class="header">\n' +
       '          Have you heard about our mailing list?\n' +

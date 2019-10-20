@@ -2,7 +2,7 @@
   <div>
     <div class="ui steps">
       <div class="step">
-        <i class="truck icon"/>
+        <i class="truck icon"></i>
         <div class="content">
           <div class="title">Shipping</div>
           <div class="description">Choose your shipping options</div>
@@ -24,7 +24,7 @@ export default {
     description: 'A step can contain an icon',
     model: '    <div class="ui steps">\n' +
       '      <div class="step">\n' +
-      '        <i class="truck icon"/>\n' +
+      '        <i class="truck icon"></i>\n' +
       '        <div class="content">\n' +
       '          <div class="title">Shipping</div>\n' +
       '          <div class="description">Choose your shipping options</div>\n' +

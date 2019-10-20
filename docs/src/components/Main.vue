@@ -17,6 +17,14 @@
     <router-link to="/step">Step</router-link>,
     <router-link to="/text">Text</router-link>,
     <br /><br />
+    <router-link to="/advertisement">Advertisement</router-link>,
+    <router-link to="/card">Card</router-link>,
+    <router-link to="/comment">Comment</router-link>,
+    <router-link to="/feed">Feed</router-link>,
+    <router-link to="/item">Item</router-link>,
+    <router-link to="/statistic">Statistic</router-link>,
+    <br /><br />
+
     <router-view></router-view>
   </div>
 </template>
@@ -39,6 +47,13 @@ import PageSegment from './Pages/PageSegment'
 import PageStep from './Pages/PageStep'
 import PageText from './Pages/PageText'
 
+import PageAdvertisement from './Pages/PageAdvertisement'
+import PageCard from './Pages/PageCard'
+import PageComment from './Pages/PageComment'
+import PageFeed from './Pages/PageFeed'
+import PageItem from './Pages/PageItem'
+import PageStatistic from './Pages/PageStatistic'
+
 import VueRouter from 'vue-router'
 
 const routes = [
@@ -58,6 +73,13 @@ const routes = [
   { path: '/segment', component: PageSegment },
   { path: '/step', component: PageStep },
   { path: '/text', component: PageText },
+
+  { path: '/advertisement', component: PageAdvertisement },
+  { path: '/card', component: PageCard },
+  { path: '/comment', component: PageComment },
+  { path: '/feed', component: PageFeed },
+  { path: '/item', component: PageItem },
+  { path: '/statistic', component: PageStatistic },
 ];
 const router = new VueRouter({
   routes,

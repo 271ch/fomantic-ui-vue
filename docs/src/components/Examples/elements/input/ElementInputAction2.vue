@@ -2,7 +2,7 @@
   <div>
     <div class="ui left action input">
       <button class="ui teal labeled icon button">
-        <i class="cart icon"/>
+        <i class="cart icon"></i>
         Checkout
       </button>
       <input type="text" value="$52.03"/>
@@ -22,7 +22,7 @@ export default {
     description: 'An input can be formatted to alert the user to an action they may perform',
     model: '    <div class="ui left action input">\n' +
       '      <button class="ui teal labeled icon button">\n' +
-      '        <i class="cart icon"/>\n' +
+      '        <i class="cart icon"></i>\n' +
       '        Checkout\n' +
       '      </button>\n' +
       '      <input type="text" value="$52.03"/>\n' +

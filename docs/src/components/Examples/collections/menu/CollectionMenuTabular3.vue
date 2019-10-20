@@ -15,7 +15,7 @@
       </a>
       <div class="right menu">
         <a class="item">
-          <i class="add icon"/> New Tab
+          <i class="add icon"></i> New Tab
         </a>
       </div>
     </div>
@@ -47,7 +47,7 @@ export default {
       '      </a>\n' +
       '      <div class="right menu">\n' +
       '        <a class="item">\n' +
-      '          <i class="add icon"/> New Tab\n' +
+      '          <i class="add icon"></i> New Tab\n' +
       '        </a>\n' +
       '      </div>\n' +
       '    </div>\n',

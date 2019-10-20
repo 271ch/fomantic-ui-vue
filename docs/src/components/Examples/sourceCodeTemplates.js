@@ -46,11 +46,11 @@ s.ElementImageSize1 =
   '  <FuiImage src="/images/wireframe/image.png" size=huge></FuiImage>\n' +
   '  <FuiImage src="/images/wireframe/image.png" size=massive></FuiImage>' 
 s.ElementImageImage3 = 
-  '<div class="ui small image">\n' +
+  '<FuiImage tag=div size=small>\n' +
   '  <svg width="150" height="150">\n' +
   '    <image xlink:href="/images/wireframe/image.png" x="0" y="0" width="100%" height="100%"/>\n' +
   '  </svg>\n' +
-  '</div>' 
+  '</FuiImage>' 
 s.ElementImageDisabled1 = 
   '<FuiImage src="/images/wireframe/image.png" disabled size=medium></FuiImage>' 
 s.ElementImageCircular1 = 
@@ -65,9 +65,9 @@ s.ElementImageAvatar1 =
   '<FuiImage src="/images/wireframe/square-image.png" avatar></FuiImage>\n' +
   '<span>Username</span>' 
 s.ElementImageImageLink1 = 
-  '<a href="http://google.com" class="ui medium image">\n' +
+  '<FuiImage tag=a size=medium href="http://google.com">\n' +
   '  <img src="/images/wireframe/image-text.png">\n' +
-  '</a>' 
+  '</FuiImage>' 
 s.ElementImageBordered1 = 
   '<FuiImage src="/images/wireframe/white-image.png" size=medium bordered></FuiImage>' 
 s.ElementImageSize1A = 
@@ -86,9 +86,9 @@ s.ElementImageCentered1 =
   '  <p>Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.</p>\n' +
   '</FuiSegment>' 
 s.ElementImageImage2 = 
-  '<div class="ui small image">\n' +
+  '<FuiImage tag=div size=small>\n' +
   '  <img src="/images/wireframe/image.png">\n' +
-  '</div>' 
+  '</FuiImage>' 
 s.ElementPlaceholderImage2 = 
   '<div class="ui ignored info message">\n' +
   '  Using <code>square</code> (1:1) or <code>rectangular</code> (4:3) will embed an aspect ratio into the image loader so that they modify size correctly with responsive styles.\n' +
@@ -330,14 +330,14 @@ s.ElementSegmentPlaceholderSegment3 =
   '    <div class="middle aligned row">\n' +
   '      <div class="column">\n' +
   '        <div class="ui icon header">\n' +
-  '          <i class="search icon"/>\n' +
+  '          <i class="search icon"></i>\n' +
   '          Find Country\n' +
   '        </div>\n' +
   '        <div class="field">\n' +
   '          <div class="ui search">\n' +
   '            <div class="ui icon input">\n' +
   '              <input class="prompt" type="text" placeholder="Search countries..."/>\n' +
-  '              <i class="search icon"/>\n' +
+  '              <i class="search icon"></i>\n' +
   '            </div>\n' +
   '            <div class="results"/>\n' +
   '          </div>\n' +
@@ -345,7 +345,7 @@ s.ElementSegmentPlaceholderSegment3 =
   '      </div>\n' +
   '      <div class="column">\n' +
   '        <div class="ui icon header">\n' +
-  '          <i class="world icon"/>\n' +
+  '          <i class="world icon"></i>\n' +
   '          Add New Country\n' +
   '        </div>\n' +
   '        <div class="ui primary button">\n' +
@@ -476,7 +476,7 @@ s.ElementSegmentHorizontalSegments1 =
 s.ElementSegmentPlaceholderSegment1 = 
   '<div class="ui placeholder segment">\n' +
   '  <div class="ui icon header">\n' +
-  '    <i class="pdf file outline icon"/>\n' +
+  '    <i class="pdf file outline icon"></i>\n' +
   '    No documents are listed for this customer.\n' +
   '  </div>\n' +
   '  <div class="ui primary button">Add Document</div>\n' +
@@ -575,7 +575,7 @@ s.ElementSegmentPlaceholderSegment2 =
   '</div>\n' +
   '<div class="ui placeholder segment">\n' +
   '  <div class="ui icon header">\n' +
-  '    <i class="search icon"/>\n' +
+  '    <i class="search icon"></i>\n' +
   '    We don\'t have any documents matching your query\n' +
   '  </div>\n' +
   '  <div class="inline">\n' +
@@ -648,7 +648,7 @@ s.ElementSegmentAttached2 =
   '  <p>Humans don\'t think of lions as being like cats, but they are.</p>\n' +
   '</div>\n' +
   '<div class="ui bottom attached warning message">\n' +
-  '  <i class="warning icon"/>\n' +
+  '  <i class="warning icon"></i>\n' +
   '  You\'ve reached the end of this content segment!\n' +
   '</div>' 
 s.ElementSegmentStacked2 = 
@@ -799,21 +799,21 @@ s.ElementListImage1 =
 s.ElementListList3 = 
   '<div class="ui relaxed divided list">\n' +
   '  <div class="item">\n' +
-  '    <i class="large github middle aligned icon"/>\n' +
+  '    <i class="large github middle aligned icon"></i>\n' +
   '    <div class="content">\n' +
   '      <a class="header">Semantic-Org/Semantic-UI</a>\n' +
   '      <div class="description">Updated 10 mins ago</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <i class="large github middle aligned icon"/>\n' +
+  '    <i class="large github middle aligned icon"></i>\n' +
   '    <div class="content">\n' +
   '      <a class="header">Semantic-Org/Semantic-UI-Docs</a>\n' +
   '      <div class="description">Updated 22 mins ago</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <i class="large github middle aligned icon"/>\n' +
+  '    <i class="large github middle aligned icon"></i>\n' +
   '    <div class="content">\n' +
   '      <a class="header">Semantic-Org/Semantic-UI-Meteor</a>\n' +
   '      <div class="description">Updated 34 mins ago</div>\n' +
@@ -905,25 +905,25 @@ s.ElementListSize1 =
 s.ElementListList2 = 
   '<div class="ui list">\n' +
   '  <div class="item">\n' +
-  '    <i class="users icon"/>\n' +
+  '    <i class="users icon"></i>\n' +
   '    <div class="content">\n' +
   '      Semantic UI\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <i class="marker icon"/>\n' +
+  '    <i class="marker icon"></i>\n' +
   '    <div class="content">\n' +
   '      New York, NY\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <i class="mail icon"/>\n' +
+  '    <i class="mail icon"></i>\n' +
   '    <div class="content">\n' +
   '      <a href="mailto:jack@semantic-ui.com">jack@semantic-ui.com</a>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <i class="linkify icon"/>\n' +
+  '    <i class="linkify icon"></i>\n' +
   '    <div class="content">\n' +
   '      <a href="http://www.semantic-ui.com">semantic-ui.com</a>\n' +
   '    </div>\n' +
@@ -1026,28 +1026,28 @@ s.ElementListSize3 =
 s.ElementListDescription1 = 
   '<div class="ui list">\n' +
   '  <div class="item">\n' +
-  '    <i class="map marker icon"/>\n' +
+  '    <i class="map marker icon"></i>\n' +
   '    <div class="content">\n' +
   '      <a class="header">Krolewskie Jadlo</a>\n' +
   '      <div class="description">An excellent polish restaurant, quick delivery and hearty, filling meals.</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <i class="map marker icon"/>\n' +
+  '    <i class="map marker icon"></i>\n' +
   '    <div class="content">\n' +
   '      <a class="header">Xian Famous Foods</a>\n' +
   '      <div class="description">A taste of Shaanxi\'s delicious culinary traditions, with delights like spicy cold noodles and lamb burgers.</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <i class="map marker icon"/>\n' +
+  '    <i class="map marker icon"></i>\n' +
   '    <div class="content">\n' +
   '      <a class="header">Sapporo Haru</a>\n' +
   '      <div class="description">Greenpoint\'s best choice for quick and delicious sushi.</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <i class="map marker icon"/>\n' +
+  '    <i class="map marker icon"></i>\n' +
   '    <div class="content">\n' +
   '      <a class="header">Enid\'s</a>\n' +
   '      <div class="description">At night a bar, during the day a delicious brunch spot.</div>\n' +
@@ -1237,33 +1237,33 @@ s.ElementListHorizontal3 =
 s.ElementListList4 = 
   '<div class="ui list">\n' +
   '  <div class="item">\n' +
-  '    <i class="folder icon"/>\n' +
+  '    <i class="folder icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="header">src</div>\n' +
   '      <div class="description">Source files for project</div>\n' +
   '      <div class="list">\n' +
   '        <div class="item">\n' +
-  '          <i class="folder icon"/>\n' +
+  '          <i class="folder icon"></i>\n' +
   '          <div class="content">\n' +
   '            <div class="header">site</div>\n' +
   '            <div class="description">Your site\'s theme</div>\n' +
   '          </div>\n' +
   '        </div>\n' +
   '        <div class="item">\n' +
-  '          <i class="folder icon"/>\n' +
+  '          <i class="folder icon"></i>\n' +
   '          <div class="content">\n' +
   '            <div class="header">themes</div>\n' +
   '            <div class="description">Packaged theme files</div>\n' +
   '            <div class="list">\n' +
   '              <div class="item">\n' +
-  '                <i class="folder icon"/>\n' +
+  '                <i class="folder icon"></i>\n' +
   '                <div class="content">\n' +
   '                  <div class="header">default</div>\n' +
   '                  <div class="description">Default packaged theme</div>\n' +
   '                </div>\n' +
   '              </div>\n' +
   '              <div class="item">\n' +
-  '                <i class="folder icon"/>\n' +
+  '                <i class="folder icon"></i>\n' +
   '                <div class="content">\n' +
   '                  <div class="header">my_theme</div>\n' +
   '                  <div class="description">Packaged themes are also available in this folder</div>\n' +
@@ -1273,7 +1273,7 @@ s.ElementListList4 =
   '          </div>\n' +
   '        </div>\n' +
   '        <div class="item">\n' +
-  '          <i class="file icon"/>\n' +
+  '          <i class="file icon"></i>\n' +
   '          <div class="content">\n' +
   '            <div class="header">theme.config</div>\n' +
   '            <div class="description">Config file for setting packaged themes</div>\n' +
@@ -1283,13 +1283,13 @@ s.ElementListList4 =
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <i class="folder icon"/>\n' +
+  '    <i class="folder icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="header">dist</div>\n' +
   '      <div class="description">Compiled CSS and JS files</div>\n' +
   '      <div class="list">\n' +
   '        <div class="item">\n' +
-  '          <i class="folder icon"/>\n' +
+  '          <i class="folder icon"></i>\n' +
   '          <div class="content">\n' +
   '            <div class="header">components</div>\n' +
   '            <div class="description">Individual component CSS and JS</div>\n' +
@@ -1299,7 +1299,7 @@ s.ElementListList4 =
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <i class="file icon"/>\n' +
+  '    <i class="file icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="header">semantic.json</div>\n' +
   '      <div class="description">Contains build settings for gulp</div>\n' +
@@ -1608,21 +1608,21 @@ s.ElementListFloated1 =
 s.ElementListIcon1 = 
   '<div class="ui list">\n' +
   '  <a class="item">\n' +
-  '    <i class="help icon"/>\n' +
+  '    <i class="help icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="header">Floated Icon</div>\n' +
   '      <div class="description">This text will always have a left margin to make sure it sits alongside your icon</div>\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="right triangle icon"/>\n' +
+  '    <i class="right triangle icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="header">Icon Alignment</div>\n' +
   '      <div class="description">Floated icons are by default top aligned. To have an icon top aligned try this example.</div>\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <div class="item">\n' +
-  '    <i class="help icon"/>\n' +
+  '    <i class="help icon"></i>\n' +
   '    Inline Text\n' +
   '  </div>\n' +
   '</div>' 
@@ -1635,13 +1635,13 @@ s.ElementListLink1A =
 s.ElementStepEvenlyDivided2 = 
   '<div class="ui two steps">\n' +
   '  <div class="active step">\n' +
-  '    <i class="payment icon"/>\n' +
+  '    <i class="payment icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="disabled step">\n' +
-  '    <i class="info icon"/>\n' +
+  '    <i class="info icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Confirm Order</div>\n' +
   '    </div>\n' +
@@ -1650,7 +1650,7 @@ s.ElementStepEvenlyDivided2 =
 s.ElementStepActive1 = 
   '<div class="ui steps">\n' +
   '  <div class="active step">\n' +
-  '    <i class="payment icon"/>\n' +
+  '    <i class="payment icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '      <div class="description">Enter billing information</div>\n' +
@@ -1660,7 +1660,7 @@ s.ElementStepActive1 =
 s.ElementStepIcon1 = 
   '<div class="ui steps">\n' +
   '  <div class="step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '      <div class="description">Choose your shipping options</div>\n' +
@@ -1706,21 +1706,21 @@ s.ElementStepDisabled1 =
 s.ElementStepUnstackable1 = 
   '<div class="ui unstackable steps">\n' +
   '  <div class="step">\n' +
-  '    <i class="plane icon"/>\n' +
+  '    <i class="plane icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '      <div class="description">Choose your shipping options</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="active step">\n' +
-  '    <i class="dollar icon"/>\n' +
+  '    <i class="dollar icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '      <div class="description">Enter billing information</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="disabled step">\n' +
-  '    <i class="info circle icon"/>\n' +
+  '    <i class="info circle icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Confirm Order</div>\n' +
   '      <div class="description">Verify order details</div>\n' +
@@ -1730,13 +1730,13 @@ s.ElementStepUnstackable1 =
 s.ElementStepSize5 = 
   '<div class="ui big steps">\n' +
   '  <div class="step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="active step">\n' +
-  '    <i class="payment icon"/>\n' +
+  '    <i class="payment icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '    </div>\n' +
@@ -1745,19 +1745,19 @@ s.ElementStepSize5 =
 s.ElementStepEvenlyDivided1 = 
   '<div class="ui three steps">\n' +
   '  <div class="step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="active step">\n' +
-  '    <i class="payment icon"/>\n' +
+  '    <i class="payment icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="disabled step">\n' +
-  '    <i class="info icon"/>\n' +
+  '    <i class="info icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Confirm Order</div>\n' +
   '    </div>\n' +
@@ -1766,7 +1766,7 @@ s.ElementStepEvenlyDivided1 =
 s.ElementStepLink2 = 
   '<div class="ui steps">\n' +
   '  <div class="link step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '      <div class="description">Choose your shipping options</div>\n' +
@@ -1781,7 +1781,7 @@ s.ElementStepLink2 =
   '</div>' 
 s.ElementStepSteps1 = 
   '<div class="ui ignored positive icon message">\n' +
-  '  <i class="mobile icon"/>\n' +
+  '  <i class="mobile icon"></i>\n' +
   '  <div class="content">\n' +
   '    <h3 class="header">Responsive Element</h3>\n' +
   '    <p>Steps will automatically stack on mobile. To make steps automatically stack for tablet use the <code>tablet stackable</code> variation.</p>\n' +
@@ -1789,21 +1789,21 @@ s.ElementStepSteps1 =
   '</div>\n' +
   '<div class="ui steps">\n' +
   '  <div class="step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '      <div class="description">Choose your shipping options</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="active step">\n' +
-  '    <i class="payment icon"/>\n' +
+  '    <i class="payment icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '      <div class="description">Enter billing information</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="disabled step">\n' +
-  '    <i class="info icon"/>\n' +
+  '    <i class="info icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Confirm Order</div>\n' +
   '    </div>\n' +
@@ -1812,13 +1812,13 @@ s.ElementStepSteps1 =
 s.ElementStepSize7 = 
   '<div class="ui massive steps">\n' +
   '  <div class="step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="active step">\n' +
-  '    <i class="payment icon"/>\n' +
+  '    <i class="payment icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '    </div>\n' +
@@ -1833,21 +1833,21 @@ s.ElementStepStep1 =
 s.ElementStepSize2 = 
   '<div class="ui tiny steps">\n' +
   '  <div class="step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '      <div class="description">Choose your shipping options</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="active step">\n' +
-  '    <i class="payment icon"/>\n' +
+  '    <i class="payment icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '      <div class="description">Enter billing information</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="disabled step">\n' +
-  '    <i class="info icon"/>\n' +
+  '    <i class="info icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Confirm Order</div>\n' +
   '      <div class="description">Verify order details</div>\n' +
@@ -1857,21 +1857,21 @@ s.ElementStepSize2 =
 s.ElementStepSize1 = 
   '<div class="ui mini steps">\n' +
   '  <div class="step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '      <div class="description">Choose your shipping options</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="active step">\n' +
-  '    <i class="payment icon"/>\n' +
+  '    <i class="payment icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '      <div class="description">Enter billing information</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="disabled step">\n' +
-  '    <i class="info icon"/>\n' +
+  '    <i class="info icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Confirm Order</div>\n' +
   '      <div class="description">Verify order details</div>\n' +
@@ -1883,14 +1883,14 @@ s.ElementStepFluid1 =
   '  <div class="column">\n' +
   '    <div class="ui fluid vertical steps">\n' +
   '      <div class="completed step">\n' +
-  '        <i class="truck icon"/>\n' +
+  '        <i class="truck icon"></i>\n' +
   '        <div class="content">\n' +
   '          <div class="title">Shipping</div>\n' +
   '          <div class="description">Choose your shipping options</div>\n' +
   '        </div>\n' +
   '      </div>\n' +
   '      <div class="active step">\n' +
-  '        <i class="dollar icon"/>\n' +
+  '        <i class="dollar icon"></i>\n' +
   '        <div class="content">\n' +
   '          <div class="title">Billing</div>\n' +
   '          <div class="description">Enter billing information</div>\n' +
@@ -1928,21 +1928,21 @@ s.ElementStepInverted2 =
 s.ElementStepAttached1 = 
   '<div class="ui three top attached steps">\n' +
   '  <div class="step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '      <div class="description">Choose your shipping options</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="active step">\n' +
-  '    <i class="payment icon"/>\n' +
+  '    <i class="payment icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '      <div class="description">Enter billing information</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="disabled step">\n' +
-  '    <i class="info icon"/>\n' +
+  '    <i class="info icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Confirm Order</div>\n' +
   '      <div class="description">Verify order details</div>\n' +
@@ -1954,21 +1954,21 @@ s.ElementStepAttached1 =
   '</div>\n' +
   '<div class="ui three bottom attached steps">\n' +
   '  <div class="step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '      <div class="description">Choose your shipping options</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="active step">\n' +
-  '    <i class="payment icon"/>\n' +
+  '    <i class="payment icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '      <div class="description">Enter billing information</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="disabled step">\n' +
-  '    <i class="info icon"/>\n' +
+  '    <i class="info icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Confirm Order</div>\n' +
   '      <div class="description">Verify order details</div>\n' +
@@ -1978,13 +1978,13 @@ s.ElementStepAttached1 =
 s.ElementStepSize4 = 
   '<div class="ui large steps">\n' +
   '  <div class="step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="active step">\n' +
-  '    <i class="payment icon"/>\n' +
+  '    <i class="payment icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '    </div>\n' +
@@ -1993,21 +1993,21 @@ s.ElementStepSize4 =
 s.ElementStepStackable1 = 
   '<div class="ui tablet stackable steps">\n' +
   '  <div class="step">\n' +
-  '    <i class="plane icon"/>\n' +
+  '    <i class="plane icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '      <div class="description">Choose your shipping options</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="active step">\n' +
-  '    <i class="dollar icon"/>\n' +
+  '    <i class="dollar icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '      <div class="description">Enter billing information</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="disabled step">\n' +
-  '    <i class="info circle icon"/>\n' +
+  '    <i class="info circle icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Confirm Order</div>\n' +
   '      <div class="description">Verify order details</div>\n' +
@@ -2018,21 +2018,21 @@ s.ElementStepInverted3 =
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted vertical steps">\n' +
   '    <div class="completed step">\n' +
-  '      <i class="truck icon"/>\n' +
+  '      <i class="truck icon"></i>\n' +
   '      <div class="content">\n' +
   '        <div class="title">Shipping</div>\n' +
   '        <div class="description">Choose your shipping options</div>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="completed step">\n' +
-  '      <i class="credit card icon"/>\n' +
+  '      <i class="credit card icon"></i>\n' +
   '      <div class="content">\n' +
   '        <div class="title">Billing</div>\n' +
   '        <div class="description">Enter billing information</div>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="active step">\n' +
-  '      <i class="info icon"/>\n' +
+  '      <i class="info icon"></i>\n' +
   '      <div class="content">\n' +
   '        <div class="title">Confirm Order</div>\n' +
   '        <div class="description">Verify order details</div>\n' +
@@ -2043,7 +2043,7 @@ s.ElementStepInverted3 =
 s.ElementStepLink1 = 
   '<div class="ui steps">\n' +
   '  <a class="active step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '      <div class="description">Choose your shipping options</div>\n' +
@@ -2060,21 +2060,21 @@ s.ElementStepInverted1 =
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted steps">\n' +
   '    <div class="step">\n' +
-  '      <i class="truck icon"/>\n' +
+  '      <i class="truck icon"></i>\n' +
   '      <div class="content">\n' +
   '        <div class="title">Shipping</div>\n' +
   '        <div class="description">Choose your shipping options</div>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="active step">\n' +
-  '      <i class="payment icon"/>\n' +
+  '      <i class="payment icon"></i>\n' +
   '      <div class="content">\n' +
   '        <div class="title">Billing</div>\n' +
   '        <div class="description">Enter billing information</div>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="disabled step">\n' +
-  '      <i class="info icon"/>\n' +
+  '      <i class="info icon"></i>\n' +
   '      <div class="content">\n' +
   '        <div class="title">Confirm Order</div>\n' +
   '      </div>\n' +
@@ -2084,13 +2084,13 @@ s.ElementStepInverted1 =
 s.ElementStepSize6 = 
   '<div class="ui huge steps">\n' +
   '  <div class="step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="active step">\n' +
-  '    <i class="payment icon"/>\n' +
+  '    <i class="payment icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '    </div>\n' +
@@ -2106,21 +2106,21 @@ s.ElementStepDescription1 =
 s.ElementStepSize3 = 
   '<div class="ui small steps">\n' +
   '  <div class="step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '      <div class="description">Choose your shipping options</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="active step">\n' +
-  '    <i class="payment icon"/>\n' +
+  '    <i class="payment icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '      <div class="description">Enter billing information</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="disabled step">\n' +
-  '    <i class="info icon"/>\n' +
+  '    <i class="info icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Confirm Order</div>\n' +
   '      <div class="description">Verify order details</div>\n' +
@@ -2130,7 +2130,7 @@ s.ElementStepSize3 =
 s.ElementStepCompleted1 = 
   '<div class="ui steps">\n' +
   '  <div class="completed step">\n' +
-  '    <i class="payment icon"/>\n' +
+  '    <i class="payment icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '      <div class="description">Enter billing information</div>\n' +
@@ -2140,21 +2140,21 @@ s.ElementStepCompleted1 =
 s.ElementStepVertical1 = 
   '<div class="ui vertical steps">\n' +
   '  <div class="completed step">\n' +
-  '    <i class="truck icon"/>\n' +
+  '    <i class="truck icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Shipping</div>\n' +
   '      <div class="description">Choose your shipping options</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="completed step">\n' +
-  '    <i class="credit card icon"/>\n' +
+  '    <i class="credit card icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Billing</div>\n' +
   '      <div class="description">Enter billing information</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="active step">\n' +
-  '    <i class="info icon"/>\n' +
+  '    <i class="info icon"></i>\n' +
   '    <div class="content">\n' +
   '      <div class="title">Confirm Order</div>\n' +
   '      <div class="description">Verify order details</div>\n' +
@@ -2165,7 +2165,7 @@ s.ElementInputAction6 =
   '<div class="ui action input">\n' +
   '  <input type="text" placeholder="Search..."/>\n' +
   '  <button class="ui icon button">\n' +
-  '    <i class="search icon"/>\n' +
+  '    <i class="search icon"></i>\n' +
   '  </button>\n' +
   '</div>' 
 s.ElementInputLabeled3 = 
@@ -2178,61 +2178,61 @@ s.ElementInputLabeled3 =
 s.ElementInputLoading3 = 
   '<div class="ui icon input purple double loading">\n' +
   '    <input type="text" placeholder="Search..."/>\n' +
-  '    <i class="search icon"/>\n' +
+  '    <i class="search icon"></i>\n' +
   '</div>' 
 s.ElementInputTextarea1 = 
   '<div class="ui form">\n' +
   '    <div class="ui left corner labeled input">\n' +
   '        <div class="ui left corner label">\n' +
-  '            <i class="asterisk icon"/>\n' +
+  '            <i class="asterisk icon"></i>\n' +
   '        </div>\n' +
   '        <textarea> I have a left corner label</textarea>\n' +
   '    </div>\n' +
   '    <div class="ui corner labeled input">\n' +
   '        <div class="ui corner label">\n' +
-  '            <i class="asterisk icon"/>\n' +
+  '            <i class="asterisk icon"></i>\n' +
   '        </div>\n' +
   '        <textarea> I have a right corner label</textarea>\n' +
   '    </div>\n' +
   '    <div class="ui left icon input">\n' +
   '        <textarea> I have an left icon</textarea>\n' +
-  '        <i class="search icon"/>\n' +
+  '        <i class="search icon"></i>\n' +
   '    </div>\n' +
   '    <div class="ui icon input">\n' +
   '        <textarea> I have a right icon</textarea>\n' +
-  '        <i class="search icon"/>\n' +
+  '        <i class="search icon"></i>\n' +
   '    </div>\n' +
   '    <div class="ui left corner labeled left icon input">\n' +
   '        <div class="ui left corner label">\n' +
-  '            <i class="asterisk icon"/>\n' +
+  '            <i class="asterisk icon"></i>\n' +
   '        </div>\n' +
   '        <textarea> I have a left icon and left corner label</textarea>\n' +
-  '        <i class="search icon"/>\n' +
+  '        <i class="search icon"></i>\n' +
   '    </div>\n' +
   '    <div class="ui corner labeled icon input">\n' +
   '        <div class="ui  corner label">\n' +
-  '            <i class="asterisk icon"/>\n' +
+  '            <i class="asterisk icon"></i>\n' +
   '        </div>\n' +
   '        <textarea>I have a right icon and right corner label</textarea>\n' +
-  '        <i class="search icon"/>\n' +
+  '        <i class="search icon"></i>\n' +
   '    </div>\n' +
   '</div>' 
 s.ElementInputIcon3 = 
   '<div class="ui icon input">\n' +
   '  <input type="text" placeholder="Search..."/>\n' +
-  '  <i class="circular search link icon"/>\n' +
+  '  <i class="circular search link icon"></i>\n' +
   '</div>' 
 s.ElementInputTransparent3 = 
   '<div class="ui transparent left icon input">\n' +
   '  <input type="text" placeholder="Search..."/>\n' +
-  '  <i class="search icon"/>\n' +
+  '  <i class="search icon"></i>\n' +
   '</div>' 
 s.ElementInputLabeled2 = 
   '<div class="ui right labeled input">\n' +
   '  <input type="text" placeholder="Find domain"/>\n' +
   '  <div class="ui dropdown label">\n' +
   '    <div class="text">.com</div>\n' +
-  '    <i class="dropdown icon"/>\n' +
+  '    <i class="dropdown icon"></i>\n' +
   '    <div class="menu">\n' +
   '      <div class="item">.com</div>\n' +
   '      <div class="item">.net</div>\n' +
@@ -2243,40 +2243,40 @@ s.ElementInputLabeled2 =
 s.ElementInputLoading2 = 
   '<div class="ui icon input loading">\n' +
   '  <input type="text" placeholder="Search..."/>\n' +
-  '  <i class="search icon"/>\n' +
+  '  <i class="search icon"></i>\n' +
   '</div>' 
 s.ElementInputDisabled2 = 
   '<div class="ui disabled icon input">\n' +
-  '  <i class="search icon"/>\n' +
+  '  <i class="search icon"></i>\n' +
   '  <input type="text" placeholder="Search..."/>\n' +
   '</div>' 
 s.ElementInputIcon2 = 
   '<div class="ui left icon input">\n' +
   '  <input type="text" placeholder="Search users..."/>\n' +
-  '  <i class="users icon"/>\n' +
+  '  <i class="users icon"></i>\n' +
   '</div>' 
 s.ElementInputLabeled7 = 
   '<div class="ui corner labeled input">\n' +
   '  <input type="text" placeholder="Search..."/>\n' +
   '  <div class="ui corner label">\n' +
-  '    <i class="asterisk icon"/>\n' +
+  '    <i class="asterisk icon"></i>\n' +
   '  </div>\n' +
   '</div>' 
 s.ElementInputSize6 = 
   '<div class="ui massive icon input">\n' +
   '  <input type="text" placeholder="Search massive..."/>\n' +
-  '  <i class="search icon"/>\n' +
+  '  <i class="search icon"></i>\n' +
   '</div>' 
 s.ElementInputSize1 = 
   '<div class="ui ignored info message">Inputs will automatically size themselves unless you manually declare a width</div>\n' +
   '<div class="ui mini icon input">\n' +
   '  <input type="text" placeholder="Search mini..."/>\n' +
-  '  <i class="search icon"/>\n' +
+  '  <i class="search icon"></i>\n' +
   '</div>' 
 s.ElementInputFluid1 = 
   '<div class="ui fluid icon input">\n' +
   '  <input type="text" placeholder="Search a very wide input..."/>\n' +
-  '  <i class="search icon"/>\n' +
+  '  <i class="search icon"></i>\n' +
   '</div>\n' +
   '<div class="ui ignored divider"/>\n' +
   '<div class="ui fluid action input">\n' +
@@ -2287,13 +2287,13 @@ s.ElementInputLabeled6 =
   '<div class="ui left corner labeled input">\n' +
   '  <input type="text" placeholder="Search..."/>\n' +
   '  <div class="ui left corner label">\n' +
-  '    <i class="asterisk icon"/>\n' +
+  '    <i class="asterisk icon"></i>\n' +
   '  </div>\n' +
   '</div>' 
 s.ElementInputAction2 = 
   '<div class="ui left action input">\n' +
   '  <button class="ui teal labeled icon button">\n' +
-  '    <i class="cart icon"/>\n' +
+  '    <i class="cart icon"></i>\n' +
   '    Checkout\n' +
   '  </button>\n' +
   '  <input type="text" value="$52.03"/>\n' +
@@ -2305,17 +2305,17 @@ s.ElementInputInput1 =
 s.ElementInputSize2 = 
   '<div class="ui small icon input">\n' +
   '  <input type="text" placeholder="Search small..."/>\n' +
-  '  <i class="search icon"/>\n' +
+  '  <i class="search icon"></i>\n' +
   '</div>' 
 s.ElementInputIcon4 = 
   '<div class="ui icon input">\n' +
   '  <input type="text" placeholder="Search..."/>\n' +
-  '  <i class="inverted circular search link icon"/>\n' +
+  '  <i class="inverted circular search link icon"></i>\n' +
   '</div>' 
 s.ElementInputLoading1 = 
   '<div class="ui left icon input loading">\n' +
   '  <input type="text" placeholder="Search..."/>\n' +
-  '  <i class="search icon"/>\n' +
+  '  <i class="search icon"></i>\n' +
   '</div>' 
 s.ElementInputFocus1 = 
   '<div class="ui input focus">\n' +
@@ -2337,21 +2337,21 @@ s.ElementInputInverted1 =
   '  <div class="ui inverted divider"/>\n' +
   '  <div class="ui inverted left icon input">\n' +
   '    <input type="text" placeholder="Search..."/>\n' +
-  '    <i class="search icon"/>\n' +
+  '    <i class="search icon"></i>\n' +
   '  </div>\n' +
   '  <div class="ui inverted divider"/>\n' +
   '  <div class="ui inverted transparent icon input">\n' +
   '    <input type="text" placeholder="Search..."/>\n' +
-  '    <i class="search icon"/>\n' +
+  '    <i class="search icon"></i>\n' +
   '  </div>\n' +
   '</div>' 
 s.ElementInputAction3 = 
   '<div class="ui right action left icon input">\n' +
-  '  <i class="search icon"/>\n' +
+  '  <i class="search icon"></i>\n' +
   '  <input type="text" placeholder="Search"/>\n' +
   '  <div class="ui basic floating dropdown button">\n' +
   '    <div class="text">This Page</div>\n' +
-  '    <i class="dropdown icon"/>\n' +
+  '    <i class="dropdown icon"></i>\n' +
   '    <div class="menu">\n' +
   '      <div class="item">This Organization</div>\n' +
   '      <div class="item">Entire Site</div>\n' +
@@ -2360,7 +2360,7 @@ s.ElementInputAction3 =
   '</div>' 
 s.ElementInputLabeled5 = 
   '<div class="ui right labeled left icon input">\n' +
-  '  <i class="tags icon"/>\n' +
+  '  <i class="tags icon"></i>\n' +
   '  <input type="text" placeholder="Enter tags"/>\n' +
   '  <a class="ui tag label">\n' +
   '    Add Tag\n' +
@@ -2378,7 +2378,7 @@ s.ElementInputTransparent1 =
 s.ElementInputTransparent2 = 
   '<div class="ui transparent icon input">\n' +
   '  <input type="text" placeholder="Search..."/>\n' +
-  '  <i class="search icon"/>\n' +
+  '  <i class="search icon"></i>\n' +
   '</div>' 
 s.ElementInputAction4 = 
   '<div class="ui action input">\n' +
@@ -2401,7 +2401,7 @@ s.ElementInputAction5 =
   '<div class="ui action input">\n' +
   '  <input type="text" value="http://ww.short.url/c0opq"/>\n' +
   '  <button class="ui teal right labeled icon button">\n' +
-  '    <i class="copy icon"/>\n' +
+  '    <i class="copy icon"></i>\n' +
   '    Copy\n' +
   '  </button>\n' +
   '</div>' 
@@ -2412,12 +2412,12 @@ s.ElementInputError1 =
 s.ElementInputSize5 = 
   '<div class="ui huge icon input">\n' +
   '  <input type="text" placeholder="Search huge..."/>\n' +
-  '  <i class="search icon"/>\n' +
+  '  <i class="search icon"></i>\n' +
   '</div>' 
 s.ElementInputSize3 = 
   '<div class="ui large icon input">\n' +
   '  <input type="text" placeholder="Search large..."/>\n' +
-  '  <i class="search icon"/>\n' +
+  '  <i class="search icon"></i>\n' +
   '</div>' 
 s.ElementInputLabeled4 = 
   '<div class="ui right labeled input">\n' +
@@ -2431,17 +2431,17 @@ s.ElementInputIcon1 =
   '</div>\n' +
   '<div class="ui icon input">\n' +
   '  <input type="text" placeholder="Search..."/>\n' +
-  '  <i class="search icon"/>\n' +
+  '  <i class="search icon"></i>\n' +
   '</div>' 
 s.ElementInputLoading4 = 
   '<div class="ui icon input red fast elastic loading">\n' +
   '    <input type="text" placeholder="Search..."/>\n' +
-  '    <i class="search icon"/>\n' +
+  '    <i class="search icon"></i>\n' +
   '</div>' 
 s.ElementInputSize4 = 
   '<div class="ui big icon input">\n' +
   '  <input type="text" placeholder="Search big..."/>\n' +
-  '  <i class="search icon"/>\n' +
+  '  <i class="search icon"></i>\n' +
   '</div>' 
 s.ElementText1 = 
   '<h2 class="ui header">Definition</h2>\n' +
@@ -2685,7 +2685,7 @@ s.ElementLabelCorner1 =
   '  <div class="column">\n' +
   '    <div class="ui fluid image">\n' +
   '      <a class="ui left corner label">\n' +
-  '        <i class="heart icon"/>\n' +
+  '        <i class="heart icon"></i>\n' +
   '      </a>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
@@ -2693,7 +2693,7 @@ s.ElementLabelCorner1 =
   '  <div class="column">\n' +
   '    <div class="ui fluid image">\n' +
   '      <a class="ui red right corner label">\n' +
-  '        <i class="save icon"/>\n' +
+  '        <i class="save icon"></i>\n' +
   '      </a>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
@@ -2752,27 +2752,27 @@ s.ElementLabelIcon4 =
   '  This rule may be simplified in a later minor or major version.\n' +
   '</div>\n' +
   '<div class="ui left icon label">\n' +
-  '  <i class="close icon"/>\n' +
+  '  <i class="close icon"></i>\n' +
   '  Close\n' +
   '</div>\n' +
   '<div class="ui left icon label">\n' +
-  '  <i class="delete icon"/>\n' +
+  '  <i class="delete icon"></i>\n' +
   '  Delete\n' +
   '</div>\n' +
   '<div class="ui label">\n' +
   '  Close\n' +
-  '  <i class="close icon"/>\n' +
+  '  <i class="close icon"></i>\n' +
   '</div>\n' +
   '<div class="ui label">\n' +
   '  Delete\n' +
-  '  <i class="delete icon"/>\n' +
+  '  <i class="delete icon"></i>\n' +
   '</div>' 
 s.ElementLabelRibbon4 = 
   '<div class="ui two column grid">\n' +
   '  <div class="column">\n' +
   '    <div class="ui fluid image">\n' +
   '      <div class="ui black ribbon icon label">\n' +
-  '        <i class="hotel icon"/> \n' +
+  '        <i class="hotel icon"></i> \n' +
   '      </div>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
@@ -2780,7 +2780,7 @@ s.ElementLabelRibbon4 =
   '  <div class="column">\n' +
   '    <div class="ui fluid image">\n' +
   '      <div class="ui blue right ribbon icon label">\n' +
-  '        <i class="spoon icon"/>\n' +
+  '        <i class="spoon icon"></i>\n' +
   '      </div>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
@@ -2843,45 +2843,45 @@ s.ElementLabelAttached1 =
   '  </div>' 
 s.ElementLabelLabel1 = 
   '<div class="ui label">\n' +
-  '  <i class="mail icon"/> 23\n' +
+  '  <i class="mail icon"></i> 23\n' +
   '</div>' 
 s.ElementLabelIcon2 = 
   '<div class="ignored ui info message">Icons can be placed to the right inside a label.</div>\n' +
   '<div class="ui right icon label">\n' +
   '  Mail\n' +
-  '  <i class="mail icon"/>\n' +
+  '  <i class="mail icon"></i>\n' +
   '</div>\n' +
   '<div class="ui right icon label">\n' +
   '  Test Passed\n' +
-  '  <i class="checkmark icon"/>\n' +
+  '  <i class="checkmark icon"></i>\n' +
   '</div>\n' +
   '<div class="ui right icon label">\n' +
   '  Dog\n' +
-  '  <i class="dog icon"/>\n' +
+  '  <i class="dog icon"></i>\n' +
   '</div>\n' +
   '<div class="ui right icon label">\n' +
   '  Cat\n' +
-  '  <i class="cat icon"/>\n' +
+  '  <i class="cat icon"></i>\n' +
   '</div>' 
 s.ElementLabelIcon3 = 
   '<div class="ignored ui info message">Labels can contain individual icons without text.</div>\n' +
   '<div class="ui icon label">\n' +
-  '  <i class="mail icon"/>\n' +
+  '  <i class="mail icon"></i>\n' +
   '</div>\n' +
   '<div class="ui icon label">\n' +
-  '  <i class="dog icon"/>\n' +
+  '  <i class="dog icon"></i>\n' +
   '</div>\n' +
   '<div class="ui icon label">\n' +
-  '  <i class="cat icon"/>\n' +
+  '  <i class="cat icon"></i>\n' +
   '</div>' 
 s.ElementLabelFloatingaligned1 = 
   '<div class="ui compact menu">\n' +
   '  <a class="item">\n' +
-  '    <i class="icon mail"/> Messages from Fomantic-UI-Users\n' +
+  '    <i class="icon mail"></i> Messages from Fomantic-UI-Users\n' +
   '    <div class="left aligned floating ui red label">22 Mails unread</div>\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="icon users"/> Friends of the Fomantic-UI Community\n' +
+  '    <i class="icon users"></i> Friends of the Fomantic-UI Community\n' +
   '    <div class="right aligned floating ui teal label">22 Friends online</div>\n' +
   '  </a>\n' +
   '</div>' 
@@ -2890,7 +2890,7 @@ s.ElementLabelRibbon3 =
   '  <div class="column">\n' +
   '    <div class="ui fluid image">\n' +
   '      <div class="ui black ribbon right icon label">\n' +
-  '        Hotel <i class="hotel icon"/> \n' +
+  '        Hotel <i class="hotel icon"></i> \n' +
   '      </div>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
@@ -2898,7 +2898,7 @@ s.ElementLabelRibbon3 =
   '  <div class="column">\n' +
   '    <div class="ui fluid image">\n' +
   '      <div class="ui blue right ribbon right icon label">\n' +
-  '        Food <i class="spoon icon"/>\n' +
+  '        Food <i class="spoon icon"></i>\n' +
   '      </div>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
@@ -2960,7 +2960,7 @@ s.ElementLabelDetail1 =
   '</div>' 
 s.ElementLabelLink2 = 
   '<div class="ui label">\n' +
-  '  <i class="mail icon"/>\n' +
+  '  <i class="mail icon"></i>\n' +
   '  23\n' +
   '  <a class="detail">View Mail</a>\n' +
   '</div>' 
@@ -3010,22 +3010,22 @@ s.ElementLabelTagGroup1 =
 s.ElementLabelFloatingleft1 = 
   '<div class="ui compact menu">\n' +
   '  <a class="item">\n' +
-  '    <i class="icon mail"/> Messages\n' +
+  '    <i class="icon mail"></i> Messages\n' +
   '    <div class="left floating ui red label">22</div>\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="icon users"/> Friends\n' +
+  '    <i class="icon users"></i> Friends\n' +
   '    <div class="left floating ui teal label">22</div>\n' +
   '  </a>\n' +
   '</div>\n' +
   '<br/><br/>\n' +
   '<div class="ui compact menu">\n' +
   '  <a class="item">\n' +
-  '    <i class="icon mail"/> Messages\n' +
+  '    <i class="icon mail"></i> Messages\n' +
   '    <div class="left floating ui red label">22 Mails</div>\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="icon users"/> Friends\n' +
+  '    <i class="icon users"></i> Friends\n' +
   '    <div class="left floating ui teal label">22 Friends</div>\n' +
   '  </a>\n' +
   '</div>' 
@@ -3034,7 +3034,7 @@ s.ElementLabelRibbon2 =
   '  <div class="column">\n' +
   '    <div class="ui fluid image">\n' +
   '      <div class="ui black ribbon label">\n' +
-  '        <i class="hotel icon"/> Hotel\n' +
+  '        <i class="hotel icon"></i> Hotel\n' +
   '      </div>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
@@ -3042,7 +3042,7 @@ s.ElementLabelRibbon2 =
   '  <div class="column">\n' +
   '    <div class="ui fluid image">\n' +
   '      <div class="ui blue right ribbon label">\n' +
-  '        <i class="spoon icon"/> Food\n' +
+  '        <i class="spoon icon"></i> Food\n' +
   '      </div>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
@@ -3084,22 +3084,22 @@ s.ElementLabelFloating1 =
   '<div class="ui ignored warning message">A floating label must be positioned inside a container with <b>position: relative</b> to display properly.</div>\n' +
   '<div class="ui compact menu">\n' +
   '  <a class="item">\n' +
-  '    <i class="icon mail"/> Messages\n' +
+  '    <i class="icon mail"></i> Messages\n' +
   '    <div class="floating ui red label">22</div>\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="icon users"/> Friends\n' +
+  '    <i class="icon users"></i> Friends\n' +
   '    <div class="floating ui teal label">22</div>\n' +
   '  </a>\n' +
   '</div>\n' +
   '<br/><br/>\n' +
   '<div class="ui compact menu">\n' +
   '  <a class="item">\n' +
-  '    <i class="icon mail"/> Messages\n' +
+  '    <i class="icon mail"></i> Messages\n' +
   '    <div class="floating ui red label">22 Mails</div>\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="icon users"/> Friends\n' +
+  '    <i class="icon users"></i> Friends\n' +
   '    <div class="floating ui teal label">22 Friends</div>\n' +
   '  </a>\n' +
   '</div>\n' +
@@ -3108,22 +3108,22 @@ s.ElementLabelFloating1 =
   '<br/>\n' +
   '<div class="ui compact menu">\n' +
   '  <a class="item">\n' +
-  '    <i class="icon mail"/> Messages\n' +
+  '    <i class="icon mail"></i> Messages\n' +
   '    <div class="bottom floating ui red label">22</div>\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="icon users"/> Friends\n' +
+  '    <i class="icon users"></i> Friends\n' +
   '    <div class="bottom floating ui teal label">22</div>\n' +
   '  </a>\n' +
   '</div>\n' +
   '<br/><br/>\n' +
   '<div class="ui compact menu">\n' +
   '  <a class="item">\n' +
-  '    <i class="icon mail"/> Messages\n' +
+  '    <i class="icon mail"></i> Messages\n' +
   '    <div class="bottom floating ui red label">22 Mails</div>\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="icon users"/> Friends\n' +
+  '    <i class="icon users"></i> Friends\n' +
   '    <div class="bottom floating ui teal label">22 Friends</div>\n' +
   '  </a>\n' +
   '</div>' 
@@ -3138,7 +3138,7 @@ s.ElementLabelImage1A =
   '</a>' 
 s.ElementLabelLink1 = 
   '<a class="ui label">\n' +
-  '  <i class="mail icon"/> 23\n' +
+  '  <i class="mail icon"></i> 23\n' +
   '</a>' 
 s.ElementLabelBasicTagLabels1 = 
   '<a class="ui basic tag label">Standard Tag</a>\n' +
@@ -3161,17 +3161,17 @@ s.ElementLabelImage3 =
   '<div class="ui image label">\n' +
   '  <img src="/images/avatar/small/ade.jpg"/>\n' +
   '  Adrienne\n' +
-  '  <i class="delete icon"/>\n' +
+  '  <i class="delete icon"></i>\n' +
   '</div>\n' +
   '<div class="ui image label">\n' +
   '  <img src="/images/avatar/small/zoe.jpg"/>\n' +
   '  Zoe\n' +
-  '  <i class="delete icon"/>\n' +
+  '  <i class="delete icon"></i>\n' +
   '</div>\n' +
   '<div class="ui image label">\n' +
   '  <img src="/images/avatar/small/nan.jpg"/>\n' +
   '  Nan\n' +
-  '  <i class="delete icon"/>\n' +
+  '  <i class="delete icon"></i>\n' +
   '</div>' 
 s.ElementLabelImage2 = 
   '<a class="ui blue image label">\n' +
@@ -3196,7 +3196,7 @@ s.ElementLabelTag1 =
 s.ElementLabelBasicGroup1 = 
   '<div class="ui basic labels">\n' +
   '    <a class="ui label">\n' +
-  '        Fun <i class="icon close"/>\n' +
+  '        Fun <i class="icon close"></i>\n' +
   '    </a>\n' +
   '    <a class="ui label">\n' +
   '        Happy\n' +
@@ -3215,7 +3215,7 @@ s.ElementLabelBasicGroup1 =
 s.ElementLabelColoredGroup1 = 
   '<div class="ui blue labels">\n' +
   '  <a class="ui label">\n' +
-  '    Fun <i class="icon close"/>\n' +
+  '    Fun <i class="icon close"></i>\n' +
   '  </a>\n' +
   '  <a class="ui label">\n' +
   '    Happy\n' +
@@ -3248,19 +3248,19 @@ s.ElementLabelGroupSize1 =
   '</div>' 
 s.ElementLabelIcon1 = 
   '<div class="ui label">\n' +
-  '  <i class="mail icon"/>\n' +
+  '  <i class="mail icon"></i>\n' +
   '  Mail\n' +
   '</div>\n' +
   '<div class="ui label">\n' +
-  '  <i class="checkmark icon"/>\n' +
+  '  <i class="checkmark icon"></i>\n' +
   '  Test Passed\n' +
   '</div>\n' +
   '<div class="ui label">\n' +
-  '  <i class="dog icon"/>\n' +
+  '  <i class="dog icon"></i>\n' +
   '  Dog\n' +
   '</div>\n' +
   '<div class="ui label">\n' +
-  '  <i class="cat icon"/>\n' +
+  '  <i class="cat icon"></i>\n' +
   '  Cat\n' +
   '</div>' 
 s.ElementLabelRibbon1 = 
@@ -4689,72 +4689,7478 @@ s.ElementRailAttached2 =
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
-s.ElementIcon1 = 
-  'bad template' 
+s.ElementIconScienceFiction1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="galactic republic" size=big data-search-terms="politics, star wars"></FuiIcon>\n' +
+  '    galactic republic\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="galactic senate" size=big data-search-terms="star wars"></FuiIcon>\n' +
+  '    galactic senate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="globe" size=big data-search-terms="all, coordinates, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world"></FuiIcon>\n' +
+  '    globe\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="jedi" size=big data-search-terms="crest, force, sith, skywalker, star wars, yoda"></FuiIcon>\n' +
+  '    jedi\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="jedi order" size=big data-search-terms="star wars"></FuiIcon>\n' +
+  '    jedi order\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="journal whills" size=big data-search-terms="book, force, jedi, sith, star wars, yoda"></FuiIcon>\n' +
+  '    journal whills\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meteor" size=big data-search-terms="armageddon, asteroid, comet, shooting star, space"></FuiIcon>\n' +
+  '    meteor\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="moon" size=big data-search-terms="contrast, crescent, dark, lunar, night"></FuiIcon>\n' +
+  '    moon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="moon outline" size=big data-search-terms="contrast, crescent, dark, lunar, night"></FuiIcon>\n' +
+  '    moon outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="old republic" size=big data-search-terms="politics, star wars"></FuiIcon>\n' +
+  '    old republic\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="robot" size=big data-search-terms="android, automate, computer, cyborg"></FuiIcon>\n' +
+  '    robot\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rocket" size=big data-search-terms="aircraft, app, jet, launch, nasa, space"></FuiIcon>\n' +
+  '    rocket\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="satellite" size=big data-search-terms="communications, hardware, orbit, space"></FuiIcon>\n' +
+  '    satellite\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="satellite dish" size=big data-search-terms="SETI, communications, hardware, receiver, saucer, signal"></FuiIcon>\n' +
+  '    satellite dish\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="space shuttle" size=big data-search-terms="astronaut, machine, nasa, rocket, transportation"></FuiIcon>\n' +
+  '    space shuttle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user astronaut" size=big data-search-terms="avatar, clothing, cosmonaut, nasa, space, suit"></FuiIcon>\n' +
+  '    user astronaut\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconHotel1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="baby carriage" size=big data-search-terms="buggy, carrier, infant, push, stroller, transportation, walk, wheels"></FuiIcon>\n' +
+  '    baby carriage\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bath" size=big data-search-terms="clean, shower, tub, wash"></FuiIcon>\n' +
+  '    bath\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bed" size=big data-search-terms="lodging, rest, sleep, travel"></FuiIcon>\n' +
+  '    bed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="briefcase" size=big data-search-terms="bag, business, luggage, office, work"></FuiIcon>\n' +
+  '    briefcase\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="car" size=big data-search-terms="auto, automobile, sedan, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    car\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cocktail" size=big data-search-terms="alcohol, beverage, drink, gin, glass, margarita, martini, vodka"></FuiIcon>\n' +
+  '    cocktail\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="coffee" size=big data-search-terms="beverage, breakfast, cafe, drink, fall, morning, mug, seasonal, tea"></FuiIcon>\n' +
+  '    coffee\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="concierge bell" size=big data-search-terms="attention, hotel, receptionist, service, support"></FuiIcon>\n' +
+  '    concierge bell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice five" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice five\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="door closed" size=big data-search-terms="enter, exit, locked"></FuiIcon>\n' +
+  '    door closed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="door open" size=big data-search-terms="enter, exit, welcome"></FuiIcon>\n' +
+  '    door open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dumbbell" size=big data-search-terms="exercise, gym, strength, weight, weight-lifting"></FuiIcon>\n' +
+  '    dumbbell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glass martini" size=big data-search-terms="alcohol, bar, beverage, drink, liquor"></FuiIcon>\n' +
+  '    glass martini\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glass martini alternate" size=big data-search-terms="alcohol, bar, beverage, drink, liquor"></FuiIcon>\n' +
+  '    glass martini alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hot tub" size=big data-search-terms="bath, jacuzzi, massage, sauna, spa"></FuiIcon>\n' +
+  '    hot tub\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hotel" size=big data-search-terms="building, inn, lodging, motel, resort, travel"></FuiIcon>\n' +
+  '    hotel\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="infinity" size=big data-search-terms="eternity, forever, math"></FuiIcon>\n' +
+  '    infinity\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="key" size=big data-search-terms="lock, password, private, secret, unlock"></FuiIcon>\n' +
+  '    key\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="luggage cart" size=big data-search-terms="bag, baggage, suitcase, travel"></FuiIcon>\n' +
+  '    luggage cart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shower" size=big data-search-terms="bath, clean, faucet, water"></FuiIcon>\n' +
+  '    shower\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shuttle van" size=big data-search-terms="airport, machine, public-transportation, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    shuttle van\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smoking" size=big data-search-terms="cancer, cigarette, nicotine, smoking status, tobacco"></FuiIcon>\n' +
+  '    smoking\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smoking ban" size=big data-search-terms="ban, cancel, no smoking, non-smoking"></FuiIcon>\n' +
+  '    smoking ban\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowflake" size=big data-search-terms="precipitation, rain, winter"></FuiIcon>\n' +
+  '    snowflake\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowflake outline" size=big data-search-terms="precipitation, rain, winter"></FuiIcon>\n' +
+  '    snowflake outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="spa" size=big data-search-terms="flora, massage, mindfulness, plant, wellness"></FuiIcon>\n' +
+  '    spa\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="suitcase" size=big data-search-terms="baggage, luggage, move, suitcase, travel, trip"></FuiIcon>\n' +
+  '    suitcase\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="suitcase rolling" size=big data-search-terms="baggage, luggage, move, suitcase, travel, trip"></FuiIcon>\n' +
+  '    suitcase rolling\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="swimmer" size=big data-search-terms="athlete, head, man, olympics, person, pool, water"></FuiIcon>\n' +
+  '    swimmer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="swimming pool" size=big data-search-terms="ladder, recreation, swim, water"></FuiIcon>\n' +
+  '    swimming pool\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tv" size=big data-search-terms="computer, display, monitor, television"></FuiIcon>\n' +
+  '    tv\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="umbrella beach" size=big data-search-terms="protection, recreation, sand, shade, summer, sun"></FuiIcon>\n' +
+  '    umbrella beach\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="utensils" size=big data-search-terms="cutlery, dining, dinner, eat, food, fork, knife, restaurant"></FuiIcon>\n' +
+  '    utensils\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wheelchair" size=big data-search-terms="accessible, handicap, person"></FuiIcon>\n' +
+  '    wheelchair\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wifi" size=big data-search-terms="connection, hotspot, internet, network, wireless"></FuiIcon>\n' +
+  '    wifi\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconAnimals1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cat" size=big data-search-terms="feline, halloween, holiday, kitten, kitty, meow, pet"></FuiIcon>\n' +
+  '    cat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="crow" size=big data-search-terms="bird, bullfrog, fauna, halloween, holiday, toad"></FuiIcon>\n' +
+  '    crow\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dog" size=big data-search-terms="animal, canine, fauna, mammal, pet, pooch, puppy, woof"></FuiIcon>\n' +
+  '    dog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dove" size=big data-search-terms="bird, fauna, flying, peace, war"></FuiIcon>\n' +
+  '    dove\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dragon" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, fire, lizard, serpent"></FuiIcon>\n' +
+  '    dragon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="feather" size=big data-search-terms="bird, light, plucked, quill, write"></FuiIcon>\n' +
+  '    feather\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="feather alternate" size=big data-search-terms="bird, light, plucked, quill, write"></FuiIcon>\n' +
+  '    feather alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fish" size=big data-search-terms="fauna, gold, seafood, swimming"></FuiIcon>\n' +
+  '    fish\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frog" size=big data-search-terms="amphibian, bullfrog, fauna, hop, kermit, kiss, prince, ribbit, toad, wart"></FuiIcon>\n' +
+  '    frog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hippo" size=big data-search-terms="animal, fauna, hippopotamus, hungry, mammal"></FuiIcon>\n' +
+  '    hippo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="horse" size=big data-search-terms="equus, fauna, mammmal, mare, neigh, pony"></FuiIcon>\n' +
+  '    horse\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="horse head" size=big data-search-terms="equus, fauna, mammmal, mare, neigh, pony"></FuiIcon>\n' +
+  '    horse head\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="kiwi bird" size=big data-search-terms="bird, fauna, new zealand"></FuiIcon>\n' +
+  '    kiwi bird\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="otter" size=big data-search-terms="animal, badger, fauna, fur, mammal, marten"></FuiIcon>\n' +
+  '    otter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paw" size=big data-search-terms="animal, cat, dog, pet, print"></FuiIcon>\n' +
+  '    paw\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="spider" size=big data-search-terms="arachnid, bug, charlotte, crawl, eight, halloween"></FuiIcon>\n' +
+  '    spider\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconSpinners1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="asterisk" size=big data-search-terms="annotation, details, reference, star"></FuiIcon>\n' +
+  '    asterisk\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="atom" size=big data-search-terms="atheism, chemistry, ion, nuclear, science"></FuiIcon>\n' +
+  '    atom\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="certificate" size=big data-search-terms="badge, star, verified"></FuiIcon>\n' +
+  '    certificate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="circle notch" size=big data-search-terms="circle-o-notch, diameter, dot, ellipse, round, spinner"></FuiIcon>\n' +
+  '    circle notch\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cog" size=big data-search-terms="gear, mechanical, settings, sprocket, wheel"></FuiIcon>\n' +
+  '    cog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compact disc" size=big data-search-terms="album, bluray, cd, disc, dvd, media, movie, music, record, video, vinyl"></FuiIcon>\n' +
+  '    compact disc\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compass" size=big data-search-terms="directions, directory, location, menu, navigation, safari, travel"></FuiIcon>\n' +
+  '    compass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compass outline" size=big data-search-terms="directions, directory, location, menu, navigation, safari, travel"></FuiIcon>\n' +
+  '    compass outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="crosshairs" size=big data-search-terms="aim, bullseye, gpd, picker, position"></FuiIcon>\n' +
+  '    crosshairs\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dharmachakra" size=big data-search-terms="buddhism, buddhist, wheel of dharma"></FuiIcon>\n' +
+  '    dharmachakra\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fan" size=big data-search-terms="ac, air conditioning, blade, blower, cool, hot"></FuiIcon>\n' +
+  '    fan\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="haykal" size=big data-search-terms="bahai, bahá\'í, star"></FuiIcon>\n' +
+  '    haykal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="life ring" size=big data-search-terms="coast guard, help, overboard, save, support"></FuiIcon>\n' +
+  '    life ring\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="life ring outline" size=big data-search-terms="coast guard, help, overboard, save, support"></FuiIcon>\n' +
+  '    life ring outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="palette" size=big data-search-terms="acrylic, art, brush, color, fill, paint, pigment, watercolor"></FuiIcon>\n' +
+  '    palette\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ring" size=big data-search-terms="Dungeons & Dragons, Gollum, band, binding, d&d, dnd, engagement, fantasy, gold, jewelry, marriage, precious"></FuiIcon>\n' +
+  '    ring\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="slash" size=big data-search-terms="cancel, close, mute, off, stop, x"></FuiIcon>\n' +
+  '    slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowflake" size=big data-search-terms="precipitation, rain, winter"></FuiIcon>\n' +
+  '    snowflake\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowflake outline" size=big data-search-terms="precipitation, rain, winter"></FuiIcon>\n' +
+  '    snowflake outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="spinner" size=big data-search-terms="circle, loading, progress"></FuiIcon>\n' +
+  '    spinner\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stroopwafel" size=big data-search-terms="caramel, cookie, dessert, sweets, waffle"></FuiIcon>\n' +
+  '    stroopwafel\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sun" size=big data-search-terms="brighten, contrast, day, lighter, sol, solar, star, weather"></FuiIcon>\n' +
+  '    sun\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sun outline" size=big data-search-terms="brighten, contrast, day, lighter, sol, solar, star, weather"></FuiIcon>\n' +
+  '    sun outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sync" size=big data-search-terms="exchange, refresh, reload, rotate, swap"></FuiIcon>\n' +
+  '    sync\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sync alternate" size=big data-search-terms="exchange, refresh, reload, rotate, swap"></FuiIcon>\n' +
+  '    sync alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="yin yang" size=big data-search-terms="daoism, opposites, taoism"></FuiIcon>\n' +
+  '    yin yang\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconObjects1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ambulance" size=big data-search-terms="emergency, emt, er, help, hospital, support, vehicle"></FuiIcon>\n' +
+  '    ambulance\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="anchor" size=big data-search-terms="berth, boat, dock, embed, link, maritime, moor, secure"></FuiIcon>\n' +
+  '    anchor\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="archive" size=big data-search-terms="box, package, save, storage"></FuiIcon>\n' +
+  '    archive\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="award" size=big data-search-terms="honor, praise, prize, recognition, ribbon, trophy"></FuiIcon>\n' +
+  '    award\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="baby carriage" size=big data-search-terms="buggy, carrier, infant, push, stroller, transportation, walk, wheels"></FuiIcon>\n' +
+  '    baby carriage\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale" size=big data-search-terms="balanced, justice, legal, measure, weight"></FuiIcon>\n' +
+  '    balance scale\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale left" size=big data-search-terms="justice, legal, measure, unbalanced, weight"></FuiIcon>\n' +
+  '    balance scale left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale right" size=big data-search-terms="justice, legal, measure, unbalanced, weight"></FuiIcon>\n' +
+  '    balance scale right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bath" size=big data-search-terms="clean, shower, tub, wash"></FuiIcon>\n' +
+  '    bath\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bed" size=big data-search-terms="lodging, rest, sleep, travel"></FuiIcon>\n' +
+  '    bed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="beer" size=big data-search-terms="alcohol, ale, bar, beverage, brewery, drink, lager, liquor, mug, stein"></FuiIcon>\n' +
+  '    beer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell outline" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bicycle" size=big data-search-terms="bike, gears, pedal, transportation, vehicle"></FuiIcon>\n' +
+  '    bicycle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="binoculars" size=big data-search-terms="glasses, magnify, scenic, spyglass, view"></FuiIcon>\n' +
+  '    binoculars\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="birthday cake" size=big data-search-terms="anniversary, bakery, candles, celebration, dessert, frosting, holiday, party, pastry"></FuiIcon>\n' +
+  '    birthday cake\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="blender" size=big data-search-terms="cocktail, milkshake, mixer, puree, smoothie"></FuiIcon>\n' +
+  '    blender\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bomb" size=big data-search-terms="error, explode, fuse, grenade, warning"></FuiIcon>\n' +
+  '    bomb\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="book" size=big data-search-terms="diary, documentation, journal, library, read"></FuiIcon>\n' +
+  '    book\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="book dead" size=big data-search-terms="Dungeons & Dragons, crossbones, d&d, dark arts, death, dnd, documentation, evil, fantasy, halloween, holiday, necronomicon, read, skull, spell"></FuiIcon>\n' +
+  '    book dead\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bookmark" size=big data-search-terms="favorite, marker, read, remember, save"></FuiIcon>\n' +
+  '    bookmark\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bookmark outline" size=big data-search-terms="favorite, marker, read, remember, save"></FuiIcon>\n' +
+  '    bookmark outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="briefcase" size=big data-search-terms="bag, business, luggage, office, work"></FuiIcon>\n' +
+  '    briefcase\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="broadcast tower" size=big data-search-terms="airwaves, antenna, radio, reception, waves"></FuiIcon>\n' +
+  '    broadcast tower\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bug" size=big data-search-terms="beetle, error, insect, report"></FuiIcon>\n' +
+  '    bug\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="building" size=big data-search-terms="apartment, business, city, company, office, work"></FuiIcon>\n' +
+  '    building\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="building outline" size=big data-search-terms="apartment, business, city, company, office, work"></FuiIcon>\n' +
+  '    building outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bullhorn" size=big data-search-terms="announcement, broadcast, louder, megaphone, share"></FuiIcon>\n' +
+  '    bullhorn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bullseye" size=big data-search-terms="archery, goal, objective, target"></FuiIcon>\n' +
+  '    bullseye\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bus" size=big data-search-terms="public transportation, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    bus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calculator" size=big data-search-terms="abacus, addition, arithmetic, counting, math, multiplication, subtraction"></FuiIcon>\n' +
+  '    calculator\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar" size=big data-search-terms="calendar-o, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar alternate" size=big data-search-terms="calendar, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar alternate outline" size=big data-search-terms="calendar, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar outline" size=big data-search-terms="calendar-o, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="camera" size=big data-search-terms="image, lens, photo, picture, record, shutter, video"></FuiIcon>\n' +
+  '    camera\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="camera retro" size=big data-search-terms="image, lens, photo, picture, record, shutter, video"></FuiIcon>\n' +
+  '    camera retro\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="candy cane" size=big data-search-terms="candy, christmas, holiday, mint, peppermint, striped, xmas"></FuiIcon>\n' +
+  '    candy cane\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="car" size=big data-search-terms="auto, automobile, sedan, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    car\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="carrot" size=big data-search-terms="bugs bunny, orange, vegan, vegetable"></FuiIcon>\n' +
+  '    carrot\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="church" size=big data-search-terms="building, cathedral, chapel, community, religion"></FuiIcon>\n' +
+  '    church\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clipboard" size=big data-search-terms="copy, notes, paste, record"></FuiIcon>\n' +
+  '    clipboard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clipboard outline" size=big data-search-terms="copy, notes, paste, record"></FuiIcon>\n' +
+  '    clipboard outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud" size=big data-search-terms="atmosphere, fog, overcast, save, upload, weather"></FuiIcon>\n' +
+  '    cloud\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="coffee" size=big data-search-terms="beverage, breakfast, cafe, drink, fall, morning, mug, seasonal, tea"></FuiIcon>\n' +
+  '    coffee\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cog" size=big data-search-terms="gear, mechanical, settings, sprocket, wheel"></FuiIcon>\n' +
+  '    cog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cogs" size=big data-search-terms="gears, mechanical, settings, sprocket, wheel"></FuiIcon>\n' +
+  '    cogs\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compass" size=big data-search-terms="directions, directory, location, menu, navigation, safari, travel"></FuiIcon>\n' +
+  '    compass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compass outline" size=big data-search-terms="directions, directory, location, menu, navigation, safari, travel"></FuiIcon>\n' +
+  '    compass outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cookie" size=big data-search-terms="baked good, chips, chocolate, eat, snack, sweet, treat"></FuiIcon>\n' +
+  '    cookie\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cookie bite" size=big data-search-terms="baked good, bitten, chips, chocolate, eat, snack, sweet, treat"></FuiIcon>\n' +
+  '    cookie bite\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="copy" size=big data-search-terms="clone, duplicate, file, files-o, paper, paste"></FuiIcon>\n' +
+  '    copy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="copy outline" size=big data-search-terms="clone, duplicate, file, files-o, paper, paste"></FuiIcon>\n' +
+  '    copy outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cube" size=big data-search-terms="3d, block, dice, package, square, tesseract"></FuiIcon>\n' +
+  '    cube\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cubes" size=big data-search-terms="3d, block, dice, package, pyramid, square, stack, tesseract"></FuiIcon>\n' +
+  '    cubes\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cut" size=big data-search-terms="clip, scissors, snip"></FuiIcon>\n' +
+  '    cut\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice d20" size=big data-search-terms="Dungeons & Dragons, chance, d&d, dnd, fantasy, gambling, game, roll"></FuiIcon>\n' +
+  '    dice d20\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice d6" size=big data-search-terms="Dungeons & Dragons, chance, d&d, dnd, fantasy, gambling, game, roll"></FuiIcon>\n' +
+  '    dice d6\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice five" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice five\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice four" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice four\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice one" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice one\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice six" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice six\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice three" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice three\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice two" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice two\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="digital tachograph" size=big data-search-terms="data, distance, speed, tachometer"></FuiIcon>\n' +
+  '    digital tachograph\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="door closed" size=big data-search-terms="enter, exit, locked"></FuiIcon>\n' +
+  '    door closed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="door open" size=big data-search-terms="enter, exit, welcome"></FuiIcon>\n' +
+  '    door open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="drum" size=big data-search-terms="instrument, music, percussion, snare, sound"></FuiIcon>\n' +
+  '    drum\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="drum steelpan" size=big data-search-terms="calypso, instrument, music, percussion, reggae, snare, sound, steel, tropical"></FuiIcon>\n' +
+  '    drum steelpan\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope open" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope open outline" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope open outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope outline" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eraser" size=big data-search-terms="art, delete, remove, rubber"></FuiIcon>\n' +
+  '    eraser\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye" size=big data-search-terms="look, optic, see, seen, show, sight, views, visible"></FuiIcon>\n' +
+  '    eye\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye dropper" size=big data-search-terms="beaker, clone, color, copy, eyedropper, pipette"></FuiIcon>\n' +
+  '    eye dropper\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye outline" size=big data-search-terms="look, optic, see, seen, show, sight, views, visible"></FuiIcon>\n' +
+  '    eye outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fax" size=big data-search-terms="business, communicate, copy, facsimile, send"></FuiIcon>\n' +
+  '    fax\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="feather" size=big data-search-terms="bird, light, plucked, quill, write"></FuiIcon>\n' +
+  '    feather\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="feather alternate" size=big data-search-terms="bird, light, plucked, quill, write"></FuiIcon>\n' +
+  '    feather alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fighter jet" size=big data-search-terms="airplane, fast, fly, goose, maverick, plane, quick, top gun, transportation, travel"></FuiIcon>\n' +
+  '    fighter jet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate outline" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file outline" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file prescription" size=big data-search-terms="document, drugs, medical, medicine, rx"></FuiIcon>\n' +
+  '    file prescription\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="film" size=big data-search-terms="cinema, movie, strip, video"></FuiIcon>\n' +
+  '    film\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fire" size=big data-search-terms="burn, caliente, flame, heat, hot, popular"></FuiIcon>\n' +
+  '    fire\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fire alternate" size=big data-search-terms="burn, caliente, flame, heat, hot, popular"></FuiIcon>\n' +
+  '    fire alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fire extinguisher" size=big data-search-terms="burn, caliente, fire fighter, flame, heat, hot, rescue"></FuiIcon>\n' +
+  '    fire extinguisher\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flag" size=big data-search-terms="country, notice, notification, notify, pole, report, symbol"></FuiIcon>\n' +
+  '    flag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flag checkered" size=big data-search-terms="notice, notification, notify, pole, racing, report, symbol"></FuiIcon>\n' +
+  '    flag checkered\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flag outline" size=big data-search-terms="country, notice, notification, notify, pole, report, symbol"></FuiIcon>\n' +
+  '    flag outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flask" size=big data-search-terms="beaker, experimental, labs, science"></FuiIcon>\n' +
+  '    flask\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="futbol" size=big data-search-terms="ball, football, mls, soccer"></FuiIcon>\n' +
+  '    futbol\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="futbol outline" size=big data-search-terms="ball, football, mls, soccer"></FuiIcon>\n' +
+  '    futbol outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gamepad" size=big data-search-terms="controller, d-pad, joystick, video"></FuiIcon>\n' +
+  '    gamepad\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gavel" size=big data-search-terms="hammer, judge, law, lawyer, opinion"></FuiIcon>\n' +
+  '    gavel\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gem" size=big data-search-terms="diamond, jewelry, sapphire, stone, treasure"></FuiIcon>\n' +
+  '    gem\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gem outline" size=big data-search-terms="diamond, jewelry, sapphire, stone, treasure"></FuiIcon>\n' +
+  '    gem outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gift" size=big data-search-terms="christmas, generosity, giving, holiday, party, present, wrapped, xmas"></FuiIcon>\n' +
+  '    gift\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gifts" size=big data-search-terms="christmas, generosity, giving, holiday, party, present, wrapped, xmas"></FuiIcon>\n' +
+  '    gifts\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glass cheers" size=big data-search-terms="alcohol, bar, beverage, celebration, champagne, clink, drink, holiday, new year\'s eve, party, toast"></FuiIcon>\n' +
+  '    glass cheers\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glass martini" size=big data-search-terms="alcohol, bar, beverage, drink, liquor"></FuiIcon>\n' +
+  '    glass martini\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glass whiskey" size=big data-search-terms="alcohol, bar, beverage, bourbon, drink, liquor, neat, rye, scotch, whisky"></FuiIcon>\n' +
+  '    glass whiskey\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glasses" size=big data-search-terms="hipster, nerd, reading, sight, spectacles, vision"></FuiIcon>\n' +
+  '    glasses\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="globe" size=big data-search-terms="all, coordinates, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world"></FuiIcon>\n' +
+  '    globe\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="graduation cap" size=big data-search-terms="ceremony, college, graduate, learning, school, student"></FuiIcon>\n' +
+  '    graduation cap\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="guitar" size=big data-search-terms="acoustic, instrument, music, rock, rock and roll, song, strings"></FuiIcon>\n' +
+  '    guitar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hat wizard" size=big data-search-terms="Dungeons & Dragons, accessory, buckle, clothing, d&d, dnd, fantasy, halloween, head, holiday, mage, magic, pointy, witch"></FuiIcon>\n' +
+  '    hat wizard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hdd" size=big data-search-terms="cpu, hard drive, harddrive, machine, save, storage"></FuiIcon>\n' +
+  '    hdd\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hdd outline" size=big data-search-terms="cpu, hard drive, harddrive, machine, save, storage"></FuiIcon>\n' +
+  '    hdd outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="headphones" size=big data-search-terms="audio, listen, music, sound, speaker"></FuiIcon>\n' +
+  '    headphones\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="headphones alternate" size=big data-search-terms="audio, listen, music, sound, speaker"></FuiIcon>\n' +
+  '    headphones alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="headset" size=big data-search-terms="audio, gamer, gaming, listen, live chat, microphone, shot caller, sound, support, telemarketer"></FuiIcon>\n' +
+  '    headset\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart broken" size=big data-search-terms="breakup, crushed, dislike, dumped, grief, love, lovesick, relationship, sad"></FuiIcon>\n' +
+  '    heart broken\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart outline" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="helicopter" size=big data-search-terms="airwolf, apache, chopper, flight, fly, travel"></FuiIcon>\n' +
+  '    helicopter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="highlighter" size=big data-search-terms="edit, marker, sharpie, update, write"></FuiIcon>\n' +
+  '    highlighter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="holly berry" size=big data-search-terms="catwoman, christmas, decoration, flora, halle, holiday, ororo munroe, plant, storm, xmas"></FuiIcon>\n' +
+  '    holly berry\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="home" size=big data-search-terms="abode, building, house, main"></FuiIcon>\n' +
+  '    home\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hospital" size=big data-search-terms="building, emergency room, medical center"></FuiIcon>\n' +
+  '    hospital\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hospital outline" size=big data-search-terms="building, emergency room, medical center"></FuiIcon>\n' +
+  '    hospital outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hourglass" size=big data-search-terms="hour, minute, sand, stopwatch, time"></FuiIcon>\n' +
+  '    hourglass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hourglass outline" size=big data-search-terms="hour, minute, sand, stopwatch, time"></FuiIcon>\n' +
+  '    hourglass outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="igloo" size=big data-search-terms="dome, dwelling, eskimo, home, house, ice, snow"></FuiIcon>\n' +
+  '    igloo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="image" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    image\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="image outline" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    image outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="images" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    images\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="images outline" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    images outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="industry" size=big data-search-terms="building, factory, industrial, manufacturing, mill, warehouse"></FuiIcon>\n' +
+  '    industry\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="key" size=big data-search-terms="lock, password, private, secret, unlock"></FuiIcon>\n' +
+  '    key\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="keyboard" size=big data-search-terms="accessory, edit, input, text, type, write"></FuiIcon>\n' +
+  '    keyboard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="keyboard outline" size=big data-search-terms="accessory, edit, input, text, type, write"></FuiIcon>\n' +
+  '    keyboard outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laptop" size=big data-search-terms="computer, cpu, dell, demo, device, mac, macbook, machine, pc"></FuiIcon>\n' +
+  '    laptop\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="leaf" size=big data-search-terms="eco, flora, nature, plant, vegan"></FuiIcon>\n' +
+  '    leaf\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lemon" size=big data-search-terms="citrus, lemonade, lime, tart"></FuiIcon>\n' +
+  '    lemon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lemon outline" size=big data-search-terms="citrus, lemonade, lime, tart"></FuiIcon>\n' +
+  '    lemon outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="life ring" size=big data-search-terms="coast guard, help, overboard, save, support"></FuiIcon>\n' +
+  '    life ring\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="life ring outline" size=big data-search-terms="coast guard, help, overboard, save, support"></FuiIcon>\n' +
+  '    life ring outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lightbulb" size=big data-search-terms="energy, idea, inspiration, light"></FuiIcon>\n' +
+  '    lightbulb\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lightbulb outline" size=big data-search-terms="energy, idea, inspiration, light"></FuiIcon>\n' +
+  '    lightbulb outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lock" size=big data-search-terms="admin, lock, open, password, private, protect, security"></FuiIcon>\n' +
+  '    lock\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lock open" size=big data-search-terms="admin, lock, open, password, private, protect, security"></FuiIcon>\n' +
+  '    lock open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="magic" size=big data-search-terms="autocomplete, automatic, mage, magic, spell, wand, witch, wizard"></FuiIcon>\n' +
+  '    magic\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="magnet" size=big data-search-terms="Attract, lodestone, tool"></FuiIcon>\n' +
+  '    magnet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map marker" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map marker\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map marker alternate" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map marker alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map outline" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map pin" size=big data-search-terms="address, agree, coordinates, destination, gps, localize, location, map, marker, navigation, pin, place, position, travel"></FuiIcon>\n' +
+  '    map pin\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map signs" size=big data-search-terms="directions, directory, map, signage, wayfinding"></FuiIcon>\n' +
+  '    map signs\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="marker" size=big data-search-terms="design, edit, sharpie, update, write"></FuiIcon>\n' +
+  '    marker\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="medal" size=big data-search-terms="award, ribbon, star, trophy"></FuiIcon>\n' +
+  '    medal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="medkit" size=big data-search-terms="first aid, firstaid, health, help, support"></FuiIcon>\n' +
+  '    medkit\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="memory" size=big data-search-terms="DIMM, RAM, hardware, storage, technology"></FuiIcon>\n' +
+  '    memory\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microchip" size=big data-search-terms="cpu, hardware, processor, technology"></FuiIcon>\n' +
+  '    microchip\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone" size=big data-search-terms="audio, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone alternate" size=big data-search-terms="audio, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mitten" size=big data-search-terms="clothing, cold, glove, hands, knitted, seasonal, warmth"></FuiIcon>\n' +
+  '    mitten\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mobile" size=big data-search-terms="apple, call, cell phone, cellphone, device, iphone, number, screen, telephone"></FuiIcon>\n' +
+  '    mobile\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mobile alternate" size=big data-search-terms="apple, call, cell phone, cellphone, device, iphone, number, screen, telephone"></FuiIcon>\n' +
+  '    mobile alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill alternate" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill alternate outline" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money check" size=big data-search-terms="bank check, buy, checkout, cheque, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money check\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money check alternate" size=big data-search-terms="bank check, buy, checkout, cheque, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money check alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="moon" size=big data-search-terms="contrast, crescent, dark, lunar, night"></FuiIcon>\n' +
+  '    moon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="moon outline" size=big data-search-terms="contrast, crescent, dark, lunar, night"></FuiIcon>\n' +
+  '    moon outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="motorcycle" size=big data-search-terms="bike, machine, transportation, vehicle"></FuiIcon>\n' +
+  '    motorcycle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mug hot" size=big data-search-terms="caliente, cocoa, coffee, cup, drink, holiday, hot chocolate, steam, tea, warmth"></FuiIcon>\n' +
+  '    mug hot\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="newspaper" size=big data-search-terms="article, editorial, headline, journal, journalism, news, press"></FuiIcon>\n' +
+  '    newspaper\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="newspaper outline" size=big data-search-terms="article, editorial, headline, journal, journalism, news, press"></FuiIcon>\n' +
+  '    newspaper outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paint brush" size=big data-search-terms="acrylic, art, brush, color, fill, paint, pigment, watercolor"></FuiIcon>\n' +
+  '    paint brush\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paper plane" size=big data-search-terms="air, float, fold, mail, paper, send"></FuiIcon>\n' +
+  '    paper plane\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paper plane outline" size=big data-search-terms="air, float, fold, mail, paper, send"></FuiIcon>\n' +
+  '    paper plane outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paperclip" size=big data-search-terms="attach, attachment, connect, link"></FuiIcon>\n' +
+  '    paperclip\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paste" size=big data-search-terms="clipboard, copy, document, paper"></FuiIcon>\n' +
+  '    paste\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paw" size=big data-search-terms="animal, cat, dog, pet, print"></FuiIcon>\n' +
+  '    paw\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen" size=big data-search-terms="design, edit, update, write"></FuiIcon>\n' +
+  '    pen\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen alternate" size=big data-search-terms="design, edit, update, write"></FuiIcon>\n' +
+  '    pen alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen fancy" size=big data-search-terms="design, edit, fountain pen, update, write"></FuiIcon>\n' +
+  '    pen fancy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen nib" size=big data-search-terms="design, edit, fountain pen, update, write"></FuiIcon>\n' +
+  '    pen nib\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pencil alternate" size=big data-search-terms="design, edit, pencil, update, write"></FuiIcon>\n' +
+  '    pencil alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone alternate" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plane" size=big data-search-terms="airplane, destination, fly, location, mode, travel, trip"></FuiIcon>\n' +
+  '    plane\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plug" size=big data-search-terms="connect, electric, online, power"></FuiIcon>\n' +
+  '    plug\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="print" size=big data-search-terms="business, copy, document, office, paper"></FuiIcon>\n' +
+  '    print\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="puzzle piece" size=big data-search-terms="add-on, addon, game, section"></FuiIcon>\n' +
+  '    puzzle piece\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ring" size=big data-search-terms="Dungeons & Dragons, Gollum, band, binding, d&d, dnd, engagement, fantasy, gold, jewelry, marriage, precious"></FuiIcon>\n' +
+  '    ring\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="road" size=big data-search-terms="highway, map, pavement, route, street, travel"></FuiIcon>\n' +
+  '    road\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rocket" size=big data-search-terms="aircraft, app, jet, launch, nasa, space"></FuiIcon>\n' +
+  '    rocket\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ruler combined" size=big data-search-terms="design, draft, length, measure, planning"></FuiIcon>\n' +
+  '    ruler combined\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ruler horizontal" size=big data-search-terms="design, draft, length, measure, planning"></FuiIcon>\n' +
+  '    ruler horizontal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ruler vertical" size=big data-search-terms="design, draft, length, measure, planning"></FuiIcon>\n' +
+  '    ruler vertical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="satellite" size=big data-search-terms="communications, hardware, orbit, space"></FuiIcon>\n' +
+  '    satellite\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="satellite dish" size=big data-search-terms="SETI, communications, hardware, receiver, saucer, signal"></FuiIcon>\n' +
+  '    satellite dish\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="save" size=big data-search-terms="disk, download, floppy, floppy-o"></FuiIcon>\n' +
+  '    save\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="save outline" size=big data-search-terms="disk, download, floppy, floppy-o"></FuiIcon>\n' +
+  '    save outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="school" size=big data-search-terms="building, education, learn, student, teacher"></FuiIcon>\n' +
+  '    school\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="screwdriver" size=big data-search-terms="admin, fix, mechanic, repair, settings, tool"></FuiIcon>\n' +
+  '    screwdriver\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="scroll" size=big data-search-terms="Dungeons & Dragons, announcement, d&d, dnd, fantasy, paper, script"></FuiIcon>\n' +
+  '    scroll\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sd card" size=big data-search-terms="image, memory, photo, save"></FuiIcon>\n' +
+  '    sd card\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="search" size=big data-search-terms="bigger, enlarge, find, magnify, preview, zoom"></FuiIcon>\n' +
+  '    search\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shield alternate" size=big data-search-terms="achievement, award, block, defend, security, winner"></FuiIcon>\n' +
+  '    shield alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopping bag" size=big data-search-terms="buy, checkout, grocery, payment, purchase"></FuiIcon>\n' +
+  '    shopping bag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopping basket" size=big data-search-terms="buy, checkout, grocery, payment, purchase"></FuiIcon>\n' +
+  '    shopping basket\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopping cart" size=big data-search-terms="buy, checkout, grocery, payment, purchase"></FuiIcon>\n' +
+  '    shopping cart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shower" size=big data-search-terms="bath, clean, faucet, water"></FuiIcon>\n' +
+  '    shower\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sim card" size=big data-search-terms="hard drive, hardware, portable, storage, technology, tiny"></FuiIcon>\n' +
+  '    sim card\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skull crossbones" size=big data-search-terms="Dungeons & Dragons, alert, bones, d&d, danger, dead, deadly, death, dnd, fantasy, halloween, holiday, jolly-roger, pirate, poison, skeleton, warning"></FuiIcon>\n' +
+  '    skull crossbones\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sleigh" size=big data-search-terms="christmas, claus, fly, holiday, santa, sled, snow, xmas"></FuiIcon>\n' +
+  '    sleigh\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowflake" size=big data-search-terms="precipitation, rain, winter"></FuiIcon>\n' +
+  '    snowflake\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowflake outline" size=big data-search-terms="precipitation, rain, winter"></FuiIcon>\n' +
+  '    snowflake outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowplow" size=big data-search-terms="clean up, cold, road, storm, winter"></FuiIcon>\n' +
+  '    snowplow\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="space shuttle" size=big data-search-terms="astronaut, machine, nasa, rocket, transportation"></FuiIcon>\n' +
+  '    space shuttle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
+  '    star\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star outline" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
+  '    star outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sticky note" size=big data-search-terms="message, note, paper, reminder, sticker"></FuiIcon>\n' +
+  '    sticky note\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sticky note outline" size=big data-search-terms="message, note, paper, reminder, sticker"></FuiIcon>\n' +
+  '    sticky note outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stopwatch" size=big data-search-terms="clock, reminder, time"></FuiIcon>\n' +
+  '    stopwatch\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stroopwafel" size=big data-search-terms="caramel, cookie, dessert, sweets, waffle"></FuiIcon>\n' +
+  '    stroopwafel\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="subway" size=big data-search-terms="machine, railway, train, transportation, vehicle"></FuiIcon>\n' +
+  '    subway\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="suitcase" size=big data-search-terms="baggage, luggage, move, suitcase, travel, trip"></FuiIcon>\n' +
+  '    suitcase\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sun" size=big data-search-terms="brighten, contrast, day, lighter, sol, solar, star, weather"></FuiIcon>\n' +
+  '    sun\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sun outline" size=big data-search-terms="brighten, contrast, day, lighter, sol, solar, star, weather"></FuiIcon>\n' +
+  '    sun outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tablet" size=big data-search-terms="apple, device, ipad, kindle, screen"></FuiIcon>\n' +
+  '    tablet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tablet alternate" size=big data-search-terms="apple, device, ipad, kindle, screen"></FuiIcon>\n' +
+  '    tablet alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tachometer alternate" size=big data-search-terms="dashboard, fast, odometer, speed, speedometer"></FuiIcon>\n' +
+  '    tachometer alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tag" size=big data-search-terms="discount, label, price, shopping"></FuiIcon>\n' +
+  '    tag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tags" size=big data-search-terms="discount, label, price, shopping"></FuiIcon>\n' +
+  '    tags\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="taxi" size=big data-search-terms="cab, cabbie, car, car service, lyft, machine, transportation, travel, uber, vehicle"></FuiIcon>\n' +
+  '    taxi\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbtack" size=big data-search-terms="coordinates, location, marker, pin, thumb-tack"></FuiIcon>\n' +
+  '    thumbtack\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ticket alternate" size=big data-search-terms="movie, pass, support, ticket"></FuiIcon>\n' +
+  '    ticket alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="toilet" size=big data-search-terms="bathroom, flush, john, loo, pee, plumbing, poop, porcelain, potty, restroom, throne, washroom, waste, wc"></FuiIcon>\n' +
+  '    toilet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="toolbox" size=big data-search-terms="admin, container, fix, repair, settings, tools"></FuiIcon>\n' +
+  '    toolbox\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tools" size=big data-search-terms="admin, fix, repair, screwdriver, settings, tools, wrench"></FuiIcon>\n' +
+  '    tools\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="train" size=big data-search-terms="bullet, commute, locomotive, railway, subway"></FuiIcon>\n' +
+  '    train\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tram" size=big data-search-terms="crossing, machine, mountains, seasonal, transportation"></FuiIcon>\n' +
+  '    tram\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trash" size=big data-search-terms="delete, garbage, hide, remove"></FuiIcon>\n' +
+  '    trash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trash alternate" size=big data-search-terms="delete, garbage, hide, remove, trash-o"></FuiIcon>\n' +
+  '    trash alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trash alternate outline" size=big data-search-terms="delete, garbage, hide, remove, trash-o"></FuiIcon>\n' +
+  '    trash alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tree" size=big data-search-terms="bark, fall, flora, forest, nature, plant, seasonal"></FuiIcon>\n' +
+  '    tree\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trophy" size=big data-search-terms="achievement, award, cup, game, winner"></FuiIcon>\n' +
+  '    trophy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="truck" size=big data-search-terms="cargo, delivery, shipping, vehicle"></FuiIcon>\n' +
+  '    truck\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tv" size=big data-search-terms="computer, display, monitor, television"></FuiIcon>\n' +
+  '    tv\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="umbrella" size=big data-search-terms="protection, rain, storm, wet"></FuiIcon>\n' +
+  '    umbrella\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="university" size=big data-search-terms="bank, building, college, higher education - students, institution"></FuiIcon>\n' +
+  '    university\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="unlock" size=big data-search-terms="admin, lock, password, private, protect"></FuiIcon>\n' +
+  '    unlock\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="unlock alternate" size=big data-search-terms="admin, lock, password, private, protect"></FuiIcon>\n' +
+  '    unlock alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="utensil spoon" size=big data-search-terms="cutlery, dining, scoop, silverware, spoon"></FuiIcon>\n' +
+  '    utensil spoon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="utensils" size=big data-search-terms="cutlery, dining, dinner, eat, food, fork, knife, restaurant"></FuiIcon>\n' +
+  '    utensils\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wallet" size=big data-search-terms="billfold, cash, currency, money"></FuiIcon>\n' +
+  '    wallet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="weight" size=big data-search-terms="health, measurement, scale, weight"></FuiIcon>\n' +
+  '    weight\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wheelchair" size=big data-search-terms="accessible, handicap, person"></FuiIcon>\n' +
+  '    wheelchair\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wine glass" size=big data-search-terms="alcohol, beverage, cabernet, drink, grapes, merlot, sauvignon"></FuiIcon>\n' +
+  '    wine glass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wrench" size=big data-search-terms="construction, fix, mechanic, plumbing, settings, spanner, tool, update"></FuiIcon>\n' +
+  '    wrench\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconTabletopGaming1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="acquisitions incorporated" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop"></FuiIcon>\n' +
+  '    acquisitions incorporated\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="book dead" size=big data-search-terms="Dungeons & Dragons, crossbones, d&d, dark arts, death, dnd, documentation, evil, fantasy, halloween, holiday, necronomicon, read, skull, spell"></FuiIcon>\n' +
+  '    book dead\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="critical role" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop"></FuiIcon>\n' +
+  '    critical role\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="d and d" size=big data-search-terms=""></FuiIcon>\n' +
+  '    d and d\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="d and d beyond" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, gaming, tabletop"></FuiIcon>\n' +
+  '    d and d beyond\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice d20" size=big data-search-terms="Dungeons & Dragons, chance, d&d, dnd, fantasy, gambling, game, roll"></FuiIcon>\n' +
+  '    dice d20\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice d6" size=big data-search-terms="Dungeons & Dragons, chance, d&d, dnd, fantasy, gambling, game, roll"></FuiIcon>\n' +
+  '    dice d6\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dragon" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, fire, lizard, serpent"></FuiIcon>\n' +
+  '    dragon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dungeon" size=big data-search-terms="Dungeons & Dragons, building, d&d, dnd, door, entrance, fantasy, gate"></FuiIcon>\n' +
+  '    dungeon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fantasy flight games" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop"></FuiIcon>\n' +
+  '    fantasy flight games\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fist raised" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, hand, ki, monk, resist, strength, unarmed combat"></FuiIcon>\n' +
+  '    fist raised\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hat wizard" size=big data-search-terms="Dungeons & Dragons, accessory, buckle, clothing, d&d, dnd, fantasy, halloween, head, holiday, mage, magic, pointy, witch"></FuiIcon>\n' +
+  '    hat wizard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="penny arcade" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, pax, tabletop"></FuiIcon>\n' +
+  '    penny arcade\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ring" size=big data-search-terms="Dungeons & Dragons, Gollum, band, binding, d&d, dnd, engagement, fantasy, gold, jewelry, marriage, precious"></FuiIcon>\n' +
+  '    ring\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="scroll" size=big data-search-terms="Dungeons & Dragons, announcement, d&d, dnd, fantasy, paper, script"></FuiIcon>\n' +
+  '    scroll\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skull crossbones" size=big data-search-terms="Dungeons & Dragons, alert, bones, d&d, danger, dead, deadly, death, dnd, fantasy, halloween, holiday, jolly-roger, pirate, poison, skeleton, warning"></FuiIcon>\n' +
+  '    skull crossbones\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wizards of the coast" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop"></FuiIcon>\n' +
+  '    wizards of the coast\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconBuildings1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="archway" size=big data-search-terms="arc, monument, road, street, tunnel"></FuiIcon>\n' +
+  '    archway\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="building" size=big data-search-terms="apartment, business, city, company, office, work"></FuiIcon>\n' +
+  '    building\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="building outline" size=big data-search-terms="apartment, business, city, company, office, work"></FuiIcon>\n' +
+  '    building outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="campground" size=big data-search-terms="camping, fall, outdoors, teepee, tent, tipi"></FuiIcon>\n' +
+  '    campground\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="church" size=big data-search-terms="building, cathedral, chapel, community, religion"></FuiIcon>\n' +
+  '    church\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="city" size=big data-search-terms="buildings, busy, skyscrapers, urban, windows"></FuiIcon>\n' +
+  '    city\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clinic medical" size=big data-search-terms="doctor, general practitioner, hospital, infirmary, medicine, office, outpatient"></FuiIcon>\n' +
+  '    clinic medical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dungeon" size=big data-search-terms="Dungeons & Dragons, building, d&d, dnd, door, entrance, fantasy, gate"></FuiIcon>\n' +
+  '    dungeon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gopuram" size=big data-search-terms="building, entrance, hinduism, temple, tower"></FuiIcon>\n' +
+  '    gopuram\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="home" size=big data-search-terms="abode, building, house, main"></FuiIcon>\n' +
+  '    home\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hospital" size=big data-search-terms="building, emergency room, medical center"></FuiIcon>\n' +
+  '    hospital\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hospital alternate" size=big data-search-terms="building, emergency room, medical center"></FuiIcon>\n' +
+  '    hospital alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hospital outline" size=big data-search-terms="building, emergency room, medical center"></FuiIcon>\n' +
+  '    hospital outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hotel" size=big data-search-terms="building, inn, lodging, motel, resort, travel"></FuiIcon>\n' +
+  '    hotel\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="house damage" size=big data-search-terms="building, devastation, disaster, home, insurance"></FuiIcon>\n' +
+  '    house damage\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="igloo" size=big data-search-terms="dome, dwelling, eskimo, home, house, ice, snow"></FuiIcon>\n' +
+  '    igloo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="industry" size=big data-search-terms="building, factory, industrial, manufacturing, mill, warehouse"></FuiIcon>\n' +
+  '    industry\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="kaaba" size=big data-search-terms="building, cube, islam, muslim"></FuiIcon>\n' +
+  '    kaaba\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="landmark" size=big data-search-terms="building, historic, memorable, monument, politics"></FuiIcon>\n' +
+  '    landmark\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="monument" size=big data-search-terms="building, historic, landmark, memorable"></FuiIcon>\n' +
+  '    monument\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mosque" size=big data-search-terms="building, islam, landmark, muslim"></FuiIcon>\n' +
+  '    mosque\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="place of worship" size=big data-search-terms="building, church, holy, mosque, synagogue"></FuiIcon>\n' +
+  '    place of worship\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="school" size=big data-search-terms="building, education, learn, student, teacher"></FuiIcon>\n' +
+  '    school\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="store" size=big data-search-terms="building, buy, purchase, shopping"></FuiIcon>\n' +
+  '    store\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="store alternate" size=big data-search-terms="building, buy, purchase, shopping"></FuiIcon>\n' +
+  '    store alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="synagogue" size=big data-search-terms="building, jewish, judaism, religion, star of david, temple"></FuiIcon>\n' +
+  '    synagogue\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="torii gate" size=big data-search-terms="building, shintoism"></FuiIcon>\n' +
+  '    torii gate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="university" size=big data-search-terms="bank, building, college, higher education - students, institution"></FuiIcon>\n' +
+  '    university\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vihara" size=big data-search-terms="buddhism, buddhist, building, monastery"></FuiIcon>\n' +
+  '    vihara\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="warehouse" size=big data-search-terms="building, capacity, garage, inventory, storage"></FuiIcon>\n' +
+  '    warehouse\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconLogistics1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="box" size=big data-search-terms="archive, container, package, storage"></FuiIcon>\n' +
+  '    box\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="boxes" size=big data-search-terms="archives, inventory, storage, warehouse"></FuiIcon>\n' +
+  '    boxes\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clipboard check" size=big data-search-terms="accept, agree, confirm, done, ok, select, success, tick, todo, yes"></FuiIcon>\n' +
+  '    clipboard check\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clipboard list" size=big data-search-terms="checklist, completed, done, finished, intinerary, ol, schedule, tick, todo, ul"></FuiIcon>\n' +
+  '    clipboard list\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dolly" size=big data-search-terms="carry, shipping, transport"></FuiIcon>\n' +
+  '    dolly\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dolly flatbed" size=big data-search-terms="carry, inventory, shipping, transport"></FuiIcon>\n' +
+  '    dolly flatbed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hard hat" size=big data-search-terms="construction, hardhat, helmet, safety"></FuiIcon>\n' +
+  '    hard hat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pallet" size=big data-search-terms="archive, box, inventory, shipping, warehouse"></FuiIcon>\n' +
+  '    pallet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shipping fast" size=big data-search-terms="express, fedex, mail, overnight, package, ups"></FuiIcon>\n' +
+  '    shipping fast\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="truck" size=big data-search-terms="cargo, delivery, shipping, vehicle"></FuiIcon>\n' +
+  '    truck\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="warehouse" size=big data-search-terms="building, capacity, garage, inventory, storage"></FuiIcon>\n' +
+  '    warehouse\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconMedical1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="allergies" size=big data-search-terms="allergy, freckles, hand, hives, pox, skin, spots"></FuiIcon>\n' +
+  '    allergies\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ambulance" size=big data-search-terms="emergency, emt, er, help, hospital, support, vehicle"></FuiIcon>\n' +
+  '    ambulance\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="band aid" size=big data-search-terms="bandage, boo boo, first aid, ouch"></FuiIcon>\n' +
+  '    band aid\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="biohazard" size=big data-search-terms="danger, dangerous, hazmat, medical, radioactive, toxic, waste, zombie"></FuiIcon>\n' +
+  '    biohazard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bone" size=big data-search-terms="calcium, dog, skeletal, skeleton, tibia"></FuiIcon>\n' +
+  '    bone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bong" size=big data-search-terms="aparatus, cannabis, marijuana, pipe, smoke, smoking"></FuiIcon>\n' +
+  '    bong\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="book medical" size=big data-search-terms="diary, documentation, health, history, journal, library, read, record"></FuiIcon>\n' +
+  '    book medical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="brain" size=big data-search-terms="cerebellum, gray matter, intellect, medulla oblongata, mind, noodle, wit"></FuiIcon>\n' +
+  '    brain\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="briefcase medical" size=big data-search-terms="doctor, emt, first aid, health"></FuiIcon>\n' +
+  '    briefcase medical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="burn" size=big data-search-terms="caliente, energy, fire, flame, gas, heat, hot"></FuiIcon>\n' +
+  '    burn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cannabis" size=big data-search-terms="bud, chronic, drugs, endica, endo, ganja, marijuana, mary jane, pot, reefer, sativa, spliff, weed, whacky-tabacky"></FuiIcon>\n' +
+  '    cannabis\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="capsules" size=big data-search-terms="drugs, medicine, pills, prescription"></FuiIcon>\n' +
+  '    capsules\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clinic medical" size=big data-search-terms="doctor, general practitioner, hospital, infirmary, medicine, office, outpatient"></FuiIcon>\n' +
+  '    clinic medical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment medical" size=big data-search-terms="advice, bubble, chat, commenting, conversation, diagnose, feedback, message, note, notification, prescription, sms, speech, texting"></FuiIcon>\n' +
+  '    comment medical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="crutch" size=big data-search-terms="cane, injury, mobility, wheelchair"></FuiIcon>\n' +
+  '    crutch\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="diagnoses" size=big data-search-terms="analyze, detect, diagnosis, examine, medicine"></FuiIcon>\n' +
+  '    diagnoses\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dna" size=big data-search-terms="double helix, genetic, helix, molecule, protein"></FuiIcon>\n' +
+  '    dna\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file medical" size=big data-search-terms="document, health, history, prescription, record"></FuiIcon>\n' +
+  '    file medical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file medical alternate" size=big data-search-terms="document, health, history, prescription, record"></FuiIcon>\n' +
+  '    file medical alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file prescription" size=big data-search-terms="document, drugs, medical, medicine, rx"></FuiIcon>\n' +
+  '    file prescription\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="first aid" size=big data-search-terms="emergency, emt, health, medical, rescue"></FuiIcon>\n' +
+  '    first aid\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart outline" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heartbeat" size=big data-search-terms="ekg, electrocardiogram, health, lifeline, vital signs"></FuiIcon>\n' +
+  '    heartbeat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hospital" size=big data-search-terms="building, emergency room, medical center"></FuiIcon>\n' +
+  '    hospital\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hospital alternate" size=big data-search-terms="building, emergency room, medical center"></FuiIcon>\n' +
+  '    hospital alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hospital outline" size=big data-search-terms="building, emergency room, medical center"></FuiIcon>\n' +
+  '    hospital outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hospital symbol" size=big data-search-terms="clinic, emergency, map"></FuiIcon>\n' +
+  '    hospital symbol\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id card alternate" size=big data-search-terms="contact, demographics, document, identification, issued, profile"></FuiIcon>\n' +
+  '    id card alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="joint" size=big data-search-terms="blunt, cannabis, doobie, drugs, marijuana, roach, smoke, smoking, spliff"></FuiIcon>\n' +
+  '    joint\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laptop medical" size=big data-search-terms="computer, device, ehr, electronic health records, history"></FuiIcon>\n' +
+  '    laptop medical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microscope" size=big data-search-terms="electron, lens, optics, science, shrink"></FuiIcon>\n' +
+  '    microscope\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mortar pestle" size=big data-search-terms="crush, culinary, grind, medical, mix, pharmacy, prescription, spices"></FuiIcon>\n' +
+  '    mortar pestle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="notes medical" size=big data-search-terms="clipboard, doctor, ehr, health, history, records"></FuiIcon>\n' +
+  '    notes medical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pager" size=big data-search-terms="beeper, cellphone, communication"></FuiIcon>\n' +
+  '    pager\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pills" size=big data-search-terms="drugs, medicine, prescription, tablets"></FuiIcon>\n' +
+  '    pills\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="poop" size=big data-search-terms="crap, poop, shit, smile, turd"></FuiIcon>\n' +
+  '    poop\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="prescription" size=big data-search-terms="drugs, medical, medicine, pharmacy, rx"></FuiIcon>\n' +
+  '    prescription\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="prescription bottle" size=big data-search-terms="drugs, medical, medicine, pharmacy, rx"></FuiIcon>\n' +
+  '    prescription bottle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="prescription bottle alternate" size=big data-search-terms="drugs, medical, medicine, pharmacy, rx"></FuiIcon>\n' +
+  '    prescription bottle alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="procedures" size=big data-search-terms="EKG, bed, electrocardiogram, health, hospital, life, patient, vital"></FuiIcon>\n' +
+  '    procedures\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="radiation" size=big data-search-terms="danger, dangerous, deadly, hazard, nuclear, radioactive, warning"></FuiIcon>\n' +
+  '    radiation\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="radiation alternate" size=big data-search-terms="danger, dangerous, deadly, hazard, nuclear, radioactive, warning"></FuiIcon>\n' +
+  '    radiation alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smoking" size=big data-search-terms="cancer, cigarette, nicotine, smoking status, tobacco"></FuiIcon>\n' +
+  '    smoking\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smoking ban" size=big data-search-terms="ban, cancel, no smoking, non-smoking"></FuiIcon>\n' +
+  '    smoking ban\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star of life" size=big data-search-terms="doctor, emt, first aid, health, medical"></FuiIcon>\n' +
+  '    star of life\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stethoscope" size=big data-search-terms="diagnosis, doctor, general practitioner, hospital, infirmary, medicine, office, outpatient"></FuiIcon>\n' +
+  '    stethoscope\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="syringe" size=big data-search-terms="doctor, immunizations, medical, needle"></FuiIcon>\n' +
+  '    syringe\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tablets" size=big data-search-terms="drugs, medicine, pills, prescription"></FuiIcon>\n' +
+  '    tablets\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="teeth" size=big data-search-terms="bite, dental, dentist, gums, mouth, smile, tooth"></FuiIcon>\n' +
+  '    teeth\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="teeth open" size=big data-search-terms="dental, dentist, gums bite, mouth, smile, tooth"></FuiIcon>\n' +
+  '    teeth open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thermometer" size=big data-search-terms="mercury, status, temperature"></FuiIcon>\n' +
+  '    thermometer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tooth" size=big data-search-terms="bicuspid, dental, dentist, molar, mouth, teeth"></FuiIcon>\n' +
+  '    tooth\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user md" size=big data-search-terms="job, medical, nurse, occupation, physician, profile, surgeon"></FuiIcon>\n' +
+  '    user md\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user nurse" size=big data-search-terms="doctor, midwife, practitioner, surgeon"></FuiIcon>\n' +
+  '    user nurse\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vial" size=big data-search-terms="experiment, lab, sample, science, test, test tube"></FuiIcon>\n' +
+  '    vial\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vials" size=big data-search-terms="experiment, lab, sample, science, test, test tube"></FuiIcon>\n' +
+  '    vials\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="weight" size=big data-search-terms="health, measurement, scale, weight"></FuiIcon>\n' +
+  '    weight\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="x ray" size=big data-search-terms="health, medical, radiological images, radiology, skeleton"></FuiIcon>\n' +
+  '    x ray\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconSecurity1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ban" size=big data-search-terms="abort, ban, block, cancel, delete, hide, prohibit, remove, stop, trash"></FuiIcon>\n' +
+  '    ban\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bug" size=big data-search-terms="beetle, error, insect, report"></FuiIcon>\n' +
+  '    bug\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="door closed" size=big data-search-terms="enter, exit, locked"></FuiIcon>\n' +
+  '    door closed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="door open" size=big data-search-terms="enter, exit, welcome"></FuiIcon>\n' +
+  '    door open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dungeon" size=big data-search-terms="Dungeons & Dragons, building, d&d, dnd, door, entrance, fantasy, gate"></FuiIcon>\n' +
+  '    dungeon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye" size=big data-search-terms="look, optic, see, seen, show, sight, views, visible"></FuiIcon>\n' +
+  '    eye\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye outline" size=big data-search-terms="look, optic, see, seen, show, sight, views, visible"></FuiIcon>\n' +
+  '    eye outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye slash" size=big data-search-terms="blind, hide, show, toggle, unseen, views, visible, visiblity"></FuiIcon>\n' +
+  '    eye slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye slash outline" size=big data-search-terms="blind, hide, show, toggle, unseen, views, visible, visiblity"></FuiIcon>\n' +
+  '    eye slash outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file contract" size=big data-search-terms="agreement, binding, document, legal, signature"></FuiIcon>\n' +
+  '    file contract\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file signature" size=big data-search-terms="John Hancock, contract, document, name"></FuiIcon>\n' +
+  '    file signature\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fingerprint" size=big data-search-terms="human, id, identification, lock, smudge, touch, unique, unlock"></FuiIcon>\n' +
+  '    fingerprint\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id badge" size=big data-search-terms="address, contact, identification, license, profile"></FuiIcon>\n' +
+  '    id badge\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id badge outline" size=big data-search-terms="address, contact, identification, license, profile"></FuiIcon>\n' +
+  '    id badge outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id card" size=big data-search-terms="contact, demographics, document, identification, issued, profile"></FuiIcon>\n' +
+  '    id card\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id card alternate" size=big data-search-terms="contact, demographics, document, identification, issued, profile"></FuiIcon>\n' +
+  '    id card alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id card outline" size=big data-search-terms="contact, demographics, document, identification, issued, profile"></FuiIcon>\n' +
+  '    id card outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="key" size=big data-search-terms="lock, password, private, secret, unlock"></FuiIcon>\n' +
+  '    key\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lock" size=big data-search-terms="admin, lock, open, password, private, protect, security"></FuiIcon>\n' +
+  '    lock\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lock open" size=big data-search-terms="admin, lock, open, password, private, protect, security"></FuiIcon>\n' +
+  '    lock open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mask" size=big data-search-terms="carnivale, costume, disguise, halloween, secret, super hero"></FuiIcon>\n' +
+  '    mask\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="passport" size=big data-search-terms="document, id, identification, issued, travel"></FuiIcon>\n' +
+  '    passport\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shield alternate" size=big data-search-terms="achievement, award, block, defend, security, winner"></FuiIcon>\n' +
+  '    shield alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="unlock" size=big data-search-terms="admin, lock, password, private, protect"></FuiIcon>\n' +
+  '    unlock\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="unlock alternate" size=big data-search-terms="admin, lock, password, private, protect"></FuiIcon>\n' +
+  '    unlock alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user lock" size=big data-search-terms="admin, lock, person, private, unlock"></FuiIcon>\n' +
+  '    user lock\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user secret" size=big data-search-terms="clothing, coat, hat, incognito, person, privacy, spy, whisper"></FuiIcon>\n' +
+  '    user secret\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user shield" size=big data-search-terms="admin, person, private, protect, safe"></FuiIcon>\n' +
+  '    user shield\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconBrands1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="500px" size=big data-search-terms=""></FuiIcon>\n' +
+  '    500px\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="accessible" size=big data-search-terms="accessibility, handicap, person, wheelchair, wheelchair-alt"></FuiIcon>\n' +
+  '    accessible\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="accusoft" size=big data-search-terms=""></FuiIcon>\n' +
+  '    accusoft\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="acquisitions incorporated" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop"></FuiIcon>\n' +
+  '    acquisitions incorporated\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="adn" size=big data-search-terms=""></FuiIcon>\n' +
+  '    adn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="adobe" size=big data-search-terms="acrobat, app, design, illustrator, indesign, photoshop"></FuiIcon>\n' +
+  '    adobe\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="adversal" size=big data-search-terms=""></FuiIcon>\n' +
+  '    adversal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="affiliatetheme" size=big data-search-terms=""></FuiIcon>\n' +
+  '    affiliatetheme\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="airbnb" size=big data-search-terms=""></FuiIcon>\n' +
+  '    airbnb\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="algolia" size=big data-search-terms=""></FuiIcon>\n' +
+  '    algolia\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="alipay" size=big data-search-terms=""></FuiIcon>\n' +
+  '    alipay\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="amazon" size=big data-search-terms=""></FuiIcon>\n' +
+  '    amazon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="amazon pay" size=big data-search-terms=""></FuiIcon>\n' +
+  '    amazon pay\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="amilia" size=big data-search-terms=""></FuiIcon>\n' +
+  '    amilia\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="android" size=big data-search-terms="robot"></FuiIcon>\n' +
+  '    android\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="angellist" size=big data-search-terms=""></FuiIcon>\n' +
+  '    angellist\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="angrycreative" size=big data-search-terms=""></FuiIcon>\n' +
+  '    angrycreative\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="angular" size=big data-search-terms=""></FuiIcon>\n' +
+  '    angular\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="app store" size=big data-search-terms=""></FuiIcon>\n' +
+  '    app store\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="app store ios" size=big data-search-terms=""></FuiIcon>\n' +
+  '    app store ios\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="apper" size=big data-search-terms=""></FuiIcon>\n' +
+  '    apper\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="apple" size=big data-search-terms="fruit, ios, mac, operating system, os, osx"></FuiIcon>\n' +
+  '    apple\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="apple pay" size=big data-search-terms=""></FuiIcon>\n' +
+  '    apple pay\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="artstation" size=big data-search-terms=""></FuiIcon>\n' +
+  '    artstation\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="asymmetrik" size=big data-search-terms=""></FuiIcon>\n' +
+  '    asymmetrik\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="atlassian" size=big data-search-terms=""></FuiIcon>\n' +
+  '    atlassian\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="audible" size=big data-search-terms=""></FuiIcon>\n' +
+  '    audible\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="autoprefixer" size=big data-search-terms=""></FuiIcon>\n' +
+  '    autoprefixer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="avianex" size=big data-search-terms=""></FuiIcon>\n' +
+  '    avianex\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="aviato" size=big data-search-terms=""></FuiIcon>\n' +
+  '    aviato\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="aws" size=big data-search-terms=""></FuiIcon>\n' +
+  '    aws\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bandcamp" size=big data-search-terms=""></FuiIcon>\n' +
+  '    bandcamp\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="battle net" size=big data-search-terms=""></FuiIcon>\n' +
+  '    battle net\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="behance" size=big data-search-terms=""></FuiIcon>\n' +
+  '    behance\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="behance square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    behance square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bimobject" size=big data-search-terms=""></FuiIcon>\n' +
+  '    bimobject\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bitbucket" size=big data-search-terms="atlassian, bitbucket-square, git"></FuiIcon>\n' +
+  '    bitbucket\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bitcoin" size=big data-search-terms=""></FuiIcon>\n' +
+  '    bitcoin\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bity" size=big data-search-terms=""></FuiIcon>\n' +
+  '    bity\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="black tie" size=big data-search-terms=""></FuiIcon>\n' +
+  '    black tie\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="blackberry" size=big data-search-terms=""></FuiIcon>\n' +
+  '    blackberry\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="blogger" size=big data-search-terms=""></FuiIcon>\n' +
+  '    blogger\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="blogger b" size=big data-search-terms=""></FuiIcon>\n' +
+  '    blogger b\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bluetooth" size=big data-search-terms=""></FuiIcon>\n' +
+  '    bluetooth\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bluetooth b" size=big data-search-terms=""></FuiIcon>\n' +
+  '    bluetooth b\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bootstrap" size=big data-search-terms=""></FuiIcon>\n' +
+  '    bootstrap\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="btc" size=big data-search-terms=""></FuiIcon>\n' +
+  '    btc\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="buffer" size=big data-search-terms=""></FuiIcon>\n' +
+  '    buffer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="buromobelexperte" size=big data-search-terms=""></FuiIcon>\n' +
+  '    buromobelexperte\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="buysellads" size=big data-search-terms=""></FuiIcon>\n' +
+  '    buysellads\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="canadian maple leaf" size=big data-search-terms="canada, flag, flora, nature, plant"></FuiIcon>\n' +
+  '    canadian maple leaf\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc amazon pay" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc amazon pay\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc amex" size=big data-search-terms="amex"></FuiIcon>\n' +
+  '    cc amex\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc apple pay" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc apple pay\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc diners club" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc diners club\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc discover" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc discover\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc jcb" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc jcb\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc mastercard" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc mastercard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc paypal" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc paypal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc stripe" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc stripe\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc visa" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc visa\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="centercode" size=big data-search-terms=""></FuiIcon>\n' +
+  '    centercode\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="centos" size=big data-search-terms="linux, operating system, os"></FuiIcon>\n' +
+  '    centos\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chrome" size=big data-search-terms="browser"></FuiIcon>\n' +
+  '    chrome\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chromecast" size=big data-search-terms=""></FuiIcon>\n' +
+  '    chromecast\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloudscale" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cloudscale\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloudsmith" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cloudsmith\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloudversify" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cloudversify\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="codepen" size=big data-search-terms=""></FuiIcon>\n' +
+  '    codepen\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="codiepie" size=big data-search-terms=""></FuiIcon>\n' +
+  '    codiepie\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="confluence" size=big data-search-terms="atlassian"></FuiIcon>\n' +
+  '    confluence\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="connectdevelop" size=big data-search-terms=""></FuiIcon>\n' +
+  '    connectdevelop\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="contao" size=big data-search-terms=""></FuiIcon>\n' +
+  '    contao\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cpanel" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cpanel\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="creative commons" size=big data-search-terms=""></FuiIcon>\n' +
+  '    creative commons\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="creative commons by" size=big data-search-terms=""></FuiIcon>\n' +
+  '    creative commons by\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="creative commons nc" size=big data-search-terms=""></FuiIcon>\n' +
+  '    creative commons nc\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="creative commons nc eu" size=big data-search-terms=""></FuiIcon>\n' +
+  '    creative commons nc eu\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="creative commons nc jp" size=big data-search-terms=""></FuiIcon>\n' +
+  '    creative commons nc jp\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="creative commons nd" size=big data-search-terms=""></FuiIcon>\n' +
+  '    creative commons nd\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="creative commons pd" size=big data-search-terms=""></FuiIcon>\n' +
+  '    creative commons pd\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="creative commons pd alternate" size=big data-search-terms=""></FuiIcon>\n' +
+  '    creative commons pd alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="creative commons remix" size=big data-search-terms=""></FuiIcon>\n' +
+  '    creative commons remix\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="creative commons sa" size=big data-search-terms=""></FuiIcon>\n' +
+  '    creative commons sa\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="creative commons sampling" size=big data-search-terms=""></FuiIcon>\n' +
+  '    creative commons sampling\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="creative commons sampling plus" size=big data-search-terms=""></FuiIcon>\n' +
+  '    creative commons sampling plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="creative commons share" size=big data-search-terms=""></FuiIcon>\n' +
+  '    creative commons share\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="creative commons zero" size=big data-search-terms=""></FuiIcon>\n' +
+  '    creative commons zero\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="critical role" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop"></FuiIcon>\n' +
+  '    critical role\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="css3" size=big data-search-terms="code"></FuiIcon>\n' +
+  '    css3\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="css3 alternate" size=big data-search-terms=""></FuiIcon>\n' +
+  '    css3 alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cuttlefish" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cuttlefish\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="d and d" size=big data-search-terms=""></FuiIcon>\n' +
+  '    d and d\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="d and d beyond" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, gaming, tabletop"></FuiIcon>\n' +
+  '    d and d beyond\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dashcube" size=big data-search-terms=""></FuiIcon>\n' +
+  '    dashcube\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="delicious" size=big data-search-terms=""></FuiIcon>\n' +
+  '    delicious\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="deploydog" size=big data-search-terms=""></FuiIcon>\n' +
+  '    deploydog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="deskpro" size=big data-search-terms=""></FuiIcon>\n' +
+  '    deskpro\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dev" size=big data-search-terms=""></FuiIcon>\n' +
+  '    dev\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="deviantart" size=big data-search-terms=""></FuiIcon>\n' +
+  '    deviantart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dhl" size=big data-search-terms="Dalsey, Hillblom and Lynn, german, package, shipping"></FuiIcon>\n' +
+  '    dhl\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="diaspora" size=big data-search-terms=""></FuiIcon>\n' +
+  '    diaspora\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="digg" size=big data-search-terms=""></FuiIcon>\n' +
+  '    digg\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="digital ocean" size=big data-search-terms=""></FuiIcon>\n' +
+  '    digital ocean\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="discord" size=big data-search-terms=""></FuiIcon>\n' +
+  '    discord\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="discourse" size=big data-search-terms=""></FuiIcon>\n' +
+  '    discourse\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dochub" size=big data-search-terms=""></FuiIcon>\n' +
+  '    dochub\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="docker" size=big data-search-terms=""></FuiIcon>\n' +
+  '    docker\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="draft2digital" size=big data-search-terms=""></FuiIcon>\n' +
+  '    draft2digital\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dribbble" size=big data-search-terms=""></FuiIcon>\n' +
+  '    dribbble\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dribbble square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    dribbble square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dropbox" size=big data-search-terms=""></FuiIcon>\n' +
+  '    dropbox\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="drupal" size=big data-search-terms=""></FuiIcon>\n' +
+  '    drupal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dyalog" size=big data-search-terms=""></FuiIcon>\n' +
+  '    dyalog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="earlybirds" size=big data-search-terms=""></FuiIcon>\n' +
+  '    earlybirds\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ebay" size=big data-search-terms=""></FuiIcon>\n' +
+  '    ebay\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="edge" size=big data-search-terms="browser, ie"></FuiIcon>\n' +
+  '    edge\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="elementor" size=big data-search-terms=""></FuiIcon>\n' +
+  '    elementor\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ello" size=big data-search-terms=""></FuiIcon>\n' +
+  '    ello\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ember" size=big data-search-terms=""></FuiIcon>\n' +
+  '    ember\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="empire" size=big data-search-terms=""></FuiIcon>\n' +
+  '    empire\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envira" size=big data-search-terms="leaf"></FuiIcon>\n' +
+  '    envira\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="erlang" size=big data-search-terms=""></FuiIcon>\n' +
+  '    erlang\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ethereum" size=big data-search-terms=""></FuiIcon>\n' +
+  '    ethereum\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="etsy" size=big data-search-terms=""></FuiIcon>\n' +
+  '    etsy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="evernote" size=big data-search-terms=""></FuiIcon>\n' +
+  '    evernote\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="expeditedssl" size=big data-search-terms=""></FuiIcon>\n' +
+  '    expeditedssl\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="facebook" size=big data-search-terms="facebook-official, social network"></FuiIcon>\n' +
+  '    facebook\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="facebook f" size=big data-search-terms="facebook"></FuiIcon>\n' +
+  '    facebook f\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="facebook messenger" size=big data-search-terms=""></FuiIcon>\n' +
+  '    facebook messenger\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="facebook square" size=big data-search-terms="social network"></FuiIcon>\n' +
+  '    facebook square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fantasy flight games" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop"></FuiIcon>\n' +
+  '    fantasy flight games\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fedex" size=big data-search-terms="Federal Express, package, shipping"></FuiIcon>\n' +
+  '    fedex\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fedora" size=big data-search-terms="linux, operating system, os"></FuiIcon>\n' +
+  '    fedora\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="figma" size=big data-search-terms="app, design, interface"></FuiIcon>\n' +
+  '    figma\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="firefox" size=big data-search-terms="browser"></FuiIcon>\n' +
+  '    firefox\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="first order" size=big data-search-terms=""></FuiIcon>\n' +
+  '    first order\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="first order alternate" size=big data-search-terms=""></FuiIcon>\n' +
+  '    first order alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="firstdraft" size=big data-search-terms=""></FuiIcon>\n' +
+  '    firstdraft\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flickr" size=big data-search-terms=""></FuiIcon>\n' +
+  '    flickr\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flipboard" size=big data-search-terms=""></FuiIcon>\n' +
+  '    flipboard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fly" size=big data-search-terms=""></FuiIcon>\n' +
+  '    fly\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="font awesome" size=big data-search-terms="meanpath"></FuiIcon>\n' +
+  '    font awesome\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="font awesome alternate" size=big data-search-terms=""></FuiIcon>\n' +
+  '    font awesome alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="font awesome flag" size=big data-search-terms=""></FuiIcon>\n' +
+  '    font awesome flag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fonticons" size=big data-search-terms=""></FuiIcon>\n' +
+  '    fonticons\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fonticons fi" size=big data-search-terms=""></FuiIcon>\n' +
+  '    fonticons fi\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fort awesome" size=big data-search-terms="castle"></FuiIcon>\n' +
+  '    fort awesome\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fort awesome alternate" size=big data-search-terms="castle"></FuiIcon>\n' +
+  '    fort awesome alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="forumbee" size=big data-search-terms=""></FuiIcon>\n' +
+  '    forumbee\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="foursquare" size=big data-search-terms=""></FuiIcon>\n' +
+  '    foursquare\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="free code camp" size=big data-search-terms=""></FuiIcon>\n' +
+  '    free code camp\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="freebsd" size=big data-search-terms=""></FuiIcon>\n' +
+  '    freebsd\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fulcrum" size=big data-search-terms=""></FuiIcon>\n' +
+  '    fulcrum\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="galactic republic" size=big data-search-terms="politics, star wars"></FuiIcon>\n' +
+  '    galactic republic\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="galactic senate" size=big data-search-terms="star wars"></FuiIcon>\n' +
+  '    galactic senate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="get pocket" size=big data-search-terms=""></FuiIcon>\n' +
+  '    get pocket\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gg" size=big data-search-terms=""></FuiIcon>\n' +
+  '    gg\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gg circle" size=big data-search-terms=""></FuiIcon>\n' +
+  '    gg circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="git" size=big data-search-terms=""></FuiIcon>\n' +
+  '    git\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="git alternate" size=big data-search-terms=""></FuiIcon>\n' +
+  '    git alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="git square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    git square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="github" size=big data-search-terms="octocat"></FuiIcon>\n' +
+  '    github\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="github alternate" size=big data-search-terms="octocat"></FuiIcon>\n' +
+  '    github alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="github square" size=big data-search-terms="octocat"></FuiIcon>\n' +
+  '    github square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gitkraken" size=big data-search-terms=""></FuiIcon>\n' +
+  '    gitkraken\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gitlab" size=big data-search-terms="Axosoft"></FuiIcon>\n' +
+  '    gitlab\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gitter" size=big data-search-terms=""></FuiIcon>\n' +
+  '    gitter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glide" size=big data-search-terms=""></FuiIcon>\n' +
+  '    glide\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glide g" size=big data-search-terms=""></FuiIcon>\n' +
+  '    glide g\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gofore" size=big data-search-terms=""></FuiIcon>\n' +
+  '    gofore\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="goodreads" size=big data-search-terms=""></FuiIcon>\n' +
+  '    goodreads\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="goodreads g" size=big data-search-terms=""></FuiIcon>\n' +
+  '    goodreads g\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="google" size=big data-search-terms=""></FuiIcon>\n' +
+  '    google\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="google drive" size=big data-search-terms=""></FuiIcon>\n' +
+  '    google drive\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="google play" size=big data-search-terms=""></FuiIcon>\n' +
+  '    google play\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="google plus" size=big data-search-terms="google-plus-circle, google-plus-official"></FuiIcon>\n' +
+  '    google plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="google plus g" size=big data-search-terms="google-plus, social network"></FuiIcon>\n' +
+  '    google plus g\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="google plus square" size=big data-search-terms="social network"></FuiIcon>\n' +
+  '    google plus square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="google wallet" size=big data-search-terms=""></FuiIcon>\n' +
+  '    google wallet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gratipay" size=big data-search-terms="favorite, heart, like, love"></FuiIcon>\n' +
+  '    gratipay\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grav" size=big data-search-terms=""></FuiIcon>\n' +
+  '    grav\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gripfire" size=big data-search-terms=""></FuiIcon>\n' +
+  '    gripfire\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grunt" size=big data-search-terms=""></FuiIcon>\n' +
+  '    grunt\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gulp" size=big data-search-terms=""></FuiIcon>\n' +
+  '    gulp\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hacker news" size=big data-search-terms=""></FuiIcon>\n' +
+  '    hacker news\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hacker news square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    hacker news square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hackerrank" size=big data-search-terms=""></FuiIcon>\n' +
+  '    hackerrank\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hips" size=big data-search-terms=""></FuiIcon>\n' +
+  '    hips\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hire a helper" size=big data-search-terms=""></FuiIcon>\n' +
+  '    hire a helper\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hooli" size=big data-search-terms=""></FuiIcon>\n' +
+  '    hooli\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hornbill" size=big data-search-terms=""></FuiIcon>\n' +
+  '    hornbill\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hotjar" size=big data-search-terms=""></FuiIcon>\n' +
+  '    hotjar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="houzz" size=big data-search-terms=""></FuiIcon>\n' +
+  '    houzz\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="html5" size=big data-search-terms=""></FuiIcon>\n' +
+  '    html5\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hubspot" size=big data-search-terms=""></FuiIcon>\n' +
+  '    hubspot\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="imdb" size=big data-search-terms=""></FuiIcon>\n' +
+  '    imdb\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="instagram" size=big data-search-terms=""></FuiIcon>\n' +
+  '    instagram\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="intercom" size=big data-search-terms="app, customer, messenger"></FuiIcon>\n' +
+  '    intercom\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="internet explorer" size=big data-search-terms="browser, ie"></FuiIcon>\n' +
+  '    internet explorer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="invision" size=big data-search-terms="app, design, interface"></FuiIcon>\n' +
+  '    invision\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ioxhost" size=big data-search-terms=""></FuiIcon>\n' +
+  '    ioxhost\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="itch io" size=big data-search-terms=""></FuiIcon>\n' +
+  '    itch io\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="itunes" size=big data-search-terms=""></FuiIcon>\n' +
+  '    itunes\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="itunes note" size=big data-search-terms=""></FuiIcon>\n' +
+  '    itunes note\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="java" size=big data-search-terms=""></FuiIcon>\n' +
+  '    java\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="jedi order" size=big data-search-terms="star wars"></FuiIcon>\n' +
+  '    jedi order\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="jenkins" size=big data-search-terms=""></FuiIcon>\n' +
+  '    jenkins\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="jira" size=big data-search-terms="atlassian"></FuiIcon>\n' +
+  '    jira\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="joget" size=big data-search-terms=""></FuiIcon>\n' +
+  '    joget\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="joomla" size=big data-search-terms=""></FuiIcon>\n' +
+  '    joomla\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="js" size=big data-search-terms=""></FuiIcon>\n' +
+  '    js\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="js square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    js square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="jsfiddle" size=big data-search-terms=""></FuiIcon>\n' +
+  '    jsfiddle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="kaggle" size=big data-search-terms=""></FuiIcon>\n' +
+  '    kaggle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="keybase" size=big data-search-terms=""></FuiIcon>\n' +
+  '    keybase\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="keycdn" size=big data-search-terms=""></FuiIcon>\n' +
+  '    keycdn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="kickstarter" size=big data-search-terms=""></FuiIcon>\n' +
+  '    kickstarter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="kickstarter k" size=big data-search-terms=""></FuiIcon>\n' +
+  '    kickstarter k\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="korvue" size=big data-search-terms=""></FuiIcon>\n' +
+  '    korvue\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laravel" size=big data-search-terms=""></FuiIcon>\n' +
+  '    laravel\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lastfm" size=big data-search-terms=""></FuiIcon>\n' +
+  '    lastfm\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lastfm square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    lastfm square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="leanpub" size=big data-search-terms=""></FuiIcon>\n' +
+  '    leanpub\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lesscss" size=big data-search-terms=""></FuiIcon>\n' +
+  '    lesscss\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="linechat" size=big data-search-terms=""></FuiIcon>\n' +
+  '    linechat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="linkedin" size=big data-search-terms="linkedin-square"></FuiIcon>\n' +
+  '    linkedin\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="linkedin in" size=big data-search-terms="linkedin"></FuiIcon>\n' +
+  '    linkedin in\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="linode" size=big data-search-terms=""></FuiIcon>\n' +
+  '    linode\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="linux" size=big data-search-terms="tux"></FuiIcon>\n' +
+  '    linux\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lyft" size=big data-search-terms=""></FuiIcon>\n' +
+  '    lyft\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="magento" size=big data-search-terms=""></FuiIcon>\n' +
+  '    magento\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mailchimp" size=big data-search-terms=""></FuiIcon>\n' +
+  '    mailchimp\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mandalorian" size=big data-search-terms=""></FuiIcon>\n' +
+  '    mandalorian\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="markdown" size=big data-search-terms=""></FuiIcon>\n' +
+  '    markdown\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mastodon" size=big data-search-terms=""></FuiIcon>\n' +
+  '    mastodon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="maxcdn" size=big data-search-terms=""></FuiIcon>\n' +
+  '    maxcdn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="medapps" size=big data-search-terms=""></FuiIcon>\n' +
+  '    medapps\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="medium" size=big data-search-terms=""></FuiIcon>\n' +
+  '    medium\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="medium m" size=big data-search-terms=""></FuiIcon>\n' +
+  '    medium m\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="medrt" size=big data-search-terms=""></FuiIcon>\n' +
+  '    medrt\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meetup" size=big data-search-terms=""></FuiIcon>\n' +
+  '    meetup\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="megaport" size=big data-search-terms=""></FuiIcon>\n' +
+  '    megaport\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mendeley" size=big data-search-terms=""></FuiIcon>\n' +
+  '    mendeley\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microsoft" size=big data-search-terms=""></FuiIcon>\n' +
+  '    microsoft\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mix" size=big data-search-terms=""></FuiIcon>\n' +
+  '    mix\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mixcloud" size=big data-search-terms=""></FuiIcon>\n' +
+  '    mixcloud\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mizuni" size=big data-search-terms=""></FuiIcon>\n' +
+  '    mizuni\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="modx" size=big data-search-terms=""></FuiIcon>\n' +
+  '    modx\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="monero" size=big data-search-terms=""></FuiIcon>\n' +
+  '    monero\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="napster" size=big data-search-terms=""></FuiIcon>\n' +
+  '    napster\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="neos" size=big data-search-terms=""></FuiIcon>\n' +
+  '    neos\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="nimblr" size=big data-search-terms=""></FuiIcon>\n' +
+  '    nimblr\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="node" size=big data-search-terms=""></FuiIcon>\n' +
+  '    node\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="node js" size=big data-search-terms=""></FuiIcon>\n' +
+  '    node js\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="npm" size=big data-search-terms=""></FuiIcon>\n' +
+  '    npm\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ns8" size=big data-search-terms=""></FuiIcon>\n' +
+  '    ns8\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="nutritionix" size=big data-search-terms=""></FuiIcon>\n' +
+  '    nutritionix\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="odnoklassniki" size=big data-search-terms=""></FuiIcon>\n' +
+  '    odnoklassniki\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="odnoklassniki square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    odnoklassniki square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="old republic" size=big data-search-terms="politics, star wars"></FuiIcon>\n' +
+  '    old republic\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="opencart" size=big data-search-terms=""></FuiIcon>\n' +
+  '    opencart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="openid" size=big data-search-terms=""></FuiIcon>\n' +
+  '    openid\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="opera" size=big data-search-terms=""></FuiIcon>\n' +
+  '    opera\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="optin monster" size=big data-search-terms=""></FuiIcon>\n' +
+  '    optin monster\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="osi" size=big data-search-terms=""></FuiIcon>\n' +
+  '    osi\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="page4" size=big data-search-terms=""></FuiIcon>\n' +
+  '    page4\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pagelines" size=big data-search-terms="eco, flora, leaf, leaves, nature, plant, tree"></FuiIcon>\n' +
+  '    pagelines\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="palfed" size=big data-search-terms=""></FuiIcon>\n' +
+  '    palfed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="patreon" size=big data-search-terms=""></FuiIcon>\n' +
+  '    patreon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paypal" size=big data-search-terms=""></FuiIcon>\n' +
+  '    paypal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="penny arcade" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, pax, tabletop"></FuiIcon>\n' +
+  '    penny arcade\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="periscope" size=big data-search-terms=""></FuiIcon>\n' +
+  '    periscope\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phabricator" size=big data-search-terms=""></FuiIcon>\n' +
+  '    phabricator\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phoenix framework" size=big data-search-terms=""></FuiIcon>\n' +
+  '    phoenix framework\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phoenix squadron" size=big data-search-terms=""></FuiIcon>\n' +
+  '    phoenix squadron\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="php" size=big data-search-terms=""></FuiIcon>\n' +
+  '    php\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pied piper" size=big data-search-terms=""></FuiIcon>\n' +
+  '    pied piper\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pied piper alternate" size=big data-search-terms=""></FuiIcon>\n' +
+  '    pied piper alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pied piper hat" size=big data-search-terms="clothing"></FuiIcon>\n' +
+  '    pied piper hat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pied piper pp" size=big data-search-terms=""></FuiIcon>\n' +
+  '    pied piper pp\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pinterest" size=big data-search-terms=""></FuiIcon>\n' +
+  '    pinterest\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pinterest p" size=big data-search-terms=""></FuiIcon>\n' +
+  '    pinterest p\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pinterest square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    pinterest square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="playstation" size=big data-search-terms=""></FuiIcon>\n' +
+  '    playstation\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="product hunt" size=big data-search-terms=""></FuiIcon>\n' +
+  '    product hunt\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pushed" size=big data-search-terms=""></FuiIcon>\n' +
+  '    pushed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="python" size=big data-search-terms=""></FuiIcon>\n' +
+  '    python\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="qq" size=big data-search-terms=""></FuiIcon>\n' +
+  '    qq\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="quinscape" size=big data-search-terms=""></FuiIcon>\n' +
+  '    quinscape\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="quora" size=big data-search-terms=""></FuiIcon>\n' +
+  '    quora\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="r project" size=big data-search-terms=""></FuiIcon>\n' +
+  '    r project\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="raspberry pi" size=big data-search-terms=""></FuiIcon>\n' +
+  '    raspberry pi\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ravelry" size=big data-search-terms=""></FuiIcon>\n' +
+  '    ravelry\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="react" size=big data-search-terms=""></FuiIcon>\n' +
+  '    react\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="reacteurope" size=big data-search-terms=""></FuiIcon>\n' +
+  '    reacteurope\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="readme" size=big data-search-terms=""></FuiIcon>\n' +
+  '    readme\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rebel" size=big data-search-terms=""></FuiIcon>\n' +
+  '    rebel\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="reddit" size=big data-search-terms=""></FuiIcon>\n' +
+  '    reddit\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="reddit alien" size=big data-search-terms=""></FuiIcon>\n' +
+  '    reddit alien\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="reddit square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    reddit square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="redhat" size=big data-search-terms="linux, operating system, os"></FuiIcon>\n' +
+  '    redhat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="redriver" size=big data-search-terms=""></FuiIcon>\n' +
+  '    redriver\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="redyeti" size=big data-search-terms=""></FuiIcon>\n' +
+  '    redyeti\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="renren" size=big data-search-terms=""></FuiIcon>\n' +
+  '    renren\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="replyd" size=big data-search-terms=""></FuiIcon>\n' +
+  '    replyd\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="researchgate" size=big data-search-terms=""></FuiIcon>\n' +
+  '    researchgate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="resolving" size=big data-search-terms=""></FuiIcon>\n' +
+  '    resolving\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rev" size=big data-search-terms=""></FuiIcon>\n' +
+  '    rev\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rocketchat" size=big data-search-terms=""></FuiIcon>\n' +
+  '    rocketchat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rockrms" size=big data-search-terms=""></FuiIcon>\n' +
+  '    rockrms\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="safari" size=big data-search-terms="browser"></FuiIcon>\n' +
+  '    safari\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="salesforce" size=big data-search-terms=""></FuiIcon>\n' +
+  '    salesforce\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sass" size=big data-search-terms=""></FuiIcon>\n' +
+  '    sass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="schlix" size=big data-search-terms=""></FuiIcon>\n' +
+  '    schlix\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="scribd" size=big data-search-terms=""></FuiIcon>\n' +
+  '    scribd\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="searchengin" size=big data-search-terms=""></FuiIcon>\n' +
+  '    searchengin\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sellcast" size=big data-search-terms="eercast"></FuiIcon>\n' +
+  '    sellcast\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sellsy" size=big data-search-terms=""></FuiIcon>\n' +
+  '    sellsy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="servicestack" size=big data-search-terms=""></FuiIcon>\n' +
+  '    servicestack\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shirtsinbulk" size=big data-search-terms=""></FuiIcon>\n' +
+  '    shirtsinbulk\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopware" size=big data-search-terms=""></FuiIcon>\n' +
+  '    shopware\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="simplybuilt" size=big data-search-terms=""></FuiIcon>\n' +
+  '    simplybuilt\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sistrix" size=big data-search-terms=""></FuiIcon>\n' +
+  '    sistrix\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sith" size=big data-search-terms=""></FuiIcon>\n' +
+  '    sith\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sketch" size=big data-search-terms="app, design, interface"></FuiIcon>\n' +
+  '    sketch\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skyatlas" size=big data-search-terms=""></FuiIcon>\n' +
+  '    skyatlas\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skype" size=big data-search-terms=""></FuiIcon>\n' +
+  '    skype\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="slack" size=big data-search-terms="anchor, hash, hashtag"></FuiIcon>\n' +
+  '    slack\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="slack hash" size=big data-search-terms="anchor, hash, hashtag"></FuiIcon>\n' +
+  '    slack hash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="slideshare" size=big data-search-terms=""></FuiIcon>\n' +
+  '    slideshare\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snapchat" size=big data-search-terms=""></FuiIcon>\n' +
+  '    snapchat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snapchat ghost" size=big data-search-terms=""></FuiIcon>\n' +
+  '    snapchat ghost\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snapchat square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    snapchat square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="soundcloud" size=big data-search-terms=""></FuiIcon>\n' +
+  '    soundcloud\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sourcetree" size=big data-search-terms=""></FuiIcon>\n' +
+  '    sourcetree\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="speakap" size=big data-search-terms=""></FuiIcon>\n' +
+  '    speakap\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="speaker deck" size=big data-search-terms=""></FuiIcon>\n' +
+  '    speaker deck\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="spotify" size=big data-search-terms=""></FuiIcon>\n' +
+  '    spotify\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="squarespace" size=big data-search-terms=""></FuiIcon>\n' +
+  '    squarespace\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stack exchange" size=big data-search-terms=""></FuiIcon>\n' +
+  '    stack exchange\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stack overflow" size=big data-search-terms=""></FuiIcon>\n' +
+  '    stack overflow\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stackpath" size=big data-search-terms=""></FuiIcon>\n' +
+  '    stackpath\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="staylinked" size=big data-search-terms=""></FuiIcon>\n' +
+  '    staylinked\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="steam" size=big data-search-terms=""></FuiIcon>\n' +
+  '    steam\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="steam square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    steam square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="steam symbol" size=big data-search-terms=""></FuiIcon>\n' +
+  '    steam symbol\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sticker mule" size=big data-search-terms=""></FuiIcon>\n' +
+  '    sticker mule\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="strava" size=big data-search-terms=""></FuiIcon>\n' +
+  '    strava\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stripe" size=big data-search-terms=""></FuiIcon>\n' +
+  '    stripe\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stripe s" size=big data-search-terms=""></FuiIcon>\n' +
+  '    stripe s\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="studiovinari" size=big data-search-terms=""></FuiIcon>\n' +
+  '    studiovinari\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stumbleupon" size=big data-search-terms=""></FuiIcon>\n' +
+  '    stumbleupon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stumbleupon circle" size=big data-search-terms=""></FuiIcon>\n' +
+  '    stumbleupon circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="superpowers" size=big data-search-terms=""></FuiIcon>\n' +
+  '    superpowers\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="supple" size=big data-search-terms=""></FuiIcon>\n' +
+  '    supple\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="suse" size=big data-search-terms="linux, operating system, os"></FuiIcon>\n' +
+  '    suse\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="symfony" size=big data-search-terms=""></FuiIcon>\n' +
+  '    symfony\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="teamspeak" size=big data-search-terms=""></FuiIcon>\n' +
+  '    teamspeak\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="telegram" size=big data-search-terms=""></FuiIcon>\n' +
+  '    telegram\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="telegram plane" size=big data-search-terms=""></FuiIcon>\n' +
+  '    telegram plane\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tencent weibo" size=big data-search-terms=""></FuiIcon>\n' +
+  '    tencent weibo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="themeco" size=big data-search-terms=""></FuiIcon>\n' +
+  '    themeco\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="themeisle" size=big data-search-terms=""></FuiIcon>\n' +
+  '    themeisle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="think peaks" size=big data-search-terms=""></FuiIcon>\n' +
+  '    think peaks\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trade federation" size=big data-search-terms=""></FuiIcon>\n' +
+  '    trade federation\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trello" size=big data-search-terms="atlassian"></FuiIcon>\n' +
+  '    trello\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tripadvisor" size=big data-search-terms=""></FuiIcon>\n' +
+  '    tripadvisor\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tumblr" size=big data-search-terms=""></FuiIcon>\n' +
+  '    tumblr\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tumblr square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    tumblr square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="twitch" size=big data-search-terms=""></FuiIcon>\n' +
+  '    twitch\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="twitter" size=big data-search-terms="social network, tweet"></FuiIcon>\n' +
+  '    twitter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="twitter square" size=big data-search-terms="social network, tweet"></FuiIcon>\n' +
+  '    twitter square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="typo3" size=big data-search-terms=""></FuiIcon>\n' +
+  '    typo3\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="uber" size=big data-search-terms=""></FuiIcon>\n' +
+  '    uber\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ubuntu" size=big data-search-terms="linux, operating system, os"></FuiIcon>\n' +
+  '    ubuntu\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="uikit" size=big data-search-terms=""></FuiIcon>\n' +
+  '    uikit\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="uniregistry" size=big data-search-terms=""></FuiIcon>\n' +
+  '    uniregistry\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="untappd" size=big data-search-terms=""></FuiIcon>\n' +
+  '    untappd\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ups" size=big data-search-terms="United Parcel Service, package, shipping"></FuiIcon>\n' +
+  '    ups\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="usb" size=big data-search-terms=""></FuiIcon>\n' +
+  '    usb\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="usps" size=big data-search-terms="american, package, shipping, usa"></FuiIcon>\n' +
+  '    usps\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ussunnah" size=big data-search-terms=""></FuiIcon>\n' +
+  '    ussunnah\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vaadin" size=big data-search-terms=""></FuiIcon>\n' +
+  '    vaadin\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="viacoin" size=big data-search-terms=""></FuiIcon>\n' +
+  '    viacoin\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="viadeo" size=big data-search-terms=""></FuiIcon>\n' +
+  '    viadeo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="viadeo square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    viadeo square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="viber" size=big data-search-terms=""></FuiIcon>\n' +
+  '    viber\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vimeo" size=big data-search-terms=""></FuiIcon>\n' +
+  '    vimeo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vimeo square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    vimeo square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vimeo v" size=big data-search-terms="vimeo"></FuiIcon>\n' +
+  '    vimeo v\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vine" size=big data-search-terms=""></FuiIcon>\n' +
+  '    vine\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vk" size=big data-search-terms=""></FuiIcon>\n' +
+  '    vk\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vnv" size=big data-search-terms=""></FuiIcon>\n' +
+  '    vnv\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vuejs" size=big data-search-terms=""></FuiIcon>\n' +
+  '    vuejs\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="waze" size=big data-search-terms=""></FuiIcon>\n' +
+  '    waze\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="weebly" size=big data-search-terms=""></FuiIcon>\n' +
+  '    weebly\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="weibo" size=big data-search-terms=""></FuiIcon>\n' +
+  '    weibo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="weixin" size=big data-search-terms=""></FuiIcon>\n' +
+  '    weixin\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="whatsapp" size=big data-search-terms=""></FuiIcon>\n' +
+  '    whatsapp\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="whatsapp square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    whatsapp square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="whmcs" size=big data-search-terms=""></FuiIcon>\n' +
+  '    whmcs\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wikipedia w" size=big data-search-terms=""></FuiIcon>\n' +
+  '    wikipedia w\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="windows" size=big data-search-terms="microsoft, operating system, os"></FuiIcon>\n' +
+  '    windows\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wix" size=big data-search-terms=""></FuiIcon>\n' +
+  '    wix\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wizards of the coast" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop"></FuiIcon>\n' +
+  '    wizards of the coast\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wolf pack battalion" size=big data-search-terms=""></FuiIcon>\n' +
+  '    wolf pack battalion\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wordpress" size=big data-search-terms=""></FuiIcon>\n' +
+  '    wordpress\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wordpress simple" size=big data-search-terms=""></FuiIcon>\n' +
+  '    wordpress simple\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wpbeginner" size=big data-search-terms=""></FuiIcon>\n' +
+  '    wpbeginner\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wpexplorer" size=big data-search-terms=""></FuiIcon>\n' +
+  '    wpexplorer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wpforms" size=big data-search-terms=""></FuiIcon>\n' +
+  '    wpforms\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wpressr" size=big data-search-terms="rendact"></FuiIcon>\n' +
+  '    wpressr\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="xbox" size=big data-search-terms=""></FuiIcon>\n' +
+  '    xbox\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="xing" size=big data-search-terms=""></FuiIcon>\n' +
+  '    xing\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="xing square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    xing square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="y combinator" size=big data-search-terms=""></FuiIcon>\n' +
+  '    y combinator\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="yahoo" size=big data-search-terms=""></FuiIcon>\n' +
+  '    yahoo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="yammer" size=big data-search-terms=""></FuiIcon>\n' +
+  '    yammer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="yandex" size=big data-search-terms=""></FuiIcon>\n' +
+  '    yandex\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="yandex international" size=big data-search-terms=""></FuiIcon>\n' +
+  '    yandex international\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="yarn" size=big data-search-terms=""></FuiIcon>\n' +
+  '    yarn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="yelp" size=big data-search-terms=""></FuiIcon>\n' +
+  '    yelp\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="yoast" size=big data-search-terms=""></FuiIcon>\n' +
+  '    yoast\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="youtube" size=big data-search-terms="film, video, youtube-play, youtube-square"></FuiIcon>\n' +
+  '    youtube\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="youtube square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    youtube square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="zhihu" size=big data-search-terms=""></FuiIcon>\n' +
+  '    zhihu\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconGames1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess" size=big data-search-terms="board, castle, checkmate, game, king, rook, strategy, tournament"></FuiIcon>\n' +
+  '    chess\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess bishop" size=big data-search-terms="board, checkmate, game, strategy"></FuiIcon>\n' +
+  '    chess bishop\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess board" size=big data-search-terms="board, checkmate, game, strategy"></FuiIcon>\n' +
+  '    chess board\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess king" size=big data-search-terms="board, checkmate, game, strategy"></FuiIcon>\n' +
+  '    chess king\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess knight" size=big data-search-terms="board, checkmate, game, horse, strategy"></FuiIcon>\n' +
+  '    chess knight\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess pawn" size=big data-search-terms="board, checkmate, game, strategy"></FuiIcon>\n' +
+  '    chess pawn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess queen" size=big data-search-terms="board, checkmate, game, strategy"></FuiIcon>\n' +
+  '    chess queen\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess rook" size=big data-search-terms="board, castle, checkmate, game, strategy"></FuiIcon>\n' +
+  '    chess rook\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice d20" size=big data-search-terms="Dungeons & Dragons, chance, d&d, dnd, fantasy, gambling, game, roll"></FuiIcon>\n' +
+  '    dice d20\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice d6" size=big data-search-terms="Dungeons & Dragons, chance, d&d, dnd, fantasy, gambling, game, roll"></FuiIcon>\n' +
+  '    dice d6\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice five" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice five\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice four" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice four\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice one" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice one\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice six" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice six\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice three" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice three\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dice two" size=big data-search-terms="chance, gambling, game, roll"></FuiIcon>\n' +
+  '    dice two\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gamepad" size=big data-search-terms="controller, d-pad, joystick, video"></FuiIcon>\n' +
+  '    gamepad\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ghost" size=big data-search-terms="apparition, blinky, clyde, floating, halloween, holiday, inky, pinky, spirit"></FuiIcon>\n' +
+  '    ghost\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="headset" size=big data-search-terms="audio, gamer, gaming, listen, live chat, microphone, shot caller, sound, support, telemarketer"></FuiIcon>\n' +
+  '    headset\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart outline" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="playstation" size=big data-search-terms=""></FuiIcon>\n' +
+  '    playstation\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="puzzle piece" size=big data-search-terms="add-on, addon, game, section"></FuiIcon>\n' +
+  '    puzzle piece\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="steam" size=big data-search-terms=""></FuiIcon>\n' +
+  '    steam\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="steam square" size=big data-search-terms=""></FuiIcon>\n' +
+  '    steam square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="steam symbol" size=big data-search-terms=""></FuiIcon>\n' +
+  '    steam symbol\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="twitch" size=big data-search-terms=""></FuiIcon>\n' +
+  '    twitch\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="xbox" size=big data-search-terms=""></FuiIcon>\n' +
+  '    xbox\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconMathematics1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calculator" size=big data-search-terms="abacus, addition, arithmetic, counting, math, multiplication, subtraction"></FuiIcon>\n' +
+  '    calculator\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="divide" size=big data-search-terms="arithmetic, calculus, division, math"></FuiIcon>\n' +
+  '    divide\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="equals" size=big data-search-terms="arithmetic, even, match, math"></FuiIcon>\n' +
+  '    equals\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="greater than" size=big data-search-terms="arithmetic, compare, math"></FuiIcon>\n' +
+  '    greater than\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="greater than equal" size=big data-search-terms="arithmetic, compare, math"></FuiIcon>\n' +
+  '    greater than equal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="infinity" size=big data-search-terms="eternity, forever, math"></FuiIcon>\n' +
+  '    infinity\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="less than" size=big data-search-terms="arithmetic, compare, math"></FuiIcon>\n' +
+  '    less than\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="less than equal" size=big data-search-terms="arithmetic, compare, math"></FuiIcon>\n' +
+  '    less than equal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="minus" size=big data-search-terms="collapse, delete, hide, minify, negative, remove, trash"></FuiIcon>\n' +
+  '    minus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="not equal" size=big data-search-terms="arithmetic, compare, math"></FuiIcon>\n' +
+  '    not equal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="percentage" size=big data-search-terms="discount, fraction, proportion, rate, ratio"></FuiIcon>\n' +
+  '    percentage\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="square root alternate" size=big data-search-terms="arithmetic, calculus, division, math"></FuiIcon>\n' +
+  '    square root alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="subscript" size=big data-search-terms="edit, font, format, text, type"></FuiIcon>\n' +
+  '    subscript\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="superscript" size=big data-search-terms="edit, exponential, font, format, text, type"></FuiIcon>\n' +
+  '    superscript\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="times" size=big data-search-terms="close, cross, error, exit, incorrect, notice, notification, notify, problem, wrong, x"></FuiIcon>\n' +
+  '    times\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wave square" size=big data-search-terms="frequency, pulse, signal"></FuiIcon>\n' +
+  '    wave square\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconShapes1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bookmark" size=big data-search-terms="favorite, marker, read, remember, save"></FuiIcon>\n' +
+  '    bookmark\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bookmark outline" size=big data-search-terms="favorite, marker, read, remember, save"></FuiIcon>\n' +
+  '    bookmark outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar" size=big data-search-terms="calendar-o, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar outline" size=big data-search-terms="calendar-o, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="certificate" size=big data-search-terms="badge, star, verified"></FuiIcon>\n' +
+  '    certificate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="circle" size=big data-search-terms="circle-thin, diameter, dot, ellipse, notification, round"></FuiIcon>\n' +
+  '    circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="circle outline" size=big data-search-terms="circle-thin, diameter, dot, ellipse, notification, round"></FuiIcon>\n' +
+  '    circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud" size=big data-search-terms="atmosphere, fog, overcast, save, upload, weather"></FuiIcon>\n' +
+  '    cloud\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment outline" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file outline" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder" size=big data-search-terms="archive, directory, document, file"></FuiIcon>\n' +
+  '    folder\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder outline" size=big data-search-terms="archive, directory, document, file"></FuiIcon>\n' +
+  '    folder outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart broken" size=big data-search-terms="breakup, crushed, dislike, dumped, grief, love, lovesick, relationship, sad"></FuiIcon>\n' +
+  '    heart broken\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart outline" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map marker" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map marker\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="play" size=big data-search-terms="audio, music, playing, sound, start, video"></FuiIcon>\n' +
+  '    play\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shapes" size=big data-search-terms="blocks, build, circle, square, triangle"></FuiIcon>\n' +
+  '    shapes\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="square" size=big data-search-terms="block, box, shape"></FuiIcon>\n' +
+  '    square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="square outline" size=big data-search-terms="block, box, shape"></FuiIcon>\n' +
+  '    square outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
+  '    star\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star outline" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
+  '    star outline\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconAutumn1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="campground" size=big data-search-terms="camping, fall, outdoors, teepee, tent, tipi"></FuiIcon>\n' +
+  '    campground\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud sun" size=big data-search-terms="clear, day, daytime, fall, outdoors, overcast, partly cloudy"></FuiIcon>\n' +
+  '    cloud sun\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="drumstick bite" size=big data-search-terms="bone, chicken, leg, meat, poultry, turkey"></FuiIcon>\n' +
+  '    drumstick bite\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="football ball" size=big data-search-terms="ball, fall, nfl, pigskin, seasonal"></FuiIcon>\n' +
+  '    football ball\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fruit-apple" size=big data-search-terms="fall, fruit, fuji, macintosh, orchard, seasonal, vegan"></FuiIcon>\n' +
+  '    fruit-apple\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hiking" size=big data-search-terms="activity, backpack, fall, fitness, outdoors, person, seasonal, walking"></FuiIcon>\n' +
+  '    hiking\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mountain" size=big data-search-terms="glacier, hiking, hill, landscape, travel, view"></FuiIcon>\n' +
+  '    mountain\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tractor" size=big data-search-terms="agriculture, farm, vehicle"></FuiIcon>\n' +
+  '    tractor\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tree" size=big data-search-terms="bark, fall, flora, forest, nature, plant, seasonal"></FuiIcon>\n' +
+  '    tree\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wind" size=big data-search-terms="air, blow, breeze, fall, seasonal, weather"></FuiIcon>\n' +
+  '    wind\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wine bottle" size=big data-search-terms="alcohol, beverage, cabernet, drink, glass, grapes, merlot, sauvignon"></FuiIcon>\n' +
+  '    wine bottle\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconSpring1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="allergies" size=big data-search-terms="allergy, freckles, hand, hives, pox, skin, spots"></FuiIcon>\n' +
+  '    allergies\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="broom" size=big data-search-terms="clean, firebolt, fly, halloween, nimbus 2000, quidditch, sweep, witch"></FuiIcon>\n' +
+  '    broom\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud sun" size=big data-search-terms="clear, day, daytime, fall, outdoors, overcast, partly cloudy"></FuiIcon>\n' +
+  '    cloud sun\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud sun rain" size=big data-search-terms="day, overcast, precipitation, storm, summer, sunshower"></FuiIcon>\n' +
+  '    cloud sun rain\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frog" size=big data-search-terms="amphibian, bullfrog, fauna, hop, kermit, kiss, prince, ribbit, toad, wart"></FuiIcon>\n' +
+  '    frog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rainbow" size=big data-search-terms="gold, leprechaun, prism, rain, sky"></FuiIcon>\n' +
+  '    rainbow\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="seedling" size=big data-search-terms="flora, grow, plant, vegan"></FuiIcon>\n' +
+  '    seedling\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="umbrella" size=big data-search-terms="protection, rain, storm, wet"></FuiIcon>\n' +
+  '    umbrella\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconChat1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment alternate" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment alternate outline" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment dots" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, more, note, notification, reply, sms, speech, texting"></FuiIcon>\n' +
+  '    comment dots\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment dots outline" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, more, note, notification, reply, sms, speech, texting"></FuiIcon>\n' +
+  '    comment dots outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment medical" size=big data-search-terms="advice, bubble, chat, commenting, conversation, diagnose, feedback, message, note, notification, prescription, sms, speech, texting"></FuiIcon>\n' +
+  '    comment medical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment outline" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment slash" size=big data-search-terms="bubble, cancel, chat, commenting, conversation, feedback, message, mute, note, notification, quiet, sms, speech, texting"></FuiIcon>\n' +
+  '    comment slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comments" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comments\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comments outline" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comments outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frown" size=big data-search-terms="disapprove, emoticon, face, rating, sad"></FuiIcon>\n' +
+  '    frown\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frown outline" size=big data-search-terms="disapprove, emoticon, face, rating, sad"></FuiIcon>\n' +
+  '    frown outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="icons" size=big data-search-terms="bolt, emoji, heart, image, music, photo, symbols"></FuiIcon>\n' +
+  '    icons\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meh" size=big data-search-terms="emoticon, face, neutral, rating"></FuiIcon>\n' +
+  '    meh\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meh outline" size=big data-search-terms="emoticon, face, neutral, rating"></FuiIcon>\n' +
+  '    meh outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone alternate" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone slash" size=big data-search-terms="call, cancel, earphone, mute, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="poo" size=big data-search-terms="crap, poop, shit, smile, turd"></FuiIcon>\n' +
+  '    poo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="quote left" size=big data-search-terms="mention, note, phrase, text, type"></FuiIcon>\n' +
+  '    quote left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="quote right" size=big data-search-terms="mention, note, phrase, text, type"></FuiIcon>\n' +
+  '    quote right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smile" size=big data-search-terms="approve, emoticon, face, happy, rating, satisfied"></FuiIcon>\n' +
+  '    smile\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smile outline" size=big data-search-terms="approve, emoticon, face, happy, rating, satisfied"></FuiIcon>\n' +
+  '    smile outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sms" size=big data-search-terms="chat, conversation, message, mobile, notification, phone, sms, texting"></FuiIcon>\n' +
+  '    sms\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="video" size=big data-search-terms="camera, film, movie, record, video-camera"></FuiIcon>\n' +
+  '    video\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="video slash" size=big data-search-terms="add, create, film, new, positive, record, video"></FuiIcon>\n' +
+  '    video slash\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconDateTime1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell outline" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell slash" size=big data-search-terms="alert, cancel, disabled, notification, off, reminder"></FuiIcon>\n' +
+  '    bell slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell slash outline" size=big data-search-terms="alert, cancel, disabled, notification, off, reminder"></FuiIcon>\n' +
+  '    bell slash outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar" size=big data-search-terms="calendar-o, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar alternate" size=big data-search-terms="calendar, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar alternate outline" size=big data-search-terms="calendar, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar check" size=big data-search-terms="accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, tick, time, todo, when"></FuiIcon>\n' +
+  '    calendar check\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar check outline" size=big data-search-terms="accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, tick, time, todo, when"></FuiIcon>\n' +
+  '    calendar check outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar minus" size=big data-search-terms="calendar, date, delete, event, negative, remove, schedule, time, when"></FuiIcon>\n' +
+  '    calendar minus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar minus outline" size=big data-search-terms="calendar, date, delete, event, negative, remove, schedule, time, when"></FuiIcon>\n' +
+  '    calendar minus outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar outline" size=big data-search-terms="calendar-o, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar plus" size=big data-search-terms="add, calendar, create, date, event, new, positive, schedule, time, when"></FuiIcon>\n' +
+  '    calendar plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar plus outline" size=big data-search-terms="add, calendar, create, date, event, new, positive, schedule, time, when"></FuiIcon>\n' +
+  '    calendar plus outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar times" size=big data-search-terms="archive, calendar, date, delete, event, remove, schedule, time, when, x"></FuiIcon>\n' +
+  '    calendar times\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar times outline" size=big data-search-terms="archive, calendar, date, delete, event, remove, schedule, time, when, x"></FuiIcon>\n' +
+  '    calendar times outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clock" size=big data-search-terms="date, late, schedule, time, timer, timestamp, watch"></FuiIcon>\n' +
+  '    clock\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clock outline" size=big data-search-terms="date, late, schedule, time, timer, timestamp, watch"></FuiIcon>\n' +
+  '    clock outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hourglass" size=big data-search-terms="hour, minute, sand, stopwatch, time"></FuiIcon>\n' +
+  '    hourglass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hourglass end" size=big data-search-terms="hour, minute, sand, stopwatch, time"></FuiIcon>\n' +
+  '    hourglass end\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hourglass half" size=big data-search-terms="hour, minute, sand, stopwatch, time"></FuiIcon>\n' +
+  '    hourglass half\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hourglass outline" size=big data-search-terms="hour, minute, sand, stopwatch, time"></FuiIcon>\n' +
+  '    hourglass outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hourglass start" size=big data-search-terms="hour, minute, sand, stopwatch, time"></FuiIcon>\n' +
+  '    hourglass start\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stopwatch" size=big data-search-terms="clock, reminder, time"></FuiIcon>\n' +
+  '    stopwatch\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconScience1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="atom" size=big data-search-terms="atheism, chemistry, ion, nuclear, science"></FuiIcon>\n' +
+  '    atom\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="biohazard" size=big data-search-terms="danger, dangerous, hazmat, medical, radioactive, toxic, waste, zombie"></FuiIcon>\n' +
+  '    biohazard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="brain" size=big data-search-terms="cerebellum, gray matter, intellect, medulla oblongata, mind, noodle, wit"></FuiIcon>\n' +
+  '    brain\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="burn" size=big data-search-terms="caliente, energy, fire, flame, gas, heat, hot"></FuiIcon>\n' +
+  '    burn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="capsules" size=big data-search-terms="drugs, medicine, pills, prescription"></FuiIcon>\n' +
+  '    capsules\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clipboard check" size=big data-search-terms="accept, agree, confirm, done, ok, select, success, tick, todo, yes"></FuiIcon>\n' +
+  '    clipboard check\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dna" size=big data-search-terms="double helix, genetic, helix, molecule, protein"></FuiIcon>\n' +
+  '    dna\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye dropper" size=big data-search-terms="beaker, clone, color, copy, eyedropper, pipette"></FuiIcon>\n' +
+  '    eye dropper\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="filter" size=big data-search-terms="funnel, options, separate, sort"></FuiIcon>\n' +
+  '    filter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fire" size=big data-search-terms="burn, caliente, flame, heat, hot, popular"></FuiIcon>\n' +
+  '    fire\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fire alternate" size=big data-search-terms="burn, caliente, flame, heat, hot, popular"></FuiIcon>\n' +
+  '    fire alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flask" size=big data-search-terms="beaker, experimental, labs, science"></FuiIcon>\n' +
+  '    flask\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frog" size=big data-search-terms="amphibian, bullfrog, fauna, hop, kermit, kiss, prince, ribbit, toad, wart"></FuiIcon>\n' +
+  '    frog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="magnet" size=big data-search-terms="Attract, lodestone, tool"></FuiIcon>\n' +
+  '    magnet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microscope" size=big data-search-terms="electron, lens, optics, science, shrink"></FuiIcon>\n' +
+  '    microscope\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mortar pestle" size=big data-search-terms="crush, culinary, grind, medical, mix, pharmacy, prescription, spices"></FuiIcon>\n' +
+  '    mortar pestle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pills" size=big data-search-terms="drugs, medicine, prescription, tablets"></FuiIcon>\n' +
+  '    pills\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="prescription bottle" size=big data-search-terms="drugs, medical, medicine, pharmacy, rx"></FuiIcon>\n' +
+  '    prescription bottle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="radiation" size=big data-search-terms="danger, dangerous, deadly, hazard, nuclear, radioactive, warning"></FuiIcon>\n' +
+  '    radiation\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="radiation alternate" size=big data-search-terms="danger, dangerous, deadly, hazard, nuclear, radioactive, warning"></FuiIcon>\n' +
+  '    radiation alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="seedling" size=big data-search-terms="flora, grow, plant, vegan"></FuiIcon>\n' +
+  '    seedling\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skull crossbones" size=big data-search-terms="Dungeons & Dragons, alert, bones, d&d, danger, dead, deadly, death, dnd, fantasy, halloween, holiday, jolly-roger, pirate, poison, skeleton, warning"></FuiIcon>\n' +
+  '    skull crossbones\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="syringe" size=big data-search-terms="doctor, immunizations, medical, needle"></FuiIcon>\n' +
+  '    syringe\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tablets" size=big data-search-terms="drugs, medicine, pills, prescription"></FuiIcon>\n' +
+  '    tablets\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="temperature high" size=big data-search-terms="cook, mercury, summer, thermometer, warm"></FuiIcon>\n' +
+  '    temperature high\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="temperature low" size=big data-search-terms="cold, cool, mercury, thermometer, winter"></FuiIcon>\n' +
+  '    temperature low\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vial" size=big data-search-terms="experiment, lab, sample, science, test, test tube"></FuiIcon>\n' +
+  '    vial\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vials" size=big data-search-terms="experiment, lab, sample, science, test, test tube"></FuiIcon>\n' +
+  '    vials\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconWinter1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glass whiskey" size=big data-search-terms="alcohol, bar, beverage, bourbon, drink, liquor, neat, rye, scotch, whisky"></FuiIcon>\n' +
+  '    glass whiskey\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="icicles" size=big data-search-terms="cold, frozen, hanging, ice, seasonal, sharp"></FuiIcon>\n' +
+  '    icicles\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="igloo" size=big data-search-terms="dome, dwelling, eskimo, home, house, ice, snow"></FuiIcon>\n' +
+  '    igloo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mitten" size=big data-search-terms="clothing, cold, glove, hands, knitted, seasonal, warmth"></FuiIcon>\n' +
+  '    mitten\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skating" size=big data-search-terms="activity, figure skating, fitness, ice, person, winter"></FuiIcon>\n' +
+  '    skating\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skiing" size=big data-search-terms="activity, downhill, fast, fitness, olympics, outdoors, person, seasonal, slalom"></FuiIcon>\n' +
+  '    skiing\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skiing nordic" size=big data-search-terms="activity, cross country, fitness, outdoors, person, seasonal"></FuiIcon>\n' +
+  '    skiing nordic\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowboarding" size=big data-search-terms="activity, fitness, olympics, outdoors, person"></FuiIcon>\n' +
+  '    snowboarding\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowplow" size=big data-search-terms="clean up, cold, road, storm, winter"></FuiIcon>\n' +
+  '    snowplow\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tram" size=big data-search-terms="crossing, machine, mountains, seasonal, transportation"></FuiIcon>\n' +
+  '    tram\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconFitness1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bicycle" size=big data-search-terms="bike, gears, pedal, transportation, vehicle"></FuiIcon>\n' +
+  '    bicycle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="biking" size=big data-search-terms="bicycle, bike, cycle, cycling, ride, wheel"></FuiIcon>\n' +
+  '    biking\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="burn" size=big data-search-terms="caliente, energy, fire, flame, gas, heat, hot"></FuiIcon>\n' +
+  '    burn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fire alternate" size=big data-search-terms="burn, caliente, flame, heat, hot, popular"></FuiIcon>\n' +
+  '    fire alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart outline" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heartbeat" size=big data-search-terms="ekg, electrocardiogram, health, lifeline, vital signs"></FuiIcon>\n' +
+  '    heartbeat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hiking" size=big data-search-terms="activity, backpack, fall, fitness, outdoors, person, seasonal, walking"></FuiIcon>\n' +
+  '    hiking\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="running" size=big data-search-terms="exercise, health, jog, person, run, sport, sprint"></FuiIcon>\n' +
+  '    running\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shoe prints" size=big data-search-terms="feet, footprints, steps, walk"></FuiIcon>\n' +
+  '    shoe prints\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skating" size=big data-search-terms="activity, figure skating, fitness, ice, person, winter"></FuiIcon>\n' +
+  '    skating\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skiing" size=big data-search-terms="activity, downhill, fast, fitness, olympics, outdoors, person, seasonal, slalom"></FuiIcon>\n' +
+  '    skiing\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skiing nordic" size=big data-search-terms="activity, cross country, fitness, outdoors, person, seasonal"></FuiIcon>\n' +
+  '    skiing nordic\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowboarding" size=big data-search-terms="activity, fitness, olympics, outdoors, person"></FuiIcon>\n' +
+  '    snowboarding\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="spa" size=big data-search-terms="flora, massage, mindfulness, plant, wellness"></FuiIcon>\n' +
+  '    spa\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="swimmer" size=big data-search-terms="athlete, head, man, olympics, person, pool, water"></FuiIcon>\n' +
+  '    swimmer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="walking" size=big data-search-terms="exercise, health, pedometer, person, steps"></FuiIcon>\n' +
+  '    walking\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconDesign1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="adjust" size=big data-search-terms="contrast, dark, light, saturation"></FuiIcon>\n' +
+  '    adjust\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bezier curve" size=big data-search-terms="curves, illustrator, lines, path, vector"></FuiIcon>\n' +
+  '    bezier curve\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="brush" size=big data-search-terms="art, bristles, color, handle, paint"></FuiIcon>\n' +
+  '    brush\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clone" size=big data-search-terms="arrange, copy, duplicate, paste"></FuiIcon>\n' +
+  '    clone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clone outline" size=big data-search-terms="arrange, copy, duplicate, paste"></FuiIcon>\n' +
+  '    clone outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="copy" size=big data-search-terms="clone, duplicate, file, files-o, paper, paste"></FuiIcon>\n' +
+  '    copy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="copy outline" size=big data-search-terms="clone, duplicate, file, files-o, paper, paste"></FuiIcon>\n' +
+  '    copy outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="crop" size=big data-search-terms="design, frame, mask, resize, shrink"></FuiIcon>\n' +
+  '    crop\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="crop alternate" size=big data-search-terms="design, frame, mask, resize, shrink"></FuiIcon>\n' +
+  '    crop alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="crosshairs" size=big data-search-terms="aim, bullseye, gpd, picker, position"></FuiIcon>\n' +
+  '    crosshairs\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cut" size=big data-search-terms="clip, scissors, snip"></FuiIcon>\n' +
+  '    cut\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="drafting compass" size=big data-search-terms="design, map, mechanical drawing, plot, plotting"></FuiIcon>\n' +
+  '    drafting compass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="draw polygon" size=big data-search-terms="anchors, lines, object, render, shape"></FuiIcon>\n' +
+  '    draw polygon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="edit" size=big data-search-terms="edit, pen, pencil, update, write"></FuiIcon>\n' +
+  '    edit\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="edit outline" size=big data-search-terms="edit, pen, pencil, update, write"></FuiIcon>\n' +
+  '    edit outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eraser" size=big data-search-terms="art, delete, remove, rubber"></FuiIcon>\n' +
+  '    eraser\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye" size=big data-search-terms="look, optic, see, seen, show, sight, views, visible"></FuiIcon>\n' +
+  '    eye\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye dropper" size=big data-search-terms="beaker, clone, color, copy, eyedropper, pipette"></FuiIcon>\n' +
+  '    eye dropper\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye outline" size=big data-search-terms="look, optic, see, seen, show, sight, views, visible"></FuiIcon>\n' +
+  '    eye outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye slash" size=big data-search-terms="blind, hide, show, toggle, unseen, views, visible, visiblity"></FuiIcon>\n' +
+  '    eye slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye slash outline" size=big data-search-terms="blind, hide, show, toggle, unseen, views, visible, visiblity"></FuiIcon>\n' +
+  '    eye slash outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fill" size=big data-search-terms="bucket, color, paint, paint bucket"></FuiIcon>\n' +
+  '    fill\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fill drip" size=big data-search-terms="bucket, color, drop, paint, paint bucket, spill"></FuiIcon>\n' +
+  '    fill drip\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="highlighter" size=big data-search-terms="edit, marker, sharpie, update, write"></FuiIcon>\n' +
+  '    highlighter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="icons" size=big data-search-terms="bolt, emoji, heart, image, music, photo, symbols"></FuiIcon>\n' +
+  '    icons\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="layer group" size=big data-search-terms="arrange, develop, layers, map, stack"></FuiIcon>\n' +
+  '    layer group\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="magic" size=big data-search-terms="autocomplete, automatic, mage, magic, spell, wand, witch, wizard"></FuiIcon>\n' +
+  '    magic\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="marker" size=big data-search-terms="design, edit, sharpie, update, write"></FuiIcon>\n' +
+  '    marker\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="object group" size=big data-search-terms="combine, copy, design, merge, select"></FuiIcon>\n' +
+  '    object group\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="object group outline" size=big data-search-terms="combine, copy, design, merge, select"></FuiIcon>\n' +
+  '    object group outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="object ungroup" size=big data-search-terms="copy, design, merge, select, separate"></FuiIcon>\n' +
+  '    object ungroup\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="object ungroup outline" size=big data-search-terms="copy, design, merge, select, separate"></FuiIcon>\n' +
+  '    object ungroup outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paint brush" size=big data-search-terms="acrylic, art, brush, color, fill, paint, pigment, watercolor"></FuiIcon>\n' +
+  '    paint brush\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paint roller" size=big data-search-terms="acrylic, art, brush, color, fill, paint, pigment, watercolor"></FuiIcon>\n' +
+  '    paint roller\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="palette" size=big data-search-terms="acrylic, art, brush, color, fill, paint, pigment, watercolor"></FuiIcon>\n' +
+  '    palette\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paste" size=big data-search-terms="clipboard, copy, document, paper"></FuiIcon>\n' +
+  '    paste\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen" size=big data-search-terms="design, edit, update, write"></FuiIcon>\n' +
+  '    pen\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen alternate" size=big data-search-terms="design, edit, update, write"></FuiIcon>\n' +
+  '    pen alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen fancy" size=big data-search-terms="design, edit, fountain pen, update, write"></FuiIcon>\n' +
+  '    pen fancy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen nib" size=big data-search-terms="design, edit, fountain pen, update, write"></FuiIcon>\n' +
+  '    pen nib\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pencil alternate" size=big data-search-terms="design, edit, pencil, update, write"></FuiIcon>\n' +
+  '    pencil alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pencil ruler" size=big data-search-terms="design, draft, draw, pencil"></FuiIcon>\n' +
+  '    pencil ruler\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ruler combined" size=big data-search-terms="design, draft, length, measure, planning"></FuiIcon>\n' +
+  '    ruler combined\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ruler horizontal" size=big data-search-terms="design, draft, length, measure, planning"></FuiIcon>\n' +
+  '    ruler horizontal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ruler vertical" size=big data-search-terms="design, draft, length, measure, planning"></FuiIcon>\n' +
+  '    ruler vertical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="save" size=big data-search-terms="disk, download, floppy, floppy-o"></FuiIcon>\n' +
+  '    save\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="save outline" size=big data-search-terms="disk, download, floppy, floppy-o"></FuiIcon>\n' +
+  '    save outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="splotch" size=big data-search-terms="Ink, blob, blotch, glob, stain"></FuiIcon>\n' +
+  '    splotch\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="spray can" size=big data-search-terms="Paint, aerosol, design, graffiti, tag"></FuiIcon>\n' +
+  '    spray can\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stamp" size=big data-search-terms="art, certificate, imprint, rubber, seal"></FuiIcon>\n' +
+  '    stamp\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="swatchbook" size=big data-search-terms="Pantone, color, design, hue, palette"></FuiIcon>\n' +
+  '    swatchbook\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tint" size=big data-search-terms="color, drop, droplet, raindrop, waterdrop"></FuiIcon>\n' +
+  '    tint\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tint slash" size=big data-search-terms="color, drop, droplet, raindrop, waterdrop"></FuiIcon>\n' +
+  '    tint slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vector square" size=big data-search-terms="anchors, lines, object, render, shape"></FuiIcon>\n' +
+  '    vector square\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconHands1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="allergies" size=big data-search-terms="allergy, freckles, hand, hives, pox, skin, spots"></FuiIcon>\n' +
+  '    allergies\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fist raised" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, hand, ki, monk, resist, strength, unarmed combat"></FuiIcon>\n' +
+  '    fist raised\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand holding" size=big data-search-terms="carry, lift"></FuiIcon>\n' +
+  '    hand holding\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand holding heart" size=big data-search-terms="carry, charity, gift, lift, package"></FuiIcon>\n' +
+  '    hand holding heart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand holding usd" size=big data-search-terms="$, carry, dollar sign, donation, giving, lift, money, price"></FuiIcon>\n' +
+  '    hand holding usd\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand lizard" size=big data-search-terms="game, roshambo"></FuiIcon>\n' +
+  '    hand lizard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand lizard outline" size=big data-search-terms="game, roshambo"></FuiIcon>\n' +
+  '    hand lizard outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand middle finger" size=big data-search-terms="flip the bird, gesture, hate, rude"></FuiIcon>\n' +
+  '    hand middle finger\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand paper" size=big data-search-terms="game, halt, roshambo, stop"></FuiIcon>\n' +
+  '    hand paper\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand paper outline" size=big data-search-terms="game, halt, roshambo, stop"></FuiIcon>\n' +
+  '    hand paper outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand peace" size=big data-search-terms="rest, truce"></FuiIcon>\n' +
+  '    hand peace\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand peace outline" size=big data-search-terms="rest, truce"></FuiIcon>\n' +
+  '    hand peace outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point down" size=big data-search-terms="finger, hand-o-down, point"></FuiIcon>\n' +
+  '    hand point down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point down outline" size=big data-search-terms="finger, hand-o-down, point"></FuiIcon>\n' +
+  '    hand point down outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point left" size=big data-search-terms="back, finger, hand-o-left, left, point, previous"></FuiIcon>\n' +
+  '    hand point left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point left outline" size=big data-search-terms="back, finger, hand-o-left, left, point, previous"></FuiIcon>\n' +
+  '    hand point left outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point right" size=big data-search-terms="finger, forward, hand-o-right, next, point, right"></FuiIcon>\n' +
+  '    hand point right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point right outline" size=big data-search-terms="finger, forward, hand-o-right, next, point, right"></FuiIcon>\n' +
+  '    hand point right outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point up" size=big data-search-terms="finger, hand-o-up, point"></FuiIcon>\n' +
+  '    hand point up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point up outline" size=big data-search-terms="finger, hand-o-up, point"></FuiIcon>\n' +
+  '    hand point up outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand pointer" size=big data-search-terms="arrow, cursor, select"></FuiIcon>\n' +
+  '    hand pointer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand pointer outline" size=big data-search-terms="arrow, cursor, select"></FuiIcon>\n' +
+  '    hand pointer outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand rock" size=big data-search-terms="fist, game, roshambo"></FuiIcon>\n' +
+  '    hand rock\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand rock outline" size=big data-search-terms="fist, game, roshambo"></FuiIcon>\n' +
+  '    hand rock outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand scissors" size=big data-search-terms="cut, game, roshambo"></FuiIcon>\n' +
+  '    hand scissors\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand scissors outline" size=big data-search-terms="cut, game, roshambo"></FuiIcon>\n' +
+  '    hand scissors outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand spock" size=big data-search-terms="live long, prosper, salute, star trek, vulcan"></FuiIcon>\n' +
+  '    hand spock\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand spock outline" size=big data-search-terms="live long, prosper, salute, star trek, vulcan"></FuiIcon>\n' +
+  '    hand spock outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hands" size=big data-search-terms="carry, hold, lift"></FuiIcon>\n' +
+  '    hands\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hands helping" size=big data-search-terms="aid, assistance, handshake, partnership, volunteering"></FuiIcon>\n' +
+  '    hands helping\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="handshake" size=big data-search-terms="agreement, greeting, meeting, partnership"></FuiIcon>\n' +
+  '    handshake\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="handshake outline" size=big data-search-terms="agreement, greeting, meeting, partnership"></FuiIcon>\n' +
+  '    handshake outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="praying hands" size=big data-search-terms="kneel, preach, religion, worship"></FuiIcon>\n' +
+  '    praying hands\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs down" size=big data-search-terms="disagree, disapprove, dislike, hand, social, thumbs-o-down"></FuiIcon>\n' +
+  '    thumbs down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs down outline" size=big data-search-terms="disagree, disapprove, dislike, hand, social, thumbs-o-down"></FuiIcon>\n' +
+  '    thumbs down outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs up" size=big data-search-terms="agree, approve, favorite, hand, like, ok, okay, social, success, thumbs-o-up, yes, you got it dude"></FuiIcon>\n' +
+  '    thumbs up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs up outline" size=big data-search-terms="agree, approve, favorite, hand, like, ok, okay, social, success, thumbs-o-up, yes, you got it dude"></FuiIcon>\n' +
+  '    thumbs up outline\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconImages1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="adjust" size=big data-search-terms="contrast, dark, light, saturation"></FuiIcon>\n' +
+  '    adjust\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bolt" size=big data-search-terms="electricity, lightning, weather, zap"></FuiIcon>\n' +
+  '    bolt\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="camera" size=big data-search-terms="image, lens, photo, picture, record, shutter, video"></FuiIcon>\n' +
+  '    camera\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="camera retro" size=big data-search-terms="image, lens, photo, picture, record, shutter, video"></FuiIcon>\n' +
+  '    camera retro\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chalkboard" size=big data-search-terms="blackboard, learning, school, teaching, whiteboard, writing"></FuiIcon>\n' +
+  '    chalkboard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clone" size=big data-search-terms="arrange, copy, duplicate, paste"></FuiIcon>\n' +
+  '    clone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clone outline" size=big data-search-terms="arrange, copy, duplicate, paste"></FuiIcon>\n' +
+  '    clone outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compress" size=big data-search-terms="collapse, fullscreen, minimize, move, resize, shrink, smaller"></FuiIcon>\n' +
+  '    compress\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compress arrows alternate" size=big data-search-terms="collapse, fullscreen, minimize, move, resize, shrink, smaller"></FuiIcon>\n' +
+  '    compress arrows alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="expand" size=big data-search-terms="arrow, bigger, enlarge, resize"></FuiIcon>\n' +
+  '    expand\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye" size=big data-search-terms="look, optic, see, seen, show, sight, views, visible"></FuiIcon>\n' +
+  '    eye\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye dropper" size=big data-search-terms="beaker, clone, color, copy, eyedropper, pipette"></FuiIcon>\n' +
+  '    eye dropper\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye outline" size=big data-search-terms="look, optic, see, seen, show, sight, views, visible"></FuiIcon>\n' +
+  '    eye outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye slash" size=big data-search-terms="blind, hide, show, toggle, unseen, views, visible, visiblity"></FuiIcon>\n' +
+  '    eye slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye slash outline" size=big data-search-terms="blind, hide, show, toggle, unseen, views, visible, visiblity"></FuiIcon>\n' +
+  '    eye slash outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file image" size=big data-search-terms="document, image, jpg, photo, png"></FuiIcon>\n' +
+  '    file image\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file image outline" size=big data-search-terms="document, image, jpg, photo, png"></FuiIcon>\n' +
+  '    file image outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="film" size=big data-search-terms="cinema, movie, strip, video"></FuiIcon>\n' +
+  '    film\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id badge" size=big data-search-terms="address, contact, identification, license, profile"></FuiIcon>\n' +
+  '    id badge\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id badge outline" size=big data-search-terms="address, contact, identification, license, profile"></FuiIcon>\n' +
+  '    id badge outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id card" size=big data-search-terms="contact, demographics, document, identification, issued, profile"></FuiIcon>\n' +
+  '    id card\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id card outline" size=big data-search-terms="contact, demographics, document, identification, issued, profile"></FuiIcon>\n' +
+  '    id card outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="image" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    image\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="image outline" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    image outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="images" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    images\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="images outline" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    images outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="photo video" size=big data-search-terms="av, film, image, library, media"></FuiIcon>\n' +
+  '    photo video\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="portrait" size=big data-search-terms="id, image, photo, picture, selfie"></FuiIcon>\n' +
+  '    portrait\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sliders horizontal" size=big data-search-terms="adjust, settings, sliders, toggle"></FuiIcon>\n' +
+  '    sliders horizontal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tint" size=big data-search-terms="color, drop, droplet, raindrop, waterdrop"></FuiIcon>\n' +
+  '    tint\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconArrows1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="angle double down" size=big data-search-terms="arrows, caret, download, expand"></FuiIcon>\n' +
+  '    angle double down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="angle double left" size=big data-search-terms="arrows, back, caret, laquo, previous, quote"></FuiIcon>\n' +
+  '    angle double left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="angle double right" size=big data-search-terms="arrows, caret, forward, more, next, quote, raquo"></FuiIcon>\n' +
+  '    angle double right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="angle double up" size=big data-search-terms="arrows, caret, collapse, upload"></FuiIcon>\n' +
+  '    angle double up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="angle down" size=big data-search-terms="arrow, caret, download, expand"></FuiIcon>\n' +
+  '    angle down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="angle left" size=big data-search-terms="arrow, back, caret, less, previous"></FuiIcon>\n' +
+  '    angle left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="angle right" size=big data-search-terms="arrow, care, forward, more, next"></FuiIcon>\n' +
+  '    angle right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="angle up" size=big data-search-terms="arrow, caret, collapse, upload"></FuiIcon>\n' +
+  '    angle up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow alternate circle down" size=big data-search-terms="arrow-circle-o-down, download"></FuiIcon>\n' +
+  '    arrow alternate circle down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow alternate circle down outline" size=big data-search-terms="arrow-circle-o-down, download"></FuiIcon>\n' +
+  '    arrow alternate circle down outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow alternate circle left" size=big data-search-terms="arrow-circle-o-left, back, previous"></FuiIcon>\n' +
+  '    arrow alternate circle left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow alternate circle left outline" size=big data-search-terms="arrow-circle-o-left, back, previous"></FuiIcon>\n' +
+  '    arrow alternate circle left outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow alternate circle right" size=big data-search-terms="arrow-circle-o-right, forward, next"></FuiIcon>\n' +
+  '    arrow alternate circle right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow alternate circle right outline" size=big data-search-terms="arrow-circle-o-right, forward, next"></FuiIcon>\n' +
+  '    arrow alternate circle right outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow alternate circle up" size=big data-search-terms="arrow-circle-o-up"></FuiIcon>\n' +
+  '    arrow alternate circle up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow alternate circle up outline" size=big data-search-terms="arrow-circle-o-up"></FuiIcon>\n' +
+  '    arrow alternate circle up outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow circle down" size=big data-search-terms="download"></FuiIcon>\n' +
+  '    arrow circle down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow circle left" size=big data-search-terms="back, previous"></FuiIcon>\n' +
+  '    arrow circle left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow circle right" size=big data-search-terms="forward, next"></FuiIcon>\n' +
+  '    arrow circle right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow circle up" size=big data-search-terms="upload"></FuiIcon>\n' +
+  '    arrow circle up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow down" size=big data-search-terms="download"></FuiIcon>\n' +
+  '    arrow down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow left" size=big data-search-terms="back, previous"></FuiIcon>\n' +
+  '    arrow left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow right" size=big data-search-terms="forward, next"></FuiIcon>\n' +
+  '    arrow right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrow up" size=big data-search-terms="forward, upload"></FuiIcon>\n' +
+  '    arrow up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrows alternate" size=big data-search-terms="arrow, arrows, bigger, enlarge, expand, fullscreen, move, position, reorder, resize"></FuiIcon>\n' +
+  '    arrows alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrows alternate horizontal" size=big data-search-terms="arrows-h, expand, horizontal, landscape, resize, wide"></FuiIcon>\n' +
+  '    arrows alternate horizontal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="arrows alternate vertical" size=big data-search-terms="arrows-v, expand, portrait, resize, tall, vertical"></FuiIcon>\n' +
+  '    arrows alternate vertical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="caret down" size=big data-search-terms="arrow, dropdown, expand, menu, more, triangle"></FuiIcon>\n' +
+  '    caret down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="caret left" size=big data-search-terms="arrow, back, previous, triangle"></FuiIcon>\n' +
+  '    caret left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="caret right" size=big data-search-terms="arrow, forward, next, triangle"></FuiIcon>\n' +
+  '    caret right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="caret square down" size=big data-search-terms="arrow, caret-square-o-down, dropdown, expand, menu, more, triangle"></FuiIcon>\n' +
+  '    caret square down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="caret square down outline" size=big data-search-terms="arrow, caret-square-o-down, dropdown, expand, menu, more, triangle"></FuiIcon>\n' +
+  '    caret square down outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="caret square left" size=big data-search-terms="arrow, back, caret-square-o-left, previous, triangle"></FuiIcon>\n' +
+  '    caret square left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="caret square left outline" size=big data-search-terms="arrow, back, caret-square-o-left, previous, triangle"></FuiIcon>\n' +
+  '    caret square left outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="caret square right" size=big data-search-terms="arrow, caret-square-o-right, forward, next, triangle"></FuiIcon>\n' +
+  '    caret square right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="caret square right outline" size=big data-search-terms="arrow, caret-square-o-right, forward, next, triangle"></FuiIcon>\n' +
+  '    caret square right outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="caret square up" size=big data-search-terms="arrow, caret-square-o-up, collapse, triangle, upload"></FuiIcon>\n' +
+  '    caret square up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="caret square up outline" size=big data-search-terms="arrow, caret-square-o-up, collapse, triangle, upload"></FuiIcon>\n' +
+  '    caret square up outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="caret up" size=big data-search-terms="arrow, collapse, triangle"></FuiIcon>\n' +
+  '    caret up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cart arrow down" size=big data-search-terms="download, save, shopping"></FuiIcon>\n' +
+  '    cart arrow down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chart line" size=big data-search-terms="activity, analytics, chart, dashboard, gain, graph, increase, line"></FuiIcon>\n' +
+  '    chart line\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chevron circle down" size=big data-search-terms="arrow, download, dropdown, menu, more"></FuiIcon>\n' +
+  '    chevron circle down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chevron circle left" size=big data-search-terms="arrow, back, previous"></FuiIcon>\n' +
+  '    chevron circle left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chevron circle right" size=big data-search-terms="arrow, forward, next"></FuiIcon>\n' +
+  '    chevron circle right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chevron circle up" size=big data-search-terms="arrow, collapse, upload"></FuiIcon>\n' +
+  '    chevron circle up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chevron down" size=big data-search-terms="arrow, download, expand"></FuiIcon>\n' +
+  '    chevron down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chevron left" size=big data-search-terms="arrow, back, bracket, previous"></FuiIcon>\n' +
+  '    chevron left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chevron right" size=big data-search-terms="arrow, bracket, forward, next"></FuiIcon>\n' +
+  '    chevron right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chevron up" size=big data-search-terms="arrow, collapse, upload"></FuiIcon>\n' +
+  '    chevron up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud download alternate" size=big data-search-terms="download, export, save"></FuiIcon>\n' +
+  '    cloud download alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud upload alternate" size=big data-search-terms="cloud-upload, import, save, upload"></FuiIcon>\n' +
+  '    cloud upload alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compress arrows alternate" size=big data-search-terms="collapse, fullscreen, minimize, move, resize, shrink, smaller"></FuiIcon>\n' +
+  '    compress arrows alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="download" size=big data-search-terms="export, hard drive, save, transfer"></FuiIcon>\n' +
+  '    download\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="exchange alternate" size=big data-search-terms="arrow, arrows, exchange, reciprocate, return, swap, transfer"></FuiIcon>\n' +
+  '    exchange alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="expand arrows alternate" size=big data-search-terms="arrows-alt, bigger, enlarge, move, resize"></FuiIcon>\n' +
+  '    expand arrows alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="external alternate" size=big data-search-terms="external-link, new, open, share"></FuiIcon>\n' +
+  '    external alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="external link square alternate" size=big data-search-terms="external-link-square, new, open, share"></FuiIcon>\n' +
+  '    external link square alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point down" size=big data-search-terms="finger, hand-o-down, point"></FuiIcon>\n' +
+  '    hand point down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point down outline" size=big data-search-terms="finger, hand-o-down, point"></FuiIcon>\n' +
+  '    hand point down outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point left" size=big data-search-terms="back, finger, hand-o-left, left, point, previous"></FuiIcon>\n' +
+  '    hand point left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point left outline" size=big data-search-terms="back, finger, hand-o-left, left, point, previous"></FuiIcon>\n' +
+  '    hand point left outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point right" size=big data-search-terms="finger, forward, hand-o-right, next, point, right"></FuiIcon>\n' +
+  '    hand point right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point right outline" size=big data-search-terms="finger, forward, hand-o-right, next, point, right"></FuiIcon>\n' +
+  '    hand point right outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point up" size=big data-search-terms="finger, hand-o-up, point"></FuiIcon>\n' +
+  '    hand point up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand point up outline" size=big data-search-terms="finger, hand-o-up, point"></FuiIcon>\n' +
+  '    hand point up outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand pointer" size=big data-search-terms="arrow, cursor, select"></FuiIcon>\n' +
+  '    hand pointer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand pointer outline" size=big data-search-terms="arrow, cursor, select"></FuiIcon>\n' +
+  '    hand pointer outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="history" size=big data-search-terms="Rewind, clock, reverse, time, time machine"></FuiIcon>\n' +
+  '    history\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="level down alternate" size=big data-search-terms="arrow, level-down"></FuiIcon>\n' +
+  '    level down alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="level up alternate" size=big data-search-terms="arrow, level-up"></FuiIcon>\n' +
+  '    level up alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="location arrow" size=big data-search-terms="address, compass, coordinate, direction, gps, map, navigation, place"></FuiIcon>\n' +
+  '    location arrow\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="long arrow alternate down" size=big data-search-terms="download, long-arrow-down"></FuiIcon>\n' +
+  '    long arrow alternate down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="long arrow alternate left" size=big data-search-terms="back, long-arrow-left, previous"></FuiIcon>\n' +
+  '    long arrow alternate left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="long arrow alternate right" size=big data-search-terms="forward, long-arrow-right, next"></FuiIcon>\n' +
+  '    long arrow alternate right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="long arrow alternate up" size=big data-search-terms="long-arrow-up, upload"></FuiIcon>\n' +
+  '    long arrow alternate up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mouse pointer" size=big data-search-terms="arrow, cursor, select"></FuiIcon>\n' +
+  '    mouse pointer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="play" size=big data-search-terms="audio, music, playing, sound, start, video"></FuiIcon>\n' +
+  '    play\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="random" size=big data-search-terms="arrows, shuffle, sort, swap, switch, transfer"></FuiIcon>\n' +
+  '    random\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="recycle" size=big data-search-terms="Waste, compost, garbage, reuse, trash"></FuiIcon>\n' +
+  '    recycle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="redo" size=big data-search-terms="forward, refresh, reload, repeat"></FuiIcon>\n' +
+  '    redo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="redo alternate" size=big data-search-terms="forward, refresh, reload, repeat"></FuiIcon>\n' +
+  '    redo alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="reply" size=big data-search-terms="mail, message, respond"></FuiIcon>\n' +
+  '    reply\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="reply all" size=big data-search-terms="mail, message, respond"></FuiIcon>\n' +
+  '    reply all\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="retweet" size=big data-search-terms="refresh, reload, share, swap"></FuiIcon>\n' +
+  '    retweet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="share" size=big data-search-terms="forward, save, send, social"></FuiIcon>\n' +
+  '    share\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="share square" size=big data-search-terms="forward, save, send, social"></FuiIcon>\n' +
+  '    share square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="share square outline" size=big data-search-terms="forward, save, send, social"></FuiIcon>\n' +
+  '    share square outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sign in alternate" size=big data-search-terms="arrow, enter, join, log in, login, sign in, sign up, sign-in, signin, signup"></FuiIcon>\n' +
+  '    sign in alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sign out alternate" size=big data-search-terms="arrow, exit, leave, log out, logout, sign-out"></FuiIcon>\n' +
+  '    sign out alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort" size=big data-search-terms="filter, order"></FuiIcon>\n' +
+  '    sort\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort alphabet down" size=big data-search-terms="alphabetical, arrange, filter, order, sort-alpha-asc"></FuiIcon>\n' +
+  '    sort alphabet down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort alphabet down alternate" size=big data-search-terms="alphabetical, arrange, filter, order, sort-alpha-asc"></FuiIcon>\n' +
+  '    sort alphabet down alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort alphabet up" size=big data-search-terms="alphabetical, arrange, filter, order, sort-alpha-desc"></FuiIcon>\n' +
+  '    sort alphabet up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort alphabet up alternate" size=big data-search-terms="alphabetical, arrange, filter, order, sort-alpha-desc"></FuiIcon>\n' +
+  '    sort alphabet up alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort amount down" size=big data-search-terms="arrange, filter, number, order, sort-amount-asc"></FuiIcon>\n' +
+  '    sort amount down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort amount down alternate" size=big data-search-terms="arrange, filter, order, sort-amount-asc"></FuiIcon>\n' +
+  '    sort amount down alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort amount up" size=big data-search-terms="arrange, filter, order, sort-amount-desc"></FuiIcon>\n' +
+  '    sort amount up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort amount up alternate" size=big data-search-terms="arrange, filter, order, sort-amount-desc"></FuiIcon>\n' +
+  '    sort amount up alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort down" size=big data-search-terms="arrow, descending, filter, order, sort-desc"></FuiIcon>\n' +
+  '    sort down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort numeric down" size=big data-search-terms="arrange, filter, numbers, order, sort-numeric-asc"></FuiIcon>\n' +
+  '    sort numeric down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort numeric down alternate" size=big data-search-terms="arrange, filter, numbers, order, sort-numeric-asc"></FuiIcon>\n' +
+  '    sort numeric down alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort numeric up" size=big data-search-terms="arrange, filter, numbers, order, sort-numeric-desc"></FuiIcon>\n' +
+  '    sort numeric up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort numeric up alternate" size=big data-search-terms="arrange, filter, numbers, order, sort-numeric-desc"></FuiIcon>\n' +
+  '    sort numeric up alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort up" size=big data-search-terms="arrow, ascending, filter, order, sort-asc"></FuiIcon>\n' +
+  '    sort up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sync" size=big data-search-terms="exchange, refresh, reload, rotate, swap"></FuiIcon>\n' +
+  '    sync\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sync alternate" size=big data-search-terms="exchange, refresh, reload, rotate, swap"></FuiIcon>\n' +
+  '    sync alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="text height" size=big data-search-terms="edit, font, format, text, type"></FuiIcon>\n' +
+  '    text height\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="text width" size=big data-search-terms="edit, font, format, text, type"></FuiIcon>\n' +
+  '    text width\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="undo" size=big data-search-terms="back, control z, exchange, oops, return, rotate, swap"></FuiIcon>\n' +
+  '    undo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="undo alternate" size=big data-search-terms="back, control z, exchange, oops, return, swap"></FuiIcon>\n' +
+  '    undo alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="upload" size=big data-search-terms="hard drive, import, publish"></FuiIcon>\n' +
+  '    upload\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconFiles1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="archive" size=big data-search-terms="box, package, save, storage"></FuiIcon>\n' +
+  '    archive\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clone" size=big data-search-terms="arrange, copy, duplicate, paste"></FuiIcon>\n' +
+  '    clone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clone outline" size=big data-search-terms="arrange, copy, duplicate, paste"></FuiIcon>\n' +
+  '    clone outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="copy" size=big data-search-terms="clone, duplicate, file, files-o, paper, paste"></FuiIcon>\n' +
+  '    copy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="copy outline" size=big data-search-terms="clone, duplicate, file, files-o, paper, paste"></FuiIcon>\n' +
+  '    copy outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cut" size=big data-search-terms="clip, scissors, snip"></FuiIcon>\n' +
+  '    cut\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate outline" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file archive" size=big data-search-terms=".zip, bundle, compress, compression, download, zip"></FuiIcon>\n' +
+  '    file archive\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file archive outline" size=big data-search-terms=".zip, bundle, compress, compression, download, zip"></FuiIcon>\n' +
+  '    file archive outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file audio" size=big data-search-terms="document, mp3, music, page, play, sound"></FuiIcon>\n' +
+  '    file audio\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file audio outline" size=big data-search-terms="document, mp3, music, page, play, sound"></FuiIcon>\n' +
+  '    file audio outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file code" size=big data-search-terms="css, development, document, html"></FuiIcon>\n' +
+  '    file code\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file code outline" size=big data-search-terms="css, development, document, html"></FuiIcon>\n' +
+  '    file code outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file excel" size=big data-search-terms="csv, document, numbers, spreadsheets, table"></FuiIcon>\n' +
+  '    file excel\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file excel outline" size=big data-search-terms="csv, document, numbers, spreadsheets, table"></FuiIcon>\n' +
+  '    file excel outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file image" size=big data-search-terms="document, image, jpg, photo, png"></FuiIcon>\n' +
+  '    file image\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file image outline" size=big data-search-terms="document, image, jpg, photo, png"></FuiIcon>\n' +
+  '    file image outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file outline" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file pdf" size=big data-search-terms="acrobat, document, preview, save"></FuiIcon>\n' +
+  '    file pdf\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file pdf outline" size=big data-search-terms="acrobat, document, preview, save"></FuiIcon>\n' +
+  '    file pdf outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file powerpoint" size=big data-search-terms="display, document, keynote, presentation"></FuiIcon>\n' +
+  '    file powerpoint\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file powerpoint outline" size=big data-search-terms="display, document, keynote, presentation"></FuiIcon>\n' +
+  '    file powerpoint outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file video" size=big data-search-terms="document, m4v, movie, mp4, play"></FuiIcon>\n' +
+  '    file video\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file video outline" size=big data-search-terms="document, m4v, movie, mp4, play"></FuiIcon>\n' +
+  '    file video outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file word" size=big data-search-terms="document, edit, page, text, writing"></FuiIcon>\n' +
+  '    file word\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file word outline" size=big data-search-terms="document, edit, page, text, writing"></FuiIcon>\n' +
+  '    file word outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder" size=big data-search-terms="archive, directory, document, file"></FuiIcon>\n' +
+  '    folder\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder open" size=big data-search-terms="archive, directory, document, empty, file, new"></FuiIcon>\n' +
+  '    folder open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder open outline" size=big data-search-terms="archive, directory, document, empty, file, new"></FuiIcon>\n' +
+  '    folder open outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder outline" size=big data-search-terms="archive, directory, document, file"></FuiIcon>\n' +
+  '    folder outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paste" size=big data-search-terms="clipboard, copy, document, paper"></FuiIcon>\n' +
+  '    paste\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="photo video" size=big data-search-terms="av, film, image, library, media"></FuiIcon>\n' +
+  '    photo video\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="save" size=big data-search-terms="disk, download, floppy, floppy-o"></FuiIcon>\n' +
+  '    save\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="save outline" size=big data-search-terms="disk, download, floppy, floppy-o"></FuiIcon>\n' +
+  '    save outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sticky note" size=big data-search-terms="message, note, paper, reminder, sticker"></FuiIcon>\n' +
+  '    sticky note\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sticky note outline" size=big data-search-terms="message, note, paper, reminder, sticker"></FuiIcon>\n' +
+  '    sticky note outline\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconPaymentsShopping1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="alipay" size=big data-search-terms=""></FuiIcon>\n' +
+  '    alipay\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="amazon pay" size=big data-search-terms=""></FuiIcon>\n' +
+  '    amazon pay\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="apple pay" size=big data-search-terms=""></FuiIcon>\n' +
+  '    apple pay\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell outline" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bitcoin" size=big data-search-terms=""></FuiIcon>\n' +
+  '    bitcoin\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bookmark" size=big data-search-terms="favorite, marker, read, remember, save"></FuiIcon>\n' +
+  '    bookmark\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bookmark outline" size=big data-search-terms="favorite, marker, read, remember, save"></FuiIcon>\n' +
+  '    bookmark outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="btc" size=big data-search-terms=""></FuiIcon>\n' +
+  '    btc\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bullhorn" size=big data-search-terms="announcement, broadcast, louder, megaphone, share"></FuiIcon>\n' +
+  '    bullhorn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="camera" size=big data-search-terms="image, lens, photo, picture, record, shutter, video"></FuiIcon>\n' +
+  '    camera\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="camera retro" size=big data-search-terms="image, lens, photo, picture, record, shutter, video"></FuiIcon>\n' +
+  '    camera retro\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cart arrow down" size=big data-search-terms="download, save, shopping"></FuiIcon>\n' +
+  '    cart arrow down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cart plus" size=big data-search-terms="add, create, new, positive, shopping"></FuiIcon>\n' +
+  '    cart plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc amazon pay" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc amazon pay\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc amex" size=big data-search-terms="amex"></FuiIcon>\n' +
+  '    cc amex\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc apple pay" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc apple pay\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc diners club" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc diners club\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc discover" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc discover\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc jcb" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc jcb\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc mastercard" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc mastercard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc paypal" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc paypal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc stripe" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc stripe\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cc visa" size=big data-search-terms=""></FuiIcon>\n' +
+  '    cc visa\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="certificate" size=big data-search-terms="badge, star, verified"></FuiIcon>\n' +
+  '    certificate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="credit card" size=big data-search-terms="buy, checkout, credit-card-alt, debit, money, payment, purchase"></FuiIcon>\n' +
+  '    credit card\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="credit card outline" size=big data-search-terms="buy, checkout, credit-card-alt, debit, money, payment, purchase"></FuiIcon>\n' +
+  '    credit card outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ethereum" size=big data-search-terms=""></FuiIcon>\n' +
+  '    ethereum\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gem" size=big data-search-terms="diamond, jewelry, sapphire, stone, treasure"></FuiIcon>\n' +
+  '    gem\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gem outline" size=big data-search-terms="diamond, jewelry, sapphire, stone, treasure"></FuiIcon>\n' +
+  '    gem outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gift" size=big data-search-terms="christmas, generosity, giving, holiday, party, present, wrapped, xmas"></FuiIcon>\n' +
+  '    gift\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="google wallet" size=big data-search-terms=""></FuiIcon>\n' +
+  '    google wallet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="handshake" size=big data-search-terms="agreement, greeting, meeting, partnership"></FuiIcon>\n' +
+  '    handshake\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="handshake outline" size=big data-search-terms="agreement, greeting, meeting, partnership"></FuiIcon>\n' +
+  '    handshake outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart outline" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="key" size=big data-search-terms="lock, password, private, secret, unlock"></FuiIcon>\n' +
+  '    key\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money check" size=big data-search-terms="bank check, buy, checkout, cheque, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money check\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money check alternate" size=big data-search-terms="bank check, buy, checkout, cheque, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money check alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paypal" size=big data-search-terms=""></FuiIcon>\n' +
+  '    paypal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="receipt" size=big data-search-terms="check, invoice, money, pay, table"></FuiIcon>\n' +
+  '    receipt\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopping bag" size=big data-search-terms="buy, checkout, grocery, payment, purchase"></FuiIcon>\n' +
+  '    shopping bag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopping basket" size=big data-search-terms="buy, checkout, grocery, payment, purchase"></FuiIcon>\n' +
+  '    shopping basket\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopping cart" size=big data-search-terms="buy, checkout, grocery, payment, purchase"></FuiIcon>\n' +
+  '    shopping cart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
+  '    star\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star outline" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
+  '    star outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stripe" size=big data-search-terms=""></FuiIcon>\n' +
+  '    stripe\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stripe s" size=big data-search-terms=""></FuiIcon>\n' +
+  '    stripe s\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tag" size=big data-search-terms="discount, label, price, shopping"></FuiIcon>\n' +
+  '    tag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tags" size=big data-search-terms="discount, label, price, shopping"></FuiIcon>\n' +
+  '    tags\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs down" size=big data-search-terms="disagree, disapprove, dislike, hand, social, thumbs-o-down"></FuiIcon>\n' +
+  '    thumbs down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs down outline" size=big data-search-terms="disagree, disapprove, dislike, hand, social, thumbs-o-down"></FuiIcon>\n' +
+  '    thumbs down outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs up" size=big data-search-terms="agree, approve, favorite, hand, like, ok, okay, social, success, thumbs-o-up, yes, you got it dude"></FuiIcon>\n' +
+  '    thumbs up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs up outline" size=big data-search-terms="agree, approve, favorite, hand, like, ok, okay, social, success, thumbs-o-up, yes, you got it dude"></FuiIcon>\n' +
+  '    thumbs up outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trophy" size=big data-search-terms="achievement, award, cup, game, winner"></FuiIcon>\n' +
+  '    trophy\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconAccessibility1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="accessible" size=big data-search-terms="accessibility, handicap, person, wheelchair, wheelchair-alt"></FuiIcon>\n' +
+  '    accessible\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="american sign language interpreting" size=big data-search-terms="asl, deaf, finger, hand, interpret, speak"></FuiIcon>\n' +
+  '    american sign language interpreting\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="assistive listening systems" size=big data-search-terms="amplify, audio, deaf, ear, headset, hearing, sound"></FuiIcon>\n' +
+  '    assistive listening systems\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="audio description" size=big data-search-terms="blind, narration, video, visual"></FuiIcon>\n' +
+  '    audio description\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="blind" size=big data-search-terms="cane, disability, person, sight"></FuiIcon>\n' +
+  '    blind\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="braille" size=big data-search-terms="alphabet, blind, dots, raised, vision"></FuiIcon>\n' +
+  '    braille\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="closed captioning" size=big data-search-terms="cc, deaf, hearing, subtitle, subtitling, text, video"></FuiIcon>\n' +
+  '    closed captioning\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="closed captioning outline" size=big data-search-terms="cc, deaf, hearing, subtitle, subtitling, text, video"></FuiIcon>\n' +
+  '    closed captioning outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="deaf" size=big data-search-terms="ear, hearing, sign language"></FuiIcon>\n' +
+  '    deaf\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="low vision" size=big data-search-terms="blind, eye, sight"></FuiIcon>\n' +
+  '    low vision\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone volume" size=big data-search-terms="call, earphone, number, sound, support, telephone, voice, volume-control-phone"></FuiIcon>\n' +
+  '    phone volume\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="question circle" size=big data-search-terms="help, information, support, unknown"></FuiIcon>\n' +
+  '    question circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="question circle outline" size=big data-search-terms="help, information, support, unknown"></FuiIcon>\n' +
+  '    question circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sign language" size=big data-search-terms="Translate, asl, deaf, hands"></FuiIcon>\n' +
+  '    sign language\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tty" size=big data-search-terms="communication, deaf, telephone, teletypewriter, text"></FuiIcon>\n' +
+  '    tty\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="universal access" size=big data-search-terms="accessibility, hearing, person, seeing, visual impairment"></FuiIcon>\n' +
+  '    universal access\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wheelchair" size=big data-search-terms="accessible, handicap, person"></FuiIcon>\n' +
+  '    wheelchair\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconWriting1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="archive" size=big data-search-terms="box, package, save, storage"></FuiIcon>\n' +
+  '    archive\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="blog" size=big data-search-terms="journal, log, online, personal, post, web 2.0, wordpress, writing"></FuiIcon>\n' +
+  '    blog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="book" size=big data-search-terms="diary, documentation, journal, library, read"></FuiIcon>\n' +
+  '    book\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bookmark" size=big data-search-terms="favorite, marker, read, remember, save"></FuiIcon>\n' +
+  '    bookmark\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bookmark outline" size=big data-search-terms="favorite, marker, read, remember, save"></FuiIcon>\n' +
+  '    bookmark outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="edit" size=big data-search-terms="edit, pen, pencil, update, write"></FuiIcon>\n' +
+  '    edit\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="edit outline" size=big data-search-terms="edit, pen, pencil, update, write"></FuiIcon>\n' +
+  '    edit outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope open" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope open outline" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope open outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope outline" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eraser" size=big data-search-terms="art, delete, remove, rubber"></FuiIcon>\n' +
+  '    eraser\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate outline" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file outline" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder" size=big data-search-terms="archive, directory, document, file"></FuiIcon>\n' +
+  '    folder\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder open" size=big data-search-terms="archive, directory, document, empty, file, new"></FuiIcon>\n' +
+  '    folder open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder open outline" size=big data-search-terms="archive, directory, document, empty, file, new"></FuiIcon>\n' +
+  '    folder open outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder outline" size=big data-search-terms="archive, directory, document, file"></FuiIcon>\n' +
+  '    folder outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="keyboard" size=big data-search-terms="accessory, edit, input, text, type, write"></FuiIcon>\n' +
+  '    keyboard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="keyboard outline" size=big data-search-terms="accessory, edit, input, text, type, write"></FuiIcon>\n' +
+  '    keyboard outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="newspaper" size=big data-search-terms="article, editorial, headline, journal, journalism, news, press"></FuiIcon>\n' +
+  '    newspaper\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="newspaper outline" size=big data-search-terms="article, editorial, headline, journal, journalism, news, press"></FuiIcon>\n' +
+  '    newspaper outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paper plane" size=big data-search-terms="air, float, fold, mail, paper, send"></FuiIcon>\n' +
+  '    paper plane\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paper plane outline" size=big data-search-terms="air, float, fold, mail, paper, send"></FuiIcon>\n' +
+  '    paper plane outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paperclip" size=big data-search-terms="attach, attachment, connect, link"></FuiIcon>\n' +
+  '    paperclip\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paragraph" size=big data-search-terms="edit, format, text, writing"></FuiIcon>\n' +
+  '    paragraph\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen" size=big data-search-terms="design, edit, update, write"></FuiIcon>\n' +
+  '    pen\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen alternate" size=big data-search-terms="design, edit, update, write"></FuiIcon>\n' +
+  '    pen alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen square" size=big data-search-terms="edit, pencil-square, update, write"></FuiIcon>\n' +
+  '    pen square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pencil alternate" size=big data-search-terms="design, edit, pencil, update, write"></FuiIcon>\n' +
+  '    pencil alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="quote left" size=big data-search-terms="mention, note, phrase, text, type"></FuiIcon>\n' +
+  '    quote left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="quote right" size=big data-search-terms="mention, note, phrase, text, type"></FuiIcon>\n' +
+  '    quote right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sticky note" size=big data-search-terms="message, note, paper, reminder, sticker"></FuiIcon>\n' +
+  '    sticky note\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sticky note outline" size=big data-search-terms="message, note, paper, reminder, sticker"></FuiIcon>\n' +
+  '    sticky note outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbtack" size=big data-search-terms="coordinates, location, marker, pin, thumb-tack"></FuiIcon>\n' +
+  '    thumbtack\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconChess1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess" size=big data-search-terms="board, castle, checkmate, game, king, rook, strategy, tournament"></FuiIcon>\n' +
+  '    chess\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess bishop" size=big data-search-terms="board, checkmate, game, strategy"></FuiIcon>\n' +
+  '    chess bishop\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess board" size=big data-search-terms="board, checkmate, game, strategy"></FuiIcon>\n' +
+  '    chess board\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess king" size=big data-search-terms="board, checkmate, game, strategy"></FuiIcon>\n' +
+  '    chess king\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess knight" size=big data-search-terms="board, checkmate, game, horse, strategy"></FuiIcon>\n' +
+  '    chess knight\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess pawn" size=big data-search-terms="board, checkmate, game, strategy"></FuiIcon>\n' +
+  '    chess pawn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess queen" size=big data-search-terms="board, checkmate, game, strategy"></FuiIcon>\n' +
+  '    chess queen\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chess rook" size=big data-search-terms="board, castle, checkmate, game, strategy"></FuiIcon>\n' +
+  '    chess rook\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="square full" size=big data-search-terms="block, box, shape"></FuiIcon>\n' +
+  '    square full\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconAutomotive1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="air freshener" size=big data-search-terms="car, deodorize, fresh, pine, scent"></FuiIcon>\n' +
+  '    air freshener\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ambulance" size=big data-search-terms="emergency, emt, er, help, hospital, support, vehicle"></FuiIcon>\n' +
+  '    ambulance\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bus" size=big data-search-terms="public transportation, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    bus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bus alternate" size=big data-search-terms="mta, public transportation, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    bus alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="car" size=big data-search-terms="auto, automobile, sedan, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    car\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="car alternate" size=big data-search-terms="auto, automobile, sedan, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    car alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="car battery" size=big data-search-terms="auto, electric, mechanic, power"></FuiIcon>\n' +
+  '    car battery\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="car crash" size=big data-search-terms="accident, auto, automobile, insurance, sedan, transportation, vehicle, wreck"></FuiIcon>\n' +
+  '    car crash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="car side" size=big data-search-terms="auto, automobile, sedan, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    car side\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="charging station" size=big data-search-terms="electric, ev, tesla, vehicle"></FuiIcon>\n' +
+  '    charging station\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gas pump" size=big data-search-terms="car, fuel, gasoline, petrol"></FuiIcon>\n' +
+  '    gas pump\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="motorcycle" size=big data-search-terms="bike, machine, transportation, vehicle"></FuiIcon>\n' +
+  '    motorcycle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="oil can" size=big data-search-terms="auto, crude, gasoline, grease, lubricate, petroleum"></FuiIcon>\n' +
+  '    oil can\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shuttle van" size=big data-search-terms="airport, machine, public-transportation, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    shuttle van\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tachometer alternate" size=big data-search-terms="dashboard, fast, odometer, speed, speedometer"></FuiIcon>\n' +
+  '    tachometer alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="taxi" size=big data-search-terms="cab, cabbie, car, car service, lyft, machine, transportation, travel, uber, vehicle"></FuiIcon>\n' +
+  '    taxi\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="truck" size=big data-search-terms="cargo, delivery, shipping, vehicle"></FuiIcon>\n' +
+  '    truck\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="truck monster" size=big data-search-terms="offroad, vehicle, wheel"></FuiIcon>\n' +
+  '    truck monster\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="truck pickup" size=big data-search-terms="cargo, vehicle"></FuiIcon>\n' +
+  '    truck pickup\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconPolitical1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="award" size=big data-search-terms="honor, praise, prize, recognition, ribbon, trophy"></FuiIcon>\n' +
+  '    award\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale" size=big data-search-terms="balanced, justice, legal, measure, weight"></FuiIcon>\n' +
+  '    balance scale\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale left" size=big data-search-terms="justice, legal, measure, unbalanced, weight"></FuiIcon>\n' +
+  '    balance scale left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale right" size=big data-search-terms="justice, legal, measure, unbalanced, weight"></FuiIcon>\n' +
+  '    balance scale right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bullhorn" size=big data-search-terms="announcement, broadcast, louder, megaphone, share"></FuiIcon>\n' +
+  '    bullhorn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="check double" size=big data-search-terms="accept, agree, checkmark, confirm, correct, done, notice, notification, notify, ok, select, success, tick, todo"></FuiIcon>\n' +
+  '    check double\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="democrat" size=big data-search-terms="american, democratic party, donkey, election, left, left-wing, liberal, politics, usa"></FuiIcon>\n' +
+  '    democrat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="donate" size=big data-search-terms="contribute, generosity, gift, give"></FuiIcon>\n' +
+  '    donate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dove" size=big data-search-terms="bird, fauna, flying, peace, war"></FuiIcon>\n' +
+  '    dove\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fist raised" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, hand, ki, monk, resist, strength, unarmed combat"></FuiIcon>\n' +
+  '    fist raised\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flag usa" size=big data-search-terms="betsy ross, country, old glory, stars, stripes, symbol"></FuiIcon>\n' +
+  '    flag usa\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="handshake" size=big data-search-terms="agreement, greeting, meeting, partnership"></FuiIcon>\n' +
+  '    handshake\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="handshake outline" size=big data-search-terms="agreement, greeting, meeting, partnership"></FuiIcon>\n' +
+  '    handshake outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="person booth" size=big data-search-terms="changing, changing room, election, human, person, vote, voting"></FuiIcon>\n' +
+  '    person booth\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="piggy bank" size=big data-search-terms="bank, save, savings"></FuiIcon>\n' +
+  '    piggy bank\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="republican" size=big data-search-terms="american, conservative, election, elephant, politics, republican party, right, right-wing, usa"></FuiIcon>\n' +
+  '    republican\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vote yea" size=big data-search-terms="accept, cast, election, politics, positive, yes"></FuiIcon>\n' +
+  '    vote yea\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconCommunication1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="address book" size=big data-search-terms="contact, directory, index, little black book, rolodex"></FuiIcon>\n' +
+  '    address book\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="address book outline" size=big data-search-terms="contact, directory, index, little black book, rolodex"></FuiIcon>\n' +
+  '    address book outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="address card" size=big data-search-terms="about, contact, id, identification, postcard, profile"></FuiIcon>\n' +
+  '    address card\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="address card outline" size=big data-search-terms="about, contact, id, identification, postcard, profile"></FuiIcon>\n' +
+  '    address card outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="american sign language interpreting" size=big data-search-terms="asl, deaf, finger, hand, interpret, speak"></FuiIcon>\n' +
+  '    american sign language interpreting\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="assistive listening systems" size=big data-search-terms="amplify, audio, deaf, ear, headset, hearing, sound"></FuiIcon>\n' +
+  '    assistive listening systems\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="at" size=big data-search-terms="address, author, e-mail, email, handle"></FuiIcon>\n' +
+  '    at\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell outline" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell slash" size=big data-search-terms="alert, cancel, disabled, notification, off, reminder"></FuiIcon>\n' +
+  '    bell slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell slash outline" size=big data-search-terms="alert, cancel, disabled, notification, off, reminder"></FuiIcon>\n' +
+  '    bell slash outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bluetooth" size=big data-search-terms=""></FuiIcon>\n' +
+  '    bluetooth\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bluetooth b" size=big data-search-terms=""></FuiIcon>\n' +
+  '    bluetooth b\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="broadcast tower" size=big data-search-terms="airwaves, antenna, radio, reception, waves"></FuiIcon>\n' +
+  '    broadcast tower\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bullhorn" size=big data-search-terms="announcement, broadcast, louder, megaphone, share"></FuiIcon>\n' +
+  '    bullhorn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chalkboard" size=big data-search-terms="blackboard, learning, school, teaching, whiteboard, writing"></FuiIcon>\n' +
+  '    chalkboard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment alternate" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment alternate outline" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment outline" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comments" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comments\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comments outline" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comments outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope open" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope open outline" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope open outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope outline" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope square" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fax" size=big data-search-terms="business, communicate, copy, facsimile, send"></FuiIcon>\n' +
+  '    fax\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="inbox" size=big data-search-terms="archive, desk, email, mail, message"></FuiIcon>\n' +
+  '    inbox\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="language" size=big data-search-terms="dialect, idiom, localize, speech, translate, vernacular"></FuiIcon>\n' +
+  '    language\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone" size=big data-search-terms="audio, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone alternate" size=big data-search-terms="audio, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone alternate slash" size=big data-search-terms="audio, disable, mute, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone alternate slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone slash" size=big data-search-terms="audio, disable, mute, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mobile" size=big data-search-terms="apple, call, cell phone, cellphone, device, iphone, number, screen, telephone"></FuiIcon>\n' +
+  '    mobile\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mobile alternate" size=big data-search-terms="apple, call, cell phone, cellphone, device, iphone, number, screen, telephone"></FuiIcon>\n' +
+  '    mobile alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paper plane" size=big data-search-terms="air, float, fold, mail, paper, send"></FuiIcon>\n' +
+  '    paper plane\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paper plane outline" size=big data-search-terms="air, float, fold, mail, paper, send"></FuiIcon>\n' +
+  '    paper plane outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone alternate" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone slash" size=big data-search-terms="call, cancel, earphone, mute, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone square" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone square alternate" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone square alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone volume" size=big data-search-terms="call, earphone, number, sound, support, telephone, voice, volume-control-phone"></FuiIcon>\n' +
+  '    phone volume\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rss" size=big data-search-terms="blog, feed, journal, news, writing"></FuiIcon>\n' +
+  '    rss\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rss square" size=big data-search-terms="blog, feed, journal, news, writing"></FuiIcon>\n' +
+  '    rss square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tty" size=big data-search-terms="communication, deaf, telephone, teletypewriter, text"></FuiIcon>\n' +
+  '    tty\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="voicemail" size=big data-search-terms="answer, inbox, message, phone"></FuiIcon>\n' +
+  '    voicemail\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wifi" size=big data-search-terms="connection, hotspot, internet, network, wireless"></FuiIcon>\n' +
+  '    wifi\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconBusiness1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="address book" size=big data-search-terms="contact, directory, index, little black book, rolodex"></FuiIcon>\n' +
+  '    address book\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="address book outline" size=big data-search-terms="contact, directory, index, little black book, rolodex"></FuiIcon>\n' +
+  '    address book outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="address card" size=big data-search-terms="about, contact, id, identification, postcard, profile"></FuiIcon>\n' +
+  '    address card\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="address card outline" size=big data-search-terms="about, contact, id, identification, postcard, profile"></FuiIcon>\n' +
+  '    address card outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="archive" size=big data-search-terms="box, package, save, storage"></FuiIcon>\n' +
+  '    archive\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale" size=big data-search-terms="balanced, justice, legal, measure, weight"></FuiIcon>\n' +
+  '    balance scale\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale left" size=big data-search-terms="justice, legal, measure, unbalanced, weight"></FuiIcon>\n' +
+  '    balance scale left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale right" size=big data-search-terms="justice, legal, measure, unbalanced, weight"></FuiIcon>\n' +
+  '    balance scale right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="birthday cake" size=big data-search-terms="anniversary, bakery, candles, celebration, dessert, frosting, holiday, party, pastry"></FuiIcon>\n' +
+  '    birthday cake\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="book" size=big data-search-terms="diary, documentation, journal, library, read"></FuiIcon>\n' +
+  '    book\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="briefcase" size=big data-search-terms="bag, business, luggage, office, work"></FuiIcon>\n' +
+  '    briefcase\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="building" size=big data-search-terms="apartment, business, city, company, office, work"></FuiIcon>\n' +
+  '    building\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="building outline" size=big data-search-terms="apartment, business, city, company, office, work"></FuiIcon>\n' +
+  '    building outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bullhorn" size=big data-search-terms="announcement, broadcast, louder, megaphone, share"></FuiIcon>\n' +
+  '    bullhorn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bullseye" size=big data-search-terms="archery, goal, objective, target"></FuiIcon>\n' +
+  '    bullseye\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="business time" size=big data-search-terms="alarm, briefcase, business socks, clock, flight of the conchords, reminder, wednesday"></FuiIcon>\n' +
+  '    business time\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calculator" size=big data-search-terms="abacus, addition, arithmetic, counting, math, multiplication, subtraction"></FuiIcon>\n' +
+  '    calculator\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar" size=big data-search-terms="calendar-o, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar alternate" size=big data-search-terms="calendar, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar alternate outline" size=big data-search-terms="calendar, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar outline" size=big data-search-terms="calendar-o, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="certificate" size=big data-search-terms="badge, star, verified"></FuiIcon>\n' +
+  '    certificate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chart area" size=big data-search-terms="analytics, area, chart, graph"></FuiIcon>\n' +
+  '    chart area\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chart bar" size=big data-search-terms="analytics, bar, chart, graph"></FuiIcon>\n' +
+  '    chart bar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chart bar outline" size=big data-search-terms="analytics, bar, chart, graph"></FuiIcon>\n' +
+  '    chart bar outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chart line" size=big data-search-terms="activity, analytics, chart, dashboard, gain, graph, increase, line"></FuiIcon>\n' +
+  '    chart line\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chart pie" size=big data-search-terms="analytics, chart, diagram, graph, pie"></FuiIcon>\n' +
+  '    chart pie\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="city" size=big data-search-terms="buildings, busy, skyscrapers, urban, windows"></FuiIcon>\n' +
+  '    city\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clipboard" size=big data-search-terms="copy, notes, paste, record"></FuiIcon>\n' +
+  '    clipboard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clipboard outline" size=big data-search-terms="copy, notes, paste, record"></FuiIcon>\n' +
+  '    clipboard outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="coffee" size=big data-search-terms="beverage, breakfast, cafe, drink, fall, morning, mug, seasonal, tea"></FuiIcon>\n' +
+  '    coffee\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="columns" size=big data-search-terms="browser, dashboard, organize, panes, split"></FuiIcon>\n' +
+  '    columns\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compass" size=big data-search-terms="directions, directory, location, menu, navigation, safari, travel"></FuiIcon>\n' +
+  '    compass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compass outline" size=big data-search-terms="directions, directory, location, menu, navigation, safari, travel"></FuiIcon>\n' +
+  '    compass outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="copy" size=big data-search-terms="clone, duplicate, file, files-o, paper, paste"></FuiIcon>\n' +
+  '    copy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="copy outline" size=big data-search-terms="clone, duplicate, file, files-o, paper, paste"></FuiIcon>\n' +
+  '    copy outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="copyright" size=big data-search-terms="brand, mark, register, trademark"></FuiIcon>\n' +
+  '    copyright\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="copyright outline" size=big data-search-terms="brand, mark, register, trademark"></FuiIcon>\n' +
+  '    copyright outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cut" size=big data-search-terms="clip, scissors, snip"></FuiIcon>\n' +
+  '    cut\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="edit" size=big data-search-terms="edit, pen, pencil, update, write"></FuiIcon>\n' +
+  '    edit\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="edit outline" size=big data-search-terms="edit, pen, pencil, update, write"></FuiIcon>\n' +
+  '    edit outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope open" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope open outline" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope open outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope outline" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope square" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eraser" size=big data-search-terms="art, delete, remove, rubber"></FuiIcon>\n' +
+  '    eraser\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fax" size=big data-search-terms="business, communicate, copy, facsimile, send"></FuiIcon>\n' +
+  '    fax\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate outline" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file outline" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder" size=big data-search-terms="archive, directory, document, file"></FuiIcon>\n' +
+  '    folder\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder minus" size=big data-search-terms="archive, delete, directory, document, file, negative, remove"></FuiIcon>\n' +
+  '    folder minus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder open" size=big data-search-terms="archive, directory, document, empty, file, new"></FuiIcon>\n' +
+  '    folder open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder open outline" size=big data-search-terms="archive, directory, document, empty, file, new"></FuiIcon>\n' +
+  '    folder open outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder outline" size=big data-search-terms="archive, directory, document, file"></FuiIcon>\n' +
+  '    folder outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder plus" size=big data-search-terms="add, archive, create, directory, document, file, new, positive"></FuiIcon>\n' +
+  '    folder plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glasses" size=big data-search-terms="hipster, nerd, reading, sight, spectacles, vision"></FuiIcon>\n' +
+  '    glasses\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="globe" size=big data-search-terms="all, coordinates, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world"></FuiIcon>\n' +
+  '    globe\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="highlighter" size=big data-search-terms="edit, marker, sharpie, update, write"></FuiIcon>\n' +
+  '    highlighter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="industry" size=big data-search-terms="building, factory, industrial, manufacturing, mill, warehouse"></FuiIcon>\n' +
+  '    industry\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="landmark" size=big data-search-terms="building, historic, memorable, monument, politics"></FuiIcon>\n' +
+  '    landmark\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="marker" size=big data-search-terms="design, edit, sharpie, update, write"></FuiIcon>\n' +
+  '    marker\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paperclip" size=big data-search-terms="attach, attachment, connect, link"></FuiIcon>\n' +
+  '    paperclip\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paste" size=big data-search-terms="clipboard, copy, document, paper"></FuiIcon>\n' +
+  '    paste\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen" size=big data-search-terms="design, edit, update, write"></FuiIcon>\n' +
+  '    pen\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen alternate" size=big data-search-terms="design, edit, update, write"></FuiIcon>\n' +
+  '    pen alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen fancy" size=big data-search-terms="design, edit, fountain pen, update, write"></FuiIcon>\n' +
+  '    pen fancy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen nib" size=big data-search-terms="design, edit, fountain pen, update, write"></FuiIcon>\n' +
+  '    pen nib\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen square" size=big data-search-terms="edit, pencil-square, update, write"></FuiIcon>\n' +
+  '    pen square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pencil alternate" size=big data-search-terms="design, edit, pencil, update, write"></FuiIcon>\n' +
+  '    pencil alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="percent" size=big data-search-terms="discount, fraction, proportion, rate, ratio"></FuiIcon>\n' +
+  '    percent\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone alternate" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone slash" size=big data-search-terms="call, cancel, earphone, mute, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone square" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone square alternate" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone square alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone volume" size=big data-search-terms="call, earphone, number, sound, support, telephone, voice, volume-control-phone"></FuiIcon>\n' +
+  '    phone volume\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="print" size=big data-search-terms="business, copy, document, office, paper"></FuiIcon>\n' +
+  '    print\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="project diagram" size=big data-search-terms="chart, graph, network, pert"></FuiIcon>\n' +
+  '    project diagram\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="registered" size=big data-search-terms="copyright, mark, trademark"></FuiIcon>\n' +
+  '    registered\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="registered outline" size=big data-search-terms="copyright, mark, trademark"></FuiIcon>\n' +
+  '    registered outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="save" size=big data-search-terms="disk, download, floppy, floppy-o"></FuiIcon>\n' +
+  '    save\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="save outline" size=big data-search-terms="disk, download, floppy, floppy-o"></FuiIcon>\n' +
+  '    save outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sitemap" size=big data-search-terms="directory, hierarchy, ia, information architecture, organization"></FuiIcon>\n' +
+  '    sitemap\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="socks" size=big data-search-terms="business socks, business time, clothing, feet, flight of the conchords, wednesday"></FuiIcon>\n' +
+  '    socks\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sticky note" size=big data-search-terms="message, note, paper, reminder, sticker"></FuiIcon>\n' +
+  '    sticky note\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sticky note outline" size=big data-search-terms="message, note, paper, reminder, sticker"></FuiIcon>\n' +
+  '    sticky note outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stream" size=big data-search-terms="flow, list, timeline"></FuiIcon>\n' +
+  '    stream\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="table" size=big data-search-terms="data, excel, spreadsheet"></FuiIcon>\n' +
+  '    table\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tag" size=big data-search-terms="discount, label, price, shopping"></FuiIcon>\n' +
+  '    tag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tags" size=big data-search-terms="discount, label, price, shopping"></FuiIcon>\n' +
+  '    tags\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tasks" size=big data-search-terms="checklist, downloading, downloads, loading, progress, project management, settings, to do"></FuiIcon>\n' +
+  '    tasks\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbtack" size=big data-search-terms="coordinates, location, marker, pin, thumb-tack"></FuiIcon>\n' +
+  '    thumbtack\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trademark" size=big data-search-terms="copyright, register, symbol"></FuiIcon>\n' +
+  '    trademark\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wallet" size=big data-search-terms="billfold, cash, currency, money"></FuiIcon>\n' +
+  '    wallet\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconEducation1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="atom" size=big data-search-terms="atheism, chemistry, ion, nuclear, science"></FuiIcon>\n' +
+  '    atom\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="award" size=big data-search-terms="honor, praise, prize, recognition, ribbon, trophy"></FuiIcon>\n' +
+  '    award\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell outline" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell slash" size=big data-search-terms="alert, cancel, disabled, notification, off, reminder"></FuiIcon>\n' +
+  '    bell slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell slash outline" size=big data-search-terms="alert, cancel, disabled, notification, off, reminder"></FuiIcon>\n' +
+  '    bell slash outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="book open" size=big data-search-terms="flyer, library, notebook, open book, pamphlet, reading"></FuiIcon>\n' +
+  '    book open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="book reader" size=big data-search-terms="flyer, library, notebook, open book, pamphlet, reading"></FuiIcon>\n' +
+  '    book reader\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chalkboard" size=big data-search-terms="blackboard, learning, school, teaching, whiteboard, writing"></FuiIcon>\n' +
+  '    chalkboard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chalkboard teacher" size=big data-search-terms="blackboard, instructor, learning, professor, school, whiteboard, writing"></FuiIcon>\n' +
+  '    chalkboard teacher\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fruit-apple" size=big data-search-terms="fall, fruit, fuji, macintosh, orchard, seasonal, vegan"></FuiIcon>\n' +
+  '    fruit-apple\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="graduation cap" size=big data-search-terms="ceremony, college, graduate, learning, school, student"></FuiIcon>\n' +
+  '    graduation cap\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laptop code" size=big data-search-terms="computer, cpu, dell, demo, develop, device, mac, macbook, machine, pc"></FuiIcon>\n' +
+  '    laptop code\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microscope" size=big data-search-terms="electron, lens, optics, science, shrink"></FuiIcon>\n' +
+  '    microscope\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="music" size=big data-search-terms="lyrics, melody, note, sing, sound"></FuiIcon>\n' +
+  '    music\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="school" size=big data-search-terms="building, education, learn, student, teacher"></FuiIcon>\n' +
+  '    school\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shapes" size=big data-search-terms="blocks, build, circle, square, triangle"></FuiIcon>\n' +
+  '    shapes\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="theater masks" size=big data-search-terms="comedy, perform, theatre, tragedy"></FuiIcon>\n' +
+  '    theater masks\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user graduate" size=big data-search-terms="cap, clothing, commencement, gown, graduation, person, student"></FuiIcon>\n' +
+  '    user graduate\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconVehicles1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="accessible" size=big data-search-terms="accessibility, handicap, person, wheelchair, wheelchair-alt"></FuiIcon>\n' +
+  '    accessible\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ambulance" size=big data-search-terms="emergency, emt, er, help, hospital, support, vehicle"></FuiIcon>\n' +
+  '    ambulance\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="baby carriage" size=big data-search-terms="buggy, carrier, infant, push, stroller, transportation, walk, wheels"></FuiIcon>\n' +
+  '    baby carriage\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bicycle" size=big data-search-terms="bike, gears, pedal, transportation, vehicle"></FuiIcon>\n' +
+  '    bicycle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bus" size=big data-search-terms="public transportation, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    bus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bus alternate" size=big data-search-terms="mta, public transportation, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    bus alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="car" size=big data-search-terms="auto, automobile, sedan, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    car\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="car alternate" size=big data-search-terms="auto, automobile, sedan, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    car alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="car crash" size=big data-search-terms="accident, auto, automobile, insurance, sedan, transportation, vehicle, wreck"></FuiIcon>\n' +
+  '    car crash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="car side" size=big data-search-terms="auto, automobile, sedan, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    car side\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fighter jet" size=big data-search-terms="airplane, fast, fly, goose, maverick, plane, quick, top gun, transportation, travel"></FuiIcon>\n' +
+  '    fighter jet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="helicopter" size=big data-search-terms="airwolf, apache, chopper, flight, fly, travel"></FuiIcon>\n' +
+  '    helicopter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="horse" size=big data-search-terms="equus, fauna, mammmal, mare, neigh, pony"></FuiIcon>\n' +
+  '    horse\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="motorcycle" size=big data-search-terms="bike, machine, transportation, vehicle"></FuiIcon>\n' +
+  '    motorcycle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paper plane" size=big data-search-terms="air, float, fold, mail, paper, send"></FuiIcon>\n' +
+  '    paper plane\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paper plane outline" size=big data-search-terms="air, float, fold, mail, paper, send"></FuiIcon>\n' +
+  '    paper plane outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plane" size=big data-search-terms="airplane, destination, fly, location, mode, travel, trip"></FuiIcon>\n' +
+  '    plane\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rocket" size=big data-search-terms="aircraft, app, jet, launch, nasa, space"></FuiIcon>\n' +
+  '    rocket\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ship" size=big data-search-terms="boat, sea, water"></FuiIcon>\n' +
+  '    ship\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopping cart" size=big data-search-terms="buy, checkout, grocery, payment, purchase"></FuiIcon>\n' +
+  '    shopping cart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shuttle van" size=big data-search-terms="airport, machine, public-transportation, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    shuttle van\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sleigh" size=big data-search-terms="christmas, claus, fly, holiday, santa, sled, snow, xmas"></FuiIcon>\n' +
+  '    sleigh\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowplow" size=big data-search-terms="clean up, cold, road, storm, winter"></FuiIcon>\n' +
+  '    snowplow\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="space shuttle" size=big data-search-terms="astronaut, machine, nasa, rocket, transportation"></FuiIcon>\n' +
+  '    space shuttle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="subway" size=big data-search-terms="machine, railway, train, transportation, vehicle"></FuiIcon>\n' +
+  '    subway\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="taxi" size=big data-search-terms="cab, cabbie, car, car service, lyft, machine, transportation, travel, uber, vehicle"></FuiIcon>\n' +
+  '    taxi\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tractor" size=big data-search-terms="agriculture, farm, vehicle"></FuiIcon>\n' +
+  '    tractor\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="train" size=big data-search-terms="bullet, commute, locomotive, railway, subway"></FuiIcon>\n' +
+  '    train\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tram" size=big data-search-terms="crossing, machine, mountains, seasonal, transportation"></FuiIcon>\n' +
+  '    tram\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="truck" size=big data-search-terms="cargo, delivery, shipping, vehicle"></FuiIcon>\n' +
+  '    truck\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="truck monster" size=big data-search-terms="offroad, vehicle, wheel"></FuiIcon>\n' +
+  '    truck monster\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="truck pickup" size=big data-search-terms="cargo, vehicle"></FuiIcon>\n' +
+  '    truck pickup\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wheelchair" size=big data-search-terms="accessible, handicap, person"></FuiIcon>\n' +
+  '    wheelchair\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconBeverage1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="beer" size=big data-search-terms="alcohol, ale, bar, beverage, brewery, drink, lager, liquor, mug, stein"></FuiIcon>\n' +
+  '    beer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="blender" size=big data-search-terms="cocktail, milkshake, mixer, puree, smoothie"></FuiIcon>\n' +
+  '    blender\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cocktail" size=big data-search-terms="alcohol, beverage, drink, gin, glass, margarita, martini, vodka"></FuiIcon>\n' +
+  '    cocktail\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="coffee" size=big data-search-terms="beverage, breakfast, cafe, drink, fall, morning, mug, seasonal, tea"></FuiIcon>\n' +
+  '    coffee\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flask" size=big data-search-terms="beaker, experimental, labs, science"></FuiIcon>\n' +
+  '    flask\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glass cheers" size=big data-search-terms="alcohol, bar, beverage, celebration, champagne, clink, drink, holiday, new year\'s eve, party, toast"></FuiIcon>\n' +
+  '    glass cheers\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glass martini" size=big data-search-terms="alcohol, bar, beverage, drink, liquor"></FuiIcon>\n' +
+  '    glass martini\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glass martini alternate" size=big data-search-terms="alcohol, bar, beverage, drink, liquor"></FuiIcon>\n' +
+  '    glass martini alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glass whiskey" size=big data-search-terms="alcohol, bar, beverage, bourbon, drink, liquor, neat, rye, scotch, whisky"></FuiIcon>\n' +
+  '    glass whiskey\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mug hot" size=big data-search-terms="caliente, cocoa, coffee, cup, drink, holiday, hot chocolate, steam, tea, warmth"></FuiIcon>\n' +
+  '    mug hot\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wine bottle" size=big data-search-terms="alcohol, beverage, cabernet, drink, glass, grapes, merlot, sauvignon"></FuiIcon>\n' +
+  '    wine bottle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wine glass" size=big data-search-terms="alcohol, beverage, cabernet, drink, grapes, merlot, sauvignon"></FuiIcon>\n' +
+  '    wine glass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wine glass alternate" size=big data-search-terms="alcohol, beverage, cabernet, drink, grapes, merlot, sauvignon"></FuiIcon>\n' +
+  '    wine glass alternate\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconSports1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="baseball ball" size=big data-search-terms="foul, hardball, league, leather, mlb, softball, sport"></FuiIcon>\n' +
+  '    baseball ball\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="basketball ball" size=big data-search-terms="dribble, dunk, hoop, nba"></FuiIcon>\n' +
+  '    basketball ball\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="biking" size=big data-search-terms="bicycle, bike, cycle, cycling, ride, wheel"></FuiIcon>\n' +
+  '    biking\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bowling ball" size=big data-search-terms="alley, candlepin, gutter, lane, strike, tenpin"></FuiIcon>\n' +
+  '    bowling ball\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dumbbell" size=big data-search-terms="exercise, gym, strength, weight, weight-lifting"></FuiIcon>\n' +
+  '    dumbbell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="football ball" size=big data-search-terms="ball, fall, nfl, pigskin, seasonal"></FuiIcon>\n' +
+  '    football ball\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="futbol" size=big data-search-terms="ball, football, mls, soccer"></FuiIcon>\n' +
+  '    futbol\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="futbol outline" size=big data-search-terms="ball, football, mls, soccer"></FuiIcon>\n' +
+  '    futbol outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="golf ball" size=big data-search-terms="caddy, eagle, putt, tee"></FuiIcon>\n' +
+  '    golf ball\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hockey puck" size=big data-search-terms="ice, nhl, sport"></FuiIcon>\n' +
+  '    hockey puck\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="quidditch" size=big data-search-terms="ball, bludger, broom, golden snitch, harry potter, hogwarts, quaffle, sport, wizard"></FuiIcon>\n' +
+  '    quidditch\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="running" size=big data-search-terms="exercise, health, jog, person, run, sport, sprint"></FuiIcon>\n' +
+  '    running\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skating" size=big data-search-terms="activity, figure skating, fitness, ice, person, winter"></FuiIcon>\n' +
+  '    skating\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skiing" size=big data-search-terms="activity, downhill, fast, fitness, olympics, outdoors, person, seasonal, slalom"></FuiIcon>\n' +
+  '    skiing\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skiing nordic" size=big data-search-terms="activity, cross country, fitness, outdoors, person, seasonal"></FuiIcon>\n' +
+  '    skiing nordic\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowboarding" size=big data-search-terms="activity, fitness, olympics, outdoors, person"></FuiIcon>\n' +
+  '    snowboarding\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="table tennis" size=big data-search-terms="ball, paddle, ping pong"></FuiIcon>\n' +
+  '    table tennis\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volleyball ball" size=big data-search-terms="beach, olympics, sport"></FuiIcon>\n' +
+  '    volleyball ball\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconCode1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="archive" size=big data-search-terms="box, package, save, storage"></FuiIcon>\n' +
+  '    archive\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="barcode" size=big data-search-terms="info, laser, price, scan, upc"></FuiIcon>\n' +
+  '    barcode\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bath" size=big data-search-terms="clean, shower, tub, wash"></FuiIcon>\n' +
+  '    bath\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bug" size=big data-search-terms="beetle, error, insect, report"></FuiIcon>\n' +
+  '    bug\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="code" size=big data-search-terms="brackets, code, development, html"></FuiIcon>\n' +
+  '    code\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="code branch" size=big data-search-terms="branch, code-fork, fork, git, github, rebase, svn, vcs, version"></FuiIcon>\n' +
+  '    code branch\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="coffee" size=big data-search-terms="beverage, breakfast, cafe, drink, fall, morning, mug, seasonal, tea"></FuiIcon>\n' +
+  '    coffee\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate outline" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file code" size=big data-search-terms="css, development, document, html"></FuiIcon>\n' +
+  '    file code\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file code outline" size=big data-search-terms="css, development, document, html"></FuiIcon>\n' +
+  '    file code outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file outline" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="filter" size=big data-search-terms="funnel, options, separate, sort"></FuiIcon>\n' +
+  '    filter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fire extinguisher" size=big data-search-terms="burn, caliente, fire fighter, flame, heat, hot, rescue"></FuiIcon>\n' +
+  '    fire extinguisher\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder" size=big data-search-terms="archive, directory, document, file"></FuiIcon>\n' +
+  '    folder\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder open" size=big data-search-terms="archive, directory, document, empty, file, new"></FuiIcon>\n' +
+  '    folder open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder open outline" size=big data-search-terms="archive, directory, document, empty, file, new"></FuiIcon>\n' +
+  '    folder open outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder outline" size=big data-search-terms="archive, directory, document, file"></FuiIcon>\n' +
+  '    folder outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="keyboard" size=big data-search-terms="accessory, edit, input, text, type, write"></FuiIcon>\n' +
+  '    keyboard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="keyboard outline" size=big data-search-terms="accessory, edit, input, text, type, write"></FuiIcon>\n' +
+  '    keyboard outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laptop code" size=big data-search-terms="computer, cpu, dell, demo, develop, device, mac, macbook, machine, pc"></FuiIcon>\n' +
+  '    laptop code\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microchip" size=big data-search-terms="cpu, hardware, processor, technology"></FuiIcon>\n' +
+  '    microchip\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="project diagram" size=big data-search-terms="chart, graph, network, pert"></FuiIcon>\n' +
+  '    project diagram\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="qrcode" size=big data-search-terms="barcode, info, information, scan"></FuiIcon>\n' +
+  '    qrcode\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shield alternate" size=big data-search-terms="achievement, award, block, defend, security, winner"></FuiIcon>\n' +
+  '    shield alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sitemap" size=big data-search-terms="directory, hierarchy, ia, information architecture, organization"></FuiIcon>\n' +
+  '    sitemap\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stream" size=big data-search-terms="flow, list, timeline"></FuiIcon>\n' +
+  '    stream\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="terminal" size=big data-search-terms="code, command, console, development, prompt"></FuiIcon>\n' +
+  '    terminal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user secret" size=big data-search-terms="clothing, coat, hat, incognito, person, privacy, spy, whisper"></FuiIcon>\n' +
+  '    user secret\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="window close" size=big data-search-terms="browser, cancel, computer, development"></FuiIcon>\n' +
+  '    window close\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="window close outline" size=big data-search-terms="browser, cancel, computer, development"></FuiIcon>\n' +
+  '    window close outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="window maximize" size=big data-search-terms="browser, computer, development, expand"></FuiIcon>\n' +
+  '    window maximize\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="window maximize outline" size=big data-search-terms="browser, computer, development, expand"></FuiIcon>\n' +
+  '    window maximize outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="window minimize" size=big data-search-terms="browser, collapse, computer, development"></FuiIcon>\n' +
+  '    window minimize\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="window minimize outline" size=big data-search-terms="browser, collapse, computer, development"></FuiIcon>\n' +
+  '    window minimize outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="window restore" size=big data-search-terms="browser, computer, development"></FuiIcon>\n' +
+  '    window restore\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="window restore outline" size=big data-search-terms="browser, computer, development"></FuiIcon>\n' +
+  '    window restore outline\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconAlert1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell outline" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell slash" size=big data-search-terms="alert, cancel, disabled, notification, off, reminder"></FuiIcon>\n' +
+  '    bell slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell slash outline" size=big data-search-terms="alert, cancel, disabled, notification, off, reminder"></FuiIcon>\n' +
+  '    bell slash outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="exclamation" size=big data-search-terms="alert, danger, error, important, notice, notification, notify, problem, warning"></FuiIcon>\n' +
+  '    exclamation\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="exclamation circle" size=big data-search-terms="alert, danger, error, important, notice, notification, notify, problem, warning"></FuiIcon>\n' +
+  '    exclamation circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="exclamation triangle" size=big data-search-terms="alert, danger, error, important, notice, notification, notify, problem, warning"></FuiIcon>\n' +
+  '    exclamation triangle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="radiation" size=big data-search-terms="danger, dangerous, deadly, hazard, nuclear, radioactive, warning"></FuiIcon>\n' +
+  '    radiation\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="radiation alternate" size=big data-search-terms="danger, dangerous, deadly, hazard, nuclear, radioactive, warning"></FuiIcon>\n' +
+  '    radiation alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skull crossbones" size=big data-search-terms="Dungeons & Dragons, alert, bones, d&d, danger, dead, deadly, death, dnd, fantasy, halloween, holiday, jolly-roger, pirate, poison, skeleton, warning"></FuiIcon>\n' +
+  '    skull crossbones\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
 s.ElementIcon1A = 
   '<h2 class="ui dividing header">States</h2>\n' +
   '<div class="example">\n' +
   '  <h4 class="ui header">Disabled</h4>\n' +
   '  <p>An icon can show that it is disabled</p>\n' +
-  '  <i class="disabled users icon"/>\n' +
+  '  <i class="disabled users icon"></i>\n' +
   '</div>\n' +
   '<div class="example">\n' +
   '  <h4 class="ui header">Loading</h4>\n' +
   '  <p>An icon can be used as a simple loader</p>\n' +
-  '  <i class="spinner loading icon"/>\n' +
-  '  <i class="notched circle loading icon"/>\n' +
-  '  <i class="asterisk loading icon"/>\n' +
+  '  <i class="spinner loading icon"></i>\n' +
+  '  <i class="notched circle loading icon"></i>\n' +
+  '  <i class="asterisk loading icon"></i>\n' +
   '</div>\n' +
   '<h2 class="ui dividing header">Variations</h2>\n' +
   '<div class="example">\n' +
   '  <h4 class="ui header">Fitted</h4>\n' +
   '  <p>An icon can be fitted, without any space to the left or right of it.</p>\n' +
   '  Tight spacing\n' +
-  '  <i class="fitted help icon"/>\n' +
+  '  <i class="fitted help icon"></i>\n' +
   '  Tight spacing\n' +
   '</div>\n' +
   '<div class="example">\n' +
   '  <h4 class="ui header">Size</h4>\n' +
   '  <p>An icon can vary in size</p>\n' +
-  '  <i class="mini home icon"/>\n' +
-  '  <i class="tiny home icon"/>\n' +
-  '  <i class="small home icon"/>\n' +
+  '  <i class="mini home icon"></i>\n' +
+  '  <i class="tiny home icon"></i>\n' +
+  '  <i class="small home icon"></i>\n' +
   '  <br/>\n' +
-  '  <i class="home icon"/>\n' +
+  '  <i class="home icon"></i>\n' +
   '  <br/>\n' +
-  '  <i class="large home icon"/>\n' +
+  '  <i class="large home icon"></i>\n' +
   '  <br/>\n' +
-  '  <i class="big home icon"/>\n' +
+  '  <i class="big home icon"></i>\n' +
   '  <br/>\n' +
-  '  <i class="huge home icon"/>\n' +
+  '  <i class="huge home icon"></i>\n' +
   '  <br/>\n' +
-  '  <i class="massive home icon"/>\n' +
+  '  <i class="massive home icon"></i>\n' +
   '</div>\n' +
   '<div class="example">\n' +
   '  <h4 class="ui header">Link</h4>\n' +
   '  <p>An icon can be formatted as a link</p>\n' +
-  '  <i class="close link icon"/>\n' +
-  '  <i class="help link icon"/>\n' +
+  '  <i class="close link icon"></i>\n' +
+  '  <i class="help link icon"></i>\n' +
   '</div>\n' +
   '<div class="example">\n' +
   '  <h4 class="ui header">Flipped</h4>\n' +
   '  <p>An icon can be flipped</p>\n' +
-  '  <i class="horizontally flipped cloud icon"/>\n' +
-  '  <i class="vertically flipped cloud icon"/>\n' +
+  '  <i class="horizontally flipped cloud icon"></i>\n' +
+  '  <i class="vertically flipped cloud icon"></i>\n' +
   '</div>\n' +
   '<div class="example">\n' +
   '  <h4 class="ui header">Rotated</h4>\n' +
   '  <p>An icon can be rotated</p>\n' +
-  '  <i class="clockwise rotated cloud icon"/>\n' +
-  '  <i class="counterclockwise rotated cloud icon"/>\n' +
+  '  <i class="clockwise rotated cloud icon"></i>\n' +
+  '  <i class="counterclockwise rotated cloud icon"></i>\n' +
   '</div>\n' +
   '<div class="example">\n' +
   '  <h4 class="ui header">Circular</h4>\n' +
   '  <p>An icon can be formatted to appear circular</p>\n' +
-  '  <i class="circular users icon"/>\n' +
-  '  <i class="circular teal users icon"/>\n' +
-  '  <i class="circular inverted users icon"/>\n' +
-  '  <i class="circular inverted teal users icon"/>\n' +
+  '  <i class="circular users icon"></i>\n' +
+  '  <i class="circular teal users icon"></i>\n' +
+  '  <i class="circular inverted users icon"></i>\n' +
+  '  <i class="circular inverted teal users icon"></i>\n' +
   '</div>\n' +
   '<div class="example">\n' +
   '  <h4 class="ui header">Bordered</h4>\n' +
@@ -4762,49 +12168,49 @@ s.ElementIcon1A =
   '    In <code>0.x.x</code> bordered was formally known as <code>squared</code>\n' +
   '  </div>\n' +
   '  <p>An icon can be formatted to appear bordered</p>\n' +
-  '  <i class="bordered users icon"/>\n' +
-  '  <i class="bordered teal users icon"/>\n' +
-  '  <i class="bordered inverted black users icon"/>\n' +
-  '  <i class="bordered inverted teal users icon"/>\n' +
+  '  <i class="bordered users icon"></i>\n' +
+  '  <i class="bordered teal users icon"></i>\n' +
+  '  <i class="bordered inverted black users icon"></i>\n' +
+  '  <i class="bordered inverted teal users icon"></i>\n' +
   '</div>\n' +
   '<div class="example">\n' +
   '  <h4 class="ui header">Colored</h4>\n' +
   '  <p>An icon can be formatted with different colors</p>\n' +
-  '  <i class="primary users icon"/>\n' +
-  '  <i class="secondary users icon"/>\n' +
-  '  <i class="red users icon"/>\n' +
-  '  <i class="orange users icon"/>\n' +
-  '  <i class="yellow users icon"/>\n' +
-  '  <i class="olive users icon"/>\n' +
-  '  <i class="green users icon"/>\n' +
-  '  <i class="teal users icon"/>\n' +
-  '  <i class="blue users icon"/>\n' +
-  '  <i class="violet users icon"/>\n' +
-  '  <i class="purple users icon"/>\n' +
-  '  <i class="pink users icon"/>\n' +
-  '  <i class="brown users icon"/>\n' +
-  '  <i class="grey users icon"/>\n' +
-  '  <i class="black users icon"/>\n' +
+  '  <i class="primary users icon"></i>\n' +
+  '  <i class="secondary users icon"></i>\n' +
+  '  <i class="red users icon"></i>\n' +
+  '  <i class="orange users icon"></i>\n' +
+  '  <i class="yellow users icon"></i>\n' +
+  '  <i class="olive users icon"></i>\n' +
+  '  <i class="green users icon"></i>\n' +
+  '  <i class="teal users icon"></i>\n' +
+  '  <i class="blue users icon"></i>\n' +
+  '  <i class="violet users icon"></i>\n' +
+  '  <i class="purple users icon"></i>\n' +
+  '  <i class="pink users icon"></i>\n' +
+  '  <i class="brown users icon"></i>\n' +
+  '  <i class="grey users icon"></i>\n' +
+  '  <i class="black users icon"></i>\n' +
   '</div>\n' +
   '<div class="example">\n' +
   '  <h4 class="ui header">Inverted</h4>\n' +
   '  <p>An icon can have its colors inverted for contrast</p>\n' +
   '  <div class="ui inverted segment">\n' +
-  '    <i class="inverted users icon"/>\n' +
-  '    <i class="inverted primary users icon"/>\n' +
-  '    <i class="inverted secondary users icon"/>\n' +
-  '    <i class="inverted red users icon"/>\n' +
-  '    <i class="inverted orange users icon"/>\n' +
-  '    <i class="inverted yellow users icon"/>\n' +
-  '    <i class="inverted olive users icon"/>\n' +
-  '    <i class="inverted green users icon"/>\n' +
-  '    <i class="inverted teal users icon"/>\n' +
-  '    <i class="inverted blue users icon"/>\n' +
-  '    <i class="inverted violet users icon"/>\n' +
-  '    <i class="inverted purple users icon"/>\n' +
-  '    <i class="inverted pink users icon"/>\n' +
-  '    <i class="inverted brown users icon"/>\n' +
-  '    <i class="inverted grey users icon"/>\n' +
+  '    <i class="inverted users icon"></i>\n' +
+  '    <i class="inverted primary users icon"></i>\n' +
+  '    <i class="inverted secondary users icon"></i>\n' +
+  '    <i class="inverted red users icon"></i>\n' +
+  '    <i class="inverted orange users icon"></i>\n' +
+  '    <i class="inverted yellow users icon"></i>\n' +
+  '    <i class="inverted olive users icon"></i>\n' +
+  '    <i class="inverted green users icon"></i>\n' +
+  '    <i class="inverted teal users icon"></i>\n' +
+  '    <i class="inverted blue users icon"></i>\n' +
+  '    <i class="inverted violet users icon"></i>\n' +
+  '    <i class="inverted purple users icon"></i>\n' +
+  '    <i class="inverted pink users icon"></i>\n' +
+  '    <i class="inverted brown users icon"></i>\n' +
+  '    <i class="inverted grey users icon"></i>\n' +
   '  </div>\n' +
   '</div>\n' +
   '<h2 class="ui dividing header">Groups</h2>\n' +
@@ -4812,51 +12218,5256 @@ s.ElementIcon1A =
   '  <h4 class="ui header">Icons</h4>\n' +
   '  <p>Several icons can be used together as a group</p>\n' +
   '  <i class="huge icons">\n' +
-  '    <i class="big circle outline icon"/>\n' +
-  '    <i class="user icon"/>\n' +
+  '    <i class="big circle outline icon"></i>\n' +
+  '    <i class="user icon"></i>\n' +
   '  </i>\n' +
   '</div>\n' +
   '<div class="another example">\n' +
   '  <i class="huge icons">\n' +
-  '    <i class="big red dont icon"/>\n' +
-  '    <i class="black user icon"/>\n' +
+  '    <i class="big red dont icon"></i>\n' +
+  '    <i class="black user icon"></i>\n' +
   '  </i>\n' +
   '</div>\n' +
   '<div class="example" data-class="corner">\n' +
   '  <h4 class="ui header">Corner Icon</h4>\n' +
   '  <p>A group of icons can display a smaller corner icon</p>\n' +
   '  <i class="huge icons">\n' +
-  '    <i class="puzzle icon"/>\n' +
-  '    <i class="corner add icon"/>\n' +
+  '    <i class="puzzle icon"></i>\n' +
+  '    <i class="corner add icon"></i>\n' +
   '  </i>\n' +
   '</div>\n' +
   '<div class="another example">\n' +
   '  <i class="huge icons">\n' +
-  '    <i class="puzzle icon"/>\n' +
-  '    <i class="top left corner add icon"/>\n' +
+  '    <i class="puzzle icon"></i>\n' +
+  '    <i class="top left corner add icon"></i>\n' +
   '  </i>\n' +
   '  <i class="huge icons">\n' +
-  '    <i class="puzzle icon"/>\n' +
-  '    <i class="top right corner add icon"/>\n' +
+  '    <i class="puzzle icon"></i>\n' +
+  '    <i class="top right corner add icon"></i>\n' +
   '  </i>\n' +
   '  <i class="huge icons">\n' +
-  '    <i class="puzzle icon"/>\n' +
-  '    <i class="bottom left corner add icon"/>\n' +
+  '    <i class="puzzle icon"></i>\n' +
+  '    <i class="bottom left corner add icon"></i>\n' +
   '  </i>\n' +
   '  <i class="huge icons">\n' +
-  '    <i class="puzzle icon"/>\n' +
-  '    <i class="bottom right corner add icon"/>\n' +
+  '    <i class="puzzle icon"></i>\n' +
+  '    <i class="bottom right corner add icon"></i>\n' +
   '  </i>\n' +
   '</div>\n' +
   '<div class="another example">\n' +
   '  <h2 class="ui header">\n' +
   '    <i class="large icons">\n' +
-  '      <i class="twitter icon"/>\n' +
-  '      <i class="inverted corner add icon"/>\n' +
+  '      <i class="twitter icon"></i>\n' +
+  '      <i class="inverted corner add icon"></i>\n' +
   '    </i>\n' +
   '    Add on Twitter\n' +
   '  </h2>\n' +
   '</div>' 
+s.ElementIconFinance1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale" size=big data-search-terms="balanced, justice, legal, measure, weight"></FuiIcon>\n' +
+  '    balance scale\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale left" size=big data-search-terms="justice, legal, measure, unbalanced, weight"></FuiIcon>\n' +
+  '    balance scale left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale right" size=big data-search-terms="justice, legal, measure, unbalanced, weight"></FuiIcon>\n' +
+  '    balance scale right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="book" size=big data-search-terms="diary, documentation, journal, library, read"></FuiIcon>\n' +
+  '    book\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cash register" size=big data-search-terms="buy, cha-ching, change, checkout, commerce, leaerboard, machine, pay, payment, purchase, store"></FuiIcon>\n' +
+  '    cash register\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chart line" size=big data-search-terms="activity, analytics, chart, dashboard, gain, graph, increase, line"></FuiIcon>\n' +
+  '    chart line\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chart pie" size=big data-search-terms="analytics, chart, diagram, graph, pie"></FuiIcon>\n' +
+  '    chart pie\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="coins" size=big data-search-terms="currency, dime, financial, gold, money, penny"></FuiIcon>\n' +
+  '    coins\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment dollar" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, money, note, notification, pay, sms, speech, spend, texting, transfer"></FuiIcon>\n' +
+  '    comment dollar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comments dollar" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, money, note, notification, pay, sms, speech, spend, texting, transfer"></FuiIcon>\n' +
+  '    comments dollar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="credit card" size=big data-search-terms="buy, checkout, credit-card-alt, debit, money, payment, purchase"></FuiIcon>\n' +
+  '    credit card\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="credit card outline" size=big data-search-terms="buy, checkout, credit-card-alt, debit, money, payment, purchase"></FuiIcon>\n' +
+  '    credit card outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="donate" size=big data-search-terms="contribute, generosity, gift, give"></FuiIcon>\n' +
+  '    donate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file invoice" size=big data-search-terms="account, bill, charge, document, payment, receipt"></FuiIcon>\n' +
+  '    file invoice\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file invoice dollar" size=big data-search-terms="$, account, bill, charge, document, dollar-sign, money, payment, receipt, usd"></FuiIcon>\n' +
+  '    file invoice dollar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand holding usd" size=big data-search-terms="$, carry, dollar sign, donation, giving, lift, money, price"></FuiIcon>\n' +
+  '    hand holding usd\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="landmark" size=big data-search-terms="building, historic, memorable, monument, politics"></FuiIcon>\n' +
+  '    landmark\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill alternate" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill alternate outline" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill wave" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill wave\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill wave alternate" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill wave alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money check" size=big data-search-terms="bank check, buy, checkout, cheque, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money check\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money check alternate" size=big data-search-terms="bank check, buy, checkout, cheque, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money check alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="percentage" size=big data-search-terms="discount, fraction, proportion, rate, ratio"></FuiIcon>\n' +
+  '    percentage\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="piggy bank" size=big data-search-terms="bank, save, savings"></FuiIcon>\n' +
+  '    piggy bank\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="receipt" size=big data-search-terms="check, invoice, money, pay, table"></FuiIcon>\n' +
+  '    receipt\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stamp" size=big data-search-terms="art, certificate, imprint, rubber, seal"></FuiIcon>\n' +
+  '    stamp\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wallet" size=big data-search-terms="billfold, cash, currency, money"></FuiIcon>\n' +
+  '    wallet\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconGenders1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="genderless" size=big data-search-terms="androgynous, asexual, sexless"></FuiIcon>\n' +
+  '    genderless\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mars" size=big data-search-terms="male"></FuiIcon>\n' +
+  '    mars\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mars double" size=big data-search-terms=""></FuiIcon>\n' +
+  '    mars double\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mars stroke" size=big data-search-terms=""></FuiIcon>\n' +
+  '    mars stroke\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mars stroke horizontal" size=big data-search-terms=""></FuiIcon>\n' +
+  '    mars stroke horizontal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mars stroke vertical" size=big data-search-terms=""></FuiIcon>\n' +
+  '    mars stroke vertical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mercury" size=big data-search-terms="transgender"></FuiIcon>\n' +
+  '    mercury\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="neuter" size=big data-search-terms=""></FuiIcon>\n' +
+  '    neuter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="transgender" size=big data-search-terms="intersex"></FuiIcon>\n' +
+  '    transgender\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="transgender alternate" size=big data-search-terms="intersex"></FuiIcon>\n' +
+  '    transgender alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="venus" size=big data-search-terms="female"></FuiIcon>\n' +
+  '    venus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="venus double" size=big data-search-terms="female"></FuiIcon>\n' +
+  '    venus double\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="venus mars" size=big data-search-terms="Gender"></FuiIcon>\n' +
+  '    venus mars\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconWeather1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bolt" size=big data-search-terms="electricity, lightning, weather, zap"></FuiIcon>\n' +
+  '    bolt\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud" size=big data-search-terms="atmosphere, fog, overcast, save, upload, weather"></FuiIcon>\n' +
+  '    cloud\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud meatball" size=big data-search-terms="FLDSMDFR, food, spaghetti, storm"></FuiIcon>\n' +
+  '    cloud meatball\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud moon" size=big data-search-terms="crescent, evening, lunar, night, partly cloudy, sky"></FuiIcon>\n' +
+  '    cloud moon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud moon rain" size=big data-search-terms="crescent, evening, lunar, night, partly cloudy, precipitation, rain, sky, storm"></FuiIcon>\n' +
+  '    cloud moon rain\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud rain" size=big data-search-terms="precipitation, rain, sky, storm"></FuiIcon>\n' +
+  '    cloud rain\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud showers heavy" size=big data-search-terms="precipitation, rain, sky, storm"></FuiIcon>\n' +
+  '    cloud showers heavy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud sun" size=big data-search-terms="clear, day, daytime, fall, outdoors, overcast, partly cloudy"></FuiIcon>\n' +
+  '    cloud sun\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud sun rain" size=big data-search-terms="day, overcast, precipitation, storm, summer, sunshower"></FuiIcon>\n' +
+  '    cloud sun rain\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meteor" size=big data-search-terms="armageddon, asteroid, comet, shooting star, space"></FuiIcon>\n' +
+  '    meteor\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="moon" size=big data-search-terms="contrast, crescent, dark, lunar, night"></FuiIcon>\n' +
+  '    moon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="moon outline" size=big data-search-terms="contrast, crescent, dark, lunar, night"></FuiIcon>\n' +
+  '    moon outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="poo storm" size=big data-search-terms="bolt, cloud, euphemism, lightning, mess, poop, shit, turd"></FuiIcon>\n' +
+  '    poo storm\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rainbow" size=big data-search-terms="gold, leprechaun, prism, rain, sky"></FuiIcon>\n' +
+  '    rainbow\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smog" size=big data-search-terms="dragon, fog, haze, pollution, smoke, weather"></FuiIcon>\n' +
+  '    smog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowflake" size=big data-search-terms="precipitation, rain, winter"></FuiIcon>\n' +
+  '    snowflake\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowflake outline" size=big data-search-terms="precipitation, rain, winter"></FuiIcon>\n' +
+  '    snowflake outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sun" size=big data-search-terms="brighten, contrast, day, lighter, sol, solar, star, weather"></FuiIcon>\n' +
+  '    sun\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sun outline" size=big data-search-terms="brighten, contrast, day, lighter, sol, solar, star, weather"></FuiIcon>\n' +
+  '    sun outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="temperature high" size=big data-search-terms="cook, mercury, summer, thermometer, warm"></FuiIcon>\n' +
+  '    temperature high\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="temperature low" size=big data-search-terms="cold, cool, mercury, thermometer, winter"></FuiIcon>\n' +
+  '    temperature low\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="umbrella" size=big data-search-terms="protection, rain, storm, wet"></FuiIcon>\n' +
+  '    umbrella\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="water" size=big data-search-terms="lake, liquid, ocean, sea, swim, wet"></FuiIcon>\n' +
+  '    water\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wind" size=big data-search-terms="air, blow, breeze, fall, seasonal, weather"></FuiIcon>\n' +
+  '    wind\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconPharmacy1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="band aid" size=big data-search-terms="bandage, boo boo, first aid, ouch"></FuiIcon>\n' +
+  '    band aid\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="book medical" size=big data-search-terms="diary, documentation, health, history, journal, library, read, record"></FuiIcon>\n' +
+  '    book medical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cannabis" size=big data-search-terms="bud, chronic, drugs, endica, endo, ganja, marijuana, mary jane, pot, reefer, sativa, spliff, weed, whacky-tabacky"></FuiIcon>\n' +
+  '    cannabis\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="capsules" size=big data-search-terms="drugs, medicine, pills, prescription"></FuiIcon>\n' +
+  '    capsules\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clinic medical" size=big data-search-terms="doctor, general practitioner, hospital, infirmary, medicine, office, outpatient"></FuiIcon>\n' +
+  '    clinic medical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye dropper" size=big data-search-terms="beaker, clone, color, copy, eyedropper, pipette"></FuiIcon>\n' +
+  '    eye dropper\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file medical" size=big data-search-terms="document, health, history, prescription, record"></FuiIcon>\n' +
+  '    file medical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file prescription" size=big data-search-terms="document, drugs, medical, medicine, rx"></FuiIcon>\n' +
+  '    file prescription\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="first aid" size=big data-search-terms="emergency, emt, health, medical, rescue"></FuiIcon>\n' +
+  '    first aid\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flask" size=big data-search-terms="beaker, experimental, labs, science"></FuiIcon>\n' +
+  '    flask\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="history" size=big data-search-terms="Rewind, clock, reverse, time, time machine"></FuiIcon>\n' +
+  '    history\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="joint" size=big data-search-terms="blunt, cannabis, doobie, drugs, marijuana, roach, smoke, smoking, spliff"></FuiIcon>\n' +
+  '    joint\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laptop medical" size=big data-search-terms="computer, device, ehr, electronic health records, history"></FuiIcon>\n' +
+  '    laptop medical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mortar pestle" size=big data-search-terms="crush, culinary, grind, medical, mix, pharmacy, prescription, spices"></FuiIcon>\n' +
+  '    mortar pestle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="notes medical" size=big data-search-terms="clipboard, doctor, ehr, health, history, records"></FuiIcon>\n' +
+  '    notes medical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pills" size=big data-search-terms="drugs, medicine, prescription, tablets"></FuiIcon>\n' +
+  '    pills\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="prescription" size=big data-search-terms="drugs, medical, medicine, pharmacy, rx"></FuiIcon>\n' +
+  '    prescription\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="prescription bottle" size=big data-search-terms="drugs, medical, medicine, pharmacy, rx"></FuiIcon>\n' +
+  '    prescription bottle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="prescription bottle alternate" size=big data-search-terms="drugs, medical, medicine, pharmacy, rx"></FuiIcon>\n' +
+  '    prescription bottle alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="receipt" size=big data-search-terms="check, invoice, money, pay, table"></FuiIcon>\n' +
+  '    receipt\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skull crossbones" size=big data-search-terms="Dungeons & Dragons, alert, bones, d&d, danger, dead, deadly, death, dnd, fantasy, halloween, holiday, jolly-roger, pirate, poison, skeleton, warning"></FuiIcon>\n' +
+  '    skull crossbones\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="syringe" size=big data-search-terms="doctor, immunizations, medical, needle"></FuiIcon>\n' +
+  '    syringe\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tablets" size=big data-search-terms="drugs, medicine, pills, prescription"></FuiIcon>\n' +
+  '    tablets\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thermometer" size=big data-search-terms="mercury, status, temperature"></FuiIcon>\n' +
+  '    thermometer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vial" size=big data-search-terms="experiment, lab, sample, science, test, test tube"></FuiIcon>\n' +
+  '    vial\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vials" size=big data-search-terms="experiment, lab, sample, science, test, test tube"></FuiIcon>\n' +
+  '    vials\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconCurrency1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bitcoin" size=big data-search-terms=""></FuiIcon>\n' +
+  '    bitcoin\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="btc" size=big data-search-terms=""></FuiIcon>\n' +
+  '    btc\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dollar sign" size=big data-search-terms="$, cost, dollar-sign, money, price, usd"></FuiIcon>\n' +
+  '    dollar sign\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ethereum" size=big data-search-terms=""></FuiIcon>\n' +
+  '    ethereum\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="euro sign" size=big data-search-terms="currency, dollar, exchange, money"></FuiIcon>\n' +
+  '    euro sign\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gg" size=big data-search-terms=""></FuiIcon>\n' +
+  '    gg\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gg circle" size=big data-search-terms=""></FuiIcon>\n' +
+  '    gg circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hryvnia" size=big data-search-terms="currency, money, ukraine, ukrainian"></FuiIcon>\n' +
+  '    hryvnia\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lira sign" size=big data-search-terms="currency, money, try, turkish"></FuiIcon>\n' +
+  '    lira sign\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill alternate" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill alternate outline" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill wave" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill wave\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill wave alternate" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill wave alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money check" size=big data-search-terms="bank check, buy, checkout, cheque, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money check\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money check alternate" size=big data-search-terms="bank check, buy, checkout, cheque, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money check alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pound sign" size=big data-search-terms="currency, gbp, money"></FuiIcon>\n' +
+  '    pound sign\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ruble sign" size=big data-search-terms="currency, money, rub"></FuiIcon>\n' +
+  '    ruble sign\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rupee sign" size=big data-search-terms="currency, indian, inr, money"></FuiIcon>\n' +
+  '    rupee sign\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shekel sign" size=big data-search-terms="currency, ils, money"></FuiIcon>\n' +
+  '    shekel sign\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tenge" size=big data-search-terms="currency, kazakhstan, money, price"></FuiIcon>\n' +
+  '    tenge\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="won sign" size=big data-search-terms="currency, krw, money"></FuiIcon>\n' +
+  '    won sign\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="yen sign" size=big data-search-terms="currency, jpy, money"></FuiIcon>\n' +
+  '    yen sign\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconFood1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bacon" size=big data-search-terms="blt, breakfast, ham, lard, meat, pancetta, pork, rasher"></FuiIcon>\n' +
+  '    bacon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bone" size=big data-search-terms="calcium, dog, skeletal, skeleton, tibia"></FuiIcon>\n' +
+  '    bone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bread slice" size=big data-search-terms="bake, bakery, baking, dough, flour, gluten, grain, sandwich, sourdough, toast, wheat, yeast"></FuiIcon>\n' +
+  '    bread slice\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="candy cane" size=big data-search-terms="candy, christmas, holiday, mint, peppermint, striped, xmas"></FuiIcon>\n' +
+  '    candy cane\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="carrot" size=big data-search-terms="bugs bunny, orange, vegan, vegetable"></FuiIcon>\n' +
+  '    carrot\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cheese" size=big data-search-terms="cheddar, curd, gouda, melt, parmesan, sandwich, swiss, wedge"></FuiIcon>\n' +
+  '    cheese\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud meatball" size=big data-search-terms="FLDSMDFR, food, spaghetti, storm"></FuiIcon>\n' +
+  '    cloud meatball\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cookie" size=big data-search-terms="baked good, chips, chocolate, eat, snack, sweet, treat"></FuiIcon>\n' +
+  '    cookie\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="drumstick bite" size=big data-search-terms="bone, chicken, leg, meat, poultry, turkey"></FuiIcon>\n' +
+  '    drumstick bite\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="egg" size=big data-search-terms="breakfast, chicken, easter, shell, yolk"></FuiIcon>\n' +
+  '    egg\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fish" size=big data-search-terms="fauna, gold, seafood, swimming"></FuiIcon>\n' +
+  '    fish\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fruit-apple" size=big data-search-terms="fall, fruit, fuji, macintosh, orchard, seasonal, vegan"></FuiIcon>\n' +
+  '    fruit-apple\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hamburger" size=big data-search-terms="bacon, beef, burger, burger king, cheeseburger, fast food, grill, ground beef, mcdonalds, sandwich"></FuiIcon>\n' +
+  '    hamburger\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hotdog" size=big data-search-terms="bun, chili, frankfurt, frankfurter, kosher, polish, sandwich, sausage, vienna, weiner"></FuiIcon>\n' +
+  '    hotdog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ice cream" size=big data-search-terms="chocolate, cone, dessert, frozen, scoop, sorbet, vanilla, yogurt"></FuiIcon>\n' +
+  '    ice cream\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lemon" size=big data-search-terms="citrus, lemonade, lime, tart"></FuiIcon>\n' +
+  '    lemon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lemon outline" size=big data-search-terms="citrus, lemonade, lime, tart"></FuiIcon>\n' +
+  '    lemon outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pepper hot" size=big data-search-terms="buffalo wings, capsicum, chili, chilli, habanero, jalapeno, mexican, spicy, tabasco, vegetable"></FuiIcon>\n' +
+  '    pepper hot\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pizza slice" size=big data-search-terms="cheese, chicago, italian, mozzarella, new york, pepperoni, pie, slice, teenage mutant ninja turtles, tomato"></FuiIcon>\n' +
+  '    pizza slice\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="seedling" size=big data-search-terms="flora, grow, plant, vegan"></FuiIcon>\n' +
+  '    seedling\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stroopwafel" size=big data-search-terms="caramel, cookie, dessert, sweets, waffle"></FuiIcon>\n' +
+  '    stroopwafel\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconMoving1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="archive" size=big data-search-terms="box, package, save, storage"></FuiIcon>\n' +
+  '    archive\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="box open" size=big data-search-terms="archive, container, package, storage, unpack"></FuiIcon>\n' +
+  '    box open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="couch" size=big data-search-terms="chair, cushion, furniture, relax, sofa"></FuiIcon>\n' +
+  '    couch\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dolly" size=big data-search-terms="carry, shipping, transport"></FuiIcon>\n' +
+  '    dolly\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="people carry" size=big data-search-terms="box, carry, fragile, help, movers, package"></FuiIcon>\n' +
+  '    people carry\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="route" size=big data-search-terms="directions, navigation, travel"></FuiIcon>\n' +
+  '    route\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sign" size=big data-search-terms="directions, real estate, signage, wayfinding"></FuiIcon>\n' +
+  '    sign\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="suitcase" size=big data-search-terms="baggage, luggage, move, suitcase, travel, trip"></FuiIcon>\n' +
+  '    suitcase\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tape" size=big data-search-terms="design, package, sticky"></FuiIcon>\n' +
+  '    tape\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="truck moving" size=big data-search-terms="cargo, inventory, rental, vehicle"></FuiIcon>\n' +
+  '    truck moving\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="truck packing" size=big data-search-terms="box, cargo, delivery, inventory, moving, rental, vehicle"></FuiIcon>\n' +
+  '    truck packing\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wine glass" size=big data-search-terms="alcohol, beverage, cabernet, drink, grapes, merlot, sauvignon"></FuiIcon>\n' +
+  '    wine glass\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconSocial1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell outline" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="birthday cake" size=big data-search-terms="anniversary, bakery, candles, celebration, dessert, frosting, holiday, party, pastry"></FuiIcon>\n' +
+  '    birthday cake\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="camera" size=big data-search-terms="image, lens, photo, picture, record, shutter, video"></FuiIcon>\n' +
+  '    camera\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment alternate" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment alternate outline" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment outline" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope outline" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hashtag" size=big data-search-terms="Twitter, instagram, pound, social media, tag"></FuiIcon>\n' +
+  '    hashtag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart outline" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="icons" size=big data-search-terms="bolt, emoji, heart, image, music, photo, symbols"></FuiIcon>\n' +
+  '    icons\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="image" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    image\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="image outline" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    image outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="images" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    images\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="images outline" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    images outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map marker" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map marker\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map marker alternate" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map marker alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="photo video" size=big data-search-terms="av, film, image, library, media"></FuiIcon>\n' +
+  '    photo video\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="poll" size=big data-search-terms="results, survey, trend, vote, voting"></FuiIcon>\n' +
+  '    poll\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="poll horizontal" size=big data-search-terms="results, survey, trend, vote, voting"></FuiIcon>\n' +
+  '    poll horizontal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="retweet" size=big data-search-terms="refresh, reload, share, swap"></FuiIcon>\n' +
+  '    retweet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="share" size=big data-search-terms="forward, save, send, social"></FuiIcon>\n' +
+  '    share\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="share alternate" size=big data-search-terms="forward, save, send, social"></FuiIcon>\n' +
+  '    share alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="share square" size=big data-search-terms="forward, save, send, social"></FuiIcon>\n' +
+  '    share square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="share square outline" size=big data-search-terms="forward, save, send, social"></FuiIcon>\n' +
+  '    share square outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
+  '    star\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star outline" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
+  '    star outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs down" size=big data-search-terms="disagree, disapprove, dislike, hand, social, thumbs-o-down"></FuiIcon>\n' +
+  '    thumbs down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs down outline" size=big data-search-terms="disagree, disapprove, dislike, hand, social, thumbs-o-down"></FuiIcon>\n' +
+  '    thumbs down outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs up" size=big data-search-terms="agree, approve, favorite, hand, like, ok, okay, social, success, thumbs-o-up, yes, you got it dude"></FuiIcon>\n' +
+  '    thumbs up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs up outline" size=big data-search-terms="agree, approve, favorite, hand, like, ok, okay, social, success, thumbs-o-up, yes, you got it dude"></FuiIcon>\n' +
+  '    thumbs up outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbtack" size=big data-search-terms="coordinates, location, marker, pin, thumb-tack"></FuiIcon>\n' +
+  '    thumbtack\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user circle" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user circle outline" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user friends" size=big data-search-terms="group, people, person, team, users"></FuiIcon>\n' +
+  '    user friends\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user outline" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user plus" size=big data-search-terms="add, avatar, positive, sign up, signup, team"></FuiIcon>\n' +
+  '    user plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="users" size=big data-search-terms="friends, group, people, persons, profiles, team"></FuiIcon>\n' +
+  '    users\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="video" size=big data-search-terms="camera, film, movie, record, video-camera"></FuiIcon>\n' +
+  '    video\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconSummer1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="anchor" size=big data-search-terms="berth, boat, dock, embed, link, maritime, moor, secure"></FuiIcon>\n' +
+  '    anchor\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="biking" size=big data-search-terms="bicycle, bike, cycle, cycling, ride, wheel"></FuiIcon>\n' +
+  '    biking\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fish" size=big data-search-terms="fauna, gold, seafood, swimming"></FuiIcon>\n' +
+  '    fish\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hotdog" size=big data-search-terms="bun, chili, frankfurt, frankfurter, kosher, polish, sandwich, sausage, vienna, weiner"></FuiIcon>\n' +
+  '    hotdog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ice cream" size=big data-search-terms="chocolate, cone, dessert, frozen, scoop, sorbet, vanilla, yogurt"></FuiIcon>\n' +
+  '    ice cream\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lemon" size=big data-search-terms="citrus, lemonade, lime, tart"></FuiIcon>\n' +
+  '    lemon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lemon outline" size=big data-search-terms="citrus, lemonade, lime, tart"></FuiIcon>\n' +
+  '    lemon outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sun" size=big data-search-terms="brighten, contrast, day, lighter, sol, solar, star, weather"></FuiIcon>\n' +
+  '    sun\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sun outline" size=big data-search-terms="brighten, contrast, day, lighter, sol, solar, star, weather"></FuiIcon>\n' +
+  '    sun outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="swimmer" size=big data-search-terms="athlete, head, man, olympics, person, pool, water"></FuiIcon>\n' +
+  '    swimmer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="swimming pool" size=big data-search-terms="ladder, recreation, swim, water"></FuiIcon>\n' +
+  '    swimming pool\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="umbrella beach" size=big data-search-terms="protection, recreation, sand, shade, summer, sun"></FuiIcon>\n' +
+  '    umbrella beach\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volleyball ball" size=big data-search-terms="beach, olympics, sport"></FuiIcon>\n' +
+  '    volleyball ball\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="water" size=big data-search-terms="lake, liquid, ocean, sea, swim, wet"></FuiIcon>\n' +
+  '    water\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconFruitsVegetables1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="carrot" size=big data-search-terms="bugs bunny, orange, vegan, vegetable"></FuiIcon>\n' +
+  '    carrot\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fruit-apple" size=big data-search-terms="fall, fruit, fuji, macintosh, orchard, seasonal, vegan"></FuiIcon>\n' +
+  '    fruit-apple\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="leaf" size=big data-search-terms="eco, flora, nature, plant, vegan"></FuiIcon>\n' +
+  '    leaf\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lemon" size=big data-search-terms="citrus, lemonade, lime, tart"></FuiIcon>\n' +
+  '    lemon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lemon outline" size=big data-search-terms="citrus, lemonade, lime, tart"></FuiIcon>\n' +
+  '    lemon outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pepper hot" size=big data-search-terms="buffalo wings, capsicum, chili, chilli, habanero, jalapeno, mexican, spicy, tabasco, vegetable"></FuiIcon>\n' +
+  '    pepper hot\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="seedling" size=big data-search-terms="flora, grow, plant, vegan"></FuiIcon>\n' +
+  '    seedling\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconAudioVideo1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="audio description" size=big data-search-terms="blind, narration, video, visual"></FuiIcon>\n' +
+  '    audio description\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="backward" size=big data-search-terms="previous, rewind"></FuiIcon>\n' +
+  '    backward\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="broadcast tower" size=big data-search-terms="airwaves, antenna, radio, reception, waves"></FuiIcon>\n' +
+  '    broadcast tower\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="circle" size=big data-search-terms="circle-thin, diameter, dot, ellipse, notification, round"></FuiIcon>\n' +
+  '    circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="circle outline" size=big data-search-terms="circle-thin, diameter, dot, ellipse, notification, round"></FuiIcon>\n' +
+  '    circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="closed captioning" size=big data-search-terms="cc, deaf, hearing, subtitle, subtitling, text, video"></FuiIcon>\n' +
+  '    closed captioning\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="closed captioning outline" size=big data-search-terms="cc, deaf, hearing, subtitle, subtitling, text, video"></FuiIcon>\n' +
+  '    closed captioning outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compress" size=big data-search-terms="collapse, fullscreen, minimize, move, resize, shrink, smaller"></FuiIcon>\n' +
+  '    compress\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compress arrows alternate" size=big data-search-terms="collapse, fullscreen, minimize, move, resize, shrink, smaller"></FuiIcon>\n' +
+  '    compress arrows alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eject" size=big data-search-terms="abort, cancel, cd, discharge"></FuiIcon>\n' +
+  '    eject\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="expand" size=big data-search-terms="arrow, bigger, enlarge, resize"></FuiIcon>\n' +
+  '    expand\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="expand arrows alternate" size=big data-search-terms="arrows-alt, bigger, enlarge, move, resize"></FuiIcon>\n' +
+  '    expand arrows alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fast backward" size=big data-search-terms="beginning, first, previous, rewind, start"></FuiIcon>\n' +
+  '    fast backward\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fast forward" size=big data-search-terms="end, last, next"></FuiIcon>\n' +
+  '    fast forward\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file audio" size=big data-search-terms="document, mp3, music, page, play, sound"></FuiIcon>\n' +
+  '    file audio\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file audio outline" size=big data-search-terms="document, mp3, music, page, play, sound"></FuiIcon>\n' +
+  '    file audio outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file video" size=big data-search-terms="document, m4v, movie, mp4, play"></FuiIcon>\n' +
+  '    file video\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file video outline" size=big data-search-terms="document, m4v, movie, mp4, play"></FuiIcon>\n' +
+  '    file video outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="film" size=big data-search-terms="cinema, movie, strip, video"></FuiIcon>\n' +
+  '    film\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="forward" size=big data-search-terms="forward, next, skip"></FuiIcon>\n' +
+  '    forward\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="headphones" size=big data-search-terms="audio, listen, music, sound, speaker"></FuiIcon>\n' +
+  '    headphones\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone" size=big data-search-terms="audio, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone alternate" size=big data-search-terms="audio, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone alternate slash" size=big data-search-terms="audio, disable, mute, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone alternate slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone slash" size=big data-search-terms="audio, disable, mute, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="music" size=big data-search-terms="lyrics, melody, note, sing, sound"></FuiIcon>\n' +
+  '    music\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pause" size=big data-search-terms="hold, wait"></FuiIcon>\n' +
+  '    pause\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pause circle" size=big data-search-terms="hold, wait"></FuiIcon>\n' +
+  '    pause circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pause circle outline" size=big data-search-terms="hold, wait"></FuiIcon>\n' +
+  '    pause circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone volume" size=big data-search-terms="call, earphone, number, sound, support, telephone, voice, volume-control-phone"></FuiIcon>\n' +
+  '    phone volume\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="photo video" size=big data-search-terms="av, film, image, library, media"></FuiIcon>\n' +
+  '    photo video\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="play" size=big data-search-terms="audio, music, playing, sound, start, video"></FuiIcon>\n' +
+  '    play\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="play circle" size=big data-search-terms="audio, music, playing, sound, start, video"></FuiIcon>\n' +
+  '    play circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="play circle outline" size=big data-search-terms="audio, music, playing, sound, start, video"></FuiIcon>\n' +
+  '    play circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="podcast" size=big data-search-terms="audio, broadcast, music, sound"></FuiIcon>\n' +
+  '    podcast\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="random" size=big data-search-terms="arrows, shuffle, sort, swap, switch, transfer"></FuiIcon>\n' +
+  '    random\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="redo" size=big data-search-terms="forward, refresh, reload, repeat"></FuiIcon>\n' +
+  '    redo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="redo alternate" size=big data-search-terms="forward, refresh, reload, repeat"></FuiIcon>\n' +
+  '    redo alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rss" size=big data-search-terms="blog, feed, journal, news, writing"></FuiIcon>\n' +
+  '    rss\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rss square" size=big data-search-terms="blog, feed, journal, news, writing"></FuiIcon>\n' +
+  '    rss square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="step backward" size=big data-search-terms="beginning, first, previous, rewind, start"></FuiIcon>\n' +
+  '    step backward\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="step forward" size=big data-search-terms="end, last, next"></FuiIcon>\n' +
+  '    step forward\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stop" size=big data-search-terms="block, box, square"></FuiIcon>\n' +
+  '    stop\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stop circle" size=big data-search-terms="block, box, circle, square"></FuiIcon>\n' +
+  '    stop circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stop circle outline" size=big data-search-terms="block, box, circle, square"></FuiIcon>\n' +
+  '    stop circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sync" size=big data-search-terms="exchange, refresh, reload, rotate, swap"></FuiIcon>\n' +
+  '    sync\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sync alternate" size=big data-search-terms="exchange, refresh, reload, rotate, swap"></FuiIcon>\n' +
+  '    sync alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="undo" size=big data-search-terms="back, control z, exchange, oops, return, rotate, swap"></FuiIcon>\n' +
+  '    undo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="undo alternate" size=big data-search-terms="back, control z, exchange, oops, return, swap"></FuiIcon>\n' +
+  '    undo alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="video" size=big data-search-terms="camera, film, movie, record, video-camera"></FuiIcon>\n' +
+  '    video\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume down" size=big data-search-terms="audio, lower, music, quieter, sound, speaker"></FuiIcon>\n' +
+  '    volume down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume mute" size=big data-search-terms="audio, music, quiet, sound, speaker"></FuiIcon>\n' +
+  '    volume mute\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume off" size=big data-search-terms="audio, ban, music, mute, quiet, silent, sound"></FuiIcon>\n' +
+  '    volume off\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume up" size=big data-search-terms="audio, higher, louder, music, sound, speaker"></FuiIcon>\n' +
+  '    volume up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="youtube" size=big data-search-terms="film, video, youtube-play, youtube-square"></FuiIcon>\n' +
+  '    youtube\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconChildhood1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="baby" size=big data-search-terms="child, diaper, doll, human, infant, kid, offspring, person, sprout"></FuiIcon>\n' +
+  '    baby\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="baby carriage" size=big data-search-terms="buggy, carrier, infant, push, stroller, transportation, walk, wheels"></FuiIcon>\n' +
+  '    baby carriage\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bath" size=big data-search-terms="clean, shower, tub, wash"></FuiIcon>\n' +
+  '    bath\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="biking" size=big data-search-terms="bicycle, bike, cycle, cycling, ride, wheel"></FuiIcon>\n' +
+  '    biking\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="birthday cake" size=big data-search-terms="anniversary, bakery, candles, celebration, dessert, frosting, holiday, party, pastry"></FuiIcon>\n' +
+  '    birthday cake\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cookie" size=big data-search-terms="baked good, chips, chocolate, eat, snack, sweet, treat"></FuiIcon>\n' +
+  '    cookie\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cookie bite" size=big data-search-terms="baked good, bitten, chips, chocolate, eat, snack, sweet, treat"></FuiIcon>\n' +
+  '    cookie bite\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fruit-apple" size=big data-search-terms="fall, fruit, fuji, macintosh, orchard, seasonal, vegan"></FuiIcon>\n' +
+  '    fruit-apple\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ice cream" size=big data-search-terms="chocolate, cone, dessert, frozen, scoop, sorbet, vanilla, yogurt"></FuiIcon>\n' +
+  '    ice cream\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mitten" size=big data-search-terms="clothing, cold, glove, hands, knitted, seasonal, warmth"></FuiIcon>\n' +
+  '    mitten\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="robot" size=big data-search-terms="android, automate, computer, cyborg"></FuiIcon>\n' +
+  '    robot\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="school" size=big data-search-terms="building, education, learn, student, teacher"></FuiIcon>\n' +
+  '    school\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shapes" size=big data-search-terms="blocks, build, circle, square, triangle"></FuiIcon>\n' +
+  '    shapes\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowman" size=big data-search-terms="decoration, frost, frosty, holiday"></FuiIcon>\n' +
+  '    snowman\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconMarketing1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ad" size=big data-search-terms="advertisement, media, newspaper, promotion, publicity"></FuiIcon>\n' +
+  '    ad\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bullhorn" size=big data-search-terms="announcement, broadcast, louder, megaphone, share"></FuiIcon>\n' +
+  '    bullhorn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bullseye" size=big data-search-terms="archery, goal, objective, target"></FuiIcon>\n' +
+  '    bullseye\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment dollar" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, money, note, notification, pay, sms, speech, spend, texting, transfer"></FuiIcon>\n' +
+  '    comment dollar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comments dollar" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, money, note, notification, pay, sms, speech, spend, texting, transfer"></FuiIcon>\n' +
+  '    comments dollar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope open text" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope open text\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="funnel dollar" size=big data-search-terms="filter, money, options, separate, sort"></FuiIcon>\n' +
+  '    funnel dollar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lightbulb" size=big data-search-terms="energy, idea, inspiration, light"></FuiIcon>\n' +
+  '    lightbulb\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lightbulb outline" size=big data-search-terms="energy, idea, inspiration, light"></FuiIcon>\n' +
+  '    lightbulb outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mail bulk" size=big data-search-terms="archive, envelope, letter, post office, postal, postcard, send, stamp, usps"></FuiIcon>\n' +
+  '    mail bulk\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="poll" size=big data-search-terms="results, survey, trend, vote, voting"></FuiIcon>\n' +
+  '    poll\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="poll horizontal" size=big data-search-terms="results, survey, trend, vote, voting"></FuiIcon>\n' +
+  '    poll horizontal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="search dollar" size=big data-search-terms="bigger, enlarge, find, magnify, money, preview, zoom"></FuiIcon>\n' +
+  '    search dollar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="search location" size=big data-search-terms="bigger, enlarge, find, magnify, preview, zoom"></FuiIcon>\n' +
+  '    search location\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconCamping1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="binoculars" size=big data-search-terms="glasses, magnify, scenic, spyglass, view"></FuiIcon>\n' +
+  '    binoculars\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="campground" size=big data-search-terms="camping, fall, outdoors, teepee, tent, tipi"></FuiIcon>\n' +
+  '    campground\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compass" size=big data-search-terms="directions, directory, location, menu, navigation, safari, travel"></FuiIcon>\n' +
+  '    compass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compass outline" size=big data-search-terms="directions, directory, location, menu, navigation, safari, travel"></FuiIcon>\n' +
+  '    compass outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fire" size=big data-search-terms="burn, caliente, flame, heat, hot, popular"></FuiIcon>\n' +
+  '    fire\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fire alternate" size=big data-search-terms="burn, caliente, flame, heat, hot, popular"></FuiIcon>\n' +
+  '    fire alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="first aid" size=big data-search-terms="emergency, emt, health, medical, rescue"></FuiIcon>\n' +
+  '    first aid\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frog" size=big data-search-terms="amphibian, bullfrog, fauna, hop, kermit, kiss, prince, ribbit, toad, wart"></FuiIcon>\n' +
+  '    frog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hiking" size=big data-search-terms="activity, backpack, fall, fitness, outdoors, person, seasonal, walking"></FuiIcon>\n' +
+  '    hiking\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map marked" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map marked\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map marked alternate" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map marked alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map outline" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map signs" size=big data-search-terms="directions, directory, map, signage, wayfinding"></FuiIcon>\n' +
+  '    map signs\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mountain" size=big data-search-terms="glacier, hiking, hill, landscape, travel, view"></FuiIcon>\n' +
+  '    mountain\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="route" size=big data-search-terms="directions, navigation, travel"></FuiIcon>\n' +
+  '    route\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="toilet paper" size=big data-search-terms="bathroom, halloween, holiday, lavatory, prank, restroom, roll"></FuiIcon>\n' +
+  '    toilet paper\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tree" size=big data-search-terms="bark, fall, flora, forest, nature, plant, seasonal"></FuiIcon>\n' +
+  '    tree\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconEnergy1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="atom" size=big data-search-terms="atheism, chemistry, ion, nuclear, science"></FuiIcon>\n' +
+  '    atom\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="battery empty" size=big data-search-terms="charge, dead, power, status"></FuiIcon>\n' +
+  '    battery empty\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="battery full" size=big data-search-terms="charge, power, status"></FuiIcon>\n' +
+  '    battery full\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="battery half" size=big data-search-terms="charge, power, status"></FuiIcon>\n' +
+  '    battery half\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="battery quarter" size=big data-search-terms="charge, low, power, status"></FuiIcon>\n' +
+  '    battery quarter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="battery three quarters" size=big data-search-terms="charge, power, status"></FuiIcon>\n' +
+  '    battery three quarters\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="broadcast tower" size=big data-search-terms="airwaves, antenna, radio, reception, waves"></FuiIcon>\n' +
+  '    broadcast tower\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="burn" size=big data-search-terms="caliente, energy, fire, flame, gas, heat, hot"></FuiIcon>\n' +
+  '    burn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="charging station" size=big data-search-terms="electric, ev, tesla, vehicle"></FuiIcon>\n' +
+  '    charging station\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fire" size=big data-search-terms="burn, caliente, flame, heat, hot, popular"></FuiIcon>\n' +
+  '    fire\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fire alternate" size=big data-search-terms="burn, caliente, flame, heat, hot, popular"></FuiIcon>\n' +
+  '    fire alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gas pump" size=big data-search-terms="car, fuel, gasoline, petrol"></FuiIcon>\n' +
+  '    gas pump\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="industry" size=big data-search-terms="building, factory, industrial, manufacturing, mill, warehouse"></FuiIcon>\n' +
+  '    industry\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="leaf" size=big data-search-terms="eco, flora, nature, plant, vegan"></FuiIcon>\n' +
+  '    leaf\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lightbulb" size=big data-search-terms="energy, idea, inspiration, light"></FuiIcon>\n' +
+  '    lightbulb\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lightbulb outline" size=big data-search-terms="energy, idea, inspiration, light"></FuiIcon>\n' +
+  '    lightbulb outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plug" size=big data-search-terms="connect, electric, online, power"></FuiIcon>\n' +
+  '    plug\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="poop" size=big data-search-terms="crap, poop, shit, smile, turd"></FuiIcon>\n' +
+  '    poop\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="power off" size=big data-search-terms="cancel, computer, on, reboot, restart"></FuiIcon>\n' +
+  '    power off\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="radiation" size=big data-search-terms="danger, dangerous, deadly, hazard, nuclear, radioactive, warning"></FuiIcon>\n' +
+  '    radiation\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="radiation alternate" size=big data-search-terms="danger, dangerous, deadly, hazard, nuclear, radioactive, warning"></FuiIcon>\n' +
+  '    radiation alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="seedling" size=big data-search-terms="flora, grow, plant, vegan"></FuiIcon>\n' +
+  '    seedling\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="solar panel" size=big data-search-terms="clean, eco-friendly, energy, green, sun"></FuiIcon>\n' +
+  '    solar panel\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sun" size=big data-search-terms="brighten, contrast, day, lighter, sol, solar, star, weather"></FuiIcon>\n' +
+  '    sun\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sun outline" size=big data-search-terms="brighten, contrast, day, lighter, sol, solar, star, weather"></FuiIcon>\n' +
+  '    sun outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="water" size=big data-search-terms="lake, liquid, ocean, sea, swim, wet"></FuiIcon>\n' +
+  '    water\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wind" size=big data-search-terms="air, blow, breeze, fall, seasonal, weather"></FuiIcon>\n' +
+  '    wind\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconMaps1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ambulance" size=big data-search-terms="emergency, emt, er, help, hospital, support, vehicle"></FuiIcon>\n' +
+  '    ambulance\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="anchor" size=big data-search-terms="berth, boat, dock, embed, link, maritime, moor, secure"></FuiIcon>\n' +
+  '    anchor\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale" size=big data-search-terms="balanced, justice, legal, measure, weight"></FuiIcon>\n' +
+  '    balance scale\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale left" size=big data-search-terms="justice, legal, measure, unbalanced, weight"></FuiIcon>\n' +
+  '    balance scale left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale right" size=big data-search-terms="justice, legal, measure, unbalanced, weight"></FuiIcon>\n' +
+  '    balance scale right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bath" size=big data-search-terms="clean, shower, tub, wash"></FuiIcon>\n' +
+  '    bath\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bed" size=big data-search-terms="lodging, rest, sleep, travel"></FuiIcon>\n' +
+  '    bed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="beer" size=big data-search-terms="alcohol, ale, bar, beverage, brewery, drink, lager, liquor, mug, stein"></FuiIcon>\n' +
+  '    beer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell outline" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell slash" size=big data-search-terms="alert, cancel, disabled, notification, off, reminder"></FuiIcon>\n' +
+  '    bell slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell slash outline" size=big data-search-terms="alert, cancel, disabled, notification, off, reminder"></FuiIcon>\n' +
+  '    bell slash outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bicycle" size=big data-search-terms="bike, gears, pedal, transportation, vehicle"></FuiIcon>\n' +
+  '    bicycle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="binoculars" size=big data-search-terms="glasses, magnify, scenic, spyglass, view"></FuiIcon>\n' +
+  '    binoculars\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="birthday cake" size=big data-search-terms="anniversary, bakery, candles, celebration, dessert, frosting, holiday, party, pastry"></FuiIcon>\n' +
+  '    birthday cake\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="blind" size=big data-search-terms="cane, disability, person, sight"></FuiIcon>\n' +
+  '    blind\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bomb" size=big data-search-terms="error, explode, fuse, grenade, warning"></FuiIcon>\n' +
+  '    bomb\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="book" size=big data-search-terms="diary, documentation, journal, library, read"></FuiIcon>\n' +
+  '    book\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bookmark" size=big data-search-terms="favorite, marker, read, remember, save"></FuiIcon>\n' +
+  '    bookmark\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bookmark outline" size=big data-search-terms="favorite, marker, read, remember, save"></FuiIcon>\n' +
+  '    bookmark outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="briefcase" size=big data-search-terms="bag, business, luggage, office, work"></FuiIcon>\n' +
+  '    briefcase\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="building" size=big data-search-terms="apartment, business, city, company, office, work"></FuiIcon>\n' +
+  '    building\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="building outline" size=big data-search-terms="apartment, business, city, company, office, work"></FuiIcon>\n' +
+  '    building outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="car" size=big data-search-terms="auto, automobile, sedan, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    car\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="coffee" size=big data-search-terms="beverage, breakfast, cafe, drink, fall, morning, mug, seasonal, tea"></FuiIcon>\n' +
+  '    coffee\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="crosshairs" size=big data-search-terms="aim, bullseye, gpd, picker, position"></FuiIcon>\n' +
+  '    crosshairs\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="directions" size=big data-search-terms="map, navigation, sign, turn"></FuiIcon>\n' +
+  '    directions\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dollar sign" size=big data-search-terms="$, cost, dollar-sign, money, price, usd"></FuiIcon>\n' +
+  '    dollar sign\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="draw polygon" size=big data-search-terms="anchors, lines, object, render, shape"></FuiIcon>\n' +
+  '    draw polygon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye" size=big data-search-terms="look, optic, see, seen, show, sight, views, visible"></FuiIcon>\n' +
+  '    eye\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye outline" size=big data-search-terms="look, optic, see, seen, show, sight, views, visible"></FuiIcon>\n' +
+  '    eye outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye slash" size=big data-search-terms="blind, hide, show, toggle, unseen, views, visible, visiblity"></FuiIcon>\n' +
+  '    eye slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye slash outline" size=big data-search-terms="blind, hide, show, toggle, unseen, views, visible, visiblity"></FuiIcon>\n' +
+  '    eye slash outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fighter jet" size=big data-search-terms="airplane, fast, fly, goose, maverick, plane, quick, top gun, transportation, travel"></FuiIcon>\n' +
+  '    fighter jet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fire" size=big data-search-terms="burn, caliente, flame, heat, hot, popular"></FuiIcon>\n' +
+  '    fire\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fire alternate" size=big data-search-terms="burn, caliente, flame, heat, hot, popular"></FuiIcon>\n' +
+  '    fire alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fire extinguisher" size=big data-search-terms="burn, caliente, fire fighter, flame, heat, hot, rescue"></FuiIcon>\n' +
+  '    fire extinguisher\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flag" size=big data-search-terms="country, notice, notification, notify, pole, report, symbol"></FuiIcon>\n' +
+  '    flag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flag checkered" size=big data-search-terms="notice, notification, notify, pole, racing, report, symbol"></FuiIcon>\n' +
+  '    flag checkered\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flag outline" size=big data-search-terms="country, notice, notification, notify, pole, report, symbol"></FuiIcon>\n' +
+  '    flag outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flask" size=big data-search-terms="beaker, experimental, labs, science"></FuiIcon>\n' +
+  '    flask\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gamepad" size=big data-search-terms="controller, d-pad, joystick, video"></FuiIcon>\n' +
+  '    gamepad\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gavel" size=big data-search-terms="hammer, judge, law, lawyer, opinion"></FuiIcon>\n' +
+  '    gavel\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gift" size=big data-search-terms="christmas, generosity, giving, holiday, party, present, wrapped, xmas"></FuiIcon>\n' +
+  '    gift\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glass martini" size=big data-search-terms="alcohol, bar, beverage, drink, liquor"></FuiIcon>\n' +
+  '    glass martini\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="globe" size=big data-search-terms="all, coordinates, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world"></FuiIcon>\n' +
+  '    globe\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="graduation cap" size=big data-search-terms="ceremony, college, graduate, learning, school, student"></FuiIcon>\n' +
+  '    graduation cap\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="h square" size=big data-search-terms="directions, emergency, hospital, hotel, map"></FuiIcon>\n' +
+  '    h square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart outline" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heartbeat" size=big data-search-terms="ekg, electrocardiogram, health, lifeline, vital signs"></FuiIcon>\n' +
+  '    heartbeat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="helicopter" size=big data-search-terms="airwolf, apache, chopper, flight, fly, travel"></FuiIcon>\n' +
+  '    helicopter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="home" size=big data-search-terms="abode, building, house, main"></FuiIcon>\n' +
+  '    home\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hospital" size=big data-search-terms="building, emergency room, medical center"></FuiIcon>\n' +
+  '    hospital\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hospital outline" size=big data-search-terms="building, emergency room, medical center"></FuiIcon>\n' +
+  '    hospital outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="image" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    image\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="image outline" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    image outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="images" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    images\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="images outline" size=big data-search-terms="album, landscape, photo, picture"></FuiIcon>\n' +
+  '    images outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="industry" size=big data-search-terms="building, factory, industrial, manufacturing, mill, warehouse"></FuiIcon>\n' +
+  '    industry\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="info" size=big data-search-terms="details, help, information, more, support"></FuiIcon>\n' +
+  '    info\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="info circle" size=big data-search-terms="details, help, information, more, support"></FuiIcon>\n' +
+  '    info circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="key" size=big data-search-terms="lock, password, private, secret, unlock"></FuiIcon>\n' +
+  '    key\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="landmark" size=big data-search-terms="building, historic, memorable, monument, politics"></FuiIcon>\n' +
+  '    landmark\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="layer group" size=big data-search-terms="arrange, develop, layers, map, stack"></FuiIcon>\n' +
+  '    layer group\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="leaf" size=big data-search-terms="eco, flora, nature, plant, vegan"></FuiIcon>\n' +
+  '    leaf\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lemon" size=big data-search-terms="citrus, lemonade, lime, tart"></FuiIcon>\n' +
+  '    lemon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lemon outline" size=big data-search-terms="citrus, lemonade, lime, tart"></FuiIcon>\n' +
+  '    lemon outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="life ring" size=big data-search-terms="coast guard, help, overboard, save, support"></FuiIcon>\n' +
+  '    life ring\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="life ring outline" size=big data-search-terms="coast guard, help, overboard, save, support"></FuiIcon>\n' +
+  '    life ring outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lightbulb" size=big data-search-terms="energy, idea, inspiration, light"></FuiIcon>\n' +
+  '    lightbulb\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lightbulb outline" size=big data-search-terms="energy, idea, inspiration, light"></FuiIcon>\n' +
+  '    lightbulb outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="location arrow" size=big data-search-terms="address, compass, coordinate, direction, gps, map, navigation, place"></FuiIcon>\n' +
+  '    location arrow\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="low vision" size=big data-search-terms="blind, eye, sight"></FuiIcon>\n' +
+  '    low vision\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="magnet" size=big data-search-terms="Attract, lodestone, tool"></FuiIcon>\n' +
+  '    magnet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="male" size=big data-search-terms="human, man, person, profile, user"></FuiIcon>\n' +
+  '    male\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map marker" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map marker\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map marker alternate" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map marker alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map outline" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map pin" size=big data-search-terms="address, agree, coordinates, destination, gps, localize, location, map, marker, navigation, pin, place, position, travel"></FuiIcon>\n' +
+  '    map pin\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map signs" size=big data-search-terms="directions, directory, map, signage, wayfinding"></FuiIcon>\n' +
+  '    map signs\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="medkit" size=big data-search-terms="first aid, firstaid, health, help, support"></FuiIcon>\n' +
+  '    medkit\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill alternate" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill alternate outline" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="motorcycle" size=big data-search-terms="bike, machine, transportation, vehicle"></FuiIcon>\n' +
+  '    motorcycle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="music" size=big data-search-terms="lyrics, melody, note, sing, sound"></FuiIcon>\n' +
+  '    music\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="newspaper" size=big data-search-terms="article, editorial, headline, journal, journalism, news, press"></FuiIcon>\n' +
+  '    newspaper\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="newspaper outline" size=big data-search-terms="article, editorial, headline, journal, journalism, news, press"></FuiIcon>\n' +
+  '    newspaper outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="parking" size=big data-search-terms="auto, car, garage, meter"></FuiIcon>\n' +
+  '    parking\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paw" size=big data-search-terms="animal, cat, dog, pet, print"></FuiIcon>\n' +
+  '    paw\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone alternate" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone square" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone square alternate" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone square alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone volume" size=big data-search-terms="call, earphone, number, sound, support, telephone, voice, volume-control-phone"></FuiIcon>\n' +
+  '    phone volume\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plane" size=big data-search-terms="airplane, destination, fly, location, mode, travel, trip"></FuiIcon>\n' +
+  '    plane\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plug" size=big data-search-terms="connect, electric, online, power"></FuiIcon>\n' +
+  '    plug\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus square" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus square outline" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus square outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="print" size=big data-search-terms="business, copy, document, office, paper"></FuiIcon>\n' +
+  '    print\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="recycle" size=big data-search-terms="Waste, compost, garbage, reuse, trash"></FuiIcon>\n' +
+  '    recycle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="restroom" size=big data-search-terms="bathroom, john, loo, potty, washroom, waste, wc"></FuiIcon>\n' +
+  '    restroom\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="road" size=big data-search-terms="highway, map, pavement, route, street, travel"></FuiIcon>\n' +
+  '    road\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rocket" size=big data-search-terms="aircraft, app, jet, launch, nasa, space"></FuiIcon>\n' +
+  '    rocket\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="route" size=big data-search-terms="directions, navigation, travel"></FuiIcon>\n' +
+  '    route\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="search" size=big data-search-terms="bigger, enlarge, find, magnify, preview, zoom"></FuiIcon>\n' +
+  '    search\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="search minus" size=big data-search-terms="minify, negative, smaller, zoom, zoom out"></FuiIcon>\n' +
+  '    search minus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="search plus" size=big data-search-terms="bigger, enlarge, magnify, positive, zoom, zoom in"></FuiIcon>\n' +
+  '    search plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ship" size=big data-search-terms="boat, sea, water"></FuiIcon>\n' +
+  '    ship\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shoe prints" size=big data-search-terms="feet, footprints, steps, walk"></FuiIcon>\n' +
+  '    shoe prints\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopping bag" size=big data-search-terms="buy, checkout, grocery, payment, purchase"></FuiIcon>\n' +
+  '    shopping bag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopping basket" size=big data-search-terms="buy, checkout, grocery, payment, purchase"></FuiIcon>\n' +
+  '    shopping basket\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopping cart" size=big data-search-terms="buy, checkout, grocery, payment, purchase"></FuiIcon>\n' +
+  '    shopping cart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shower" size=big data-search-terms="bath, clean, faucet, water"></FuiIcon>\n' +
+  '    shower\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowplow" size=big data-search-terms="clean up, cold, road, storm, winter"></FuiIcon>\n' +
+  '    snowplow\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="street view" size=big data-search-terms="directions, location, map, navigation"></FuiIcon>\n' +
+  '    street view\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="subway" size=big data-search-terms="machine, railway, train, transportation, vehicle"></FuiIcon>\n' +
+  '    subway\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="suitcase" size=big data-search-terms="baggage, luggage, move, suitcase, travel, trip"></FuiIcon>\n' +
+  '    suitcase\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tag" size=big data-search-terms="discount, label, price, shopping"></FuiIcon>\n' +
+  '    tag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tags" size=big data-search-terms="discount, label, price, shopping"></FuiIcon>\n' +
+  '    tags\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="taxi" size=big data-search-terms="cab, cabbie, car, car service, lyft, machine, transportation, travel, uber, vehicle"></FuiIcon>\n' +
+  '    taxi\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbtack" size=big data-search-terms="coordinates, location, marker, pin, thumb-tack"></FuiIcon>\n' +
+  '    thumbtack\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ticket alternate" size=big data-search-terms="movie, pass, support, ticket"></FuiIcon>\n' +
+  '    ticket alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tint" size=big data-search-terms="color, drop, droplet, raindrop, waterdrop"></FuiIcon>\n' +
+  '    tint\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="traffic light" size=big data-search-terms="direction, road, signal, travel"></FuiIcon>\n' +
+  '    traffic light\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="train" size=big data-search-terms="bullet, commute, locomotive, railway, subway"></FuiIcon>\n' +
+  '    train\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tram" size=big data-search-terms="crossing, machine, mountains, seasonal, transportation"></FuiIcon>\n' +
+  '    tram\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tree" size=big data-search-terms="bark, fall, flora, forest, nature, plant, seasonal"></FuiIcon>\n' +
+  '    tree\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trophy" size=big data-search-terms="achievement, award, cup, game, winner"></FuiIcon>\n' +
+  '    trophy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="truck" size=big data-search-terms="cargo, delivery, shipping, vehicle"></FuiIcon>\n' +
+  '    truck\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tty" size=big data-search-terms="communication, deaf, telephone, teletypewriter, text"></FuiIcon>\n' +
+  '    tty\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="umbrella" size=big data-search-terms="protection, rain, storm, wet"></FuiIcon>\n' +
+  '    umbrella\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="university" size=big data-search-terms="bank, building, college, higher education - students, institution"></FuiIcon>\n' +
+  '    university\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="utensil spoon" size=big data-search-terms="cutlery, dining, scoop, silverware, spoon"></FuiIcon>\n' +
+  '    utensil spoon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="utensils" size=big data-search-terms="cutlery, dining, dinner, eat, food, fork, knife, restaurant"></FuiIcon>\n' +
+  '    utensils\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wheelchair" size=big data-search-terms="accessible, handicap, person"></FuiIcon>\n' +
+  '    wheelchair\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wifi" size=big data-search-terms="connection, hotspot, internet, network, wireless"></FuiIcon>\n' +
+  '    wifi\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wine glass" size=big data-search-terms="alcohol, beverage, cabernet, drink, grapes, merlot, sauvignon"></FuiIcon>\n' +
+  '    wine glass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wrench" size=big data-search-terms="construction, fix, mechanic, plumbing, settings, spanner, tool, update"></FuiIcon>\n' +
+  '    wrench\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconEditors1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="align center" size=big data-search-terms="format, middle, paragraph, text"></FuiIcon>\n' +
+  '    align center\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="align justify" size=big data-search-terms="format, paragraph, text"></FuiIcon>\n' +
+  '    align justify\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="align left" size=big data-search-terms="format, paragraph, text"></FuiIcon>\n' +
+  '    align left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="align right" size=big data-search-terms="format, paragraph, text"></FuiIcon>\n' +
+  '    align right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bold" size=big data-search-terms="emphasis, format, text"></FuiIcon>\n' +
+  '    bold\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="border all" size=big data-search-terms="cell, grid, outline, stroke, table"></FuiIcon>\n' +
+  '    border all\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="border none" size=big data-search-terms="cell, grid, outline, stroke, table"></FuiIcon>\n' +
+  '    border none\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="border style" size=big data-search-terms=""></FuiIcon>\n' +
+  '    border style\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clipboard" size=big data-search-terms="copy, notes, paste, record"></FuiIcon>\n' +
+  '    clipboard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clipboard outline" size=big data-search-terms="copy, notes, paste, record"></FuiIcon>\n' +
+  '    clipboard outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clone" size=big data-search-terms="arrange, copy, duplicate, paste"></FuiIcon>\n' +
+  '    clone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clone outline" size=big data-search-terms="arrange, copy, duplicate, paste"></FuiIcon>\n' +
+  '    clone outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="columns" size=big data-search-terms="browser, dashboard, organize, panes, split"></FuiIcon>\n' +
+  '    columns\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="copy" size=big data-search-terms="clone, duplicate, file, files-o, paper, paste"></FuiIcon>\n' +
+  '    copy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="copy outline" size=big data-search-terms="clone, duplicate, file, files-o, paper, paste"></FuiIcon>\n' +
+  '    copy outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cut" size=big data-search-terms="clip, scissors, snip"></FuiIcon>\n' +
+  '    cut\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="edit" size=big data-search-terms="edit, pen, pencil, update, write"></FuiIcon>\n' +
+  '    edit\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="edit outline" size=big data-search-terms="edit, pen, pencil, update, write"></FuiIcon>\n' +
+  '    edit outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eraser" size=big data-search-terms="art, delete, remove, rubber"></FuiIcon>\n' +
+  '    eraser\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate outline" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file outline" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="font" size=big data-search-terms="alphabet, glyph, text, type, typeface"></FuiIcon>\n' +
+  '    font\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glasses" size=big data-search-terms="hipster, nerd, reading, sight, spectacles, vision"></FuiIcon>\n' +
+  '    glasses\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heading" size=big data-search-terms="format, header, text, title"></FuiIcon>\n' +
+  '    heading\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="highlighter" size=big data-search-terms="edit, marker, sharpie, update, write"></FuiIcon>\n' +
+  '    highlighter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="i cursor" size=big data-search-terms="editing, i-beam, type, writing"></FuiIcon>\n' +
+  '    i cursor\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="icons" size=big data-search-terms="bolt, emoji, heart, image, music, photo, symbols"></FuiIcon>\n' +
+  '    icons\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="indent" size=big data-search-terms="align, justify, paragraph, tab"></FuiIcon>\n' +
+  '    indent\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="italic" size=big data-search-terms="edit, emphasis, font, format, text, type"></FuiIcon>\n' +
+  '    italic\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="linkify" size=big data-search-terms="attach, attachment, chain, connect"></FuiIcon>\n' +
+  '    linkify\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="list" size=big data-search-terms="checklist, completed, done, finished, ol, todo, ul"></FuiIcon>\n' +
+  '    list\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="list alternate" size=big data-search-terms="checklist, completed, done, finished, ol, todo, ul"></FuiIcon>\n' +
+  '    list alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="list alternate outline" size=big data-search-terms="checklist, completed, done, finished, ol, todo, ul"></FuiIcon>\n' +
+  '    list alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="list ol" size=big data-search-terms="checklist, completed, done, finished, numbers, ol, todo, ul"></FuiIcon>\n' +
+  '    list ol\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="list ul" size=big data-search-terms="checklist, completed, done, finished, ol, todo, ul"></FuiIcon>\n' +
+  '    list ul\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="marker" size=big data-search-terms="design, edit, sharpie, update, write"></FuiIcon>\n' +
+  '    marker\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="outdent" size=big data-search-terms="align, justify, paragraph, tab"></FuiIcon>\n' +
+  '    outdent\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paper plane" size=big data-search-terms="air, float, fold, mail, paper, send"></FuiIcon>\n' +
+  '    paper plane\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paper plane outline" size=big data-search-terms="air, float, fold, mail, paper, send"></FuiIcon>\n' +
+  '    paper plane outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paperclip" size=big data-search-terms="attach, attachment, connect, link"></FuiIcon>\n' +
+  '    paperclip\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paragraph" size=big data-search-terms="edit, format, text, writing"></FuiIcon>\n' +
+  '    paragraph\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paste" size=big data-search-terms="clipboard, copy, document, paper"></FuiIcon>\n' +
+  '    paste\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen" size=big data-search-terms="design, edit, update, write"></FuiIcon>\n' +
+  '    pen\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen alternate" size=big data-search-terms="design, edit, update, write"></FuiIcon>\n' +
+  '    pen alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen fancy" size=big data-search-terms="design, edit, fountain pen, update, write"></FuiIcon>\n' +
+  '    pen fancy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen nib" size=big data-search-terms="design, edit, fountain pen, update, write"></FuiIcon>\n' +
+  '    pen nib\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pencil alternate" size=big data-search-terms="design, edit, pencil, update, write"></FuiIcon>\n' +
+  '    pencil alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="print" size=big data-search-terms="business, copy, document, office, paper"></FuiIcon>\n' +
+  '    print\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="quote left" size=big data-search-terms="mention, note, phrase, text, type"></FuiIcon>\n' +
+  '    quote left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="quote right" size=big data-search-terms="mention, note, phrase, text, type"></FuiIcon>\n' +
+  '    quote right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="redo" size=big data-search-terms="forward, refresh, reload, repeat"></FuiIcon>\n' +
+  '    redo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="redo alternate" size=big data-search-terms="forward, refresh, reload, repeat"></FuiIcon>\n' +
+  '    redo alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="remove format" size=big data-search-terms="cancel, font, format, remove, style, text"></FuiIcon>\n' +
+  '    remove format\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="reply" size=big data-search-terms="mail, message, respond"></FuiIcon>\n' +
+  '    reply\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="reply all" size=big data-search-terms="mail, message, respond"></FuiIcon>\n' +
+  '    reply all\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="screwdriver" size=big data-search-terms="admin, fix, mechanic, repair, settings, tool"></FuiIcon>\n' +
+  '    screwdriver\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="share" size=big data-search-terms="forward, save, send, social"></FuiIcon>\n' +
+  '    share\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="spell check" size=big data-search-terms="dictionary, edit, editor, grammar, text"></FuiIcon>\n' +
+  '    spell check\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="strikethrough" size=big data-search-terms="cancel, edit, font, format, text, type"></FuiIcon>\n' +
+  '    strikethrough\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="subscript" size=big data-search-terms="edit, font, format, text, type"></FuiIcon>\n' +
+  '    subscript\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="superscript" size=big data-search-terms="edit, exponential, font, format, text, type"></FuiIcon>\n' +
+  '    superscript\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sync" size=big data-search-terms="exchange, refresh, reload, rotate, swap"></FuiIcon>\n' +
+  '    sync\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sync alternate" size=big data-search-terms="exchange, refresh, reload, rotate, swap"></FuiIcon>\n' +
+  '    sync alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="table" size=big data-search-terms="data, excel, spreadsheet"></FuiIcon>\n' +
+  '    table\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tasks" size=big data-search-terms="checklist, downloading, downloads, loading, progress, project management, settings, to do"></FuiIcon>\n' +
+  '    tasks\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="text height" size=big data-search-terms="edit, font, format, text, type"></FuiIcon>\n' +
+  '    text height\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="text width" size=big data-search-terms="edit, font, format, text, type"></FuiIcon>\n' +
+  '    text width\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="th" size=big data-search-terms="blocks, boxes, grid, squares"></FuiIcon>\n' +
+  '    th\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="th large" size=big data-search-terms="blocks, boxes, grid, squares"></FuiIcon>\n' +
+  '    th large\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="th list" size=big data-search-terms="checklist, completed, done, finished, ol, todo, ul"></FuiIcon>\n' +
+  '    th list\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tools" size=big data-search-terms="admin, fix, repair, screwdriver, settings, tools, wrench"></FuiIcon>\n' +
+  '    tools\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trash" size=big data-search-terms="delete, garbage, hide, remove"></FuiIcon>\n' +
+  '    trash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trash alternate" size=big data-search-terms="delete, garbage, hide, remove, trash-o"></FuiIcon>\n' +
+  '    trash alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trash alternate outline" size=big data-search-terms="delete, garbage, hide, remove, trash-o"></FuiIcon>\n' +
+  '    trash alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trash restore" size=big data-search-terms="back, control z, oops, undo"></FuiIcon>\n' +
+  '    trash restore\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trash restore alternate" size=big data-search-terms="back, control z, oops, undo"></FuiIcon>\n' +
+  '    trash restore alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="underline" size=big data-search-terms="edit, emphasis, format, text, writing"></FuiIcon>\n' +
+  '    underline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="undo" size=big data-search-terms="back, control z, exchange, oops, return, rotate, swap"></FuiIcon>\n' +
+  '    undo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="undo alternate" size=big data-search-terms="back, control z, exchange, oops, return, swap"></FuiIcon>\n' +
+  '    undo alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="unlink" size=big data-search-terms="attachment, chain, chain-broken, remove"></FuiIcon>\n' +
+  '    unlink\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wrench" size=big data-search-terms="construction, fix, mechanic, plumbing, settings, spanner, tool, update"></FuiIcon>\n' +
+  '    wrench\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconMusic1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="drum" size=big data-search-terms="instrument, music, percussion, snare, sound"></FuiIcon>\n' +
+  '    drum\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="drum steelpan" size=big data-search-terms="calypso, instrument, music, percussion, reggae, snare, sound, steel, tropical"></FuiIcon>\n' +
+  '    drum steelpan\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file audio" size=big data-search-terms="document, mp3, music, page, play, sound"></FuiIcon>\n' +
+  '    file audio\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file audio outline" size=big data-search-terms="document, mp3, music, page, play, sound"></FuiIcon>\n' +
+  '    file audio outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="guitar" size=big data-search-terms="acoustic, instrument, music, rock, rock and roll, song, strings"></FuiIcon>\n' +
+  '    guitar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="headphones" size=big data-search-terms="audio, listen, music, sound, speaker"></FuiIcon>\n' +
+  '    headphones\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="headphones alternate" size=big data-search-terms="audio, listen, music, sound, speaker"></FuiIcon>\n' +
+  '    headphones alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="music" size=big data-search-terms="lyrics, melody, note, sing, sound"></FuiIcon>\n' +
+  '    music\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="napster" size=big data-search-terms=""></FuiIcon>\n' +
+  '    napster\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="play" size=big data-search-terms="audio, music, playing, sound, start, video"></FuiIcon>\n' +
+  '    play\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sliders horizontal" size=big data-search-terms="adjust, settings, sliders, toggle"></FuiIcon>\n' +
+  '    sliders horizontal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="soundcloud" size=big data-search-terms=""></FuiIcon>\n' +
+  '    soundcloud\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="spotify" size=big data-search-terms=""></FuiIcon>\n' +
+  '    spotify\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume down" size=big data-search-terms="audio, lower, music, quieter, sound, speaker"></FuiIcon>\n' +
+  '    volume down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume mute" size=big data-search-terms="audio, music, quiet, sound, speaker"></FuiIcon>\n' +
+  '    volume mute\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume off" size=big data-search-terms="audio, ban, music, mute, quiet, silent, sound"></FuiIcon>\n' +
+  '    volume off\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume up" size=big data-search-terms="audio, higher, louder, music, sound, speaker"></FuiIcon>\n' +
+  '    volume up\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconReligion1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ankh" size=big data-search-terms="amulet, copper, coptic christianity, copts, crux ansata, egypt, venus"></FuiIcon>\n' +
+  '    ankh\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="atom" size=big data-search-terms="atheism, chemistry, ion, nuclear, science"></FuiIcon>\n' +
+  '    atom\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bible" size=big data-search-terms="book, catholicism, christianity, god, holy"></FuiIcon>\n' +
+  '    bible\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="church" size=big data-search-terms="building, cathedral, chapel, community, religion"></FuiIcon>\n' +
+  '    church\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cross" size=big data-search-terms="catholicism, christianity, church, jesus"></FuiIcon>\n' +
+  '    cross\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dharmachakra" size=big data-search-terms="buddhism, buddhist, wheel of dharma"></FuiIcon>\n' +
+  '    dharmachakra\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dove" size=big data-search-terms="bird, fauna, flying, peace, war"></FuiIcon>\n' +
+  '    dove\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gopuram" size=big data-search-terms="building, entrance, hinduism, temple, tower"></FuiIcon>\n' +
+  '    gopuram\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hamsa" size=big data-search-terms="amulet, christianity, islam, jewish, judaism, muslim, protection"></FuiIcon>\n' +
+  '    hamsa\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hanukiah" size=big data-search-terms="candle, hanukkah, jewish, judaism, light"></FuiIcon>\n' +
+  '    hanukiah\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="haykal" size=big data-search-terms="bahai, bahá\'í, star"></FuiIcon>\n' +
+  '    haykal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="jedi" size=big data-search-terms="crest, force, sith, skywalker, star wars, yoda"></FuiIcon>\n' +
+  '    jedi\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="journal whills" size=big data-search-terms="book, force, jedi, sith, star wars, yoda"></FuiIcon>\n' +
+  '    journal whills\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="kaaba" size=big data-search-terms="building, cube, islam, muslim"></FuiIcon>\n' +
+  '    kaaba\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="khanda" size=big data-search-terms="chakkar, sikh, sikhism, sword"></FuiIcon>\n' +
+  '    khanda\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="menorah" size=big data-search-terms="candle, hanukkah, jewish, judaism, light"></FuiIcon>\n' +
+  '    menorah\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mosque" size=big data-search-terms="building, islam, landmark, muslim"></FuiIcon>\n' +
+  '    mosque\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="om" size=big data-search-terms="buddhism, hinduism, jainism, mantra"></FuiIcon>\n' +
+  '    om\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pastafarianism" size=big data-search-terms="agnosticism, atheism, flying spaghetti monster, fsm"></FuiIcon>\n' +
+  '    pastafarianism\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="peace" size=big data-search-terms="serenity, tranquility, truce, war"></FuiIcon>\n' +
+  '    peace\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="place of worship" size=big data-search-terms="building, church, holy, mosque, synagogue"></FuiIcon>\n' +
+  '    place of worship\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pray" size=big data-search-terms="kneel, preach, religion, worship"></FuiIcon>\n' +
+  '    pray\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="praying hands" size=big data-search-terms="kneel, preach, religion, worship"></FuiIcon>\n' +
+  '    praying hands\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="quran" size=big data-search-terms="book, islam, muslim, religion"></FuiIcon>\n' +
+  '    quran\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star and crescent" size=big data-search-terms="islam, muslim, religion"></FuiIcon>\n' +
+  '    star and crescent\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star of david" size=big data-search-terms="jewish, judaism, religion"></FuiIcon>\n' +
+  '    star of david\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="synagogue" size=big data-search-terms="building, jewish, judaism, religion, star of david, temple"></FuiIcon>\n' +
+  '    synagogue\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="torah" size=big data-search-terms="book, jewish, judaism, religion, scroll"></FuiIcon>\n' +
+  '    torah\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="torii gate" size=big data-search-terms="building, shintoism"></FuiIcon>\n' +
+  '    torii gate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="vihara" size=big data-search-terms="buddhism, buddhist, building, monastery"></FuiIcon>\n' +
+  '    vihara\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="yin yang" size=big data-search-terms="daoism, opposites, taoism"></FuiIcon>\n' +
+  '    yin yang\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconMaritime1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="anchor" size=big data-search-terms="berth, boat, dock, embed, link, maritime, moor, secure"></FuiIcon>\n' +
+  '    anchor\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="binoculars" size=big data-search-terms="glasses, magnify, scenic, spyglass, view"></FuiIcon>\n' +
+  '    binoculars\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compass" size=big data-search-terms="directions, directory, location, menu, navigation, safari, travel"></FuiIcon>\n' +
+  '    compass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compass outline" size=big data-search-terms="directions, directory, location, menu, navigation, safari, travel"></FuiIcon>\n' +
+  '    compass outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dharmachakra" size=big data-search-terms="buddhism, buddhist, wheel of dharma"></FuiIcon>\n' +
+  '    dharmachakra\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frog" size=big data-search-terms="amphibian, bullfrog, fauna, hop, kermit, kiss, prince, ribbit, toad, wart"></FuiIcon>\n' +
+  '    frog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ship" size=big data-search-terms="boat, sea, water"></FuiIcon>\n' +
+  '    ship\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skull crossbones" size=big data-search-terms="Dungeons & Dragons, alert, bones, d&d, danger, dead, deadly, death, dnd, fantasy, halloween, holiday, jolly-roger, pirate, poison, skeleton, warning"></FuiIcon>\n' +
+  '    skull crossbones\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="swimmer" size=big data-search-terms="athlete, head, man, olympics, person, pool, water"></FuiIcon>\n' +
+  '    swimmer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="water" size=big data-search-terms="lake, liquid, ocean, sea, swim, wet"></FuiIcon>\n' +
+  '    water\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wind" size=big data-search-terms="air, blow, breeze, fall, seasonal, weather"></FuiIcon>\n' +
+  '    wind\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconHealth1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="accessible" size=big data-search-terms="accessibility, handicap, person, wheelchair, wheelchair-alt"></FuiIcon>\n' +
+  '    accessible\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ambulance" size=big data-search-terms="emergency, emt, er, help, hospital, support, vehicle"></FuiIcon>\n' +
+  '    ambulance\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="h square" size=big data-search-terms="directions, emergency, hospital, hotel, map"></FuiIcon>\n' +
+  '    h square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart outline" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heartbeat" size=big data-search-terms="ekg, electrocardiogram, health, lifeline, vital signs"></FuiIcon>\n' +
+  '    heartbeat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hospital" size=big data-search-terms="building, emergency room, medical center"></FuiIcon>\n' +
+  '    hospital\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hospital outline" size=big data-search-terms="building, emergency room, medical center"></FuiIcon>\n' +
+  '    hospital outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="medkit" size=big data-search-terms="first aid, firstaid, health, help, support"></FuiIcon>\n' +
+  '    medkit\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus square" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus square outline" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus square outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="prescription" size=big data-search-terms="drugs, medical, medicine, pharmacy, rx"></FuiIcon>\n' +
+  '    prescription\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stethoscope" size=big data-search-terms="diagnosis, doctor, general practitioner, hospital, infirmary, medicine, office, outpatient"></FuiIcon>\n' +
+  '    stethoscope\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user md" size=big data-search-terms="job, medical, nurse, occupation, physician, profile, surgeon"></FuiIcon>\n' +
+  '    user md\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wheelchair" size=big data-search-terms="accessible, handicap, person"></FuiIcon>\n' +
+  '    wheelchair\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconHalloween1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="book dead" size=big data-search-terms="Dungeons & Dragons, crossbones, d&d, dark arts, death, dnd, documentation, evil, fantasy, halloween, holiday, necronomicon, read, skull, spell"></FuiIcon>\n' +
+  '    book dead\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="broom" size=big data-search-terms="clean, firebolt, fly, halloween, nimbus 2000, quidditch, sweep, witch"></FuiIcon>\n' +
+  '    broom\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cat" size=big data-search-terms="feline, halloween, holiday, kitten, kitty, meow, pet"></FuiIcon>\n' +
+  '    cat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud moon" size=big data-search-terms="crescent, evening, lunar, night, partly cloudy, sky"></FuiIcon>\n' +
+  '    cloud moon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="crow" size=big data-search-terms="bird, bullfrog, fauna, halloween, holiday, toad"></FuiIcon>\n' +
+  '    crow\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ghost" size=big data-search-terms="apparition, blinky, clyde, floating, halloween, holiday, inky, pinky, spirit"></FuiIcon>\n' +
+  '    ghost\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hat wizard" size=big data-search-terms="Dungeons & Dragons, accessory, buckle, clothing, d&d, dnd, fantasy, halloween, head, holiday, mage, magic, pointy, witch"></FuiIcon>\n' +
+  '    hat wizard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mask" size=big data-search-terms="carnivale, costume, disguise, halloween, secret, super hero"></FuiIcon>\n' +
+  '    mask\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skull crossbones" size=big data-search-terms="Dungeons & Dragons, alert, bones, d&d, danger, dead, deadly, death, dnd, fantasy, halloween, holiday, jolly-roger, pirate, poison, skeleton, warning"></FuiIcon>\n' +
+  '    skull crossbones\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="spider" size=big data-search-terms="arachnid, bug, charlotte, crawl, eight, halloween"></FuiIcon>\n' +
+  '    spider\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="toilet paper" size=big data-search-terms="bathroom, halloween, holiday, lavatory, prank, restroom, roll"></FuiIcon>\n' +
+  '    toilet paper\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconShopping1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="barcode" size=big data-search-terms="info, laser, price, scan, upc"></FuiIcon>\n' +
+  '    barcode\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cart arrow down" size=big data-search-terms="download, save, shopping"></FuiIcon>\n' +
+  '    cart arrow down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cart plus" size=big data-search-terms="add, create, new, positive, shopping"></FuiIcon>\n' +
+  '    cart plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cash register" size=big data-search-terms="buy, cha-ching, change, checkout, commerce, leaerboard, machine, pay, payment, purchase, store"></FuiIcon>\n' +
+  '    cash register\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gift" size=big data-search-terms="christmas, generosity, giving, holiday, party, present, wrapped, xmas"></FuiIcon>\n' +
+  '    gift\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gifts" size=big data-search-terms="christmas, generosity, giving, holiday, party, present, wrapped, xmas"></FuiIcon>\n' +
+  '    gifts\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="person booth" size=big data-search-terms="changing, changing room, election, human, person, vote, voting"></FuiIcon>\n' +
+  '    person booth\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="receipt" size=big data-search-terms="check, invoice, money, pay, table"></FuiIcon>\n' +
+  '    receipt\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shipping fast" size=big data-search-terms="express, fedex, mail, overnight, package, ups"></FuiIcon>\n' +
+  '    shipping fast\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopping bag" size=big data-search-terms="buy, checkout, grocery, payment, purchase"></FuiIcon>\n' +
+  '    shopping bag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopping basket" size=big data-search-terms="buy, checkout, grocery, payment, purchase"></FuiIcon>\n' +
+  '    shopping basket\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopping cart" size=big data-search-terms="buy, checkout, grocery, payment, purchase"></FuiIcon>\n' +
+  '    shopping cart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="store" size=big data-search-terms="building, buy, purchase, shopping"></FuiIcon>\n' +
+  '    store\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="store alternate" size=big data-search-terms="building, buy, purchase, shopping"></FuiIcon>\n' +
+  '    store alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="truck" size=big data-search-terms="cargo, delivery, shipping, vehicle"></FuiIcon>\n' +
+  '    truck\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tshirt" size=big data-search-terms="clothing, fashion, garment, shirt"></FuiIcon>\n' +
+  '    tshirt\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconComputers1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="database" size=big data-search-terms="computer, development, directory, memory, storage"></FuiIcon>\n' +
+  '    database\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="desktop" size=big data-search-terms="computer, cpu, demo, desktop, device, imac, machine, monitor, pc, screen"></FuiIcon>\n' +
+  '    desktop\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="download" size=big data-search-terms="export, hard drive, save, transfer"></FuiIcon>\n' +
+  '    download\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ethernet" size=big data-search-terms="cable, cat 5, cat 6, connection, hardware, internet, network, wired"></FuiIcon>\n' +
+  '    ethernet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hdd" size=big data-search-terms="cpu, hard drive, harddrive, machine, save, storage"></FuiIcon>\n' +
+  '    hdd\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hdd outline" size=big data-search-terms="cpu, hard drive, harddrive, machine, save, storage"></FuiIcon>\n' +
+  '    hdd outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="headphones" size=big data-search-terms="audio, listen, music, sound, speaker"></FuiIcon>\n' +
+  '    headphones\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="keyboard" size=big data-search-terms="accessory, edit, input, text, type, write"></FuiIcon>\n' +
+  '    keyboard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="keyboard outline" size=big data-search-terms="accessory, edit, input, text, type, write"></FuiIcon>\n' +
+  '    keyboard outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laptop" size=big data-search-terms="computer, cpu, dell, demo, device, mac, macbook, machine, pc"></FuiIcon>\n' +
+  '    laptop\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="memory" size=big data-search-terms="DIMM, RAM, hardware, storage, technology"></FuiIcon>\n' +
+  '    memory\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microchip" size=big data-search-terms="cpu, hardware, processor, technology"></FuiIcon>\n' +
+  '    microchip\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mobile" size=big data-search-terms="apple, call, cell phone, cellphone, device, iphone, number, screen, telephone"></FuiIcon>\n' +
+  '    mobile\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mobile alternate" size=big data-search-terms="apple, call, cell phone, cellphone, device, iphone, number, screen, telephone"></FuiIcon>\n' +
+  '    mobile alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plug" size=big data-search-terms="connect, electric, online, power"></FuiIcon>\n' +
+  '    plug\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="power off" size=big data-search-terms="cancel, computer, on, reboot, restart"></FuiIcon>\n' +
+  '    power off\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="print" size=big data-search-terms="business, copy, document, office, paper"></FuiIcon>\n' +
+  '    print\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="satellite" size=big data-search-terms="communications, hardware, orbit, space"></FuiIcon>\n' +
+  '    satellite\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="satellite dish" size=big data-search-terms="SETI, communications, hardware, receiver, saucer, signal"></FuiIcon>\n' +
+  '    satellite dish\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="save" size=big data-search-terms="disk, download, floppy, floppy-o"></FuiIcon>\n' +
+  '    save\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="save outline" size=big data-search-terms="disk, download, floppy, floppy-o"></FuiIcon>\n' +
+  '    save outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sd card" size=big data-search-terms="image, memory, photo, save"></FuiIcon>\n' +
+  '    sd card\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="server" size=big data-search-terms="computer, cpu, database, hardware, network"></FuiIcon>\n' +
+  '    server\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sim card" size=big data-search-terms="hard drive, hardware, portable, storage, technology, tiny"></FuiIcon>\n' +
+  '    sim card\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stream" size=big data-search-terms="flow, list, timeline"></FuiIcon>\n' +
+  '    stream\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tablet" size=big data-search-terms="apple, device, ipad, kindle, screen"></FuiIcon>\n' +
+  '    tablet\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tablet alternate" size=big data-search-terms="apple, device, ipad, kindle, screen"></FuiIcon>\n' +
+  '    tablet alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tv" size=big data-search-terms="computer, display, monitor, television"></FuiIcon>\n' +
+  '    tv\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="upload" size=big data-search-terms="hard drive, import, publish"></FuiIcon>\n' +
+  '    upload\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconCharity1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dollar sign" size=big data-search-terms="$, cost, dollar-sign, money, price, usd"></FuiIcon>\n' +
+  '    dollar sign\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="donate" size=big data-search-terms="contribute, generosity, gift, give"></FuiIcon>\n' +
+  '    donate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dove" size=big data-search-terms="bird, fauna, flying, peace, war"></FuiIcon>\n' +
+  '    dove\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gift" size=big data-search-terms="christmas, generosity, giving, holiday, party, present, wrapped, xmas"></FuiIcon>\n' +
+  '    gift\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="globe" size=big data-search-terms="all, coordinates, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world"></FuiIcon>\n' +
+  '    globe\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand holding heart" size=big data-search-terms="carry, charity, gift, lift, package"></FuiIcon>\n' +
+  '    hand holding heart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand holding usd" size=big data-search-terms="$, carry, dollar sign, donation, giving, lift, money, price"></FuiIcon>\n' +
+  '    hand holding usd\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hands helping" size=big data-search-terms="aid, assistance, handshake, partnership, volunteering"></FuiIcon>\n' +
+  '    hands helping\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="handshake" size=big data-search-terms="agreement, greeting, meeting, partnership"></FuiIcon>\n' +
+  '    handshake\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="handshake outline" size=big data-search-terms="agreement, greeting, meeting, partnership"></FuiIcon>\n' +
+  '    handshake outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart outline" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="leaf" size=big data-search-terms="eco, flora, nature, plant, vegan"></FuiIcon>\n' +
+  '    leaf\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="parachute box" size=big data-search-terms="aid, assistance, rescue, supplies"></FuiIcon>\n' +
+  '    parachute box\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="piggy bank" size=big data-search-terms="bank, save, savings"></FuiIcon>\n' +
+  '    piggy bank\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ribbon" size=big data-search-terms="badge, cause, lapel, pin"></FuiIcon>\n' +
+  '    ribbon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="seedling" size=big data-search-terms="flora, grow, plant, vegan"></FuiIcon>\n' +
+  '    seedling\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconHoliday1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="candy cane" size=big data-search-terms="candy, christmas, holiday, mint, peppermint, striped, xmas"></FuiIcon>\n' +
+  '    candy cane\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="carrot" size=big data-search-terms="bugs bunny, orange, vegan, vegetable"></FuiIcon>\n' +
+  '    carrot\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cookie bite" size=big data-search-terms="baked good, bitten, chips, chocolate, eat, snack, sweet, treat"></FuiIcon>\n' +
+  '    cookie bite\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gift" size=big data-search-terms="christmas, generosity, giving, holiday, party, present, wrapped, xmas"></FuiIcon>\n' +
+  '    gift\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gifts" size=big data-search-terms="christmas, generosity, giving, holiday, party, present, wrapped, xmas"></FuiIcon>\n' +
+  '    gifts\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glass cheers" size=big data-search-terms="alcohol, bar, beverage, celebration, champagne, clink, drink, holiday, new year\'s eve, party, toast"></FuiIcon>\n' +
+  '    glass cheers\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="holly berry" size=big data-search-terms="catwoman, christmas, decoration, flora, halle, holiday, ororo munroe, plant, storm, xmas"></FuiIcon>\n' +
+  '    holly berry\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mug hot" size=big data-search-terms="caliente, cocoa, coffee, cup, drink, holiday, hot chocolate, steam, tea, warmth"></FuiIcon>\n' +
+  '    mug hot\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sleigh" size=big data-search-terms="christmas, claus, fly, holiday, santa, sled, snow, xmas"></FuiIcon>\n' +
+  '    sleigh\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowman" size=big data-search-terms="decoration, frost, frosty, holiday"></FuiIcon>\n' +
+  '    snowman\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconConstruction1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="brush" size=big data-search-terms="art, bristles, color, handle, paint"></FuiIcon>\n' +
+  '    brush\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="drafting compass" size=big data-search-terms="design, map, mechanical drawing, plot, plotting"></FuiIcon>\n' +
+  '    drafting compass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dumpster" size=big data-search-terms="alley, bin, commercial, trash, waste"></FuiIcon>\n' +
+  '    dumpster\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hammer" size=big data-search-terms="admin, fix, repair, settings, tool"></FuiIcon>\n' +
+  '    hammer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hard hat" size=big data-search-terms="construction, hardhat, helmet, safety"></FuiIcon>\n' +
+  '    hard hat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paint roller" size=big data-search-terms="acrylic, art, brush, color, fill, paint, pigment, watercolor"></FuiIcon>\n' +
+  '    paint roller\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pencil alternate" size=big data-search-terms="design, edit, pencil, update, write"></FuiIcon>\n' +
+  '    pencil alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pencil ruler" size=big data-search-terms="design, draft, draw, pencil"></FuiIcon>\n' +
+  '    pencil ruler\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ruler" size=big data-search-terms="design, draft, length, measure, planning"></FuiIcon>\n' +
+  '    ruler\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ruler combined" size=big data-search-terms="design, draft, length, measure, planning"></FuiIcon>\n' +
+  '    ruler combined\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ruler horizontal" size=big data-search-terms="design, draft, length, measure, planning"></FuiIcon>\n' +
+  '    ruler horizontal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ruler vertical" size=big data-search-terms="design, draft, length, measure, planning"></FuiIcon>\n' +
+  '    ruler vertical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="screwdriver" size=big data-search-terms="admin, fix, mechanic, repair, settings, tool"></FuiIcon>\n' +
+  '    screwdriver\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="toolbox" size=big data-search-terms="admin, container, fix, repair, settings, tools"></FuiIcon>\n' +
+  '    toolbox\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tools" size=big data-search-terms="admin, fix, repair, screwdriver, settings, tools, wrench"></FuiIcon>\n' +
+  '    tools\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="truck pickup" size=big data-search-terms="cargo, vehicle"></FuiIcon>\n' +
+  '    truck pickup\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wrench" size=big data-search-terms="construction, fix, mechanic, plumbing, settings, spanner, tool, update"></FuiIcon>\n' +
+  '    wrench\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconUsersPeople1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="accessible" size=big data-search-terms="accessibility, handicap, person, wheelchair, wheelchair-alt"></FuiIcon>\n' +
+  '    accessible\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="address book" size=big data-search-terms="contact, directory, index, little black book, rolodex"></FuiIcon>\n' +
+  '    address book\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="address book outline" size=big data-search-terms="contact, directory, index, little black book, rolodex"></FuiIcon>\n' +
+  '    address book outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="address card" size=big data-search-terms="about, contact, id, identification, postcard, profile"></FuiIcon>\n' +
+  '    address card\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="address card outline" size=big data-search-terms="about, contact, id, identification, postcard, profile"></FuiIcon>\n' +
+  '    address card outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="baby" size=big data-search-terms="child, diaper, doll, human, infant, kid, offspring, person, sprout"></FuiIcon>\n' +
+  '    baby\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bed" size=big data-search-terms="lodging, rest, sleep, travel"></FuiIcon>\n' +
+  '    bed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="biking" size=big data-search-terms="bicycle, bike, cycle, cycling, ride, wheel"></FuiIcon>\n' +
+  '    biking\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="blind" size=big data-search-terms="cane, disability, person, sight"></FuiIcon>\n' +
+  '    blind\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chalkboard teacher" size=big data-search-terms="blackboard, instructor, learning, professor, school, whiteboard, writing"></FuiIcon>\n' +
+  '    chalkboard teacher\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="child" size=big data-search-terms="boy, girl, kid, toddler, young"></FuiIcon>\n' +
+  '    child\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="female" size=big data-search-terms="human, person, profile, user, woman"></FuiIcon>\n' +
+  '    female\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frown" size=big data-search-terms="disapprove, emoticon, face, rating, sad"></FuiIcon>\n' +
+  '    frown\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frown outline" size=big data-search-terms="disapprove, emoticon, face, rating, sad"></FuiIcon>\n' +
+  '    frown outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hiking" size=big data-search-terms="activity, backpack, fall, fitness, outdoors, person, seasonal, walking"></FuiIcon>\n' +
+  '    hiking\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id badge" size=big data-search-terms="address, contact, identification, license, profile"></FuiIcon>\n' +
+  '    id badge\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id badge outline" size=big data-search-terms="address, contact, identification, license, profile"></FuiIcon>\n' +
+  '    id badge outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id card" size=big data-search-terms="contact, demographics, document, identification, issued, profile"></FuiIcon>\n' +
+  '    id card\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id card alternate" size=big data-search-terms="contact, demographics, document, identification, issued, profile"></FuiIcon>\n' +
+  '    id card alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="id card outline" size=big data-search-terms="contact, demographics, document, identification, issued, profile"></FuiIcon>\n' +
+  '    id card outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="male" size=big data-search-terms="human, man, person, profile, user"></FuiIcon>\n' +
+  '    male\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meh" size=big data-search-terms="emoticon, face, neutral, rating"></FuiIcon>\n' +
+  '    meh\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meh outline" size=big data-search-terms="emoticon, face, neutral, rating"></FuiIcon>\n' +
+  '    meh outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="people carry" size=big data-search-terms="box, carry, fragile, help, movers, package"></FuiIcon>\n' +
+  '    people carry\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="person booth" size=big data-search-terms="changing, changing room, election, human, person, vote, voting"></FuiIcon>\n' +
+  '    person booth\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="poo" size=big data-search-terms="crap, poop, shit, smile, turd"></FuiIcon>\n' +
+  '    poo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="portrait" size=big data-search-terms="id, image, photo, picture, selfie"></FuiIcon>\n' +
+  '    portrait\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="power off" size=big data-search-terms="cancel, computer, on, reboot, restart"></FuiIcon>\n' +
+  '    power off\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pray" size=big data-search-terms="kneel, preach, religion, worship"></FuiIcon>\n' +
+  '    pray\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="restroom" size=big data-search-terms="bathroom, john, loo, potty, washroom, waste, wc"></FuiIcon>\n' +
+  '    restroom\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="running" size=big data-search-terms="exercise, health, jog, person, run, sport, sprint"></FuiIcon>\n' +
+  '    running\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skating" size=big data-search-terms="activity, figure skating, fitness, ice, person, winter"></FuiIcon>\n' +
+  '    skating\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skiing" size=big data-search-terms="activity, downhill, fast, fitness, olympics, outdoors, person, seasonal, slalom"></FuiIcon>\n' +
+  '    skiing\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="skiing nordic" size=big data-search-terms="activity, cross country, fitness, outdoors, person, seasonal"></FuiIcon>\n' +
+  '    skiing nordic\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smile" size=big data-search-terms="approve, emoticon, face, happy, rating, satisfied"></FuiIcon>\n' +
+  '    smile\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smile outline" size=big data-search-terms="approve, emoticon, face, happy, rating, satisfied"></FuiIcon>\n' +
+  '    smile outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="snowboarding" size=big data-search-terms="activity, fitness, olympics, outdoors, person"></FuiIcon>\n' +
+  '    snowboarding\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="street view" size=big data-search-terms="directions, location, map, navigation"></FuiIcon>\n' +
+  '    street view\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="swimmer" size=big data-search-terms="athlete, head, man, olympics, person, pool, water"></FuiIcon>\n' +
+  '    swimmer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user alternate" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user alternate slash" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user alternate slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user astronaut" size=big data-search-terms="avatar, clothing, cosmonaut, nasa, space, suit"></FuiIcon>\n' +
+  '    user astronaut\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user check" size=big data-search-terms="accept, check, person, verified"></FuiIcon>\n' +
+  '    user check\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user circle" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user circle outline" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user clock" size=big data-search-terms="alert, person, remind, time"></FuiIcon>\n' +
+  '    user clock\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user cog" size=big data-search-terms="admin, cog, person, settings"></FuiIcon>\n' +
+  '    user cog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user edit" size=big data-search-terms="edit, pen, pencil, person, update, write"></FuiIcon>\n' +
+  '    user edit\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user friends" size=big data-search-terms="group, people, person, team, users"></FuiIcon>\n' +
+  '    user friends\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user graduate" size=big data-search-terms="cap, clothing, commencement, gown, graduation, person, student"></FuiIcon>\n' +
+  '    user graduate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user injured" size=big data-search-terms="cast, injury, ouch, patient, person, sling"></FuiIcon>\n' +
+  '    user injured\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user lock" size=big data-search-terms="admin, lock, person, private, unlock"></FuiIcon>\n' +
+  '    user lock\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user md" size=big data-search-terms="job, medical, nurse, occupation, physician, profile, surgeon"></FuiIcon>\n' +
+  '    user md\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user minus" size=big data-search-terms="delete, negative, remove"></FuiIcon>\n' +
+  '    user minus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user ninja" size=big data-search-terms="assassin, avatar, dangerous, deadly, sneaky"></FuiIcon>\n' +
+  '    user ninja\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user nurse" size=big data-search-terms="doctor, midwife, practitioner, surgeon"></FuiIcon>\n' +
+  '    user nurse\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user outline" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user plus" size=big data-search-terms="add, avatar, positive, sign up, signup, team"></FuiIcon>\n' +
+  '    user plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user secret" size=big data-search-terms="clothing, coat, hat, incognito, person, privacy, spy, whisper"></FuiIcon>\n' +
+  '    user secret\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user shield" size=big data-search-terms="admin, person, private, protect, safe"></FuiIcon>\n' +
+  '    user shield\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user slash" size=big data-search-terms="ban, delete, remove"></FuiIcon>\n' +
+  '    user slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user tag" size=big data-search-terms="avatar, discount, label, person, role, special"></FuiIcon>\n' +
+  '    user tag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user tie" size=big data-search-terms="avatar, business, clothing, formal, professional, suit"></FuiIcon>\n' +
+  '    user tie\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user times" size=big data-search-terms="archive, delete, remove, x"></FuiIcon>\n' +
+  '    user times\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="users" size=big data-search-terms="friends, group, people, persons, profiles, team"></FuiIcon>\n' +
+  '    users\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="users cog" size=big data-search-terms="admin, cog, group, person, settings, team"></FuiIcon>\n' +
+  '    users cog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="walking" size=big data-search-terms="exercise, health, pedometer, person, steps"></FuiIcon>\n' +
+  '    walking\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wheelchair" size=big data-search-terms="accessible, handicap, person"></FuiIcon>\n' +
+  '    wheelchair\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconClothing1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="graduation cap" size=big data-search-terms="ceremony, college, graduate, learning, school, student"></FuiIcon>\n' +
+  '    graduation cap\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hat wizard" size=big data-search-terms="Dungeons & Dragons, accessory, buckle, clothing, d&d, dnd, fantasy, halloween, head, holiday, mage, magic, pointy, witch"></FuiIcon>\n' +
+  '    hat wizard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="mitten" size=big data-search-terms="clothing, cold, glove, hands, knitted, seasonal, warmth"></FuiIcon>\n' +
+  '    mitten\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shoe prints" size=big data-search-terms="feet, footprints, steps, walk"></FuiIcon>\n' +
+  '    shoe prints\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="socks" size=big data-search-terms="business socks, business time, clothing, feet, flight of the conchords, wednesday"></FuiIcon>\n' +
+  '    socks\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tshirt" size=big data-search-terms="clothing, fashion, garment, shirt"></FuiIcon>\n' +
+  '    tshirt\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user tie" size=big data-search-terms="avatar, business, clothing, formal, professional, suit"></FuiIcon>\n' +
+  '    user tie\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconHousehold1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bath" size=big data-search-terms="clean, shower, tub, wash"></FuiIcon>\n' +
+  '    bath\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bed" size=big data-search-terms="lodging, rest, sleep, travel"></FuiIcon>\n' +
+  '    bed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="blender" size=big data-search-terms="cocktail, milkshake, mixer, puree, smoothie"></FuiIcon>\n' +
+  '    blender\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chair" size=big data-search-terms="furniture, seat, sit"></FuiIcon>\n' +
+  '    chair\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="couch" size=big data-search-terms="chair, cushion, furniture, relax, sofa"></FuiIcon>\n' +
+  '    couch\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="door closed" size=big data-search-terms="enter, exit, locked"></FuiIcon>\n' +
+  '    door closed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="door open" size=big data-search-terms="enter, exit, welcome"></FuiIcon>\n' +
+  '    door open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dungeon" size=big data-search-terms="Dungeons & Dragons, building, d&d, dnd, door, entrance, fantasy, gate"></FuiIcon>\n' +
+  '    dungeon\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fan" size=big data-search-terms="ac, air conditioning, blade, blower, cool, hot"></FuiIcon>\n' +
+  '    fan\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shower" size=big data-search-terms="bath, clean, faucet, water"></FuiIcon>\n' +
+  '    shower\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="toilet paper" size=big data-search-terms="bathroom, halloween, holiday, lavatory, prank, restroom, roll"></FuiIcon>\n' +
+  '    toilet paper\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tv" size=big data-search-terms="computer, display, monitor, television"></FuiIcon>\n' +
+  '    tv\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconToggle1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bullseye" size=big data-search-terms="archery, goal, objective, target"></FuiIcon>\n' +
+  '    bullseye\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="check circle" size=big data-search-terms="accept, agree, confirm, correct, done, ok, select, success, tick, todo, yes"></FuiIcon>\n' +
+  '    check circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="check circle outline" size=big data-search-terms="accept, agree, confirm, correct, done, ok, select, success, tick, todo, yes"></FuiIcon>\n' +
+  '    check circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="circle" size=big data-search-terms="circle-thin, diameter, dot, ellipse, notification, round"></FuiIcon>\n' +
+  '    circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="circle outline" size=big data-search-terms="circle-thin, diameter, dot, ellipse, notification, round"></FuiIcon>\n' +
+  '    circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dot circle" size=big data-search-terms="bullseye, notification, target"></FuiIcon>\n' +
+  '    dot circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dot circle outline" size=big data-search-terms="bullseye, notification, target"></FuiIcon>\n' +
+  '    dot circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
+  '    star\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star half" size=big data-search-terms="achievement, award, rating, score, star-half-empty, star-half-full"></FuiIcon>\n' +
+  '    star half\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star half alternate" size=big data-search-terms="achievement, award, rating, score, star-half-empty, star-half-full"></FuiIcon>\n' +
+  '    star half alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star half outline" size=big data-search-terms="achievement, award, rating, score, star-half-empty, star-half-full"></FuiIcon>\n' +
+  '    star half outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star outline" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
+  '    star outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="toggle off" size=big data-search-terms="switch"></FuiIcon>\n' +
+  '    toggle off\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="toggle on" size=big data-search-terms="switch"></FuiIcon>\n' +
+  '    toggle on\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconTravel1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="archway" size=big data-search-terms="arc, monument, road, street, tunnel"></FuiIcon>\n' +
+  '    archway\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="atlas" size=big data-search-terms="book, directions, geography, globe, map, travel, wayfinding"></FuiIcon>\n' +
+  '    atlas\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bed" size=big data-search-terms="lodging, rest, sleep, travel"></FuiIcon>\n' +
+  '    bed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bus" size=big data-search-terms="public transportation, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    bus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bus alternate" size=big data-search-terms="mta, public transportation, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    bus alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cocktail" size=big data-search-terms="alcohol, beverage, drink, gin, glass, margarita, martini, vodka"></FuiIcon>\n' +
+  '    cocktail\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="concierge bell" size=big data-search-terms="attention, hotel, receptionist, service, support"></FuiIcon>\n' +
+  '    concierge bell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dumbbell" size=big data-search-terms="exercise, gym, strength, weight, weight-lifting"></FuiIcon>\n' +
+  '    dumbbell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glass martini" size=big data-search-terms="alcohol, bar, beverage, drink, liquor"></FuiIcon>\n' +
+  '    glass martini\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glass martini alternate" size=big data-search-terms="alcohol, bar, beverage, drink, liquor"></FuiIcon>\n' +
+  '    glass martini alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="globe africa" size=big data-search-terms="all, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world"></FuiIcon>\n' +
+  '    globe africa\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="globe americas" size=big data-search-terms="all, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world"></FuiIcon>\n' +
+  '    globe americas\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="globe asia" size=big data-search-terms="all, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world"></FuiIcon>\n' +
+  '    globe asia\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="globe europe" size=big data-search-terms="all, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world"></FuiIcon>\n' +
+  '    globe europe\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hot tub" size=big data-search-terms="bath, jacuzzi, massage, sauna, spa"></FuiIcon>\n' +
+  '    hot tub\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hotel" size=big data-search-terms="building, inn, lodging, motel, resort, travel"></FuiIcon>\n' +
+  '    hotel\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="luggage cart" size=big data-search-terms="bag, baggage, suitcase, travel"></FuiIcon>\n' +
+  '    luggage cart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map marked" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map marked\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map marked alternate" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map marked alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map outline" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="monument" size=big data-search-terms="building, historic, landmark, memorable"></FuiIcon>\n' +
+  '    monument\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="passport" size=big data-search-terms="document, id, identification, issued, travel"></FuiIcon>\n' +
+  '    passport\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plane" size=big data-search-terms="airplane, destination, fly, location, mode, travel, trip"></FuiIcon>\n' +
+  '    plane\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plane arrival" size=big data-search-terms="airplane, arriving, destination, fly, land, landing, location, mode, travel, trip"></FuiIcon>\n' +
+  '    plane arrival\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plane departure" size=big data-search-terms="airplane, departing, destination, fly, location, mode, take off, taking off, travel, trip"></FuiIcon>\n' +
+  '    plane departure\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shuttle van" size=big data-search-terms="airport, machine, public-transportation, transportation, travel, vehicle"></FuiIcon>\n' +
+  '    shuttle van\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="spa" size=big data-search-terms="flora, massage, mindfulness, plant, wellness"></FuiIcon>\n' +
+  '    spa\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="suitcase" size=big data-search-terms="baggage, luggage, move, suitcase, travel, trip"></FuiIcon>\n' +
+  '    suitcase\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="suitcase rolling" size=big data-search-terms="baggage, luggage, move, suitcase, travel, trip"></FuiIcon>\n' +
+  '    suitcase rolling\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="swimmer" size=big data-search-terms="athlete, head, man, olympics, person, pool, water"></FuiIcon>\n' +
+  '    swimmer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="swimming pool" size=big data-search-terms="ladder, recreation, swim, water"></FuiIcon>\n' +
+  '    swimming pool\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="taxi" size=big data-search-terms="cab, cabbie, car, car service, lyft, machine, transportation, travel, uber, vehicle"></FuiIcon>\n' +
+  '    taxi\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tram" size=big data-search-terms="crossing, machine, mountains, seasonal, transportation"></FuiIcon>\n' +
+  '    tram\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="umbrella beach" size=big data-search-terms="protection, recreation, sand, shade, summer, sun"></FuiIcon>\n' +
+  '    umbrella beach\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wine glass" size=big data-search-terms="alcohol, beverage, cabernet, drink, grapes, merlot, sauvignon"></FuiIcon>\n' +
+  '    wine glass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wine glass alternate" size=big data-search-terms="alcohol, beverage, cabernet, drink, grapes, merlot, sauvignon"></FuiIcon>\n' +
+  '    wine glass alternate\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconEmoji1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="angry" size=big data-search-terms="disapprove, emoticon, face, mad, upset"></FuiIcon>\n' +
+  '    angry\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="angry outline" size=big data-search-terms="disapprove, emoticon, face, mad, upset"></FuiIcon>\n' +
+  '    angry outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dizzy" size=big data-search-terms="dazed, dead, disapprove, emoticon, face"></FuiIcon>\n' +
+  '    dizzy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dizzy outline" size=big data-search-terms="dazed, dead, disapprove, emoticon, face"></FuiIcon>\n' +
+  '    dizzy outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flushed" size=big data-search-terms="embarrassed, emoticon, face"></FuiIcon>\n' +
+  '    flushed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flushed outline" size=big data-search-terms="embarrassed, emoticon, face"></FuiIcon>\n' +
+  '    flushed outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frown" size=big data-search-terms="disapprove, emoticon, face, rating, sad"></FuiIcon>\n' +
+  '    frown\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frown open" size=big data-search-terms="disapprove, emoticon, face, rating, sad"></FuiIcon>\n' +
+  '    frown open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frown open outline" size=big data-search-terms="disapprove, emoticon, face, rating, sad"></FuiIcon>\n' +
+  '    frown open outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frown outline" size=big data-search-terms="disapprove, emoticon, face, rating, sad"></FuiIcon>\n' +
+  '    frown outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grimace" size=big data-search-terms="cringe, emoticon, face, teeth"></FuiIcon>\n' +
+  '    grimace\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grimace outline" size=big data-search-terms="cringe, emoticon, face, teeth"></FuiIcon>\n' +
+  '    grimace outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin" size=big data-search-terms="emoticon, face, laugh, smile"></FuiIcon>\n' +
+  '    grin\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin alternate" size=big data-search-terms="emoticon, face, laugh, smile"></FuiIcon>\n' +
+  '    grin alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin alternate outline" size=big data-search-terms="emoticon, face, laugh, smile"></FuiIcon>\n' +
+  '    grin alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin beam" size=big data-search-terms="emoticon, face, laugh, smile"></FuiIcon>\n' +
+  '    grin beam\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin beam outline" size=big data-search-terms="emoticon, face, laugh, smile"></FuiIcon>\n' +
+  '    grin beam outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin beam sweat" size=big data-search-terms="embarass, emoticon, face, smile"></FuiIcon>\n' +
+  '    grin beam sweat\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin beam sweat outline" size=big data-search-terms="embarass, emoticon, face, smile"></FuiIcon>\n' +
+  '    grin beam sweat outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin hearts" size=big data-search-terms="emoticon, face, love, smile"></FuiIcon>\n' +
+  '    grin hearts\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin hearts outline" size=big data-search-terms="emoticon, face, love, smile"></FuiIcon>\n' +
+  '    grin hearts outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin outline" size=big data-search-terms="emoticon, face, laugh, smile"></FuiIcon>\n' +
+  '    grin outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin squint" size=big data-search-terms="emoticon, face, laugh, smile"></FuiIcon>\n' +
+  '    grin squint\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin squint outline" size=big data-search-terms="emoticon, face, laugh, smile"></FuiIcon>\n' +
+  '    grin squint outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin squint tears" size=big data-search-terms="emoticon, face, happy, smile"></FuiIcon>\n' +
+  '    grin squint tears\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin squint tears outline" size=big data-search-terms="emoticon, face, happy, smile"></FuiIcon>\n' +
+  '    grin squint tears outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin stars" size=big data-search-terms="emoticon, face, star-struck"></FuiIcon>\n' +
+  '    grin stars\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin stars outline" size=big data-search-terms="emoticon, face, star-struck"></FuiIcon>\n' +
+  '    grin stars outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin tears" size=big data-search-terms="LOL, emoticon, face"></FuiIcon>\n' +
+  '    grin tears\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin tears outline" size=big data-search-terms="LOL, emoticon, face"></FuiIcon>\n' +
+  '    grin tears outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin tongue" size=big data-search-terms="LOL, emoticon, face"></FuiIcon>\n' +
+  '    grin tongue\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin tongue outline" size=big data-search-terms="LOL, emoticon, face"></FuiIcon>\n' +
+  '    grin tongue outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin tongue squint" size=big data-search-terms="LOL, emoticon, face"></FuiIcon>\n' +
+  '    grin tongue squint\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin tongue squint outline" size=big data-search-terms="LOL, emoticon, face"></FuiIcon>\n' +
+  '    grin tongue squint outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin tongue wink" size=big data-search-terms="LOL, emoticon, face"></FuiIcon>\n' +
+  '    grin tongue wink\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin tongue wink outline" size=big data-search-terms="LOL, emoticon, face"></FuiIcon>\n' +
+  '    grin tongue wink outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin wink" size=big data-search-terms="emoticon, face, flirt, laugh, smile"></FuiIcon>\n' +
+  '    grin wink\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grin wink outline" size=big data-search-terms="emoticon, face, flirt, laugh, smile"></FuiIcon>\n' +
+  '    grin wink outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="kiss" size=big data-search-terms="beso, emoticon, face, love, smooch"></FuiIcon>\n' +
+  '    kiss\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="kiss beam" size=big data-search-terms="beso, emoticon, face, love, smooch"></FuiIcon>\n' +
+  '    kiss beam\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="kiss beam outline" size=big data-search-terms="beso, emoticon, face, love, smooch"></FuiIcon>\n' +
+  '    kiss beam outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="kiss outline" size=big data-search-terms="beso, emoticon, face, love, smooch"></FuiIcon>\n' +
+  '    kiss outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="kiss wink heart" size=big data-search-terms="beso, emoticon, face, love, smooch"></FuiIcon>\n' +
+  '    kiss wink heart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="kiss wink heart outline" size=big data-search-terms="beso, emoticon, face, love, smooch"></FuiIcon>\n' +
+  '    kiss wink heart outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laugh" size=big data-search-terms="LOL, emoticon, face, laugh, smile"></FuiIcon>\n' +
+  '    laugh\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laugh beam" size=big data-search-terms="LOL, emoticon, face, happy, smile"></FuiIcon>\n' +
+  '    laugh beam\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laugh beam outline" size=big data-search-terms="LOL, emoticon, face, happy, smile"></FuiIcon>\n' +
+  '    laugh beam outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laugh outline" size=big data-search-terms="LOL, emoticon, face, laugh, smile"></FuiIcon>\n' +
+  '    laugh outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laugh squint" size=big data-search-terms="LOL, emoticon, face, happy, smile"></FuiIcon>\n' +
+  '    laugh squint\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laugh squint outline" size=big data-search-terms="LOL, emoticon, face, happy, smile"></FuiIcon>\n' +
+  '    laugh squint outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laugh wink" size=big data-search-terms="LOL, emoticon, face, happy, smile"></FuiIcon>\n' +
+  '    laugh wink\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="laugh wink outline" size=big data-search-terms="LOL, emoticon, face, happy, smile"></FuiIcon>\n' +
+  '    laugh wink outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meh" size=big data-search-terms="emoticon, face, neutral, rating"></FuiIcon>\n' +
+  '    meh\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meh blank" size=big data-search-terms="emoticon, face, neutral, rating"></FuiIcon>\n' +
+  '    meh blank\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meh blank outline" size=big data-search-terms="emoticon, face, neutral, rating"></FuiIcon>\n' +
+  '    meh blank outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meh outline" size=big data-search-terms="emoticon, face, neutral, rating"></FuiIcon>\n' +
+  '    meh outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meh rolling eyes" size=big data-search-terms="emoticon, face, neutral, rating"></FuiIcon>\n' +
+  '    meh rolling eyes\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meh rolling eyes outline" size=big data-search-terms="emoticon, face, neutral, rating"></FuiIcon>\n' +
+  '    meh rolling eyes outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sad cry" size=big data-search-terms="emoticon, face, tear, tears"></FuiIcon>\n' +
+  '    sad cry\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sad cry outline" size=big data-search-terms="emoticon, face, tear, tears"></FuiIcon>\n' +
+  '    sad cry outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sad tear" size=big data-search-terms="emoticon, face, tear, tears"></FuiIcon>\n' +
+  '    sad tear\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sad tear outline" size=big data-search-terms="emoticon, face, tear, tears"></FuiIcon>\n' +
+  '    sad tear outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smile" size=big data-search-terms="approve, emoticon, face, happy, rating, satisfied"></FuiIcon>\n' +
+  '    smile\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smile beam" size=big data-search-terms="emoticon, face, happy, positive"></FuiIcon>\n' +
+  '    smile beam\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smile beam outline" size=big data-search-terms="emoticon, face, happy, positive"></FuiIcon>\n' +
+  '    smile beam outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smile outline" size=big data-search-terms="approve, emoticon, face, happy, rating, satisfied"></FuiIcon>\n' +
+  '    smile outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smile wink" size=big data-search-terms="emoticon, face, happy, hint, joke"></FuiIcon>\n' +
+  '    smile wink\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smile wink outline" size=big data-search-terms="emoticon, face, happy, hint, joke"></FuiIcon>\n' +
+  '    smile wink outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="surprise" size=big data-search-terms="emoticon, face, shocked"></FuiIcon>\n' +
+  '    surprise\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="surprise outline" size=big data-search-terms="emoticon, face, shocked"></FuiIcon>\n' +
+  '    surprise outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tired" size=big data-search-terms="angry, emoticon, face, grumpy, upset"></FuiIcon>\n' +
+  '    tired\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tired outline" size=big data-search-terms="angry, emoticon, face, grumpy, upset"></FuiIcon>\n' +
+  '    tired outline\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconStatus1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ban" size=big data-search-terms="abort, ban, block, cancel, delete, hide, prohibit, remove, stop, trash"></FuiIcon>\n' +
+  '    ban\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="battery empty" size=big data-search-terms="charge, dead, power, status"></FuiIcon>\n' +
+  '    battery empty\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="battery full" size=big data-search-terms="charge, power, status"></FuiIcon>\n' +
+  '    battery full\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="battery half" size=big data-search-terms="charge, power, status"></FuiIcon>\n' +
+  '    battery half\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="battery quarter" size=big data-search-terms="charge, low, power, status"></FuiIcon>\n' +
+  '    battery quarter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="battery three quarters" size=big data-search-terms="charge, power, status"></FuiIcon>\n' +
+  '    battery three quarters\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell outline" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell slash" size=big data-search-terms="alert, cancel, disabled, notification, off, reminder"></FuiIcon>\n' +
+  '    bell slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell slash outline" size=big data-search-terms="alert, cancel, disabled, notification, off, reminder"></FuiIcon>\n' +
+  '    bell slash outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar" size=big data-search-terms="calendar-o, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar alternate" size=big data-search-terms="calendar, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar alternate outline" size=big data-search-terms="calendar, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar check" size=big data-search-terms="accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, tick, time, todo, when"></FuiIcon>\n' +
+  '    calendar check\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar check outline" size=big data-search-terms="accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, tick, time, todo, when"></FuiIcon>\n' +
+  '    calendar check outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar day" size=big data-search-terms="date, detail, event, focus, schedule, single day, time, today, when"></FuiIcon>\n' +
+  '    calendar day\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar minus" size=big data-search-terms="calendar, date, delete, event, negative, remove, schedule, time, when"></FuiIcon>\n' +
+  '    calendar minus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar minus outline" size=big data-search-terms="calendar, date, delete, event, negative, remove, schedule, time, when"></FuiIcon>\n' +
+  '    calendar minus outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar outline" size=big data-search-terms="calendar-o, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar plus" size=big data-search-terms="add, calendar, create, date, event, new, positive, schedule, time, when"></FuiIcon>\n' +
+  '    calendar plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar plus outline" size=big data-search-terms="add, calendar, create, date, event, new, positive, schedule, time, when"></FuiIcon>\n' +
+  '    calendar plus outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar times" size=big data-search-terms="archive, calendar, date, delete, event, remove, schedule, time, when, x"></FuiIcon>\n' +
+  '    calendar times\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar times outline" size=big data-search-terms="archive, calendar, date, delete, event, remove, schedule, time, when, x"></FuiIcon>\n' +
+  '    calendar times outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar week" size=big data-search-terms="date, detail, event, focus, schedule, single week, time, today, when"></FuiIcon>\n' +
+  '    calendar week\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cart arrow down" size=big data-search-terms="download, save, shopping"></FuiIcon>\n' +
+  '    cart arrow down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cart plus" size=big data-search-terms="add, create, new, positive, shopping"></FuiIcon>\n' +
+  '    cart plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment alternate" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment alternate outline" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment outline" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
+  '    comment outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment slash" size=big data-search-terms="bubble, cancel, chat, commenting, conversation, feedback, message, mute, note, notification, quiet, sms, speech, texting"></FuiIcon>\n' +
+  '    comment slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compass" size=big data-search-terms="directions, directory, location, menu, navigation, safari, travel"></FuiIcon>\n' +
+  '    compass\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="compass outline" size=big data-search-terms="directions, directory, location, menu, navigation, safari, travel"></FuiIcon>\n' +
+  '    compass outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="door closed" size=big data-search-terms="enter, exit, locked"></FuiIcon>\n' +
+  '    door closed\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="door open" size=big data-search-terms="enter, exit, welcome"></FuiIcon>\n' +
+  '    door open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="exclamation" size=big data-search-terms="alert, danger, error, important, notice, notification, notify, problem, warning"></FuiIcon>\n' +
+  '    exclamation\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="exclamation circle" size=big data-search-terms="alert, danger, error, important, notice, notification, notify, problem, warning"></FuiIcon>\n' +
+  '    exclamation circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="exclamation triangle" size=big data-search-terms="alert, danger, error, important, notice, notification, notify, problem, warning"></FuiIcon>\n' +
+  '    exclamation triangle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye" size=big data-search-terms="look, optic, see, seen, show, sight, views, visible"></FuiIcon>\n' +
+  '    eye\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye outline" size=big data-search-terms="look, optic, see, seen, show, sight, views, visible"></FuiIcon>\n' +
+  '    eye outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye slash" size=big data-search-terms="blind, hide, show, toggle, unseen, views, visible, visiblity"></FuiIcon>\n' +
+  '    eye slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye slash outline" size=big data-search-terms="blind, hide, show, toggle, unseen, views, visible, visiblity"></FuiIcon>\n' +
+  '    eye slash outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate outline" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file outline" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder" size=big data-search-terms="archive, directory, document, file"></FuiIcon>\n' +
+  '    folder\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder open" size=big data-search-terms="archive, directory, document, empty, file, new"></FuiIcon>\n' +
+  '    folder open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder open outline" size=big data-search-terms="archive, directory, document, empty, file, new"></FuiIcon>\n' +
+  '    folder open outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder outline" size=big data-search-terms="archive, directory, document, file"></FuiIcon>\n' +
+  '    folder outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="gas pump" size=big data-search-terms="car, fuel, gasoline, petrol"></FuiIcon>\n' +
+  '    gas pump\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="info" size=big data-search-terms="details, help, information, more, support"></FuiIcon>\n' +
+  '    info\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="info circle" size=big data-search-terms="details, help, information, more, support"></FuiIcon>\n' +
+  '    info circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lightbulb" size=big data-search-terms="energy, idea, inspiration, light"></FuiIcon>\n' +
+  '    lightbulb\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lightbulb outline" size=big data-search-terms="energy, idea, inspiration, light"></FuiIcon>\n' +
+  '    lightbulb outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lock" size=big data-search-terms="admin, lock, open, password, private, protect, security"></FuiIcon>\n' +
+  '    lock\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="lock open" size=big data-search-terms="admin, lock, open, password, private, protect, security"></FuiIcon>\n' +
+  '    lock open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map marker" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map marker\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="map marker alternate" size=big data-search-terms="address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel"></FuiIcon>\n' +
+  '    map marker alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone" size=big data-search-terms="audio, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone alternate" size=big data-search-terms="audio, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone alternate slash" size=big data-search-terms="audio, disable, mute, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone alternate slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone slash" size=big data-search-terms="audio, disable, mute, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="minus" size=big data-search-terms="collapse, delete, hide, minify, negative, remove, trash"></FuiIcon>\n' +
+  '    minus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="minus circle" size=big data-search-terms="delete, hide, negative, remove, shape, trash"></FuiIcon>\n' +
+  '    minus circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="minus square" size=big data-search-terms="collapse, delete, hide, minify, negative, remove, shape, trash"></FuiIcon>\n' +
+  '    minus square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="minus square outline" size=big data-search-terms="collapse, delete, hide, minify, negative, remove, shape, trash"></FuiIcon>\n' +
+  '    minus square outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="parking" size=big data-search-terms="auto, car, garage, meter"></FuiIcon>\n' +
+  '    parking\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone alternate" size=big data-search-terms="call, earphone, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="phone slash" size=big data-search-terms="call, cancel, earphone, mute, number, support, telephone, voice"></FuiIcon>\n' +
+  '    phone slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus circle" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus square" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus square outline" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus square outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="print" size=big data-search-terms="business, copy, document, office, paper"></FuiIcon>\n' +
+  '    print\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="question" size=big data-search-terms="help, information, support, unknown"></FuiIcon>\n' +
+  '    question\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="question circle" size=big data-search-terms="help, information, support, unknown"></FuiIcon>\n' +
+  '    question circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="question circle outline" size=big data-search-terms="help, information, support, unknown"></FuiIcon>\n' +
+  '    question circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shield alternate" size=big data-search-terms="achievement, award, block, defend, security, winner"></FuiIcon>\n' +
+  '    shield alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shopping cart" size=big data-search-terms="buy, checkout, grocery, payment, purchase"></FuiIcon>\n' +
+  '    shopping cart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sign in alternate" size=big data-search-terms="arrow, enter, join, log in, login, sign in, sign up, sign-in, signin, signup"></FuiIcon>\n' +
+  '    sign in alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sign out alternate" size=big data-search-terms="arrow, exit, leave, log out, logout, sign-out"></FuiIcon>\n' +
+  '    sign out alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="signal" size=big data-search-terms="bars, graph, online, reception, status"></FuiIcon>\n' +
+  '    signal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smoking ban" size=big data-search-terms="ban, cancel, no smoking, non-smoking"></FuiIcon>\n' +
+  '    smoking ban\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
+  '    star\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star half" size=big data-search-terms="achievement, award, rating, score, star-half-empty, star-half-full"></FuiIcon>\n' +
+  '    star half\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star half alternate" size=big data-search-terms="achievement, award, rating, score, star-half-empty, star-half-full"></FuiIcon>\n' +
+  '    star half alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star half outline" size=big data-search-terms="achievement, award, rating, score, star-half-empty, star-half-full"></FuiIcon>\n' +
+  '    star half outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star outline" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
+  '    star outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stream" size=big data-search-terms="flow, list, timeline"></FuiIcon>\n' +
+  '    stream\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thermometer empty" size=big data-search-terms="cold, mercury, status, temperature"></FuiIcon>\n' +
+  '    thermometer empty\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thermometer full" size=big data-search-terms="fever, hot, mercury, status, temperature"></FuiIcon>\n' +
+  '    thermometer full\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thermometer half" size=big data-search-terms="mercury, status, temperature"></FuiIcon>\n' +
+  '    thermometer half\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thermometer quarter" size=big data-search-terms="mercury, status, temperature"></FuiIcon>\n' +
+  '    thermometer quarter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thermometer three quarters" size=big data-search-terms="mercury, status, temperature"></FuiIcon>\n' +
+  '    thermometer three quarters\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs down" size=big data-search-terms="disagree, disapprove, dislike, hand, social, thumbs-o-down"></FuiIcon>\n' +
+  '    thumbs down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs down outline" size=big data-search-terms="disagree, disapprove, dislike, hand, social, thumbs-o-down"></FuiIcon>\n' +
+  '    thumbs down outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs up" size=big data-search-terms="agree, approve, favorite, hand, like, ok, okay, social, success, thumbs-o-up, yes, you got it dude"></FuiIcon>\n' +
+  '    thumbs up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs up outline" size=big data-search-terms="agree, approve, favorite, hand, like, ok, okay, social, success, thumbs-o-up, yes, you got it dude"></FuiIcon>\n' +
+  '    thumbs up outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tint" size=big data-search-terms="color, drop, droplet, raindrop, waterdrop"></FuiIcon>\n' +
+  '    tint\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tint slash" size=big data-search-terms="color, drop, droplet, raindrop, waterdrop"></FuiIcon>\n' +
+  '    tint slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="toggle off" size=big data-search-terms="switch"></FuiIcon>\n' +
+  '    toggle off\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="toggle on" size=big data-search-terms="switch"></FuiIcon>\n' +
+  '    toggle on\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="unlock" size=big data-search-terms="admin, lock, password, private, protect"></FuiIcon>\n' +
+  '    unlock\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="unlock alternate" size=big data-search-terms="admin, lock, password, private, protect"></FuiIcon>\n' +
+  '    unlock alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user alternate" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user alternate slash" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user alternate slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user outline" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user slash" size=big data-search-terms="ban, delete, remove"></FuiIcon>\n' +
+  '    user slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="video" size=big data-search-terms="camera, film, movie, record, video-camera"></FuiIcon>\n' +
+  '    video\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="video slash" size=big data-search-terms="add, create, film, new, positive, record, video"></FuiIcon>\n' +
+  '    video slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume down" size=big data-search-terms="audio, lower, music, quieter, sound, speaker"></FuiIcon>\n' +
+  '    volume down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume mute" size=big data-search-terms="audio, music, quiet, sound, speaker"></FuiIcon>\n' +
+  '    volume mute\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume off" size=big data-search-terms="audio, ban, music, mute, quiet, silent, sound"></FuiIcon>\n' +
+  '    volume off\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume up" size=big data-search-terms="audio, higher, louder, music, sound, speaker"></FuiIcon>\n' +
+  '    volume up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wifi" size=big data-search-terms="connection, hotspot, internet, network, wireless"></FuiIcon>\n' +
+  '    wifi\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconInterfaces1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="award" size=big data-search-terms="honor, praise, prize, recognition, ribbon, trophy"></FuiIcon>\n' +
+  '    award\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ban" size=big data-search-terms="abort, ban, block, cancel, delete, hide, prohibit, remove, stop, trash"></FuiIcon>\n' +
+  '    ban\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="barcode" size=big data-search-terms="info, laser, price, scan, upc"></FuiIcon>\n' +
+  '    barcode\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bars" size=big data-search-terms="checklist, drag, hamburger, list, menu, nav, navigation, ol, reorder, settings, todo, ul"></FuiIcon>\n' +
+  '    bars\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="beer" size=big data-search-terms="alcohol, ale, bar, beverage, brewery, drink, lager, liquor, mug, stein"></FuiIcon>\n' +
+  '    beer\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell outline" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
+  '    bell outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell slash" size=big data-search-terms="alert, cancel, disabled, notification, off, reminder"></FuiIcon>\n' +
+  '    bell slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bell slash outline" size=big data-search-terms="alert, cancel, disabled, notification, off, reminder"></FuiIcon>\n' +
+  '    bell slash outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="blog" size=big data-search-terms="journal, log, online, personal, post, web 2.0, wordpress, writing"></FuiIcon>\n' +
+  '    blog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bug" size=big data-search-terms="beetle, error, insect, report"></FuiIcon>\n' +
+  '    bug\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bullhorn" size=big data-search-terms="announcement, broadcast, louder, megaphone, share"></FuiIcon>\n' +
+  '    bullhorn\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="bullseye" size=big data-search-terms="archery, goal, objective, target"></FuiIcon>\n' +
+  '    bullseye\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calculator" size=big data-search-terms="abacus, addition, arithmetic, counting, math, multiplication, subtraction"></FuiIcon>\n' +
+  '    calculator\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar" size=big data-search-terms="calendar-o, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar alternate" size=big data-search-terms="calendar, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar alternate outline" size=big data-search-terms="calendar, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar check" size=big data-search-terms="accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, tick, time, todo, when"></FuiIcon>\n' +
+  '    calendar check\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar check outline" size=big data-search-terms="accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, tick, time, todo, when"></FuiIcon>\n' +
+  '    calendar check outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar minus" size=big data-search-terms="calendar, date, delete, event, negative, remove, schedule, time, when"></FuiIcon>\n' +
+  '    calendar minus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar minus outline" size=big data-search-terms="calendar, date, delete, event, negative, remove, schedule, time, when"></FuiIcon>\n' +
+  '    calendar minus outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar outline" size=big data-search-terms="calendar-o, date, event, schedule, time, when"></FuiIcon>\n' +
+  '    calendar outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar plus" size=big data-search-terms="add, calendar, create, date, event, new, positive, schedule, time, when"></FuiIcon>\n' +
+  '    calendar plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar plus outline" size=big data-search-terms="add, calendar, create, date, event, new, positive, schedule, time, when"></FuiIcon>\n' +
+  '    calendar plus outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar times" size=big data-search-terms="archive, calendar, date, delete, event, remove, schedule, time, when, x"></FuiIcon>\n' +
+  '    calendar times\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="calendar times outline" size=big data-search-terms="archive, calendar, date, delete, event, remove, schedule, time, when, x"></FuiIcon>\n' +
+  '    calendar times outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="certificate" size=big data-search-terms="badge, star, verified"></FuiIcon>\n' +
+  '    certificate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="check" size=big data-search-terms="accept, agree, checkmark, confirm, correct, done, notice, notification, notify, ok, select, success, tick, todo, yes"></FuiIcon>\n' +
+  '    check\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="check circle" size=big data-search-terms="accept, agree, confirm, correct, done, ok, select, success, tick, todo, yes"></FuiIcon>\n' +
+  '    check circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="check circle outline" size=big data-search-terms="accept, agree, confirm, correct, done, ok, select, success, tick, todo, yes"></FuiIcon>\n' +
+  '    check circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="check double" size=big data-search-terms="accept, agree, checkmark, confirm, correct, done, notice, notification, notify, ok, select, success, tick, todo"></FuiIcon>\n' +
+  '    check double\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="check square" size=big data-search-terms="accept, agree, checkmark, confirm, correct, done, ok, select, success, tick, todo, yes"></FuiIcon>\n' +
+  '    check square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="check square outline" size=big data-search-terms="accept, agree, checkmark, confirm, correct, done, ok, select, success, tick, todo, yes"></FuiIcon>\n' +
+  '    check square outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="circle" size=big data-search-terms="circle-thin, diameter, dot, ellipse, notification, round"></FuiIcon>\n' +
+  '    circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="circle outline" size=big data-search-terms="circle-thin, diameter, dot, ellipse, notification, round"></FuiIcon>\n' +
+  '    circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clipboard" size=big data-search-terms="copy, notes, paste, record"></FuiIcon>\n' +
+  '    clipboard\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clipboard outline" size=big data-search-terms="copy, notes, paste, record"></FuiIcon>\n' +
+  '    clipboard outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clone" size=big data-search-terms="arrange, copy, duplicate, paste"></FuiIcon>\n' +
+  '    clone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="clone outline" size=big data-search-terms="arrange, copy, duplicate, paste"></FuiIcon>\n' +
+  '    clone outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud" size=big data-search-terms="atmosphere, fog, overcast, save, upload, weather"></FuiIcon>\n' +
+  '    cloud\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud download alternate" size=big data-search-terms="download, export, save"></FuiIcon>\n' +
+  '    cloud download alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cloud upload alternate" size=big data-search-terms="cloud-upload, import, save, upload"></FuiIcon>\n' +
+  '    cloud upload alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="coffee" size=big data-search-terms="beverage, breakfast, cafe, drink, fall, morning, mug, seasonal, tea"></FuiIcon>\n' +
+  '    coffee\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cog" size=big data-search-terms="gear, mechanical, settings, sprocket, wheel"></FuiIcon>\n' +
+  '    cog\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cogs" size=big data-search-terms="gears, mechanical, settings, sprocket, wheel"></FuiIcon>\n' +
+  '    cogs\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="copy" size=big data-search-terms="clone, duplicate, file, files-o, paper, paste"></FuiIcon>\n' +
+  '    copy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="copy outline" size=big data-search-terms="clone, duplicate, file, files-o, paper, paste"></FuiIcon>\n' +
+  '    copy outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cut" size=big data-search-terms="clip, scissors, snip"></FuiIcon>\n' +
+  '    cut\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="database" size=big data-search-terms="computer, development, directory, memory, storage"></FuiIcon>\n' +
+  '    database\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dot circle" size=big data-search-terms="bullseye, notification, target"></FuiIcon>\n' +
+  '    dot circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="dot circle outline" size=big data-search-terms="bullseye, notification, target"></FuiIcon>\n' +
+  '    dot circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="download" size=big data-search-terms="export, hard drive, save, transfer"></FuiIcon>\n' +
+  '    download\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="edit" size=big data-search-terms="edit, pen, pencil, update, write"></FuiIcon>\n' +
+  '    edit\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="edit outline" size=big data-search-terms="edit, pen, pencil, update, write"></FuiIcon>\n' +
+  '    edit outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ellipsis horizontal" size=big data-search-terms="dots, drag, kebab, list, menu, nav, navigation, ol, reorder, settings, ul"></FuiIcon>\n' +
+  '    ellipsis horizontal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="ellipsis vertical" size=big data-search-terms="dots, drag, kebab, list, menu, nav, navigation, ol, reorder, settings, ul"></FuiIcon>\n' +
+  '    ellipsis vertical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope open" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope open outline" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope open outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="envelope outline" size=big data-search-terms="e-mail, email, letter, mail, message, notification, support"></FuiIcon>\n' +
+  '    envelope outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eraser" size=big data-search-terms="art, delete, remove, rubber"></FuiIcon>\n' +
+  '    eraser\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="exclamation" size=big data-search-terms="alert, danger, error, important, notice, notification, notify, problem, warning"></FuiIcon>\n' +
+  '    exclamation\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="exclamation circle" size=big data-search-terms="alert, danger, error, important, notice, notification, notify, problem, warning"></FuiIcon>\n' +
+  '    exclamation circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="exclamation triangle" size=big data-search-terms="alert, danger, error, important, notice, notification, notify, problem, warning"></FuiIcon>\n' +
+  '    exclamation triangle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="external alternate" size=big data-search-terms="external-link, new, open, share"></FuiIcon>\n' +
+  '    external alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="external link square alternate" size=big data-search-terms="external-link-square, new, open, share"></FuiIcon>\n' +
+  '    external link square alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye" size=big data-search-terms="look, optic, see, seen, show, sight, views, visible"></FuiIcon>\n' +
+  '    eye\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye outline" size=big data-search-terms="look, optic, see, seen, show, sight, views, visible"></FuiIcon>\n' +
+  '    eye outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye slash" size=big data-search-terms="blind, hide, show, toggle, unseen, views, visible, visiblity"></FuiIcon>\n' +
+  '    eye slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="eye slash outline" size=big data-search-terms="blind, hide, show, toggle, unseen, views, visible, visiblity"></FuiIcon>\n' +
+  '    eye slash outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file alternate outline" size=big data-search-terms="document, file-text, invoice, new, page, pdf"></FuiIcon>\n' +
+  '    file alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file download" size=big data-search-terms="document, export, save"></FuiIcon>\n' +
+  '    file download\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file export" size=big data-search-terms="download, save"></FuiIcon>\n' +
+  '    file export\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file import" size=big data-search-terms="copy, document, send, upload"></FuiIcon>\n' +
+  '    file import\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file outline" size=big data-search-terms="document, new, page, pdf, resume"></FuiIcon>\n' +
+  '    file outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file upload" size=big data-search-terms="document, import, page, save"></FuiIcon>\n' +
+  '    file upload\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="filter" size=big data-search-terms="funnel, options, separate, sort"></FuiIcon>\n' +
+  '    filter\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="fingerprint" size=big data-search-terms="human, id, identification, lock, smudge, touch, unique, unlock"></FuiIcon>\n' +
+  '    fingerprint\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flag" size=big data-search-terms="country, notice, notification, notify, pole, report, symbol"></FuiIcon>\n' +
+  '    flag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flag checkered" size=big data-search-terms="notice, notification, notify, pole, racing, report, symbol"></FuiIcon>\n' +
+  '    flag checkered\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="flag outline" size=big data-search-terms="country, notice, notification, notify, pole, report, symbol"></FuiIcon>\n' +
+  '    flag outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder" size=big data-search-terms="archive, directory, document, file"></FuiIcon>\n' +
+  '    folder\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder open" size=big data-search-terms="archive, directory, document, empty, file, new"></FuiIcon>\n' +
+  '    folder open\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder open outline" size=big data-search-terms="archive, directory, document, empty, file, new"></FuiIcon>\n' +
+  '    folder open outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="folder outline" size=big data-search-terms="archive, directory, document, file"></FuiIcon>\n' +
+  '    folder outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frown" size=big data-search-terms="disapprove, emoticon, face, rating, sad"></FuiIcon>\n' +
+  '    frown\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="frown outline" size=big data-search-terms="disapprove, emoticon, face, rating, sad"></FuiIcon>\n' +
+  '    frown outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="glasses" size=big data-search-terms="hipster, nerd, reading, sight, spectacles, vision"></FuiIcon>\n' +
+  '    glasses\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grip horizontal" size=big data-search-terms="affordance, drag, drop, grab, handle"></FuiIcon>\n' +
+  '    grip horizontal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grip lines" size=big data-search-terms="affordance, drag, drop, grab, handle"></FuiIcon>\n' +
+  '    grip lines\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grip lines vertical" size=big data-search-terms="affordance, drag, drop, grab, handle"></FuiIcon>\n' +
+  '    grip lines vertical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="grip vertical" size=big data-search-terms="affordance, drag, drop, grab, handle"></FuiIcon>\n' +
+  '    grip vertical\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hashtag" size=big data-search-terms="Twitter, instagram, pound, social media, tag"></FuiIcon>\n' +
+  '    hashtag\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="heart outline" size=big data-search-terms="favorite, like, love, relationship, valentine"></FuiIcon>\n' +
+  '    heart outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="history" size=big data-search-terms="Rewind, clock, reverse, time, time machine"></FuiIcon>\n' +
+  '    history\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="home" size=big data-search-terms="abode, building, house, main"></FuiIcon>\n' +
+  '    home\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="i cursor" size=big data-search-terms="editing, i-beam, type, writing"></FuiIcon>\n' +
+  '    i cursor\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="info" size=big data-search-terms="details, help, information, more, support"></FuiIcon>\n' +
+  '    info\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="info circle" size=big data-search-terms="details, help, information, more, support"></FuiIcon>\n' +
+  '    info circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="language" size=big data-search-terms="dialect, idiom, localize, speech, translate, vernacular"></FuiIcon>\n' +
+  '    language\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="magic" size=big data-search-terms="autocomplete, automatic, mage, magic, spell, wand, witch, wizard"></FuiIcon>\n' +
+  '    magic\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="marker" size=big data-search-terms="design, edit, sharpie, update, write"></FuiIcon>\n' +
+  '    marker\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="medal" size=big data-search-terms="award, ribbon, star, trophy"></FuiIcon>\n' +
+  '    medal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meh" size=big data-search-terms="emoticon, face, neutral, rating"></FuiIcon>\n' +
+  '    meh\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="meh outline" size=big data-search-terms="emoticon, face, neutral, rating"></FuiIcon>\n' +
+  '    meh outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone" size=big data-search-terms="audio, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone alternate" size=big data-search-terms="audio, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="microphone slash" size=big data-search-terms="audio, disable, mute, podcast, record, sing, sound, voice"></FuiIcon>\n' +
+  '    microphone slash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="minus" size=big data-search-terms="collapse, delete, hide, minify, negative, remove, trash"></FuiIcon>\n' +
+  '    minus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="minus circle" size=big data-search-terms="delete, hide, negative, remove, shape, trash"></FuiIcon>\n' +
+  '    minus circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="minus square" size=big data-search-terms="collapse, delete, hide, minify, negative, remove, shape, trash"></FuiIcon>\n' +
+  '    minus square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="minus square outline" size=big data-search-terms="collapse, delete, hide, minify, negative, remove, shape, trash"></FuiIcon>\n' +
+  '    minus square outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="paste" size=big data-search-terms="clipboard, copy, document, paper"></FuiIcon>\n' +
+  '    paste\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen" size=big data-search-terms="design, edit, update, write"></FuiIcon>\n' +
+  '    pen\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen alternate" size=big data-search-terms="design, edit, update, write"></FuiIcon>\n' +
+  '    pen alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pen fancy" size=big data-search-terms="design, edit, fountain pen, update, write"></FuiIcon>\n' +
+  '    pen fancy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="pencil alternate" size=big data-search-terms="design, edit, pencil, update, write"></FuiIcon>\n' +
+  '    pencil alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus circle" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus square" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="plus square outline" size=big data-search-terms="add, create, expand, new, positive, shape"></FuiIcon>\n' +
+  '    plus square outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="poo" size=big data-search-terms="crap, poop, shit, smile, turd"></FuiIcon>\n' +
+  '    poo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="qrcode" size=big data-search-terms="barcode, info, information, scan"></FuiIcon>\n' +
+  '    qrcode\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="question" size=big data-search-terms="help, information, support, unknown"></FuiIcon>\n' +
+  '    question\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="question circle" size=big data-search-terms="help, information, support, unknown"></FuiIcon>\n' +
+  '    question circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="question circle outline" size=big data-search-terms="help, information, support, unknown"></FuiIcon>\n' +
+  '    question circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="quote left" size=big data-search-terms="mention, note, phrase, text, type"></FuiIcon>\n' +
+  '    quote left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="quote right" size=big data-search-terms="mention, note, phrase, text, type"></FuiIcon>\n' +
+  '    quote right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="redo" size=big data-search-terms="forward, refresh, reload, repeat"></FuiIcon>\n' +
+  '    redo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="redo alternate" size=big data-search-terms="forward, refresh, reload, repeat"></FuiIcon>\n' +
+  '    redo alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="reply" size=big data-search-terms="mail, message, respond"></FuiIcon>\n' +
+  '    reply\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="reply all" size=big data-search-terms="mail, message, respond"></FuiIcon>\n' +
+  '    reply all\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rss" size=big data-search-terms="blog, feed, journal, news, writing"></FuiIcon>\n' +
+  '    rss\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="rss square" size=big data-search-terms="blog, feed, journal, news, writing"></FuiIcon>\n' +
+  '    rss square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="save" size=big data-search-terms="disk, download, floppy, floppy-o"></FuiIcon>\n' +
+  '    save\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="save outline" size=big data-search-terms="disk, download, floppy, floppy-o"></FuiIcon>\n' +
+  '    save outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="screwdriver" size=big data-search-terms="admin, fix, mechanic, repair, settings, tool"></FuiIcon>\n' +
+  '    screwdriver\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="search" size=big data-search-terms="bigger, enlarge, find, magnify, preview, zoom"></FuiIcon>\n' +
+  '    search\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="search minus" size=big data-search-terms="minify, negative, smaller, zoom, zoom out"></FuiIcon>\n' +
+  '    search minus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="search plus" size=big data-search-terms="bigger, enlarge, magnify, positive, zoom, zoom in"></FuiIcon>\n' +
+  '    search plus\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="share" size=big data-search-terms="forward, save, send, social"></FuiIcon>\n' +
+  '    share\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="share alternate" size=big data-search-terms="forward, save, send, social"></FuiIcon>\n' +
+  '    share alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="share alternate square" size=big data-search-terms="forward, save, send, social"></FuiIcon>\n' +
+  '    share alternate square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="share square" size=big data-search-terms="forward, save, send, social"></FuiIcon>\n' +
+  '    share square\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="share square outline" size=big data-search-terms="forward, save, send, social"></FuiIcon>\n' +
+  '    share square outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="shield alternate" size=big data-search-terms="achievement, award, block, defend, security, winner"></FuiIcon>\n' +
+  '    shield alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sign in alternate" size=big data-search-terms="arrow, enter, join, log in, login, sign in, sign up, sign-in, signin, signup"></FuiIcon>\n' +
+  '    sign in alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sign out alternate" size=big data-search-terms="arrow, exit, leave, log out, logout, sign-out"></FuiIcon>\n' +
+  '    sign out alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="signal" size=big data-search-terms="bars, graph, online, reception, status"></FuiIcon>\n' +
+  '    signal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sitemap" size=big data-search-terms="directory, hierarchy, ia, information architecture, organization"></FuiIcon>\n' +
+  '    sitemap\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sliders horizontal" size=big data-search-terms="adjust, settings, sliders, toggle"></FuiIcon>\n' +
+  '    sliders horizontal\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smile" size=big data-search-terms="approve, emoticon, face, happy, rating, satisfied"></FuiIcon>\n' +
+  '    smile\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="smile outline" size=big data-search-terms="approve, emoticon, face, happy, rating, satisfied"></FuiIcon>\n' +
+  '    smile outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort" size=big data-search-terms="filter, order"></FuiIcon>\n' +
+  '    sort\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort alphabet down" size=big data-search-terms="alphabetical, arrange, filter, order, sort-alpha-asc"></FuiIcon>\n' +
+  '    sort alphabet down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort alphabet down alternate" size=big data-search-terms="alphabetical, arrange, filter, order, sort-alpha-asc"></FuiIcon>\n' +
+  '    sort alphabet down alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort alphabet up" size=big data-search-terms="alphabetical, arrange, filter, order, sort-alpha-desc"></FuiIcon>\n' +
+  '    sort alphabet up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort alphabet up alternate" size=big data-search-terms="alphabetical, arrange, filter, order, sort-alpha-desc"></FuiIcon>\n' +
+  '    sort alphabet up alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort amount down" size=big data-search-terms="arrange, filter, number, order, sort-amount-asc"></FuiIcon>\n' +
+  '    sort amount down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort amount down alternate" size=big data-search-terms="arrange, filter, order, sort-amount-asc"></FuiIcon>\n' +
+  '    sort amount down alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort amount up" size=big data-search-terms="arrange, filter, order, sort-amount-desc"></FuiIcon>\n' +
+  '    sort amount up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort amount up alternate" size=big data-search-terms="arrange, filter, order, sort-amount-desc"></FuiIcon>\n' +
+  '    sort amount up alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort down" size=big data-search-terms="arrow, descending, filter, order, sort-desc"></FuiIcon>\n' +
+  '    sort down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort numeric down" size=big data-search-terms="arrange, filter, numbers, order, sort-numeric-asc"></FuiIcon>\n' +
+  '    sort numeric down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort numeric down alternate" size=big data-search-terms="arrange, filter, numbers, order, sort-numeric-asc"></FuiIcon>\n' +
+  '    sort numeric down alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort numeric up" size=big data-search-terms="arrange, filter, numbers, order, sort-numeric-desc"></FuiIcon>\n' +
+  '    sort numeric up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort numeric up alternate" size=big data-search-terms="arrange, filter, numbers, order, sort-numeric-desc"></FuiIcon>\n' +
+  '    sort numeric up alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sort up" size=big data-search-terms="arrow, ascending, filter, order, sort-asc"></FuiIcon>\n' +
+  '    sort up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
+  '    star\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star half" size=big data-search-terms="achievement, award, rating, score, star-half-empty, star-half-full"></FuiIcon>\n' +
+  '    star half\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star half outline" size=big data-search-terms="achievement, award, rating, score, star-half-empty, star-half-full"></FuiIcon>\n' +
+  '    star half outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="star outline" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
+  '    star outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sync" size=big data-search-terms="exchange, refresh, reload, rotate, swap"></FuiIcon>\n' +
+  '    sync\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="sync alternate" size=big data-search-terms="exchange, refresh, reload, rotate, swap"></FuiIcon>\n' +
+  '    sync alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs down" size=big data-search-terms="disagree, disapprove, dislike, hand, social, thumbs-o-down"></FuiIcon>\n' +
+  '    thumbs down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs down outline" size=big data-search-terms="disagree, disapprove, dislike, hand, social, thumbs-o-down"></FuiIcon>\n' +
+  '    thumbs down outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs up" size=big data-search-terms="agree, approve, favorite, hand, like, ok, okay, social, success, thumbs-o-up, yes, you got it dude"></FuiIcon>\n' +
+  '    thumbs up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="thumbs up outline" size=big data-search-terms="agree, approve, favorite, hand, like, ok, okay, social, success, thumbs-o-up, yes, you got it dude"></FuiIcon>\n' +
+  '    thumbs up outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="times" size=big data-search-terms="close, cross, error, exit, incorrect, notice, notification, notify, problem, wrong, x"></FuiIcon>\n' +
+  '    times\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="times circle" size=big data-search-terms="close, cross, exit, incorrect, notice, notification, notify, problem, wrong, x"></FuiIcon>\n' +
+  '    times circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="times circle outline" size=big data-search-terms="close, cross, exit, incorrect, notice, notification, notify, problem, wrong, x"></FuiIcon>\n' +
+  '    times circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="toggle off" size=big data-search-terms="switch"></FuiIcon>\n' +
+  '    toggle off\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="toggle on" size=big data-search-terms="switch"></FuiIcon>\n' +
+  '    toggle on\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="tools" size=big data-search-terms="admin, fix, repair, screwdriver, settings, tools, wrench"></FuiIcon>\n' +
+  '    tools\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trash" size=big data-search-terms="delete, garbage, hide, remove"></FuiIcon>\n' +
+  '    trash\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trash alternate" size=big data-search-terms="delete, garbage, hide, remove, trash-o"></FuiIcon>\n' +
+  '    trash alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trash alternate outline" size=big data-search-terms="delete, garbage, hide, remove, trash-o"></FuiIcon>\n' +
+  '    trash alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trash restore" size=big data-search-terms="back, control z, oops, undo"></FuiIcon>\n' +
+  '    trash restore\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trash restore alternate" size=big data-search-terms="back, control z, oops, undo"></FuiIcon>\n' +
+  '    trash restore alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="trophy" size=big data-search-terms="achievement, award, cup, game, winner"></FuiIcon>\n' +
+  '    trophy\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="undo" size=big data-search-terms="back, control z, exchange, oops, return, rotate, swap"></FuiIcon>\n' +
+  '    undo\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="undo alternate" size=big data-search-terms="back, control z, exchange, oops, return, swap"></FuiIcon>\n' +
+  '    undo alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="upload" size=big data-search-terms="hard drive, import, publish"></FuiIcon>\n' +
+  '    upload\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user alternate" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user circle" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user circle\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user circle outline" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user circle outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="user outline" size=big data-search-terms="account, avatar, head, human, man, person, profile"></FuiIcon>\n' +
+  '    user outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume down" size=big data-search-terms="audio, lower, music, quieter, sound, speaker"></FuiIcon>\n' +
+  '    volume down\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume mute" size=big data-search-terms="audio, music, quiet, sound, speaker"></FuiIcon>\n' +
+  '    volume mute\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume off" size=big data-search-terms="audio, ban, music, mute, quiet, silent, sound"></FuiIcon>\n' +
+  '    volume off\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="volume up" size=big data-search-terms="audio, higher, louder, music, sound, speaker"></FuiIcon>\n' +
+  '    volume up\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wifi" size=big data-search-terms="connection, hotspot, internet, network, wireless"></FuiIcon>\n' +
+  '    wifi\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wrench" size=big data-search-terms="construction, fix, mechanic, plumbing, settings, spanner, tool, update"></FuiIcon>\n' +
+  '    wrench\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
 s.CollectionGrid1 = 
   '<h2 class="ui dividing header">Introduction</h2>\n' +
   '<div class="highlighted example" data-class="grid">\n' +
@@ -6387,7 +18998,7 @@ s.CollectionMenuSize5 =
   '  </a>\n' +
   '  <div class="right menu">\n' +
   '    <div class="ui dropdown item">\n' +
-  '      Language <i class="dropdown icon"/>\n' +
+  '      Language <i class="dropdown icon"></i>\n' +
   '      <div class="menu">\n' +
   '        <a class="item">English</a>\n' +
   '        <a class="item">Russian</a>\n' +
@@ -6418,7 +19029,7 @@ s.CollectionMenuSize3 =
   '  </a>\n' +
   '  <div class="right menu">\n' +
   '    <div class="ui dropdown item">\n' +
-  '      Language <i class="dropdown icon"/>\n' +
+  '      Language <i class="dropdown icon"></i>\n' +
   '      <div class="menu">\n' +
   '        <a class="item">English</a>\n' +
   '        <a class="item">Russian</a>\n' +
@@ -6455,7 +19066,7 @@ s.CollectionMenuInput1 =
   '  <div class="item">\n' +
   '    <div class="ui icon input">\n' +
   '      <input type="text" placeholder="Search..."/>\n' +
-  '      <i class="search icon"/>\n' +
+  '      <i class="search icon"></i>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="right item">\n' +
@@ -6475,7 +19086,7 @@ s.CollectionMenuSize6 =
   '  </a>\n' +
   '  <div class="right menu">\n' +
   '    <div class="ui dropdown item">\n' +
-  '      Language <i class="dropdown icon"/>\n' +
+  '      Language <i class="dropdown icon"></i>\n' +
   '      <div class="menu">\n' +
   '        <a class="item">English</a>\n' +
   '        <a class="item">Russian</a>\n' +
@@ -6497,7 +19108,7 @@ s.CollectionMenuSize2 =
   '  </a>\n' +
   '  <div class="right menu">\n' +
   '    <div class="ui dropdown item">\n' +
-  '      Language <i class="dropdown icon"/>\n' +
+  '      Language <i class="dropdown icon"></i>\n' +
   '      <div class="menu">\n' +
   '        <a class="item">English</a>\n' +
   '        <a class="item">Russian</a>\n' +
@@ -6546,41 +19157,41 @@ s.CollectionMenu3 =
   '  <div class="item">\n' +
   '    <div class="ui icon input">\n' +
   '      <input type="text" placeholder="Search mail..."/>\n' +
-  '      <i class="search icon"/>\n' +
+  '      <i class="search icon"></i>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
 s.CollectionMenuIcons1 = 
   '<div class="ui icon menu">\n' +
   '  <a class="item">\n' +
-  '    <i class="gamepad icon"/>\n' +
+  '    <i class="gamepad icon"></i>\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="video camera icon"/>\n' +
+  '    <i class="video camera icon"></i>\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="video play icon"/>\n' +
+  '    <i class="video play icon"></i>\n' +
   '  </a>\n' +
   '</div>\n' +
   '<br/><br/>\n' +
   '<div class="ui vertical icon menu">\n' +
   '  <a class="item">\n' +
-  '    <i class="gamepad icon"/>\n' +
+  '    <i class="gamepad icon"></i>\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="video camera icon"/>\n' +
+  '    <i class="video camera icon"></i>\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="video play icon"/>\n' +
+  '    <i class="video play icon"></i>\n' +
   '  </a>\n' +
   '</div>' 
 s.CollectionMenuMenu3 = 
   '<div class="ui top attached menu">\n' +
   '  <div class="ui dropdown icon item">\n' +
-  '    <i class="wrench icon"/>\n' +
+  '    <i class="wrench icon"></i>\n' +
   '    <div class="menu">\n' +
   '      <div class="item">\n' +
-  '        <i class="dropdown icon"/>\n' +
+  '        <i class="dropdown icon"></i>\n' +
   '        <span class="text">New</span>\n' +
   '        <div class="menu">\n' +
   '          <div class="item">Document</div>\n' +
@@ -6607,7 +19218,7 @@ s.CollectionMenuMenu3 =
   '    <div class="ui right aligned category search item">\n' +
   '      <div class="ui transparent icon input">\n' +
   '        <input class="prompt" type="text" placeholder="Search animals..."/>\n' +
-  '        <i class="search link icon"/>\n' +
+  '        <i class="search link icon"></i>\n' +
   '      </div>\n' +
   '      <div class="results"/>\n' +
   '    </div>\n' +
@@ -6821,7 +19432,7 @@ s.CollectionMenuPointing1 =
   '    <div class="item">\n' +
   '      <div class="ui transparent icon input">\n' +
   '        <input type="text" placeholder="Search..."/>\n' +
-  '        <i class="search link icon"/>\n' +
+  '        <i class="search link icon"></i>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -6834,7 +19445,7 @@ s.CollectionMenuSearch1 =
   '  <div class="ui category search item">\n' +
   '    <div class="ui transparent icon input">\n' +
   '      <input class="prompt" type="text" placeholder="Search animals..."/>\n' +
-  '      <i class="search link icon"/>\n' +
+  '      <i class="search link icon"></i>\n' +
   '    </div>\n' +
   '    <div class="results"/>\n' +
   '  </div>\n' +
@@ -6852,11 +19463,11 @@ s.CollectionMenuMenu2 =
   '  </div>\n' +
   '  <a class="browse item">\n' +
   '    Browse Courses\n' +
-  '    <i class="dropdown icon"/>\n' +
+  '    <i class="dropdown icon"></i>\n' +
   '  </a>\n' +
   '  <div class="ui right dropdown item">\n' +
   '    More\n' +
-  '    <i class="dropdown icon"/>\n' +
+  '    <i class="dropdown icon"></i>\n' +
   '    <div class="menu">\n' +
   '      <div class="item">Applications</div>\n' +
   '      <div class="item">International Students</div>\n' +
@@ -6999,7 +19610,7 @@ s.CollectionMenuTabular2 =
   '    <div class="item">\n' +
   '      <div class="ui transparent icon input">\n' +
   '        <input type="text" placeholder="Search users..."/>\n' +
-  '        <i class="search link icon"/>\n' +
+  '        <i class="search link icon"></i>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -7021,18 +19632,18 @@ s.CollectionMenuSubMenu1 =
   '    </div>\n' +
   '  </div>\n' +
   '  <a class="item">\n' +
-  '    <i class="grid layout icon"/> Browse\n' +
+  '    <i class="grid layout icon"></i> Browse\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
   '    Messages\n' +
   '  </a>\n' +
   '  <div class="ui dropdown item">\n' +
   '    More\n' +
-  '    <i class="dropdown icon"/>\n' +
+  '    <i class="dropdown icon"></i>\n' +
   '    <div class="menu">\n' +
-  '      <a class="item"><i class="edit icon"/> Edit Profile</a>\n' +
-  '      <a class="item"><i class="globe icon"/> Choose Language</a>\n' +
-  '      <a class="item"><i class="settings icon"/> Account Settings</a>\n' +
+  '      <a class="item"><i class="edit icon"></i> Edit Profile</a>\n' +
+  '      <a class="item"><i class="globe icon"></i> Choose Language</a>\n' +
+  '      <a class="item"><i class="settings icon"></i> Account Settings</a>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -7179,7 +19790,7 @@ s.CollectionMenuSize1 =
   '  </a>\n' +
   '  <div class="right menu">\n' +
   '    <div class="ui dropdown item">\n' +
-  '      Language <i class="dropdown icon"/>\n' +
+  '      Language <i class="dropdown icon"></i>\n' +
   '      <div class="menu">\n' +
   '        <a class="item">English</a>\n' +
   '        <a class="item">Russian</a>\n' +
@@ -7241,7 +19852,7 @@ s.CollectionMenuVerticalMenu2 =
   '    Settings\n' +
   '  </a>\n' +
   '  <div class="ui dropdown item">\n' +
-  '    <i class="dropdown icon"/>\n' +
+  '    <i class="dropdown icon"></i>\n' +
   '    Display Options\n' +
   '    <div class="menu">\n' +
   '      <div class="header">Text Size</div>\n' +
@@ -7269,7 +19880,7 @@ s.CollectionMenuVerticalMenu1 =
   '  <div class="item">\n' +
   '    <div class="ui transparent icon input">\n' +
   '      <input type="text" placeholder="Search mail..."/>\n' +
-  '      <i class="search icon"/>\n' +
+  '      <i class="search icon"></i>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -7287,7 +19898,7 @@ s.CollectionMenu1 =
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="ui dropdown item">\n' +
-  '    Dropdown <i class="dropdown icon"/>\n' +
+  '    Dropdown <i class="dropdown icon"></i>\n' +
   '    <div class="menu">\n' +
   '      <div class="item">Choice 1</div>\n' +
   '      <div class="item">Choice 2</div>\n' +
@@ -7347,30 +19958,30 @@ s.CollectionMenuColored1 =
 s.CollectionMenuLabeledIcon1 = 
   '<div class="ui labeled icon menu">\n' +
   '  <a class="item">\n' +
-  '    <i class="gamepad icon"/>\n' +
+  '    <i class="gamepad icon"></i>\n' +
   '    Games\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="video camera icon"/>\n' +
+  '    <i class="video camera icon"></i>\n' +
   '    Channels\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="video play icon"/>\n' +
+  '    <i class="video play icon"></i>\n' +
   '    Videos\n' +
   '  </a>\n' +
   '</div>\n' +
   '<br/><br/>\n' +
   '<div class="ui vertical labeled icon menu">\n' +
   '  <a class="item">\n' +
-  '    <i class="gamepad icon"/>\n' +
+  '    <i class="gamepad icon"></i>\n' +
   '    Games\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="video camera icon"/>\n' +
+  '    <i class="video camera icon"></i>\n' +
   '    Channels\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="video play icon"/>\n' +
+  '    <i class="video play icon"></i>\n' +
   '    Videos\n' +
   '  </a>\n' +
   '</div>' 
@@ -7384,7 +19995,7 @@ s.CollectionMenuSize4 =
   '  </a>\n' +
   '  <div class="right menu">\n' +
   '    <div class="ui dropdown item">\n' +
-  '      Language <i class="dropdown icon"/>\n' +
+  '      Language <i class="dropdown icon"></i>\n' +
   '      <div class="menu">\n' +
   '        <a class="item">English</a>\n' +
   '        <a class="item">Russian</a>\n' +
@@ -7440,7 +20051,7 @@ s.CollectionMenu2 =
   '  <div class="item">\n' +
   '    <div class="ui icon input">\n' +
   '      <input type="text" placeholder="Search mail..."/>\n' +
-  '      <i class="search icon"/>\n' +
+  '      <i class="search icon"></i>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -7459,7 +20070,7 @@ s.CollectionMenuSecondaryMenu1 =
   '    <div class="item">\n' +
   '      <div class="ui icon input">\n' +
   '        <input type="text" placeholder="Search..."/>\n' +
-  '        <i class="search link icon"/>\n' +
+  '        <i class="search link icon"></i>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <a class="ui item">\n' +
@@ -7470,15 +20081,15 @@ s.CollectionMenuSecondaryMenu1 =
 s.CollectionMenuCompact1 = 
   '<div class="ui compact menu">\n' +
   '  <a class="item">\n' +
-  '    <i class="gamepad icon"/>\n' +
+  '    <i class="gamepad icon"></i>\n' +
   '    Games\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="video camera icon"/>\n' +
+  '    <i class="video camera icon"></i>\n' +
   '    Channels\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="video play icon"/>\n' +
+  '    <i class="video play icon"></i>\n' +
   '    Videos\n' +
   '  </a>\n' +
   '</div>' 
@@ -7489,7 +20100,7 @@ s.CollectionMenuDropdownItem1 =
   '<div class="ui vertical menu">\n' +
   '  <div class="ui dropdown item">\n' +
   '    Categories\n' +
-  '    <i class="dropdown icon"/>\n' +
+  '    <i class="dropdown icon"></i>\n' +
   '    <div class="menu">\n' +
   '      <a class="item">Electronics</a>\n' +
   '      <a class="item">Automotive</a>\n' +
@@ -7500,15 +20111,15 @@ s.CollectionMenuDropdownItem1 =
 s.CollectionMenuCompact2 = 
   '<div class="ui compact vertical labeled icon menu">\n' +
   '  <a class="item">\n' +
-  '    <i class="gamepad icon"/>\n' +
+  '    <i class="gamepad icon"></i>\n' +
   '    Games\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="video camera icon"/>\n' +
+  '    <i class="video camera icon"></i>\n' +
   '    Channels\n' +
   '  </a>\n' +
   '  <a class="item">\n' +
-  '    <i class="video play icon"/>\n' +
+  '    <i class="video play icon"></i>\n' +
   '    Videos\n' +
   '  </a>\n' +
   '</div>' 
@@ -7541,7 +20152,7 @@ s.CollectionMenu1A =
   '  <div class="item">\n' +
   '    <div class="ui icon input">\n' +
   '      <input type="text" placeholder="Search mail..."/>\n' +
-  '      <i class="search icon"/>\n' +
+  '      <i class="search icon"></i>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -7549,7 +20160,7 @@ s.CollectionMenuPopupMenu1 =
   '<div class="ui menu">\n' +
   '  <a class="browse item">\n' +
   '    Browse\n' +
-  '    <i class="dropdown icon"/>\n' +
+  '    <i class="dropdown icon"></i>\n' +
   '  </a>\n' +
   '</div>\n' +
   '<div class="ui fluid popup">\n' +
@@ -7616,7 +20227,7 @@ s.CollectionMenuTabular3 =
   '  </a>\n' +
   '  <div class="right menu">\n' +
   '    <a class="item">\n' +
-  '      <i class="add icon"/> New Tab\n' +
+  '      <i class="add icon"></i> New Tab\n' +
   '    </a>\n' +
   '  </div>\n' +
   '</div>' 
@@ -7744,7 +20355,7 @@ s.CollectionMenu4 =
   '  <div class="item">\n' +
   '    <div class="ui icon input">\n' +
   '      <input type="text" placeholder="Search mail..."/>\n' +
-  '      <i class="search icon"/>\n' +
+  '      <i class="search icon"></i>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -7904,7 +20515,7 @@ s.CollectionFormDropdown1 =
   '      <label>Gender</label>\n' +
   '      <div class="ui selection dropdown">\n' +
   '          <input type="hidden" name="gender"/>\n' +
-  '          <i class="dropdown icon"/>\n' +
+  '          <i class="dropdown icon"></i>\n' +
   '          <div class="default text">Gender</div>\n' +
   '          <div class="menu">\n' +
   '              <div class="item" data-value="1">Male</div>\n' +
@@ -7924,7 +20535,7 @@ s.CollectionFormCalendar1 =
   '    <label>Date</label>\n' +
   '    <div class="ui calendar">\n' +
   '      <div class="ui input left icon">\n' +
-  '        <i class="calendar icon"/>\n' +
+  '        <i class="calendar icon"></i>\n' +
   '        <input type="text" placeholder="Pick up a date" name="date"/>\n' +
   '      </div>        \n' +
   '    </div>\n' +
@@ -8029,7 +20640,7 @@ s.CollectionFormForm2 =
   '      <label>Country</label>\n' +
   '      <div class="ui fluid search selection dropdown">\n' +
   '        <input type="hidden" name="country"/>\n' +
-  '        <i class="dropdown icon"/>\n' +
+  '        <i class="dropdown icon"></i>\n' +
   '        <div class="default text">Select Country</div>\n' +
   '      </div>\n' +
   '    </div>\n' +
@@ -8040,18 +20651,18 @@ s.CollectionFormForm2 =
   '    <div class="ui selection dropdown">\n' +
   '      <input type="hidden" name="card[type]"/>\n' +
   '      <div class="default text">Type</div>\n' +
-  '      <i class="dropdown icon"/>\n' +
+  '      <i class="dropdown icon"></i>\n' +
   '      <div class="menu">\n' +
   '        <div class="item" data-value="visa">\n' +
-  '          <i class="visa icon"/>\n' +
+  '          <i class="visa icon"></i>\n' +
   '          Visa\n' +
   '        </div>\n' +
   '        <div class="item" data-value="amex">\n' +
-  '          <i class="amex icon"/>\n' +
+  '          <i class="amex icon"></i>\n' +
   '          American Express\n' +
   '        </div>\n' +
   '        <div class="item" data-value="discover">\n' +
-  '          <i class="discover icon"/>\n' +
+  '          <i class="discover icon"></i>\n' +
   '          Discover\n' +
   '        </div>\n' +
   '      </div>\n' +
@@ -8097,7 +20708,7 @@ s.CollectionFormForm2 =
   '    <label>Send Receipt To:</label>\n' +
   '    <div class="ui fluid multiple search selection dropdown">\n' +
   '      <input type="hidden" name="receipt"/>\n' +
-  '      <i class="dropdown icon"/>\n' +
+  '      <i class="dropdown icon"></i>\n' +
   '      <div class="default text">Saved Contacts</div>\n' +
   '      <div class="menu">\n' +
   '        <div class="item" data-value="jenny" data-text="Jenny">\n' +
@@ -8997,7 +21608,7 @@ s.CollectionFormFieldError1 =
   '    <label>Gender</label>\n' +
   '    <div class="ui selection dropdown">\n' +
   '      <div class="default text">Select</div>\n' +
-  '      <i class="dropdown icon"/>\n' +
+  '      <i class="dropdown icon"></i>\n' +
   '      <input type="hidden" name="gender"/>\n' +
   '      <div class="menu">\n' +
   '        <div class="item" data-value="male">Male</div>\n' +
@@ -9125,7 +21736,7 @@ s.CollectionFormInlineFields2 =
   '</div>' 
 s.CollectionMessageIconMessage2 = 
   '<div class="ui icon message">\n' +
-  '  <i class="notched circle loading icon"/>\n' +
+  '  <i class="notched circle loading icon"></i>\n' +
   '  <div class="content">\n' +
   '    <div class="header">\n' +
   '      Just one second\n' +
@@ -9212,12 +21823,12 @@ s.CollectionMessageAttached1 =
   '  <div class="ui blue submit button">Submit</div>\n' +
   '</form>\n' +
   '<div class="ui bottom attached warning message">\n' +
-  '  <i class="icon help"/>\n' +
+  '  <i class="icon help"></i>\n' +
   '  Already signed up? <a href="#">Login here</a> instead.\n' +
   '</div>' 
 s.CollectionMessageNegativeError1 = 
   '<div class="ui negative message">\n' +
-  '  <i class="close icon"/>\n' +
+  '  <i class="close icon"></i>\n' +
   '  <div class="header">\n' +
   '    We\'re sorry we can\'t apply that discount\n' +
   '  </div>\n' +
@@ -9244,7 +21855,7 @@ s.CollectionMessageColored1 =
   '<div class="ui black message">Black</div>' 
 s.CollectionMessageDismissableBlock1 = 
   '<div class="ui message">\n' +
-  '  <i class="close icon"/>\n' +
+  '  <i class="close icon"></i>\n' +
   '  <div class="header">\n' +
   '    Welcome back!\n' +
   '  </div>\n' +
@@ -9265,7 +21876,7 @@ s.CollectionMessageDismissableBlock1 =
   '</div>' 
 s.CollectionMessagePositiveSuccess2 = 
   '<div class="ui success message">\n' +
-  '  <i class="close icon"/>\n' +
+  '  <i class="close icon"></i>\n' +
   '  <div class="header">\n' +
   '    Your user registration was successful.\n' +
   '  </div>\n' +
@@ -9280,11 +21891,11 @@ s.CollectionMessageMessage1 =
   '</div>' 
 s.CollectionMessagePositiveSuccess1 = 
   '<b class="ignored">\n' +
-  '  <i class="attention icon"/>\n' +
+  '  <i class="attention icon"></i>\n' +
   '  Positive/Success and Negative/Error messages by default use similar colors, but each has their own color  variables that can be distinguished in your theme.\n' +
   '</b>\n' +
   '<div class="ui positive message">\n' +
-  '  <i class="close icon"/>\n' +
+  '  <i class="close icon"></i>\n' +
   '  <div class="header">\n' +
   '    You are eligible for a reward\n' +
   '  </div>\n' +
@@ -9292,7 +21903,7 @@ s.CollectionMessagePositiveSuccess1 =
   '</div>' 
 s.CollectionMessageWarning1 = 
   '<div class="ui warning message">\n' +
-  '  <i class="close icon"/>\n' +
+  '  <i class="close icon"></i>\n' +
   '  <div class="header">\n' +
   '    You must register before you can do that!\n' +
   '  </div>\n' +
@@ -9300,7 +21911,7 @@ s.CollectionMessageWarning1 =
   '</div>' 
 s.CollectionMessageIconMessage1 = 
   '<div class="ui icon message">\n' +
-  '  <i class="inbox icon"/>\n' +
+  '  <i class="inbox icon"></i>\n' +
   '  <div class="content">\n' +
   '    <div class="header">\n' +
   '      Have you heard about our mailing list?\n' +
@@ -9310,7 +21921,7 @@ s.CollectionMessageIconMessage1 =
   '</div>' 
 s.CollectionMessageNegativeError2 = 
   '<div class="ui error message">\n' +
-  '  <i class="close icon"/>\n' +
+  '  <i class="close icon"></i>\n' +
   '  <div class="header">\n' +
   '    There were some errors with your submission\n' +
   '  </div>\n' +
@@ -9321,7 +21932,7 @@ s.CollectionMessageNegativeError2 =
   '</div>' 
 s.CollectionMessageInfo1 = 
   '<div class="ui info message">\n' +
-  '  <i class="close icon"/>\n' +
+  '  <i class="close icon"></i>\n' +
   '  <div class="header">\n' +
   '    Was this what you wanted?\n' +
   '  </div>\n' +
@@ -9625,13 +22236,13 @@ s.CollectionTableWarning1 =
   '    </tr>\n' +
   '    <tr class="warning">\n' +
   '      <td>Jimmy</td>\n' +
-  '      <td><i class="attention icon"/> Requires Action</td>\n' +
+  '      <td><i class="attention icon"></i> Requires Action</td>\n' +
   '      <td>None</td>\n' +
   '    </tr>\n' +
   '    <tr>\n' +
   '      <td>Jamie</td>\n' +
   '      <td>Unknown</td>\n' +
-  '      <td class="warning"><i class="attention icon"/> Hostile</td>\n' +
+  '      <td class="warning"><i class="attention icon"></i> Hostile</td>\n' +
   '    </tr>\n' +
   '    <tr>\n' +
   '      <td>Jill</td>\n' +
@@ -9975,13 +22586,13 @@ s.CollectionTableColoredCells1 =
   '  </tr>\n' +
   '  <tr class="blue">\n' +
   '    <td>Jimmy</td>\n' +
-  '    <td><i class="microphone icon"/> Recording session</td>\n' +
+  '    <td><i class="microphone icon"></i> Recording session</td>\n' +
   '    <td>None</td>\n' +
   '  </tr>\n' +
   '  <tr>\n' +
   '    <td>Jamie</td>\n' +
   '    <td>Unknown</td>\n' +
-  '    <td class="pink"><i class="child icon"/> Baby Party</td>\n' +
+  '    <td class="pink"><i class="child icon"></i> Baby Party</td>\n' +
   '  </tr>\n' +
   '  <tr>\n' +
   '    <td>Jill</td>\n' +
@@ -10132,7 +22743,7 @@ s.CollectionTableStructured1 =
   '      <td>Project 1</td>\n' +
   '      <td class="right aligned">2</td>\n' +
   '      <td class="center aligned">\n' +
-  '        <i class="large green checkmark icon"/>\n' +
+  '        <i class="large green checkmark icon"></i>\n' +
   '      </td>\n' +
   '      <td/>\n' +
   '      <td/>\n' +
@@ -10142,7 +22753,7 @@ s.CollectionTableStructured1 =
   '      <td>Project 1</td>\n' +
   '      <td class="right aligned">52</td>\n' +
   '      <td class="center aligned">\n' +
-  '        <i class="large green checkmark icon"/>\n' +
+  '        <i class="large green checkmark icon"></i>\n' +
   '      </td>\n' +
   '      <td/>\n' +
   '      <td/>\n' +
@@ -10152,7 +22763,7 @@ s.CollectionTableStructured1 =
   '      <td class="right aligned">12</td>\n' +
   '      <td/>\n' +
   '      <td class="center aligned">\n' +
-  '        <i class="large green checkmark icon"/>\n' +
+  '        <i class="large green checkmark icon"></i>\n' +
   '      </td>\n' +
   '      <td/>\n' +
   '    </tr>\n' +
@@ -10160,7 +22771,7 @@ s.CollectionTableStructured1 =
   '      <td>Project 3</td>\n' +
   '      <td class="right aligned">21</td>\n' +
   '      <td class="center aligned">\n' +
-  '        <i class="large green checkmark icon"/>\n' +
+  '        <i class="large green checkmark icon"></i>\n' +
   '      </td>\n' +
   '      <td/>\n' +
   '      <td/>\n' +
@@ -10235,35 +22846,35 @@ s.CollectionTableTable4 =
   '  <tbody>\n' +
   '    <tr>\n' +
   '      <td class="collapsing">\n' +
-  '        <i class="folder icon"/> node_modules\n' +
+  '        <i class="folder icon"></i> node_modules\n' +
   '      </td>\n' +
   '      <td>Initial commit</td>\n' +
   '      <td class="right aligned collapsing">10 hours ago</td>\n' +
   '    </tr>\n' +
   '    <tr>\n' +
   '      <td>\n' +
-  '        <i class="folder icon"/> test\n' +
+  '        <i class="folder icon"></i> test\n' +
   '      </td>\n' +
   '      <td>Initial commit</td>\n' +
   '      <td class="right aligned">10 hours ago</td>\n' +
   '    </tr>\n' +
   '    <tr>\n' +
   '      <td>\n' +
-  '        <i class="folder icon"/> build\n' +
+  '        <i class="folder icon"></i> build\n' +
   '      </td>\n' +
   '      <td>Initial commit</td>\n' +
   '      <td class="right aligned">10 hours ago</td>\n' +
   '    </tr>\n' +
   '    <tr>\n' +
   '      <td>\n' +
-  '        <i class="file outline icon"/> package.json\n' +
+  '        <i class="file outline icon"></i> package.json\n' +
   '      </td>\n' +
   '      <td>Initial commit</td>\n' +
   '      <td class="right aligned">10 hours ago</td>\n' +
   '    </tr>\n' +
   '    <tr>\n' +
   '      <td>\n' +
-  '        <i class="file outline icon"/> Gruntfile.js\n' +
+  '        <i class="file outline icon"></i> Gruntfile.js\n' +
   '      </td>\n' +
   '      <td>Initial commit</td>\n' +
   '      <td class="right aligned">10 hours ago</td>\n' +
@@ -10321,7 +22932,7 @@ s.CollectionTableFullWidthHeaderFooter1 =
   '      <th/>\n' +
   '      <th colspan="4">\n' +
   '        <div class="ui right floated small primary labeled icon button">\n' +
-  '          <i class="user icon"/> Add User\n' +
+  '          <i class="user icon"></i> Add User\n' +
   '        </div>\n' +
   '        <div class="ui small  button">\n' +
   '          Approve\n' +
@@ -10536,7 +23147,7 @@ s.CollectionTableCompact2 =
   '</table>' 
 s.CollectionTableCollapsingCell1 = 
   '<div class="ui ignored warning icon message">\n' +
-  '  <i class="warning icon"/>\n' +
+  '  <i class="warning icon"></i>\n' +
   '  <div class="content">\n' +
   '    To ensure icons don\'t wrap to a separate line you must either specify collapsing on the widest row in the collapsing column, or on all rows\n' +
   '  </div>\n' +
@@ -10545,21 +23156,21 @@ s.CollectionTableCollapsingCell1 =
   '  <tbody>\n' +
   '    <tr>\n' +
   '      <td class="collapsing">\n' +
-  '        <i class="folder icon"/> node_modules\n' +
+  '        <i class="folder icon"></i> node_modules\n' +
   '      </td>\n' +
   '      <td>Initial commit</td>\n' +
   '      <td>10 hours ago</td>\n' +
   '    </tr>\n' +
   '    <tr>\n' +
   '      <td>\n' +
-  '        <i class="folder icon"/> test\n' +
+  '        <i class="folder icon"></i> test\n' +
   '      </td>\n' +
   '      <td>Initial commit</td>\n' +
   '      <td>10 hours ago</td>\n' +
   '    </tr>\n' +
   '    <tr>\n' +
   '      <td>\n' +
-  '        <i class="folder icon"/> build\n' +
+  '        <i class="folder icon"></i> build\n' +
   '      </td>\n' +
   '      <td>Initial commit</td>\n' +
   '      <td>10 hours ago</td>\n' +
@@ -10633,14 +23244,14 @@ s.CollectionTableTable2 =
   '    <th colspan="5">\n' +
   '      <div class="ui right floated pagination menu">\n' +
   '        <a class="icon item">\n' +
-  '          <i class="left chevron icon"/>\n' +
+  '          <i class="left chevron icon"></i>\n' +
   '        </a>\n' +
   '        <a class="item">1</a>\n' +
   '        <a class="item">2</a>\n' +
   '        <a class="item">3</a>\n' +
   '        <a class="item">4</a>\n' +
   '        <a class="icon item">\n' +
-  '          <i class="right chevron icon"/>\n' +
+  '          <i class="right chevron icon"></i>\n' +
   '        </a>\n' +
   '      </div>\n' +
   '    </th>\n' +
@@ -10697,7 +23308,7 @@ s.CollectionTableDefinition2 =
   '      <th/>\n' +
   '      <th colspan="4">\n' +
   '        <div class="ui right floated small primary labeled icon button">\n' +
-  '          <i class="user icon"/> Add User\n' +
+  '          <i class="user icon"></i> Add User\n' +
   '        </div>\n' +
   '        <div class="ui small button">\n' +
   '          Approve\n' +
@@ -10748,13 +23359,13 @@ s.CollectionTablePositiveNegative1 =
   '    </tr>\n' +
   '    <tr class="positive">\n' +
   '      <td>Jimmy</td>\n' +
-  '      <td><i class="icon checkmark"/> Approved</td>\n' +
+  '      <td><i class="icon checkmark"></i> Approved</td>\n' +
   '      <td>None</td>\n' +
   '    </tr>\n' +
   '    <tr>\n' +
   '      <td>Jamie</td>\n' +
   '      <td>Unknown</td>\n' +
-  '      <td class="positive"><i class="icon close"/> Requires call</td>\n' +
+  '      <td class="positive"><i class="icon close"></i> Requires call</td>\n' +
   '    </tr>\n' +
   '    <tr class="negative">\n' +
   '      <td>Jill</td>\n' +
@@ -10838,7 +23449,7 @@ s.CollectionTableError1 =
   '    <tr>\n' +
   '      <td>Jamie</td>\n' +
   '      <td>Approved</td>\n' +
-  '      <td class="error"><i class="attention icon"/> Classified</td>\n' +
+  '      <td class="error"><i class="attention icon"></i> Classified</td>\n' +
   '    </tr>\n' +
   '    <tr>\n' +
   '      <td>Jill</td>\n' +
@@ -11257,9 +23868,9 @@ s.CollectionBreadcrumbDivider2 =
 s.CollectionBreadcrumbSize5 = 
   '<div class="ui big breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
   '</div>' 
 s.CollectionBreadcrumbInverted1 = 
@@ -11297,17 +23908,17 @@ s.CollectionBreadcrumbSize1 =
 s.CollectionBreadcrumbSize4 = 
   '<div class="ui large breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
   '</div>' 
 s.CollectionBreadcrumbSize7 = 
   '<div class="ui massive breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
   '</div>' 
 s.CollectionBreadcrumbSection1 = 
@@ -11319,17 +23930,17 @@ s.CollectionBreadcrumbSection1 =
 s.CollectionBreadcrumbSize3 = 
   '<div class="ui small breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
   '</div>' 
 s.CollectionBreadcrumbSize2 = 
   '<div class="ui tiny breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
   '</div>' 
 s.CollectionBreadcrumbBreadcrumb2 = 
@@ -11359,9 +23970,9 @@ s.CollectionBreadcrumbBreadcrumb1 =
 s.CollectionBreadcrumbSize6 = 
   '<div class="ui huge breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
-  '  <i class="right chevron icon divider"/>\n' +
+  '  <i class="right chevron icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
   '</div>' 
 s.ViewFeedFeed1 = 
@@ -11381,7 +23992,7 @@ s.ViewFeedFeed1 =
   '      </div>\n' +
   '      <div class="meta">\n' +
   '        <a class="like">\n' +
-  '          <i class="like icon"/> 4 Likes\n' +
+  '          <i class="like icon"></i> 4 Likes\n' +
   '        </a>\n' +
   '      </div>\n' +
   '    </div>\n' +
@@ -11403,7 +24014,7 @@ s.ViewFeedFeed1 =
   '      </div>\n' +
   '      <div class="meta">\n' +
   '        <a class="like">\n' +
-  '          <i class="like icon"/> 1 Like\n' +
+  '          <i class="like icon"></i> 1 Like\n' +
   '        </a>\n' +
   '      </div>\n' +
   '    </div>\n' +
@@ -11423,7 +24034,7 @@ s.ViewFeedFeed1 =
   '      </div>\n' +
   '      <div class="meta">\n' +
   '        <a class="like">\n' +
-  '          <i class="like icon"/> 8 Likes\n' +
+  '          <i class="like icon"></i> 8 Likes\n' +
   '        </a>\n' +
   '      </div>\n' +
   '    </div>\n' +
@@ -11444,7 +24055,7 @@ s.ViewFeedFeed1 =
   '      </div>\n' +
   '      <div class="meta">\n' +
   '        <a class="like">\n' +
-  '          <i class="like icon"/> 5 Likes\n' +
+  '          <i class="like icon"></i> 5 Likes\n' +
   '        </a>\n' +
   '      </div>\n' +
   '    </div>\n' +
@@ -11466,7 +24077,7 @@ s.ViewFeedFeed1 =
   '      </div>\n' +
   '      <div class="meta">\n' +
   '        <a class="like">\n' +
-  '          <i class="like icon"/> 41 Likes\n' +
+  '          <i class="like icon"></i> 41 Likes\n' +
   '        </a>\n' +
   '      </div>\n' +
   '    </div>\n' +
@@ -11587,7 +24198,7 @@ s.ViewFeedLabel2 =
   '<div class="ui feed">\n' +
   '  <div class="event">\n' +
   '    <div class="label">\n' +
-  '      <i class="pencil icon"/>\n' +
+  '      <i class="pencil icon"></i>\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <div class="summary">\n' +
@@ -11614,14 +24225,14 @@ s.ViewFeedSize2 =
   '      </div>\n' +
   '      <div class="meta">\n' +
   '        <a class="like">\n' +
-  '          <i class="like icon"/> 4 Likes\n' +
+  '          <i class="like icon"></i> 4 Likes\n' +
   '        </a>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="event">\n' +
   '    <div class="label">\n' +
-  '      <i class="pencil icon"/>\n' +
+  '      <i class="pencil icon"></i>\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <div class="summary">\n' +
@@ -11635,7 +24246,7 @@ s.ViewFeedSize2 =
   '      </div>\n' +
   '      <div class="meta">\n' +
   '        <a class="like">\n' +
-  '          <i class="like icon"/> 11 Likes\n' +
+  '          <i class="like icon"></i> 11 Likes\n' +
   '        </a>\n' +
   '      </div>\n' +
   '    </div>\n' +
@@ -11657,7 +24268,7 @@ s.ViewFeedSize2 =
   '      </div>\n' +
   '      <div class="meta">\n' +
   '        <a class="like">\n' +
-  '          <i class="like icon"/> 1 Like\n' +
+  '          <i class="like icon"></i> 1 Like\n' +
   '        </a>\n' +
   '      </div>\n' +
   '    </div>\n' +
@@ -11718,7 +24329,7 @@ s.ViewFeedSize2 =
   '          </div>\n' +
   '          <div class="meta">\n' +
   '            <a class="like">\n' +
-  '              <i class="like icon"/> 1 Like\n' +
+  '              <i class="like icon"></i> 1 Like\n' +
   '            </a>\n' +
   '          </div>\n' +
   '        </div>\n' +
@@ -11738,7 +24349,7 @@ s.ViewFeedSize2 =
   '          </div>\n' +
   '          <div class="meta">\n' +
   '            <a class="like">\n' +
-  '              <i class="like icon"/> 8 Likes\n' +
+  '              <i class="like icon"></i> 8 Likes\n' +
   '            </a>\n' +
   '          </div>\n' +
   '        </div>\n' +
@@ -11759,7 +24370,7 @@ s.ViewFeedSize2 =
   '          </div>\n' +
   '          <div class="meta">\n' +
   '            <a class="like">\n' +
-  '              <i class="like icon"/> 5 Likes\n' +
+  '              <i class="like icon"></i> 5 Likes\n' +
   '            </a>\n' +
   '          </div>\n' +
   '        </div>\n' +
@@ -11781,7 +24392,7 @@ s.ViewFeedSize2 =
   '          </div>\n' +
   '          <div class="meta">\n' +
   '            <a class="like">\n' +
-  '              <i class="like icon"/> 41 Likes\n' +
+  '              <i class="like icon"></i> 41 Likes\n' +
   '            </a>\n' +
   '          </div>\n' +
   '        </div>\n' +
@@ -11836,7 +24447,7 @@ s.ViewAdvertisementCentered1 =
   '<div class="ui centered banner test ad"/>' 
 s.ViewItemInverted1 = 
   '<div class="ui ignored info message">\n' +
-  '  <i class="info icon"/>\n' +
+  '  <i class="info icon"></i>\n' +
   '  You need to make sure to set a dark background on your own or wrap your items in an <code>inverted segment</code>\n' +
   '</div>\n' +
   '<div class="ui inverted segment">\n' +
@@ -11874,35 +24485,35 @@ s.ViewItemInverted1 =
   '  </div>\n' +
   '</div>' 
 s.ViewItemRelaxed1 = 
-  '<div class="ui relaxed items">\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui tiny image">\n' +
+  '<FuiItems relaxed>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage tag=div size=tiny>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '    <div class="middle aligned content">\n' +
+  '    </FuiImage>\n' +
+  '    <FuiContent aligned=middle>\n' +
   '      <a class="header">12 Years a Slave</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui tiny image">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage tag=div size=tiny>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '    <div class="middle aligned content">\n' +
+  '    </FuiImage>\n' +
+  '    <FuiContent aligned=middle>\n' +
   '      <a class="header">My Neighbor Totoro</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui tiny image">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage tag=div size=tiny>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '    <div class="middle aligned content">\n' +
+  '    </FuiImage>\n' +
+  '    <FuiContent aligned=middle>\n' +
   '      <a class="header">Watchmen</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiItems>' 
 s.ViewItemMetadata1 = 
   '<div class="ui ignored info message">\n' +
-  '  <i class="info icon"/>\n' +
+  '  <i class="info icon"></i>\n' +
   '  You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
   '</div>\n' +
   '<div class="ui items">\n' +
@@ -11953,23 +24564,23 @@ s.ViewItemMetadata1 =
   '  </div>\n' +
   '</div>' 
 s.ViewItemImage1 = 
-  '<div class="ui divided items">\n' +
-  '  <div class="item">\n' +
-  '    <div class="image">\n' +
+  '<FuiItems divided>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage tag=div>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="image">\n' +
+  '    </FuiImage>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage tag=div>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="image">\n' +
+  '    </FuiImage>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage tag=div>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiImage>\n' +
+  '  </FuiItem>\n' +
+  '</FuiItems>' 
 s.ViewItemExtraContent1 = 
   '<div class="ui items">\n' +
   '  <div class="item">\n' +
@@ -11980,7 +24591,7 @@ s.ViewItemExtraContent1 =
   '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
   '      </div>\n' +
   '      <div class="extra">\n' +
-  '        <i class="green check icon"/>\n' +
+  '        <i class="green check icon"></i>\n' +
   '        121 Votes\n' +
   '      </div>\n' +
   '    </div>\n' +
@@ -11988,7 +24599,7 @@ s.ViewItemExtraContent1 =
   '</div>' 
 s.ViewItemDivided1 = 
   '<div class="ui ignored info message">\n' +
-  '  <i class="info icon"/>\n' +
+  '  <i class="info icon"></i>\n' +
   '  The following example uses <a href="/elements/segment.html">ui</a> for legibility only. This is not necessary for using <code>ui items</code>\n' +
   '</div>\n' +
   '<div class="ui divided items">\n' +
@@ -12006,7 +24617,7 @@ s.ViewItemDivided1 =
   '      </div>\n' +
   '      <div class="extra">\n' +
   '        <div class="ui label">IMAX</div>\n' +
-  '        <div class="ui label"><i class="globe icon"/> Additional Languages</div>\n' +
+  '        <div class="ui label"><i class="globe icon"></i> Additional Languages</div>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -12025,7 +24636,7 @@ s.ViewItemDivided1 =
   '      <div class="extra">\n' +
   '        <div class="ui right floated primary button">\n' +
   '          Buy tickets\n' +
-  '          <i class="right chevron icon"/>\n' +
+  '          <i class="right chevron icon"></i>\n' +
   '        </div>\n' +
   '        <div class="ui label">Limited</div>\n' +
   '      </div>\n' +
@@ -12046,7 +24657,7 @@ s.ViewItemDivided1 =
   '      <div class="extra">\n' +
   '        <div class="ui right floated primary button">\n' +
   '          Buy tickets\n' +
-  '          <i class="right chevron icon"/>\n' +
+  '          <i class="right chevron icon"></i>\n' +
   '        </div>\n' +
   '      </div>\n' +
   '    </div>\n' +
@@ -12153,9 +24764,6 @@ s.ViewItemContent1 =
   '  </div>\n' +
   '</div>' 
 s.ViewItemRating1 = 
-  '<div class="ui ignored info message">\n' +
-  '  You can use the <a href="/modules/rating.html">rating</a> component to attach events to like and favorite icons\n' +
-  '</div>\n' +
   '<div class="ui items">\n' +
   '  <div class="item">\n' +
   '    <a class="ui tiny image">\n' +
@@ -12163,7 +24771,7 @@ s.ViewItemRating1 =
   '    </a>\n' +
   '    <div class="middle aligned content">\n' +
   '      <div class="header">\n' +
-  '        <i class="like icon"/>\n' +
+  '        <i class="like icon"></i>\n' +
   '        Veronika Ossi\n' +
   '      </div>\n' +
   '    </div>\n' +
@@ -12174,7 +24782,7 @@ s.ViewItemRating1 =
   '    </a>\n' +
   '    <div class="middle aligned content">\n' +
   '      <div class="header">\n' +
-  '        <i class="favorite icon"/>\n' +
+  '        <i class="favorite icon"></i>\n' +
   '        Justen Kitsune\n' +
   '      </div>\n' +
   '    </div>\n' +
@@ -12208,32 +24816,32 @@ s.ViewItemHeader1 =
   '  </div>\n' +
   '</div>' 
 s.ViewItemRelaxed2 = 
-  '<div class="ui very relaxed items">\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui tiny image">\n' +
+  '<FuiItems relaxed=very>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage tag=div size=tiny>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '    <div class="middle aligned content">\n' +
+  '    </FuiImage>\n' +
+  '    <FuiContent aligned=middle>\n' +
   '      <a class="header">12 Years a Slave</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui tiny image">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage tag=div size=tiny>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '    <div class="middle aligned content">\n' +
+  '    </FuiImage>\n' +
+  '    <FuiContent aligned=middle>\n' +
   '      <a class="header">My Neighbor Totoro</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui tiny image">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage tag=div size=tiny>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '    <div class="middle aligned content">\n' +
+  '    </FuiImage>\n' +
+  '    <FuiContent aligned=middle>\n' +
   '      <a class="header">Watchmen</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiItems>' 
 s.ViewItemDescription1 = 
   '<div class="ui items">\n' +
   '  <div class="item">\n' +
@@ -12251,7 +24859,7 @@ s.ViewItemDescription1 =
   '</div>' 
 s.ViewItemLink1 = 
   '<div class="ui yellow message">\n' +
-  '  <i class="star icon"/>\n' +
+  '  <i class="star icon"></i>\n' +
   '  To make the entire content of an item link, check out the link variation below\n' +
   '</div>\n' +
   '<div class="ui items">\n' +
@@ -12291,7 +24899,7 @@ s.ViewItemLink1 =
   '</div>' 
 s.ViewItemFloatedContent1 = 
   '<div class="ui ignored info message">\n' +
-  '  <i class="info icon"/>\n' +
+  '  <i class="info icon"></i>\n' +
   '  You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
   '</div>\n' +
   '<div class="ui items">\n' +
@@ -12351,15 +24959,8 @@ s.ViewItemFloatedContent1 =
   '  </div>\n' +
   '</div>' 
 s.ViewItemItems1 = 
-  '<div class="ui ignored positive icon message">\n' +
-  '  <i class="mobile icon"/>\n' +
-  '  <div class="content">\n' +
-  '    <h3 class="header">Responsive Element</h3>\n' +
-  '    <p>Item views are designed to be responsive with images stacking at mobile resolutions.</p>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="ui items">\n' +
-  '  <div class="item">\n' +
+  '<FuiItems>\n' +
+  '  <FuiItem>\n' +
   '    <div class="image">\n' +
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
@@ -12375,8 +24976,8 @@ s.ViewItemItems1 =
   '        Additional Details\n' +
   '      </div>\n' +
   '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
   '    <div class="image">\n' +
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
@@ -12392,11 +24993,11 @@ s.ViewItemItems1 =
   '        Additional Details\n' +
   '      </div>\n' +
   '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiItems>' 
 s.ViewItemVerticalAlignment1 = 
   '<div class="ui ignored info message">\n' +
-  '  <i class="info icon"/>\n' +
+  '  <i class="info icon"></i>\n' +
   '  You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
   '</div>\n' +
   '<div class="ui items">\n' +
@@ -12461,7 +25062,7 @@ s.ViewStatisticValue1 =
   '  </div>\n' +
   '  <div class="statistic">\n' +
   '    <div class="value">\n' +
-  '      <i class="plane icon"/> 5\n' +
+  '      <i class="plane icon"></i> 5\n' +
   '    </div>\n' +
   '    <div class="label">\n' +
   '      Flights\n' +
@@ -12719,7 +25320,7 @@ s.ViewStatisticEvenlyDivided1 =
   '  </div>\n' +
   '  <div class="statistic">\n' +
   '    <div class="value">\n' +
-  '      <i class="plane icon"/> 5\n' +
+  '      <i class="plane icon"></i> 5\n' +
   '    </div>\n' +
   '    <div class="label">\n' +
   '      Flights\n' +
@@ -13122,7 +25723,7 @@ s.ViewCardCards2 =
   '        Joined in 2013\n' +
   '      </span>\n' +
   '      <span>\n' +
-  '        <i class="user icon"/>\n' +
+  '        <i class="user icon"></i>\n' +
   '        75 Friends\n' +
   '      </span>\n' +
   '    </div>\n' +
@@ -13145,7 +25746,7 @@ s.ViewCardCards2 =
   '        Joined in 2011\n' +
   '      </span>\n' +
   '      <span>\n' +
-  '        <i class="user icon"/>\n' +
+  '        <i class="user icon"></i>\n' +
   '        35 Friends\n' +
   '      </span>\n' +
   '    </div>\n' +
@@ -13168,7 +25769,7 @@ s.ViewCardCards2 =
   '        Joined in 2014\n' +
   '      </span>\n' +
   '      <span>\n' +
-  '        <i class="user icon"/>\n' +
+  '        <i class="user icon"></i>\n' +
   '        151 Friends\n' +
   '      </span>\n' +
   '    </div>\n' +
@@ -13274,7 +25875,7 @@ s.ViewCardCard1 =
   '  </div>\n' +
   '  <div class="extra content">\n' +
   '    <a>\n' +
-  '      <i class="user icon"/>\n' +
+  '      <i class="user icon"></i>\n' +
   '      22 Friends\n' +
   '    </a>\n' +
   '  </div>\n' +
@@ -13305,7 +25906,7 @@ s.ViewCardImage2 =
   '    </div>\n' +
   '    <div class="extra content">\n' +
   '      <a>\n' +
-  '        <i class="users icon"/>\n' +
+  '        <i class="users icon"></i>\n' +
   '        2 Members\n' +
   '      </a>\n' +
   '    </div>\n' +
@@ -13329,7 +25930,7 @@ s.ViewCardImage2 =
   '    </div>\n' +
   '    <div class="extra content">\n' +
   '      <a>\n' +
-  '        <i class="users icon"/>\n' +
+  '        <i class="users icon"></i>\n' +
   '        2 Members\n' +
   '      </a>\n' +
   '    </div>\n' +
@@ -13345,7 +25946,7 @@ s.ViewCardButtons1 =
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="ui bottom attached button">\n' +
-  '      <i class="add icon"/>\n' +
+  '      <i class="add icon"></i>\n' +
   '      Add Friend\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -13357,7 +25958,7 @@ s.ViewCardButtons1 =
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="ui bottom attached button">\n' +
-  '      <i class="add icon"/>\n' +
+  '      <i class="add icon"></i>\n' +
   '      Add Friend\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -13369,7 +25970,7 @@ s.ViewCardButtons1 =
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="ui bottom attached button">\n' +
-  '      <i class="add icon"/>\n' +
+  '      <i class="add icon"></i>\n' +
   '      Add Friend\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -13468,7 +26069,7 @@ s.ViewCardColored1 =
   '</div>' 
 s.ViewCardMetadata1 = 
   '<div class="ui ignored info message">\n' +
-  '  <i class="info icon"/>\n' +
+  '  <i class="info icon"></i>\n' +
   '  You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
   '</div>\n' +
   '<div class="ui card">\n' +
@@ -13502,7 +26103,7 @@ s.ViewCardInverted1 =
   '          Joined in 2013\n' +
   '        </span>\n' +
   '        <a>\n' +
-  '          <i class="user icon"/>\n' +
+  '          <i class="user icon"></i>\n' +
   '          75 Friends\n' +
   '        </a>\n' +
   '      </div>\n' +
@@ -13525,7 +26126,7 @@ s.ViewCardInverted1 =
   '          Joined in 2011\n' +
   '        </span>\n' +
   '        <a>\n' +
-  '          <i class="user icon"/>\n' +
+  '          <i class="user icon"></i>\n' +
   '          35 Friends\n' +
   '        </a>\n' +
   '      </div>\n' +
@@ -13548,7 +26149,7 @@ s.ViewCardInverted1 =
   '          Joined in 2014\n' +
   '        </span>\n' +
   '        <a>\n' +
-  '          <i class="user icon"/>\n' +
+  '          <i class="user icon"></i>\n' +
   '          151 Friends\n' +
   '        </a>\n' +
   '      </div>\n' +
@@ -13575,8 +26176,8 @@ s.ViewCardLinkCard2 =
 s.ViewCardApproval1 = 
   '<div class="ui card">\n' +
   '  <div class="content">\n' +
-  '    <i class="right floated like icon"/>\n' +
-  '    <i class="right floated star icon"/>\n' +
+  '    <i class="right floated like icon"></i>\n' +
+  '    <i class="right floated star icon"></i>\n' +
   '    <div class="header">Cute Dog</div>\n' +
   '    <div class="description">\n' +
   '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
@@ -13584,18 +26185,18 @@ s.ViewCardApproval1 =
   '  </div>\n' +
   '  <div class="extra content">\n' +
   '    <span class="left floated like">\n' +
-  '      <i class="like icon"/>\n' +
+  '      <i class="like icon"></i>\n' +
   '      Like\n' +
   '    </span>\n' +
   '    <span class="right floated star">\n' +
-  '      <i class="star icon"/>\n' +
+  '      <i class="star icon"></i>\n' +
   '      Favorite\n' +
   '    </span>\n' +
   '  </div>\n' +
   '</div>' 
 s.ViewCardFloatedContent1 = 
   '<div class="ui ignored info message">\n' +
-  '  <i class="info icon"/>\n' +
+  '  <i class="info icon"></i>\n' +
   '  You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
   '</div>\n' +
   '<div class="ui card">\n' +
@@ -13708,7 +26309,7 @@ s.ViewCardExtraContent1 =
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="extra content">\n' +
-  '    <i class="check icon"/>\n' +
+  '    <i class="check icon"></i>\n' +
   '    121 Votes\n' +
   '  </div>\n' +
   '</div>' 
@@ -13767,7 +26368,7 @@ s.ViewCardDescription1 =
   '</div>' 
 s.ViewCardTextAlignment1 = 
   '<div class="ui ignored info message">\n' +
-  '  <i class="info icon"/>\n' +
+  '  <i class="info icon"></i>\n' +
   '  You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
   '</div>\n' +
   '<div class="ui card">\n' +
@@ -13911,7 +26512,7 @@ s.ViewCardImage1 =
   '  </div>\n' +
   '  <div class="extra content">\n' +
   '    <a>\n' +
-  '      <i class="users icon"/>\n' +
+  '      <i class="users icon"></i>\n' +
   '      2 Members\n' +
   '    </a>\n' +
   '  </div>\n' +
@@ -13927,15 +26528,15 @@ s.ViewCardCard2 =
   '  </div>\n' +
   '  <div class="content">\n' +
   '    <span class="right floated">\n' +
-  '      <i class="heart outline like icon"/>\n' +
+  '      <i class="heart outline like icon"></i>\n' +
   '      17 likes\n' +
   '    </span>\n' +
-  '    <i class="comment icon"/>\n' +
+  '    <i class="comment icon"></i>\n' +
   '    3 comments\n' +
   '  </div>\n' +
   '  <div class="extra content">\n' +
   '    <div class="ui large transparent left icon input">\n' +
-  '      <i class="heart outline icon"/>\n' +
+  '      <i class="heart outline icon"></i>\n' +
   '      <input type="text" placeholder="Add Comment..."/>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -14019,7 +26620,7 @@ s.ViewCommentInverted1 =
   '        <textarea/>\n' +
   '      </div>\n' +
   '      <div class="ui blue labeled submit icon button">\n' +
-  '        <i class="icon edit"/> Add Reply\n' +
+  '        <i class="icon edit"></i> Add Reply\n' +
   '      </div>\n' +
   '    </form>\n' +
   '  </div>\n' +
@@ -14102,7 +26703,7 @@ s.ViewCommentThreaded1 =
   '      <textarea/>\n' +
   '    </div>\n' +
   '    <div class="ui blue labeled submit icon button">\n' +
-  '      <i class="icon edit"/> Add Reply\n' +
+  '      <i class="icon edit"></i> Add Reply\n' +
   '    </div>\n' +
   '  </form>\n' +
   '</div>' 
@@ -14184,7 +26785,7 @@ s.ViewCommentSize1 =
   '      <textarea/>\n' +
   '    </div>\n' +
   '    <div class="ui blue labeled submit icon button">\n' +
-  '      <i class="icon edit"/> Add Reply\n' +
+  '      <i class="icon edit"></i> Add Reply\n' +
   '    </div>\n' +
   '  </form>\n' +
   '</div>' 
@@ -14230,7 +26831,7 @@ s.ViewCommentReplyForm2 =
   '      <textarea/>\n' +
   '    </div>\n' +
   '    <div class="ui primary submit labeled icon button">\n' +
-  '      <i class="icon edit"/> Add Comment\n' +
+  '      <i class="icon edit"></i> Add Comment\n' +
   '    </div>\n' +
   '  </form>\n' +
   '</div>' 
@@ -14318,7 +26919,7 @@ s.ViewCommentComments1 =
   '      <textarea/>\n' +
   '    </div>\n' +
   '    <div class="ui blue labeled submit icon button">\n' +
-  '      <i class="icon edit"/> Add Reply\n' +
+  '      <i class="icon edit"></i> Add Reply\n' +
   '    </div>\n' +
   '  </form>\n' +
   '</div>' 
@@ -14347,7 +26948,7 @@ s.ViewCommentReplyForm1 =
   '          <textarea/>\n' +
   '        </div>\n' +
   '        <div class="ui primary submit labeled icon button">\n' +
-  '          <i class="icon edit"/> Add Reply\n' +
+  '          <i class="icon edit"></i> Add Reply\n' +
   '        </div>\n' +
   '      </form>\n' +
   '    </div>\n' +
@@ -14431,7 +27032,7 @@ s.ViewCommentSize2 =
   '      <textarea/>\n' +
   '    </div>\n' +
   '    <div class="ui blue labeled submit icon button">\n' +
-  '      <i class="icon edit"/> Add Reply\n' +
+  '      <i class="icon edit"></i> Add Reply\n' +
   '    </div>\n' +
   '  </form>\n' +
   '</div>' 
@@ -14457,7 +27058,7 @@ s.ViewCommentMetadata1 =
   '      <div class="metadata">\n' +
   '        <div class="date">2 days ago</div>\n' +
   '        <div class="rating">\n' +
-  '          <i class="star icon"/>\n' +
+  '          <i class="star icon"></i>\n' +
   '          5 Faves\n' +
   '        </div>\n' +
   '      </div>\n' +
@@ -14541,7 +27142,7 @@ s.ViewCommentActions1 =
   '        <a class="save">Save</a>\n' +
   '        <a class="hide">Hide</a>\n' +
   '        <a>\n' +
-  '          <i class="expand icon"/>\n' +
+  '          <i class="expand icon"></i>\n' +
   '          Full-screen\n' +
   '        </a>\n' +
   '      </div>\n' +
@@ -14626,7 +27227,7 @@ s.ViewCommentMinimal1 =
   '      <textarea/>\n' +
   '    </div>\n' +
   '    <div class="ui blue labeled submit icon button">\n' +
-  '      <i class="icon edit"/> Add Reply\n' +
+  '      <i class="icon edit"></i> Add Reply\n' +
   '    </div>\n' +
   '  </form>\n' +
   '</div>' 

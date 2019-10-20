@@ -2,25 +2,25 @@
   <div>
     <div class="ui icon menu">
       <a class="item">
-        <i class="gamepad icon"/>
+        <i class="gamepad icon"></i>
       </a>
       <a class="item">
-        <i class="video camera icon"/>
+        <i class="video camera icon"></i>
       </a>
       <a class="item">
-        <i class="video play icon"/>
+        <i class="video play icon"></i>
       </a>
     </div>
     <br/><br/>
     <div class="ui vertical icon menu">
       <a class="item">
-        <i class="gamepad icon"/>
+        <i class="gamepad icon"></i>
       </a>
       <a class="item">
-        <i class="video camera icon"/>
+        <i class="video camera icon"></i>
       </a>
       <a class="item">
-        <i class="video play icon"/>
+        <i class="video play icon"></i>
       </a>
     </div>
   </div>
@@ -38,25 +38,25 @@ export default {
     description: 'A menu may have just icons',
     model: '    <div class="ui icon menu">\n' +
       '      <a class="item">\n' +
-      '        <i class="gamepad icon"/>\n' +
+      '        <i class="gamepad icon"></i>\n' +
       '      </a>\n' +
       '      <a class="item">\n' +
-      '        <i class="video camera icon"/>\n' +
+      '        <i class="video camera icon"></i>\n' +
       '      </a>\n' +
       '      <a class="item">\n' +
-      '        <i class="video play icon"/>\n' +
+      '        <i class="video play icon"></i>\n' +
       '      </a>\n' +
       '    </div>\n' +
       '    <br/><br/>\n' +
       '    <div class="ui vertical icon menu">\n' +
       '      <a class="item">\n' +
-      '        <i class="gamepad icon"/>\n' +
+      '        <i class="gamepad icon"></i>\n' +
       '      </a>\n' +
       '      <a class="item">\n' +
-      '        <i class="video camera icon"/>\n' +
+      '        <i class="video camera icon"></i>\n' +
       '      </a>\n' +
       '      <a class="item">\n' +
-      '        <i class="video play icon"/>\n' +
+      '        <i class="video play icon"></i>\n' +
       '      </a>\n' +
       '    </div>\n',
   },

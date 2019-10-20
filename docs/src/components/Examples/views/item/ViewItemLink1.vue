@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui yellow message">
-      <i class="star icon"/>
+      <i class="star icon"></i>
       To make the entire content of an item link, check out the link variation below
     </div>
     <div class="ui items">
@@ -53,7 +53,7 @@ export default {
     title2: 'Link',
     description: 'An item can contain links as images, headers, or inside content',
     model: '    <div class="ui yellow message">\n' +
-      '      <i class="star icon"/>\n' +
+      '      <i class="star icon"></i>\n' +
       '      To make the entire content of an item link, check out the link variation below\n' +
       '    </div>\n' +
       '    <div class="ui items">\n' +

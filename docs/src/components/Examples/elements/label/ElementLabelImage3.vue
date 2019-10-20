@@ -3,17 +3,17 @@
     <div class="ui image label">
       <img src="/images/avatar/small/ade.jpg"/>
       Adrienne
-      <i class="delete icon"/>
+      <i class="delete icon"></i>
     </div>
     <div class="ui image label">
       <img src="/images/avatar/small/zoe.jpg"/>
       Zoe
-      <i class="delete icon"/>
+      <i class="delete icon"></i>
     </div>
     <div class="ui image label">
       <img src="/images/avatar/small/nan.jpg"/>
       Nan
-      <i class="delete icon"/>
+      <i class="delete icon"></i>
     </div>
   </div>
 </template>
@@ -31,17 +31,17 @@ export default {
     model: '    <div class="ui image label">\n' +
       '      <img src="/images/avatar/small/ade.jpg"/>\n' +
       '      Adrienne\n' +
-      '      <i class="delete icon"/>\n' +
+      '      <i class="delete icon"></i>\n' +
       '    </div>\n' +
       '    <div class="ui image label">\n' +
       '      <img src="/images/avatar/small/zoe.jpg"/>\n' +
       '      Zoe\n' +
-      '      <i class="delete icon"/>\n' +
+      '      <i class="delete icon"></i>\n' +
       '    </div>\n' +
       '    <div class="ui image label">\n' +
       '      <img src="/images/avatar/small/nan.jpg"/>\n' +
       '      Nan\n' +
-      '      <i class="delete icon"/>\n' +
+      '      <i class="delete icon"></i>\n' +
       '    </div>\n',
   },
 };

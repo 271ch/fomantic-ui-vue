@@ -4,7 +4,7 @@
       <div class="ui category search item">
         <div class="ui transparent icon input">
           <input class="prompt" type="text" placeholder="Search animals..."/>
-          <i class="search link icon"/>
+          <i class="search link icon"></i>
         </div>
         <div class="results"/>
       </div>
@@ -29,7 +29,7 @@ export default {
       '      <div class="ui category search item">\n' +
       '        <div class="ui transparent icon input">\n' +
       '          <input class="prompt" type="text" placeholder="Search animals..."/>\n' +
-      '          <i class="search link icon"/>\n' +
+      '          <i class="search link icon"></i>\n' +
       '        </div>\n' +
       '        <div class="results"/>\n' +
       '      </div>\n' +

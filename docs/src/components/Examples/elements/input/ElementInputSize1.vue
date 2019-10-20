@@ -3,7 +3,7 @@
     <div class="ui ignored info message">Inputs will automatically size themselves unless you manually declare a width</div>
     <div class="ui mini icon input">
       <input type="text" placeholder="Search mini..."/>
-      <i class="search icon"/>
+      <i class="search icon"></i>
     </div>
   </div>
 </template>
@@ -21,7 +21,7 @@ export default {
     model: '    <div class="ui ignored info message">Inputs will automatically size themselves unless you manually declare a width</div>\n' +
       '    <div class="ui mini icon input">\n' +
       '      <input type="text" placeholder="Search mini..."/>\n' +
-      '      <i class="search icon"/>\n' +
+      '      <i class="search icon"></i>\n' +
       '    </div>\n',
   },
 };

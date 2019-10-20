@@ -18,7 +18,7 @@
       </div>
       <div class="extra content">
         <a>
-          <i class="user icon"/>
+          <i class="user icon"></i>
           22 Friends
         </a>
       </div>
@@ -54,7 +54,7 @@ export default {
       '      </div>\n' +
       '      <div class="extra content">\n' +
       '        <a>\n' +
-      '          <i class="user icon"/>\n' +
+      '          <i class="user icon"></i>\n' +
       '          22 Friends\n' +
       '        </a>\n' +
       '      </div>\n' +

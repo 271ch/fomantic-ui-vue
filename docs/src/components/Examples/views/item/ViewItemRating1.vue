@@ -1,8 +1,5 @@
 <template>
   <div>
-    <div class="ui ignored info message">
-      You can use the <a href="/modules/rating.html">rating</a> component to attach events to like and favorite icons
-    </div>
     <div class="ui items">
       <div class="item">
         <a class="ui tiny image">
@@ -10,7 +7,7 @@
         </a>
         <div class="middle aligned content">
           <div class="header">
-            <i class="like icon"/>
+            <i class="like icon"></i>
             Veronika Ossi
           </div>
         </div>
@@ -21,7 +18,7 @@
         </a>
         <div class="middle aligned content">
           <div class="header">
-            <i class="favorite icon"/>
+            <i class="favorite icon"></i>
             Justen Kitsune
           </div>
         </div>
@@ -40,17 +37,14 @@ export default {
     title1: 'Content',
     title2: 'Rating',
     description: 'An item can contain icons signifying a \'like\' or \'favorite\' action',
-    model: '    <div class="ui ignored info message">\n' +
-      '      You can use the <a href="/modules/rating.html">rating</a> component to attach events to like and favorite icons\n' +
-      '    </div>\n' +
-      '    <div class="ui items">\n' +
+    model: '    <div class="ui items">\n' +
       '      <div class="item">\n' +
       '        <a class="ui tiny image">\n' +
       '          <img src="/images/avatar/large/jenny.jpg"/>\n' +
       '        </a>\n' +
       '        <div class="middle aligned content">\n' +
       '          <div class="header">\n' +
-      '            <i class="like icon"/>\n' +
+      '            <i class="like icon"></i>\n' +
       '            Veronika Ossi\n' +
       '          </div>\n' +
       '        </div>\n' +
@@ -61,7 +55,7 @@ export default {
       '        </a>\n' +
       '        <div class="middle aligned content">\n' +
       '          <div class="header">\n' +
-      '            <i class="favorite icon"/>\n' +
+      '            <i class="favorite icon"></i>\n' +
       '            Justen Kitsune\n' +
       '          </div>\n' +
       '        </div>\n' +

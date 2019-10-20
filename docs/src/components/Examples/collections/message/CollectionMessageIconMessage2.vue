@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui icon message">
-      <i class="notched circle loading icon"/>
+      <i class="notched circle loading icon"></i>
       <div class="content">
         <div class="header">
           Just one second
@@ -23,7 +23,7 @@ export default {
     title2: 'Icon Message',
     description: 'A message can contain an icon.',
     model: '    <div class="ui icon message">\n' +
-      '      <i class="notched circle loading icon"/>\n' +
+      '      <i class="notched circle loading icon"></i>\n' +
       '      <div class="content">\n' +
       '        <div class="header">\n' +
       '          Just one second\n' +

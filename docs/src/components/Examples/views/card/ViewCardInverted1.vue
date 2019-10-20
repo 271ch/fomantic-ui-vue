@@ -20,7 +20,7 @@
               Joined in 2013
             </span>
             <a>
-              <i class="user icon"/>
+              <i class="user icon"></i>
               75 Friends
             </a>
           </div>
@@ -43,7 +43,7 @@
               Joined in 2011
             </span>
             <a>
-              <i class="user icon"/>
+              <i class="user icon"></i>
               35 Friends
             </a>
           </div>
@@ -66,7 +66,7 @@
               Joined in 2014
             </span>
             <a>
-              <i class="user icon"/>
+              <i class="user icon"></i>
               151 Friends
             </a>
           </div>
@@ -106,7 +106,7 @@ export default {
       '              Joined in 2013\n' +
       '            </span>\n' +
       '            <a>\n' +
-      '              <i class="user icon"/>\n' +
+      '              <i class="user icon"></i>\n' +
       '              75 Friends\n' +
       '            </a>\n' +
       '          </div>\n' +
@@ -129,7 +129,7 @@ export default {
       '              Joined in 2011\n' +
       '            </span>\n' +
       '            <a>\n' +
-      '              <i class="user icon"/>\n' +
+      '              <i class="user icon"></i>\n' +
       '              35 Friends\n' +
       '            </a>\n' +
       '          </div>\n' +
@@ -152,7 +152,7 @@ export default {
       '              Joined in 2014\n' +
       '            </span>\n' +
       '            <a>\n' +
-      '              <i class="user icon"/>\n' +
+      '              <i class="user icon"></i>\n' +
       '              151 Friends\n' +
       '            </a>\n' +
       '          </div>\n' +

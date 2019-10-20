@@ -1,14 +1,7 @@
 <template>
   <div>
-    <div class="ui ignored positive icon message">
-      <i class="mobile icon"/>
-      <div class="content">
-        <h3 class="header">Responsive Element</h3>
-        <p>Item views are designed to be responsive with images stacking at mobile resolutions.</p>
-      </div>
-    </div>
-    <div class="ui items">
-      <div class="item">
+    <FuiItems>
+      <FuiItem>
         <div class="image">
           <img src="/images/wireframe/image.png">
         </div>
@@ -24,8 +17,8 @@
             Additional Details
           </div>
         </div>
-      </div>
-      <div class="item">
+      </FuiItem>
+      <FuiItem>
         <div class="image">
           <img src="/images/wireframe/image.png">
         </div>
@@ -41,8 +34,8 @@
             Additional Details
           </div>
         </div>
-      </div>
-    </div>
+      </FuiItem>
+    </FuiItems>
   </div>
 </template>
 
@@ -56,14 +49,7 @@ export default {
     title1: 'Types',
     title2: 'Items',
     description: 'A group of items.',
-    model: '    <div class="ui ignored positive icon message">\n' +
-      '      <i class="mobile icon"/>\n' +
-      '      <div class="content">\n' +
-      '        <h3 class="header">Responsive Element</h3>\n' +
-      '        <p>Item views are designed to be responsive with images stacking at mobile resolutions.</p>\n' +
-      '      </div>\n' +
-      '    </div>\n' +
-      '    <div class="ui items">\n' +
+    model: '   <div class="ui items">\n' +
       '      <div class="item">\n' +
       '        <div class="image">\n' +
       '          <img src="/images/wireframe/image.png">\n' +
@@ -74,7 +60,7 @@ export default {
       '            <span>Description</span>\n' +
       '          </div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="extra">\n' +
       '            Additional Details\n' +
@@ -91,7 +77,7 @@ export default {
       '            <span>Description</span>\n' +
       '          </div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="extra">\n' +
       '            Additional Details\n' +

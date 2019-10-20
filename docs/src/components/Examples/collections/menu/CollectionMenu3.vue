@@ -16,7 +16,7 @@
       <div class="item">
         <div class="ui icon input">
           <input type="text" placeholder="Search mail..."/>
-          <i class="search icon"/>
+          <i class="search icon"></i>
         </div>
       </div>
     </div>
@@ -49,7 +49,7 @@ export default {
       '      <div class="item">\n' +
       '        <div class="ui icon input">\n' +
       '          <input type="text" placeholder="Search mail..."/>\n' +
-      '          <i class="search icon"/>\n' +
+      '          <i class="search icon"></i>\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',

@@ -3,7 +3,7 @@
     <div class="ui corner labeled input">
       <input type="text" placeholder="Search..."/>
       <div class="ui corner label">
-        <i class="asterisk icon"/>
+        <i class="asterisk icon"></i>
       </div>
     </div>
   </div>
@@ -22,7 +22,7 @@ export default {
     model: '    <div class="ui corner labeled input">\n' +
       '      <input type="text" placeholder="Search..."/>\n' +
       '      <div class="ui corner label">\n' +
-      '        <i class="asterisk icon"/>\n' +
+      '        <i class="asterisk icon"></i>\n' +
       '      </div>\n' +
       '    </div>\n',
   },
