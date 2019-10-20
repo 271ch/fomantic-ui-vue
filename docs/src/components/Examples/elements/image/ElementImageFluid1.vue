@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="/images/wireframe/image.png" class="ui fluid image">
+    <FuiImage src="/images/wireframe/image.png" fluid></FuiImage>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   name: 'ElementImageFluid1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'image',
     title1: 'Variations',

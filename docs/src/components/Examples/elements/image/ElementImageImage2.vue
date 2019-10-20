@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="ui small image">
+    <FuiImage tag=div size=small>
       <img src="/images/wireframe/image.png">
-    </div>
+    </FuiImage>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'ElementImageImage2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'image',
     title1: 'Types',

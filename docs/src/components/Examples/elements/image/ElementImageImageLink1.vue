@@ -1,8 +1,8 @@
 <template>
   <div>
-    <a href="http://google.com" class="ui medium image">
+    <FuiImage tag=a size=medium href="http://google.com">
       <img src="/images/wireframe/image-text.png">
-    </a>
+    </FuiImage>
   </div>
 </template>
 
@@ -10,13 +10,13 @@
 export default {
   name: 'ElementImageImageLink1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'image',
     title1: 'Types',
     title2: 'Image Link',
     description: 'An image can be formatted to link to other content',
-    model: '    <a href="http://google.com" class="ui medium image">\n' +
+    model: '    <a class="ui medium image" href="http://google.com">\n' +
       '      <img src="/images/wireframe/image-text.png">\n' +
       '    </a>\n',
   },

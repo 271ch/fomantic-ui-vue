@@ -1,6 +1,6 @@
 <template>
   <component
-    :is="gTag()"
+    :is="gTag"
     :class="classes"
   >
     <slot />
@@ -76,7 +76,7 @@ export default {  // TODO: Component FuiHeader
         this.dividing && 'dividing',
         this.block && 'block',
         ...this.getClassesAttached,
-        ...this.getClassesHeaderLevel(),
+        ...this.getClassesHeaderLevel,
         this.horizontal && 'horizontal',
         ...this.getClassesAligned,
         ...this.getClassesFloated,

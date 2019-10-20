@@ -1,6 +1,6 @@
 <template>
   <component
-    :is="gTag()"
+    :is="gTag"
     :class="classes"
   >
     <img

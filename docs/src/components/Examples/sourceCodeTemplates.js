@@ -1,105 +1,50 @@
 let s = {};
 s.ElementImageRounded1 = 
-  '<img src="/images/wireframe/square-image.png" class="ui medium rounded image">' 
+  '<FuiImage src="/images/wireframe/square-image.png" size=medium rounded></FuiImage>' 
 s.ElementImageSize2 = 
-  '<div class="ui small images">\n' +
-  '  <img src="/images/wireframe/image.png">\n' +
-  '  <img src="/images/wireframe/image.png">\n' +
-  '  <img src="/images/wireframe/image.png">\n' +
-  '  <img src="/images/wireframe/image.png">\n' +
-  '</div>' 
+  '<FuiImages size=small>\n' +
+  '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
+  '</FuiImages>' 
 s.ElementImageFloated1 = 
-  '<div class="ui segment">\n' +
-  '  <img src="/images/wireframe/text-image.png" class="ui small left floated image">\n' +
+  '<FuiSegment>\n' +
+  '  <FuiImage src="/images/wireframe/text-image.png" size=small floated=left></FuiImage>\n' +
   '  <p>Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>\n' +
-  '  <img src="/images/wireframe/text-image.png" class="ui small right floated image">\n' +
+  '  <FuiImage src="/images/wireframe/text-image.png" size=small floated=right></FuiImage>\n' +
   '  <p>Audiam quaerendum eu sea, pro omittam definiebas ex. Te est latine definitiones. Quot wisi nulla ex duo. Vis sint solet expetenda ne, his te phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide phaedrum, vim vivendum maiestatis in.</p>\n' +
   '  <p>Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.</p>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementImageVerticallyAligned1 = 
-  '<img src="/images/wireframe/square-image.png" class="ui top aligned tiny image">\n' +
+  '<FuiImage src="/images/wireframe/square-image.png" aligned=top size=tiny></FuiImage>\n' +
   '<span>Top Aligned</span>\n' +
-  '<div class="ui divider"/>\n' +
-  '<img src="/images/wireframe/square-image.png" class="ui middle aligned tiny image">\n' +
+  '<FuiDivider></FuiDivider>\n' +
+  '<FuiImage src="/images/wireframe/square-image.png" aligned=middle size=tiny></FuiImage>\n' +
   '<span>Middle Aligned</span>\n' +
-  '<div class="ui divider"/>\n' +
-  '<img src="/images/wireframe/square-image.png" class="ui bottom aligned tiny image">\n' +
+  '<FuiDivider></FuiDivider>\n' +
+  '<FuiImage src="/images/wireframe/square-image.png" aligned=bottom size=tiny></FuiImage>\n' +
   '<span>Bottom Aligned</span>' 
 s.ElementImageHidden1 = 
-  '<img src="/images/wireframe/image.png" class="hidden ui image">' 
+  '<FuiImage src="/images/wireframe/image.png" hidden></FuiImage>' 
 s.ElementImageImage1 = 
-  '<div class="ui ignored message">\n' +
-  '   Unless a size is specified, images will use the original dimensions of the image up to the size of its container..\n' +
-  '</div>\n' +
-  '<div class="ui ignored info message">\n' +
-  '  You can specify an <code>img</code> or <code>svg</code> as a <code>ui image</code> or use a child element.\n' +
-  '</div>\n' +
-  '<img src="/images/wireframe/image.png" class="ui small image">' 
+  '<FuiImage src="/images/wireframe/image.png" size=small></FuiImage>' 
 s.ElementImageSpaced2 = 
-  '' 
+  '<p>\n' +
+  '  <FuiImage size=mini spaced=right src="/images/wireframe/image.png"></FuiImage>Audiam quaerendum eu sea, pro omittam definiebas ex. Te est latine definitiones. Quot wisi nulla ex duo. Vis sint solet expetenda ne, his te phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide phaedrum, vim vivendum maiestatis in.\n' +
+  '</p>\n' +
+  '<p>\n' +
+  '  Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.<FuiImage size=mini spaced=left src="/images/wireframe/image.png"></FuiImage>\n' +
+  '</p>' 
 s.ElementImageSize1 = 
-  '<div class="ui ignored info message">\n' +
-  '  Fomantic uses arbitrary default values for image sizes from mini to massive. It is recommended to update these with values used in your project in <code>image.variables</code>.\n' +
-  '</div>\n' +
-  '<table class="ui definition table">\n' +
-  '  <thead>\n' +
-  '    <tr>\n' +
-  '      <th>Class Name</th>\n' +
-  '      <th>Size</th>\n' +
-  '    </tr>\n' +
-  '  </thead>\n' +
-  '  <tbody>\n' +
-  '    <tr>\n' +
-  '      <td>Mini</td>\n' +
-  '      <td>35px</td>\n' +
-  '    </tr>\n' +
-  '    <tr>\n' +
-  '      <td>Tiny</td>\n' +
-  '      <td>80px</td>\n' +
-  '    </tr>\n' +
-  '    <tr>\n' +
-  '      <td>Small</td>\n' +
-  '      <td>150px</td>\n' +
-  '    </tr>\n' +
-  '    <tr>\n' +
-  '      <td>Medium</td>\n' +
-  '      <td>300px</td>\n' +
-  '    </tr>\n' +
-  '    <tr>\n' +
-  '      <td>Large</td>\n' +
-  '      <td>450px</td>\n' +
-  '    </tr>\n' +
-  '    <tr>\n' +
-  '      <td>Big</td>\n' +
-  '      <td>600px</td>\n' +
-  '    </tr>\n' +
-  '    <tr>\n' +
-  '      <td>Huge</td>\n' +
-  '      <td>800px</td>\n' +
-  '    </tr>\n' +
-  '    <tr>\n' +
-  '      <td>Massive</td>\n' +
-  '      <td>960px</td>\n' +
-  '    </tr>\n' +
-  '  </tbody>\n' +
-  '</table>\n' +
-  '<img src="/images/wireframe/image.png" class="ui mini image">\n' +
-  '<div class="ui hidden divider"/>\n' +
-  '<img src="/images/wireframe/image.png" class="ui tiny image">\n' +
-  '<div class="ui hidden divider"/>\n' +
-  '<img src="/images/wireframe/image.png" class="ui small image">\n' +
-  '<div class="ui hidden divider"/>\n' +
-  '<img src="/images/wireframe/image.png" class="ui medium image">\n' +
-  '<div class="existing code">\n' +
-  '  <img src="/images/wireframe/image.png" class="ui mini image">\n' +
-  '  <img src="/images/wireframe/image.png" class="ui tiny image">\n' +
-  '  <img src="/images/wireframe/image.png" class="ui small image">\n' +
-  '  <img src="/images/wireframe/image.png" class="ui medium image">\n' +
-  '  <img src="/images/wireframe/image.png" class="ui large image">\n' +
-  '  <img src="/images/wireframe/image.png" class="ui big image">\n' +
-  '  <img src="/images/wireframe/image.png" class="ui huge image">\n' +
-  '  <img src="/images/wireframe/image.png" class="ui massive image">\n' +
-  '</div>' 
+  '  <FuiImage src="/images/wireframe/image.png" size=mini></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/image.png" size=tiny></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/image.png" size=small></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/image.png" size=medium></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/image.png" size=large></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/image.png" size=big></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/image.png" size=huge></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/image.png" size=massive></FuiImage>' 
 s.ElementImageImage3 = 
   '<div class="ui small image">\n' +
   '  <svg width="150" height="150">\n' +
@@ -107,39 +52,39 @@ s.ElementImageImage3 =
   '  </svg>\n' +
   '</div>' 
 s.ElementImageDisabled1 = 
-  '<img src="/images/wireframe/image.png" class="disabled medium ui image">' 
+  '<FuiImage src="/images/wireframe/image.png" disabled size=medium></FuiImage>' 
 s.ElementImageCircular1 = 
-  '<img src="/images/wireframe/square-image.png" class="ui medium circular image">' 
+  '<FuiImage src="/images/wireframe/square-image.png" size=medium circular></FuiImage>' 
 s.ElementImageFluid1 = 
-  '<img src="/images/wireframe/image.png" class="ui fluid image">' 
+  '<FuiImage src="/images/wireframe/image.png" fluid></FuiImage>' 
 s.ElementImageSpaced1 = 
-  '<div class="ui segment">\n' +
-  '  <p>Te eum doming eirmod, nominati pertinacia <img src="/images/wireframe/image.png" class="ui mini spaced image"> argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>\n' +
-  '</div>' 
+  '<FuiSegment>\n' +
+  '  <p>Te eum doming eirmod, nominati pertinacia <FuiImage src="/images/wireframe/image.png" size=mini spaced></FuiImage> argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>\n' +
+  '</FuiSegment>' 
 s.ElementImageAvatar1 = 
-  '<img src="/images/wireframe/square-image.png" class="ui avatar image">\n' +
+  '<FuiImage src="/images/wireframe/square-image.png" avatar></FuiImage>\n' +
   '<span>Username</span>' 
 s.ElementImageImageLink1 = 
   '<a href="http://google.com" class="ui medium image">\n' +
   '  <img src="/images/wireframe/image-text.png">\n' +
   '</a>' 
 s.ElementImageBordered1 = 
-  '<img src="/images/wireframe/white-image.png" class="ui medium bordered image">' 
+  '<FuiImage src="/images/wireframe/white-image.png" size=medium bordered></FuiImage>' 
 s.ElementImageSize1A = 
-  '<div class="ui tiny images">\n' +
-  '  <img src="/images/wireframe/image.png" class="ui image">\n' +
-  '  <img src="/images/wireframe/image.png" class="ui image">\n' +
-  '  <img src="/images/wireframe/image.png" class="ui image">\n' +
-  '  <img src="/images/wireframe/image.png" class="ui image">\n' +
-  '</div>' 
+  '<FuiImages size=tiny>\n' +
+  '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
+  '</FuiImages>' 
 s.ElementImageCentered1 = 
-  '<div class="ui segment">\n' +
-  '  <img src="/images/wireframe/image.png" class="ui centered medium image">\n' +
+  '<FuiSegment>\n' +
+  '  <FuiImage src="/images/wireframe/image.png" centered size=medium></FuiImage>\n' +
   '  <p>Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>\n' +
   '  <p>Audiam quaerendum eu sea, pro omittam definiebas ex. Te est latine definitiones. Quot wisi nulla ex duo. Vis sint solet expetenda ne, his te phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide phaedrum, vim vivendum maiestatis in.</p>\n' +
-  '  <img src="/images/wireframe/text-image.png" class="ui small centered image">\n' +
+  '  <FuiImage src="/images/wireframe/text-image.png" size=small centered></FuiImage>\n' +
   '  <p>Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.</p>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementImageImage2 = 
   '<div class="ui small image">\n' +
   '  <img src="/images/wireframe/image.png">\n' +

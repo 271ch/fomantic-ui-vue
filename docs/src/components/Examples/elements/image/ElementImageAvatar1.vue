@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="/images/wireframe/square-image.png" class="ui avatar image">
+    <FuiImage src="/images/wireframe/square-image.png" avatar></FuiImage>
     <span>Username</span>
   </div>
 </template>
@@ -9,7 +9,7 @@
 export default {
   name: 'ElementImageAvatar1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'image',
     title1: 'Variations',

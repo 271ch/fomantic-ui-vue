@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="/images/wireframe/square-image.png" class="ui medium circular image">
+    <FuiImage src="/images/wireframe/square-image.png" size=medium circular></FuiImage>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   name: 'ElementImageCircular1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'image',
     title1: 'Variations',

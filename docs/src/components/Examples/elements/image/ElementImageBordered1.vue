@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="/images/wireframe/white-image.png" class="ui medium bordered image">
+    <FuiImage src="/images/wireframe/white-image.png" size=medium bordered></FuiImage>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   name: 'ElementImageBordered1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'image',
     title1: 'Variations',

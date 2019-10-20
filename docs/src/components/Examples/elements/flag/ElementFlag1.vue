@@ -252,7 +252,7 @@
 export default {
   name: 'ElementFlag1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'flag',
     title1: '???',

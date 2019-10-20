@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="/images/wireframe/image.png" class="hidden ui image">
+    <FuiImage src="/images/wireframe/image.png" hidden></FuiImage>
   </div>
 </template>
 
@@ -8,13 +8,13 @@
 export default {
   name: 'ElementImageHidden1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'image',
     title1: 'States',
     title2: 'Hidden',
     description: 'An image can be hidden',
-    model: '    <img src="/images/wireframe/image.png" class="hidden ui image">\n',
+    model: '    <img src="/images/wireframe/image.png" class="ui hidden image">\n',
   },
 };
 </script>

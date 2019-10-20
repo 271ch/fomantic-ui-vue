@@ -122,7 +122,7 @@ mixins.PHeaderLevel = {
       default: false,
     },
   },
-  methods: {
+  computed: {
     gTag: function () {
       if (this.useDiv || this.level === false) { // TODO: false => prop 'sub' required
         return 'div';
@@ -260,7 +260,7 @@ mixins.getMixinTag = function (values, def) {
         default: false,
       },
     },
-    methods: {
+    computed: {
       gTag: function () {
         return (this.tag === false && def) ||
           (this.tag && this.tag != true && this.tag);

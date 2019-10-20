@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="ui tiny images">
-      <img src="/images/wireframe/image.png" class="ui image">
-      <img src="/images/wireframe/image.png" class="ui image">
-      <img src="/images/wireframe/image.png" class="ui image">
-      <img src="/images/wireframe/image.png" class="ui image">
-    </div>
+    <FuiImages size=tiny>
+      <FuiImage src="/images/wireframe/image.png"></FuiImage>
+      <FuiImage src="/images/wireframe/image.png"></FuiImage>
+      <FuiImage src="/images/wireframe/image.png"></FuiImage>
+      <FuiImage src="/images/wireframe/image.png"></FuiImage>
+    </FuiImages>
   </div>
 </template>
 
@@ -13,7 +13,7 @@
 export default {
   name: 'ElementImageSize1A',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'image',
     title1: 'Groups',

@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui small image">
+    <FuiImage tag=div size=small>
       <svg width="150" height="150">
         <image xlink:href="/images/wireframe/image.png" x="0" y="0" width="100%" height="100%"/>
       </svg>
-    </div>
+    </FuiImage>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementImageImage3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'image',
     title1: 'Types',
@@ -20,7 +20,7 @@ export default {
     description: 'An image',
     model: '    <div class="ui small image">\n' +
       '      <svg width="150" height="150">\n' +
-      '        <image xlink:href="/images/wireframe/image.png" x="0" y="0" width="100%" height="100%"/>\n' +
+      '        <image xlink:href="/images/wireframe/image.png" x="0" y="0" width="100%" height="100%"></image>\n' +
       '      </svg>\n' +
       '    </div>\n',
   },
