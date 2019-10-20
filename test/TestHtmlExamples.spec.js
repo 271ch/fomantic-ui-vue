@@ -5,18 +5,23 @@ import { shallowMount } from '@vue/test-utils'
 import { mount } from '@vue/test-utils'
 import FuiVue from '../src'
 import examples from '../docs/src/components/Examples/examples'
-import { fixture } from '@open-wc/testing-helpers';
-import { chaiDomDiff } from '@open-wc/semantic-dom-diff';
-
-chai.use(chaiDomDiff);
+var beautify_html = require('js-beautify').html;
 
 FuiVue.registerAll(Vue)
 
 let converted = 0;
 let notConverted = 0;
 
-let moreLog = ['ElementFlag1'];
-moreLog = [];
+const html_std = function(html) {
+  let html2 = html.replace(/<!---->/gm,'').replace(/</gm,'\n<').replace(/>/gm,'>\n');
+  let html3 = html2.replace(/\s+$/gm, "").replace(/^\s+/gm, "")
+  while (true) {
+    let l = html3.length
+    html3 = html3.replace('\n\n','\n');
+    if (l == html3.length) break;
+  }
+  return html3;
+}
 
 const testElementType = function (et, elemList) {
   describe(`Element type: [${et}]`, function () {
@@ -48,30 +53,18 @@ const testTemplate = function (templ) {
       converted += 1;
       // html template
       const wrapper = mount(templ);
-      let html = wrapper.html();
+      let html = html_std(wrapper.html());
       // html model
-      let htmlModel = `<div>${templ.info.model}</div>`;
+      let htmlModel = html_std(`<div>${templ.info.model}</div>`);
 
-      if (moreLog.indexOf(templ.name) !== -1) {
-        console.log(`---------------- ${templ.name}: model ----------------`);
-        console.log(htmlModel);
-        console.log(`---------------- ${templ.name}: templ. ----------------`);
-        console.log(html);
-        console.log(`---------------- ${templ.name}: end ----------------`);
+      if (templ.name === 'ElementButtonLabeled2') {
+        // console.log(html);
       }
 
-      /*
-      //const elHtml = await fixture(html)
-      // const elHtmlModel = await fixture(htmlModel)
-
-      chai.expect(html, 'the template differs').dom.to.equal(htmlModel);
-
-      */
-      chai.expect(htmlModel, 'the xml of the model is not valid').xml.to.be.valid();
-      chai.expect(html, 'the xml of the template is not valid').xml.to.be.valid();
-
-      chai.expect(html, 'the template differs').xml.to.deep.equal(htmlModel);
-
+      const opts = {};
+      let htmlPretty = beautify_html(html, opts );
+      let htmlModelPretty = beautify_html(htmlModel, opts);
+      chai.expect(htmlPretty, 'the template differs').equal(htmlModelPretty);
     }
   })
 }
@@ -80,11 +73,3 @@ for (let idxPairET in examples) {
   let [et,listTypes] = examples[idxPairET]
   testElementType(et,listTypes);
 };
-
-
-describe(`Dummy test`, function () {
-  it(`Dummy test`, async function () {
-    const el = await fixture('<div>  </div>');
-    chai.expect(el).dom.to.equal('<div></div>');
-  })
-})

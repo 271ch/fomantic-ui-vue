@@ -3,7 +3,7 @@
     <div class="ui four cards">
       <div class="card">
         <div class="image">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="extra">
           Rating:
@@ -12,7 +12,7 @@
       </div>
       <div class="card">
         <div class="image">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="extra">
           Rating:
@@ -21,7 +21,7 @@
       </div>
       <div class="card">
         <div class="image">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="extra">
           Rating:
@@ -30,7 +30,7 @@
       </div>
       <div class="card">
         <div class="image">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="extra">
           Rating:
@@ -39,7 +39,7 @@
       </div>
       <div class="card">
         <div class="image">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="extra">
           Rating:
@@ -48,7 +48,7 @@
       </div>
       <div class="card">
         <div class="image">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="extra">
           Rating:
@@ -57,7 +57,7 @@
       </div>
       <div class="card">
         <div class="image">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="extra">
           Rating:
@@ -66,7 +66,7 @@
       </div>
       <div class="card">
         <div class="image">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="extra">
           Rating:
@@ -90,7 +90,7 @@ export default {
     model: '    <div class="ui four cards">\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="extra">\n' +
       '          Rating:\n' +
@@ -99,7 +99,7 @@ export default {
       '      </div>\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="extra">\n' +
       '          Rating:\n' +
@@ -108,7 +108,7 @@ export default {
       '      </div>\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="extra">\n' +
       '          Rating:\n' +
@@ -117,7 +117,7 @@ export default {
       '      </div>\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="extra">\n' +
       '          Rating:\n' +
@@ -126,7 +126,7 @@ export default {
       '      </div>\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="extra">\n' +
       '          Rating:\n' +
@@ -135,7 +135,7 @@ export default {
       '      </div>\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="extra">\n' +
       '          Rating:\n' +
@@ -144,7 +144,7 @@ export default {
       '      </div>\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="extra">\n' +
       '          Rating:\n' +
@@ -153,7 +153,7 @@ export default {
       '      </div>\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="extra">\n' +
       '          Rating:\n' +

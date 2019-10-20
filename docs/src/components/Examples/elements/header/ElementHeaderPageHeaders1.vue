@@ -24,15 +24,15 @@ export default {
     title2: 'Page Headers',
     description: 'Headers may be oriented to give the hierarchy of a section in the context of the page',
     model: '    <h1 class="ui header">First header</h1>\n' +
-      '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '    <h2 class="ui header">Second header</h2>\n' +
-      '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '    <h3 class="ui header">Third header</h3>\n' +
-      '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '    <h4 class="ui header">Fourth header</h4>\n' +
-      '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '    <h5 class="ui header">Fifth header</h5>\n' +
-      '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n',
+      '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n',
   },
 };
 </script>

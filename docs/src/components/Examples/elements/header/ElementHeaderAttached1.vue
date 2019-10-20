@@ -32,13 +32,13 @@ export default {
       '      Top Attached\n' +
       '    </h3>\n' +
       '    <div class="ui attached segment">\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n' +
       '    <h3 class="ui attached header">\n' +
       '      Attached\n' +
       '    </h3>\n' +
       '    <div class="ui attached segment">\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n' +
       '    <h3 class="ui bottom attached header">\n' +
       '      Bottom Attached\n' +

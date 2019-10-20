@@ -28,7 +28,7 @@ export default {
       '        <div class="sub header">Manage your preferences</div>\n' +
       '      </div>\n' +
       '    </h2>\n' +
-      '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n',
+      '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n',
   },
 };
 </script>

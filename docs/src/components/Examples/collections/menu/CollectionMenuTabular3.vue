@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui top attached segment">
-      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
     </div>
     <div class="ui bottom attached tabular menu">
       <a class="active item">
@@ -33,7 +33,7 @@ export default {
     title2: 'Tabular',
     description: 'A menu can be formatted to show tabs of information',
     model: '    <div class="ui top attached segment">\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n' +
       '    <div class="ui bottom attached tabular menu">\n' +
       '      <a class="active item">\n' +

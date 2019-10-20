@@ -7,7 +7,7 @@
           <a class="ui left corner label">
             <i class="heart icon"/>
           </a>
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
       </div>
       <div class="column">
@@ -15,7 +15,7 @@
           <a class="ui red right corner label">
             <i class="save icon"/>
           </a>
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@ export default {
       '          <a class="ui left corner label">\n' +
       '            <i class="heart icon"/>\n' +
       '          </a>\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="column">\n' +
@@ -47,7 +47,7 @@ export default {
       '          <a class="ui red right corner label">\n' +
       '            <i class="save icon"/>\n' +
       '          </a>\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',

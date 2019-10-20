@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui disabled segment">
-      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
     title2: 'Disabled',
     description: 'A segment may show its content is disabled',
     model: '    <div class="ui disabled segment">\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n',
   },
 };

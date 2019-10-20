@@ -18,11 +18,11 @@ export default {
     title1: 'Variations',
     title2: 'Dividing',
     description: 'A header can be formatted to divide itself from the content below it',
-    model: '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+    model: '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '    <h3 class="ui dividing header">\n' +
       '      Dividing Header\n' +
       '    </h3>\n' +
-      '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n',
+      '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n',
   },
 };
 </script>

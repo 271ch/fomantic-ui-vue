@@ -20,7 +20,7 @@ export default {
     model: '    <div class="ui disabled header">\n' +
       '      Disabled Header\n' +
       '    </div>\n' +
-      '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n',
+      '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n',
   },
 };
 </script>

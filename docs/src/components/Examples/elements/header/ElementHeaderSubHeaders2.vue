@@ -2,14 +2,14 @@
   <div>
     <div class="ui horizontal list">
       <div class="item">
-        <img class="ui mini circular image" src="/images/avatar2/small/molly.png"/>
+        <img src="/images/avatar2/small/molly.png" class="ui mini circular image">
         <div class="content">
           <div class="ui sub header">Molly</div>
           Coordinator
         </div>
       </div>
       <div class="item">
-        <img class="ui mini circular image" src="/images/avatar2/small/elyse.png"/>
+        <img src="/images/avatar2/small/elyse.png" class="ui mini circular image">
         <div class="content">
           <div class="ui sub header">Elyse</div>
           Developer
@@ -38,14 +38,14 @@ export default {
     description: 'Headers may be formatted to label smaller or de-emphasized content.',
     model: '    <div class="ui horizontal list">\n' +
       '      <div class="item">\n' +
-      '        <img class="ui mini circular image" src="/images/avatar2/small/molly.png"/>\n' +
+      '        <img src="/images/avatar2/small/molly.png" class="ui mini circular image">\n' +
       '        <div class="content">\n' +
       '          <div class="ui sub header">Molly</div>\n' +
       '          Coordinator\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="item">\n' +
-      '        <img class="ui mini circular image" src="/images/avatar2/small/elyse.png"/>\n' +
+      '        <img src="/images/avatar2/small/elyse.png" class="ui mini circular image">\n' +
       '        <div class="content">\n' +
       '          <div class="ui sub header">Elyse</div>\n' +
       '          Developer\n' +

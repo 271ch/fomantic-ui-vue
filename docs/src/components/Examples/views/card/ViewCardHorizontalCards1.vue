@@ -2,7 +2,7 @@
   <div>
     <div class="ui horizontal card">
       <div class="image">
-        <img src="/images/avatar2/large/elyse.png"/>
+        <img src="/images/avatar2/large/elyse.png">
       </div>
       <div class="content">
         <div class="header">Cute Dog</div>
@@ -10,7 +10,7 @@
           <span class="category">Animals</span>
         </div>
         <div class="description">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
       </div>
     </div>
@@ -29,7 +29,7 @@ export default {
     description: 'A card can display horizontally',
     model: '    <div class="ui horizontal card">\n' +
       '      <div class="image">\n' +
-      '        <img src="/images/avatar2/large/elyse.png"/>\n' +
+      '        <img src="/images/avatar2/large/elyse.png">\n' +
       '      </div>\n' +
       '      <div class="content">\n' +
       '        <div class="header">Cute Dog</div>\n' +
@@ -37,7 +37,7 @@ export default {
       '          <span class="category">Animals</span>\n' +
       '        </div>\n' +
       '        <div class="description">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',

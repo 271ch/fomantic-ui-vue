@@ -1,5 +1,8 @@
 <template>
-  <img :class="classes" :src="src" />
+  <img
+    :src="src"
+    :class="classes"
+  >
 </template>
 
 <script>

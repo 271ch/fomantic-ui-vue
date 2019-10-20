@@ -4,7 +4,7 @@
       <div class="ui inverted cards">
         <div class="card">
           <div class="image">
-            <img src="/images/avatar2/large/matthew.png"/>
+            <img src="/images/avatar2/large/matthew.png">
           </div>
           <div class="content">
             <a class="header">Matt Giampietro</a>
@@ -27,7 +27,7 @@
         </div>
         <div class="card">
           <div class="image">
-            <img src="/images/avatar2/large/molly.png"/>
+            <img src="/images/avatar2/large/molly.png">
           </div>
           <div class="content">
             <a class="header">Molly</a>
@@ -50,7 +50,7 @@
         </div>
         <div class="card">
           <div class="image">
-            <img src="/images/avatar2/large/elyse.png"/>
+            <img src="/images/avatar2/large/elyse.png">
           </div>
           <div class="content">
             <a class="header">Elyse</a>
@@ -90,7 +90,7 @@ export default {
       '      <div class="ui inverted cards">\n' +
       '        <div class="card">\n' +
       '          <div class="image">\n' +
-      '            <img src="/images/avatar2/large/matthew.png"/>\n' +
+      '            <img src="/images/avatar2/large/matthew.png">\n' +
       '          </div>\n' +
       '          <div class="content">\n' +
       '            <a class="header">Matt Giampietro</a>\n' +
@@ -113,7 +113,7 @@ export default {
       '        </div>\n' +
       '        <div class="card">\n' +
       '          <div class="image">\n' +
-      '            <img src="/images/avatar2/large/molly.png"/>\n' +
+      '            <img src="/images/avatar2/large/molly.png">\n' +
       '          </div>\n' +
       '          <div class="content">\n' +
       '            <a class="header">Molly</a>\n' +
@@ -136,7 +136,7 @@ export default {
       '        </div>\n' +
       '        <div class="card">\n' +
       '          <div class="image">\n' +
-      '            <img src="/images/avatar2/large/elyse.png"/>\n' +
+      '            <img src="/images/avatar2/large/elyse.png">\n' +
       '          </div>\n' +
       '          <div class="content">\n' +
       '            <a class="header">Elyse</a>\n' +

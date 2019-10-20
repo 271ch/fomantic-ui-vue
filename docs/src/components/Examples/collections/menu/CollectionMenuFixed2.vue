@@ -4,7 +4,7 @@
     <div class="existing code">
       <div class="ui left fixed vertical menu">
         <div class="item">
-          <img class="ui mini image" src="/images/logo.png"/>
+          <img src="/images/logo.png" class="ui mini image">
         </div>
         <a class="item">Features</a>
         <a class="item">Testimonials</a>
@@ -12,7 +12,7 @@
       </div>
       <div class="ui right fixed vertical menu">
         <div class="item">
-          <img class="ui mini image" src="/images/logo.png"/>
+          <img src="/images/logo.png" class="ui mini image">
         </div>
         <a class="item">Features</a>
         <a class="item">Testimonials</a>
@@ -38,7 +38,7 @@ export default {
       '    <div class="existing code">\n' +
       '      <div class="ui left fixed vertical menu">\n' +
       '        <div class="item">\n' +
-      '          <img class="ui mini image" src="/images/logo.png"/>\n' +
+      '          <img src="/images/logo.png" class="ui mini image">\n' +
       '        </div>\n' +
       '        <a class="item">Features</a>\n' +
       '        <a class="item">Testimonials</a>\n' +
@@ -46,7 +46,7 @@ export default {
       '      </div>\n' +
       '      <div class="ui right fixed vertical menu">\n' +
       '        <div class="item">\n' +
-      '          <img class="ui mini image" src="/images/logo.png"/>\n' +
+      '          <img src="/images/logo.png" class="ui mini image">\n' +
       '        </div>\n' +
       '        <a class="item">Features</a>\n' +
       '        <a class="item">Testimonials</a>\n' +

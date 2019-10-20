@@ -1,32 +1,32 @@
 let s = {};
 s.ElementImageRounded1 = 
-  '<img class="ui medium rounded image" src="/images/wireframe/square-image.png"/>' 
+  '<img src="/images/wireframe/square-image.png" class="ui medium rounded image">' 
 s.ElementImageSize2 = 
   '<div class="ui small images">\n' +
-  '  <img src="/images/wireframe/image.png"/>\n' +
-  '  <img src="/images/wireframe/image.png"/>\n' +
-  '  <img src="/images/wireframe/image.png"/>\n' +
-  '  <img src="/images/wireframe/image.png"/>\n' +
+  '  <img src="/images/wireframe/image.png">\n' +
+  '  <img src="/images/wireframe/image.png">\n' +
+  '  <img src="/images/wireframe/image.png">\n' +
+  '  <img src="/images/wireframe/image.png">\n' +
   '</div>' 
 s.ElementImageFloated1 = 
   '<div class="ui segment">\n' +
-  '  <img class="ui small left floated image" src="/images/wireframe/text-image.png"/>\n' +
+  '  <img src="/images/wireframe/text-image.png" class="ui small left floated image">\n' +
   '  <p>Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>\n' +
-  '  <img class="ui small right floated image" src="/images/wireframe/text-image.png"/>\n' +
+  '  <img src="/images/wireframe/text-image.png" class="ui small right floated image">\n' +
   '  <p>Audiam quaerendum eu sea, pro omittam definiebas ex. Te est latine definitiones. Quot wisi nulla ex duo. Vis sint solet expetenda ne, his te phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide phaedrum, vim vivendum maiestatis in.</p>\n' +
   '  <p>Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.</p>\n' +
   '</div>' 
 s.ElementImageVerticallyAligned1 = 
-  '<img class="ui top aligned tiny image" src="/images/wireframe/square-image.png"/>\n' +
+  '<img src="/images/wireframe/square-image.png" class="ui top aligned tiny image">\n' +
   '<span>Top Aligned</span>\n' +
   '<div class="ui divider"/>\n' +
-  '<img class="ui middle aligned tiny image" src="/images/wireframe/square-image.png"/>\n' +
+  '<img src="/images/wireframe/square-image.png" class="ui middle aligned tiny image">\n' +
   '<span>Middle Aligned</span>\n' +
   '<div class="ui divider"/>\n' +
-  '<img class="ui bottom aligned tiny image" src="/images/wireframe/square-image.png"/>\n' +
+  '<img src="/images/wireframe/square-image.png" class="ui bottom aligned tiny image">\n' +
   '<span>Bottom Aligned</span>' 
 s.ElementImageHidden1 = 
-  '<img class="hidden ui image" src="/images/wireframe/image.png"/>' 
+  '<img src="/images/wireframe/image.png" class="hidden ui image">' 
 s.ElementImageImage1 = 
   '<div class="ui ignored message">\n' +
   '   Unless a size is specified, images will use the original dimensions of the image up to the size of its container..\n' +
@@ -34,7 +34,7 @@ s.ElementImageImage1 =
   '<div class="ui ignored info message">\n' +
   '  You can specify an <code>img</code> or <code>svg</code> as a <code>ui image</code> or use a child element.\n' +
   '</div>\n' +
-  '<img class="ui small image" src="/images/wireframe/image.png"/>' 
+  '<img src="/images/wireframe/image.png" class="ui small image">' 
 s.ElementImageSpaced2 = 
   '' 
 s.ElementImageSize1 = 
@@ -83,22 +83,22 @@ s.ElementImageSize1 =
   '    </tr>\n' +
   '  </tbody>\n' +
   '</table>\n' +
-  '<img class="ui mini image" src="/images/wireframe/image.png"/>\n' +
+  '<img src="/images/wireframe/image.png" class="ui mini image">\n' +
   '<div class="ui hidden divider"/>\n' +
-  '<img class="ui tiny image" src="/images/wireframe/image.png"/>\n' +
+  '<img src="/images/wireframe/image.png" class="ui tiny image">\n' +
   '<div class="ui hidden divider"/>\n' +
-  '<img class="ui small image" src="/images/wireframe/image.png"/>\n' +
+  '<img src="/images/wireframe/image.png" class="ui small image">\n' +
   '<div class="ui hidden divider"/>\n' +
-  '<img class="ui medium image" src="/images/wireframe/image.png"/>\n' +
+  '<img src="/images/wireframe/image.png" class="ui medium image">\n' +
   '<div class="existing code">\n' +
-  '  <img class="ui mini image" src="/images/wireframe/image.png"/>\n' +
-  '  <img class="ui tiny image" src="/images/wireframe/image.png"/>\n' +
-  '  <img class="ui small image" src="/images/wireframe/image.png"/>\n' +
-  '  <img class="ui medium image" src="/images/wireframe/image.png"/>\n' +
-  '  <img class="ui large image" src="/images/wireframe/image.png"/>\n' +
-  '  <img class="ui big image" src="/images/wireframe/image.png"/>\n' +
-  '  <img class="ui huge image" src="/images/wireframe/image.png"/>\n' +
-  '  <img class="ui massive image" src="/images/wireframe/image.png"/>\n' +
+  '  <img src="/images/wireframe/image.png" class="ui mini image">\n' +
+  '  <img src="/images/wireframe/image.png" class="ui tiny image">\n' +
+  '  <img src="/images/wireframe/image.png" class="ui small image">\n' +
+  '  <img src="/images/wireframe/image.png" class="ui medium image">\n' +
+  '  <img src="/images/wireframe/image.png" class="ui large image">\n' +
+  '  <img src="/images/wireframe/image.png" class="ui big image">\n' +
+  '  <img src="/images/wireframe/image.png" class="ui huge image">\n' +
+  '  <img src="/images/wireframe/image.png" class="ui massive image">\n' +
   '</div>' 
 s.ElementImageImage3 = 
   '<div class="ui small image">\n' +
@@ -107,42 +107,42 @@ s.ElementImageImage3 =
   '  </svg>\n' +
   '</div>' 
 s.ElementImageDisabled1 = 
-  '<img class="disabled medium ui image" src="/images/wireframe/image.png"/>' 
+  '<img src="/images/wireframe/image.png" class="disabled medium ui image">' 
 s.ElementImageCircular1 = 
-  '<img class="ui medium circular image" src="/images/wireframe/square-image.png"/>' 
+  '<img src="/images/wireframe/square-image.png" class="ui medium circular image">' 
 s.ElementImageFluid1 = 
-  '<img class="ui fluid image" src="/images/wireframe/image.png"/>' 
+  '<img src="/images/wireframe/image.png" class="ui fluid image">' 
 s.ElementImageSpaced1 = 
   '<div class="ui segment">\n' +
-  '  <p>Te eum doming eirmod, nominati pertinacia <img class="ui mini spaced image" src="/images/wireframe/image.png"/> argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>\n' +
+  '  <p>Te eum doming eirmod, nominati pertinacia <img src="/images/wireframe/image.png" class="ui mini spaced image"> argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>\n' +
   '</div>' 
 s.ElementImageAvatar1 = 
-  '<img class="ui avatar image" src="/images/wireframe/square-image.png"/>\n' +
+  '<img src="/images/wireframe/square-image.png" class="ui avatar image">\n' +
   '<span>Username</span>' 
 s.ElementImageImageLink1 = 
   '<a href="http://google.com" class="ui medium image">\n' +
-  '  <img src="/images/wireframe/image-text.png"/>\n' +
+  '  <img src="/images/wireframe/image-text.png">\n' +
   '</a>' 
 s.ElementImageBordered1 = 
-  '<img class="ui medium bordered image" src="/images/wireframe/white-image.png"/>' 
+  '<img src="/images/wireframe/white-image.png" class="ui medium bordered image">' 
 s.ElementImageSize1A = 
   '<div class="ui tiny images">\n' +
-  '  <img class="ui image" src="/images/wireframe/image.png"/>\n' +
-  '  <img class="ui image" src="/images/wireframe/image.png"/>\n' +
-  '  <img class="ui image" src="/images/wireframe/image.png"/>\n' +
-  '  <img class="ui image" src="/images/wireframe/image.png"/>\n' +
+  '  <img src="/images/wireframe/image.png" class="ui image">\n' +
+  '  <img src="/images/wireframe/image.png" class="ui image">\n' +
+  '  <img src="/images/wireframe/image.png" class="ui image">\n' +
+  '  <img src="/images/wireframe/image.png" class="ui image">\n' +
   '</div>' 
 s.ElementImageCentered1 = 
   '<div class="ui segment">\n' +
-  '  <img class="ui centered medium image" src="/images/wireframe/image.png"/>\n' +
+  '  <img src="/images/wireframe/image.png" class="ui centered medium image">\n' +
   '  <p>Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>\n' +
   '  <p>Audiam quaerendum eu sea, pro omittam definiebas ex. Te est latine definitiones. Quot wisi nulla ex duo. Vis sint solet expetenda ne, his te phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide phaedrum, vim vivendum maiestatis in.</p>\n' +
-  '  <img class="ui small centered image" src="/images/wireframe/text-image.png"/>\n' +
+  '  <img src="/images/wireframe/text-image.png" class="ui small centered image">\n' +
   '  <p>Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.</p>\n' +
   '</div>' 
 s.ElementImageImage2 = 
   '<div class="ui small image">\n' +
-  '  <img src="/images/wireframe/image.png"/>\n' +
+  '  <img src="/images/wireframe/image.png">\n' +
   '</div>' 
 s.ElementPlaceholderImage2 = 
   '<div class="ui ignored info message">\n' +
@@ -476,11 +476,11 @@ s.ElementSegmentEmphasis1 =
   '</div>' 
 s.ElementSegmentPadded2 = 
   '<div class="ui very padded segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementSegmentSegment1 = 
   '<div class="ui segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementSegmentSegments3 = 
   '<div class="ui segments">\n' +
@@ -514,18 +514,18 @@ s.ElementSegmentClearing1 =
   '</div>' 
 s.ElementSegmentPadded1 = 
   '<div class="ui padded segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementSegmentHorizontalSegments1 = 
   '<div class="ui horizontal segments">\n' +
   '  <div class="ui segment">\n' +
-  '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '  </div>\n' +
   '  <div class="ui segment">\n' +
-  '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '  </div>\n' +
   '  <div class="ui segment">\n' +
-  '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '  </div>\n' +
   '</div>' 
 s.ElementSegmentPlaceholderSegment1 = 
@@ -538,13 +538,13 @@ s.ElementSegmentPlaceholderSegment1 =
   '</div>' 
 s.ElementSegmentVerticalSegment1 = 
   '<div class="ui vertical segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui vertical segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui vertical segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementSegmentFitted1 = 
   '<div class="ui fitted segment">\n' +
@@ -668,20 +668,20 @@ s.ElementSegmentInverted1 =
   '</div>' 
 s.ElementSegmentLoading1 = 
   '<div class="ui loading segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementSegmentDisabled1 = 
   '<div class="ui disabled segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementSegmentLoading2 = 
   '<div class="ui black label">New in 2.7.0</div>\n' +
   '<div class="ui ignored info message"><code>elastic</code> as loading style is currently not supported  because segment uses the <code>:before</code> pseudoclass to dimm the background.</div>\n' +
   '<div class="ui brown double loading segment">\n' +
-  '    <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '    <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui brown usual double loading segment">\n' +
-  '    <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '    <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementSegmentAttached2 = 
   '<h5 class="ui top attached header">\n' +
@@ -713,13 +713,13 @@ s.ElementSegmentStacked2 =
 s.ElementSegmentHorizontalSegments2 = 
   '<div class="ui horizontal basic segments">\n' +
   '  <div class="ui segment">\n' +
-  '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '  </div>\n' +
   '  <div class="ui segment">\n' +
-  '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '  </div>\n' +
   '  <div class="ui segment">\n' +
-  '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '  </div>\n' +
   '</div>' 
 s.ElementSegmentCircular1 = 
@@ -816,21 +816,21 @@ s.ElementListImage1 =
   '</div> -->\n' +
   '<div class="ui list">\n' +
   '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar2/small/rachel.png"/>\n' +
+  '    <img src="/images/avatar2/small/rachel.png" class="ui avatar image">\n' +
   '    <div class="content">\n' +
   '      <a class="header">Rachel</a>\n' +
   '      <div class="description">Last seen watching <a><b>Arrested Development</b></a> just now.</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar2/small/lindsay.png"/>\n' +
+  '    <img src="/images/avatar2/small/lindsay.png" class="ui avatar image">\n' +
   '    <div class="content">\n' +
   '      <a class="header">Lindsay</a>\n' +
   '      <div class="description">Last seen watching <a><b>Bob\'s Burgers</b></a> 10 hours ago.</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar2/small/matthew.png"/>\n' +
+  '    <img src="/images/avatar2/small/matthew.png" class="ui avatar image">\n' +
   '    <div class="content">\n' +
   '      <a class="header">Matthew</a>\n' +
   '      <div class="description">Last seen watching <a><b>The Godfather Part 2</b></a> yesterday.</div>\n' +
@@ -1520,19 +1520,19 @@ s.ElementListSize2 =
 s.ElementListVerticallyAligned1 = 
   '<div class="ui horizontal list">\n' +
   '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/wireframe/square-image.png"/>\n' +
+  '    <img src="/images/wireframe/square-image.png" class="ui avatar image">\n' +
   '    <div class="top aligned content">\n' +
   '      Top Aligned\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/wireframe/square-image.png"/>\n' +
+  '    <img src="/images/wireframe/square-image.png" class="ui avatar image">\n' +
   '    <div class="middle aligned content">\n' +
   '      Middle\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/wireframe/square-image.png"/>\n' +
+  '    <img src="/images/wireframe/square-image.png" class="ui avatar image">\n' +
   '    <div class="bottom aligned content">\n' +
   '      Bottom\n' +
   '    </div>\n' +
@@ -1627,7 +1627,7 @@ s.ElementListFloated1 =
   '    <div class="right floated content">\n' +
   '      <div class="ui button">Add</div>\n' +
   '    </div>\n' +
-  '    <img class="ui avatar image" src="/images/avatar2/small/lena.png"/>\n' +
+  '    <img src="/images/avatar2/small/lena.png" class="ui avatar image">\n' +
   '    <div class="content">\n' +
   '      Lena\n' +
   '    </div>\n' +
@@ -1636,7 +1636,7 @@ s.ElementListFloated1 =
   '    <div class="right floated content">\n' +
   '      <div class="ui button">Add</div>\n' +
   '    </div>\n' +
-  '    <img class="ui avatar image" src="/images/avatar2/small/lindsay.png"/>\n' +
+  '    <img src="/images/avatar2/small/lindsay.png" class="ui avatar image">\n' +
   '    <div class="content">\n' +
   '      Lindsay\n' +
   '    </div>\n' +
@@ -1645,7 +1645,7 @@ s.ElementListFloated1 =
   '    <div class="right floated content">\n' +
   '      <div class="ui button">Add</div>\n' +
   '    </div>\n' +
-  '    <img class="ui avatar image" src="/images/avatar2/small/mark.png"/>\n' +
+  '    <img src="/images/avatar2/small/mark.png" class="ui avatar image">\n' +
   '    <div class="content">\n' +
   '      Mark\n' +
   '    </div>\n' +
@@ -1654,7 +1654,7 @@ s.ElementListFloated1 =
   '    <div class="right floated content">\n' +
   '      <div class="ui button">Add</div>\n' +
   '    </div>\n' +
-  '    <img class="ui avatar image" src="/images/avatar2/small/molly.png"/>\n' +
+  '    <img src="/images/avatar2/small/molly.png" class="ui avatar image">\n' +
   '    <div class="content">\n' +
   '      Molly\n' +
   '    </div>\n' +
@@ -2537,12 +2537,12 @@ s.ElementDividerHorizontalDivider1 =
   '  <div class="ui left icon action input">\n' +
   '    <FuiIcon name=search></FuiIcon>\n' +
   '    <input type="text" placeholder="Order #"/>\n' +
-  '    <FuiButton color=blue submit>Search</FuiButton>\n' +
+  '    <FuiButton tag=div color=blue submit>Search</FuiButton>\n' +
   '  </div>\n' +
   '  <FuiDivider horizontal>\n' +
   '    Or\n' +
   '  </FuiDivider>\n' +
-  '  <FuiButton color=teal labeledIcon>\n' +
+  '  <FuiButton tag=div color=teal labeledIcon>\n' +
   '    Create New Order\n' +
   '    <FuiIcon name=add></FuiIcon>\n' +
   '  </FuiButton>\n' +
@@ -2742,7 +2742,7 @@ s.ElementLabelCorner1 =
   '      <a class="ui left corner label">\n' +
   '        <i class="heart icon"/>\n' +
   '      </a>\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="column">\n' +
@@ -2750,7 +2750,7 @@ s.ElementLabelCorner1 =
   '      <a class="ui red right corner label">\n' +
   '        <i class="save icon"/>\n' +
   '      </a>\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -2829,7 +2829,7 @@ s.ElementLabelRibbon4 =
   '      <div class="ui black ribbon icon label">\n' +
   '        <i class="hotel icon"/> \n' +
   '      </div>\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="column">\n' +
@@ -2837,7 +2837,7 @@ s.ElementLabelRibbon4 =
   '      <div class="ui blue right ribbon icon label">\n' +
   '        <i class="spoon icon"/>\n' +
   '      </div>\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -2851,19 +2851,19 @@ s.ElementLabelAttached1 =
   '    <div class="column">\n' +
   '      <div class="ui segment">\n' +
   '        <div class="ui top attached label">HTML</div>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
   '      <div class="ui segment">\n' +
   '        <div class="ui bottom attached label">CSS</div>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
   '      <div class="ui segment">\n' +
   '        <div class="ui top right attached label">Code</div>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -2871,19 +2871,19 @@ s.ElementLabelAttached1 =
   '    <div class="column">\n' +
   '      <div class="ui segment">\n' +
   '        <div class="ui top left attached label">View</div>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
   '      <div class="ui segment">\n' +
   '        <div class="ui bottom left attached label">User View</div>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
   '      <div class="ui segment">\n' +
   '        <div class="ui bottom right attached label">Admin View</div>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -2947,7 +2947,7 @@ s.ElementLabelRibbon3 =
   '      <div class="ui black ribbon right icon label">\n' +
   '        Hotel <i class="hotel icon"/> \n' +
   '      </div>\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="column">\n' +
@@ -2955,7 +2955,7 @@ s.ElementLabelRibbon3 =
   '      <div class="ui blue right ribbon right icon label">\n' +
   '        Food <i class="spoon icon"/>\n' +
   '      </div>\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -3091,7 +3091,7 @@ s.ElementLabelRibbon2 =
   '      <div class="ui black ribbon label">\n' +
   '        <i class="hotel icon"/> Hotel\n' +
   '      </div>\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="column">\n' +
@@ -3099,7 +3099,7 @@ s.ElementLabelRibbon2 =
   '      <div class="ui blue right ribbon label">\n' +
   '        <i class="spoon icon"/> Food\n' +
   '      </div>\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -3324,17 +3324,17 @@ s.ElementLabelRibbon1 =
   '    <div class="ui raised segment">\n' +
   '      <a class="ui red ribbon label">Overview</a>\n' +
   '      <span>Account Details</span>\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      <a class="ui blue ribbon label">Community</a> User Reviews\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="column">\n' +
   '    <div class="ui segment">\n' +
   '      <a class="ui orange right ribbon label">Specs</a>\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      <a class="ui teal right ribbon label">Reviews</a>\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -3392,12 +3392,12 @@ s.ElementHeaderDisabled1 =
   '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
 s.ElementHeaderImage1 = 
   '<h2 class="ui header">\n' +
-  '  <img class="ui image" src="/images/icons/school.png"/>\n' +
+  '  <img src="/images/icons/school.png" class="ui image">\n' +
   '  <div class="content">\n' +
   '    Learn More\n' +
   '  </div>\n' +
   '</h2>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>' 
+  '<img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">' 
 s.ElementHeaderColored1 = 
   '<FuiHeader level=4 primary>Primary</FuiHeader>\n' +
   '<FuiHeader level=4 secondary>Secondary</FuiHeader>\n' +
@@ -3420,10 +3420,10 @@ s.ElementHeaderSubHeaders1 =
   '<span>$10.99</span>' 
 s.ElementHeaderIconHeaders2 = 
   '<h2 class="ui center aligned icon header">\n' +
-  '  <i class="circular users icon"/>\n' +
+  '  <i class="circular users icon"></i>\n' +
   '  Friends\n' +
   '</h2>\n' +
-  '<img class="ui centered wireframe image" src="/images/wireframe/centered-paragraph.png"/>' 
+  '<img class="ui centered wireframe image" src="/images/wireframe/centered-paragraph.png" >' 
 s.ElementHeaderBlock1 = 
   '<FuiHeader level=3 block>\n' +
   '  Block Header\n' +
@@ -3459,7 +3459,7 @@ s.ElementHeaderSubheader1 =
   '  Account Settings\n' +
   '  <div class="sub header">Manage your account settings and set e-mail preferences.</div>\n' +
   '</h2>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>' 
+  '<img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">' 
 s.ElementHeaderInverted1 = 
   '<FuiSegment inverted>\n' +
   '  <FuiHeader level=4 color=red inverted>Red</FuiHeader>\n' +
@@ -3496,14 +3496,14 @@ s.ElementHeaderIcon2 =
 s.ElementHeaderSubHeaders2 = 
   '<div class="ui horizontal list">\n' +
   '  <div class="item">\n' +
-  '    <img class="ui mini circular image" src="/images/avatar2/small/molly.png"/>\n' +
+  '    <img src="/images/avatar2/small/molly.png" class="ui mini circular image">\n' +
   '    <div class="content">\n' +
   '      <div class="ui sub header">Molly</div>\n' +
   '      Coordinator\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
-  '    <img class="ui mini circular image" src="/images/avatar2/small/elyse.png"/>\n' +
+  '    <img src="/images/avatar2/small/elyse.png" class="ui mini circular image">\n' +
   '    <div class="content">\n' +
   '      <div class="ui sub header">Elyse</div>\n' +
   '      Developer\n' +
@@ -3536,13 +3536,13 @@ s.ElementHeaderSubheader2 =
   '</h5>' 
 s.ElementHeaderImage3 = 
   '<h2 class="ui header">\n' +
-  '  <img src="/images/icons/plugin.png"/>\n' +
+  '  <img src="/images/icons/plugin.png">\n' +
   '  <div class="content">\n' +
   '    Plug-ins\n' +
   '    <div class="sub header">Check out our plug-in marketplace</div>\n' +
   '  </div>\n' +
   '</h2>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>' 
+  '<img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">' 
 s.ElementHeaderTextAlignment1 = 
   '<div class="ui segment">\n' +
   '  <h3 class="ui right aligned header">\n' +
@@ -3576,10 +3576,10 @@ s.ElementHeaderAttached1 =
   '</FuiHeader>' 
 s.ElementHeaderImage2 = 
   '<h2 class="ui header">\n' +
-  '  <img src="/images/avatar2/large/patrick.png" class="ui circular image"/>\n' +
+  '  <img src="/images/avatar2/large/patrick.png" class="ui circular image">\n' +
   '  Patrick\n' +
   '</h2>\n' +
-  '<img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>' 
+  '<img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">' 
 s.ElementHeaderIconHeaders1 = 
   '<FuiHeader level=2 icon>\n' +
   '  <FuiIcon name=settings></FuiIcon>\n' +
@@ -3967,7 +3967,9 @@ s.ElementButtonAnimated1 =
   '</FuiButton>\n' +
   '<FuiButton tag=div focusable animated=fade>\n' +
   '  <FuiButtonContent visible>Sign-up for a Pro account</FuiButtonContent>\n' +
-  '  <FuiButtonContent hidden>$12.99 a month</FuiButtonContent>\n' +
+  '  <FuiButtonContent hidden>\n' +
+  '    $12.99 a month\n' +
+  '  </FuiButtonContent>\n' +
   '</FuiButton>' 
 s.ElementButtonFloated1 = 
   '<FuiButton floated=right>Right Floated</FuiButton>\n' +
@@ -4323,33 +4325,33 @@ s.ElementLoaderInverted2 =
   '  <div class="ui active inverted dimmer">\n' +
   '    <div class="ui mini text loader">Loading</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui active inverted dimmer">\n' +
   '    <div class="ui small text loader">Loading</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui active inverted dimmer">\n' +
   '    <div class="ui medium text loader">Loading</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui active inverted dimmer">\n' +
   '    <div class="ui large text loader">Loading</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementLoaderLoader1 = 
   '<div class="ui ignored info message">Loaders are hidden unless <code>active</code> or inside an <a href="/modules/dimmer.html"><code>active dimmer</code></a>.</div>\n' +
   '<div class="ui segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui loader"/>\n' +
   '  </div>\n' +
@@ -4376,12 +4378,12 @@ s.ElementLoaderActive1 =
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui active loader"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementLoaderDisabled1 = 
   '<div class="ui segment">\n' +
   '  <div class="ui disabled loader"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementLoaderStyles1 = 
   '<div class="ui segment">\n' +
@@ -4405,65 +4407,65 @@ s.ElementLoaderTextLoader2 =
   '  <div class="ui active inverted dimmer">\n' +
   '    <div class="ui text loader">Loading</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementLoaderSize1 = 
   '<div class="ui segment">\n' +
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui mini text loader">Loading</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui tiny text loader">Loading</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui small text loader">Loading</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui medium text loader">Loading</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui large text loader">Loading</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui big text loader">Loading</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui huge text loader">Loading</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui massive text loader">Loading</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementLoaderInverted1 = 
   '<div class="ui inverted segment">\n' +
@@ -4484,14 +4486,14 @@ s.ElementLoaderTextLoader1 =
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui text loader">Loading</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementLoaderIndeterminate1 = 
   '<div class="ui segment">\n' +
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui indeterminate text loader">Preparing Files</div>\n' +
   '  </div>\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementRevealRotate2 = 
   '<div class="ui small circular rotate left reveal image">\n' +
@@ -4516,7 +4518,7 @@ s.ElementRevealVisibleContent1 =
   '</div>\n' +
   '<div class="ui small fade reveal image">\n' +
   '  <img class="visible content" src="/images/avatar/large/ade.jpg"/>\n' +
-  '  <img class="hidden content" src="/images/wireframe/square-image.png"/>\n' +
+  '  <img src="/images/wireframe/square-image.png" class="hidden content">\n' +
   '</div>' 
 s.ElementRevealMove4 = 
   '<div class="ui move down reveal">\n' +
@@ -4574,7 +4576,7 @@ s.ElementRevealFade1 =
   '</div>' 
 s.ElementRevealHiddenContent1 = 
   '<div class="ui small fade reveal image">\n' +
-  '  <img class="visible content" src="/images/wireframe/square-image.png"/>\n' +
+  '  <img src="/images/wireframe/square-image.png" class="visible content">\n' +
   '  <img class="hidden content" src="/images/avatar/large/ade.jpg"/>\n' +
   '</div>' 
 s.ElementRevealRotate1 = 
@@ -4584,7 +4586,7 @@ s.ElementRevealRotate1 =
   '</div>' 
 s.ElementRevealFade2 = 
   '<div class="ui small fade reveal image">\n' +
-  '  <img class="visible content" src="/images/wireframe/square-image.png"/>\n' +
+  '  <img src="/images/wireframe/square-image.png" class="visible content">\n' +
   '  <img class="hidden content" src="/images/avatar/large/ade.jpg"/>\n' +
   '</div>' 
 s.ElementRevealDisabled1 = 
@@ -5047,17 +5049,17 @@ s.CollectionGrid1 =
   '  <div class="ui three column grid">\n' +
   '    <div class="column">\n' +
   '      <div class="ui segment">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
   '      <div class="ui segment">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
   '      <div class="ui segment">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -5112,24 +5114,24 @@ s.CollectionGrid1 =
   '  <div class="ui internally celled grid">\n' +
   '    <div class="row">\n' +
   '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="ten wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/centered-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="row">\n' +
   '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="ten wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -5361,24 +5363,24 @@ s.CollectionGrid1A =
   '  <div class="ui three column divided grid">\n' +
   '    <div class="row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -5392,21 +5394,21 @@ s.CollectionGrid1A =
   '  <div class="ui vertically divided grid">\n' +
   '    <div class="two column row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="three column row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -5420,21 +5422,21 @@ s.CollectionGrid1A =
   '  <div class="ui celled grid">\n' +
   '    <div class="row">\n' +
   '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="thirteen wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/centered-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="row">\n' +
   '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="ten wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -5448,24 +5450,24 @@ s.CollectionGrid1A =
   '  <div class="ui internally celled grid">\n' +
   '    <div class="row">\n' +
   '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="ten wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/centered-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="row">\n' +
   '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="ten wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -5477,21 +5479,21 @@ s.CollectionGrid1A =
   '  <div class="ui three column grid">\n' +
   '    <div class="row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -5501,16 +5503,16 @@ s.CollectionGrid1A =
   '  <p>Columns each contain gutters giving them equal spacing from other columns.</p>\n' +
   '  <div class="ui grid">\n' +
   '    <div class="eight wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="eight wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="eight wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="eight wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>\n' +
@@ -5520,10 +5522,10 @@ s.CollectionGrid1A =
   '  <p>A column can sit flush against the left or right edge of a row</p>\n' +
   '  <div class="ui grid">\n' +
   '    <div class="left floated five wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="right floated five wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>\n' +
@@ -5532,13 +5534,13 @@ s.CollectionGrid1A =
   '  <p>A column can vary in width taking up more than a single grid column.</p>\n' +
   '  <div class="ui grid">\n' +
   '    <div class="four wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="nine wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="three wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>\n' +
@@ -5548,44 +5550,44 @@ s.CollectionGrid1A =
   '  <div class="ui grid">\n' +
   '    <div class="three column row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="four column row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="five column row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -5697,7 +5699,7 @@ s.CollectionGrid1A =
   '      </div>\n' +
   '      <div class="six wide column">\n' +
   '        <div class="ui segment">\n' +
-  '          <img class="ui image" src="/images/wireframe/image.png"/>\n' +
+  '          <img src="/images/wireframe/image.png" class="ui image">\n' +
   '        </div>\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
@@ -5720,7 +5722,7 @@ s.CollectionGrid1A =
   '      </div>\n' +
   '      <div class="six wide column">\n' +
   '        <div class="ui segment">\n' +
-  '          <img class="ui image" src="/images/wireframe/image.png"/>\n' +
+  '          <img src="/images/wireframe/image.png" class="ui image">\n' +
   '        </div>\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
@@ -5741,10 +5743,10 @@ s.CollectionGrid1A =
   '  <div class="ui divider"/>\n' +
   '  <div class="ui two column padded grid">\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>\n' +
@@ -5753,10 +5755,10 @@ s.CollectionGrid1A =
   '  <div class="ui divider"/>\n' +
   '  <div class="ui two column vertically padded grid">\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>\n' +
@@ -5765,10 +5767,10 @@ s.CollectionGrid1A =
   '  <div class="ui divider"/>\n' +
   '  <div class="ui two column horizontally padded grid">\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>\n' +
@@ -5780,18 +5782,18 @@ s.CollectionGrid1A =
   '  <div class="ui two column compact internally celled grid">\n' +
   '    <div class="row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -5802,18 +5804,18 @@ s.CollectionGrid1A =
   '  <div class="ui two column very compact internally celled grid">\n' +
   '    <div class="row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -5823,32 +5825,32 @@ s.CollectionGrid1A =
   '  <p>A grid can increase its gutters to allow for more negative space</p>\n' +
   '  <div class="ui four column relaxed grid">\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>\n' +
   '<div class="another example">\n' +
   '  <div class="ui four column very relaxed grid">\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>\n' +
@@ -5919,31 +5921,31 @@ s.CollectionGrid1A =
   '  <p>A grid can have its columns centered</p>\n' +
   '  <div class="ui two column centered grid">\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="four column centered row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="four column row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -6060,14 +6062,14 @@ s.CollectionGrid1A =
   '  <div class="ui middle aligned four column centered grid">\n' +
   '    <div class="row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -6076,38 +6078,38 @@ s.CollectionGrid1A =
   '  <div class="ui four column centered grid">\n' +
   '    <div class="top aligned row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="middle aligned row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="bottom aligned row">\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -6121,19 +6123,19 @@ s.CollectionGrid1A =
   '  </div>\n' +
   '  <div class="five column doubling ui grid">\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>\n' +
@@ -6146,14 +6148,14 @@ s.CollectionGrid1A =
   '  <div class="two column stackable ui grid">\n' +
   '    <div class="column">\n' +
   '      <div class="ui segment">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
   '      <div class="ui segment">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -6501,7 +6503,7 @@ s.CollectionMenuPointing2 =
   '  </div>\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.CollectionMenuInput1 = 
   '<div class="ui menu">\n' +
@@ -6667,7 +6669,7 @@ s.CollectionMenuMenu3 =
   '  </div>\n' +
   '</div>\n' +
   '<div class="ui bottom attached segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.CollectionMenuInverted5 = 
   '<div class="ui inverted segment">\n' +
@@ -6830,7 +6832,7 @@ s.CollectionMenuFixed2 =
   '<div class="existing code">\n' +
   '  <div class="ui left fixed vertical menu">\n' +
   '    <div class="item">\n' +
-  '      <img class="ui mini image" src="/images/logo.png"/>\n' +
+  '      <img src="/images/logo.png" class="ui mini image">\n' +
   '    </div>\n' +
   '    <a class="item">Features</a>\n' +
   '    <a class="item">Testimonials</a>\n' +
@@ -6838,7 +6840,7 @@ s.CollectionMenuFixed2 =
   '  </div>\n' +
   '  <div class="ui right fixed vertical menu">\n' +
   '    <div class="item">\n' +
-  '      <img class="ui mini image" src="/images/logo.png"/>\n' +
+  '      <img src="/images/logo.png" class="ui mini image">\n' +
   '    </div>\n' +
   '    <a class="item">Features</a>\n' +
   '    <a class="item">Testimonials</a>\n' +
@@ -6880,7 +6882,7 @@ s.CollectionMenuPointing1 =
   '  </div>\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.CollectionMenuSearch1 = 
   '<div class="ui menu">\n' +
@@ -6893,7 +6895,7 @@ s.CollectionMenuSearch1 =
   '  </div>\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.CollectionMenuMenu2 = 
   '<div class="ui ignored info message">\n' +
@@ -6953,7 +6955,7 @@ s.CollectionMenuStackable1 =
   '</div>\n' +
   '<div class="ui stackable menu">\n' +
   '  <div class="item">\n' +
-  '    <img src="/images/logo.png"/>\n' +
+  '    <img src="/images/logo.png">\n' +
   '  </div>\n' +
   '  <a class="item">Features</a>\n' +
   '  <a class="item">Testimonials</a>\n' +
@@ -7058,7 +7060,7 @@ s.CollectionMenuTabular2 =
   '  </div>\n' +
   '</div>\n' +
   '<div class="ui bottom attached segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.CollectionMenuSubMenu1 = 
   '<div class="ui vertical menu">\n' +
@@ -7268,7 +7270,7 @@ s.CollectionMenuFixed1 =
   '<div class="existing code">\n' +
   '  <div class="ui top fixed menu">\n' +
   '    <div class="item">\n' +
-  '      <img src="/images/logo.png"/>\n' +
+  '      <img src="/images/logo.png">\n' +
   '    </div>\n' +
   '    <a class="item">Features</a>\n' +
   '    <a class="item">Testimonials</a>\n' +
@@ -7276,7 +7278,7 @@ s.CollectionMenuFixed1 =
   '  </div>\n' +
   '  <div class="ui bottom fixed menu">\n' +
   '    <div class="item">\n' +
-  '      <img src="/images/logo.png"/>\n' +
+  '      <img src="/images/logo.png">\n' +
   '    </div>\n' +
   '    <a class="item">Features</a>\n' +
   '    <a class="item">Testimonials</a>\n' +
@@ -7655,7 +7657,7 @@ s.CollectionMenuBorderless1 =
   '</div>' 
 s.CollectionMenuTabular3 = 
   '<div class="ui top attached segment">\n' +
-  '  <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui bottom attached tabular menu">\n' +
   '  <a class="active item">\n' +
@@ -11451,8 +11453,8 @@ s.ViewFeedFeed1 =
   '        </div>\n' +
   '      </div>\n' +
   '      <div class="extra images">\n' +
-  '        <a><img src="/images/wireframe/image.png"/></a>\n' +
-  '        <a><img src="/images/wireframe/image.png"/></a>\n' +
+  '        <a><img src="/images/wireframe/image.png"></a>\n' +
+  '        <a><img src="/images/wireframe/image.png"></a>\n' +
   '      </div>\n' +
   '      <div class="meta">\n' +
   '        <a class="like">\n' +
@@ -11514,8 +11516,8 @@ s.ViewFeedFeed1 =
   '        </div>\n' +
   '      </div>\n' +
   '      <div class="extra images">\n' +
-  '        <a><img src="/images/wireframe/image.png"/></a>\n' +
-  '        <a><img src="/images/wireframe/image.png"/></a>\n' +
+  '        <a><img src="/images/wireframe/image.png"></a>\n' +
+  '        <a><img src="/images/wireframe/image.png"></a>\n' +
   '      </div>\n' +
   '      <div class="meta">\n' +
   '        <a class="like">\n' +
@@ -11566,8 +11568,8 @@ s.ViewFeedAdditionalinformation1 =
   '         <a>Helen Troy</a> added 2 photos\n' +
   '      </div>\n' +
   '      <div class="extra images">\n' +
-  '        <a><img src="/images/wireframe/image.png"/></a>\n' +
-  '        <a><img src="/images/wireframe/image.png"/></a>\n' +
+  '        <a><img src="/images/wireframe/image.png"></a>\n' +
+  '        <a><img src="/images/wireframe/image.png"></a>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -11705,8 +11707,8 @@ s.ViewFeedSize2 =
   '        <a>Helen Troy</a> added <a>2 new illustrations</a>\n' +
   '      </div>\n' +
   '      <div class="extra images">\n' +
-  '        <a><img src="/images/wireframe/image.png"/></a>\n' +
-  '        <a><img src="/images/wireframe/image.png"/></a>\n' +
+  '        <a><img src="/images/wireframe/image.png"></a>\n' +
+  '        <a><img src="/images/wireframe/image.png"></a>\n' +
   '      </div>\n' +
   '      <div class="meta">\n' +
   '        <a class="like">\n' +
@@ -11766,8 +11768,8 @@ s.ViewFeedSize2 =
   '            </div>\n' +
   '          </div>\n' +
   '          <div class="extra images">\n' +
-  '            <a><img src="/images/wireframe/image.png"/></a>\n' +
-  '            <a><img src="/images/wireframe/image.png"/></a>\n' +
+  '            <a><img src="/images/wireframe/image.png"></a>\n' +
+  '            <a><img src="/images/wireframe/image.png"></a>\n' +
   '          </div>\n' +
   '          <div class="meta">\n' +
   '            <a class="like">\n' +
@@ -11829,8 +11831,8 @@ s.ViewFeedSize2 =
   '            </div>\n' +
   '          </div>\n' +
   '          <div class="extra images">\n' +
-  '            <a><img src="/images/wireframe/image.png"/></a>\n' +
-  '            <a><img src="/images/wireframe/image.png"/></a>\n' +
+  '            <a><img src="/images/wireframe/image.png"></a>\n' +
+  '            <a><img src="/images/wireframe/image.png"></a>\n' +
   '          </div>\n' +
   '          <div class="meta">\n' +
   '            <a class="like">\n' +
@@ -11896,7 +11898,7 @@ s.ViewItemInverted1 =
   '  <div class="ui inverted items">\n' +
   '    <div class="item">\n' +
   '      <div class="ui small image">\n' +
-  '        <img src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png">\n' +
   '      </div>\n' +
   '      <div class="content">\n' +
   '        <div class="header">Arrowhead Valley Camp</div>\n' +
@@ -11911,7 +11913,7 @@ s.ViewItemInverted1 =
   '    </div>\n' +
   '    <div class="item">\n' +
   '      <div class="ui small image">\n' +
-  '        <img src="/images/wireframe/image.png"/>\n' +
+  '        <img src="/images/wireframe/image.png">\n' +
   '      </div>\n' +
   '      <div class="content">\n' +
   '        <div class="header">Buck\'s Homebrew Stayaway</div>\n' +
@@ -11930,7 +11932,7 @@ s.ViewItemRelaxed1 =
   '<div class="ui relaxed items">\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      <a class="header">12 Years a Slave</a>\n' +
@@ -11938,7 +11940,7 @@ s.ViewItemRelaxed1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      <a class="header">My Neighbor Totoro</a>\n' +
@@ -11946,7 +11948,7 @@ s.ViewItemRelaxed1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      <a class="header">Watchmen</a>\n' +
@@ -11961,7 +11963,7 @@ s.ViewItemMetadata1 =
   '<div class="ui items">\n' +
   '  <div class="item">\n' +
   '    <div class="ui small image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <div class="header">Arrowhead Valley Camp</div>\n' +
@@ -11976,7 +11978,7 @@ s.ViewItemMetadata1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="ui small image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <div class="header">Buck\'s Homebrew Stayaway</div>\n' +
@@ -11991,7 +11993,7 @@ s.ViewItemMetadata1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="ui small image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <div class="header">Astrology Camp</div>\n' +
@@ -12009,17 +12011,17 @@ s.ViewItemImage1 =
   '<div class="ui divided items">\n' +
   '  <div class="item">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -12047,7 +12049,7 @@ s.ViewItemDivided1 =
   '<div class="ui divided items">\n' +
   '  <div class="item">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <a class="header">12 Years a Slave</a>\n' +
@@ -12065,7 +12067,7 @@ s.ViewItemDivided1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <a class="header">My Neighbor Totoro</a>\n' +
@@ -12086,7 +12088,7 @@ s.ViewItemDivided1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <a class="header">Watchmen</a>\n' +
@@ -12109,7 +12111,7 @@ s.ViewItemStacking1 =
   '<div class="ui unstackable items">\n' +
   '  <div class="item">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <a class="header">Header</a>\n' +
@@ -12126,7 +12128,7 @@ s.ViewItemStacking1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <a class="header">Header</a>\n' +
@@ -12182,7 +12184,7 @@ s.ViewItemContent1 =
   '<div class="ui divided items">\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      Content A\n' +
@@ -12190,7 +12192,7 @@ s.ViewItemContent1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      Content B\n' +
@@ -12198,7 +12200,7 @@ s.ViewItemContent1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      Content C\n' +
@@ -12237,7 +12239,7 @@ s.ViewItemHeader1 =
   '<div class="ui items">\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      <a class="header">12 Years a Slave</a>\n' +
@@ -12245,7 +12247,7 @@ s.ViewItemHeader1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      <a class="header">My Neighbor Totoro</a>\n' +
@@ -12253,7 +12255,7 @@ s.ViewItemHeader1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      <a class="header">Watchmen</a>\n' +
@@ -12264,7 +12266,7 @@ s.ViewItemRelaxed2 =
   '<div class="ui very relaxed items">\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      <a class="header">12 Years a Slave</a>\n' +
@@ -12272,7 +12274,7 @@ s.ViewItemRelaxed2 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      <a class="header">My Neighbor Totoro</a>\n' +
@@ -12280,7 +12282,7 @@ s.ViewItemRelaxed2 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      <a class="header">Watchmen</a>\n' +
@@ -12350,7 +12352,7 @@ s.ViewItemFloatedContent1 =
   '<div class="ui items">\n' +
   '  <div class="item">\n' +
   '    <div class="ui small image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      <div class="header">\n' +
@@ -12368,7 +12370,7 @@ s.ViewItemFloatedContent1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="ui small image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      <div class="header">\n' +
@@ -12386,7 +12388,7 @@ s.ViewItemFloatedContent1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="ui small image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      <div class="header">\n' +
@@ -12414,7 +12416,7 @@ s.ViewItemItems1 =
   '<div class="ui items">\n' +
   '  <div class="item">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <a class="header">Header</a>\n' +
@@ -12431,7 +12433,7 @@ s.ViewItemItems1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <a class="header">Header</a>\n' +
@@ -12455,7 +12457,7 @@ s.ViewItemVerticalAlignment1 =
   '<div class="ui items">\n' +
   '  <div class="item">\n' +
   '    <div class="ui small image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <div class="header">\n' +
@@ -12465,7 +12467,7 @@ s.ViewItemVerticalAlignment1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="ui small image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="middle aligned content">\n' +
   '      <div class="header">\n' +
@@ -12475,7 +12477,7 @@ s.ViewItemVerticalAlignment1 =
   '  </div>\n' +
   '  <div class="item">\n' +
   '    <div class="ui small image">\n' +
-  '      <img src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '    <div class="bottom aligned content">\n' +
   '      <div class="header">\n' +
@@ -13084,7 +13086,7 @@ s.ViewCardColumnCount1 =
   '<div class="ui four cards">\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="extra">\n' +
   '      Rating:\n' +
@@ -13093,7 +13095,7 @@ s.ViewCardColumnCount1 =
   '  </div>\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="extra">\n' +
   '      Rating:\n' +
@@ -13102,7 +13104,7 @@ s.ViewCardColumnCount1 =
   '  </div>\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="extra">\n' +
   '      Rating:\n' +
@@ -13111,7 +13113,7 @@ s.ViewCardColumnCount1 =
   '  </div>\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="extra">\n' +
   '      Rating:\n' +
@@ -13120,7 +13122,7 @@ s.ViewCardColumnCount1 =
   '  </div>\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="extra">\n' +
   '      Rating:\n' +
@@ -13129,7 +13131,7 @@ s.ViewCardColumnCount1 =
   '  </div>\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="extra">\n' +
   '      Rating:\n' +
@@ -13138,7 +13140,7 @@ s.ViewCardColumnCount1 =
   '  </div>\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="extra">\n' +
   '      Rating:\n' +
@@ -13147,7 +13149,7 @@ s.ViewCardColumnCount1 =
   '  </div>\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="extra">\n' +
   '      Rating:\n' +
@@ -13159,7 +13161,7 @@ s.ViewCardCards2 =
   '<div class="ui link cards">\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/avatar2/large/matthew.png"/>\n' +
+  '      <img src="/images/avatar2/large/matthew.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <div class="header">Matt Giampietro</div>\n' +
@@ -13182,7 +13184,7 @@ s.ViewCardCards2 =
   '  </div>\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/avatar2/large/molly.png"/>\n' +
+  '      <img src="/images/avatar2/large/molly.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <div class="header">Molly</div>\n' +
@@ -13205,7 +13207,7 @@ s.ViewCardCards2 =
   '  </div>\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/avatar2/large/elyse.png"/>\n' +
+  '      <img src="/images/avatar2/large/elyse.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <div class="header">Elyse</div>\n' +
@@ -13235,7 +13237,7 @@ s.ViewCardRaisedCard1 =
   '      <span class="category">Animals</span>\n' +
   '    </div>\n' +
   '    <div class="description">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="extra content">\n' +
@@ -13314,7 +13316,7 @@ s.ViewCardCard1 =
   '</div>\n' +
   '<div class="ui card">\n' +
   '  <div class="image">\n' +
-  '    <img src="/images/avatar2/large/kristy.png"/>\n' +
+  '    <img src="/images/avatar2/large/kristy.png">\n' +
   '  </div>\n' +
   '  <div class="content">\n' +
   '    <a class="header">Kristy</a>\n' +
@@ -13445,77 +13447,77 @@ s.ViewCardColored1 =
   '<div class="ui four cards">\n' +
   '  <a class="primary card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="secondary card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="red card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="orange card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="yellow card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="olive card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="green card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="teal card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="blue card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="violet card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="purple card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="pink card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="brown card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="grey card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '  <a class="black card">\n' +
   '    <div class="image">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/white-image.png"/>\n' +
+  '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
   '</div>' 
@@ -13531,7 +13533,7 @@ s.ViewCardMetadata1 =
   '      <span>2 days ago</span>\n' +
   '      <a>Animals</a>\n' +
   '    </div>\n' +
-  '    <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '    <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '  </div>\n' +
   '</div>' 
 s.ViewCardInverted1 = 
@@ -13539,7 +13541,7 @@ s.ViewCardInverted1 =
   '  <div class="ui inverted cards">\n' +
   '    <div class="card">\n' +
   '      <div class="image">\n' +
-  '        <img src="/images/avatar2/large/matthew.png"/>\n' +
+  '        <img src="/images/avatar2/large/matthew.png">\n' +
   '      </div>\n' +
   '      <div class="content">\n' +
   '        <a class="header">Matt Giampietro</a>\n' +
@@ -13562,7 +13564,7 @@ s.ViewCardInverted1 =
   '    </div>\n' +
   '    <div class="card">\n' +
   '      <div class="image">\n' +
-  '        <img src="/images/avatar2/large/molly.png"/>\n' +
+  '        <img src="/images/avatar2/large/molly.png">\n' +
   '      </div>\n' +
   '      <div class="content">\n' +
   '        <a class="header">Molly</a>\n' +
@@ -13585,7 +13587,7 @@ s.ViewCardInverted1 =
   '    </div>\n' +
   '    <div class="card">\n' +
   '      <div class="image">\n' +
-  '        <img src="/images/avatar2/large/elyse.png"/>\n' +
+  '        <img src="/images/avatar2/large/elyse.png">\n' +
   '      </div>\n' +
   '      <div class="content">\n' +
   '        <a class="header">Elyse</a>\n' +
@@ -13616,7 +13618,7 @@ s.ViewCardLinkCard2 =
   '      <span class="category">Animals</span>\n' +
   '    </div>\n' +
   '    <div class="description">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="extra content">\n' +
@@ -13632,7 +13634,7 @@ s.ViewCardApproval1 =
   '    <i class="right floated star icon"/>\n' +
   '    <div class="header">Cute Dog</div>\n' +
   '    <div class="description">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="extra content">\n' +
@@ -13659,7 +13661,7 @@ s.ViewCardFloatedContent1 =
   '      <span class="category">Animals</span>\n' +
   '    </div>\n' +
   '    <div class="description">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="extra content">\n' +
@@ -13672,7 +13674,7 @@ s.ViewCardHorizontalCards2 =
   '<div class="ui horizontal cards">\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/avatar2/large/matthew.png"/>\n' +
+  '      <img src="/images/avatar2/large/matthew.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <div class="header">Matt Giampietro</div>\n' +
@@ -13686,7 +13688,7 @@ s.ViewCardHorizontalCards2 =
   '  </div>\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
-  '      <img src="/images/avatar2/large/molly.png"/>\n' +
+  '      <img src="/images/avatar2/large/molly.png">\n' +
   '    </div>\n' +
   '    <div class="content">\n' +
   '      <div class="header">Molly</div>\n' +
@@ -13741,7 +13743,7 @@ s.ViewCardRaisedCard2 =
   '      <span class="category">Animals</span>\n' +
   '    </div>\n' +
   '    <div class="description">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="extra content">\n' +
@@ -13768,7 +13770,7 @@ s.ViewCardExtraContent1 =
 s.ViewCardCenteredCard1 = 
   '<div class="ui centered card">\n' +
   '  <div class="image">\n' +
-  '    <img src="/images/avatar2/large/elyse.png"/>\n' +
+  '    <img src="/images/avatar2/large/elyse.png">\n' +
   '  </div>\n' +
   '  <div class="content">\n' +
   '    <a class="header">Elyse</a>\n' +
@@ -13839,7 +13841,7 @@ s.ViewCardTextAlignment1 =
 s.ViewCardHorizontalCards1 = 
   '<div class="ui horizontal card">\n' +
   '  <div class="image">\n' +
-  '    <img src="/images/avatar2/large/elyse.png"/>\n' +
+  '    <img src="/images/avatar2/large/elyse.png">\n' +
   '  </div>\n' +
   '  <div class="content">\n' +
   '    <div class="header">Cute Dog</div>\n' +
@@ -13847,7 +13849,7 @@ s.ViewCardHorizontalCards1 =
   '      <span class="category">Animals</span>\n' +
   '    </div>\n' +
   '    <div class="description">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -13894,7 +13896,7 @@ s.ViewCardLinkCard1 =
   '      <span class="category">Animals</span>\n' +
   '    </div>\n' +
   '    <div class="description">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="extra content">\n' +
@@ -13976,7 +13978,7 @@ s.ViewCardCard2 =
   '    <img class="ui avatar image" src="/images/avatar/large/elliot.jpg"/> Elliot\n' +
   '  </div>\n' +
   '  <div class="image">\n' +
-  '    <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '  </div>\n' +
   '  <div class="content">\n' +
   '    <span class="right floated">\n' +

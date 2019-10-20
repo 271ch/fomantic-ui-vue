@@ -35,15 +35,15 @@ export default {
       '    </div>\n' +
       '    <div class="ui sizer vertical segment">\n' +
       '      <div class="ui huge header">Huge Header</div>\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '      <div class="ui large header">Large Header</div>\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '      <div class="ui medium header">Medium Header</div>\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '      <div class="ui small header">Small Header</div>\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '      <div class="ui tiny header">Tiny Header</div>\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n',
   },
 };

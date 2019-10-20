@@ -6,7 +6,7 @@
         <img class="ui avatar image" src="/images/avatar/large/elliot.jpg"/> Elliot
       </div>
       <div class="image">
-        <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+        <img src="/images/wireframe/image.png" class="ui wireframe image">
       </div>
       <div class="content">
         <span class="right floated">
@@ -42,7 +42,7 @@ export default {
       '        <img class="ui avatar image" src="/images/avatar/large/elliot.jpg"/> Elliot\n' +
       '      </div>\n' +
       '      <div class="image">\n' +
-      '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '      </div>\n' +
       '      <div class="content">\n' +
       '        <span class="right floated">\n' +

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui small image">
-      <img src="/images/wireframe/image.png"/>
+      <img src="/images/wireframe/image.png">
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
     title2: 'Image',
     description: 'An image',
     model: '    <div class="ui small image">\n' +
-      '      <img src="/images/wireframe/image.png"/>\n' +
+      '      <img src="/images/wireframe/image.png">\n' +
       '    </div>\n',
   },
 };

@@ -3,17 +3,17 @@
     <div class="ui divided items">
       <div class="item">
         <div class="image">
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
       </div>
       <div class="item">
         <div class="image">
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
       </div>
       <div class="item">
         <div class="image">
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
       </div>
     </div>
@@ -33,17 +33,17 @@ export default {
     model: '    <div class="ui divided items">\n' +
       '      <div class="item">\n' +
       '        <div class="image">\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="item">\n' +
       '        <div class="image">\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="item">\n' +
       '        <div class="image">\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',

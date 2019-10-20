@@ -7,7 +7,7 @@
     <div class="ui items">
       <div class="item">
         <div class="ui small image">
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
         <div class="content">
           <div class="header">Arrowhead Valley Camp</div>
@@ -22,7 +22,7 @@
       </div>
       <div class="item">
         <div class="ui small image">
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
         <div class="content">
           <div class="header">Buck's Homebrew Stayaway</div>
@@ -37,7 +37,7 @@
       </div>
       <div class="item">
         <div class="ui small image">
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
         <div class="content">
           <div class="header">Astrology Camp</div>
@@ -71,7 +71,7 @@ export default {
       '    <div class="ui items">\n' +
       '      <div class="item">\n' +
       '        <div class="ui small image">\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '        <div class="content">\n' +
       '          <div class="header">Arrowhead Valley Camp</div>\n' +
@@ -86,7 +86,7 @@ export default {
       '      </div>\n' +
       '      <div class="item">\n' +
       '        <div class="ui small image">\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '        <div class="content">\n' +
       '          <div class="header">Buck\'s Homebrew Stayaway</div>\n' +
@@ -101,7 +101,7 @@ export default {
       '      </div>\n' +
       '      <div class="item">\n' +
       '        <div class="ui small image">\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '        <div class="content">\n' +
       '          <div class="header">Astrology Camp</div>\n' +

@@ -25,7 +25,7 @@ export default {
     model: '    <button class="ui button">\n' +
       '      Button\n' +
       '    </button>\n' +
-      '    <div class="ui button" tabindex="0">\n' +
+      '    <div tabindex="0" class="ui button">\n' +
       '      Focusable\n' +
       '    </div>\n' +
       '    <div class="ui button">\n' +

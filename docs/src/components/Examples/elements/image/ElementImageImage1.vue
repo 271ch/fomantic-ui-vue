@@ -6,7 +6,7 @@
     <div class="ui ignored info message">
       You can specify an <code>img</code> or <code>svg</code> as a <code>ui image</code> or use a child element.
     </div>
-    <img class="ui small image" src="/images/wireframe/image.png"/>
+    <img src="/images/wireframe/image.png" class="ui small image">
   </div>
 </template>
 
@@ -26,7 +26,7 @@ export default {
       '    <div class="ui ignored info message">\n' +
       '      You can specify an <code>img</code> or <code>svg</code> as a <code>ui image</code> or use a child element.\n' +
       '    </div>\n' +
-      '    <img class="ui small image" src="/images/wireframe/image.png"/>\n',
+      '    <img src="/images/wireframe/image.png" class="ui small image">\n',
   },
 };
 </script>

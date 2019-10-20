@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img class="ui fluid image" src="/images/wireframe/image.png"/>
+    <img src="/images/wireframe/image.png" class="ui fluid image">
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
     title1: 'Variations',
     title2: 'Fluid',
     description: 'An image can take up the width of its container',
-    model: '    <img class="ui fluid image" src="/images/wireframe/image.png"/>\n',
+    model: '    <img src="/images/wireframe/image.png" class="ui fluid image">\n',
   },
 };
 </script>

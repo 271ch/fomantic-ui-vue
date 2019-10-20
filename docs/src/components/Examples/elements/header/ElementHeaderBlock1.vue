@@ -20,7 +20,7 @@ export default {
     model: '    <h3 class="ui block header">\n' +
       '      Block Header\n' +
       '    </h3>\n' +
-      '    <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n',
+      '    <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n',
   },
 };
 </script>

@@ -3,7 +3,7 @@
     <div class="ui divided items">
       <div class="item">
         <div class="ui tiny image">
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
         <div class="middle aligned content">
           Content A
@@ -11,7 +11,7 @@
       </div>
       <div class="item">
         <div class="ui tiny image">
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
         <div class="middle aligned content">
           Content B
@@ -19,7 +19,7 @@
       </div>
       <div class="item">
         <div class="ui tiny image">
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
         <div class="middle aligned content">
           Content C
@@ -42,7 +42,7 @@ export default {
     model: '    <div class="ui divided items">\n' +
       '      <div class="item">\n' +
       '        <div class="ui tiny image">\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '        <div class="middle aligned content">\n' +
       '          Content A\n' +
@@ -50,7 +50,7 @@ export default {
       '      </div>\n' +
       '      <div class="item">\n' +
       '        <div class="ui tiny image">\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '        <div class="middle aligned content">\n' +
       '          Content B\n' +
@@ -58,7 +58,7 @@ export default {
       '      </div>\n' +
       '      <div class="item">\n' +
       '        <div class="ui tiny image">\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '        <div class="middle aligned content">\n' +
       '          Content C\n' +

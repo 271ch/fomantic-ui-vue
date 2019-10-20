@@ -4,12 +4,12 @@
       <div class="ui left icon action input">
         <FuiIcon name=search></FuiIcon>
         <input type="text" placeholder="Order #"/>
-        <FuiButton color=blue submit>Search</FuiButton>
+        <FuiButton tag=div color=blue submit>Search</FuiButton>
       </div>
       <FuiDivider horizontal>
         Or
       </FuiDivider>
-      <FuiButton color=teal labeledIcon>
+      <FuiButton tag=div color=teal labeledIcon>
         Create New Order
         <FuiIcon name=add></FuiIcon>
       </FuiButton>
@@ -30,7 +30,7 @@ export default {
     model: '    <div class="ui center aligned basic segment">\n' +
       '      <div class="ui left icon action input">\n' +
       '        <i class="search icon"></i>\n' +
-      '        <input type="text" placeholder="Order #" />\n' +
+      '        <input type="text" placeholder="Order #" >\n' +
       '        <div class="ui blue submit button">Search</div>\n' +
       '      </div>\n' +
       '      <div class="ui horizontal divider">\n' +

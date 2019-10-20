@@ -5,7 +5,7 @@
         <div class="right floated content">
           <div class="ui button">Add</div>
         </div>
-        <img class="ui avatar image" src="/images/avatar2/small/lena.png"/>
+        <img src="/images/avatar2/small/lena.png" class="ui avatar image">
         <div class="content">
           Lena
         </div>
@@ -14,7 +14,7 @@
         <div class="right floated content">
           <div class="ui button">Add</div>
         </div>
-        <img class="ui avatar image" src="/images/avatar2/small/lindsay.png"/>
+        <img src="/images/avatar2/small/lindsay.png" class="ui avatar image">
         <div class="content">
           Lindsay
         </div>
@@ -23,7 +23,7 @@
         <div class="right floated content">
           <div class="ui button">Add</div>
         </div>
-        <img class="ui avatar image" src="/images/avatar2/small/mark.png"/>
+        <img src="/images/avatar2/small/mark.png" class="ui avatar image">
         <div class="content">
           Mark
         </div>
@@ -32,7 +32,7 @@
         <div class="right floated content">
           <div class="ui button">Add</div>
         </div>
-        <img class="ui avatar image" src="/images/avatar2/small/molly.png"/>
+        <img src="/images/avatar2/small/molly.png" class="ui avatar image">
         <div class="content">
           Molly
         </div>
@@ -56,7 +56,7 @@ export default {
       '        <div class="right floated content">\n' +
       '          <div class="ui button">Add</div>\n' +
       '        </div>\n' +
-      '        <img class="ui avatar image" src="/images/avatar2/small/lena.png"/>\n' +
+      '        <img src="/images/avatar2/small/lena.png" class="ui avatar image">\n' +
       '        <div class="content">\n' +
       '          Lena\n' +
       '        </div>\n' +
@@ -65,7 +65,7 @@ export default {
       '        <div class="right floated content">\n' +
       '          <div class="ui button">Add</div>\n' +
       '        </div>\n' +
-      '        <img class="ui avatar image" src="/images/avatar2/small/lindsay.png"/>\n' +
+      '        <img src="/images/avatar2/small/lindsay.png" class="ui avatar image">\n' +
       '        <div class="content">\n' +
       '          Lindsay\n' +
       '        </div>\n' +
@@ -74,7 +74,7 @@ export default {
       '        <div class="right floated content">\n' +
       '          <div class="ui button">Add</div>\n' +
       '        </div>\n' +
-      '        <img class="ui avatar image" src="/images/avatar2/small/mark.png"/>\n' +
+      '        <img src="/images/avatar2/small/mark.png" class="ui avatar image">\n' +
       '        <div class="content">\n' +
       '          Mark\n' +
       '        </div>\n' +
@@ -83,7 +83,7 @@ export default {
       '        <div class="right floated content">\n' +
       '          <div class="ui button">Add</div>\n' +
       '        </div>\n' +
-      '        <img class="ui avatar image" src="/images/avatar2/small/molly.png"/>\n' +
+      '        <img src="/images/avatar2/small/molly.png" class="ui avatar image">\n' +
       '        <div class="content">\n' +
       '          Molly\n' +
       '        </div>\n' +

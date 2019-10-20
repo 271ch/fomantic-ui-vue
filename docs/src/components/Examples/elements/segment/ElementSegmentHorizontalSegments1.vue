@@ -2,13 +2,13 @@
   <div>
     <div class="ui horizontal segments">
       <div class="ui segment">
-        <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
       </div>
       <div class="ui segment">
-        <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
       </div>
       <div class="ui segment">
-        <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
       </div>
     </div>
   </div>
@@ -26,13 +26,13 @@ export default {
     description: 'A segment group can appear horizontally',
     model: '    <div class="ui horizontal segments">\n' +
       '      <div class="ui segment">\n' +
-      '        <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '      </div>\n' +
       '      <div class="ui segment">\n' +
-      '        <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '      </div>\n' +
       '      <div class="ui segment">\n' +
-      '        <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '      </div>\n' +
       '    </div>\n',
   },

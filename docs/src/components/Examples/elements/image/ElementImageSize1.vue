@@ -45,22 +45,22 @@
         </tr>
       </tbody>
     </table>
-    <img class="ui mini image" src="/images/wireframe/image.png"/>
+    <img src="/images/wireframe/image.png" class="ui mini image">
     <div class="ui hidden divider"/>
-    <img class="ui tiny image" src="/images/wireframe/image.png"/>
+    <img src="/images/wireframe/image.png" class="ui tiny image">
     <div class="ui hidden divider"/>
-    <img class="ui small image" src="/images/wireframe/image.png"/>
+    <img src="/images/wireframe/image.png" class="ui small image">
     <div class="ui hidden divider"/>
-    <img class="ui medium image" src="/images/wireframe/image.png"/>
+    <img src="/images/wireframe/image.png" class="ui medium image">
     <div class="existing code">
-      <img class="ui mini image" src="/images/wireframe/image.png"/>
-      <img class="ui tiny image" src="/images/wireframe/image.png"/>
-      <img class="ui small image" src="/images/wireframe/image.png"/>
-      <img class="ui medium image" src="/images/wireframe/image.png"/>
-      <img class="ui large image" src="/images/wireframe/image.png"/>
-      <img class="ui big image" src="/images/wireframe/image.png"/>
-      <img class="ui huge image" src="/images/wireframe/image.png"/>
-      <img class="ui massive image" src="/images/wireframe/image.png"/>
+      <img src="/images/wireframe/image.png" class="ui mini image">
+      <img src="/images/wireframe/image.png" class="ui tiny image">
+      <img src="/images/wireframe/image.png" class="ui small image">
+      <img src="/images/wireframe/image.png" class="ui medium image">
+      <img src="/images/wireframe/image.png" class="ui large image">
+      <img src="/images/wireframe/image.png" class="ui big image">
+      <img src="/images/wireframe/image.png" class="ui huge image">
+      <img src="/images/wireframe/image.png" class="ui massive image">
     </div>
   </div>
 </template>
@@ -120,22 +120,22 @@ export default {
       '        </tr>\n' +
       '      </tbody>\n' +
       '    </table>\n' +
-      '    <img class="ui mini image" src="/images/wireframe/image.png"/>\n' +
+      '    <img src="/images/wireframe/image.png" class="ui mini image">\n' +
       '    <div class="ui hidden divider"/>\n' +
-      '    <img class="ui tiny image" src="/images/wireframe/image.png"/>\n' +
+      '    <img src="/images/wireframe/image.png" class="ui tiny image">\n' +
       '    <div class="ui hidden divider"/>\n' +
-      '    <img class="ui small image" src="/images/wireframe/image.png"/>\n' +
+      '    <img src="/images/wireframe/image.png" class="ui small image">\n' +
       '    <div class="ui hidden divider"/>\n' +
-      '    <img class="ui medium image" src="/images/wireframe/image.png"/>\n' +
+      '    <img src="/images/wireframe/image.png" class="ui medium image">\n' +
       '    <div class="existing code">\n' +
-      '      <img class="ui mini image" src="/images/wireframe/image.png"/>\n' +
-      '      <img class="ui tiny image" src="/images/wireframe/image.png"/>\n' +
-      '      <img class="ui small image" src="/images/wireframe/image.png"/>\n' +
-      '      <img class="ui medium image" src="/images/wireframe/image.png"/>\n' +
-      '      <img class="ui large image" src="/images/wireframe/image.png"/>\n' +
-      '      <img class="ui big image" src="/images/wireframe/image.png"/>\n' +
-      '      <img class="ui huge image" src="/images/wireframe/image.png"/>\n' +
-      '      <img class="ui massive image" src="/images/wireframe/image.png"/>\n' +
+      '      <img src="/images/wireframe/image.png" class="ui mini image">\n' +
+      '      <img src="/images/wireframe/image.png" class="ui tiny image">\n' +
+      '      <img src="/images/wireframe/image.png" class="ui small image">\n' +
+      '      <img src="/images/wireframe/image.png" class="ui medium image">\n' +
+      '      <img src="/images/wireframe/image.png" class="ui large image">\n' +
+      '      <img src="/images/wireframe/image.png" class="ui big image">\n' +
+      '      <img src="/images/wireframe/image.png" class="ui huge image">\n' +
+      '      <img src="/images/wireframe/image.png" class="ui massive image">\n' +
       '    </div>\n',
   },
 };

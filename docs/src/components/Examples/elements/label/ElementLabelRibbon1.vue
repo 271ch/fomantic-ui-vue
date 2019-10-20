@@ -5,17 +5,17 @@
         <div class="ui raised segment">
           <a class="ui red ribbon label">Overview</a>
           <span>Account Details</span>
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           <a class="ui blue ribbon label">Community</a> User Reviews
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
       </div>
       <div class="column">
         <div class="ui segment">
           <a class="ui orange right ribbon label">Specs</a>
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           <a class="ui teal right ribbon label">Reviews</a>
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
       </div>
     </div>
@@ -37,17 +37,17 @@ export default {
       '        <div class="ui raised segment">\n' +
       '          <a class="ui red ribbon label">Overview</a>\n' +
       '          <span>Account Details</span>\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          <a class="ui blue ribbon label">Community</a> User Reviews\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="column">\n' +
       '        <div class="ui segment">\n' +
       '          <a class="ui orange right ribbon label">Specs</a>\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          <a class="ui teal right ribbon label">Reviews</a>\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',

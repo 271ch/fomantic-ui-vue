@@ -4,7 +4,7 @@
       <div class="ui active inverted dimmer">
         <div class="ui text loader">Loading</div>
       </div>
-      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
     </div>
   </div>
 </template>
@@ -23,7 +23,7 @@ export default {
       '      <div class="ui active inverted dimmer">\n' +
       '        <div class="ui text loader">Loading</div>\n' +
       '      </div>\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n',
   },
 };

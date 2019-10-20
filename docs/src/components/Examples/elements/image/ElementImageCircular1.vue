@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img class="ui medium circular image" src="/images/wireframe/square-image.png"/>
+    <img src="/images/wireframe/square-image.png" class="ui medium circular image">
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
     title1: 'Variations',
     title2: 'Circular',
     description: 'An image may appear circular',
-    model: '    <img class="ui medium circular image" src="/images/wireframe/square-image.png"/>\n',
+    model: '    <img src="/images/wireframe/square-image.png" class="ui medium circular image">\n',
   },
 };
 </script>

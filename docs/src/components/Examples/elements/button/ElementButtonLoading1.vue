@@ -23,7 +23,7 @@
 export default {
   name: 'ElementButtonLoading1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'button',
     title1: 'States',
@@ -33,14 +33,14 @@ export default {
       '    <button class="ui basic loading button">Loading</button>\n' +
       '    <button class="ui primary loading button">Loading</button>\n' +
       '    <button class="ui secondary loading button">Loading</button>\n' +
-      '    <br/>\n' +
-      '    <br/>\n' +
+      '    <br>\n' +
+      '    <br>\n' +
       '    <button class="ui double loading button">Loading</button>\n' +
       '    <button class="ui basic double loading button">Loading</button>\n' +
       '    <button class="ui primary double loading button">Loading</button>\n' +
       '    <button class="ui secondary double loading button">Loading</button>\n' +
-      '    <br/>\n' +
-      '    <br/>\n' +
+      '    <br>\n' +
+      '    <br>\n' +
       '    <button class="ui elastic loading button">Loading</button>\n' +
       '    <button class="ui basic elastic loading button">Loading</button>\n' +
       '    <button class="ui primary elastic loading button">Loading</button>\n' +

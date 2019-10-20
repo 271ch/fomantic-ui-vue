@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img class="ui avatar image" src="/images/wireframe/square-image.png"/>
+    <img src="/images/wireframe/square-image.png" class="ui avatar image">
     <span>Username</span>
   </div>
 </template>
@@ -15,7 +15,7 @@ export default {
     title1: 'Variations',
     title2: 'Avatar',
     description: 'An image may be formatted to appear inline with text as an avatar',
-    model: '    <img class="ui avatar image" src="/images/wireframe/square-image.png"/>\n' +
+    model: '    <img src="/images/wireframe/square-image.png" class="ui avatar image">\n' +
       '    <span>Username</span>\n',
   },
 };

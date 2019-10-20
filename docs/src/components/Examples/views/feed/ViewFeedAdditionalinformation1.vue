@@ -13,8 +13,8 @@
              <a>Helen Troy</a> added 2 photos
           </div>
           <div class="extra images">
-            <a><img src="/images/wireframe/image.png"/></a>
-            <a><img src="/images/wireframe/image.png"/></a>
+            <a><img src="/images/wireframe/image.png"></a>
+            <a><img src="/images/wireframe/image.png"></a>
           </div>
         </div>
       </div>
@@ -61,8 +61,8 @@ export default {
       '             <a>Helen Troy</a> added 2 photos\n' +
       '          </div>\n' +
       '          <div class="extra images">\n' +
-      '            <a><img src="/images/wireframe/image.png"/></a>\n' +
-      '            <a><img src="/images/wireframe/image.png"/></a>\n' +
+      '            <a><img src="/images/wireframe/image.png"></a>\n' +
+      '            <a><img src="/images/wireframe/image.png"></a>\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +

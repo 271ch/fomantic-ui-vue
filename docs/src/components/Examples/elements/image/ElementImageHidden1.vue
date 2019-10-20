@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img class="hidden ui image" src="/images/wireframe/image.png"/>
+    <img src="/images/wireframe/image.png" class="hidden ui image">
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
     title1: 'States',
     title2: 'Hidden',
     description: 'An image can be hidden',
-    model: '    <img class="hidden ui image" src="/images/wireframe/image.png"/>\n',
+    model: '    <img src="/images/wireframe/image.png" class="hidden ui image">\n',
   },
 };
 </script>

@@ -3,10 +3,10 @@
     <div class="ui black label">New in 2.7.0</div>
     <div class="ui ignored info message"><code>elastic</code> as loading style is currently not supported  because segment uses the <code>:before</code> pseudoclass to dimm the background.</div>
     <div class="ui brown double loading segment">
-        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
     </div>
     <div class="ui brown usual double loading segment">
-        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
     </div>
   </div>
 </template>
@@ -24,10 +24,10 @@ export default {
     model: '    <div class="ui black label">New in 2.7.0</div>\n' +
       '    <div class="ui ignored info message"><code>elastic</code> as loading style is currently not supported  because segment uses the <code>:before</code> pseudoclass to dimm the background.</div>\n' +
       '    <div class="ui brown double loading segment">\n' +
-      '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n' +
       '    <div class="ui brown usual double loading segment">\n' +
-      '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n',
   },
 };

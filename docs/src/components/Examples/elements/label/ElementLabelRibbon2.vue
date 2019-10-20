@@ -6,7 +6,7 @@
           <div class="ui black ribbon label">
             <i class="hotel icon"/> Hotel
           </div>
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
       </div>
       <div class="column">
@@ -14,7 +14,7 @@
           <div class="ui blue right ribbon label">
             <i class="spoon icon"/> Food
           </div>
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@ export default {
       '          <div class="ui black ribbon label">\n' +
       '            <i class="hotel icon"/> Hotel\n' +
       '          </div>\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="column">\n' +
@@ -45,7 +45,7 @@ export default {
       '          <div class="ui blue right ribbon label">\n' +
       '            <i class="spoon icon"/> Food\n' +
       '          </div>\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',

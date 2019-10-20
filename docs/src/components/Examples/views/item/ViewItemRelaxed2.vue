@@ -3,7 +3,7 @@
     <div class="ui very relaxed items">
       <div class="item">
         <div class="ui tiny image">
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
         <div class="middle aligned content">
           <a class="header">12 Years a Slave</a>
@@ -11,7 +11,7 @@
       </div>
       <div class="item">
         <div class="ui tiny image">
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
         <div class="middle aligned content">
           <a class="header">My Neighbor Totoro</a>
@@ -19,7 +19,7 @@
       </div>
       <div class="item">
         <div class="ui tiny image">
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
         <div class="middle aligned content">
           <a class="header">Watchmen</a>
@@ -42,7 +42,7 @@ export default {
     model: '    <div class="ui very relaxed items">\n' +
       '      <div class="item">\n' +
       '        <div class="ui tiny image">\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '        <div class="middle aligned content">\n' +
       '          <a class="header">12 Years a Slave</a>\n' +
@@ -50,7 +50,7 @@ export default {
       '      </div>\n' +
       '      <div class="item">\n' +
       '        <div class="ui tiny image">\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '        <div class="middle aligned content">\n' +
       '          <a class="header">My Neighbor Totoro</a>\n' +
@@ -58,7 +58,7 @@ export default {
       '      </div>\n' +
       '      <div class="item">\n' +
       '        <div class="ui tiny image">\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '        <div class="middle aligned content">\n' +
       '          <a class="header">Watchmen</a>\n' +

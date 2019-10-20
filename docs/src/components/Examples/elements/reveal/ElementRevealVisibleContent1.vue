@@ -5,7 +5,7 @@
     </div>
     <div class="ui small fade reveal image">
       <img class="visible content" src="/images/avatar/large/ade.jpg"/>
-      <img class="hidden content" src="/images/wireframe/square-image.png"/>
+      <img src="/images/wireframe/square-image.png" class="hidden content">
     </div>
   </div>
 </template>
@@ -25,7 +25,7 @@ export default {
       '    </div>\n' +
       '    <div class="ui small fade reveal image">\n' +
       '      <img class="visible content" src="/images/avatar/large/ade.jpg"/>\n' +
-      '      <img class="hidden content" src="/images/wireframe/square-image.png"/>\n' +
+      '      <img src="/images/wireframe/square-image.png" class="hidden content">\n' +
       '    </div>\n',
   },
 };

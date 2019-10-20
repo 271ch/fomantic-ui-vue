@@ -14,7 +14,9 @@
     </FuiButton>
     <FuiButton tag=div focusable animated=fade>
       <FuiButtonContent visible>Sign-up for a Pro account</FuiButtonContent>
-      <FuiButtonContent hidden>$12.99 a month</FuiButtonContent>
+      <FuiButtonContent hidden>
+        $12.99 a month
+      </FuiButtonContent>
     </FuiButton>
   </div>
 </template>
@@ -29,19 +31,19 @@ export default {
     title1: 'Types',
     title2: 'Animated',
     description: 'A button can animate to show hidden content',
-    model: '    <div class="ui animated button" tabindex="0">\n' +
+    model: '    <div tabindex="0" class="ui animated button">\n' +
       '      <div class="visible content">Next</div>\n' +
       '      <div class="hidden content">\n' +
       '        <i class="right arrow icon"></i>\n' +
       '      </div>\n' +
       '    </div>\n' +
-      '    <div class="ui vertical animated button" tabindex="0">\n' +
+      '    <div tabindex="0" class="ui vertical animated button">\n' +
       '      <div class="hidden content">Shop</div>\n' +
       '      <div class="visible content">\n' +
       '        <i class="shop icon"></i>\n' +
       '      </div>\n' +
       '    </div>\n' +
-      '    <div class="ui animated fade button" tabindex="0">\n' +
+      '    <div tabindex="0" class="ui animated fade button">\n' +
       '      <div class="visible content">Sign-up for a Pro account</div>\n' +
       '      <div class="hidden content">\n' +
       '        $12.99 a month\n' +

@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="ui tiny images">
-      <img class="ui image" src="/images/wireframe/image.png"/>
-      <img class="ui image" src="/images/wireframe/image.png"/>
-      <img class="ui image" src="/images/wireframe/image.png"/>
-      <img class="ui image" src="/images/wireframe/image.png"/>
+      <img src="/images/wireframe/image.png" class="ui image">
+      <img src="/images/wireframe/image.png" class="ui image">
+      <img src="/images/wireframe/image.png" class="ui image">
+      <img src="/images/wireframe/image.png" class="ui image">
     </div>
   </div>
 </template>
@@ -20,10 +20,10 @@ export default {
     title2: 'Size',
     description: 'A group of images can be formatted to have the same size.',
     model: '    <div class="ui tiny images">\n' +
-      '      <img class="ui image" src="/images/wireframe/image.png"/>\n' +
-      '      <img class="ui image" src="/images/wireframe/image.png"/>\n' +
-      '      <img class="ui image" src="/images/wireframe/image.png"/>\n' +
-      '      <img class="ui image" src="/images/wireframe/image.png"/>\n' +
+      '      <img src="/images/wireframe/image.png" class="ui image">\n' +
+      '      <img src="/images/wireframe/image.png" class="ui image">\n' +
+      '      <img src="/images/wireframe/image.png" class="ui image">\n' +
+      '      <img src="/images/wireframe/image.png" class="ui image">\n' +
       '    </div>\n',
   },
 };

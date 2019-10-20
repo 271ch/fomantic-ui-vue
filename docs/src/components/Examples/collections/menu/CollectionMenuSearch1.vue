@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="ui segment">
-      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
     </div>
   </div>
 </template>
@@ -35,7 +35,7 @@ export default {
       '      </div>\n' +
       '    </div>\n' +
       '    <div class="ui segment">\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n',
   },
 };

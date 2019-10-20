@@ -1,7 +1,7 @@
 <template>
   <div>
     <a href="http://google.com" class="ui medium image">
-      <img src="/images/wireframe/image-text.png"/>
+      <img src="/images/wireframe/image-text.png">
     </a>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
     title2: 'Image Link',
     description: 'An image can be formatted to link to other content',
     model: '    <a href="http://google.com" class="ui medium image">\n' +
-      '      <img src="/images/wireframe/image-text.png"/>\n' +
+      '      <img src="/images/wireframe/image-text.png">\n' +
       '    </a>\n',
   },
 };

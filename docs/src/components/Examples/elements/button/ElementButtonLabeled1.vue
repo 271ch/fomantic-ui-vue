@@ -37,7 +37,7 @@ export default {
     title1: 'Types',
     title2: 'Labeled',
     description: 'A button can appear alongside a',
-    model: '    <div class="ui labeled button" tabindex="0">\n' +
+    model: '    <div tabindex="0" class="ui labeled button">\n' +
       '      <div class="ui button">\n' +
       '        <i class="heart icon"></i> Like\n' +
       '      </div>\n' +
@@ -45,7 +45,7 @@ export default {
       '        2,048\n' +
       '      </a>\n' +
       '    </div>\n' +
-      '    <div class="ui left labeled button" tabindex="0">\n' +
+      '    <div tabindex="0" class="ui left labeled button">\n' +
       '      <a class="ui right pointing basic label">\n' +
       '        2,048\n' +
       '      </a>\n' +
@@ -53,7 +53,7 @@ export default {
       '        <i class="heart icon"></i> Like\n' +
       '      </div>\n' +
       '    </div>\n' +
-      '    <div class="ui left labeled button" tabindex="0">\n' +
+      '    <div tabindex="0" class="ui left labeled button">\n' +
       '      <a class="ui basic label">\n' +
       '        1,048\n' +
       '      </a>\n' +

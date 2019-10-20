@@ -1,10 +1,10 @@
 <template>
   <div>
     <h2 class="ui header">
-      <img src="/images/avatar2/large/patrick.png" class="ui circular image"/>
+      <img src="/images/avatar2/large/patrick.png" class="ui circular image">
       Patrick
     </h2>
-    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
   </div>
 </template>
 
@@ -19,10 +19,10 @@ export default {
     title2: 'Image',
     description: 'A header may contain an',
     model: '    <h2 class="ui header">\n' +
-      '      <img src="/images/avatar2/large/patrick.png" class="ui circular image"/>\n' +
+      '      <img src="/images/avatar2/large/patrick.png" class="ui circular image">\n' +
       '      Patrick\n' +
       '    </h2>\n' +
-      '    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n',
+      '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n',
   },
 };
 </script>

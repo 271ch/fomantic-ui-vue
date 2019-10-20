@@ -9,19 +9,19 @@
         <div class="column">
           <div class="ui segment">
             <div class="ui top attached label">HTML</div>
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
         <div class="column">
           <div class="ui segment">
             <div class="ui bottom attached label">CSS</div>
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
         <div class="column">
           <div class="ui segment">
             <div class="ui top right attached label">Code</div>
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -29,19 +29,19 @@
         <div class="column">
           <div class="ui segment">
             <div class="ui top left attached label">View</div>
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
         <div class="column">
           <div class="ui segment">
             <div class="ui bottom left attached label">User View</div>
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
         <div class="column">
           <div class="ui segment">
             <div class="ui bottom right attached label">Admin View</div>
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -76,19 +76,19 @@ export default {
       '        <div class="column">\n' +
       '          <div class="ui segment">\n' +
       '            <div class="ui top attached label">HTML</div>\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
       '          <div class="ui segment">\n' +
       '            <div class="ui bottom attached label">CSS</div>\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
       '          <div class="ui segment">\n' +
       '            <div class="ui top right attached label">Code</div>\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -96,19 +96,19 @@ export default {
       '        <div class="column">\n' +
       '          <div class="ui segment">\n' +
       '            <div class="ui top left attached label">View</div>\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
       '          <div class="ui segment">\n' +
       '            <div class="ui bottom left attached label">User View</div>\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
       '          <div class="ui segment">\n' +
       '            <div class="ui bottom right attached label">Admin View</div>\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +

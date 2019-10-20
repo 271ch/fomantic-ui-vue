@@ -12,7 +12,7 @@
           <span class="category">Animals</span>
         </div>
         <div class="description">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
       </div>
       <div class="extra content">
@@ -46,7 +46,7 @@ export default {
       '          <span class="category">Animals</span>\n' +
       '        </div>\n' +
       '        <div class="description">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="extra content">\n' +

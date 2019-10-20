@@ -35,16 +35,16 @@ export default {
     model: '    <div class="ui segment">\n' +
       '      <div class="ui two column very relaxed grid">\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+      '          <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+      '          <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+      '          <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+      '          <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+      '          <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+      '          <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="ui vertical divider">\n' +

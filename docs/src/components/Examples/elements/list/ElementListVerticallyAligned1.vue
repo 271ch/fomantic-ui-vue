@@ -2,19 +2,19 @@
   <div>
     <div class="ui horizontal list">
       <div class="item">
-        <img class="ui avatar image" src="/images/wireframe/square-image.png"/>
+        <img src="/images/wireframe/square-image.png" class="ui avatar image">
         <div class="top aligned content">
           Top Aligned
         </div>
       </div>
       <div class="item">
-        <img class="ui avatar image" src="/images/wireframe/square-image.png"/>
+        <img src="/images/wireframe/square-image.png" class="ui avatar image">
         <div class="middle aligned content">
           Middle
         </div>
       </div>
       <div class="item">
-        <img class="ui avatar image" src="/images/wireframe/square-image.png"/>
+        <img src="/images/wireframe/square-image.png" class="ui avatar image">
         <div class="bottom aligned content">
           Bottom
         </div>
@@ -35,19 +35,19 @@ export default {
     description: 'An element inside a list can be vertically aligned',
     model: '    <div class="ui horizontal list">\n' +
       '      <div class="item">\n' +
-      '        <img class="ui avatar image" src="/images/wireframe/square-image.png"/>\n' +
+      '        <img src="/images/wireframe/square-image.png" class="ui avatar image">\n' +
       '        <div class="top aligned content">\n' +
       '          Top Aligned\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="item">\n' +
-      '        <img class="ui avatar image" src="/images/wireframe/square-image.png"/>\n' +
+      '        <img src="/images/wireframe/square-image.png" class="ui avatar image">\n' +
       '        <div class="middle aligned content">\n' +
       '          Middle\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="item">\n' +
-      '        <img class="ui avatar image" src="/images/wireframe/square-image.png"/>\n' +
+      '        <img src="/images/wireframe/square-image.png" class="ui avatar image">\n' +
       '        <div class="bottom aligned content">\n' +
       '          Bottom\n' +
       '        </div>\n' +

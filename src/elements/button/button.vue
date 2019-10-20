@@ -126,6 +126,10 @@ export default {
       },
       default: '',
     },
+    submit: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
   },
   events: {
     click: {
@@ -173,6 +177,7 @@ export default {
         this.floated,
         this.floated && 'floated',
         this.toggle && 'toggle',
+        this.submit && 'submit',
         'button'
       );
     },

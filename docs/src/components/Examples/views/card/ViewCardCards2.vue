@@ -3,7 +3,7 @@
     <div class="ui link cards">
       <div class="card">
         <div class="image">
-          <img src="/images/avatar2/large/matthew.png"/>
+          <img src="/images/avatar2/large/matthew.png">
         </div>
         <div class="content">
           <div class="header">Matt Giampietro</div>
@@ -26,7 +26,7 @@
       </div>
       <div class="card">
         <div class="image">
-          <img src="/images/avatar2/large/molly.png"/>
+          <img src="/images/avatar2/large/molly.png">
         </div>
         <div class="content">
           <div class="header">Molly</div>
@@ -49,7 +49,7 @@
       </div>
       <div class="card">
         <div class="image">
-          <img src="/images/avatar2/large/elyse.png"/>
+          <img src="/images/avatar2/large/elyse.png">
         </div>
         <div class="content">
           <div class="header">Elyse</div>
@@ -87,7 +87,7 @@ export default {
     model: '    <div class="ui link cards">\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
-      '          <img src="/images/avatar2/large/matthew.png"/>\n' +
+      '          <img src="/images/avatar2/large/matthew.png">\n' +
       '        </div>\n' +
       '        <div class="content">\n' +
       '          <div class="header">Matt Giampietro</div>\n' +
@@ -110,7 +110,7 @@ export default {
       '      </div>\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
-      '          <img src="/images/avatar2/large/molly.png"/>\n' +
+      '          <img src="/images/avatar2/large/molly.png">\n' +
       '        </div>\n' +
       '        <div class="content">\n' +
       '          <div class="header">Molly</div>\n' +
@@ -133,7 +133,7 @@ export default {
       '      </div>\n' +
       '      <div class="card">\n' +
       '        <div class="image">\n' +
-      '          <img src="/images/avatar2/large/elyse.png"/>\n' +
+      '          <img src="/images/avatar2/large/elyse.png">\n' +
       '        </div>\n' +
       '        <div class="content">\n' +
       '          <div class="header">Elyse</div>\n' +

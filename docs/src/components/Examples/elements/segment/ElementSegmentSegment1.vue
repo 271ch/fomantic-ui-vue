@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui segment">
-      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>
+      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
     title2: 'Segment',
     description: 'A segment of content',
     model: '    <div class="ui segment">\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n',
   },
 };

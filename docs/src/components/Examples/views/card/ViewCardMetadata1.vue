@@ -11,7 +11,7 @@
           <span>2 days ago</span>
           <a>Animals</a>
         </div>
-        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
       </div>
     </div>
   </div>
@@ -38,7 +38,7 @@ export default {
       '          <span>2 days ago</span>\n' +
       '          <a>Animals</a>\n' +
       '        </div>\n' +
-      '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '      </div>\n' +
       '    </div>\n',
   },

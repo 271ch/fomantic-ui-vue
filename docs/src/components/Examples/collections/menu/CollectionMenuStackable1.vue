@@ -5,7 +5,7 @@
     </div>
     <div class="ui stackable menu">
       <div class="item">
-        <img src="/images/logo.png"/>
+        <img src="/images/logo.png">
       </div>
       <a class="item">Features</a>
       <a class="item">Testimonials</a>
@@ -29,7 +29,7 @@ export default {
       '    </div>\n' +
       '    <div class="ui stackable menu">\n' +
       '      <div class="item">\n' +
-      '        <img src="/images/logo.png"/>\n' +
+      '        <img src="/images/logo.png">\n' +
       '      </div>\n' +
       '      <a class="item">Features</a>\n' +
       '      <a class="item">Testimonials</a>\n' +

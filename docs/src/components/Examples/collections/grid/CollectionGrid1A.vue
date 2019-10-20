@@ -35,24 +35,24 @@
       <div class="ui three column divided grid">
         <div class="row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>
+            <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>
+            <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>
+            <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">
           </div>
         </div>
         <div class="row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>
+            <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>
+            <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>
+            <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -66,21 +66,21 @@
       <div class="ui vertically divided grid">
         <div class="two column row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
         <div class="three column row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -94,21 +94,21 @@
       <div class="ui celled grid">
         <div class="row">
           <div class="three wide column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="thirteen wide column">
-            <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>
+            <img src="/images/wireframe/centered-paragraph.png" class="ui wireframe image">
           </div>
         </div>
         <div class="row">
           <div class="three wide column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="ten wide column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
           <div class="three wide column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -122,24 +122,24 @@
       <div class="ui internally celled grid">
         <div class="row">
           <div class="three wide column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="ten wide column">
-            <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>
+            <img src="/images/wireframe/centered-paragraph.png" class="ui wireframe image">
           </div>
           <div class="three wide column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
         </div>
         <div class="row">
           <div class="three wide column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="ten wide column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
           <div class="three wide column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -151,21 +151,21 @@
       <div class="ui three column grid">
         <div class="row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
         <div class="row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -175,16 +175,16 @@
       <p>Columns each contain gutters giving them equal spacing from other columns.</p>
       <div class="ui grid">
         <div class="eight wide column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="eight wide column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="eight wide column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="eight wide column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
       </div>
     </div>
@@ -194,10 +194,10 @@
       <p>A column can sit flush against the left or right edge of a row</p>
       <div class="ui grid">
         <div class="left floated five wide column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="right floated five wide column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
       </div>
     </div>
@@ -206,13 +206,13 @@
       <p>A column can vary in width taking up more than a single grid column.</p>
       <div class="ui grid">
         <div class="four wide column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="nine wide column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="three wide column">
-          <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>
+          <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">
         </div>
       </div>
     </div>
@@ -222,44 +222,44 @@
       <div class="ui grid">
         <div class="three column row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
         </div>
         <div class="four column row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
         </div>
         <div class="five column row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -371,7 +371,7 @@
           </div>
           <div class="six wide column">
             <div class="ui segment">
-              <img class="ui image" src="/images/wireframe/image.png"/>
+              <img src="/images/wireframe/image.png" class="ui image">
             </div>
           </div>
           <div class="column">
@@ -394,7 +394,7 @@
           </div>
           <div class="six wide column">
             <div class="ui segment">
-              <img class="ui image" src="/images/wireframe/image.png"/>
+              <img src="/images/wireframe/image.png" class="ui image">
             </div>
           </div>
           <div class="column">
@@ -415,10 +415,10 @@
       <div class="ui divider"/>
       <div class="ui two column padded grid">
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
       </div>
     </div>
@@ -427,10 +427,10 @@
       <div class="ui divider"/>
       <div class="ui two column vertically padded grid">
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
       </div>
     </div>
@@ -439,10 +439,10 @@
       <div class="ui divider"/>
       <div class="ui two column horizontally padded grid">
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
       </div>
     </div>
@@ -454,18 +454,18 @@
       <div class="ui two column compact internally celled grid">
         <div class="row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
         <div class="row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -476,18 +476,18 @@
       <div class="ui two column very compact internally celled grid">
         <div class="row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
         <div class="row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -497,32 +497,32 @@
       <p>A grid can increase its gutters to allow for more negative space</p>
       <div class="ui four column relaxed grid">
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
       </div>
     </div>
     <div class="another example">
       <div class="ui four column very relaxed grid">
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
       </div>
     </div>
@@ -593,31 +593,31 @@
       <p>A grid can have its columns centered</p>
       <div class="ui two column centered grid">
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="four column centered row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
         </div>
         <div class="four column row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -734,14 +734,14 @@
       <div class="ui middle aligned four column centered grid">
         <div class="row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -750,38 +750,38 @@
       <div class="ui four column centered grid">
         <div class="top aligned row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
         </div>
         <div class="middle aligned row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
         </div>
         <div class="bottom aligned row">
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
           <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+            <img src="/images/wireframe/image.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -795,19 +795,19 @@
       </div>
       <div class="five column doubling ui grid">
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
         <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </div>
       </div>
     </div>
@@ -820,14 +820,14 @@
       <div class="two column stackable ui grid">
         <div class="column">
           <div class="ui segment">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
         <div class="column">
           <div class="ui segment">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
+            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -1137,24 +1137,24 @@ export default {
       '      <div class="ui three column divided grid">\n' +
       '        <div class="row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -1168,21 +1168,21 @@ export default {
       '      <div class="ui vertically divided grid">\n' +
       '        <div class="two column row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="three column row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -1196,21 +1196,21 @@ export default {
       '      <div class="ui celled grid">\n' +
       '        <div class="row">\n' +
       '          <div class="three wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="thirteen wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/centered-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="row">\n' +
       '          <div class="three wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="ten wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="three wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -1224,24 +1224,24 @@ export default {
       '      <div class="ui internally celled grid">\n' +
       '        <div class="row">\n' +
       '          <div class="three wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="ten wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/centered-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="three wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="row">\n' +
       '          <div class="three wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="ten wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="three wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -1253,21 +1253,21 @@ export default {
       '      <div class="ui three column grid">\n' +
       '        <div class="row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -1277,16 +1277,16 @@ export default {
       '      <p>Columns each contain gutters giving them equal spacing from other columns.</p>\n' +
       '      <div class="ui grid">\n' +
       '        <div class="eight wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="eight wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="eight wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="eight wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n' +
@@ -1296,10 +1296,10 @@ export default {
       '      <p>A column can sit flush against the left or right edge of a row</p>\n' +
       '      <div class="ui grid">\n' +
       '        <div class="left floated five wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="right floated five wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n' +
@@ -1308,13 +1308,13 @@ export default {
       '      <p>A column can vary in width taking up more than a single grid column.</p>\n' +
       '      <div class="ui grid">\n' +
       '        <div class="four wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="nine wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="three wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n' +
@@ -1324,44 +1324,44 @@ export default {
       '      <div class="ui grid">\n' +
       '        <div class="three column row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="four column row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="five column row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -1473,7 +1473,7 @@ export default {
       '          </div>\n' +
       '          <div class="six wide column">\n' +
       '            <div class="ui segment">\n' +
-      '              <img class="ui image" src="/images/wireframe/image.png"/>\n' +
+      '              <img src="/images/wireframe/image.png" class="ui image">\n' +
       '            </div>\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
@@ -1496,7 +1496,7 @@ export default {
       '          </div>\n' +
       '          <div class="six wide column">\n' +
       '            <div class="ui segment">\n' +
-      '              <img class="ui image" src="/images/wireframe/image.png"/>\n' +
+      '              <img src="/images/wireframe/image.png" class="ui image">\n' +
       '            </div>\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
@@ -1517,10 +1517,10 @@ export default {
       '      <div class="ui divider"/>\n' +
       '      <div class="ui two column padded grid">\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n' +
@@ -1529,10 +1529,10 @@ export default {
       '      <div class="ui divider"/>\n' +
       '      <div class="ui two column vertically padded grid">\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n' +
@@ -1541,10 +1541,10 @@ export default {
       '      <div class="ui divider"/>\n' +
       '      <div class="ui two column horizontally padded grid">\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n' +
@@ -1556,18 +1556,18 @@ export default {
       '      <div class="ui two column compact internally celled grid">\n' +
       '        <div class="row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -1578,18 +1578,18 @@ export default {
       '      <div class="ui two column very compact internally celled grid">\n' +
       '        <div class="row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -1599,32 +1599,32 @@ export default {
       '      <p>A grid can increase its gutters to allow for more negative space</p>\n' +
       '      <div class="ui four column relaxed grid">\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n' +
       '    <div class="another example">\n' +
       '      <div class="ui four column very relaxed grid">\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n' +
@@ -1695,31 +1695,31 @@ export default {
       '      <p>A grid can have its columns centered</p>\n' +
       '      <div class="ui two column centered grid">\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="four column centered row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="four column row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -1836,14 +1836,14 @@ export default {
       '      <div class="ui middle aligned four column centered grid">\n' +
       '        <div class="row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -1852,38 +1852,38 @@ export default {
       '      <div class="ui four column centered grid">\n' +
       '        <div class="top aligned row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="middle aligned row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="bottom aligned row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -1897,19 +1897,19 @@ export default {
       '      </div>\n' +
       '      <div class="five column doubling ui grid">\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n' +
@@ -1922,14 +1922,14 @@ export default {
       '      <div class="two column stackable ui grid">\n' +
       '        <div class="column">\n' +
       '          <div class="ui segment">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
       '          <div class="ui segment">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +

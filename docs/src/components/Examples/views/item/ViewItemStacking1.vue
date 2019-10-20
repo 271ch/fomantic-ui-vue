@@ -3,7 +3,7 @@
     <div class="ui unstackable items">
       <div class="item">
         <div class="image">
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
         <div class="content">
           <a class="header">Header</a>
@@ -20,7 +20,7 @@
       </div>
       <div class="item">
         <div class="image">
-          <img src="/images/wireframe/image.png"/>
+          <img src="/images/wireframe/image.png">
         </div>
         <div class="content">
           <a class="header">Header</a>
@@ -52,7 +52,7 @@ export default {
     model: '    <div class="ui unstackable items">\n' +
       '      <div class="item">\n' +
       '        <div class="image">\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '        <div class="content">\n' +
       '          <a class="header">Header</a>\n' +
@@ -69,7 +69,7 @@ export default {
       '      </div>\n' +
       '      <div class="item">\n' +
       '        <div class="image">\n' +
-      '          <img src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png">\n' +
       '        </div>\n' +
       '        <div class="content">\n' +
       '          <a class="header">Header</a>\n' +

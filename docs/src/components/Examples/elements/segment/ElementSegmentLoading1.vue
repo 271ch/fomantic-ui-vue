@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ui loading segment">
-      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
+      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
     title2: 'Loading',
     description: 'A segment may show its content is being loaded',
     model: '    <div class="ui loading segment">\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n',
   },
 };

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img class="ui medium bordered image" src="/images/wireframe/white-image.png"/>
+    <img src="/images/wireframe/white-image.png" class="ui medium bordered image">
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
     title1: 'Variations',
     title2: 'Bordered',
     description: 'An image may include a border to emphasize the edges of white or transparent content',
-    model: '    <img class="ui medium bordered image" src="/images/wireframe/white-image.png"/>\n',
+    model: '    <img src="/images/wireframe/white-image.png" class="ui medium bordered image">\n',
   },
 };
 </script>

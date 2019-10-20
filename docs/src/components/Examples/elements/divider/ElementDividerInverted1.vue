@@ -22,9 +22,9 @@ export default {
     title2: 'Inverted',
     description: 'A divider can have its colors inverted',
     model: '    <div class="ui inverted segment">\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '      <div class="ui inverted divider"></div>\n' +
-      '      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png"/>\n' +
+      '      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '      <h4 class="ui horizontal inverted divider">\n' +
       '        Horizontal\n' +
       '      </h4>\n' +

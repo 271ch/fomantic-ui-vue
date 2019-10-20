@@ -33,8 +33,8 @@
             </div>
           </div>
           <div class="extra images">
-            <a><img src="/images/wireframe/image.png"/></a>
-            <a><img src="/images/wireframe/image.png"/></a>
+            <a><img src="/images/wireframe/image.png"></a>
+            <a><img src="/images/wireframe/image.png"></a>
           </div>
           <div class="meta">
             <a class="like">
@@ -96,8 +96,8 @@
             </div>
           </div>
           <div class="extra images">
-            <a><img src="/images/wireframe/image.png"/></a>
-            <a><img src="/images/wireframe/image.png"/></a>
+            <a><img src="/images/wireframe/image.png"></a>
+            <a><img src="/images/wireframe/image.png"></a>
           </div>
           <div class="meta">
             <a class="like">
@@ -153,8 +153,8 @@ export default {
       '            </div>\n' +
       '          </div>\n' +
       '          <div class="extra images">\n' +
-      '            <a><img src="/images/wireframe/image.png"/></a>\n' +
-      '            <a><img src="/images/wireframe/image.png"/></a>\n' +
+      '            <a><img src="/images/wireframe/image.png"></a>\n' +
+      '            <a><img src="/images/wireframe/image.png"></a>\n' +
       '          </div>\n' +
       '          <div class="meta">\n' +
       '            <a class="like">\n' +
@@ -216,8 +216,8 @@ export default {
       '            </div>\n' +
       '          </div>\n' +
       '          <div class="extra images">\n' +
-      '            <a><img src="/images/wireframe/image.png"/></a>\n' +
-      '            <a><img src="/images/wireframe/image.png"/></a>\n' +
+      '            <a><img src="/images/wireframe/image.png"></a>\n' +
+      '            <a><img src="/images/wireframe/image.png"></a>\n' +
       '          </div>\n' +
       '          <div class="meta">\n' +
       '            <a class="like">\n' +
