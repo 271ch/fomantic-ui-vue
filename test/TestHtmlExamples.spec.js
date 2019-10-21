@@ -13,7 +13,7 @@ let converted = 0;
 let notConverted = 0;
 
 const html_std = function(html) {
-  let html2 = html.replace(/<!---->/gm,'').replace(/</gm,'\n<').replace(/>/gm,'>\n');
+  let html2 = html.replace(/<!---->/gm,'').replace(/</gm,'\n<').replace(/>/gm,'>\n').replace(/&amp;/gm,'&');
   let html3 = html2.replace(/\s+$/gm, "").replace(/^\s+/gm, "")
   while (true) {
     let l = html3.length

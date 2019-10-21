@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# This script has to be executed in its own folder!
+# go to: docs/src/components
+# and: python3 ../../../utils/genDocPage.py element icon
 
 import subprocess
 import sys

@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# go to: docs/src/components/Examples
+# and: python3 ../../../../utils/genSourceCodeTemplates.py
+
 import subprocess
 import os
 import os.path
