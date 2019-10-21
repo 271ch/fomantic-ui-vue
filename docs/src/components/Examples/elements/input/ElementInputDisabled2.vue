@@ -1,9 +1,10 @@
 <template>
   <div>
-    <div class="ui disabled icon input">
-      <i class="search icon"></i>
-      <input type="text" placeholder="Search..."/>
-    </div>
+    <FuiInput placeholder="Search..." icon disabled>
+      <template #before>
+        <FuiIcon name=search></FuiIcon>
+      </template>
+    </FuiInput>
   </div>
 </template>
 
@@ -11,7 +12,7 @@
 export default {
   name: 'ElementInputDisabled2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'input',
     title1: 'States',
@@ -19,7 +20,7 @@ export default {
     description: 'An input field can show that it is disabled',
     model: '    <div class="ui disabled icon input">\n' +
       '      <i class="search icon"></i>\n' +
-      '      <input type="text" placeholder="Search..."/>\n' +
+      '      <input type="text" placeholder="Search...">\n' +
       '    </div>\n',
   },
 };

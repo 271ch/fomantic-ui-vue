@@ -12,6 +12,9 @@ FuiVue.registerAll(Vue)
 let converted = 0;
 let notConverted = 0;
 
+const skipElement = ['icon'];
+//const skipElement = [];
+
 const html_std = function(html) {
   let html2 = html.replace(/<!---->/gm,'').replace(/</gm,'\n<').replace(/>/gm,'>\n').replace(/&amp;/gm,'&');
   let html3 = html2.replace(/\s+$/gm, "").replace(/^\s+/gm, "")
@@ -35,13 +38,15 @@ const testElementType = function (et, elemList) {
 const testElement = function (elem, templList) {
   describe(`Element: [${elem}]`, function () {
     for (let idxTempl in templList) {
-      testTemplate(templList[idxTempl]);
+      testTemplate(elem, templList[idxTempl]);
     };
   })
 }
 
-const testTemplate = function (templ) {
+const testTemplate = function (elem, templ) {
   it(`Template: [${templ.name}]`, async function () {
+    if (skipElement.indexOf(elem) !== -1) return this.skip();
+
     chai.assert.isTrue('info' in templ,
       'the template has an \'info\' key');
     chai.assert.isTrue('converted' in templ.info,

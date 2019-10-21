@@ -2176,10 +2176,9 @@ s.ElementInputLabeled3 =
   '  </div>\n' +
   '</div>' 
 s.ElementInputLoading3 = 
-  '<div class="ui icon input purple double loading">\n' +
-  '    <input type="text" placeholder="Search..."/>\n' +
-  '    <i class="search icon"></i>\n' +
-  '</div>' 
+  '<FuiInput placeholder="Search..." icon color=purple loading=double>\n' +
+  '  <FuiIcon name=search></FuiIcon>\n' +
+  '</FuiInput>' 
 s.ElementInputTextarea1 = 
   '<div class="ui form">\n' +
   '    <div class="ui left corner labeled input">\n' +
@@ -2241,15 +2240,15 @@ s.ElementInputLabeled2 =
   '  </div>\n' +
   '</div>' 
 s.ElementInputLoading2 = 
-  '<div class="ui icon input loading">\n' +
-  '  <input type="text" placeholder="Search..."/>\n' +
-  '  <i class="search icon"></i>\n' +
-  '</div>' 
+  '<FuiInput placeholder="Search..." icon loading>\n' +
+  '  <FuiIcon name=search></FuiIcon>\n' +
+  '</FuiInput>' 
 s.ElementInputDisabled2 = 
-  '<div class="ui disabled icon input">\n' +
-  '  <i class="search icon"></i>\n' +
-  '  <input type="text" placeholder="Search..."/>\n' +
-  '</div>' 
+  '<FuiInput placeholder="Search..." icon disabled>\n' +
+  '  <template #before>\n' +
+  '    <FuiIcon name=search></FuiIcon>\n' +
+  '  </template>\n' +
+  '</FuiInput>' 
 s.ElementInputIcon2 = 
   '<div class="ui left icon input">\n' +
   '  <input type="text" placeholder="Search users..."/>\n' +
@@ -2299,9 +2298,8 @@ s.ElementInputAction2 =
   '  <input type="text" value="$52.03"/>\n' +
   '</div>' 
 s.ElementInputInput1 = 
-  '<div class="ui input">\n' +
-  '  <input type="text" placeholder="Search..."/>\n' +
-  '</div>' 
+  '<FuiInput placeholder="Search...">\n' +
+  '</FuiInput>' 
 s.ElementInputSize2 = 
   '<div class="ui small icon input">\n' +
   '  <input type="text" placeholder="Search small..."/>\n' +
@@ -2313,22 +2311,18 @@ s.ElementInputIcon4 =
   '  <i class="inverted circular search link icon"></i>\n' +
   '</div>' 
 s.ElementInputLoading1 = 
-  '<div class="ui left icon input loading">\n' +
-  '  <input type="text" placeholder="Search..."/>\n' +
-  '  <i class="search icon"></i>\n' +
-  '</div>' 
+  '<FuiInput placeholder="Search..." icon=left loading>\n' +
+  '  <FuiIcon name=search></FuiIcon>\n' +
+  '</FuiInput>' 
 s.ElementInputFocus1 = 
-  '<div class="ui input focus">\n' +
-  '  <input type="text" placeholder="Search..."/>\n' +
-  '</div>' 
+  '<FuiInput focus placeholder="Search...">\n' +
+  '</FuiInput>' 
 s.ElementInputDisabled1 = 
-  '<div class="ui disabled input">\n' +
-  '  <input type="text" placeholder="Search..."/>\n' +
-  '</div>' 
+  '<FuiInput placeholder="Search..." disabled>\n' +
+  '</FuiInput>' 
 s.ElementInputDisabled3 = 
-  '<div class="ui input">\n' +
-  '  <input type="text" placeholder="Search..." disabled="disabled"/>\n' +
-  '</div>' 
+  '<FuiInput placeholder="Search..." inputDisabled>\n' +
+  '</FuiInput>' 
 s.ElementInputInverted1 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted input">\n' +
@@ -2406,9 +2400,8 @@ s.ElementInputAction5 =
   '  </button>\n' +
   '</div>' 
 s.ElementInputError1 = 
-  '<div class="ui input error">\n' +
-  '  <input type="text" placeholder="Search..."/>\n' +
-  '</div>' 
+  '<FuiInput placeholder="Search..." error>\n' +
+  '</FuiInput>' 
 s.ElementInputSize5 = 
   '<div class="ui huge icon input">\n' +
   '  <input type="text" placeholder="Search huge..."/>\n' +
@@ -2426,18 +2419,13 @@ s.ElementInputLabeled4 =
   '  <div class="ui basic label">.00</div>\n' +
   '</div>' 
 s.ElementInputIcon1 = 
-  '<div class="ui ignored message">\n' +
-  '  Input icons do not receive <code>pointer-events</code> unless a <code>link icon</code> is used.\n' +
-  '</div>\n' +
-  '<div class="ui icon input">\n' +
-  '  <input type="text" placeholder="Search..."/>\n' +
-  '  <i class="search icon"></i>\n' +
-  '</div>' 
+  '<FuiInput placeholder="Search..." icon>\n' +
+  '  <FuiIcon name=search></FuiIcon>\n' +
+  '</FuiInput>' 
 s.ElementInputLoading4 = 
-  '<div class="ui icon input red fast elastic loading">\n' +
-  '    <input type="text" placeholder="Search..."/>\n' +
-  '    <i class="search icon"></i>\n' +
-  '</div>' 
+  '<FuiInput placeholder="Search..." icon color=red loading="fast elastic">\n' +
+  '  <FuiIcon name=search></FuiIcon>\n' +
+  '</FuiInput>' 
 s.ElementInputSize4 = 
   '<div class="ui big icon input">\n' +
   '  <input type="text" placeholder="Search big..."/>\n' +
