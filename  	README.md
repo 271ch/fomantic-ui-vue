@@ -2,11 +2,11 @@
 
 ## Goal
 
-The goal is to build a `vue.js` library of templates to use Fomantin UI.
+The goal is to build a `vue.js` library of templates to use Fomantic UI.
 
 ## Progress
 
-At the moment a very small part of the library has been realised. Of the elements only `button` and `image` is somehow complete.
+At the moment a very small part of the library has been realised. Of the elements only `button`, `icon` and `image` is somehow complete.
 
 ## What there is to see
 

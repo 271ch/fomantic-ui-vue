@@ -10,7 +10,7 @@ import u from '../../lib/util';
 import Mixins from '../../lib/mixins';
 
 export default {
-  name: 'FuiIconGroup',
+  name: 'FuiIcons',
   mixins: [Mixins.PSize],
   props: {
   },

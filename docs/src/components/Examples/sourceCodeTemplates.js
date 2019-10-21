@@ -6120,6 +6120,14 @@ s.ElementIconObjects1 =
   '    wrench\n' +
   '  </FuiColumn>\n' +
   '</FuiGrid>' 
+s.ElementIconIcons1 = 
+  '<FuiIcons size=huge>\n' +
+  '  <FuiIcon name="circle outline" size=big></FuiIcon>\n' +
+  '  <FuiIcon name=user></FuiIcon>\n' +
+  '</FuiIcons>' 
+s.ElementIconFlipped1 = 
+  '<FuiIcon name=cloud flipped=horizontally></FuiIcon>\n' +
+  '<FuiIcon name=cloud flipped=vertically></FuiIcon>' 
 s.ElementIconTabletopGaming1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
@@ -8430,6 +8438,9 @@ s.ElementIconBrands1 =
   '    zhihu\n' +
   '  </FuiColumn>\n' +
   '</FuiGrid>' 
+s.ElementIconRotated1 = 
+  '<FuiIcon rotated=clockwise name=cloud></FuiIcon>\n' +
+  '<FuiIcon rotated=counterclockwise name=cloud></FuiIcon>' 
 s.ElementIconGames1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
@@ -9236,6 +9247,11 @@ s.ElementIconFitness1 =
   '    walking\n' +
   '  </FuiColumn>\n' +
   '</FuiGrid>' 
+s.ElementIconCircular1 = 
+  '<FuiIcon circular name=users></FuiIcon>\n' +
+  '<FuiIcon circular name=users color=teal></FuiIcon>\n' +
+  '<FuiIcon circular name=users inverted></FuiIcon>\n' +
+  '<FuiIcon circular name=users color=teal inverted></FuiIcon>' 
 s.ElementIconDesign1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
@@ -10554,6 +10570,10 @@ s.ElementIconPaymentsShopping1 =
   '    trophy\n' +
   '  </FuiColumn>\n' +
   '</FuiGrid>' 
+s.ElementIconLoading1 = 
+  '<FuiIcon name=spinner loading></FuiIcon>\n' +
+  '<FuiIcon name="notched circle" loading></FuiIcon>\n' +
+  '<FuiIcon name=asterisk loading></FuiIcon>' 
 s.ElementIconAccessibility1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
@@ -10894,6 +10914,22 @@ s.ElementIconAutomotive1 =
   '    truck pickup\n' +
   '  </FuiColumn>\n' +
   '</FuiGrid>' 
+s.ElementIconColored1 = 
+  '<FuiIcon primary name=users></FuiIcon>\n' +
+  '<FuiIcon secondary name=users></FuiIcon>\n' +
+  '<FuiIcon color=red name=users></FuiIcon>\n' +
+  '<FuiIcon color=orange name=users></FuiIcon>\n' +
+  '<FuiIcon color=yellow name=users></FuiIcon>\n' +
+  '<FuiIcon color=olive name=users></FuiIcon>\n' +
+  '<FuiIcon color=green name=users></FuiIcon>\n' +
+  '<FuiIcon color=teal name=users></FuiIcon>\n' +
+  '<FuiIcon color=blue name=users></FuiIcon>\n' +
+  '<FuiIcon color=violet name=users></FuiIcon>\n' +
+  '<FuiIcon color=purple name=users></FuiIcon>\n' +
+  '<FuiIcon color=pink name=users></FuiIcon>\n' +
+  '<FuiIcon color=brown name=users></FuiIcon>\n' +
+  '<FuiIcon color=grey name=users></FuiIcon>\n' +
+  '<FuiIcon color=black name=users></FuiIcon>' 
 s.ElementIconPolitical1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
@@ -10965,6 +11001,25 @@ s.ElementIconPolitical1 =
   '    vote yea\n' +
   '  </FuiColumn>\n' +
   '</FuiGrid>' 
+s.ElementIconSize1 = 
+  '<FuiIcon size=mini name=home></FuiIcon>\n' +
+  '<FuiIcon size=tiny name=home></FuiIcon>\n' +
+  '<FuiIcon size=small name=home></FuiIcon>\n' +
+  '<br>\n' +
+  '<FuiIcon name=home></FuiIcon>\n' +
+  '<br>\n' +
+  '<FuiIcon size=large name=home></FuiIcon>\n' +
+  '<br>\n' +
+  '<FuiIcon size=big name=home></FuiIcon>\n' +
+  '<br>\n' +
+  '<FuiIcon size=huge name=home></FuiIcon>\n' +
+  '<br>\n' +
+  '<FuiIcon size=massive name=home></FuiIcon>' 
+s.ElementIconLink1 = 
+  '<FuiIcon name=close link></FuiIcon>\n' +
+  '<FuiIcon name=help link></FuiIcon>' 
+s.ElementIconDisabled1 = 
+  '<FuiIcon name=users disabled></FuiIcon>' 
 s.ElementIconCommunication1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
@@ -12382,6 +12437,14 @@ s.ElementIconFinance1 =
   '    wallet\n' +
   '  </FuiColumn>\n' +
   '</FuiGrid>' 
+s.ElementIconCornerIcon3 = 
+  '<FuiHeader level=2>\n' +
+  '  <FuiIcons size=large>\n' +
+  '    <FuiIcon name=twitter></FuiIcon>\n' +
+  '    <FuiIcon name=add inverted corner></FuiIcon>\n' +
+  '  </FuiIcons>\n' +
+  'Add on Twitter\n' +
+  '</FuiHeader>' 
 s.ElementIconGenders1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
@@ -13141,6 +13204,11 @@ s.ElementIconFruitsVegetables1 =
   '    seedling\n' +
   '  </FuiColumn>\n' +
   '</FuiGrid>' 
+s.ElementIconBordered1 = 
+  '<FuiIcon bordered name=users></FuiIcon>\n' +
+  '<FuiIcon bordered name=users color=teal></FuiIcon>\n' +
+  '<FuiIcon bordered name=users color=black inverted></FuiIcon>\n' +
+  '<FuiIcon bordered name=users color=teal inverted></FuiIcon>' 
 s.ElementIconAudioVideo1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
@@ -13482,6 +13550,24 @@ s.ElementIconMarketing1 =
   '    search location\n' +
   '  </FuiColumn>\n' +
   '</FuiGrid>' 
+s.ElementIconInverted1 = 
+  '<FuiSegment inverted>\n' +
+  '  <FuiIcon inverted name=users></FuiIcon>\n' +
+  '  <FuiIcon inverted primary name=users></FuiIcon>\n' +
+  '  <FuiIcon inverted secondary name=users></FuiIcon>\n' +
+  '  <FuiIcon inverted color=red name=users></FuiIcon>\n' +
+  '  <FuiIcon inverted color=orange name=users></FuiIcon>\n' +
+  '  <FuiIcon inverted color=yellow name=users></FuiIcon>\n' +
+  '  <FuiIcon inverted color=olive name=users></FuiIcon>\n' +
+  '  <FuiIcon inverted color=green name=users></FuiIcon>\n' +
+  '  <FuiIcon inverted color=teal name=users></FuiIcon>\n' +
+  '  <FuiIcon inverted color=blue name=users></FuiIcon>\n' +
+  '  <FuiIcon inverted color=violet name=users></FuiIcon>\n' +
+  '  <FuiIcon inverted color=purple name=users></FuiIcon>\n' +
+  '  <FuiIcon inverted color=pink name=users></FuiIcon>\n' +
+  '  <FuiIcon inverted color=brown name=users></FuiIcon>\n' +
+  '  <FuiIcon inverted color=grey name=users></FuiIcon>\n' +
+  '</FuiSegment>' 
 s.ElementIconCamping1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
@@ -14772,6 +14858,10 @@ s.ElementIconReligion1 =
   '    yin yang\n' +
   '  </FuiColumn>\n' +
   '</FuiGrid>' 
+s.ElementIconFitted1 = 
+  'Tight spacing\n' +
+  '<FuiIcon name=help fitted></FuiIcon>\n' +
+  'Tight spacing' 
 s.ElementIconMaritime1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
@@ -15720,6 +15810,11 @@ s.ElementIconToggle1 =
   '    toggle on\n' +
   '  </FuiColumn>\n' +
   '</FuiGrid>' 
+s.ElementIconIcons2 = 
+  '<FuiIcons size=huge>\n' +
+  '  <FuiIcon name=dont color=red size=big></FuiIcon>\n' +
+  '  <FuiIcon name=user color=black></FuiIcon>\n' +
+  '</FuiIcons>' 
 s.ElementIconTravel1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
@@ -17468,6 +17563,28 @@ s.ElementIconInterfaces1 =
   '    wrench\n' +
   '  </FuiColumn>\n' +
   '</FuiGrid>' 
+s.ElementIconCornerIcon2 = 
+  '<FuiIcons size=huge>\n' +
+  '  <FuiIcon name=puzzle></FuiIcon>\n' +
+  '  <FuiIcon name=add corner="top left"></FuiIcon>\n' +
+  '</FuiIcons>\n' +
+  '<FuiIcons size=huge>\n' +
+  '  <FuiIcon name=puzzle></FuiIcon>\n' +
+  '  <FuiIcon name=add corner="top right"></FuiIcon>\n' +
+  '</FuiIcons>\n' +
+  '<FuiIcons size=huge>\n' +
+  '  <FuiIcon name=puzzle></FuiIcon>\n' +
+  '  <FuiIcon name=add corner="bottom left"></FuiIcon>\n' +
+  '</FuiIcons>\n' +
+  '<FuiIcons size=huge>\n' +
+  '  <FuiIcon name=puzzle></FuiIcon>\n' +
+  '  <FuiIcon name=add corner="bottom right"></FuiIcon>\n' +
+  '</FuiIcons>' 
+s.ElementIconCornerIcon1 = 
+  '<FuiIcons size=huge>\n' +
+  '  <FuiIcon name=puzzle></FuiIcon>\n' +
+  '  <FuiIcon name=add corner></FuiIcon>\n' +
+  '</FuiIcons>' 
 s.CollectionGrid1 = 
   '<h2 class="ui dividing header">Introduction</h2>\n' +
   '<div class="highlighted example" data-class="grid">\n' +

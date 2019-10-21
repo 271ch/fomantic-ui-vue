@@ -30,10 +30,11 @@ mixins.getMixinOfBools = function (name, props) {
     computed: { },
   };
   m.computed['getClasses' + name] = function () {
-    return [
-      (this.primary && 'primary') ||
-      (this.secondary && 'secondary')
-    ];
+    let c = [];
+    for (let prop in props) {
+      if (this[prop]) c.push(prop);
+    }
+    return c;
   };
   for (let prop in props) {
     if (typeof prop === 'string') {

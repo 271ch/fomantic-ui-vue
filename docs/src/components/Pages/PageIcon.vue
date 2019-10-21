@@ -6,6 +6,22 @@
         Icon examples
       </FuiHeader>
     </FuiHeader>
+    <ExampleWithSource example="ElementIconDisabled1"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconLoading1"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconFitted1"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconSize1"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconLink1"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconFlipped1"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconRotated1"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconCircular1"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconBordered1"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconColored1"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconInverted1"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconIcons1"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconIcons2"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconCornerIcon1"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconCornerIcon2"></ExampleWithSource>
+    <ExampleWithSource example="ElementIconCornerIcon3"></ExampleWithSource>
     <ExampleWithSource example="ElementIconAccessibility1"></ExampleWithSource>
     <ExampleWithSource example="ElementIconAlert1"></ExampleWithSource>
     <ExampleWithSource example="ElementIconAnimals1"></ExampleWithSource>

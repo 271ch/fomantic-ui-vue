@@ -11,7 +11,16 @@ import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiIcon',
-  mixins: [Mixins.PSize],
+  mixins: [
+    Mixins.PSize,
+    Mixins.getMixinOfBools(
+      'Emphasis',
+      {
+        primary: 'Format showing a higher level of emphasis.',
+        secondary: 'Format showing a lower level of emphasis.',
+      }
+    ),
+  ],
   props: {
     name: {
       type: String,
@@ -35,16 +44,20 @@ export default {
       description: 'An icon can be formatted as a link.',
     },
     flipped: {
-      type: Boolean,
+      type: [Boolean, String],
       description: 'An icon can be flipped.',
+      validator: (value) => {
+        return value === true || value === false || value === 'horizontally' || value === 'vertically';
+      },
+      default: false,
     },
     rotated: {
-      type: String,
+      type: [Boolean, String],
       description: 'An icon can be rotated ().',
       validator: (value) => {
-        return !value || Enum.Loading.check(value);
+        return value === false || Enum.Rotation.check(value);
       },
-      default: '',
+      default: false,
     },
     circular: {
       type: Boolean,
@@ -67,16 +80,12 @@ export default {
       description: 'An icon can have its colors inverted for contrast.',
     },
     corner: {
-      type: Boolean, // TODO: check that the parent is icon-group, only DEV
-      description: 'An icon can be displayed as a smaller corner icon with its colors inverted for contrast.',
-    },
-    cornerPosition: {
-      type: String,
-      description: `Position of a corner icon (${Enum.CornerIconPosition.str()}).`,
+      type: [Boolean, String],
+      description: `An icon can be displayed as a smaller corner icon with its colors inverted for contrast (${Enum.CornerIconPosition.str()}).`,
       validator: (value) => {
-        return !value || Enum.Color.check(value);
+        return value === true || value === false || Enum.CornerIconPosition.check(value);
       },
-      default: '',
+      default: false,
     },
   },
   events: {
@@ -90,13 +99,16 @@ export default {
         this.disabled && 'disabled',
         this.fitted && 'fitted',
         ...this.getClassesSize,
+        this.flipped !== true && this.flipped,
         this.flipped && 'flipped',
-        this.rotated && [this.rotated, 'rotated'].join(' '),
+        this.rotated,
+        this.rotated && 'rotated',
         this.circular && 'circular',
         this.bordered && 'bordered',
-        this.color,
         this.inverted && 'inverted',
-        this.corner && this.cornerPosition,
+        ...this.getClassesEmphasis,
+        this.color,
+        this.corner !== true && this.corner,
         this.corner && 'corner',
         this.name,
         this.loading && 'loading',

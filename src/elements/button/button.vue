@@ -160,7 +160,6 @@ export default {
         this.inverted && 'inverted',
         ...this.getClassesColor,
         ...this.getClassesEmphasis,
-        this.tertiary && 'tertiary',
         this.basic && 'basic',
         this.labeled === 'left' && this.labeled,
         this.labeled && 'labeled',

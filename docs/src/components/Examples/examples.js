@@ -177,6 +177,38 @@ c.push(ElementHeaderInverted1);
 b.push(['header', c]); c = [];
 // end of element [header]
 // begin of element [icon]
+import ElementIconDisabled1 from './elements/icon/ElementIconDisabled1'
+c.push(ElementIconDisabled1);
+import ElementIconLoading1 from './elements/icon/ElementIconLoading1'
+c.push(ElementIconLoading1);
+import ElementIconFitted1 from './elements/icon/ElementIconFitted1'
+c.push(ElementIconFitted1);
+import ElementIconSize1 from './elements/icon/ElementIconSize1'
+c.push(ElementIconSize1);
+import ElementIconLink1 from './elements/icon/ElementIconLink1'
+c.push(ElementIconLink1);
+import ElementIconFlipped1 from './elements/icon/ElementIconFlipped1'
+c.push(ElementIconFlipped1);
+import ElementIconRotated1 from './elements/icon/ElementIconRotated1'
+c.push(ElementIconRotated1);
+import ElementIconCircular1 from './elements/icon/ElementIconCircular1'
+c.push(ElementIconCircular1);
+import ElementIconBordered1 from './elements/icon/ElementIconBordered1'
+c.push(ElementIconBordered1);
+import ElementIconColored1 from './elements/icon/ElementIconColored1'
+c.push(ElementIconColored1);
+import ElementIconInverted1 from './elements/icon/ElementIconInverted1'
+c.push(ElementIconInverted1);
+import ElementIconIcons1 from './elements/icon/ElementIconIcons1'
+c.push(ElementIconIcons1);
+import ElementIconIcons2 from './elements/icon/ElementIconIcons2'
+c.push(ElementIconIcons2);
+import ElementIconCornerIcon1 from './elements/icon/ElementIconCornerIcon1'
+c.push(ElementIconCornerIcon1);
+import ElementIconCornerIcon2 from './elements/icon/ElementIconCornerIcon2'
+c.push(ElementIconCornerIcon2);
+import ElementIconCornerIcon3 from './elements/icon/ElementIconCornerIcon3'
+c.push(ElementIconCornerIcon3);
 import ElementIconAccessibility1 from './elements/icon/ElementIconAccessibility1'
 c.push(ElementIconAccessibility1);
 import ElementIconAlert1 from './elements/icon/ElementIconAlert1'
