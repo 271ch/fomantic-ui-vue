@@ -4,7 +4,7 @@
       <FuiIcon name=settings></FuiIcon>
       <FuiContent>
         Account Settings
-        <FuiHeader sub>Manage your account settings and set e-mail preferences.</FuiHeader>
+        <FuiSubheader>Manage your account settings and set e-mail preferences.</FuiSubheader>
       </FuiContent>
     </FuiHeader>
   </div>

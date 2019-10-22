@@ -1,14 +1,12 @@
 <template>
   <div>
-    <div class="ui fluid icon input">
-      <input type="text" placeholder="Search a very wide input..."/>
-      <i class="search icon"></i>
-    </div>
-    <div class="ui ignored divider"/>
-    <div class="ui fluid action input">
-      <input type="text" placeholder="Search..."/>
-      <div class="ui button">Search</div>
-    </div>
+    <FuiInput fluid icon placeholder="Search a very wide input...">
+      <FuiIcon name=search></FuiIcon>
+    </FuiInput>
+    <FuiDivider ignored></FuiDivider>
+    <FuiInput fluid action placeholder="Search...">
+      <FuiButton tag=div>Search</FuiButton>
+    </FuiInput>
   </div>
 </template>
 
@@ -16,19 +14,19 @@
 export default {
   name: 'ElementInputFluid1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'input',
     title1: 'Variations',
     title2: 'Fluid',
     description: 'An input can take the size of its container',
     model: '    <div class="ui fluid icon input">\n' +
-      '      <input type="text" placeholder="Search a very wide input..."/>\n' +
+      '      <input type="text" placeholder="Search a very wide input...">\n' +
       '      <i class="search icon"></i>\n' +
       '    </div>\n' +
-      '    <div class="ui ignored divider"/>\n' +
+      '    <div class="ui ignored divider"></div>\n' +
       '    <div class="ui fluid action input">\n' +
-      '      <input type="text" placeholder="Search..."/>\n' +
+      '      <input type="text" placeholder="Search...">\n' +
       '      <div class="ui button">Search</div>\n' +
       '    </div>\n',
   },

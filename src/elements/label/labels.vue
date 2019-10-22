@@ -10,28 +10,10 @@ import u from '../../lib/util';
 // import Mixins from '../../lib/mixins';
 
 export default {
-  name: 'FuiForm',
-  mixins: [],
+  name: 'FuiLabels',
+  mixins: [
+  ],
   props: {
-    /*
-    prop1: { // TODO: Component FuiForm
-      type: Boolean,
-      description: '',
-    },
-    prop2: {
-      type: String,
-      description: '',
-      default: '',
-    },
-    prop3: {
-      type: String,
-      description: '',
-      validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
-      },
-      default: '',
-    },
-    */
   },
   events: {
     click: {
@@ -42,7 +24,7 @@ export default {
     classes: function () {
       return u.concatClasses(
         'ui',
-        'form'
+        'labels'
       );
     },
   },

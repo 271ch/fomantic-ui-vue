@@ -1,7 +1,7 @@
 <template>
-  <table :class="classes">
+  <div :class="classes">
     <slot />
-  </table>
+  </div>
 </template>
 
 <script>
@@ -10,15 +10,11 @@ import u from '../../lib/util';
 // import Mixins from '../../lib/mixins';
 
 export default {
-  name: 'FuiTable',
+  name: 'FuiField',
   mixins: [],
   props: {
-    definition: {
-      type: Boolean,
-      description: '', // TODO: descr
-    },
     /*
-    prop1: { // TODO: Component FuiTable
+    prop1: { // TODO: Component FuiForm
       type: Boolean,
       description: '',
     },
@@ -45,9 +41,7 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
-        'ui',
-        this.definition && 'definition',
-        'table'
+        'field'
       );
     },
   },

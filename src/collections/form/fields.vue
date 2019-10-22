@@ -7,14 +7,16 @@
 <script>
 import u from '../../lib/util';
 // import Enum from '../../lib/enum';
-// import Mixins from '../../lib/mixins';
+import Mixins from '../../lib/mixins';
 
 export default {
-  name: 'FuiInputDiv',
-  mixins: [],
+  name: 'FuiFields',
+  mixins: [
+    Mixins.PSize
+  ],
   props: {
     /*
-    prop1: { // TODO: Component FuiInput
+    prop1: { // TODO: Component FuiForm
       type: Boolean,
       description: '',
     },
@@ -41,7 +43,8 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
-        'input'
+        this.getClassesSize,
+        'fields'
       );
     },
   },

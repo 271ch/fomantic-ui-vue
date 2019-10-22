@@ -4,7 +4,7 @@
       <FuiIcon name=settings></FuiIcon>
       <FuiContent>
         Account Settings
-        <FuiHeader sub>Manage your preferences</FuiHeader>
+        <FuiSubheader>Manage your preferences</FuiSubheader>
       </FuiContent>
     </FuiHeader>
     <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>

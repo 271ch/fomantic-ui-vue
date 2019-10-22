@@ -1,21 +1,21 @@
 <template>
   <div>
-    <h1 class="ui header">
+    <FuiHeader level=1>
       H1
-      <div class="sub header">Sub Header</div>
-    </h1>
-    <h2 class="ui header">
+      <FuiSubheader>Sub Header</FuiSubheader>
+    </FuiHeader>
+    <FuiHeader level=2>
       H2
-      <div class="sub header">Sub Header</div>
-    </h2>
-    <h3 class="ui header">
+      <FuiSubheader>Sub Header</FuiSubheader>
+    </FuiHeader>
+    <FuiHeader level=3>
       H3
-      <div class="sub header">Sub Header</div>
-    </h3>
-    <h5 class="ui header">
+      <FuiSubheader>Sub Header</FuiSubheader>
+    </FuiHeader>
+    <FuiHeader level=5>
       H5
-      <div class="sub header">Sub Header</div>
-    </h5>
+      <FuiSubheader>Sub Header</FuiSubheader>
+    </FuiHeader>
   </div>
 </template>
 
@@ -23,7 +23,7 @@
 export default {
   name: 'ElementHeaderSubheader2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'header',
     title1: 'Content',

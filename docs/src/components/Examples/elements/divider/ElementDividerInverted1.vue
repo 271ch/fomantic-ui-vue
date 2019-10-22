@@ -4,9 +4,9 @@
       <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
       <FuiDivider inverted></FuiDivider>
       <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
-      <h4 class="ui horizontal inverted divider">
+      <FuiDivider level=4 horizontal inverted>
         Horizontal
-      </h4>
+      </FuiDivider>
     </FuiSegment>
   </div>
 </template>
@@ -15,7 +15,7 @@
 export default {
   name: 'ElementDividerInverted1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'divider',
     title1: 'Variations',

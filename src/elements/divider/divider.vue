@@ -1,20 +1,25 @@
 <template>
-  <div :class="classes">
+  <component
+    :is="gTag"
+    :class="classes"
+  >
     <slot />
-  </div>
+  </component>
 </template>
 
 <script>
 import u from '../../lib/util';
 // import Enum from '../../lib/enum';
-// import Mixins from '../../lib/mixins';
+import Mixins from '../../lib/mixins';
 
 // TODO: header's contain also divider's:
 // https://fomantic-ui.com/elements/divider.html#horizontal-alignment
 
 export default {
   name: 'FuiDivider',
-  mixins: [],
+  mixins: [
+    Mixins.PHeaderLevel,
+  ],
   props: {
     vertical: {
       type: Boolean,

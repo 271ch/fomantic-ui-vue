@@ -1,11 +1,12 @@
 <template>
   <div>
     <FuiSegment aligned=center basic>
-      <div class="ui left icon action input">
-        <FuiIcon name=search></FuiIcon>
-        <input type="text" placeholder="Order #"/>
+      <FuiInput icon=left action placeholder="Order #">
+        <template #before>
+          <FuiIcon name=search></FuiIcon>
+        </template>
         <FuiButton tag=div color=blue submit>Search</FuiButton>
-      </div>
+      </FuiInput>
       <FuiDivider horizontal>
         Or
       </FuiDivider>
@@ -28,7 +29,7 @@ export default {
     title2: 'Horizontal Divider',
     description: 'A divider can segment content horizontally',
     model: '    <div class="ui center aligned basic segment">\n' +
-      '      <div class="ui left icon action input">\n' +
+      '      <div class="ui action left icon input">\n' +
       '        <i class="search icon"></i>\n' +
       '        <input type="text" placeholder="Order #" >\n' +
       '        <div class="ui blue submit button">Search</div>\n' +

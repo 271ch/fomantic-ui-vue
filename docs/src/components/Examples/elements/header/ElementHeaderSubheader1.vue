@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h2 class="ui header">
+    <FuiHeader level=2>
       Account Settings
-      <div class="sub header">Manage your account settings and set e-mail preferences.</div>
-    </h2>
-    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
+      <FuiSubheader>Manage your account settings and set e-mail preferences.</FuiSubheader>
+    </FuiHeader>
+    <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementHeaderSubheader1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'header',
     title1: 'Content',

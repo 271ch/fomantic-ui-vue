@@ -7,10 +7,13 @@
 <script>
 import u from '../../lib/util';
 import Enum from '../../lib/enum';
-// import Mixins from '../../lib/mixins';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiColumn',
+  mixins: [
+    Mixins.getMixinAligned(['right', 'left', 'middle'], null),
+  ],
   props: {
     wide: {
       type: [Boolean, String],
@@ -32,7 +35,7 @@ export default {
         this.wide,
         this.wide && 'wide',
         // left,right floated
-        // right,left,middle aligned
+        ...this.getClassesAligned,
         // begin repeat
         //   six wide
         //   tablet/wide computer/large screen/widescreen

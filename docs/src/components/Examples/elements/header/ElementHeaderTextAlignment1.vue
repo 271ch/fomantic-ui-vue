@@ -1,19 +1,19 @@
 <template>
   <div>
-    <div class="ui segment">
-      <h3 class="ui right aligned header">
+    <FuiSegment>
+      <FuiHeader level=3 aligned=right>
         Right
-      </h3>
-      <h3 class="ui left aligned header">
+      </FuiHeader>
+      <FuiHeader level=3 aligned=left>
         Left
-      </h3>
-      <h3 class="ui justified header">
+      </FuiHeader>
+      <FuiHeader level=3 justified>
         This should take up the full width even if only one line
-      </h3>
-      <h3 class="ui center aligned header">
+      </FuiHeader>
+      <FuiHeader level=3 aligned=center>
         Center
-      </h3>
-    </div>
+      </FuiHeader>
+    </FuiSegment>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
 export default {
   name: 'ElementHeaderTextAlignment1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'header',
     title1: 'Variations',

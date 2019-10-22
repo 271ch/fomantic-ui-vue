@@ -17,7 +17,7 @@ export default {  // TODO: Component FuiHeader
   mixins: [
     Mixins.PHeaderLevel,
     Mixins.getMixinAttached(['top', 'bottom'], null),
-    Mixins.getMixinAligned(['left', 'right'], null),
+    Mixins.getMixinAligned(['left', 'right', 'center'], null),
     Mixins.getMixinFloated(['left', 'right'], null),
     Mixins.getMixinOfBools(
       'Emphasis',
@@ -27,6 +27,7 @@ export default {  // TODO: Component FuiHeader
       }
     ),
     Mixins.PColor,
+    Mixins.PSize,
   ],
   props: {
     icon: {
@@ -42,6 +43,10 @@ export default {  // TODO: Component FuiHeader
       description: 'A header can show that it is inactive.',
     },
     horizontal: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
+    justified: {
       type: Boolean,
       description: '', // TODO: descr
     },
@@ -70,7 +75,7 @@ export default {  // TODO: Component FuiHeader
   computed: {
     classes: function () {
       return u.concatClasses(
-        !this.sub && 'ui',
+        'ui',
         this.icon && 'icon',
         this.disabled && 'disabled',
         this.dividing && 'dividing',
@@ -79,11 +84,13 @@ export default {  // TODO: Component FuiHeader
         ...this.getClassesHeaderLevel,
         this.horizontal && 'horizontal',
         ...this.getClassesAligned,
+        this.justified && 'justified',
         ...this.getClassesFloated,
         ...this.getClassesColor,
         ...this.getClassesEmphasis,
         this.divider && 'divider',
         this.inverted && 'inverted',
+        ...this.getClassesSize,
         this.sub && 'sub',
         'header'
       );

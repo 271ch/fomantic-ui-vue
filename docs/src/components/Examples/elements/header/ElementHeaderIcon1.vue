@@ -2,9 +2,9 @@
   <div>
     <FuiHeader level=2>
       <FuiIcon name=plug></FuiIcon>
-      <div class="content">
+      <FuiContent>
         Uptime Guarantee
-      </div>
+      </FuiContent>
     </FuiHeader>
     <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>
   </div>
@@ -14,7 +14,7 @@
 export default {
   name: 'ElementHeaderIcon1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'header',
     title1: 'Content',

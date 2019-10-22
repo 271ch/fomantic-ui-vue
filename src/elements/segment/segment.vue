@@ -31,29 +31,14 @@ export default {
       type: Boolean,
       descr: '', // TODO: descr
     },
+    vertical: {
+      type: Boolean,
+      descr: '', // TODO: descr
+    },
     clearing: {
       type: Boolean,
       descr: '', // TODO: descr
     },
-    /*
-    prop1: { // TODO: Component FuiSegment
-      type: Boolean,
-      description: '',
-    },
-    prop2: {
-      type: String,
-      description: '',
-      default: '',
-    },
-    prop3: {
-      type: String,
-      description: '',
-      validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
-      },
-      default: '',
-    },
-    */
   },
   events: {
     click: {
@@ -69,6 +54,7 @@ export default {
         this.attached && 'attached',
         this.clearing && 'clearing',
         this.basic && 'basic',
+        this.vertical && 'vertical',
         this.placeholder && 'placeholder',
         'segment'
       );

@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h2 class="ui header">
-      <img src="/images/icons/school.png" class="ui image">
-      <div class="content">
+    <FuiHeader level=2>
+      <FuiImage src="/images/icons/school.png"></FuiImage>
+      <FuiContent>
         Learn More
-      </div>
-    </h2>
-    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
+      </FuiContent>
+    </FuiHeader>
+    <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
   </div>
 </template>
 
@@ -14,7 +14,7 @@
 export default {
   name: 'ElementHeaderImage1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'header',
     title1: 'Content',

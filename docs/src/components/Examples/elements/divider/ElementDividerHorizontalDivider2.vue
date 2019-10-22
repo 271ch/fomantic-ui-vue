@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h4 class="ui horizontal divider header">
+    <FuiHeader level=4 horizontal divider>
       <FuiIcon name="bar chart"></FuiIcon>
       Specifications
-    </h4>
-    <table class="ui definition table">
+    </FuiHeader>
+    <FuiTable definition>
       <tbody>
         <tr>
           <td class="two wide column">Size</td>
@@ -23,7 +23,7 @@
           <td>Not Much Usually</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 
@@ -31,7 +31,7 @@
 export default {
   name: 'ElementDividerHorizontalDivider2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'divider',
     title1: 'Types',

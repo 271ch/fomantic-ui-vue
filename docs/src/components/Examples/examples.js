@@ -359,8 +359,6 @@ import ElementIconWriting1 from './elements/icon/ElementIconWriting1'
 c.push(ElementIconWriting1);
 import ElementIconBrands1 from './elements/icon/ElementIconBrands1'
 c.push(ElementIconBrands1);
-import ElementIcon1A from './elements/icon/ElementIcon1A';
-c.push(ElementIcon1A);
 b.push(['icon', c]); c = [];
 // end of element [icon]
 // begin of element [image]

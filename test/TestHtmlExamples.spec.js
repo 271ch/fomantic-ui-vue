@@ -14,6 +14,7 @@ let notConverted = 0;
 
 const skipElement = ['icon'];
 //const skipElement = [];
+const skipTemplate = ['ViewItemImage1', 'ElementInputAction2', 'ElementInputAction3', 'ElementInputAction5'];
 
 const html_std = function(html) {
   let html2 = html.replace(/<!---->/gm,'').replace(/</gm,'\n<').replace(/>/gm,'>\n').replace(/&amp;/gm,'&');
@@ -28,8 +29,8 @@ const html_std = function(html) {
 
 const testElementType = function (et, elemList) {
   describe(`Element type: [${et}]`, function () {
-    for (let idxPaitE in elemList) {
-      let [e,listTemplates] = elemList[idxPaitE]
+    for (let idxPairE in elemList) {
+      let [e,listTemplates] = elemList[idxPairE]
       testElement(e,listTemplates);
     };
   })
@@ -46,6 +47,7 @@ const testElement = function (elem, templList) {
 const testTemplate = function (elem, templ) {
   it(`Template: [${templ.name}]`, async function () {
     if (skipElement.indexOf(elem) !== -1) return this.skip();
+    if (skipTemplate.indexOf(templ.name) !== -1) return this.skip();
 
     chai.assert.isTrue('info' in templ,
       'the template has an \'info\' key');
@@ -75,6 +77,6 @@ const testTemplate = function (elem, templ) {
 }
 
 for (let idxPairET in examples) {
-  let [et,listTypes] = examples[idxPairET]
-  testElementType(et,listTypes);
+  let [et,listElements] = examples[idxPairET]
+  testElementType(et,listElements);
 };

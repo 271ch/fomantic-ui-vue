@@ -11,7 +11,7 @@
 export default {
   name: 'ElementHeaderSubHeaders1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'header',
     title1: 'Types',

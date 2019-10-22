@@ -97,7 +97,6 @@
     <ExampleWithSource example="ElementIconWinter1"></ExampleWithSource>
     <ExampleWithSource example="ElementIconWriting1"></ExampleWithSource>
     <ExampleWithSource example="ElementIconBrands1"></ExampleWithSource>
-    <ExampleWithSource example="ElementIcon1A"></ExampleWithSource>
   </FuiContainer>
 </template>
 

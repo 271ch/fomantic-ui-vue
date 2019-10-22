@@ -40,11 +40,15 @@ export default {
       type: String,
       description: '', // TODO: descr
       validator: (value) => {
-        return value === 'text' || value === 'text';
+        return value === 'text' || value === 'password';
       },
       default: 'text',
     },
     focus: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
+    fluid: {
       type: Boolean,
       description: '', // TODO: descr
     },
@@ -99,6 +103,7 @@ export default {
       return u.concatClasses(
         'ui',
         this.focus && 'focus',
+        this.fluid && 'fluid',
         this.disabled && 'disabled',
         this.transparent && 'transparent',
         ...this.getClassesSize,

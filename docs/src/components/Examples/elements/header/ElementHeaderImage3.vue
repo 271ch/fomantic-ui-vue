@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h2 class="ui header">
-      <img src="/images/icons/plugin.png">
-      <div class="content">
+    <FuiHeader level=2>
+      <FuiImage src="/images/icons/plugin.png"></FuiImage>
+      <FuiContent>
         Plug-ins
-        <div class="sub header">Check out our plug-in marketplace</div>
-      </div>
-    </h2>
-    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
+        <FuiSubheader>Check out our plug-in marketplace</FuiSubheader>
+      </FuiContent>
+    </FuiHeader>
+    <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
   </div>
 </template>
 
@@ -15,14 +15,14 @@
 export default {
   name: 'ElementHeaderImage3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'header',
     title1: 'Content',
     title2: 'Image',
     description: 'A header may contain an',
     model: '    <h2 class="ui header">\n' +
-      '      <img src="/images/icons/plugin.png">\n' +
+      '      <img src="/images/icons/plugin.png" class="ui image">\n' +
       '      <div class="content">\n' +
       '        Plug-ins\n' +
       '        <div class="sub header">Check out our plug-in marketplace</div>\n' +

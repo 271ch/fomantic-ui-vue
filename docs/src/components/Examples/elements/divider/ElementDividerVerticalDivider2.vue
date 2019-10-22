@@ -3,26 +3,24 @@
     <FuiSegment placeholder>
       <FuiGrid column=two relaxed=very stackable>
         <FuiColumn>
-          <div class="ui form">
-            <div class="field">
+          <FuiForm>
+            <FuiField>
               <label>Username</label>
-              <div class="ui left icon input">
-                <input type="text" placeholder="Username"/>
+              <FuiInput placeholder="Username" icon=left>
                 <FuiIcon name=user></FuiIcon>
-              </div>
-            </div>
-            <div class="field">
+              </FuiInput>
+            </FuiField>
+            <FuiField>
               <label>Password</label>
-              <div class="ui left icon input">
-                <input type="password"/>
+              <FuiInput type=password icon=left>
                 <FuiIcon name=lock></FuiIcon>
-              </div>
-            </div>
-            <div class="ui blue submit button">Login</div>
-          </div>
+              </FuiInput>
+            </FuiField>
+            <FuiButton tag=div color=blue submit>Login</FuiButton>
+          </FuiForm>
         </FuiColumn>
-        <FuiColumn middle aligned>
-          <FuiButton size=big>
+        <FuiColumn aligned=middle>
+          <FuiButton tag=div size=big>
             <FuiIcon name=signup></FuiIcon>
             Sign Up
           </FuiButton>
@@ -39,7 +37,7 @@
 export default {
   name: 'ElementDividerVerticalDivider2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'divider',
     title1: 'Types',
@@ -52,14 +50,14 @@ export default {
       '            <div class="field">\n' +
       '              <label>Username</label>\n' +
       '              <div class="ui left icon input">\n' +
-      '                <input type="text" placeholder="Username"/>\n' +
+      '                <input type="text" placeholder="Username">\n' +
       '                <i class="user icon"></i>\n' +
       '              </div>\n' +
       '            </div>\n' +
       '            <div class="field">\n' +
       '              <label>Password</label>\n' +
       '              <div class="ui left icon input">\n' +
-      '                <input type="password"/>\n' +
+      '                <input type="password">\n' +
       '                <i class="lock icon"></i>\n' +
       '              </div>\n' +
       '            </div>\n' +

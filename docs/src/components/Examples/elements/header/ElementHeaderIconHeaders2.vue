@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h2 class="ui center aligned icon header">
-      <i class="circular users icon"></i>
+    <FuiHeader level=2 aligned=center icon>
+      <FuiIcon circular name=users></FuiIcon>
       Friends
-    </h2>
-    <img class="ui centered wireframe image" src="/images/wireframe/centered-paragraph.png" >
+    </FuiHeader>
+    <FuiImage wireframe centered src="/images/wireframe/centered-paragraph.png"></FuiImage>
   </div>
 </template>
 
@@ -12,17 +12,17 @@
 export default {
   name: 'ElementHeaderIconHeaders2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'header',
     title1: 'Types',
     title2: 'Icon Headers',
     description: 'A header can be formatted to emphasize an icon',
-    model: '    <h2 class="ui center aligned icon header">\n' +
+    model: '    <h2 class="ui icon center aligned header">\n' +
       '      <i class="circular users icon"></i>\n' +
       '      Friends\n' +
       '    </h2>\n' +
-      '    <img src="/images/wireframe/centered-paragraph.png" class="ui centered wireframe image">\n',
+      '    <img src="/images/wireframe/centered-paragraph.png" class="ui wireframe centered image">\n',
   },
 };
 </script>
