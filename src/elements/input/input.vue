@@ -72,6 +72,14 @@ export default {
       },
       default: false,
     },
+    action: {
+      type: [Boolean, String],
+      description: '',
+      validator: (value) => {
+        return value === false || value === true || Enum.LeftRight.check(value);
+      },
+      default: false,
+    },
     icon: {
       type: [Boolean, String],
       description: '',
@@ -94,6 +102,9 @@ export default {
         this.disabled && 'disabled',
         this.transparent && 'transparent',
         ...this.getClassesSize,
+        this.action === 'right' && this.action,
+        this.action === 'left' && this.action,
+        this.action && 'action',
         this.icon === 'left' && 'left',
         this.icon && 'icon',
         ...this.getClassesColor,

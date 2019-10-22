@@ -1,14 +1,13 @@
 <template>
   <div>
-    <div class="ui action input">
-      <input type="text" placeholder="Search..."/>
-      <select class="ui compact selection dropdown">
+    <FuiInput action placeholder="Search...">
+      <FuiDropdown compact selection>
         <option value="all">All</option>
         <option selected="selected" value="articles">Articles</option>
         <option value="products">Products</option>
-      </select>
-      <div class="ui button">Search</div>
-    </div>
+      </FuiDropdown>
+      <FuiButton tag=div>Search</FuiButton>
+    </FuiInput>
   </div>
 </template>
 
@@ -16,14 +15,14 @@
 export default {
   name: 'ElementInputAction4',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'input',
     title1: 'Variations',
     title2: 'Action',
     description: 'An input can be formatted to alert the user to an action they may perform',
     model: '    <div class="ui action input">\n' +
-      '      <input type="text" placeholder="Search..."/>\n' +
+      '      <input type="text" placeholder="Search...">\n' +
       '      <select class="ui compact selection dropdown">\n' +
       '        <option value="all">All</option>\n' +
       '        <option selected="selected" value="articles">Articles</option>\n' +

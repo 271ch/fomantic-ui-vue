@@ -1,12 +1,13 @@
 <template>
   <div>
-    <div class="ui left action input">
-      <button class="ui teal labeled icon button">
-        <i class="cart icon"></i>
-        Checkout
-      </button>
-      <input type="text" value="$52.03"/>
-    </div>
+    <FuiInput action=left value="$52.03">
+      <template #before>
+        <FuiButton color=teal labeled icon>
+          <FuiIcon name=cart></FuiIcon>
+          Checkout
+        </FuiButton>
+      </template>
+    </FuiInput>
   </div>
 </template>
 
@@ -14,7 +15,7 @@
 export default {
   name: 'ElementInputAction2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'input',
     title1: 'Variations',
@@ -25,7 +26,7 @@ export default {
       '        <i class="cart icon"></i>\n' +
       '        Checkout\n' +
       '      </button>\n' +
-      '      <input type="text" value="$52.03"/>\n' +
+      '      <input type="text" value="$52.03">\n' +
       '    </div>\n',
   },
 };
