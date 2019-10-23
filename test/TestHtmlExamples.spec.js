@@ -7,6 +7,22 @@ import FuiVue from '../src'
 import examples from '../docs/src/components/Examples/examples'
 var beautify_html = require('js-beautify').html;
 
+let stats = {
+  et: {
+    name: '',
+    skip: 0,
+    fail: 0,
+    n:0,
+  },
+  e: {
+    name: '',
+    skip: 0,
+    fail: 0,
+    n:0,
+  },
+  prot: [],
+}
+
 /*
 let virt_cons = {log: 0, error: 0, warn: 0, info: 0, dir:0};
 const virtualConsole = new jsdom.VirtualConsole();
@@ -28,8 +44,8 @@ FuiVue.registerAll(Vue)
 let converted = 0;
 let notConverted = 0;
 
-const skipElement = ['icon', 'flag'];
-//const skipElement = [];
+let skipElement = ['icon', 'flag'];
+//skipElement = [];
 const skipTemplate = ['ViewItemImage1', 'ElementInputAction2', 'ElementInputAction3', 'ElementInputAction5'];
 
 const html_std = function(html) {
@@ -43,10 +59,24 @@ const html_std = function(html) {
   return html3;
 }
 
+beforeEach(function(){
+  stats.prot.push({t: 4, tot: true});
+})
+afterEach(function() {
+  if (this.currentTest.state === 'failed') {
+    stats.prot.push({t: 4, fail: true});
+  } else if (this.currentTest.state === 'passed') {
+    stats.prot.push({t: 4, pass: true});
+  }
+});
+
 const testElementType = function (et, elemList) {
   describe(`Element type: [${et}]`, function () {
-    beforeEach(function() {
-      // runs before each test
+    before(function() {
+      stats.prot.push({t: 0, et: et});
+    });
+    after(function() {
+      stats.prot.push({t: 1, et: et});
     });
     for (let idxPairE in elemList) {
       let [e,listTemplates] = elemList[idxPairE]
@@ -57,6 +87,12 @@ const testElementType = function (et, elemList) {
 
 const testElement = function (elem, templList) {
   describe(`Element: [${elem}]`, function () {
+    before(function() {
+      stats.prot.push({t: 2, e: elem});
+    });
+    after(function() {
+      stats.prot.push({t: 3, e: elem});
+    });
     for (let idxTempl in templList) {
       testTemplate(elem, templList[idxTempl]);
     };
@@ -95,10 +131,73 @@ const testTemplate = function (elem, templ) {
   })
 }
 
-for (let idxPairET in examples) {
-  let [et,listElements] = examples[idxPairET]
-  testElementType(et,listElements);
-};
+describe('ROOT SUITE', function () {
+
+  before(async function(){
+    // await utils.before()
+
+  })
+
+  for (let idxPairET in examples) {
+    let [et,listElements] = examples[idxPairET]
+    testElementType(et,listElements);
+  };
+
+  after(async function(){
+      // await utils.after()
+
+      console.log('\n\n\n');
+      let prtResult = (p) => {
+        return `${align(p[0],3)} pass + ${align(p[2]-p[0]-p[1],3)} skip + ${align(p[1],3)} fail = ${align(p[2],3)}`;
+      }
+      let align = (s, n) => {
+        let ss = s.toString()
+        if (s===0) ss = '';
+        let sss = ''
+        for(let i = 0; i < n-ss.length; i++) sss += ' ';
+        return sss+ss;
+      }
+      let alignL = (s, n) => {
+        let ss = s.toString()
+        let sss = ''
+        for(let i = 0; i < n-ss.length; i++) sss += ' ';
+        return ss+sss;
+      }
+
+      let tot = [0,0,0]; // pass, fail, tot
+      let tot_et = [0,0,0]; // pass, fail, tot
+      let tot_e = [0,0,0]; // pass, fail, tot
+      for(let ip in stats.prot) {
+        let p = stats.prot[ip];
+        if (p.t == 0) {
+          //console.log(`${p.et} begin`);
+          tot_et = [0,0,0]
+        } else if (p.t == 1) {
+          console.log('.......................................................');
+          console.log(` ${alignL(p.et,11)}      ${prtResult(tot_et)}`);
+          console.log();
+          tot[0] += tot_et[0]
+          tot[1] += tot_et[1]
+          tot[2] += tot_et[2]
+        } else if (p.t == 2) {
+          tot_e = [0,0,0]
+        } else if (p.t == 3) {
+          console.log(` ${alignL(p.e,13)} -> ${prtResult(tot_e)}`);
+          tot_et[0] += tot_e[0]
+          tot_et[1] += tot_e[1]
+          tot_et[2] += tot_e[2]
+        } else if (p.t == 4) {
+          if ('pass' in p) tot_e[0] += 1
+          else if ('fail' in p) tot_e[1] += 1
+          else if ('tot' in p) tot_e[2] += 1
+        }
+      }
+      console.log('-------------------------------------------------------');
+      console.log(` TOTAL            ${prtResult(tot)}`);
+      console.log('\n');
+  })
+})
+
 
 /*
 describe(`Empty virtual console`, function () {
