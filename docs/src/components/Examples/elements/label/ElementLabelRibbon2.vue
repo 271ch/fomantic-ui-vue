@@ -2,20 +2,18 @@
   <div>
     <FuiGrid column=two>
       <FuiColumn>
-        <div class="ui fluid image">
-          <div class="ui black ribbon label">
-            <i class="hotel icon"></i> Hotel
-          </div>
-          <img src="/images/wireframe/image.png">
-        </div>
+        <FuiImage tag=div fluid src="/images/wireframe/image.png">
+          <FuiLabel color=black ribbon>
+            <FuiIcon name=hotel></FuiIcon> Hotel
+          </FuiLabel>
+        </FuiImage>
       </FuiColumn>
       <FuiColumn>
-        <div class="ui fluid image">
-          <div class="ui blue right ribbon label">
-            <i class="spoon icon"></i> Food
-          </div>
-          <img src="/images/wireframe/image.png">
-        </div>
+        <FuiImage tag=div fluid src="/images/wireframe/image.png">
+          <FuiLabel color=blue ribbon=right>
+            <FuiIcon name=spoon></FuiIcon> Food
+          </FuiLabel>
+        </FuiImage>
       </FuiColumn>
     </FuiGrid>
   </div>
@@ -25,7 +23,7 @@
 export default {
   name: 'ElementLabelRibbon2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Types',

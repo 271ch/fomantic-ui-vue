@@ -2,24 +2,21 @@
   <div>
     <FuiItems relaxed>
       <FuiItem>
-        <FuiImage tag=div size=tiny>
-          <img src="/images/wireframe/image.png">
+        <FuiImage tag=div size=tiny src="/images/wireframe/image.png">
         </FuiImage>
         <FuiContent aligned=middle>
           <a class="header">12 Years a Slave</a>
         </FuiContent>
       </FuiItem>
       <FuiItem>
-        <FuiImage tag=div size=tiny>
-          <img src="/images/wireframe/image.png">
+        <FuiImage tag=div size=tiny src="/images/wireframe/image.png">
         </FuiImage>
         <FuiContent aligned=middle>
           <a class="header">My Neighbor Totoro</a>
         </FuiContent>
       </FuiItem>
       <FuiItem>
-        <FuiImage tag=div size=tiny>
-          <img src="/images/wireframe/image.png">
+        <FuiImage tag=div size=tiny src="/images/wireframe/image.png">
         </FuiImage>
         <FuiContent aligned=middle>
           <a class="header">Watchmen</a>

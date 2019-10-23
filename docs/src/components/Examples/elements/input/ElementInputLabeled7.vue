@@ -1,11 +1,10 @@
 <template>
   <div>
-    <div class="ui corner labeled input">
-      <input type="text" placeholder="Search..."/>
-      <div class="ui corner label">
-        <i class="asterisk icon"></i>
-      </div>
-    </div>
+    <FuiInput corner labeled placeholder="Search...">
+      <FuiLabel corner>
+        <FuiIcon name=asterisk></FuiIcon>
+      </FuiLabel>
+    </FuiInput>
   </div>
 </template>
 
@@ -13,14 +12,14 @@
 export default {
   name: 'ElementInputLabeled7',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'input',
     title1: 'Variations',
     title2: 'Labeled',
     description: 'An input can be formatted with a label',
     model: '    <div class="ui corner labeled input">\n' +
-      '      <input type="text" placeholder="Search..."/>\n' +
+      '      <input type="text" placeholder="Search...">\n' +
       '      <div class="ui corner label">\n' +
       '        <i class="asterisk icon"></i>\n' +
       '      </div>\n' +

@@ -73,7 +73,7 @@ export default {
       type: [Boolean, String],
       description: 'A label can position itself in the corner of an element.',
       validator: (value) => {
-        return value === false || Enum.LeftRight.check(value);
+        return value === false || value === true || Enum.LeftRight.check(value);
       },
       default: false,
     },

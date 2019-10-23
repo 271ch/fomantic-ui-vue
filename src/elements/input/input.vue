@@ -5,6 +5,7 @@
       :type="type"
       :placeholder="placeholder"
       :value="value"
+      :id="id"
       :disabled="inputDisabled"
     >
     <slot />
@@ -84,11 +85,35 @@ export default {
       },
       default: false,
     },
+    corner: {
+      type: [Boolean, String],
+      description: '',
+      validator: (value) => {
+        return value === false || value === true || Enum.LeftRight.check(value);
+      },
+      default: false,
+    },
+    labeled: {
+      type: [Boolean, String],
+      description: '',
+      validator: (value) => {
+        return value === false || value === true || Enum.LeftRight.check(value);
+      },
+      default: false,
+    },
     icon: {
       type: [Boolean, String],
       description: '',
       validator: (value) => {
         return value === false || value === true || Enum.LeftRight.check(value);
+      },
+      default: false,
+    },
+    id: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
+      validator: (value) => {
+        return value !== true;
       },
       default: false,
     },
@@ -112,6 +137,10 @@ export default {
         this.action && 'action',
         this.icon === 'left' && 'left',
         this.icon && 'icon',
+        this.corner,
+        this.corner && 'corner',
+        this.labeled,
+        this.labeled && 'labeled',
         ...this.getClassesColor,
         this.loading !== true && this.loading,
         this.loading && 'loading',

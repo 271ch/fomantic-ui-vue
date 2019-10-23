@@ -1,7 +1,6 @@
 <template>
   <div>
-    <FuiImage tag=div size=small>
-      <img src="/images/wireframe/image.png">
+    <FuiImage tag=div size=small src="/images/wireframe/image.png">
     </FuiImage>
   </div>
 </template>

@@ -1,11 +1,12 @@
 <template>
   <div>
-    <div class="ui labeled input">
-      <div class="ui label">
-        http://
-      </div>
-      <input type="text" placeholder="mysite.com"/>
-    </div>
+    <FuiInput labeled placeholder="mysite.com">
+      <template #before>
+        <FuiLabel>
+          http://
+        </FuiLabel>
+      </template>
+    </FuiInput>
   </div>
 </template>
 
@@ -13,7 +14,7 @@
 export default {
   name: 'ElementInputLabeled1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'input',
     title1: 'Variations',
@@ -23,7 +24,7 @@ export default {
       '      <div class="ui label">\n' +
       '        http://\n' +
       '      </div>\n' +
-      '      <input type="text" placeholder="mysite.com"/>\n' +
+      '      <input type="text" placeholder="mysite.com">\n' +
       '    </div>\n',
   },
 };

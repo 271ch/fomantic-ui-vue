@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div class="ui right labeled input">
-      <input type="text" placeholder="Find domain"/>
+    <FuiInput labeled=right placeholder="Find domain">
       <div class="ui dropdown label">
         <div class="text">.com</div>
         <i class="dropdown icon"></i>
@@ -11,7 +10,7 @@
           <div class="item">.org</div>
         </div>
       </div>
-    </div>
+    </FuiInput>
   </div>
 </template>
 
@@ -19,14 +18,14 @@
 export default {
   name: 'ElementInputLabeled2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'input',
     title1: 'Variations',
     title2: 'Labeled',
     description: 'An input can be formatted with a label',
     model: '    <div class="ui right labeled input">\n' +
-      '      <input type="text" placeholder="Find domain"/>\n' +
+      '      <input type="text" placeholder="Find domain">\n' +
       '      <div class="ui dropdown label">\n' +
       '        <div class="text">.com</div>\n' +
       '        <i class="dropdown icon"></i>\n' +

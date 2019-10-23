@@ -7,6 +7,9 @@
     :class="classes"
     :is="gTag">
     <slot />
+    <img v-if="src !== false"
+      :src="src"
+    >
   </component>
 </template>
 
@@ -69,9 +72,12 @@ export default {
       default: false,
     },
     src: {
-      type: String,
-      description: '',
-      default: '', // TODO: descr
+      type: [Boolean, String],
+      description: '', // TODO: descr
+      validator: (value) => {
+        return value !== true;
+      },
+      default: false,
     },
   },
   events: {

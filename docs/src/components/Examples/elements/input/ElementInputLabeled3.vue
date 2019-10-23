@@ -1,11 +1,10 @@
 <template>
   <div>
-    <div class="ui right labeled input">
-      <input type="text" placeholder="Enter weight.."/>
-      <div class="ui basic label">
+    <FuiInput labeled=right placeholder="Enter weight..">
+      <FuiLabel basic>
         kg
-      </div>
-    </div>
+      </FuiLabel>
+    </FuiInput>
   </div>
 </template>
 
@@ -13,14 +12,14 @@
 export default {
   name: 'ElementInputLabeled3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'input',
     title1: 'Variations',
     title2: 'Labeled',
     description: 'An input can be formatted with a label',
     model: '    <div class="ui right labeled input">\n' +
-      '      <input type="text" placeholder="Enter weight.."/>\n' +
+      '      <input type="text" placeholder="Enter weight..">\n' +
       '      <div class="ui basic label">\n' +
       '        kg\n' +
       '      </div>\n' +

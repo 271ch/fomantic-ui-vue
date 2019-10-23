@@ -13,25 +13,10 @@ export default {
   name: 'FuiList',
   mixins: [],
   props: {
-    /*
-    prop1: { // TODO: Component FuiList
+    horizontal: { // TODO: Component FuiList
       type: Boolean,
       description: '',
     },
-    prop2: {
-      type: String,
-      description: '',
-      default: '',
-    },
-    prop3: {
-      type: String,
-      description: '',
-      validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
-      },
-      default: '',
-    },
-    */
   },
   events: {
     click: {
@@ -41,6 +26,8 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
+        'ui',
+        this.horizontal && 'horizontal',
         'list'
       );
     },

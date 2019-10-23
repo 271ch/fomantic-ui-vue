@@ -1,12 +1,13 @@
 <template>
   <div>
-    <div class="ui right labeled left icon input">
-      <i class="tags icon"></i>
-      <input type="text" placeholder="Enter tags"/>
-      <a class="ui tag label">
+    <FuiInput labeled=right icon=left placeholder="Enter tags">
+      <template #before>
+        <FuiIcon name=tags></FuiIcon>
+      </template>
+      <FuiLabel tag=a tagged>
         Add Tag
-      </a>
-    </div>
+      </FuiLabel>
+    </FuiInput>
   </div>
 </template>
 
@@ -14,15 +15,15 @@
 export default {
   name: 'ElementInputLabeled5',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'input',
     title1: 'Variations',
     title2: 'Labeled',
     description: 'An input can be formatted with a label',
-    model: '    <div class="ui right labeled left icon input">\n' +
+    model: '    <div class="ui left icon right labeled input">\n' +
       '      <i class="tags icon"></i>\n' +
-      '      <input type="text" placeholder="Enter tags"/>\n' +
+      '      <input type="text" placeholder="Enter tags">\n' +
       '      <a class="ui tag label">\n' +
       '        Add Tag\n' +
       '      </a>\n' +

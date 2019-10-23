@@ -1,7 +1,6 @@
 <template>
   <div>
-    <FuiImage tag=a size=medium href="http://google.com">
-      <img src="/images/wireframe/image-text.png">
+    <FuiImage tag=a size=medium href="http://google.com" src="/images/wireframe/image-text.png">
     </FuiImage>
   </div>
 </template>

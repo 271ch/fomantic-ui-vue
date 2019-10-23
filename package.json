@@ -1,6 +1,6 @@
 {
   "name": "fomantic-ui-vue",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Integration for Fomantic UI and Vue.js",
   "main": "dist/main.js",
   "scripts": {
