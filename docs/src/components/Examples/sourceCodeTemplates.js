@@ -1,22 +1,22 @@
 let s = {};
-s.ElementImageRounded1 =
-  '<FuiImage src="/images/wireframe/square-image.png" size=medium rounded></FuiImage>'
-s.ElementImageSize2 =
+s.ElementImageRounded1 = 
+  '<FuiImage src="/images/wireframe/square-image.png" size=medium rounded></FuiImage>' 
+s.ElementImageSize2 = 
   '<FuiImages size=small>\n' +
   '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
   '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
   '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
   '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
-  '</FuiImages>'
-s.ElementImageFloated1 =
+  '</FuiImages>' 
+s.ElementImageFloated1 = 
   '<FuiSegment>\n' +
   '  <FuiImage src="/images/wireframe/text-image.png" size=small floated=left></FuiImage>\n' +
   '  <p>Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>\n' +
   '  <FuiImage src="/images/wireframe/text-image.png" size=small floated=right></FuiImage>\n' +
   '  <p>Audiam quaerendum eu sea, pro omittam definiebas ex. Te est latine definitiones. Quot wisi nulla ex duo. Vis sint solet expetenda ne, his te phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide phaedrum, vim vivendum maiestatis in.</p>\n' +
   '  <p>Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.</p>\n' +
-  '</FuiSegment>'
-s.ElementImageVerticallyAligned1 =
+  '</FuiSegment>' 
+s.ElementImageVerticallyAligned1 = 
   '<FuiImage src="/images/wireframe/square-image.png" aligned=top size=tiny></FuiImage>\n' +
   '<span>Top Aligned</span>\n' +
   '<FuiDivider></FuiDivider>\n' +
@@ -24,19 +24,19 @@ s.ElementImageVerticallyAligned1 =
   '<span>Middle Aligned</span>\n' +
   '<FuiDivider></FuiDivider>\n' +
   '<FuiImage src="/images/wireframe/square-image.png" aligned=bottom size=tiny></FuiImage>\n' +
-  '<span>Bottom Aligned</span>'
-s.ElementImageHidden1 =
-  '<FuiImage src="/images/wireframe/image.png" hidden></FuiImage>'
-s.ElementImageImage1 =
-  '<FuiImage src="/images/wireframe/image.png" size=small></FuiImage>'
-s.ElementImageSpaced2 =
+  '<span>Bottom Aligned</span>' 
+s.ElementImageHidden1 = 
+  '<FuiImage src="/images/wireframe/image.png" hidden></FuiImage>' 
+s.ElementImageImage1 = 
+  '<FuiImage src="/images/wireframe/image.png" size=small></FuiImage>' 
+s.ElementImageSpaced2 = 
   '<p>\n' +
   '  <FuiImage size=mini spaced=right src="/images/wireframe/image.png"></FuiImage>Audiam quaerendum eu sea, pro omittam definiebas ex. Te est latine definitiones. Quot wisi nulla ex duo. Vis sint solet expetenda ne, his te phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide phaedrum, vim vivendum maiestatis in.\n' +
   '</p>\n' +
   '<p>\n' +
   '  Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.<FuiImage size=mini spaced=left src="/images/wireframe/image.png"></FuiImage>\n' +
-  '</p>'
-s.ElementImageSize1 =
+  '</p>' 
+s.ElementImageSize1 = 
   '  <FuiImage src="/images/wireframe/image.png" size=mini></FuiImage>\n' +
   '  <FuiImage src="/images/wireframe/image.png" size=tiny></FuiImage>\n' +
   '  <FuiImage src="/images/wireframe/image.png" size=small></FuiImage>\n' +
@@ -44,52 +44,52 @@ s.ElementImageSize1 =
   '  <FuiImage src="/images/wireframe/image.png" size=large></FuiImage>\n' +
   '  <FuiImage src="/images/wireframe/image.png" size=big></FuiImage>\n' +
   '  <FuiImage src="/images/wireframe/image.png" size=huge></FuiImage>\n' +
-  '  <FuiImage src="/images/wireframe/image.png" size=massive></FuiImage>'
-s.ElementImageImage3 =
+  '  <FuiImage src="/images/wireframe/image.png" size=massive></FuiImage>' 
+s.ElementImageImage3 = 
   '<FuiImage tag=div size=small>\n' +
   '  <svg width="150" height="150">\n' +
   '    <image xlink:href="/images/wireframe/image.png" x="0" y="0" width="100%" height="100%"/>\n' +
   '  </svg>\n' +
-  '</FuiImage>'
-s.ElementImageDisabled1 =
-  '<FuiImage src="/images/wireframe/image.png" disabled size=medium></FuiImage>'
-s.ElementImageCircular1 =
-  '<FuiImage src="/images/wireframe/square-image.png" size=medium circular></FuiImage>'
-s.ElementImageFluid1 =
-  '<FuiImage src="/images/wireframe/image.png" fluid></FuiImage>'
-s.ElementImageSpaced1 =
+  '</FuiImage>' 
+s.ElementImageDisabled1 = 
+  '<FuiImage src="/images/wireframe/image.png" disabled size=medium></FuiImage>' 
+s.ElementImageCircular1 = 
+  '<FuiImage src="/images/wireframe/square-image.png" size=medium circular></FuiImage>' 
+s.ElementImageFluid1 = 
+  '<FuiImage src="/images/wireframe/image.png" fluid></FuiImage>' 
+s.ElementImageSpaced1 = 
   '<FuiSegment>\n' +
   '  <p>Te eum doming eirmod, nominati pertinacia <FuiImage src="/images/wireframe/image.png" size=mini spaced></FuiImage> argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>\n' +
-  '</FuiSegment>'
-s.ElementImageAvatar1 =
+  '</FuiSegment>' 
+s.ElementImageAvatar1 = 
   '<FuiImage src="/images/wireframe/square-image.png" avatar></FuiImage>\n' +
-  '<span>Username</span>'
-s.ElementImageImageLink1 =
+  '<span>Username</span>' 
+s.ElementImageImageLink1 = 
   '<FuiImage tag=a size=medium href="http://google.com">\n' +
   '  <img src="/images/wireframe/image-text.png">\n' +
-  '</FuiImage>'
-s.ElementImageBordered1 =
-  '<FuiImage src="/images/wireframe/white-image.png" size=medium bordered></FuiImage>'
-s.ElementImageSize1A =
+  '</FuiImage>' 
+s.ElementImageBordered1 = 
+  '<FuiImage src="/images/wireframe/white-image.png" size=medium bordered></FuiImage>' 
+s.ElementImageSize1A = 
   '<FuiImages size=tiny>\n' +
   '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
   '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
   '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
   '  <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
-  '</FuiImages>'
-s.ElementImageCentered1 =
+  '</FuiImages>' 
+s.ElementImageCentered1 = 
   '<FuiSegment>\n' +
   '  <FuiImage src="/images/wireframe/image.png" centered size=medium></FuiImage>\n' +
   '  <p>Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>\n' +
   '  <p>Audiam quaerendum eu sea, pro omittam definiebas ex. Te est latine definitiones. Quot wisi nulla ex duo. Vis sint solet expetenda ne, his te phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide phaedrum, vim vivendum maiestatis in.</p>\n' +
   '  <FuiImage src="/images/wireframe/text-image.png" size=small centered></FuiImage>\n' +
   '  <p>Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.</p>\n' +
-  '</FuiSegment>'
-s.ElementImageImage2 =
+  '</FuiSegment>' 
+s.ElementImageImage2 = 
   '<FuiImage tag=div size=small>\n' +
   '  <img src="/images/wireframe/image.png">\n' +
-  '</FuiImage>'
-s.ElementPlaceholderImage2 =
+  '</FuiImage>' 
+s.ElementPlaceholderImage2 = 
   '<div class="ui three cards">\n' +
   '  <div class="ui card">\n' +
   '    <div class="content">\n' +
@@ -112,8 +112,8 @@ s.ElementPlaceholderImage2 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementPlaceholderLines1 =
+  '</div>' 
+s.ElementPlaceholderLines1 = 
   '<div class="ui ignored info message">By default, repeated lines will appear varied in width. However, it may be useful to specify an exact length to make it match up with content more effectively</div>\n' +
   '<div class="ui placeholder">\n' +
   '  <div class="line"/>\n' +
@@ -121,8 +121,8 @@ s.ElementPlaceholderLines1 =
   '  <div class="line"/>\n' +
   '  <div class="line"/>\n' +
   '  <div class="line"/>\n' +
-  '</div>'
-s.ElementPlaceholderLineLength2 =
+  '</div>' 
+s.ElementPlaceholderLineLength2 = 
   '<div class="ui placeholder">\n' +
   '  <div class="image header">\n' +
   '    <div class="medium line"/>\n' +
@@ -132,19 +132,19 @@ s.ElementPlaceholderLineLength2 =
   '    <div class="full line"/>\n' +
   '    <div class="medium line"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementPlaceholderImage1 =
+  '</div>' 
+s.ElementPlaceholderImage1 = 
   '<div class="ui placeholder" style="width:150px;height:150px;">\n' +
   '  <div class="image"/>\n' +
-  '</div>'
-s.ElementPlaceholderHeaders2 =
+  '</div>' 
+s.ElementPlaceholderHeaders2 = 
   '<div class="ui placeholder">\n' +
   '  <div class="header">\n' +
   '    <div class="line"/>\n' +
   '    <div class="line"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementPlaceholderHeaders1 =
+  '</div>' 
+s.ElementPlaceholderHeaders1 = 
   '<div class="ui ignored info message">\n' +
   '  Header content will have a slightly larger block size from paragraph\n' +
   '</div>\n' +
@@ -153,8 +153,8 @@ s.ElementPlaceholderHeaders1 =
   '    <div class="line"/>\n' +
   '    <div class="line"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementPlaceholderPlaceholder1 =
+  '</div>' 
+s.ElementPlaceholderPlaceholder1 = 
   '<div class="ui ignored info message">\n' +
   '  Placeholders can include <code>paragraph</code>, <code>header</code>, <code>image header</code> and <code>image</code> to let you format the loaders to emulate the content being loaded.\n' +
   '</div>\n' +
@@ -170,8 +170,8 @@ s.ElementPlaceholderPlaceholder1 =
   '    <div class="line"/>\n' +
   '    <div class="line"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementPlaceholderImage3 =
+  '</div>' 
+s.ElementPlaceholderImage3 = 
   '<div class="ui three cards">\n' +
   '  <div class="ui card">\n' +
   '    <div class="content">\n' +
@@ -194,8 +194,8 @@ s.ElementPlaceholderImage3 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementPlaceholderParagraph1 =
+  '</div>' 
+s.ElementPlaceholderParagraph1 = 
   '<div class="ui ignored info message">Paragraphs are used to group lines together.</div>\n' +
   '<div class="ui placeholder">\n' +
   '  <div class="paragraph">\n' +
@@ -210,10 +210,10 @@ s.ElementPlaceholderParagraph1 =
   '    <div class="line"/>\n' +
   '    <div class="line"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementPlaceholderPlaceholder3 =
-  ''
-s.ElementPlaceholderPlaceholder2 =
+  '</div>' 
+s.ElementPlaceholderPlaceholder3 = 
+  '' 
+s.ElementPlaceholderPlaceholder2 = 
   '<div class="ui three column stackable grid">\n' +
   '  <div class="column">\n' +
   '    <div class="ui raised segment">\n' +
@@ -257,8 +257,8 @@ s.ElementPlaceholderPlaceholder2 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementPlaceholderFluid1 =
+  '</div>' 
+s.ElementPlaceholderFluid1 = 
   '<div class="ui fluid placeholder">\n' +
   '  <div class="image header">\n' +
   '    <div class="line"/>\n' +
@@ -269,8 +269,8 @@ s.ElementPlaceholderFluid1 =
   '    <div class="line"/>\n' +
   '    <div class="line"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementPlaceholderInverted1 =
+  '</div>' 
+s.ElementPlaceholderInverted1 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui active inverted placeholder">\n' +
   '    <div class="image header">\n' +
@@ -283,8 +283,8 @@ s.ElementPlaceholderInverted1 =
   '      <div class="line"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementPlaceholderLineLength1 =
+  '</div>' 
+s.ElementPlaceholderLineLength1 = 
   '<div class="ui placeholder">\n' +
   '  <div class="full line"/>\n' +
   '  <div class="very long line"/>\n' +
@@ -292,8 +292,8 @@ s.ElementPlaceholderLineLength1 =
   '  <div class="medium line"/>\n' +
   '  <div class="short line"/>\n' +
   '  <div class="very short line"/>\n' +
-  '</div>'
-s.ElementSegmentSegments1 =
+  '</div>' 
+s.ElementSegmentSegments1 = 
   '<div class="ui segments">\n' +
   '  <div class="ui segment">\n' +
   '    <p>Top</p>\n' +
@@ -310,8 +310,8 @@ s.ElementSegmentSegments1 =
   '  <div class="ui segment">\n' +
   '    <p>Bottom</p>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementSegmentCompact2 =
+  '</div>' 
+s.ElementSegmentCompact2 = 
   '<div class="ui compact segments">\n' +
   '  <div class="ui segment">\n' +
   '    <p>Pellentesque habitant morbi</p>\n' +
@@ -319,8 +319,8 @@ s.ElementSegmentCompact2 =
   '  <div class="ui segment">\n' +
   '    <p>Pellentesque habitant morbi</p>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementSegmentPlaceholderSegment3 =
+  '</div>' 
+s.ElementSegmentPlaceholderSegment3 = 
   '<div class="ui placeholder segment">\n' +
   '  <div class="ui two column stackable center aligned grid">\n' +
   '    <div class="ui vertical divider">Or</div>\n' +
@@ -351,12 +351,12 @@ s.ElementSegmentPlaceholderSegment3 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementSegmentBasic1 =
+  '</div>' 
+s.ElementSegmentBasic1 = 
   '<div class="ui basic segment">\n' +
   '  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n' +
-  '</div>'
-s.ElementSegmentNestedSegments1 =
+  '</div>' 
+s.ElementSegmentNestedSegments1 = 
   '<div class="ui segments">\n' +
   '  <div class="ui segment">\n' +
   '    <p>Top</p>\n' +
@@ -389,12 +389,12 @@ s.ElementSegmentNestedSegments1 =
   '  <div class="ui segment">\n' +
   '    <p>Bottom</p>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementSegmentRaised1 =
+  '</div>' 
+s.ElementSegmentRaised1 = 
   '<div class="ui raised segment">\n' +
   '  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n' +
-  '</div>'
-s.ElementSegmentStackedSegments1 =
+  '</div>' 
+s.ElementSegmentStackedSegments1 = 
   '<div class="ui stacked segments">\n' +
   '  <div class="ui segment">\n' +
   '    <p>Top</p>\n' +
@@ -405,8 +405,8 @@ s.ElementSegmentStackedSegments1 =
   '  <div class="ui segment">\n' +
   '    <p>Bottom</p>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementSegmentEmphasis1 =
+  '</div>' 
+s.ElementSegmentEmphasis1 = 
   '<div class="ui segment">\n' +
   '  <p>I\'m here to tell you something, and you will probably read me first.</p>\n' +
   '</div>\n' +
@@ -415,16 +415,16 @@ s.ElementSegmentEmphasis1 =
   '</div>\n' +
   '<div class="ui tertiary segment">\n' +
   '  <p>If you notice me you must be looking very hard.</p>\n' +
-  '</div>'
-s.ElementSegmentPadded2 =
+  '</div>' 
+s.ElementSegmentPadded2 = 
   '<div class="ui very padded segment">\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.ElementSegmentSegment1 =
+  '</div>' 
+s.ElementSegmentSegment1 = 
   '<div class="ui segment">\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.ElementSegmentSegments3 =
+  '</div>' 
+s.ElementSegmentSegments3 = 
   '<div class="ui segments">\n' +
   '  <div class="ui segment">\n' +
   '    <p>Top</p>\n' +
@@ -441,24 +441,24 @@ s.ElementSegmentSegments3 =
   '  <div class="ui yellow segment">\n' +
   '    <p>Bottom</p>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementSegmentStacked1 =
+  '</div>' 
+s.ElementSegmentStacked1 = 
   '<div class="ui stacked segment">\n' +
   '  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n' +
-  '</div>'
-s.ElementSegmentCompact1 =
+  '</div>' 
+s.ElementSegmentCompact1 = 
   '<div class="ui compact segment">\n' +
   '  <p>Pellentesque habitant morbi</p>\n' +
-  '</div>'
-s.ElementSegmentClearing1 =
+  '</div>' 
+s.ElementSegmentClearing1 = 
   '<div class="ui clearing segment">\n' +
   '  <div class="ui right floated button">Floated</div>\n' +
-  '</div>'
-s.ElementSegmentPadded1 =
+  '</div>' 
+s.ElementSegmentPadded1 = 
   '<div class="ui padded segment">\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.ElementSegmentHorizontalSegments1 =
+  '</div>' 
+s.ElementSegmentHorizontalSegments1 = 
   '<div class="ui horizontal segments">\n' +
   '  <div class="ui segment">\n' +
   '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
@@ -469,16 +469,16 @@ s.ElementSegmentHorizontalSegments1 =
   '  <div class="ui segment">\n' +
   '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementSegmentPlaceholderSegment1 =
+  '</div>' 
+s.ElementSegmentPlaceholderSegment1 = 
   '<div class="ui placeholder segment">\n' +
   '  <div class="ui icon header">\n' +
   '    <i class="pdf file outline icon"></i>\n' +
   '    No documents are listed for this customer.\n' +
   '  </div>\n' +
   '  <div class="ui primary button">Add Document</div>\n' +
-  '</div>'
-s.ElementSegmentVerticalSegment1 =
+  '</div>' 
+s.ElementSegmentVerticalSegment1 = 
   '<div class="ui vertical segment">\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
@@ -487,8 +487,8 @@ s.ElementSegmentVerticalSegment1 =
   '</div>\n' +
   '<div class="ui vertical segment">\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.ElementSegmentFitted1 =
+  '</div>' 
+s.ElementSegmentFitted1 = 
   '<div class="ui fitted segment">\n' +
   '    <p>Fitted Segment</p>\n' +
   '</div>\n' +
@@ -497,8 +497,8 @@ s.ElementSegmentFitted1 =
   '</div>\n' +
   '<div class="ui vertically fitted segment">\n' +
   '    <p>Vertically fitted segment</p>\n' +
-  '</div>'
-s.ElementSegmentSegments2 =
+  '</div>' 
+s.ElementSegmentSegments2 = 
   '<div class="ui basic segments">\n' +
   '  <div class="ui segment">\n' +
   '    <p>Top</p>\n' +
@@ -515,8 +515,8 @@ s.ElementSegmentSegments2 =
   '  <div class="ui segment">\n' +
   '    <p>Bottom</p>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementSegmentHorizontalstackableSegments1 =
+  '</div>' 
+s.ElementSegmentHorizontalstackableSegments1 = 
   '<div class="ui horizontal stackable segments">\n' +
   '  <div class="ui segment">\n' +
   '    Segment One\n' +
@@ -542,8 +542,8 @@ s.ElementSegmentHorizontalstackableSegments1 =
   '  <div class="ui segment">\n' +
   '    Segment Eight\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementSegmentSegments4 =
+  '</div>' 
+s.ElementSegmentSegments4 = 
   '<div class="ui segments">\n' +
   '  <div class="ui segment">\n' +
   '    <p>Top</p>\n' +
@@ -551,8 +551,8 @@ s.ElementSegmentSegments4 =
   '  <div class="ui secondary segment">\n' +
   '    <p>Secondary Content</p>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementSegmentColored2 =
+  '</div>' 
+s.ElementSegmentColored2 = 
   '<div class="ui red inverted segment">Red</div>\n' +
   '<div class="ui orange inverted segment">Orange</div>\n' +
   '<div class="ui yellow inverted segment">Yellow</div>\n' +
@@ -565,8 +565,8 @@ s.ElementSegmentColored2 =
   '<div class="ui pink inverted segment">Pink</div>\n' +
   '<div class="ui brown inverted segment">Brown</div>\n' +
   '<div class="ui grey inverted segment">Grey</div>\n' +
-  '<div class="ui black inverted segment">Black</div>'
-s.ElementSegmentPlaceholderSegment2 =
+  '<div class="ui black inverted segment">Black</div>' 
+s.ElementSegmentPlaceholderSegment2 = 
   '<div class="ui ignored info message">\n' +
   '  To use inline-block content inside a placeholder, wrap the content in <code>inline</code>.\n' +
   '</div>\n' +
@@ -579,8 +579,8 @@ s.ElementSegmentPlaceholderSegment2 =
   '    <div class="ui primary button">Clear Query</div>\n' +
   '    <div class="ui button">Add Document</div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementSegmentColored1 =
+  '</div>' 
+s.ElementSegmentColored1 = 
   '<div class="ui red segment">Red</div>\n' +
   '<div class="ui orange segment">Orange</div>\n' +
   '<div class="ui yellow segment">Yellow</div>\n' +
@@ -593,8 +593,8 @@ s.ElementSegmentColored1 =
   '<div class="ui pink segment">Pink</div>\n' +
   '<div class="ui brown segment">Brown</div>\n' +
   '<div class="ui grey segment">Grey</div>\n' +
-  '<div class="ui black segment">Black</div>'
-s.ElementSegmentEmphasis3 =
+  '<div class="ui black segment">Black</div>' 
+s.ElementSegmentEmphasis3 = 
   '<div class="ui inverted red segment">\n' +
   '  <p>I\'m here to tell you something, and you will probably read me first.</p>\n' +
   '</div>\n' +
@@ -603,20 +603,20 @@ s.ElementSegmentEmphasis3 =
   '</div>\n' +
   '<div class="ui tertiary inverted red segment">\n' +
   '  <p>If you notice me you must be looking very hard.</p>\n' +
-  '</div>'
-s.ElementSegmentInverted1 =
+  '</div>' 
+s.ElementSegmentInverted1 = 
   '<div class="ui inverted segment">\n' +
   '  <p>I\'m here to tell you something, and you will probably read me first.</p>\n' +
-  '</div>'
-s.ElementSegmentLoading1 =
+  '</div>' 
+s.ElementSegmentLoading1 = 
   '<div class="ui loading segment">\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.ElementSegmentDisabled1 =
+  '</div>' 
+s.ElementSegmentDisabled1 = 
   '<div class="ui disabled segment">\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.ElementSegmentLoading2 =
+  '</div>' 
+s.ElementSegmentLoading2 = 
   '<div class="ui black label">New in 2.7.0</div>\n' +
   '<div class="ui ignored info message"><code>elastic</code> as loading style is currently not supported  because segment uses the <code>:before</code> pseudoclass to dimm the background.</div>\n' +
   '<div class="ui brown double loading segment">\n' +
@@ -624,8 +624,8 @@ s.ElementSegmentLoading2 =
   '</div>\n' +
   '<div class="ui brown usual double loading segment">\n' +
   '    <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.ElementSegmentAttached2 =
+  '</div>' 
+s.ElementSegmentAttached2 = 
   '<h5 class="ui top attached header">\n' +
   '  Dogs\n' +
   '</h5>\n' +
@@ -647,12 +647,12 @@ s.ElementSegmentAttached2 =
   '<div class="ui bottom attached warning message">\n' +
   '  <i class="warning icon"></i>\n' +
   '  You\'ve reached the end of this content segment!\n' +
-  '</div>'
-s.ElementSegmentStacked2 =
+  '</div>' 
+s.ElementSegmentStacked2 = 
   '<div class="ui tall stacked segment">\n' +
   '  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n' +
-  '</div>'
-s.ElementSegmentHorizontalSegments2 =
+  '</div>' 
+s.ElementSegmentHorizontalSegments2 = 
   '<div class="ui horizontal basic segments">\n' +
   '  <div class="ui segment">\n' +
   '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
@@ -663,8 +663,8 @@ s.ElementSegmentHorizontalSegments2 =
   '  <div class="ui segment">\n' +
   '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementSegmentCircular1 =
+  '</div>' 
+s.ElementSegmentCircular1 = 
   '<div class="ui ignored info message">A circular segment will most likely have to have its content manually sized to be equal width and height, otherwise it will flow to the size of your content</div>\n' +
   '<div class="ui circular segment">\n' +
   '  <h2 class="ui header">\n' +
@@ -677,8 +677,8 @@ s.ElementSegmentCircular1 =
   '    Buy Now\n' +
   '    <div class="sub header">$10.99</div>\n' +
   '  </h2>\n' +
-  '</div>'
-s.ElementSegmentAttached1 =
+  '</div>' 
+s.ElementSegmentAttached1 = 
   '<div class="ui ignored info message">\n' +
   '  <p>Attached segments are designed to be used with other <code>attached</code> variations like <a href="/elements/header.html#attached">attached header</a> or <a href="/collections/message.html#attached">attached messages</a>.</p>\n' +
   '</div>\n' +
@@ -690,8 +690,8 @@ s.ElementSegmentAttached1 =
   '</div>\n' +
   '<div class="ui bottom attached segment">\n' +
   '  <p>This segment is on bottom</p>\n' +
-  '</div>'
-s.ElementSegmentEmphasis2 =
+  '</div>' 
+s.ElementSegmentEmphasis2 = 
   '<div class="ui inverted segment">\n' +
   '  <p>I\'m here to tell you something, and you will probably read me first.</p>\n' +
   '</div>\n' +
@@ -700,8 +700,8 @@ s.ElementSegmentEmphasis2 =
   '</div>\n' +
   '<div class="ui tertiary inverted segment">\n' +
   '  <p>If you notice me you must be looking very hard.</p>\n' +
-  '</div>'
-s.ElementSegmentRaisedSegments1 =
+  '</div>' 
+s.ElementSegmentRaisedSegments1 = 
   '<div class="ui raised segments">\n' +
   '  <div class="ui segment">\n' +
   '    <p>Top</p>\n' +
@@ -712,15 +712,15 @@ s.ElementSegmentRaisedSegments1 =
   '  <div class="ui segment">\n' +
   '    <p>Bottom</p>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementSegmentFloated1 =
+  '</div>' 
+s.ElementSegmentFloated1 = 
   '<div class="ui right floated segment">\n' +
   '  <p>This segment will appear to the right\n' +
   '</p></div>\n' +
   '<div class="ui left floated segment">\n' +
   '  This segment will appear to the left\n' +
-  '</div>'
-s.ElementSegmentTextAlignment1 =
+  '</div>' 
+s.ElementSegmentTextAlignment1 = 
   '<div class="ui right aligned segment">\n' +
   '  Right\n' +
   '</div>\n' +
@@ -729,8 +729,8 @@ s.ElementSegmentTextAlignment1 =
   '</div>\n' +
   '<div class="ui center aligned segment">\n' +
   '  Center\n' +
-  '</div>'
-s.ElementSegmentPiledSegments1 =
+  '</div>' 
+s.ElementSegmentPiledSegments1 = 
   '<div class="ui piled segments">\n' +
   '  <div class="ui segment">\n' +
   '    <p>Top</p>\n' +
@@ -741,8 +741,8 @@ s.ElementSegmentPiledSegments1 =
   '  <div class="ui segment">\n' +
   '    <p>Bottom</p>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementSegmentPiled1 =
+  '</div>' 
+s.ElementSegmentPiled1 = 
   '<div class="ui ignored warning message">\n' +
   '  Piled segments use <b>negative z-index</b> to format the additional pages below the segment. In order for them to appear correctly, your segment\'s offset container must have a z-index declared.\n' +
   '</div>\n' +
@@ -751,8 +751,8 @@ s.ElementSegmentPiled1 =
   '  <p>Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>\n' +
   '  <p>Audiam quaerendum eu sea, pro omittam definiebas ex. Te est latine definitiones. Quot wisi nulla ex duo. Vis sint solet expetenda ne, his te phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide phaedrum, vim vivendum maiestatis in.</p>\n' +
   '  <p>Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.</p>\n' +
-  '</div>'
-s.ElementListImage1 =
+  '</div>' 
+s.ElementListImage1 = 
   '<!--     <div class="ui ignored warning message">\n' +
   '  Due to issues with <a href="https://github.com/philipwalton/flexbugs#5-column-flex-items-dont-always-preserve-intrinsic-aspect-ratios" target="_blank">intrinsic aspect ratio in flexbox</a> <code>img</code> should use a container element.\n' +
   '</div> -->\n' +
@@ -792,8 +792,8 @@ s.ElementListImage1 =
   '      <div class="description">Has not watched anything recently</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListList3 =
+  '</div>' 
+s.ElementListList3 = 
   '<div class="ui relaxed divided list">\n' +
   '  <div class="item">\n' +
   '    <i class="large github middle aligned icon"></i>\n' +
@@ -816,8 +816,8 @@ s.ElementListList3 =
   '      <div class="description">Updated 34 mins ago</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListItem1 =
+  '</div>' 
+s.ElementListItem1 = 
   '<div class="ui list">\n' +
   '  <div class="item">\n' +
   '    1\n' +
@@ -828,21 +828,21 @@ s.ElementListItem1 =
   '  <div class="item">\n' +
   '    3\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListList1 =
+  '</div>' 
+s.ElementListList1 = 
   '<div class="ui list">\n' +
   '  <div class="item">Apples</div>\n' +
   '  <div class="item">Pears</div>\n' +
   '  <div class="item">Oranges</div>\n' +
-  '</div>'
-s.ElementListLink1 =
+  '</div>' 
+s.ElementListLink1 = 
   '<div class="ui link list">\n' +
   '  <div class="active item">Home</div>\n' +
   '  <a class="item">About</a>\n' +
   '  <a class="item">Jobs</a>\n' +
   '  <a class="item">Team</a>\n' +
-  '</div>'
-s.ElementListDivided1 =
+  '</div>' 
+s.ElementListDivided1 = 
   '<div class="ui middle aligned divided list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
@@ -862,8 +862,8 @@ s.ElementListDivided1 =
   '      <a class="header">Elliot Fu</a>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListLink2 =
+  '</div>' 
+s.ElementListLink2 = 
   '<div class="ui list">\n' +
   '  <div class="item">\n' +
   '    <a class="header">Header</a>\n' +
@@ -877,8 +877,8 @@ s.ElementListLink2 =
   '      Learn more about this site on <a>our FAQ page</a>.\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListSize1 =
+  '</div>' 
+s.ElementListSize1 = 
   '<div class="ui mini horizontal divided list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
@@ -898,8 +898,8 @@ s.ElementListSize1 =
   '      <div class="header">Daniel</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListList2 =
+  '</div>' 
+s.ElementListList2 = 
   '<div class="ui list">\n' +
   '  <div class="item">\n' +
   '    <i class="users icon"></i>\n' +
@@ -925,8 +925,8 @@ s.ElementListList2 =
   '      <a href="http://www.semantic-ui.com">semantic-ui.com</a>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListInverted1 =
+  '</div>' 
+s.ElementListInverted1 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted relaxed divided list">\n' +
   '    <div class="item">\n' +
@@ -948,8 +948,8 @@ s.ElementListInverted1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListBulleted3 =
+  '</div>' 
+s.ElementListBulleted3 = 
   '<div class="ui horizontal bulleted list">\n' +
   '  <a class="item">\n' +
   '    About Us\n' +
@@ -960,8 +960,8 @@ s.ElementListBulleted3 =
   '  <a class="item">\n' +
   '    Contact\n' +
   '  </a>\n' +
-  '</div>'
-s.ElementListRelaxed3 =
+  '</div>' 
+s.ElementListRelaxed3 = 
   '<div class="ui very relaxed list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
@@ -984,8 +984,8 @@ s.ElementListRelaxed3 =
   '      <div class="description">Last seen watching <a><b>The Godfather Part 2</b></a> yesterday.</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListBulleted2 =
+  '</div>' 
+s.ElementListBulleted2 = 
   '<div class="ignored ui info message">For convenience, a simple bulleted list can also use <code>ul</code> tag.</div>\n' +
   '<ul class="ui list">\n' +
   '  <li>Gaining Access</li>\n' +
@@ -998,8 +998,8 @@ s.ElementListBulleted2 =
   '    </ul>\n' +
   '  </li>\n' +
   '  <li>Warranty</li>\n' +
-  '</ul>'
-s.ElementListSize3 =
+  '</ul>' 
+s.ElementListSize3 = 
   '<div class="ui small horizontal list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
@@ -1019,8 +1019,8 @@ s.ElementListSize3 =
   '      <div class="header">Daniel</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListDescription1 =
+  '</div>' 
+s.ElementListDescription1 = 
   '<div class="ui list">\n' +
   '  <div class="item">\n' +
   '    <i class="map marker icon"></i>\n' +
@@ -1050,8 +1050,8 @@ s.ElementListDescription1 =
   '      <div class="description">At night a bar, during the day a delicious brunch spot.</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListRelaxed4 =
+  '</div>' 
+s.ElementListRelaxed4 = 
   '<div class="ui very relaxed horizontal list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
@@ -1071,8 +1071,8 @@ s.ElementListRelaxed4 =
   '      <a class="header">Elliot Fu</a>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListFloated2 =
+  '</div>' 
+s.ElementListFloated2 = 
   '<div class="ui right floated horizontal list">\n' +
   '  <div class="disabled item" href="#">© GitHub, Inc.</div>\n' +
   '  <a class="item" href="#">Terms</a>\n' +
@@ -1082,8 +1082,8 @@ s.ElementListFloated2 =
   '<div class="ui horizontal list">\n' +
   '  <a class="item" href="#">About Us</a>\n' +
   '  <a class="item" href="#">Jobs</a>\n' +
-  '</div>'
-s.ElementListRelaxed2 =
+  '</div>' 
+s.ElementListRelaxed2 = 
   '<div class="ui relaxed horizontal list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
@@ -1103,8 +1103,8 @@ s.ElementListRelaxed2 =
   '      <a class="header">Elliot Fu</a>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListHorizontal2 =
+  '</div>' 
+s.ElementListHorizontal2 = 
   '<div class="ui ordered horizontal list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/tom.jpg"/>\n' +
@@ -1127,8 +1127,8 @@ s.ElementListHorizontal2 =
   '      11 Points\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListSize6 =
+  '</div>' 
+s.ElementListSize6 = 
   '<div class="ui huge horizontal divided list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
@@ -1148,8 +1148,8 @@ s.ElementListSize6 =
   '      <div class="header">Daniel</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListSize4 =
+  '</div>' 
+s.ElementListSize4 = 
   '<div class="ui large horizontal divided list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
@@ -1169,8 +1169,8 @@ s.ElementListSize4 =
   '      <div class="header">Daniel</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListSize7 =
+  '</div>' 
+s.ElementListSize7 = 
   '<div class="ui massive horizontal divided list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
@@ -1190,8 +1190,8 @@ s.ElementListSize7 =
   '      <div class="header">Daniel</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListOrdered2 =
+  '</div>' 
+s.ElementListOrdered2 = 
   '<div class="ignored ui info message">An ordered list can also use the <code>ol</code> tag</div>\n' +
   '<ol class="ui list">\n' +
   '  <li>Signing Up</li>\n' +
@@ -1204,8 +1204,8 @@ s.ElementListOrdered2 =
   '    </ol>\n' +
   '  </li>\n' +
   '  <li>Deleting Your Account</li>\n' +
-  '</ol>'
-s.ElementListBulleted1 =
+  '</ol>' 
+s.ElementListBulleted1 = 
   '<div class="ui bulleted list">\n' +
   '  <div class="item">Gaining Access</div>\n' +
   '  <div class="item">Inviting Friends</div>\n' +
@@ -1218,8 +1218,8 @@ s.ElementListBulleted1 =
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="item">Warranty</div>\n' +
-  '</div>'
-s.ElementListHorizontal3 =
+  '</div>' 
+s.ElementListHorizontal3 = 
   '<div class="ui horizontal bulleted link list">\n' +
   '  <a class="item">\n' +
   '    Terms and Conditions\n' +
@@ -1230,8 +1230,8 @@ s.ElementListHorizontal3 =
   '  <a class="item">\n' +
   '    Contact Us\n' +
   '  </a>\n' +
-  '</div>'
-s.ElementListList4 =
+  '</div>' 
+s.ElementListList4 = 
   '<div class="ui list">\n' +
   '  <div class="item">\n' +
   '    <i class="folder icon"></i>\n' +
@@ -1302,8 +1302,8 @@ s.ElementListList4 =
   '      <div class="description">Contains build settings for gulp</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListOrdered3 =
+  '</div>' 
+s.ElementListOrdered3 = 
   '<div class="ui ignored info message">An ordered list has a suffixed variation in which a dot <code>.</code> follows number.</div>\n' +
   '<ol class="ui suffixed list">\n' +
   '  <li>Signing Up</li>\n' +
@@ -1316,14 +1316,14 @@ s.ElementListOrdered3 =
   '    </ol>\n' +
   '  </li>\n' +
   '  <li>Deleting Your Account</li>\n' +
-  '</ol>'
-s.ElementListCelled3 =
+  '</ol>' 
+s.ElementListCelled3 = 
   '<div class="ui celled horizontal list">\n' +
   '  <div class="item">About Us</div>\n' +
   '  <div class="item">Contact</div>\n' +
   '  <div class="item">Support</div>\n' +
-  '</div>'
-s.ElementListRelaxed1 =
+  '</div>' 
+s.ElementListRelaxed1 = 
   '<div class="ui relaxed list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
@@ -1346,8 +1346,8 @@ s.ElementListRelaxed1 =
   '      <div class="description">Last seen watching <a><b>The Godfather Part 2</b></a> yesterday.</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListCelled2 =
+  '</div>' 
+s.ElementListCelled2 = 
   '<div class="ui celled ordered list">\n' +
   '  <div class="item">Cats</div>\n' +
   '  <div class="item">Horses</div>\n' +
@@ -1358,8 +1358,8 @@ s.ElementListCelled2 =
   '      <div class="item">Mastiff</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListHeader1 =
+  '</div>' 
+s.ElementListHeader1 = 
   '<div class="ui list">\n' +
   '  <div class="item">\n' +
   '    <div class="header">New York City</div>\n' +
@@ -1377,8 +1377,8 @@ s.ElementListHeader1 =
   '    <div class="header">San Francisco</div>\n' +
   '    What a lovely city\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListHorizontal1 =
+  '</div>' 
+s.ElementListHorizontal1 = 
   '<div class="ui horizontal list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/tom.jpg"/>\n' +
@@ -1401,8 +1401,8 @@ s.ElementListHorizontal1 =
   '      Top Rated User\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListOrdered4 =
+  '</div>' 
+s.ElementListOrdered4 = 
   '<div class="ui ignored info message">You can also manually specify a value for an ordered list using <code>data-value</code> on a <code>div</code>, or <code>value</code> on an <code>li</code>\n' +
   '</div>\n' +
   '<ol class="ui list">\n' +
@@ -1416,8 +1416,8 @@ s.ElementListOrdered4 =
   '    </ol>\n' +
   '  </li>\n' +
   '  <li value="*">Deleting Your Account</li>\n' +
-  '</ol>'
-s.ElementListSize5 =
+  '</ol>' 
+s.ElementListSize5 = 
   '<div class="ui big horizontal divided list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
@@ -1437,8 +1437,8 @@ s.ElementListSize5 =
   '      <div class="header">Daniel</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListSize2 =
+  '</div>' 
+s.ElementListSize2 = 
   '<div class="ui tiny horizontal list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
@@ -1458,8 +1458,8 @@ s.ElementListSize2 =
   '      <div class="header">Daniel</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListVerticallyAligned1 =
+  '</div>' 
+s.ElementListVerticallyAligned1 = 
   '<div class="ui horizontal list">\n' +
   '  <div class="item">\n' +
   '    <img src="/images/wireframe/square-image.png" class="ui avatar image">\n' +
@@ -1479,8 +1479,8 @@ s.ElementListVerticallyAligned1 =
   '      Bottom\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListAnimated1 =
+  '</div>' 
+s.ElementListAnimated1 = 
   '<div class="ui ignored info message">\n' +
   '  Be sure content can fit on one line when using the animated variation, otherwise text content will reflow when hovered.\n' +
   '</div>\n' +
@@ -1503,8 +1503,8 @@ s.ElementListAnimated1 =
   '      <div class="header">Daniel</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListCelled1 =
+  '</div>' 
+s.ElementListCelled1 = 
   '<div class="ui celled list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
@@ -1527,8 +1527,8 @@ s.ElementListCelled1 =
   '      He\'s also a dog\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListSelection1 =
+  '</div>' 
+s.ElementListSelection1 = 
   '<div class="ui middle aligned selection list">\n' +
   '  <div class="item">\n' +
   '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
@@ -1548,8 +1548,8 @@ s.ElementListSelection1 =
   '      <div class="header">Daniel</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListOrdered1 =
+  '</div>' 
+s.ElementListOrdered1 = 
   '<div class="ui ordered list">\n' +
   '  <a class="item">Getting Started</a>\n' +
   '  <a class="item">Introduction</a>\n' +
@@ -1562,8 +1562,8 @@ s.ElementListOrdered1 =
   '    </div>\n' +
   '  </div>\n' +
   '  <a class="item">Review</a>\n' +
-  '</div>'
-s.ElementListFloated1 =
+  '</div>' 
+s.ElementListFloated1 = 
   '<div class="ui middle aligned divided list">\n' +
   '  <div class="item">\n' +
   '    <div class="right floated content">\n' +
@@ -1601,8 +1601,8 @@ s.ElementListFloated1 =
   '      Molly\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListIcon1 =
+  '</div>' 
+s.ElementListIcon1 = 
   '<div class="ui list">\n' +
   '  <a class="item">\n' +
   '    <i class="help icon"></i>\n' +
@@ -1622,14 +1622,14 @@ s.ElementListIcon1 =
   '    <i class="help icon"></i>\n' +
   '    Inline Text\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementListLink1A =
+  '</div>' 
+s.ElementListLink1A = 
   '<div class="ui list">\n' +
   '  <a class="item">What is a FAQ?</a>\n' +
   '  <a class="item">Who is our user?</a>\n' +
   '  <a class="item">Where is our office located?</a>\n' +
-  '</div>'
-s.ElementStepEvenlyDivided2 =
+  '</div>' 
+s.ElementStepEvenlyDivided2 = 
   '<div class="ui two steps">\n' +
   '  <div class="active step">\n' +
   '    <i class="payment icon"></i>\n' +
@@ -1643,8 +1643,8 @@ s.ElementStepEvenlyDivided2 =
   '      <div class="title">Confirm Order</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepActive1 =
+  '</div>' 
+s.ElementStepActive1 = 
   '<div class="ui steps">\n' +
   '  <div class="active step">\n' +
   '    <i class="payment icon"></i>\n' +
@@ -1653,8 +1653,8 @@ s.ElementStepActive1 =
   '      <div class="description">Enter billing information</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepIcon1 =
+  '</div>' 
+s.ElementStepIcon1 = 
   '<div class="ui steps">\n' +
   '  <div class="step">\n' +
   '    <i class="truck icon"></i>\n' +
@@ -1663,8 +1663,8 @@ s.ElementStepIcon1 =
   '      <div class="description">Choose your shipping options</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepOrdered1 =
+  '</div>' 
+s.ElementStepOrdered1 = 
   '<div class="ui ordered steps">\n' +
   '  <div class="completed step">\n' +
   '    <div class="content">\n' +
@@ -1684,8 +1684,8 @@ s.ElementStepOrdered1 =
   '      <div class="description">Verify order details</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepCompleted2 =
+  '</div>' 
+s.ElementStepCompleted2 = 
   '<div class="ui ordered steps">\n' +
   '  <div class="completed step">\n' +
   '    <div class="content">\n' +
@@ -1693,14 +1693,14 @@ s.ElementStepCompleted2 =
   '      <div class="description">Enter billing information</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepDisabled1 =
+  '</div>' 
+s.ElementStepDisabled1 = 
   '<div class="ui steps">\n' +
   '  <div class="disabled step">\n' +
   '    Billing\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepUnstackable1 =
+  '</div>' 
+s.ElementStepUnstackable1 = 
   '<div class="ui unstackable steps">\n' +
   '  <div class="step">\n' +
   '    <i class="plane icon"></i>\n' +
@@ -1723,8 +1723,8 @@ s.ElementStepUnstackable1 =
   '      <div class="description">Verify order details</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepSize5 =
+  '</div>' 
+s.ElementStepSize5 = 
   '<div class="ui big steps">\n' +
   '  <div class="step">\n' +
   '    <i class="truck icon"></i>\n' +
@@ -1738,8 +1738,8 @@ s.ElementStepSize5 =
   '      <div class="title">Billing</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepEvenlyDivided1 =
+  '</div>' 
+s.ElementStepEvenlyDivided1 = 
   '<div class="ui three steps">\n' +
   '  <div class="step">\n' +
   '    <i class="truck icon"></i>\n' +
@@ -1759,8 +1759,8 @@ s.ElementStepEvenlyDivided1 =
   '      <div class="title">Confirm Order</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepLink2 =
+  '</div>' 
+s.ElementStepLink2 = 
   '<div class="ui steps">\n' +
   '  <div class="link step">\n' +
   '    <i class="truck icon"></i>\n' +
@@ -1775,8 +1775,8 @@ s.ElementStepLink2 =
   '      <div class="description">Enter billing information</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepSteps1 =
+  '</div>' 
+s.ElementStepSteps1 = 
   '<div class="ui ignored positive icon message">\n' +
   '  <i class="mobile icon"></i>\n' +
   '  <div class="content">\n' +
@@ -1805,8 +1805,8 @@ s.ElementStepSteps1 =
   '      <div class="title">Confirm Order</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepSize7 =
+  '</div>' 
+s.ElementStepSize7 = 
   '<div class="ui massive steps">\n' +
   '  <div class="step">\n' +
   '    <i class="truck icon"></i>\n' +
@@ -1820,14 +1820,14 @@ s.ElementStepSize7 =
   '      <div class="title">Billing</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepStep1 =
+  '</div>' 
+s.ElementStepStep1 = 
   '<div class="ui steps">\n' +
   '  <div class="step">\n' +
   '    Shipping\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepSize2 =
+  '</div>' 
+s.ElementStepSize2 = 
   '<div class="ui tiny steps">\n' +
   '  <div class="step">\n' +
   '    <i class="truck icon"></i>\n' +
@@ -1850,8 +1850,8 @@ s.ElementStepSize2 =
   '      <div class="description">Verify order details</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepSize1 =
+  '</div>' 
+s.ElementStepSize1 = 
   '<div class="ui mini steps">\n' +
   '  <div class="step">\n' +
   '    <i class="truck icon"></i>\n' +
@@ -1874,8 +1874,8 @@ s.ElementStepSize1 =
   '      <div class="description">Verify order details</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepFluid1 =
+  '</div>' 
+s.ElementStepFluid1 = 
   '<div class="ui two column grid">\n' +
   '  <div class="column">\n' +
   '    <div class="ui fluid vertical steps">\n' +
@@ -1898,8 +1898,8 @@ s.ElementStepFluid1 =
   '  <div class="column">\n' +
   '    <p>The steps take up the entire column width</p>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepInverted2 =
+  '</div>' 
+s.ElementStepInverted2 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted ordered steps">\n' +
   '    <div class="completed step">\n' +
@@ -1921,8 +1921,8 @@ s.ElementStepInverted2 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepAttached1 =
+  '</div>' 
+s.ElementStepAttached1 = 
   '<div class="ui three top attached steps">\n' +
   '  <div class="step">\n' +
   '    <i class="truck icon"></i>\n' +
@@ -1971,8 +1971,8 @@ s.ElementStepAttached1 =
   '      <div class="description">Verify order details</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepSize4 =
+  '</div>' 
+s.ElementStepSize4 = 
   '<div class="ui large steps">\n' +
   '  <div class="step">\n' +
   '    <i class="truck icon"></i>\n' +
@@ -1986,8 +1986,8 @@ s.ElementStepSize4 =
   '      <div class="title">Billing</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepStackable1 =
+  '</div>' 
+s.ElementStepStackable1 = 
   '<div class="ui tablet stackable steps">\n' +
   '  <div class="step">\n' +
   '    <i class="plane icon"></i>\n' +
@@ -2010,8 +2010,8 @@ s.ElementStepStackable1 =
   '      <div class="description">Verify order details</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepInverted3 =
+  '</div>' 
+s.ElementStepInverted3 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted vertical steps">\n' +
   '    <div class="completed step">\n' +
@@ -2036,8 +2036,8 @@ s.ElementStepInverted3 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepLink1 =
+  '</div>' 
+s.ElementStepLink1 = 
   '<div class="ui steps">\n' +
   '  <a class="active step">\n' +
   '    <i class="truck icon"></i>\n' +
@@ -2052,8 +2052,8 @@ s.ElementStepLink1 =
   '      <div class="description">Enter billing information</div>\n' +
   '    </div>\n' +
   '  </a>\n' +
-  '</div>'
-s.ElementStepInverted1 =
+  '</div>' 
+s.ElementStepInverted1 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted steps">\n' +
   '    <div class="step">\n' +
@@ -2077,8 +2077,8 @@ s.ElementStepInverted1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepSize6 =
+  '</div>' 
+s.ElementStepSize6 = 
   '<div class="ui huge steps">\n' +
   '  <div class="step">\n' +
   '    <i class="truck icon"></i>\n' +
@@ -2092,15 +2092,15 @@ s.ElementStepSize6 =
   '      <div class="title">Billing</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepDescription1 =
+  '</div>' 
+s.ElementStepDescription1 = 
   '<div class="ui steps">\n' +
   '  <div class="step">\n' +
   '    <div class="title">Shipping</div>\n' +
   '    <div class="description">Choose your shipping options</div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepSize3 =
+  '</div>' 
+s.ElementStepSize3 = 
   '<div class="ui small steps">\n' +
   '  <div class="step">\n' +
   '    <i class="truck icon"></i>\n' +
@@ -2123,8 +2123,8 @@ s.ElementStepSize3 =
   '      <div class="description">Verify order details</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepCompleted1 =
+  '</div>' 
+s.ElementStepCompleted1 = 
   '<div class="ui steps">\n' +
   '  <div class="completed step">\n' +
   '    <i class="payment icon"></i>\n' +
@@ -2133,8 +2133,8 @@ s.ElementStepCompleted1 =
   '      <div class="description">Enter billing information</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementStepVertical1 =
+  '</div>' 
+s.ElementStepVertical1 = 
   '<div class="ui vertical steps">\n' +
   '  <div class="completed step">\n' +
   '    <i class="truck icon"></i>\n' +
@@ -2157,26 +2157,25 @@ s.ElementStepVertical1 =
   '      <div class="description">Verify order details</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementInputAction6 =
-  '<div class="ui action input">\n' +
-  '  <input type="text" placeholder="Search..."/>\n' +
-  '  <button class="ui icon button">\n' +
-  '    <i class="search icon"></i>\n' +
-  '  </button>\n' +
-  '</div>'
-s.ElementInputLabeled3 =
+  '</div>' 
+s.ElementInputAction6 = 
+  '<FuiInput action placeholder="Search...">\n' +
+  '  <FuiButton icon>\n' +
+  '    <FuiIcon name=search></FuiIcon>\n' +
+  '  </FuiButton>\n' +
+  '</FuiInput>' 
+s.ElementInputLabeled3 = 
   '<div class="ui right labeled input">\n' +
   '  <input type="text" placeholder="Enter weight.."/>\n' +
   '  <div class="ui basic label">\n' +
   '    kg\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementInputLoading3 =
+  '</div>' 
+s.ElementInputLoading3 = 
   '<FuiInput placeholder="Search..." icon color=purple loading=double>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputTextarea1 =
+  '</FuiInput>' 
+s.ElementInputTextarea1 = 
   '<div class="ui form">\n' +
   '    <div class="ui left corner labeled input">\n' +
   '        <div class="ui left corner label">\n' +
@@ -2212,16 +2211,16 @@ s.ElementInputTextarea1 =
   '        <textarea>I have a right icon and right corner label</textarea>\n' +
   '        <i class="search icon"></i>\n' +
   '    </div>\n' +
-  '</div>'
-s.ElementInputIcon3 =
+  '</div>' 
+s.ElementInputIcon3 = 
   '<FuiInput placeholder="Search..." icon>\n' +
   '  <FuiIcon name=search circular link></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputTransparent3 =
+  '</FuiInput>' 
+s.ElementInputTransparent3 = 
   '<FuiInput placeholder="Search..." transparent icon=left>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputLabeled2 =
+  '</FuiInput>' 
+s.ElementInputLabeled2 = 
   '<div class="ui right labeled input">\n' +
   '  <input type="text" placeholder="Find domain"/>\n' +
   '  <div class="ui dropdown label">\n' +
@@ -2233,54 +2232,52 @@ s.ElementInputLabeled2 =
   '      <div class="item">.org</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementInputLoading2 =
+  '</div>' 
+s.ElementInputLoading2 = 
   '<FuiInput placeholder="Search..." icon loading>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputDisabled2 =
+  '</FuiInput>' 
+s.ElementInputDisabled2 = 
   '<FuiInput placeholder="Search..." icon disabled>\n' +
   '  <template #before>\n' +
   '    <FuiIcon name=search></FuiIcon>\n' +
   '  </template>\n' +
-  '</FuiInput>'
-s.ElementInputIcon2 =
+  '</FuiInput>' 
+s.ElementInputIcon2 = 
   '<FuiInput placeholder="Search users..." icon=left>\n' +
   '  <FuiIcon name=users></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputLabeled7 =
+  '</FuiInput>' 
+s.ElementInputLabeled7 = 
   '<div class="ui corner labeled input">\n' +
   '  <input type="text" placeholder="Search..."/>\n' +
   '  <div class="ui corner label">\n' +
   '    <i class="asterisk icon"></i>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementInputSize6 =
+  '</div>' 
+s.ElementInputSize6 = 
   '<FuiInput placeholder="Search massive..." size=massive icon>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputSize1 =
+  '</FuiInput>' 
+s.ElementInputSize1 = 
   '<FuiInput placeholder="Search mini..." size=mini icon>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputFluid1 =
-  '<div class="ui fluid icon input">\n' +
-  '  <input type="text" placeholder="Search a very wide input..."/>\n' +
-  '  <i class="search icon"></i>\n' +
-  '</div>\n' +
-  '<div class="ui ignored divider"/>\n' +
-  '<div class="ui fluid action input">\n' +
-  '  <input type="text" placeholder="Search..."/>\n' +
-  '  <div class="ui button">Search</div>\n' +
-  '</div>'
-s.ElementInputLabeled6 =
+  '</FuiInput>' 
+s.ElementInputFluid1 = 
+  '<FuiInput fluid icon placeholder="Search a very wide input...">\n' +
+  '  <FuiIcon name=search></FuiIcon>\n' +
+  '</FuiInput>\n' +
+  '<FuiDivider ignored></FuiDivider>\n' +
+  '<FuiInput fluid action placeholder="Search...">\n' +
+  '  <FuiButton tag=div>Search</FuiButton>\n' +
+  '</FuiInput>' 
+s.ElementInputLabeled6 = 
   '<div class="ui left corner labeled input">\n' +
   '  <input type="text" placeholder="Search..."/>\n' +
   '  <div class="ui left corner label">\n' +
   '    <i class="asterisk icon"></i>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementInputAction2 =
+  '</div>' 
+s.ElementInputAction2 = 
   '<FuiInput action=left value="$52.03">\n' +
   '  <template #before>\n' +
   '    <FuiButton color=teal labeled icon>\n' +
@@ -2288,32 +2285,32 @@ s.ElementInputAction2 =
   '      Checkout\n' +
   '    </FuiButton>\n' +
   '  </template>\n' +
-  '</FuiInput>'
-s.ElementInputInput1 =
+  '</FuiInput>' 
+s.ElementInputInput1 = 
   '<FuiInput placeholder="Search...">\n' +
-  '</FuiInput>'
-s.ElementInputSize2 =
+  '</FuiInput>' 
+s.ElementInputSize2 = 
   '<FuiInput placeholder="Search small..." size=small icon>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputIcon4 =
+  '</FuiInput>' 
+s.ElementInputIcon4 = 
   '<FuiInput placeholder="Search..." icon>\n' +
   '  <FuiIcon name=search inverted circular link></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputLoading1 =
+  '</FuiInput>' 
+s.ElementInputLoading1 = 
   '<FuiInput placeholder="Search..." icon=left loading>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputFocus1 =
+  '</FuiInput>' 
+s.ElementInputFocus1 = 
   '<FuiInput focus placeholder="Search...">\n' +
-  '</FuiInput>'
-s.ElementInputDisabled1 =
+  '</FuiInput>' 
+s.ElementInputDisabled1 = 
   '<FuiInput placeholder="Search..." disabled>\n' +
-  '</FuiInput>'
-s.ElementInputDisabled3 =
+  '</FuiInput>' 
+s.ElementInputDisabled3 = 
   '<FuiInput placeholder="Search..." inputDisabled>\n' +
-  '</FuiInput>'
-s.ElementInputInverted1 =
+  '</FuiInput>' 
+s.ElementInputInverted1 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted input">\n' +
   '    <input type="text" placeholder="Search..."/>\n' +
@@ -2328,94 +2325,93 @@ s.ElementInputInverted1 =
   '    <input type="text" placeholder="Search..."/>\n' +
   '    <i class="search icon"></i>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementInputAction3 =
-  '<div class="ui right action left icon input">\n' +
-  '  <i class="search icon"></i>\n' +
-  '  <input type="text" placeholder="Search"/>\n' +
-  '  <div class="ui basic floating dropdown button">\n' +
+  '</div>' 
+s.ElementInputAction3 = 
+  '<FuiInput action=right icon=left placeholder="Search">\n' +
+  '  <template #before>\n' +
+  '    <FuiIcon name=search></FuiIcon>\n' +
+  '  </template>\n' +
+  '  <FuiButton tag=div basic floating dropdown>\n' +
   '    <div class="text">This Page</div>\n' +
-  '    <i class="dropdown icon"></i>\n' +
+  '    <FuiIcon name=dropdown></FuiIcon>\n' +
   '    <div class="menu">\n' +
   '      <div class="item">This Organization</div>\n' +
   '      <div class="item">Entire Site</div>\n' +
   '    </div>\n' +
-  '  </div>\n' +
-  '</div>'
-s.ElementInputLabeled5 =
+  '  </FuiButton>\n' +
+  '</FuiInput>' 
+s.ElementInputLabeled5 = 
   '<div class="ui right labeled left icon input">\n' +
   '  <i class="tags icon"></i>\n' +
   '  <input type="text" placeholder="Enter tags"/>\n' +
   '  <a class="ui tag label">\n' +
   '    Add Tag\n' +
   '  </a>\n' +
-  '</div>'
-s.ElementInputAction1 =
+  '</div>' 
+s.ElementInputAction1 = 
   '<FuiInput action placeholder="Search...">\n' +
   '  <FuiButton>Search</FuiButton>\n' +
-  '</FuiInput>'
-s.ElementInputTransparent1 =
+  '</FuiInput>' 
+s.ElementInputTransparent1 = 
   '<FuiInput placeholder="Search..." transparent>\n' +
-  '</FuiInput>'
-s.ElementInputTransparent2 =
+  '</FuiInput>' 
+s.ElementInputTransparent2 = 
   '<FuiInput placeholder="Search..." transparent icon>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputAction4 =
-  '<div class="ui action input">\n' +
-  '  <input type="text" placeholder="Search..."/>\n' +
-  '  <select class="ui compact selection dropdown">\n' +
+  '</FuiInput>' 
+s.ElementInputAction4 = 
+  '<FuiInput action placeholder="Search...">\n' +
+  '  <FuiDropdown compact selection>\n' +
   '    <option value="all">All</option>\n' +
   '    <option selected="selected" value="articles">Articles</option>\n' +
   '    <option value="products">Products</option>\n' +
-  '  </select>\n' +
-  '  <div class="ui button">Search</div>\n' +
-  '</div>'
-s.ElementInputLabeled1 =
+  '  </FuiDropdown>\n' +
+  '  <FuiButton tag=div>Search</FuiButton>\n' +
+  '</FuiInput>' 
+s.ElementInputLabeled1 = 
   '<div class="ui labeled input">\n' +
   '  <div class="ui label">\n' +
   '    http://\n' +
   '  </div>\n' +
   '  <input type="text" placeholder="mysite.com"/>\n' +
-  '</div>'
-s.ElementInputAction5 =
-  '<div class="ui action input">\n' +
-  '  <input type="text" value="http://ww.short.url/c0opq"/>\n' +
-  '  <button class="ui teal right labeled icon button">\n' +
-  '    <i class="copy icon"></i>\n' +
+  '</div>' 
+s.ElementInputAction5 = 
+  '<FuiInput action value="http://ww.short.url/c0opq">\n' +
+  '  <FuiButton color=teal labeledIcon=right>\n' +
+  '    <FuiIcon name=copy></FuiIcon>\n' +
   '    Copy\n' +
-  '  </button>\n' +
-  '</div>'
-s.ElementInputError1 =
+  '  </FuiButton>\n' +
+  '</FuiInput>' 
+s.ElementInputError1 = 
   '<FuiInput placeholder="Search..." error>\n' +
-  '</FuiInput>'
-s.ElementInputSize5 =
+  '</FuiInput>' 
+s.ElementInputSize5 = 
   '<FuiInput placeholder="Search huge..." size=huge icon>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputSize3 =
+  '</FuiInput>' 
+s.ElementInputSize3 = 
   '<FuiInput placeholder="Search large..." size=large icon>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputLabeled4 =
+  '</FuiInput>' 
+s.ElementInputLabeled4 = 
   '<div class="ui right labeled input">\n' +
   '  <label for="amount" class="ui label">$</label>\n' +
   '  <input type="text" placeholder="Amount" id="amount"/>\n' +
   '  <div class="ui basic label">.00</div>\n' +
-  '</div>'
-s.ElementInputIcon1 =
+  '</div>' 
+s.ElementInputIcon1 = 
   '<FuiInput placeholder="Search..." icon>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputLoading4 =
+  '</FuiInput>' 
+s.ElementInputLoading4 = 
   '<FuiInput placeholder="Search..." icon color=red loading="fast elastic">\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementInputSize4 =
+  '</FuiInput>' 
+s.ElementInputSize4 = 
   '<FuiInput placeholder="Search big..." size=big icon>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
-  '</FuiInput>'
-s.ElementText1 =
+  '</FuiInput>' 
+s.ElementText1 = 
   '<h2 class="ui header">Definition</h2>\n' +
   '<div class="no example">\n' +
   '  <h4 class="ui header">Text</h4>\n' +
@@ -2448,14 +2444,15 @@ s.ElementText1 =
   '      <p>then growing to <span class="ui huge red text">huge</span> text</p>\n' +
   '      <p>to finally become <span class="ui red massive text">massive</span> text</p>\n' +
   '    </div>\n' +
-  '</div>'
-s.ElementDividerHorizontalDivider1 =
+  '</div>' 
+s.ElementDividerHorizontalDivider1 = 
   '<FuiSegment aligned=center basic>\n' +
-  '  <div class="ui left icon action input">\n' +
-  '    <FuiIcon name=search></FuiIcon>\n' +
-  '    <input type="text" placeholder="Order #"/>\n' +
+  '  <FuiInput icon=left action placeholder="Order #">\n' +
+  '    <template #before>\n' +
+  '      <FuiIcon name=search></FuiIcon>\n' +
+  '    </template>\n' +
   '    <FuiButton tag=div color=blue submit>Search</FuiButton>\n' +
-  '  </div>\n' +
+  '  </FuiInput>\n' +
   '  <FuiDivider horizontal>\n' +
   '    Or\n' +
   '  </FuiDivider>\n' +
@@ -2463,39 +2460,39 @@ s.ElementDividerHorizontalDivider1 =
   '    Create New Order\n' +
   '    <FuiIcon name=add></FuiIcon>\n' +
   '  </FuiButton>\n' +
-  '</FuiSegment>'
-s.ElementDividerHidden1 =
+  '</FuiSegment>' 
+s.ElementDividerHidden1 = 
   '<FuiHeader level=3>Section One</FuiHeader>\n' +
   '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
   '<FuiDivider hidden></FuiDivider>\n' +
   '<FuiHeader level=3>Section Two</FuiHeader>\n' +
-  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>'
-s.ElementDividerDivider1 =
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
+s.ElementDividerDivider1 = 
   '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
   '<FuiDivider></FuiDivider>\n' +
-  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>'
-s.ElementDividerFitted1 =
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
+s.ElementDividerFitted1 = 
   '<FuiSegment>\n' +
   '  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.\n' +
   '  <FuiDivider fitted></FuiDivider>\n' +
   '  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.\n' +
-  '</FuiSegment>'
-s.ElementDividerClearing1 =
+  '</FuiSegment>' 
+s.ElementDividerClearing1 = 
   '<FuiSegment>\n' +
   '  <FuiHeader level=2 floated=right>Floated Content</FuiHeader>\n' +
   '  <FuiDivider clearing></FuiDivider>\n' +
   '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
-  '</FuiSegment>'
-s.ElementDividerInverted1 =
+  '</FuiSegment>' 
+s.ElementDividerInverted1 = 
   '<FuiSegment inverted>\n' +
   '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
   '  <FuiDivider inverted></FuiDivider>\n' +
   '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
-  '  <h4 class="ui horizontal inverted divider">\n' +
+  '  <FuiDivider level=4 horizontal inverted>\n' +
   '    Horizontal\n' +
-  '  </h4>\n' +
-  '</FuiSegment>'
-s.ElementDividerVerticalDivider1 =
+  '  </FuiDivider>\n' +
+  '</FuiSegment>' 
+s.ElementDividerVerticalDivider1 = 
   '<FuiSegment>\n' +
   '  <FuiGrid column=two relaxed=very>\n' +
   '    <FuiColumn>\n' +
@@ -2514,31 +2511,29 @@ s.ElementDividerVerticalDivider1 =
   '  <FuiDivider vertical>\n' +
   '    and\n' +
   '  </FuiDivider>\n' +
-  '</FuiSegment>'
-s.ElementDividerVerticalDivider2 =
+  '</FuiSegment>' 
+s.ElementDividerVerticalDivider2 = 
   '<FuiSegment placeholder>\n' +
   '  <FuiGrid column=two relaxed=very stackable>\n' +
   '    <FuiColumn>\n' +
-  '      <div class="ui form">\n' +
-  '        <div class="field">\n' +
+  '      <FuiForm>\n' +
+  '        <FuiField>\n' +
   '          <label>Username</label>\n' +
-  '          <div class="ui left icon input">\n' +
-  '            <input type="text" placeholder="Username"/>\n' +
+  '          <FuiInput placeholder="Username" icon=left>\n' +
   '            <FuiIcon name=user></FuiIcon>\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '        <div class="field">\n' +
+  '          </FuiInput>\n' +
+  '        </FuiField>\n' +
+  '        <FuiField>\n' +
   '          <label>Password</label>\n' +
-  '          <div class="ui left icon input">\n' +
-  '            <input type="password"/>\n' +
+  '          <FuiInput type=password icon=left>\n' +
   '            <FuiIcon name=lock></FuiIcon>\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '        <div class="ui blue submit button">Login</div>\n' +
-  '      </div>\n' +
+  '          </FuiInput>\n' +
+  '        </FuiField>\n' +
+  '        <FuiButton tag=div color=blue submit>Login</FuiButton>\n' +
+  '      </FuiForm>\n' +
   '    </FuiColumn>\n' +
-  '    <FuiColumn middle aligned>\n' +
-  '      <FuiButton size=big>\n' +
+  '    <FuiColumn aligned=middle>\n' +
+  '      <FuiButton tag=div size=big>\n' +
   '        <FuiIcon name=signup></FuiIcon>\n' +
   '        Sign Up\n' +
   '      </FuiButton>\n' +
@@ -2547,13 +2542,13 @@ s.ElementDividerVerticalDivider2 =
   '  <FuiDivider vertical>\n' +
   '    Or\n' +
   '  </FuiDivider>\n' +
-  '</FuiSegment>'
-s.ElementDividerHorizontalDivider2 =
-  '<h4 class="ui horizontal divider header">\n' +
+  '</FuiSegment>' 
+s.ElementDividerHorizontalDivider2 = 
+  '<FuiHeader level=4 horizontal divider>\n' +
   '  <FuiIcon name="bar chart"></FuiIcon>\n' +
   '  Specifications\n' +
-  '</h4>\n' +
-  '<table class="ui definition table">\n' +
+  '</FuiHeader>\n' +
+  '<FuiTable definition>\n' +
   '  <tbody>\n' +
   '    <tr>\n' +
   '      <td class="two wide column">Size</td>\n' +
@@ -2572,8 +2567,8 @@ s.ElementDividerHorizontalDivider2 =
   '      <td>Not Much Usually</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.ElementDividerHorizontalAlignment1 =
+  '</FuiTable>' 
+s.ElementDividerHorizontalAlignment1 = 
   '<FuiHeader level=4 aligned=left horizontal divider>\n' +
   '  <FuiIcon name="left align"></FuiIcon>\n' +
   '  Left Aligned\n' +
@@ -2585,22 +2580,22 @@ s.ElementDividerHorizontalAlignment1 =
   '<FuiHeader level=4 aligned=right horizontal divider>\n' +
   '  <FuiIcon name="right align"></FuiIcon>\n' +
   '  Right Aligned\n' +
-  '</FuiHeader>'
-s.ElementDividerSection1 =
+  '</FuiHeader>' 
+s.ElementDividerSection1 = 
   '<FuiHeader level=3>Section One</FuiHeader>\n' +
   '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
   '<FuiDivider section></FuiDivider>\n' +
   '<FuiHeader level=3>Section Two</FuiHeader>\n' +
-  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>'
-s.ElementLabelBasic1 =
-  '<a class="ui basic label">Basic</a>\n' +
-  '<a class="ui pointing basic label">Pointing</a>\n' +
-  '<a class="ui basic image label">\n' +
-  '  <img src="/images/avatar/small/elliot.jpg"/>\n' +
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
+s.ElementLabelBasic1 = 
+  '<FuiLabel tag=a basic>Basic</FuiLabel>\n' +
+  '<FuiLabel tag=a pointing basic>Pointing</FuiLabel>\n' +
+  '<FuiLabel tag=a basic image="/images/avatar/small/elliot.jpg">\n' +
   '  Elliot\n' +
-  '</a><a class="ui pointing red basic label">Red Pointing</a>\n' +
-  '<a class="ui blue basic label">Blue</a>'
-s.ElementLabelAllVariantsofLabelcanbeinverted1 =
+  '</FuiLabel>\n' +
+  '<FuiLabel tag=a pointing color=red basic>Red Pointing</FuiLabel>\n' +
+  '<FuiLabel tag=a color=blue basic>Blue</FuiLabel>' 
+s.ElementLabelAllVariantsofLabelcanbeinverted1 = 
   '<div class="ui inverted segment">\n' +
   '    <a class="ui primary inverted label">Primary</a>\n' +
   '    <a class="ui secondary inverted label">Secondary</a>\n' +
@@ -2650,9 +2645,8 @@ s.ElementLabelAllVariantsofLabelcanbeinverted1 =
   '    <a class="ui brown inverted tag label">Brown</a>\n' +
   '    <a class="ui grey inverted tag label">Grey</a>\n' +
   '    <a class="ui black inverted tag label">Black</a>\n' +
-  '</div>'
-s.ElementLabelCorner1 =
-  '<div class="ui ignored warning message">A corner label must be positioned inside a container with <b>position: relative</b> to display properly. If a container is rounded you will need to add <code>overflow:hidden</code> to the container to produce a rounded label.</div>\n' +
+  '</div>' 
+s.ElementLabelCorner1 = 
   '<div class="ui two column grid">\n' +
   '  <div class="column">\n' +
   '    <div class="ui fluid image">\n' +
@@ -2670,21 +2664,18 @@ s.ElementLabelCorner1 =
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementLabelImage1 =
-  '<a class="ui image label">\n' +
-  '  <img src="/images/avatar/small/joe.jpg"/>\n' +
+  '</div>' 
+s.ElementLabelImage1 = 
+  '<FuiLabel tag=a image="/images/avatar/small/joe.jpg">\n' +
   '  Joe\n' +
-  '</a>\n' +
-  '<a class="ui image label">\n' +
-  '  <img src="/images/avatar/small/elliot.jpg"/>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel tag=a image="/images/avatar/small/elliot.jpg">\n' +
   '  Elliot\n' +
-  '</a>\n' +
-  '<a class="ui image label">\n' +
-  '  <img src="/images/avatar/small/stevie.jpg"/>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel tag=a image="/images/avatar/small/stevie.jpg">\n' +
   '  Stevie\n' +
-  '</a>'
-s.ElementLabelPointing1 =
+  '</FuiLabel>' 
+s.ElementLabelPointing1 = 
   '<form class="ui fluid form">\n' +
   '  <div class="field">\n' +
   '    <input type="text" placeholder="First name"/>\n' +
@@ -2713,33 +2704,25 @@ s.ElementLabelPointing1 =
   '    </div>\n' +
   '    <input type="password"/>\n' +
   '  </div>\n' +
-  '</form>'
-s.ElementLabelIcon4 =
-  '<div class="ignored ui warning message">\n' +
-  '  For backward-compatibility during v2.x, <code>close</code>/<code>delete</code> icon.\n' +
-  '  <ul>\n' +
-  '    <li>Requires <code>left icon</code> to be added to the parent <code>label</code> when the icon is placed on the left of a label.</li>\n' +
-  '    <li>Does not require <code>right icon</code> to be added to parent <code>label</code> when the icon is placed on the right of the label.</li>\n' +
-  '  </ul>\n' +
-  '  This rule may be simplified in a later minor or major version.\n' +
-  '</div>\n' +
-  '<div class="ui left icon label">\n' +
-  '  <i class="close icon"></i>\n' +
+  '</form>' 
+s.ElementLabelIcon4 = 
+  '<FuiLabel icon=left>\n' +
+  '  <FuiIcon name=close></FuiIcon>\n' +
   '  Close\n' +
-  '</div>\n' +
-  '<div class="ui left icon label">\n' +
-  '  <i class="delete icon"></i>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel icon=left>\n' +
+  '  <FuiIcon name=delete></FuiIcon>\n' +
   '  Delete\n' +
-  '</div>\n' +
-  '<div class="ui label">\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel>\n' +
   '  Close\n' +
-  '  <i class="close icon"></i>\n' +
-  '</div>\n' +
-  '<div class="ui label">\n' +
+  '  <FuiIcon name=close></FuiIcon>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel>\n' +
   '  Delete\n' +
-  '  <i class="delete icon"></i>\n' +
-  '</div>'
-s.ElementLabelRibbon4 =
+  '  <FuiIcon name=delete></FuiIcon>\n' +
+  '</FuiLabel>' 
+s.ElementLabelRibbon4 = 
   '<div class="ui two column grid">\n' +
   '  <div class="column">\n' +
   '    <div class="ui fluid image">\n' +
@@ -2757,8 +2740,8 @@ s.ElementLabelRibbon4 =
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementLabelAttached1 =
+  '</div>' 
+s.ElementLabelAttached1 = 
   '<div class="ui ignored warning message">\n' +
   '  <p>Attached labels attempt to intelligently pad other content to account for their position, but may not in all cases apply this padding correctly.</p>\n' +
   '  <p>If this happens you may need to manually correct the padding of the other elements inside the container.\n' +
@@ -2812,41 +2795,39 @@ s.ElementLabelAttached1 =
   '<div class="ui top left attached label">View</div>\n' +
   '<div class="ui bottom left attached label">User View</div>\n' +
   '<div class="ui bottom right attached label">Admin View</div>\n' +
-  '  </div>'
-s.ElementLabelLabel1 =
+  '  </div>' 
+s.ElementLabelLabel1 = 
   '<div class="ui label">\n' +
   '  <i class="mail icon"></i> 23\n' +
-  '</div>'
-s.ElementLabelIcon2 =
-  '<div class="ignored ui info message">Icons can be placed to the right inside a label.</div>\n' +
-  '<div class="ui right icon label">\n' +
+  '</div>' 
+s.ElementLabelIcon2 = 
+  '<FuiLabel icon=right>\n' +
   '  Mail\n' +
-  '  <i class="mail icon"></i>\n' +
-  '</div>\n' +
-  '<div class="ui right icon label">\n' +
+  '  <FuiIcon name=mail></FuiIcon>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel icon=right>\n' +
   '  Test Passed\n' +
-  '  <i class="checkmark icon"></i>\n' +
-  '</div>\n' +
-  '<div class="ui right icon label">\n' +
+  '  <FuiIcon name=checkmark></FuiIcon>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel icon=right>\n' +
   '  Dog\n' +
-  '  <i class="dog icon"></i>\n' +
-  '</div>\n' +
-  '<div class="ui right icon label">\n' +
+  '  <FuiIcon name=dog></FuiIcon>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel icon=right>\n' +
   '  Cat\n' +
-  '  <i class="cat icon"></i>\n' +
-  '</div>'
-s.ElementLabelIcon3 =
-  '<div class="ignored ui info message">Labels can contain individual icons without text.</div>\n' +
-  '<div class="ui icon label">\n' +
-  '  <i class="mail icon"></i>\n' +
-  '</div>\n' +
-  '<div class="ui icon label">\n' +
-  '  <i class="dog icon"></i>\n' +
-  '</div>\n' +
-  '<div class="ui icon label">\n' +
-  '  <i class="cat icon"></i>\n' +
-  '</div>'
-s.ElementLabelFloatingaligned1 =
+  '  <FuiIcon name=cat></FuiIcon>\n' +
+  '</FuiLabel>' 
+s.ElementLabelIcon3 = 
+  '<FuiLabel icon>\n' +
+  '  <FuiIcon name=mail></FuiIcon>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel icon>\n' +
+  '  <FuiIcon name=dog></FuiIcon>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel icon>\n' +
+  '  <FuiIcon name=cat></FuiIcon>\n' +
+  '</FuiLabel>' 
+s.ElementLabelFloatingaligned1 = 
   '<div class="ui compact menu">\n' +
   '  <a class="item">\n' +
   '    <i class="icon mail"></i> Messages from Fomantic-UI-Users\n' +
@@ -2856,8 +2837,8 @@ s.ElementLabelFloatingaligned1 =
   '    <i class="icon users"></i> Friends of the Fomantic-UI Community\n' +
   '    <div class="right aligned floating ui teal label">22 Friends online</div>\n' +
   '  </a>\n' +
-  '</div>'
-s.ElementLabelRibbon3 =
+  '</div>' 
+s.ElementLabelRibbon3 = 
   '<div class="ui two column grid">\n' +
   '  <div class="column">\n' +
   '    <div class="ui fluid image">\n' +
@@ -2875,8 +2856,8 @@ s.ElementLabelRibbon3 =
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementLabelPointing2 =
+  '</div>' 
+s.ElementLabelPointing2 = 
   '<form class="ui fluid form">\n' +
   '  <div class="field">\n' +
   '    <input type="text" placeholder="First name"/>\n' +
@@ -2905,8 +2886,8 @@ s.ElementLabelPointing2 =
   '    </div>\n' +
   '    <input type="password"/>\n' +
   '  </div>\n' +
-  '</form>'
-s.ElementLabelHorizontal1 =
+  '</form>' 
+s.ElementLabelHorizontal1 = 
   '<div class="ui divided selection list">\n' +
   '  <a class="item">\n' +
   '    <div class="ui red horizontal label">Fruit</div>\n' +
@@ -2924,19 +2905,18 @@ s.ElementLabelHorizontal1 =
   '    <div class="ui horizontal label">Dog</div>\n' +
   '    Poodle\n' +
   '  </a>\n' +
-  '</div>'
-s.ElementLabelDetail1 =
+  '</div>' 
+s.ElementLabelDetail1 = 
   '<div class="ui label">\n' +
   '  Dogs\n' +
   '  <div class="detail">214</div>\n' +
-  '</div>'
-s.ElementLabelLink2 =
-  '<div class="ui label">\n' +
-  '  <i class="mail icon"></i>\n' +
+  '</div>' 
+s.ElementLabelLink2 = 
+  '<FuiLabel detailA="View Mail">\n' +
+  '  <FuiIcon name=mail></FuiIcon>\n' +
   '  23\n' +
-  '  <a class="detail">View Mail</a>\n' +
-  '</div>'
-s.ElementLabelSize1 =
+  '</FuiLabel>' 
+s.ElementLabelSize1 = 
   '<div class="ui mini label">\n' +
   '  Mini\n' +
   '</div>\n' +
@@ -2960,8 +2940,8 @@ s.ElementLabelSize1 =
   '</div>\n' +
   '<div class="ui massive label">\n' +
   '  Massive\n' +
-  '</div>'
-s.ElementLabelTagGroup1 =
+  '</div>' 
+s.ElementLabelTagGroup1 = 
   '<div class="ui tag labels">\n' +
   '  <a class="ui label">\n' +
   '    $10.00\n' +
@@ -2978,8 +2958,8 @@ s.ElementLabelTagGroup1 =
   '  <a class="ui label">\n' +
   '    $10.25\n' +
   '  </a>\n' +
-  '</div>'
-s.ElementLabelFloatingleft1 =
+  '</div>' 
+s.ElementLabelFloatingleft1 = 
   '<div class="ui compact menu">\n' +
   '  <a class="item">\n' +
   '    <i class="icon mail"></i> Messages\n' +
@@ -3000,8 +2980,8 @@ s.ElementLabelFloatingleft1 =
   '    <i class="icon users"></i> Friends\n' +
   '    <div class="left floating ui teal label">22 Friends</div>\n' +
   '  </a>\n' +
-  '</div>'
-s.ElementLabelRibbon2 =
+  '</div>' 
+s.ElementLabelRibbon2 = 
   '<div class="ui two column grid">\n' +
   '  <div class="column">\n' +
   '    <div class="ui fluid image">\n' +
@@ -3019,8 +2999,8 @@ s.ElementLabelRibbon2 =
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementLabelCircular2 =
+  '</div>' 
+s.ElementLabelCircular2 = 
   '<a class="ui red empty circular label"/>\n' +
   '<a class="ui orange empty circular label"/>\n' +
   '<a class="ui yellow empty circular label"/>\n' +
@@ -3033,8 +3013,8 @@ s.ElementLabelCircular2 =
   '<a class="ui pink empty circular label"/>\n' +
   '<a class="ui brown empty circular label"/>\n' +
   '<a class="ui grey empty circular label"/>\n' +
-  '<a class="ui black empty circular label"/>'
-s.ElementLabelCircularGroup1 =
+  '<a class="ui black empty circular label"/>' 
+s.ElementLabelCircularGroup1 = 
   '<div class="ui circular labels">\n' +
   '  <a class="ui label">\n' +
   '    11\n' +
@@ -3051,8 +3031,8 @@ s.ElementLabelCircularGroup1 =
   '  <a class="ui label">\n' +
   '    141\n' +
   '  </a>\n' +
-  '</div>'
-s.ElementLabelFloating1 =
+  '</div>' 
+s.ElementLabelFloating1 = 
   '<div class="ui ignored warning message">A floating label must be positioned inside a container with <b>position: relative</b> to display properly.</div>\n' +
   '<div class="ui compact menu">\n' +
   '  <a class="item">\n' +
@@ -3098,8 +3078,8 @@ s.ElementLabelFloating1 =
   '    <i class="icon users"></i> Friends\n' +
   '    <div class="bottom floating ui teal label">22 Friends</div>\n' +
   '  </a>\n' +
-  '</div>'
-s.ElementLabelImage1A =
+  '</div>' 
+s.ElementLabelImage1A = 
   '<a class="ui label">\n' +
   '  <img class="ui right spaced avatar image" src="/images/avatar/small/elliot.jpg"/>\n' +
   '  Elliot\n' +
@@ -3107,12 +3087,12 @@ s.ElementLabelImage1A =
   '<a class="ui label">\n' +
   '  <img src="/images/avatar/small/stevie.jpg"/>\n' +
   '  Stevie\n' +
-  '</a>'
-s.ElementLabelLink1 =
+  '</a>' 
+s.ElementLabelLink1 = 
   '<a class="ui label">\n' +
   '  <i class="mail icon"></i> 23\n' +
-  '</a>'
-s.ElementLabelBasicTagLabels1 =
+  '</a>' 
+s.ElementLabelBasicTagLabels1 = 
   '<a class="ui basic tag label">Standard Tag</a>\n' +
   '<a class="ui primary basic tag label">Primary</a>\n' +
   '<a class="ui secondary basic tag label">Secondary</a>\n' +
@@ -3128,82 +3108,72 @@ s.ElementLabelBasicTagLabels1 =
   '<a class="ui pink basic tag label">Pink</a>\n' +
   '<a class="ui brown basic tag label">Brown</a>\n' +
   '<a class="ui grey basic tag label">Grey</a>\n' +
-  '<a class="ui black basic tag label">Black</a>'
-s.ElementLabelImage3 =
-  '<div class="ui image label">\n' +
-  '  <img src="/images/avatar/small/ade.jpg"/>\n' +
+  '<a class="ui black basic tag label">Black</a>' 
+s.ElementLabelImage3 = 
+  '<FuiLabel image="/images/avatar/small/ade.jpg">\n' +
   '  Adrienne\n' +
-  '  <i class="delete icon"></i>\n' +
-  '</div>\n' +
-  '<div class="ui image label">\n' +
-  '  <img src="/images/avatar/small/zoe.jpg"/>\n' +
+  '  <FuiIcon name=delete></FuiIcon>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel image="/images/avatar/small/zoe.jpg">\n' +
   '  Zoe\n' +
-  '  <i class="delete icon"></i>\n' +
-  '</div>\n' +
-  '<div class="ui image label">\n' +
-  '  <img src="/images/avatar/small/nan.jpg"/>\n' +
+  '  <FuiIcon name=delete></FuiIcon>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel image="/images/avatar/small/nan.jpg">\n' +
   '  Nan\n' +
-  '  <i class="delete icon"></i>\n' +
-  '</div>'
-s.ElementLabelImage2 =
-  '<a class="ui blue image label">\n' +
-  '  <img src="/images/avatar/small/veronika.jpg"/>\n' +
+  '  <FuiIcon name=delete></FuiIcon>\n' +
+  '</FuiLabel>' 
+s.ElementLabelImage2 = 
+  '<FuiLabel tag=a color=blue image="/images/avatar/small/veronika.jpg" detail="Friend">\n' +
   '  Veronika\n' +
-  '  <div class="detail">Friend</div>\n' +
-  '</a>\n' +
-  '<a class="ui teal image label">\n' +
-  '  <img src="/images/avatar/small/jenny.jpg"/>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel tag=a color=teal image="/images/avatar/small/jenny.jpg" detail="Student">\n' +
   '  Veronika\n' +
-  '  <div class="detail">Student</div>\n' +
-  '</a>\n' +
-  '<a class="ui yellow image label">\n' +
-  '  <img src="/images/avatar/small/christian.jpg"/>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel tag=a color=yellow image="/images/avatar/small/christian.jpg" detail="Co-worker">\n' +
   '  Helen\n' +
-  '  <div class="detail">Co-worker</div>\n' +
-  '</a>'
-s.ElementLabelTag1 =
+  '</FuiLabel>' 
+s.ElementLabelTag1 = 
   '<a class="ui tag label">New</a>\n' +
   '<a class="ui red tag label">Upcoming</a>\n' +
-  '<a class="ui teal tag label">Featured</a>'
-s.ElementLabelBasicGroup1 =
-  '<div class="ui basic labels">\n' +
-  '    <a class="ui label">\n' +
-  '        Fun <i class="icon close"></i>\n' +
-  '    </a>\n' +
-  '    <a class="ui label">\n' +
-  '        Happy\n' +
-  '        <div class="detail">22</div>\n' +
-  '    </a>\n' +
-  '    <a class="ui label">\n' +
-  '        Smart\n' +
-  '    </a>\n' +
-  '    <a class="ui label">\n' +
-  '        Insane\n' +
-  '    </a>\n' +
-  '    <a class="ui label">\n' +
-  '        Exciting\n' +
-  '    </a>\n' +
-  '</div>'
-s.ElementLabelColoredGroup1 =
-  '<div class="ui blue labels">\n' +
-  '  <a class="ui label">\n' +
-  '    Fun <i class="icon close"></i>\n' +
-  '  </a>\n' +
-  '  <a class="ui label">\n' +
+  '<a class="ui teal tag label">Featured</a>' 
+s.ElementLabelBasicGroup1 = 
+  '<FuiLabels basic>\n' +
+  '  <FuiLabel tag=a>\n' +
+  '    Fun <FuiIcon name=close></FuiIcon>\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
   '    Happy\n' +
   '    <div class="detail">22</div>\n' +
-  '  </a>\n' +
-  '  <a class="ui label">\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
   '    Smart\n' +
-  '  </a>\n' +
-  '  <a class="ui label">\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
   '    Insane\n' +
-  '  </a>\n' +
-  '  <a class="ui label">\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
   '    Exciting\n' +
-  '  </a>\n' +
-  '</div>'
-s.ElementLabelGroupSize1 =
+  '  </FuiLabel>\n' +
+  '</FuiLabels>' 
+s.ElementLabelColoredGroup1 = 
+  '<FuiLabels color=blue>\n' +
+  '  <FuiLabel tag=a>\n' +
+  '    Fun <i class="icon close"></i>\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a detail="22">\n' +
+  '    Happy\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
+  '    Smart\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
+  '    Insane\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
+  '    Exciting\n' +
+  '  </FuiLabel>\n' +
+  '</FuiLabels>' 
+s.ElementLabelGroupSize1 = 
   '<div class="ui huge labels">\n' +
   '  <div class="ui label">\n' +
   '    Fun\n' +
@@ -3217,25 +3187,25 @@ s.ElementLabelGroupSize1 =
   '  <div class="ui label">\n' +
   '    Witty\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementLabelIcon1 =
-  '<div class="ui label">\n' +
-  '  <i class="mail icon"></i>\n' +
+  '</div>' 
+s.ElementLabelIcon1 = 
+  '<FuiLabel>\n' +
+  '  <FuiIcon name=mail></FuiIcon>\n' +
   '  Mail\n' +
-  '</div>\n' +
-  '<div class="ui label">\n' +
-  '  <i class="checkmark icon"></i>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel>\n' +
+  '  <FuiIcon name=checkmark></FuiIcon>\n' +
   '  Test Passed\n' +
-  '</div>\n' +
-  '<div class="ui label">\n' +
-  '  <i class="dog icon"></i>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel>\n' +
+  '  <FuiIcon name=dog></FuiIcon>\n' +
   '  Dog\n' +
-  '</div>\n' +
-  '<div class="ui label">\n' +
-  '  <i class="cat icon"></i>\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel>\n' +
+  '  <FuiIcon name=cat></FuiIcon>\n' +
   '  Cat\n' +
-  '</div>'
-s.ElementLabelRibbon1 =
+  '</FuiLabel>' 
+s.ElementLabelRibbon1 = 
   '<div class="ui two column grid">\n' +
   '  <div class="column">\n' +
   '    <div class="ui raised segment">\n' +
@@ -3254,22 +3224,22 @@ s.ElementLabelRibbon1 =
   '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementLabelCircular1 =
-  '<a class="ui red circular label">2</a>\n' +
-  '<a class="ui orange circular label">2</a>\n' +
-  '<a class="ui yellow circular label">2</a>\n' +
-  '<a class="ui olive circular label">2</a>\n' +
-  '<a class="ui green circular label">2</a>\n' +
-  '<a class="ui teal circular label">2</a>\n' +
-  '<a class="ui blue circular label">2</a>\n' +
-  '<a class="ui violet circular label">2</a>\n' +
-  '<a class="ui purple circular label">2</a>\n' +
-  '<a class="ui pink circular label">2</a>\n' +
-  '<a class="ui brown circular label">2</a>\n' +
-  '<a class="ui grey circular label">2</a>\n' +
-  '<a class="ui black circular label">2</a>'
-s.ElementLabelColored1 =
+  '</div>' 
+s.ElementLabelCircular1 = 
+  '<FuiLabel tag=a color=red circular>2</FuiLabel>\n' +
+  '<FuiLabel tag=a color=orange circular>2</FuiLabel>\n' +
+  '<FuiLabel tag=a color=yellow circular>2</FuiLabel>\n' +
+  '<FuiLabel tag=a color=olive circular>2</FuiLabel>\n' +
+  '<FuiLabel tag=a color=green circular>2</FuiLabel>\n' +
+  '<FuiLabel tag=a color=teal circular>2</FuiLabel>\n' +
+  '<FuiLabel tag=a color=blue circular>2</FuiLabel>\n' +
+  '<FuiLabel tag=a color=violet circular>2</FuiLabel>\n' +
+  '<FuiLabel tag=a color=purple circular>2</FuiLabel>\n' +
+  '<FuiLabel tag=a color=pink circular>2</FuiLabel>\n' +
+  '<FuiLabel tag=a color=brown circular>2</FuiLabel>\n' +
+  '<FuiLabel tag=a color=grey circular>2</FuiLabel>\n' +
+  '<FuiLabel tag=a color=black circular>2</FuiLabel>' 
+s.ElementLabelColored1 = 
   '<a class="ui primary label">Primary</a>\n' +
   '<a class="ui secondary label">Secondary</a>\n' +
   '<a class="ui red label">Red</a>\n' +
@@ -3284,38 +3254,38 @@ s.ElementLabelColored1 =
   '<a class="ui pink label">Pink</a>\n' +
   '<a class="ui brown label">Brown</a>\n' +
   '<a class="ui grey label">Grey</a>\n' +
-  '<a class="ui black label">Black</a>'
-s.ElementHeaderContentHeaders1 =
-  '<FuiButtons ignored icon font>\n' +
-  '  <FuiButton increase> <FuiIcon name=plus></FuiIcon></FuiButton>\n' +
-  '  <FuiButton decrease> <FuiIcon name=minus></FuiIcon></FuiButton>\n' +
+  '<a class="ui black label">Black</a>' 
+s.ElementHeaderContentHeaders1 = 
+  '<FuiButtons icon>\n' +
+  '  <FuiButton> <FuiIcon name=plus></FuiIcon></FuiButton>\n' +
+  '  <FuiButton> <FuiIcon name=minus></FuiIcon></FuiButton>\n' +
   '</FuiButtons>\n' +
-  '<FuiSegment class="ui sizer vertical segment">\n' +
-  '  <div class="ui huge header">Huge Header</div>\n' +
+  '<FuiSegment vertical>\n' +
+  '  <FuiHeader size=huge>Huge Header</FuiHeader>\n' +
   '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
-  '  <div class="ui large header">Large Header</div>\n' +
+  '  <FuiHeader size=large>Large Header</FuiHeader>\n' +
   '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
-  '  <div class="ui medium header">Medium Header</div>\n' +
+  '  <FuiHeader size=medium>Medium Header</FuiHeader>\n' +
   '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
-  '  <div class="ui small header">Small Header</div>\n' +
+  '  <FuiHeader size=small>Small Header</FuiHeader>\n' +
   '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
-  '  <div class="ui tiny header">Tiny Header</div>\n' +
+  '  <FuiHeader size=tiny>Tiny Header</FuiHeader>\n' +
   '  <FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
-  '</FuiSegment>'
-s.ElementHeaderDisabled1 =
+  '</FuiSegment>' 
+s.ElementHeaderDisabled1 = 
   '<FuiHeader disabled>\n' +
   '  Disabled Header\n' +
   '</FuiHeader>\n' +
-  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>'
-s.ElementHeaderImage1 =
-  '<h2 class="ui header">\n' +
-  '  <img src="/images/icons/school.png" class="ui image">\n' +
-  '  <div class="content">\n' +
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
+s.ElementHeaderImage1 = 
+  '<FuiHeader level=2>\n' +
+  '  <FuiImage src="/images/icons/school.png"></FuiImage>\n' +
+  '  <FuiContent>\n' +
   '    Learn More\n' +
-  '  </div>\n' +
-  '</h2>\n' +
-  '<img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">'
-s.ElementHeaderColored1 =
+  '  </FuiContent>\n' +
+  '</FuiHeader>\n' +
+  '<FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>' 
+s.ElementHeaderColored1 = 
   '<FuiHeader level=4 primary>Primary</FuiHeader>\n' +
   '<FuiHeader level=4 secondary>Secondary</FuiHeader>\n' +
   '<FuiHeader level=4 color=red>Red</FuiHeader>\n' +
@@ -3329,38 +3299,38 @@ s.ElementHeaderColored1 =
   '<FuiHeader level=4 color=violet>Violet</FuiHeader>\n' +
   '<FuiHeader level=4 color=pink>Pink</FuiHeader>\n' +
   '<FuiHeader level=4 color=brown>Brown</FuiHeader>\n' +
-  '<FuiHeader level=4 color=grey>Grey</FuiHeader>'
-s.ElementHeaderSubHeaders1 =
+  '<FuiHeader level=4 color=grey>Grey</FuiHeader>' 
+s.ElementHeaderSubHeaders1 = 
   '<FuiHeader level=2 sub>\n' +
   '  Price\n' +
   '</FuiHeader>\n' +
-  '<span>$10.99</span>'
-s.ElementHeaderIconHeaders2 =
-  '<h2 class="ui center aligned icon header">\n' +
-  '  <i class="circular users icon"></i>\n' +
+  '<span>$10.99</span>' 
+s.ElementHeaderIconHeaders2 = 
+  '<FuiHeader level=2 aligned=center icon>\n' +
+  '  <FuiIcon circular name=users></FuiIcon>\n' +
   '  Friends\n' +
-  '</h2>\n' +
-  '<img class="ui centered wireframe image" src="/images/wireframe/centered-paragraph.png" >'
-s.ElementHeaderBlock1 =
+  '</FuiHeader>\n' +
+  '<FuiImage wireframe centered src="/images/wireframe/centered-paragraph.png"></FuiImage>' 
+s.ElementHeaderBlock1 = 
   '<FuiHeader level=3 block>\n' +
   '  Block Header\n' +
   '</FuiHeader>\n' +
-  '<FuiImage wireframe src="/images/wireframe/media-paragraph.png"></FuiImage>'
-s.ElementHeaderDividing1 =
+  '<FuiImage wireframe src="/images/wireframe/media-paragraph.png"></FuiImage>' 
+s.ElementHeaderDividing1 = 
   '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
   '<FuiHeader level=3 dividing>\n' +
   '  Dividing Header\n' +
   '</FuiHeader>\n' +
-  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>'
-s.ElementHeaderIcon1 =
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
+s.ElementHeaderIcon1 = 
   '<FuiHeader level=2>\n' +
   '  <FuiIcon name=plug></FuiIcon>\n' +
-  '  <div class="content">\n' +
+  '  <FuiContent>\n' +
   '    Uptime Guarantee\n' +
-  '  </div>\n' +
+  '  </FuiContent>\n' +
   '</FuiHeader>\n' +
-  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>'
-s.ElementHeaderPageHeaders1 =
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
+s.ElementHeaderPageHeaders1 = 
   '<FuiHeader level=1>First header</FuiHeader>\n' +
   '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
   '<FuiHeader level=2>Second header</FuiHeader>\n' +
@@ -3370,14 +3340,14 @@ s.ElementHeaderPageHeaders1 =
   '<FuiHeader level=4>Fourth header</FuiHeader>\n' +
   '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>\n' +
   '<FuiHeader level=5>Fifth header</FuiHeader>\n' +
-  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>'
-s.ElementHeaderSubheader1 =
-  '<h2 class="ui header">\n' +
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
+s.ElementHeaderSubheader1 = 
+  '<FuiHeader level=2>\n' +
   '  Account Settings\n' +
-  '  <div class="sub header">Manage your account settings and set e-mail preferences.</div>\n' +
-  '</h2>\n' +
-  '<img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">'
-s.ElementHeaderInverted1 =
+  '  <FuiSubheader>Manage your account settings and set e-mail preferences.</FuiSubheader>\n' +
+  '</FuiHeader>\n' +
+  '<FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>' 
+s.ElementHeaderInverted1 = 
   '<FuiSegment inverted>\n' +
   '  <FuiHeader level=4 color=red inverted>Red</FuiHeader>\n' +
   '  <FuiHeader level=4 color=orange inverted>Orange</FuiHeader>\n' +
@@ -3391,8 +3361,8 @@ s.ElementHeaderInverted1 =
   '  <FuiHeader level=4 color=pink inverted>Pink</FuiHeader>\n' +
   '  <FuiHeader level=4 color=brown inverted>Brown</FuiHeader>\n' +
   '  <FuiHeader level=4 color=grey inverted>Grey</FuiHeader>\n' +
-  '</FuiSegment>'
-s.ElementHeaderFloating1 =
+  '</FuiSegment>' 
+s.ElementHeaderFloating1 = 
   '<FuiSegment clearing>\n' +
   '  <FuiHeader level=3 floated=right>\n' +
   '    Go Forward\n' +
@@ -3400,17 +3370,17 @@ s.ElementHeaderFloating1 =
   '  <FuiHeader level=3 floated=left>\n' +
   '    Go Back\n' +
   '  </FuiHeader>\n' +
-  '</FuiSegment>'
-s.ElementHeaderIcon2 =
+  '</FuiSegment>' 
+s.ElementHeaderIcon2 = 
   '<FuiHeader level=2>\n' +
   '  <FuiIcon name=settings></FuiIcon>\n' +
   '  <FuiContent>\n' +
   '    Account Settings\n' +
-  '    <FuiHeader sub>Manage your preferences</FuiHeader>\n' +
+  '    <FuiSubheader>Manage your preferences</FuiSubheader>\n' +
   '  </FuiContent>\n' +
   '</FuiHeader>\n' +
-  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>'
-s.ElementHeaderSubHeaders2 =
+  '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
+s.ElementHeaderSubHeaders2 = 
   '<div class="ui horizontal list">\n' +
   '  <div class="item">\n' +
   '    <img src="/images/avatar2/small/molly.png" class="ui mini circular image">\n' +
@@ -3433,49 +3403,49 @@ s.ElementHeaderSubHeaders2 =
   '      Project Manager\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementHeaderSubheader2 =
-  '<h1 class="ui header">\n' +
+  '</div>' 
+s.ElementHeaderSubheader2 = 
+  '<FuiHeader level=1>\n' +
   '  H1\n' +
-  '  <div class="sub header">Sub Header</div>\n' +
-  '</h1>\n' +
-  '<h2 class="ui header">\n' +
+  '  <FuiSubheader>Sub Header</FuiSubheader>\n' +
+  '</FuiHeader>\n' +
+  '<FuiHeader level=2>\n' +
   '  H2\n' +
-  '  <div class="sub header">Sub Header</div>\n' +
-  '</h2>\n' +
-  '<h3 class="ui header">\n' +
+  '  <FuiSubheader>Sub Header</FuiSubheader>\n' +
+  '</FuiHeader>\n' +
+  '<FuiHeader level=3>\n' +
   '  H3\n' +
-  '  <div class="sub header">Sub Header</div>\n' +
-  '</h3>\n' +
-  '<h5 class="ui header">\n' +
+  '  <FuiSubheader>Sub Header</FuiSubheader>\n' +
+  '</FuiHeader>\n' +
+  '<FuiHeader level=5>\n' +
   '  H5\n' +
-  '  <div class="sub header">Sub Header</div>\n' +
-  '</h5>'
-s.ElementHeaderImage3 =
-  '<h2 class="ui header">\n' +
-  '  <img src="/images/icons/plugin.png">\n' +
-  '  <div class="content">\n' +
+  '  <FuiSubheader>Sub Header</FuiSubheader>\n' +
+  '</FuiHeader>' 
+s.ElementHeaderImage3 = 
+  '<FuiHeader level=2>\n' +
+  '  <FuiImage src="/images/icons/plugin.png"></FuiImage>\n' +
+  '  <FuiContent>\n' +
   '    Plug-ins\n' +
-  '    <div class="sub header">Check out our plug-in marketplace</div>\n' +
-  '  </div>\n' +
-  '</h2>\n' +
-  '<img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">'
-s.ElementHeaderTextAlignment1 =
-  '<div class="ui segment">\n' +
-  '  <h3 class="ui right aligned header">\n' +
+  '    <FuiSubheader>Check out our plug-in marketplace</FuiSubheader>\n' +
+  '  </FuiContent>\n' +
+  '</FuiHeader>\n' +
+  '<FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>' 
+s.ElementHeaderTextAlignment1 = 
+  '<FuiSegment>\n' +
+  '  <FuiHeader level=3 aligned=right>\n' +
   '    Right\n' +
-  '  </h3>\n' +
-  '  <h3 class="ui left aligned header">\n' +
+  '  </FuiHeader>\n' +
+  '  <FuiHeader level=3 aligned=left>\n' +
   '    Left\n' +
-  '  </h3>\n' +
-  '  <h3 class="ui justified header">\n' +
+  '  </FuiHeader>\n' +
+  '  <FuiHeader level=3 justified>\n' +
   '    This should take up the full width even if only one line\n' +
-  '  </h3>\n' +
-  '  <h3 class="ui center aligned header">\n' +
+  '  </FuiHeader>\n' +
+  '  <FuiHeader level=3 aligned=center>\n' +
   '    Center\n' +
-  '  </h3>\n' +
-  '</div>'
-s.ElementHeaderAttached1 =
+  '  </FuiHeader>\n' +
+  '</FuiSegment>' 
+s.ElementHeaderAttached1 = 
   '<FuiHeader level=3 attached=top>\n' +
   '  Top Attached\n' +
   '</FuiHeader>\n' +
@@ -3490,22 +3460,22 @@ s.ElementHeaderAttached1 =
   '</FuiSegment>\n' +
   '<FuiHeader level=3 attached=bottom>\n' +
   '  Bottom Attached\n' +
-  '</FuiHeader>'
-s.ElementHeaderImage2 =
-  '<h2 class="ui header">\n' +
-  '  <img src="/images/avatar2/large/patrick.png" class="ui circular image">\n' +
+  '</FuiHeader>' 
+s.ElementHeaderImage2 = 
+  '<FuiHeader level=2>\n' +
+  '  <FuiImage src="/images/avatar2/large/patrick.png" circular></FuiImage>\n' +
   '  Patrick\n' +
-  '</h2>\n' +
-  '<img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">'
-s.ElementHeaderIconHeaders1 =
+  '</FuiHeader>\n' +
+  '<FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>' 
+s.ElementHeaderIconHeaders1 = 
   '<FuiHeader level=2 icon>\n' +
   '  <FuiIcon name=settings></FuiIcon>\n' +
   '  <FuiContent>\n' +
   '    Account Settings\n' +
-  '    <FuiHeader sub>Manage your account settings and set e-mail preferences.</FuiHeader>\n' +
+  '    <FuiSubheader>Manage your account settings and set e-mail preferences.</FuiSubheader>\n' +
   '  </FuiContent>\n' +
-  '</FuiHeader>'
-s.ElementButtonCircular2 =
+  '</FuiHeader>' 
+s.ElementButtonCircular2 = 
   '<FuiButton circular social=facebook icon>\n' +
   '  <FuiIcon name=facebook></FuiIcon>\n' +
   '</FuiButton>\n' +
@@ -3517,8 +3487,8 @@ s.ElementButtonCircular2 =
   '</FuiButton>\n' +
   '<FuiButton circular social="google plus" icon>\n' +
   '  <FuiIcon name="google plus"></FuiIcon>\n' +
-  '</FuiButton>'
-s.ElementButtonLabeled1 =
+  '</FuiButton>' 
+s.ElementButtonLabeled1 = 
   '<FuiButton tag=div focusable labeled>\n' +
   '  <FuiButton tag=div>\n' +
   '    <FuiIcon name=heart></FuiIcon> Like\n' +
@@ -3542,36 +3512,36 @@ s.ElementButtonLabeled1 =
   '  <FuiButton icon tag=div>\n' +
   '    <FuiIcon name=fork></FuiIcon>\n' +
   '  </FuiButton>\n' +
-  '</FuiButton>'
-s.ElementButtonButton1 =
+  '</FuiButton>' 
+s.ElementButtonButton1 = 
   '<FuiButton>\n' +
   '  Follow\n' +
-  '</FuiButton>'
-s.ElementButtonBasicButtons2 =
+  '</FuiButton>' 
+s.ElementButtonBasicButtons2 = 
   '<FuiButtons>\n' +
   '  <FuiButton color=red basic>One</FuiButton>\n' +
   '  <FuiButton color=blue basic>Two</FuiButton>\n' +
   '  <FuiButton color=green basic>Three</FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonEmphasis2 =
+  '</FuiButtons>' 
+s.ElementButtonEmphasis2 = 
   '<FuiButton secondary>\n' +
   '  Okay\n' +
   '</FuiButton>\n' +
   '<FuiButton>\n' +
   '  Cancel\n' +
-  '</FuiButton>'
-s.ElementButtonBasic2 =
+  '</FuiButton>' 
+s.ElementButtonBasic2 = 
   '<FuiButton primary basic>Primary</FuiButton>\n' +
   '<FuiButton secondary basic>Secondary</FuiButton>\n' +
   '<FuiButton positive basic>Positive</FuiButton>\n' +
-  '<FuiButton negative basic>Negative</FuiButton>'
-s.ElementButtonConditionals2 =
+  '<FuiButton negative basic>Negative</FuiButton>' 
+s.ElementButtonConditionals2 = 
   '<FuiButtons>\n' +
   '  <FuiButton>un</FuiButton>\n' +
   '  <FuiButtonCondition>ou</FuiButtonCondition>\n' +
   '  <FuiButton positive>deux</FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonVerticallyAttached2 =
+  '</FuiButtons>' 
+s.ElementButtonVerticallyAttached2 = 
   '<FuiButtons equalWidth=two attached=top>\n' +
   '    <FuiButton tag=div>One</FuiButton>\n' +
   '    <FuiButton tag=div>Two</FuiButton>\n' +
@@ -3582,16 +3552,16 @@ s.ElementButtonVerticallyAttached2 =
   '<FuiButtons equalWidth=two attached=bottom>\n' +
   '  <FuiButton tag=div>One</FuiButton>\n' +
   '  <FuiButton tag=div>Two</FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonTertiary1 =
+  '</FuiButtons>' 
+s.ElementButtonTertiary1 = 
   '<FuiButton tertiary>\n' +
   '  Cancel Action\n' +
-  '</FuiButton>'
-s.ElementButtonIcon1 =
+  '</FuiButton>' 
+s.ElementButtonIcon1 = 
   '<FuiButton icon>\n' +
   '  <FuiIcon name=cloud></FuiIcon>\n' +
-  '</FuiButton>'
-s.ElementButtonLabeledIcon1 =
+  '</FuiButton>' 
+s.ElementButtonLabeledIcon1 = 
   '<FuiButton labeledIcon>\n' +
   '  <FuiIcon name=pause></FuiIcon>\n' +
   '  Pause\n' +
@@ -3599,19 +3569,19 @@ s.ElementButtonLabeledIcon1 =
   '<FuiButton labeledIcon=right>\n' +
   '  <FuiIcon name="right arrow"></FuiIcon>\n' +
   '  Next\n' +
-  '</FuiButton>'
-s.ElementButtonDisabled1 =
+  '</FuiButton>' 
+s.ElementButtonDisabled1 = 
   '<FuiButton disabled>\n' +
   '  <FuiIcon name=user></FuiIcon>\n' +
   '  Followed\n' +
-  '</FuiButton>'
-s.ElementButtonGroupSizes1 =
+  '</FuiButton>' 
+s.ElementButtonGroupSizes1 = 
   '<FuiButtons size=large>\n' +
   '  <FuiButton>One</FuiButton>\n' +
   '  <FuiButton>Two</FuiButton>\n' +
   '  <FuiButton>Three</FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonBasicButtons1 =
+  '</FuiButtons>' 
+s.ElementButtonBasicButtons1 = 
   '<FuiButtons basic>\n' +
   '  <FuiButton tag=div>One</FuiButton>\n' +
   '  <FuiButton tag=div>Two</FuiButton>\n' +
@@ -3622,12 +3592,12 @@ s.ElementButtonBasicButtons1 =
   '  <FuiButton>One</FuiButton>\n' +
   '  <FuiButton>Two</FuiButton>\n' +
   '  <FuiButton>Three</FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonFluid1 =
-  '<FuiButton fluid>Fits container</FuiButton>'
-s.ElementButtonNegative1 =
-  '<FuiButton negative>Negative Button</FuiButton>'
-s.ElementButtonEqualWidth1 =
+  '</FuiButtons>' 
+s.ElementButtonFluid1 = 
+  '<FuiButton fluid>Fits container</FuiButton>' 
+s.ElementButtonNegative1 = 
+  '<FuiButton negative>Negative Button</FuiButton>' 
+s.ElementButtonEqualWidth1 = 
   '<FuiButtons equalWidth=five>\n' +
   '  <FuiButton>Overview</FuiButton>\n' +
   '  <FuiButton>Specs</FuiButton>\n' +
@@ -3640,8 +3610,8 @@ s.ElementButtonEqualWidth1 =
   '  <FuiButton>Overview</FuiButton>\n' +
   '  <FuiButton>Specs</FuiButton>\n' +
   '  <FuiButton>Support</FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonCompact1 =
+  '</FuiButtons>' 
+s.ElementButtonCompact1 = 
   '<FuiButton compact>\n' +
   '  Hold\n' +
   '</FuiButton>\n' +
@@ -3651,8 +3621,8 @@ s.ElementButtonCompact1 =
   '<FuiButton compact labeledIcon>\n' +
   '  <FuiIcon name=pause></FuiIcon>\n' +
   '  Pause\n' +
-  '</FuiButton>'
-s.ElementButtonTertiary2 =
+  '</FuiButton>' 
+s.ElementButtonTertiary2 = 
   '<FuiButton primary tertiary>Primary</FuiButton>\n' +
   '<FuiButton secondary tertiary>Secondary</FuiButton>\n' +
   '<FuiButton color=red tertiary>Red</FuiButton>\n' +
@@ -3667,13 +3637,13 @@ s.ElementButtonTertiary2 =
   '<FuiButton color=pink tertiary>Pink</FuiButton>\n' +
   '<FuiButton color=brown tertiary>Brown</FuiButton>\n' +
   '<FuiButton color=grey tertiary>Grey</FuiButton>\n' +
-  '<FuiButton color=black tertiary>Black</FuiButton>'
-s.ElementButtonActive1 =
+  '<FuiButton color=black tertiary>Black</FuiButton>' 
+s.ElementButtonActive1 = 
   '<FuiButton active>\n' +
   '  <FuiIcon name=user></FuiIcon>\n' +
   '  Follow\n' +
-  '</FuiButton>'
-s.ElementButtonIconButtons1 =
+  '</FuiButton>' 
+s.ElementButtonIconButtons1 = 
   '<FuiButtons icon>\n' +
   '  <FuiButton><FuiIcon name="align left"></FuiIcon></FuiButton>\n' +
   '  <FuiButton><FuiIcon name="align center"></FuiIcon></FuiButton>\n' +
@@ -3684,15 +3654,15 @@ s.ElementButtonIconButtons1 =
   '  <FuiButton><FuiIcon name=bold></FuiIcon></FuiButton>\n' +
   '  <FuiButton><FuiIcon name=underline></FuiIcon></FuiButton>\n' +
   '  <FuiButton><FuiIcon name="text width"></FuiIcon></FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonGroupSizes2 =
+  '</FuiButtons>' 
+s.ElementButtonGroupSizes2 = 
   '<FuiButtons size=small basic icon>\n' +
   '  <FuiButton><FuiIcon name=file></FuiIcon></FuiButton>\n' +
   '  <FuiButton><FuiIcon name=save></FuiIcon></FuiButton>\n' +
   '  <FuiButton><FuiIcon name=upload></FuiIcon></FuiButton>\n' +
   '  <FuiButton><FuiIcon name=download></FuiIcon></FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonSocial1 =
+  '</FuiButtons>' 
+s.ElementButtonSocial1 = 
   '<FuiButton social=facebook>\n' +
   '  <FuiIcon name="facebook"></FuiIcon>\n' +
   '  Facebook\n' +
@@ -3728,8 +3698,8 @@ s.ElementButtonSocial1 =
   '<FuiButton social=telegram>\n' +
   '  <FuiIcon name="telegram"></FuiIcon>\n' +
   '  Telegram\n' +
-  '</FuiButton>'
-s.ElementButtonColored1 =
+  '</FuiButton>' 
+s.ElementButtonColored1 = 
   '<FuiButton color=red>Red</FuiButton>\n' +
   '<FuiButton color=orange>Orange</FuiButton>\n' +
   '<FuiButton color=yellow>Yellow</FuiButton>\n' +
@@ -3742,8 +3712,8 @@ s.ElementButtonColored1 =
   '<FuiButton color=pink>Pink</FuiButton>\n' +
   '<FuiButton color=brown>Brown</FuiButton>\n' +
   '<FuiButton color=grey>Grey</FuiButton>\n' +
-  '<FuiButton color=black>Black</FuiButton>'
-s.ElementButtonButton2 =
+  '<FuiButton color=black>Black</FuiButton>' 
+s.ElementButtonButton2 = 
   '<FuiButton>\n' +
   '  Button\n' +
   '</FuiButton>\n' +
@@ -3752,14 +3722,14 @@ s.ElementButtonButton2 =
   '</FuiButton>\n' +
   '<FuiButton tag=div>\n' +
   '  Not focusable\n' +
-  '</FuiButton>'
-s.ElementButtonConditionals1 =
+  '</FuiButton>' 
+s.ElementButtonConditionals1 = 
   '<FuiButtons>\n' +
   '  <FuiButton>Cancel</FuiButton>\n' +
   '  <FuiButtonCondition></FuiButtonCondition>\n' +
   '  <FuiButton positive>Save</FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonSize1 =
+  '</FuiButtons>' 
+s.ElementButtonSize1 = 
   '<FuiButton size=mini>\n' +
   '  Mini\n' +
   '   </FuiButton>\n' +
@@ -3783,20 +3753,20 @@ s.ElementButtonSize1 =
   '   </FuiButton>\n' +
   '<FuiButton size=massive>\n' +
   '  Massive\n' +
-  '   </FuiButton>'
-s.ElementButtonButtons1 =
+  '   </FuiButton>' 
+s.ElementButtonButtons1 = 
   '<FuiButtons>\n' +
   '  <FuiButton>One</FuiButton>\n' +
   '  <FuiButton>Two</FuiButton>\n' +
   '  <FuiButton>Three</FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonGroupSizes3 =
+  '</FuiButtons>' 
+s.ElementButtonGroupSizes3 = 
   '<FuiButtons size=large>\n' +
   '  <FuiButton>One</FuiButton>\n' +
   '  <FuiButtonCondition></FuiButtonCondition>\n' +
   '  <FuiButton>Two</FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonInverted2 =
+  '</FuiButtons>' 
+s.ElementButtonInverted2 = 
   '<FuiSegment inverted>\n' +
   '  <FuiButton inverted basic>Basic</FuiButton>\n' +
   '  <FuiButton inverted primary basic>Primary</FuiButton>\n' +
@@ -3814,15 +3784,15 @@ s.ElementButtonInverted2 =
   '  <FuiButton inverted color=brown basic>Basic Brown</FuiButton>\n' +
   '  <FuiButton inverted color=grey basic>Basic Grey</FuiButton>\n' +
   '  <FuiButton inverted color=black basic>Basic Black</FuiButton>\n' +
-  '</FuiSegment>'
-s.ElementButtonHorizontallyAttached1 =
+  '</FuiSegment>' 
+s.ElementButtonHorizontallyAttached1 = 
   '<FuiButton attached=left>Left</FuiButton>\n' +
-  '<FuiButton attached=right>Right</FuiButton>'
-s.ElementButtonCircular1 =
+  '<FuiButton attached=right>Right</FuiButton>' 
+s.ElementButtonCircular1 = 
   '<FuiButton circular icon>\n' +
   '  <FuiIcon name=settings></FuiIcon>\n' +
-  '</FuiButton>'
-s.ElementButtonLabeledIconButtons1 =
+  '</FuiButton>' 
+s.ElementButtonLabeledIconButtons1 = 
   '<FuiButtons vertical labeledIcon>\n' +
   '  <FuiButton>\n' +
   '    <FuiIcon name=pause></FuiIcon>\n' +
@@ -3836,8 +3806,8 @@ s.ElementButtonLabeledIconButtons1 =
   '    <FuiIcon name=shuffle></FuiIcon>\n' +
   '    Shuffle\n' +
   '  </FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonInverted1 =
+  '</FuiButtons>' 
+s.ElementButtonInverted1 = 
   '<FuiSegment inverted>\n' +
   '  <FuiButton inverted>Standard</FuiButton>\n' +
   '  <FuiButton inverted primary>Primary</FuiButton>\n' +
@@ -3855,21 +3825,21 @@ s.ElementButtonInverted1 =
   '  <FuiButton inverted color=brown>Brown</FuiButton>\n' +
   '  <FuiButton inverted color=grey>Grey</FuiButton>\n' +
   '  <FuiButton inverted color=black>Black</FuiButton>\n' +
-  '</FuiSegment>'
-s.ElementButtonVerticallyAttached1 =
+  '</FuiSegment>' 
+s.ElementButtonVerticallyAttached1 = 
   '<FuiButton tag=div attached=top focusable>Top</FuiButton>\n' +
   '<FuiSegment attached>\n' +
   '  <FuiImage wireframe src="/images/wireframe/paragraph.png"></FuiImage>\n' +
   '</FuiSegment>\n' +
-  '<FuiButton tag=div attached=bottom focusable>Bottom</FuiButton>'
-s.ElementButtonVerticalButtons1 =
+  '<FuiButton tag=div attached=bottom focusable>Bottom</FuiButton>' 
+s.ElementButtonVerticalButtons1 = 
   '<FuiButtons vertical>\n' +
   '  <FuiButton>Feed</FuiButton>\n' +
   '  <FuiButton>Messages</FuiButton>\n' +
   '  <FuiButton>Events</FuiButton>\n' +
   '  <FuiButton>Photos</FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonAnimated1 =
+  '</FuiButtons>' 
+s.ElementButtonAnimated1 = 
   '<FuiButton tag=div focusable animated>\n' +
   '  <FuiButtonContent visible>Next</FuiButtonContent>\n' +
   '  <FuiButtonContent hidden>\n' +
@@ -3887,16 +3857,16 @@ s.ElementButtonAnimated1 =
   '  <FuiButtonContent hidden>\n' +
   '    $12.99 a month\n' +
   '  </FuiButtonContent>\n' +
-  '</FuiButton>'
-s.ElementButtonFloated1 =
+  '</FuiButton>' 
+s.ElementButtonFloated1 = 
   '<FuiButton floated=right>Right Floated</FuiButton>\n' +
-  '<FuiButton floated=left>Left Floated</FuiButton>'
-s.ElementButtonBasic1 =
+  '<FuiButton floated=left>Left Floated</FuiButton>' 
+s.ElementButtonBasic1 = 
   '<FuiButton basic>\n' +
   '  <FuiIcon name=user></FuiIcon>\n' +
   '  Add Friend\n' +
-  '</FuiButton>'
-s.ElementButtonLoading1 =
+  '</FuiButton>' 
+s.ElementButtonLoading1 = 
   '<FuiButton loading>Loading</FuiButton>\n' +
   '<FuiButton basic loading>Loading</FuiButton>\n' +
   '<FuiButton primary loading>Loading</FuiButton>\n' +
@@ -3912,15 +3882,15 @@ s.ElementButtonLoading1 =
   '<FuiButton elastic loading>Loading</FuiButton>\n' +
   '<FuiButton basic elastic loading>Loading</FuiButton>\n' +
   '<FuiButton primary elastic loading>Loading</FuiButton>\n' +
-  '<FuiButton secondary elastic loading>Loading</FuiButton>'
-s.ElementButtonEmphasis1 =
+  '<FuiButton secondary elastic loading>Loading</FuiButton>' 
+s.ElementButtonEmphasis1 = 
   '<FuiButton primary>\n' +
   '  Save\n' +
   '</FuiButton>\n' +
   '<FuiButton>\n' +
   '  Discard\n' +
-  '</FuiButton>'
-s.ElementButtonMixedGroup1 =
+  '</FuiButton>' 
+s.ElementButtonMixedGroup1 = 
   '<FuiButtons>\n' +
   '  <FuiButton labeledIcon>\n' +
   '    <FuiIcon name="left chevron"></FuiIcon>\n' +
@@ -3934,8 +3904,8 @@ s.ElementButtonMixedGroup1 =
   '    Forward\n' +
   '    <FuiIcon name="right chevron"></FuiIcon>\n' +
   '  </FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonLabeled2 =
+  '</FuiButtons>' 
+s.ElementButtonLabeled2 = 
   '<FuiButton tag=div labeled focusable>\n' +
   '  <FuiButton tag=div color=red>\n' +
   '    <FuiIcon name=heart></FuiIcon> Like\n' +
@@ -3951,20 +3921,20 @@ s.ElementButtonLabeled2 =
   '  <FuiLabel tag=a basic color=blue pointing=left>\n' +
   '    1,048\n' +
   '  </FuiLabel>\n' +
-  '</FuiButton>'
-s.ElementButtonPositive1 =
-  '<FuiButton positive>Positive Button</FuiButton>'
-s.ElementButtonToggle1 =
+  '</FuiButton>' 
+s.ElementButtonPositive1 = 
+  '<FuiButton positive>Positive Button</FuiButton>' 
+s.ElementButtonToggle1 = 
   '<FuiButton toggle>\n' +
   '  Vote\n' +
-  '</FuiButton>'
-s.ElementButtonColoredButtons1 =
+  '</FuiButton>' 
+s.ElementButtonColoredButtons1 = 
   '<FuiButtons color=blue>\n' +
   '  <FuiButton>One</FuiButton>\n' +
   '  <FuiButton>Two</FuiButton>\n' +
   '  <FuiButton>Three</FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementButtonBasic3 =
+  '</FuiButtons>' 
+s.ElementButtonBasic3 = 
   '<FuiButton color=red basic>Red</FuiButton>\n' +
   '<FuiButton color=orange basic>Orange</FuiButton>\n' +
   '<FuiButton color=yellow basic>Yellow</FuiButton>\n' +
@@ -3977,8 +3947,8 @@ s.ElementButtonBasic3 =
   '<FuiButton color=pink basic>Pink</FuiButton>\n' +
   '<FuiButton color=brown basic>Brown</FuiButton>\n' +
   '<FuiButton color=grey basic>Grey</FuiButton>\n' +
-  '<FuiButton color=black basic>Black</FuiButton>'
-s.ElementButtonIconButtons1A =
+  '<FuiButton color=black basic>Black</FuiButton>' 
+s.ElementButtonIconButtons1A = 
   '<FuiButtons icon>\n' +
   '  <FuiButton>\n' +
   '    <FuiIcon name=play></FuiIcon>\n' +
@@ -3989,8 +3959,8 @@ s.ElementButtonIconButtons1A =
   '  <FuiButton>\n' +
   '    <FuiIcon name=shuffle></FuiIcon>\n' +
   '  </FuiButton>\n' +
-  '</FuiButtons>'
-s.ElementFlag1 =
+  '</FuiButtons>' 
+s.ElementFlag1 = 
   'Andorra (<FuiFlag country=andorra></FuiFlag>),\n' +
   'U.A.E (<FuiFlag country=uae></FuiFlag>),\n' +
   'Afghanistan (<FuiFlag country=afghanistan></FuiFlag>),\n' +
@@ -4235,8 +4205,8 @@ s.ElementFlag1 =
   'Mayotte (<FuiFlag country=mayotte></FuiFlag>),\n' +
   'South Africa (<FuiFlag country="south africa"></FuiFlag>),\n' +
   'Zambia (<FuiFlag country=zambia></FuiFlag>),\n' +
-  'Zimbabwe (<FuiFlag country=zimbabwe></FuiFlag>),'
-s.ElementLoaderInverted2 =
+  'Zimbabwe (<FuiFlag country=zimbabwe></FuiFlag>),' 
+s.ElementLoaderInverted2 = 
   '<div class="ui ignored info message">Loaders will automatically be inverted inside <code>inverted dimmer</code></div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui active inverted dimmer">\n' +
@@ -4264,16 +4234,16 @@ s.ElementLoaderInverted2 =
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.ElementLoaderLoader1 =
+  '</div>' 
+s.ElementLoaderLoader1 = 
   '<div class="ui ignored info message">Loaders are hidden unless <code>active</code> or inside an <a href="/modules/dimmer.html"><code>active dimmer</code></a>.</div>\n' +
   '<div class="ui segment">\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui loader"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementLoaderColors1 =
+  '</div>' 
+s.ElementLoaderColors1 = 
   '<div class="ui active primary inline loader"/>\n' +
   '<div class="ui active secondary inline loader"/>\n' +
   '<div class="ui active red inline loader"/>\n' +
@@ -4288,21 +4258,21 @@ s.ElementLoaderColors1 =
   '<div class="ui active pink inline loader"/>\n' +
   '<div class="ui active brown inline loader"/>\n' +
   '<div class="ui active grey inline loader"/>\n' +
-  '<div class="ui active black inline loader"/>'
-s.ElementLoaderActive1 =
+  '<div class="ui active black inline loader"/>' 
+s.ElementLoaderActive1 = 
   '<div class="ui ignored info message">\n' +
   '  An active loader may not be clearly visible without using a <a href="/modules/dimmer.html">ui dimmer</a>\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui active loader"/>\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.ElementLoaderDisabled1 =
+  '</div>' 
+s.ElementLoaderDisabled1 = 
   '<div class="ui segment">\n' +
   '  <div class="ui disabled loader"/>\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.ElementLoaderStyles1 =
+  '</div>' 
+s.ElementLoaderStyles1 = 
   '<div class="ui segment">\n' +
   '    <div class="ui active slow green double loader"/>\n' +
   '    <br/>\n' +
@@ -4316,17 +4286,17 @@ s.ElementLoaderStyles1 =
   '    <br/>\n' +
   '    <br/>\n' +
   '    <br/>\n' +
-  '</div>'
-s.ElementLoaderInline1 =
-  '<div class="ui active inline loader"/>'
-s.ElementLoaderTextLoader2 =
+  '</div>' 
+s.ElementLoaderInline1 = 
+  '<div class="ui active inline loader"/>' 
+s.ElementLoaderTextLoader2 = 
   '<div class="ui segment">\n' +
   '  <div class="ui active inverted dimmer">\n' +
   '    <div class="ui text loader">Loading</div>\n' +
   '  </div>\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.ElementLoaderSize1 =
+  '</div>' 
+s.ElementLoaderSize1 = 
   '<div class="ui segment">\n' +
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui mini text loader">Loading</div>\n' +
@@ -4383,41 +4353,41 @@ s.ElementLoaderSize1 =
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.ElementLoaderInverted1 =
+  '</div>' 
+s.ElementLoaderInverted1 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui active inverted loader"/>\n' +
   '  <br/>\n' +
   '  <br/>\n' +
   '  <br/>\n' +
   '  <br/>\n' +
-  '</div>'
-s.ElementLoaderInlineCenter1 =
-  '<div class="ui active centered inline loader"/>'
-s.ElementLoaderSpeed1 =
+  '</div>' 
+s.ElementLoaderInlineCenter1 = 
+  '<div class="ui active centered inline loader"/>' 
+s.ElementLoaderSpeed1 = 
   '<div class="ui active inline slow loader"/>\n' +
   '<div class="ui active inline loader"/>\n' +
-  '<div class="ui active inline fast loader"/>'
-s.ElementLoaderTextLoader1 =
+  '<div class="ui active inline fast loader"/>' 
+s.ElementLoaderTextLoader1 = 
   '<div class="ui segment">\n' +
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui text loader">Loading</div>\n' +
   '  </div>\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.ElementLoaderIndeterminate1 =
+  '</div>' 
+s.ElementLoaderIndeterminate1 = 
   '<div class="ui segment">\n' +
   '  <div class="ui active dimmer">\n' +
   '    <div class="ui indeterminate text loader">Preparing Files</div>\n' +
   '  </div>\n' +
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.ElementRevealRotate2 =
+  '</div>' 
+s.ElementRevealRotate2 = 
   '<div class="ui small circular rotate left reveal image">\n' +
   '  <img src="/images/wireframe/square-image.png" class="visible content"/>\n' +
   '  <img src="/images/avatar/large/veronika.jpg" class="hidden content"/>\n' +
-  '</div>'
-s.ElementRevealActive1 =
+  '</div>' 
+s.ElementRevealActive1 = 
   '<div class="ui ignored info message">\n' +
   '  Adding the class <code>active</code> can allow you to show the hidden contents programatically\n' +
   '</div>\n' +
@@ -4428,16 +4398,16 @@ s.ElementRevealActive1 =
   '  <div class="hidden content">\n' +
   '    <img src="/images/avatar/large/nan.jpg" class="ui small image"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementRevealVisibleContent1 =
+  '</div>' 
+s.ElementRevealVisibleContent1 = 
   '<div class="ui ignored info message">\n' +
   '  Visible and hidden content should be the same aspect ratio\n' +
   '</div>\n' +
   '<div class="ui small fade reveal image">\n' +
   '  <img class="visible content" src="/images/avatar/large/ade.jpg"/>\n' +
   '  <img src="/images/wireframe/square-image.png" class="hidden content">\n' +
-  '</div>'
-s.ElementRevealMove4 =
+  '</div>' 
+s.ElementRevealMove4 = 
   '<div class="ui move down reveal">\n' +
   '  <div class="visible content">\n' +
   '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
@@ -4445,8 +4415,8 @@ s.ElementRevealMove4 =
   '  <div class="hidden content">\n' +
   '    <img src="/images/avatar/large/nan.jpg" class="ui small image"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementRevealMove3 =
+  '</div>' 
+s.ElementRevealMove3 = 
   '<div class="ui move up reveal">\n' +
   '  <div class="visible content">\n' +
   '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
@@ -4454,8 +4424,8 @@ s.ElementRevealMove3 =
   '  <div class="hidden content">\n' +
   '    <img src="/images/avatar/large/justen.jpg" class="ui small image"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementRevealInstant1 =
+  '</div>' 
+s.ElementRevealInstant1 = 
   '<div class="ui instant move reveal">\n' +
   '  <div class="visible content">\n' +
   '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
@@ -4463,8 +4433,8 @@ s.ElementRevealInstant1 =
   '  <div class="hidden content">\n' +
   '    <img src="/images/avatar/large/chris.jpg" class="ui small image"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementRevealMove1 =
+  '</div>' 
+s.ElementRevealMove1 = 
   '<div class="ui move reveal">\n' +
   '  <div class="visible content">\n' +
   '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
@@ -4472,8 +4442,8 @@ s.ElementRevealMove1 =
   '  <div class="hidden content">\n' +
   '    <img src="/images/avatar/large/chris.jpg" class="ui small image"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementRevealMove2 =
+  '</div>' 
+s.ElementRevealMove2 = 
   '<div class="ui move right reveal small image">\n' +
   '  <div class="visible content">\n' +
   '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
@@ -4481,8 +4451,8 @@ s.ElementRevealMove2 =
   '  <div class="hidden content">\n' +
   '    <img src="/images/avatar/large/jenny.jpg" class="ui small image"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementRevealFade1 =
+  '</div>' 
+s.ElementRevealFade1 = 
   '<div class="ui fade reveal">\n' +
   '  <div class="visible content">\n' +
   '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
@@ -4490,23 +4460,23 @@ s.ElementRevealFade1 =
   '  <div class="hidden content">\n' +
   '    <img src="/images/avatar/large/ade.jpg" class="ui small image"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementRevealHiddenContent1 =
+  '</div>' 
+s.ElementRevealHiddenContent1 = 
   '<div class="ui small fade reveal image">\n' +
   '  <img src="/images/wireframe/square-image.png" class="visible content">\n' +
   '  <img class="hidden content" src="/images/avatar/large/ade.jpg"/>\n' +
-  '</div>'
-s.ElementRevealRotate1 =
+  '</div>' 
+s.ElementRevealRotate1 = 
   '<div class="ui small circular rotate reveal image">\n' +
   '  <img src="/images/wireframe/square-image.png" class="visible content"/>\n' +
   '  <img src="/images/avatar/large/stevie.jpg" class="hidden content"/>\n' +
-  '</div>'
-s.ElementRevealFade2 =
+  '</div>' 
+s.ElementRevealFade2 = 
   '<div class="ui small fade reveal image">\n' +
   '  <img src="/images/wireframe/square-image.png" class="visible content">\n' +
   '  <img class="hidden content" src="/images/avatar/large/ade.jpg"/>\n' +
-  '</div>'
-s.ElementRevealDisabled1 =
+  '</div>' 
+s.ElementRevealDisabled1 = 
   '<div class="ui disabled move reveal">\n' +
   '  <div class="visible content">\n' +
   '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
@@ -4514,8 +4484,8 @@ s.ElementRevealDisabled1 =
   '  <div class="hidden content">\n' +
   '    <img src="/images/avatar/large/chris.jpg" class="ui small image"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementRailSize1 =
+  '</div>' 
+s.ElementRailSize1 = 
   '<div class="ui segment">\n' +
   '  <div class="ui left mini rail">\n' +
   '    Mini\n' +
@@ -4552,8 +4522,8 @@ s.ElementRailSize1 =
   '  </div>\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '</div>'
-s.ElementRailInternal1 =
+  '</div>' 
+s.ElementRailInternal1 = 
   '<div class="ui segment" style="left: -150px; width: 960px;min-height: 300px;">\n' +
   '  <div class="ui left internal rail">\n' +
   '    <div class="ui segment">\n' +
@@ -4565,8 +4535,8 @@ s.ElementRailInternal1 =
   '      Right Rail Content\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementRailClose2 =
+  '</div>' 
+s.ElementRailClose2 = 
   '<div class="ui segment">\n' +
   '  <div class="ui left very close rail">\n' +
   '    <div class="ui segment">\n' +
@@ -4580,15 +4550,15 @@ s.ElementRailClose2 =
   '  </div>\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '</div>'
-s.ElementRail1 =
+  '</div>' 
+s.ElementRail1 = 
   '<h2 class="ui dividing header">Introduction</h2>\n' +
   '<h3 class="ui header">When to Use</h3>\n' +
   '<h3 class="ui header">Adjusting Sizes</h3>\n' +
   '<div class="ui ignored warning message">\n' +
   '  The following examples do not use any breakpoints, so some railed content may appear outside your browser\'s viewport on smaller screens.\n' +
-  '</div>'
-s.ElementRailClose1 =
+  '</div>' 
+s.ElementRailClose1 = 
   '<div class="ui segment">\n' +
   '  <div class="ui left close rail">\n' +
   '    <div class="ui segment">\n' +
@@ -4602,8 +4572,8 @@ s.ElementRailClose1 =
   '  </div>\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '</div>'
-s.ElementRailDividing1 =
+  '</div>' 
+s.ElementRailDividing1 = 
   '<div class="ui segment">\n' +
   '  <div class="ui left dividing rail">\n' +
   '    <div class="ui segment">\n' +
@@ -4617,8 +4587,8 @@ s.ElementRailDividing1 =
   '  </div>\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '</div>'
-s.ElementRailRail1 =
+  '</div>' 
+s.ElementRailRail1 = 
   '<div class="ui segment">\n' +
   '  <div class="ui left rail">\n' +
   '    <div class="ui segment">\n' +
@@ -4632,8 +4602,8 @@ s.ElementRailRail1 =
   '  </div>\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '</div>'
-s.ElementRailAttached1 =
+  '</div>' 
+s.ElementRailAttached1 = 
   '<div class="ui segment">\n' +
   '  <div class="ui left attached rail">\n' +
   '    <div class="ui segment">\n' +
@@ -4647,8 +4617,8 @@ s.ElementRailAttached1 =
   '  </div>\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '</div>'
-s.ElementRailAttached2 =
+  '</div>' 
+s.ElementRailAttached2 = 
   '<div class="ui segment" style="left: -150px; width: 960px;min-height: 300px;">\n' +
   '  <div class="ui left internal attached rail">\n' +
   '    <div class="ui segment">\n' +
@@ -4660,8 +4630,8 @@ s.ElementRailAttached2 =
   '      Right Rail Content\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ElementIconScienceFiction1 =
+  '</div>' 
+s.ElementIconScienceFiction1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="galactic republic" size=big data-search-terms="politics, star wars"></FuiIcon>\n' +
@@ -4727,8 +4697,8 @@ s.ElementIconScienceFiction1 =
   '    <FuiIcon name="user astronaut" size=big data-search-terms="avatar, clothing, cosmonaut, nasa, space, suit"></FuiIcon>\n' +
   '    user astronaut\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconHotel1 =
+  '</FuiGrid>' 
+s.ElementIconHotel1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="baby carriage" size=big data-search-terms="buggy, carrier, infant, push, stroller, transportation, walk, wheels"></FuiIcon>\n' +
@@ -4874,8 +4844,8 @@ s.ElementIconHotel1 =
   '    <FuiIcon name="wifi" size=big data-search-terms="connection, hotspot, internet, network, wireless"></FuiIcon>\n' +
   '    wifi\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconAnimals1 =
+  '</FuiGrid>' 
+s.ElementIconAnimals1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="cat" size=big data-search-terms="feline, halloween, holiday, kitten, kitty, meow, pet"></FuiIcon>\n' +
@@ -4941,8 +4911,8 @@ s.ElementIconAnimals1 =
   '    <FuiIcon name="spider" size=big data-search-terms="arachnid, bug, charlotte, crawl, eight, halloween"></FuiIcon>\n' +
   '    spider\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconSpinners1 =
+  '</FuiGrid>' 
+s.ElementIconSpinners1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="asterisk" size=big data-search-terms="annotation, details, reference, star"></FuiIcon>\n' +
@@ -5048,8 +5018,8 @@ s.ElementIconSpinners1 =
   '    <FuiIcon name="yin yang" size=big data-search-terms="daoism, opposites, taoism"></FuiIcon>\n' +
   '    yin yang\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconObjects1 =
+  '</FuiGrid>' 
+s.ElementIconObjects1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="ambulance" size=big data-search-terms="emergency, emt, er, help, hospital, support, vehicle"></FuiIcon>\n' +
@@ -6091,16 +6061,16 @@ s.ElementIconObjects1 =
   '    <FuiIcon name="wrench" size=big data-search-terms="construction, fix, mechanic, plumbing, settings, spanner, tool, update"></FuiIcon>\n' +
   '    wrench\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconIcons1 =
+  '</FuiGrid>' 
+s.ElementIconIcons1 = 
   '<FuiIcons size=huge>\n' +
   '  <FuiIcon name="circle outline" size=big></FuiIcon>\n' +
   '  <FuiIcon name=user></FuiIcon>\n' +
-  '</FuiIcons>'
-s.ElementIconFlipped1 =
+  '</FuiIcons>' 
+s.ElementIconFlipped1 = 
   '<FuiIcon name=cloud flipped=horizontally></FuiIcon>\n' +
-  '<FuiIcon name=cloud flipped=vertically></FuiIcon>'
-s.ElementIconTabletopGaming1 =
+  '<FuiIcon name=cloud flipped=vertically></FuiIcon>' 
+s.ElementIconTabletopGaming1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="acquisitions incorporated" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop"></FuiIcon>\n' +
@@ -6170,8 +6140,8 @@ s.ElementIconTabletopGaming1 =
   '    <FuiIcon name="wizards of the coast" size=big data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop"></FuiIcon>\n' +
   '    wizards of the coast\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconBuildings1 =
+  '</FuiGrid>' 
+s.ElementIconBuildings1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="archway" size=big data-search-terms="arc, monument, road, street, tunnel"></FuiIcon>\n' +
@@ -6293,8 +6263,8 @@ s.ElementIconBuildings1 =
   '    <FuiIcon name="warehouse" size=big data-search-terms="building, capacity, garage, inventory, storage"></FuiIcon>\n' +
   '    warehouse\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconLogistics1 =
+  '</FuiGrid>' 
+s.ElementIconLogistics1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="box" size=big data-search-terms="archive, container, package, storage"></FuiIcon>\n' +
@@ -6340,8 +6310,8 @@ s.ElementIconLogistics1 =
   '    <FuiIcon name="warehouse" size=big data-search-terms="building, capacity, garage, inventory, storage"></FuiIcon>\n' +
   '    warehouse\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconMedical1 =
+  '</FuiGrid>' 
+s.ElementIconMedical1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="allergies" size=big data-search-terms="allergy, freckles, hand, hives, pox, skin, spots"></FuiIcon>\n' +
@@ -6583,8 +6553,8 @@ s.ElementIconMedical1 =
   '    <FuiIcon name="x ray" size=big data-search-terms="health, medical, radiological images, radiology, skeleton"></FuiIcon>\n' +
   '    x ray\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconSecurity1 =
+  '</FuiGrid>' 
+s.ElementIconSecurity1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="ban" size=big data-search-terms="abort, ban, block, cancel, delete, hide, prohibit, remove, stop, trash"></FuiIcon>\n' +
@@ -6698,8 +6668,8 @@ s.ElementIconSecurity1 =
   '    <FuiIcon name="user shield" size=big data-search-terms="admin, person, private, protect, safe"></FuiIcon>\n' +
   '    user shield\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconBrands1 =
+  '</FuiGrid>' 
+s.ElementIconBrands1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="500px" size=big data-search-terms=""></FuiIcon>\n' +
@@ -8409,11 +8379,11 @@ s.ElementIconBrands1 =
   '    <FuiIcon name="zhihu" size=big data-search-terms=""></FuiIcon>\n' +
   '    zhihu\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconRotated1 =
+  '</FuiGrid>' 
+s.ElementIconRotated1 = 
   '<FuiIcon rotated=clockwise name=cloud></FuiIcon>\n' +
-  '<FuiIcon rotated=counterclockwise name=cloud></FuiIcon>'
-s.ElementIconGames1 =
+  '<FuiIcon rotated=counterclockwise name=cloud></FuiIcon>' 
+s.ElementIconGames1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="chess" size=big data-search-terms="board, castle, checkmate, game, king, rook, strategy, tournament"></FuiIcon>\n' +
@@ -8531,8 +8501,8 @@ s.ElementIconGames1 =
   '    <FuiIcon name="xbox" size=big data-search-terms=""></FuiIcon>\n' +
   '    xbox\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconMathematics1 =
+  '</FuiGrid>' 
+s.ElementIconMathematics1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="calculator" size=big data-search-terms="abacus, addition, arithmetic, counting, math, multiplication, subtraction"></FuiIcon>\n' +
@@ -8602,8 +8572,8 @@ s.ElementIconMathematics1 =
   '    <FuiIcon name="wave square" size=big data-search-terms="frequency, pulse, signal"></FuiIcon>\n' +
   '    wave square\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconShapes1 =
+  '</FuiGrid>' 
+s.ElementIconShapes1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="bookmark" size=big data-search-terms="favorite, marker, read, remember, save"></FuiIcon>\n' +
@@ -8701,8 +8671,8 @@ s.ElementIconShapes1 =
   '    <FuiIcon name="star outline" size=big data-search-terms="achievement, award, favorite, important, night, rating, score"></FuiIcon>\n' +
   '    star outline\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconAutumn1 =
+  '</FuiGrid>' 
+s.ElementIconAutumn1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="campground" size=big data-search-terms="camping, fall, outdoors, teepee, tent, tipi"></FuiIcon>\n' +
@@ -8748,8 +8718,8 @@ s.ElementIconAutumn1 =
   '    <FuiIcon name="wine bottle" size=big data-search-terms="alcohol, beverage, cabernet, drink, glass, grapes, merlot, sauvignon"></FuiIcon>\n' +
   '    wine bottle\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconSpring1 =
+  '</FuiGrid>' 
+s.ElementIconSpring1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="allergies" size=big data-search-terms="allergy, freckles, hand, hives, pox, skin, spots"></FuiIcon>\n' +
@@ -8783,8 +8753,8 @@ s.ElementIconSpring1 =
   '    <FuiIcon name="umbrella" size=big data-search-terms="protection, rain, storm, wet"></FuiIcon>\n' +
   '    umbrella\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconChat1 =
+  '</FuiGrid>' 
+s.ElementIconChat1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="comment" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting"></FuiIcon>\n' +
@@ -8890,8 +8860,8 @@ s.ElementIconChat1 =
   '    <FuiIcon name="video slash" size=big data-search-terms="add, create, film, new, positive, record, video"></FuiIcon>\n' +
   '    video slash\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconDateTime1 =
+  '</FuiGrid>' 
+s.ElementIconDateTime1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="bell" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
@@ -8989,8 +8959,8 @@ s.ElementIconDateTime1 =
   '    <FuiIcon name="stopwatch" size=big data-search-terms="clock, reminder, time"></FuiIcon>\n' +
   '    stopwatch\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconScience1 =
+  '</FuiGrid>' 
+s.ElementIconScience1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="atom" size=big data-search-terms="atheism, chemistry, ion, nuclear, science"></FuiIcon>\n' +
@@ -9104,8 +9074,8 @@ s.ElementIconScience1 =
   '    <FuiIcon name="vials" size=big data-search-terms="experiment, lab, sample, science, test, test tube"></FuiIcon>\n' +
   '    vials\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconWinter1 =
+  '</FuiGrid>' 
+s.ElementIconWinter1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="glass whiskey" size=big data-search-terms="alcohol, bar, beverage, bourbon, drink, liquor, neat, rye, scotch, whisky"></FuiIcon>\n' +
@@ -9147,8 +9117,8 @@ s.ElementIconWinter1 =
   '    <FuiIcon name="tram" size=big data-search-terms="crossing, machine, mountains, seasonal, transportation"></FuiIcon>\n' +
   '    tram\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconFitness1 =
+  '</FuiGrid>' 
+s.ElementIconFitness1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="bicycle" size=big data-search-terms="bike, gears, pedal, transportation, vehicle"></FuiIcon>\n' +
@@ -9218,13 +9188,13 @@ s.ElementIconFitness1 =
   '    <FuiIcon name="walking" size=big data-search-terms="exercise, health, pedometer, person, steps"></FuiIcon>\n' +
   '    walking\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconCircular1 =
+  '</FuiGrid>' 
+s.ElementIconCircular1 = 
   '<FuiIcon circular name=users></FuiIcon>\n' +
   '<FuiIcon circular name=users color=teal></FuiIcon>\n' +
   '<FuiIcon circular name=users inverted></FuiIcon>\n' +
-  '<FuiIcon circular name=users color=teal inverted></FuiIcon>'
-s.ElementIconDesign1 =
+  '<FuiIcon circular name=users color=teal inverted></FuiIcon>' 
+s.ElementIconDesign1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="adjust" size=big data-search-terms="contrast, dark, light, saturation"></FuiIcon>\n' +
@@ -9442,8 +9412,8 @@ s.ElementIconDesign1 =
   '    <FuiIcon name="vector square" size=big data-search-terms="anchors, lines, object, render, shape"></FuiIcon>\n' +
   '    vector square\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconHands1 =
+  '</FuiGrid>' 
+s.ElementIconHands1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="allergies" size=big data-search-terms="allergy, freckles, hand, hives, pox, skin, spots"></FuiIcon>\n' +
@@ -9593,8 +9563,8 @@ s.ElementIconHands1 =
   '    <FuiIcon name="thumbs up outline" size=big data-search-terms="agree, approve, favorite, hand, like, ok, okay, social, success, thumbs-o-up, yes, you got it dude"></FuiIcon>\n' +
   '    thumbs up outline\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconImages1 =
+  '</FuiGrid>' 
+s.ElementIconImages1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="adjust" size=big data-search-terms="contrast, dark, light, saturation"></FuiIcon>\n' +
@@ -9716,8 +9686,8 @@ s.ElementIconImages1 =
   '    <FuiIcon name="tint" size=big data-search-terms="color, drop, droplet, raindrop, waterdrop"></FuiIcon>\n' +
   '    tint\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconArrows1 =
+  '</FuiGrid>' 
+s.ElementIconArrows1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="angle double down" size=big data-search-terms="arrows, caret, download, expand"></FuiIcon>\n' +
@@ -10163,8 +10133,8 @@ s.ElementIconArrows1 =
   '    <FuiIcon name="upload" size=big data-search-terms="hard drive, import, publish"></FuiIcon>\n' +
   '    upload\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconFiles1 =
+  '</FuiGrid>' 
+s.ElementIconFiles1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="archive" size=big data-search-terms="box, package, save, storage"></FuiIcon>\n' +
@@ -10318,8 +10288,8 @@ s.ElementIconFiles1 =
   '    <FuiIcon name="sticky note outline" size=big data-search-terms="message, note, paper, reminder, sticker"></FuiIcon>\n' +
   '    sticky note outline\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconPaymentsShopping1 =
+  '</FuiGrid>' 
+s.ElementIconPaymentsShopping1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="alipay" size=big data-search-terms=""></FuiIcon>\n' +
@@ -10541,12 +10511,12 @@ s.ElementIconPaymentsShopping1 =
   '    <FuiIcon name="trophy" size=big data-search-terms="achievement, award, cup, game, winner"></FuiIcon>\n' +
   '    trophy\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconLoading1 =
+  '</FuiGrid>' 
+s.ElementIconLoading1 = 
   '<FuiIcon name=spinner loading></FuiIcon>\n' +
   '<FuiIcon name="notched circle" loading></FuiIcon>\n' +
-  '<FuiIcon name=asterisk loading></FuiIcon>'
-s.ElementIconAccessibility1 =
+  '<FuiIcon name=asterisk loading></FuiIcon>' 
+s.ElementIconAccessibility1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="accessible" size=big data-search-terms="accessibility, handicap, person, wheelchair, wheelchair-alt"></FuiIcon>\n' +
@@ -10616,8 +10586,8 @@ s.ElementIconAccessibility1 =
   '    <FuiIcon name="wheelchair" size=big data-search-terms="accessible, handicap, person"></FuiIcon>\n' +
   '    wheelchair\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconWriting1 =
+  '</FuiGrid>' 
+s.ElementIconWriting1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="archive" size=big data-search-terms="box, package, save, storage"></FuiIcon>\n' +
@@ -10767,8 +10737,8 @@ s.ElementIconWriting1 =
   '    <FuiIcon name="thumbtack" size=big data-search-terms="coordinates, location, marker, pin, thumb-tack"></FuiIcon>\n' +
   '    thumbtack\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconChess1 =
+  '</FuiGrid>' 
+s.ElementIconChess1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="chess" size=big data-search-terms="board, castle, checkmate, game, king, rook, strategy, tournament"></FuiIcon>\n' +
@@ -10806,8 +10776,8 @@ s.ElementIconChess1 =
   '    <FuiIcon name="square full" size=big data-search-terms="block, box, shape"></FuiIcon>\n' +
   '    square full\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconAutomotive1 =
+  '</FuiGrid>' 
+s.ElementIconAutomotive1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="air freshener" size=big data-search-terms="car, deodorize, fresh, pine, scent"></FuiIcon>\n' +
@@ -10885,8 +10855,8 @@ s.ElementIconAutomotive1 =
   '    <FuiIcon name="truck pickup" size=big data-search-terms="cargo, vehicle"></FuiIcon>\n' +
   '    truck pickup\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconColored1 =
+  '</FuiGrid>' 
+s.ElementIconColored1 = 
   '<FuiIcon primary name=users></FuiIcon>\n' +
   '<FuiIcon secondary name=users></FuiIcon>\n' +
   '<FuiIcon color=red name=users></FuiIcon>\n' +
@@ -10901,8 +10871,8 @@ s.ElementIconColored1 =
   '<FuiIcon color=pink name=users></FuiIcon>\n' +
   '<FuiIcon color=brown name=users></FuiIcon>\n' +
   '<FuiIcon color=grey name=users></FuiIcon>\n' +
-  '<FuiIcon color=black name=users></FuiIcon>'
-s.ElementIconPolitical1 =
+  '<FuiIcon color=black name=users></FuiIcon>' 
+s.ElementIconPolitical1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="award" size=big data-search-terms="honor, praise, prize, recognition, ribbon, trophy"></FuiIcon>\n' +
@@ -10972,8 +10942,8 @@ s.ElementIconPolitical1 =
   '    <FuiIcon name="vote yea" size=big data-search-terms="accept, cast, election, politics, positive, yes"></FuiIcon>\n' +
   '    vote yea\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconSize1 =
+  '</FuiGrid>' 
+s.ElementIconSize1 = 
   '<FuiIcon size=mini name=home></FuiIcon>\n' +
   '<FuiIcon size=tiny name=home></FuiIcon>\n' +
   '<FuiIcon size=small name=home></FuiIcon>\n' +
@@ -10986,13 +10956,13 @@ s.ElementIconSize1 =
   '<br>\n' +
   '<FuiIcon size=huge name=home></FuiIcon>\n' +
   '<br>\n' +
-  '<FuiIcon size=massive name=home></FuiIcon>'
-s.ElementIconLink1 =
+  '<FuiIcon size=massive name=home></FuiIcon>' 
+s.ElementIconLink1 = 
   '<FuiIcon name=close link></FuiIcon>\n' +
-  '<FuiIcon name=help link></FuiIcon>'
-s.ElementIconDisabled1 =
-  '<FuiIcon name=users disabled></FuiIcon>'
-s.ElementIconCommunication1 =
+  '<FuiIcon name=help link></FuiIcon>' 
+s.ElementIconDisabled1 = 
+  '<FuiIcon name=users disabled></FuiIcon>' 
+s.ElementIconCommunication1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="address book" size=big data-search-terms="contact, directory, index, little black book, rolodex"></FuiIcon>\n' +
@@ -11190,8 +11160,8 @@ s.ElementIconCommunication1 =
   '    <FuiIcon name="wifi" size=big data-search-terms="connection, hotspot, internet, network, wireless"></FuiIcon>\n' +
   '    wifi\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconBusiness1 =
+  '</FuiGrid>' 
+s.ElementIconBusiness1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="address book" size=big data-search-terms="contact, directory, index, little black book, rolodex"></FuiIcon>\n' +
@@ -11581,8 +11551,8 @@ s.ElementIconBusiness1 =
   '    <FuiIcon name="wallet" size=big data-search-terms="billfold, cash, currency, money"></FuiIcon>\n' +
   '    wallet\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconEducation1 =
+  '</FuiGrid>' 
+s.ElementIconEducation1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="atom" size=big data-search-terms="atheism, chemistry, ion, nuclear, science"></FuiIcon>\n' +
@@ -11660,8 +11630,8 @@ s.ElementIconEducation1 =
   '    <FuiIcon name="user graduate" size=big data-search-terms="cap, clothing, commencement, gown, graduation, person, student"></FuiIcon>\n' +
   '    user graduate\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconVehicles1 =
+  '</FuiGrid>' 
+s.ElementIconVehicles1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="accessible" size=big data-search-terms="accessibility, handicap, person, wheelchair, wheelchair-alt"></FuiIcon>\n' +
@@ -11795,8 +11765,8 @@ s.ElementIconVehicles1 =
   '    <FuiIcon name="wheelchair" size=big data-search-terms="accessible, handicap, person"></FuiIcon>\n' +
   '    wheelchair\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconBeverage1 =
+  '</FuiGrid>' 
+s.ElementIconBeverage1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="beer" size=big data-search-terms="alcohol, ale, bar, beverage, brewery, drink, lager, liquor, mug, stein"></FuiIcon>\n' +
@@ -11850,8 +11820,8 @@ s.ElementIconBeverage1 =
   '    <FuiIcon name="wine glass alternate" size=big data-search-terms="alcohol, beverage, cabernet, drink, grapes, merlot, sauvignon"></FuiIcon>\n' +
   '    wine glass alternate\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconSports1 =
+  '</FuiGrid>' 
+s.ElementIconSports1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="baseball ball" size=big data-search-terms="foul, hardball, league, leather, mlb, softball, sport"></FuiIcon>\n' +
@@ -11925,8 +11895,8 @@ s.ElementIconSports1 =
   '    <FuiIcon name="volleyball ball" size=big data-search-terms="beach, olympics, sport"></FuiIcon>\n' +
   '    volleyball ball\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconCode1 =
+  '</FuiGrid>' 
+s.ElementIconCode1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="archive" size=big data-search-terms="box, package, save, storage"></FuiIcon>\n' +
@@ -12080,8 +12050,8 @@ s.ElementIconCode1 =
   '    <FuiIcon name="window restore outline" size=big data-search-terms="browser, computer, development"></FuiIcon>\n' +
   '    window restore outline\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconAlert1 =
+  '</FuiGrid>' 
+s.ElementIconAlert1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="bell" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
@@ -12123,16 +12093,135 @@ s.ElementIconAlert1 =
   '    <FuiIcon name="skull crossbones" size=big data-search-terms="Dungeons & Dragons, alert, bones, d&d, danger, dead, deadly, death, dnd, fantasy, halloween, holiday, jolly-roger, pirate, poison, skeleton, warning"></FuiIcon>\n' +
   '    skull crossbones\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconCornerIcon3 =
+  '</FuiGrid>' 
+s.ElementIconFinance1 = 
+  '<FuiGrid doubling column=five>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale" size=big data-search-terms="balanced, justice, legal, measure, weight"></FuiIcon>\n' +
+  '    balance scale\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale left" size=big data-search-terms="justice, legal, measure, unbalanced, weight"></FuiIcon>\n' +
+  '    balance scale left\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="balance scale right" size=big data-search-terms="justice, legal, measure, unbalanced, weight"></FuiIcon>\n' +
+  '    balance scale right\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="book" size=big data-search-terms="diary, documentation, journal, library, read"></FuiIcon>\n' +
+  '    book\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="cash register" size=big data-search-terms="buy, cha-ching, change, checkout, commerce, leaerboard, machine, pay, payment, purchase, store"></FuiIcon>\n' +
+  '    cash register\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chart line" size=big data-search-terms="activity, analytics, chart, dashboard, gain, graph, increase, line"></FuiIcon>\n' +
+  '    chart line\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="chart pie" size=big data-search-terms="analytics, chart, diagram, graph, pie"></FuiIcon>\n' +
+  '    chart pie\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="coins" size=big data-search-terms="currency, dime, financial, gold, money, penny"></FuiIcon>\n' +
+  '    coins\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comment dollar" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, money, note, notification, pay, sms, speech, spend, texting, transfer"></FuiIcon>\n' +
+  '    comment dollar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="comments dollar" size=big data-search-terms="bubble, chat, commenting, conversation, feedback, message, money, note, notification, pay, sms, speech, spend, texting, transfer"></FuiIcon>\n' +
+  '    comments dollar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="credit card" size=big data-search-terms="buy, checkout, credit-card-alt, debit, money, payment, purchase"></FuiIcon>\n' +
+  '    credit card\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="credit card outline" size=big data-search-terms="buy, checkout, credit-card-alt, debit, money, payment, purchase"></FuiIcon>\n' +
+  '    credit card outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="donate" size=big data-search-terms="contribute, generosity, gift, give"></FuiIcon>\n' +
+  '    donate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file invoice" size=big data-search-terms="account, bill, charge, document, payment, receipt"></FuiIcon>\n' +
+  '    file invoice\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="file invoice dollar" size=big data-search-terms="$, account, bill, charge, document, dollar-sign, money, payment, receipt, usd"></FuiIcon>\n' +
+  '    file invoice dollar\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="hand holding usd" size=big data-search-terms="$, carry, dollar sign, donation, giving, lift, money, price"></FuiIcon>\n' +
+  '    hand holding usd\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="landmark" size=big data-search-terms="building, historic, memorable, monument, politics"></FuiIcon>\n' +
+  '    landmark\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill alternate" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill alternate outline" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill alternate outline\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill wave" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill wave\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money bill wave alternate" size=big data-search-terms="buy, cash, checkout, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money bill wave alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money check" size=big data-search-terms="bank check, buy, checkout, cheque, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money check\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="money check alternate" size=big data-search-terms="bank check, buy, checkout, cheque, money, payment, price, purchase"></FuiIcon>\n' +
+  '    money check alternate\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="percentage" size=big data-search-terms="discount, fraction, proportion, rate, ratio"></FuiIcon>\n' +
+  '    percentage\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="piggy bank" size=big data-search-terms="bank, save, savings"></FuiIcon>\n' +
+  '    piggy bank\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="receipt" size=big data-search-terms="check, invoice, money, pay, table"></FuiIcon>\n' +
+  '    receipt\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="stamp" size=big data-search-terms="art, certificate, imprint, rubber, seal"></FuiIcon>\n' +
+  '    stamp\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiIcon name="wallet" size=big data-search-terms="billfold, cash, currency, money"></FuiIcon>\n' +
+  '    wallet\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.ElementIconCornerIcon3 = 
   '<FuiHeader level=2>\n' +
   '  <FuiIcons size=large>\n' +
   '    <FuiIcon name=twitter></FuiIcon>\n' +
   '    <FuiIcon name=add inverted corner></FuiIcon>\n' +
   '  </FuiIcons>\n' +
   'Add on Twitter\n' +
-  '</FuiHeader>'
-s.ElementIconGenders1 =
+  '</FuiHeader>' 
+s.ElementIconGenders1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="genderless" size=big data-search-terms="androgynous, asexual, sexless"></FuiIcon>\n' +
@@ -12186,8 +12275,8 @@ s.ElementIconGenders1 =
   '    <FuiIcon name="venus mars" size=big data-search-terms="Gender"></FuiIcon>\n' +
   '    venus mars\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconWeather1 =
+  '</FuiGrid>' 
+s.ElementIconWeather1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="bolt" size=big data-search-terms="electricity, lightning, weather, zap"></FuiIcon>\n' +
@@ -12285,8 +12374,8 @@ s.ElementIconWeather1 =
   '    <FuiIcon name="wind" size=big data-search-terms="air, blow, breeze, fall, seasonal, weather"></FuiIcon>\n' +
   '    wind\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconPharmacy1 =
+  '</FuiGrid>' 
+s.ElementIconPharmacy1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="band aid" size=big data-search-terms="bandage, boo boo, first aid, ouch"></FuiIcon>\n' +
@@ -12392,8 +12481,8 @@ s.ElementIconPharmacy1 =
   '    <FuiIcon name="vials" size=big data-search-terms="experiment, lab, sample, science, test, test tube"></FuiIcon>\n' +
   '    vials\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconCurrency1 =
+  '</FuiGrid>' 
+s.ElementIconCurrency1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="bitcoin" size=big data-search-terms=""></FuiIcon>\n' +
@@ -12487,8 +12576,8 @@ s.ElementIconCurrency1 =
   '    <FuiIcon name="yen sign" size=big data-search-terms="currency, jpy, money"></FuiIcon>\n' +
   '    yen sign\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconFood1 =
+  '</FuiGrid>' 
+s.ElementIconFood1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="bacon" size=big data-search-terms="blt, breakfast, ham, lard, meat, pancetta, pork, rasher"></FuiIcon>\n' +
@@ -12574,8 +12663,8 @@ s.ElementIconFood1 =
   '    <FuiIcon name="stroopwafel" size=big data-search-terms="caramel, cookie, dessert, sweets, waffle"></FuiIcon>\n' +
   '    stroopwafel\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconMoving1 =
+  '</FuiGrid>' 
+s.ElementIconMoving1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="archive" size=big data-search-terms="box, package, save, storage"></FuiIcon>\n' +
@@ -12625,8 +12714,8 @@ s.ElementIconMoving1 =
   '    <FuiIcon name="wine glass" size=big data-search-terms="alcohol, beverage, cabernet, drink, grapes, merlot, sauvignon"></FuiIcon>\n' +
   '    wine glass\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconSocial1 =
+  '</FuiGrid>' 
+s.ElementIconSocial1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="bell" size=big data-search-terms="alarm, alert, chime, notification, reminder"></FuiIcon>\n' +
@@ -12800,8 +12889,8 @@ s.ElementIconSocial1 =
   '    <FuiIcon name="video" size=big data-search-terms="camera, film, movie, record, video-camera"></FuiIcon>\n' +
   '    video\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconSummer1 =
+  '</FuiGrid>' 
+s.ElementIconSummer1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="anchor" size=big data-search-terms="berth, boat, dock, embed, link, maritime, moor, secure"></FuiIcon>\n' +
@@ -12859,8 +12948,8 @@ s.ElementIconSummer1 =
   '    <FuiIcon name="water" size=big data-search-terms="lake, liquid, ocean, sea, swim, wet"></FuiIcon>\n' +
   '    water\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconFruitsVegetables1 =
+  '</FuiGrid>' 
+s.ElementIconFruitsVegetables1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="carrot" size=big data-search-terms="bugs bunny, orange, vegan, vegetable"></FuiIcon>\n' +
@@ -12890,13 +12979,13 @@ s.ElementIconFruitsVegetables1 =
   '    <FuiIcon name="seedling" size=big data-search-terms="flora, grow, plant, vegan"></FuiIcon>\n' +
   '    seedling\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconBordered1 =
+  '</FuiGrid>' 
+s.ElementIconBordered1 = 
   '<FuiIcon bordered name=users></FuiIcon>\n' +
   '<FuiIcon bordered name=users color=teal></FuiIcon>\n' +
   '<FuiIcon bordered name=users color=black inverted></FuiIcon>\n' +
-  '<FuiIcon bordered name=users color=teal inverted></FuiIcon>'
-s.ElementIconAudioVideo1 =
+  '<FuiIcon bordered name=users color=teal inverted></FuiIcon>' 
+s.ElementIconAudioVideo1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="audio description" size=big data-search-terms="blind, narration, video, visual"></FuiIcon>\n' +
@@ -13118,8 +13207,8 @@ s.ElementIconAudioVideo1 =
   '    <FuiIcon name="youtube" size=big data-search-terms="film, video, youtube-play, youtube-square"></FuiIcon>\n' +
   '    youtube\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconChildhood1 =
+  '</FuiGrid>' 
+s.ElementIconChildhood1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="baby" size=big data-search-terms="child, diaper, doll, human, infant, kid, offspring, person, sprout"></FuiIcon>\n' +
@@ -13177,8 +13266,8 @@ s.ElementIconChildhood1 =
   '    <FuiIcon name="snowman" size=big data-search-terms="decoration, frost, frosty, holiday"></FuiIcon>\n' +
   '    snowman\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconMarketing1 =
+  '</FuiGrid>' 
+s.ElementIconMarketing1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="ad" size=big data-search-terms="advertisement, media, newspaper, promotion, publicity"></FuiIcon>\n' +
@@ -13236,8 +13325,8 @@ s.ElementIconMarketing1 =
   '    <FuiIcon name="search location" size=big data-search-terms="bigger, enlarge, find, magnify, preview, zoom"></FuiIcon>\n' +
   '    search location\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconInverted1 =
+  '</FuiGrid>' 
+s.ElementIconInverted1 = 
   '<FuiSegment inverted>\n' +
   '  <FuiIcon inverted name=users></FuiIcon>\n' +
   '  <FuiIcon inverted primary name=users></FuiIcon>\n' +
@@ -13254,8 +13343,8 @@ s.ElementIconInverted1 =
   '  <FuiIcon inverted color=pink name=users></FuiIcon>\n' +
   '  <FuiIcon inverted color=brown name=users></FuiIcon>\n' +
   '  <FuiIcon inverted color=grey name=users></FuiIcon>\n' +
-  '</FuiSegment>'
-s.ElementIconCamping1 =
+  '</FuiSegment>' 
+s.ElementIconCamping1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="binoculars" size=big data-search-terms="glasses, magnify, scenic, spyglass, view"></FuiIcon>\n' +
@@ -13329,8 +13418,8 @@ s.ElementIconCamping1 =
   '    <FuiIcon name="tree" size=big data-search-terms="bark, fall, flora, forest, nature, plant, seasonal"></FuiIcon>\n' +
   '    tree\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconEnergy1 =
+  '</FuiGrid>' 
+s.ElementIconEnergy1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="atom" size=big data-search-terms="atheism, chemistry, ion, nuclear, science"></FuiIcon>\n' +
@@ -13440,8 +13529,8 @@ s.ElementIconEnergy1 =
   '    <FuiIcon name="wind" size=big data-search-terms="air, blow, breeze, fall, seasonal, weather"></FuiIcon>\n' +
   '    wind\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconMaps1 =
+  '</FuiGrid>' 
+s.ElementIconMaps1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="ambulance" size=big data-search-terms="emergency, emt, er, help, hospital, support, vehicle"></FuiIcon>\n' +
@@ -14011,8 +14100,8 @@ s.ElementIconMaps1 =
   '    <FuiIcon name="wrench" size=big data-search-terms="construction, fix, mechanic, plumbing, settings, spanner, tool, update"></FuiIcon>\n' +
   '    wrench\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconEditors1 =
+  '</FuiGrid>' 
+s.ElementIconEditors1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="align center" size=big data-search-terms="format, middle, paragraph, text"></FuiIcon>\n' +
@@ -14346,8 +14435,8 @@ s.ElementIconEditors1 =
   '    <FuiIcon name="wrench" size=big data-search-terms="construction, fix, mechanic, plumbing, settings, spanner, tool, update"></FuiIcon>\n' +
   '    wrench\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconMusic1 =
+  '</FuiGrid>' 
+s.ElementIconMusic1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="drum" size=big data-search-terms="instrument, music, percussion, snare, sound"></FuiIcon>\n' +
@@ -14417,8 +14506,8 @@ s.ElementIconMusic1 =
   '    <FuiIcon name="volume up" size=big data-search-terms="audio, higher, louder, music, sound, speaker"></FuiIcon>\n' +
   '    volume up\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconReligion1 =
+  '</FuiGrid>' 
+s.ElementIconReligion1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="ankh" size=big data-search-terms="amulet, copper, coptic christianity, copts, crux ansata, egypt, venus"></FuiIcon>\n' +
@@ -14544,12 +14633,12 @@ s.ElementIconReligion1 =
   '    <FuiIcon name="yin yang" size=big data-search-terms="daoism, opposites, taoism"></FuiIcon>\n' +
   '    yin yang\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconFitted1 =
+  '</FuiGrid>' 
+s.ElementIconFitted1 = 
   'Tight spacing\n' +
   '<FuiIcon name=help fitted></FuiIcon>\n' +
-  'Tight spacing'
-s.ElementIconMaritime1 =
+  'Tight spacing' 
+s.ElementIconMaritime1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="anchor" size=big data-search-terms="berth, boat, dock, embed, link, maritime, moor, secure"></FuiIcon>\n' +
@@ -14595,8 +14684,8 @@ s.ElementIconMaritime1 =
   '    <FuiIcon name="wind" size=big data-search-terms="air, blow, breeze, fall, seasonal, weather"></FuiIcon>\n' +
   '    wind\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconHealth1 =
+  '</FuiGrid>' 
+s.ElementIconHealth1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="accessible" size=big data-search-terms="accessibility, handicap, person, wheelchair, wheelchair-alt"></FuiIcon>\n' +
@@ -14658,8 +14747,8 @@ s.ElementIconHealth1 =
   '    <FuiIcon name="wheelchair" size=big data-search-terms="accessible, handicap, person"></FuiIcon>\n' +
   '    wheelchair\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconHalloween1 =
+  '</FuiGrid>' 
+s.ElementIconHalloween1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="book dead" size=big data-search-terms="Dungeons & Dragons, crossbones, d&d, dark arts, death, dnd, documentation, evil, fantasy, halloween, holiday, necronomicon, read, skull, spell"></FuiIcon>\n' +
@@ -14705,8 +14794,8 @@ s.ElementIconHalloween1 =
   '    <FuiIcon name="toilet paper" size=big data-search-terms="bathroom, halloween, holiday, lavatory, prank, restroom, roll"></FuiIcon>\n' +
   '    toilet paper\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconShopping1 =
+  '</FuiGrid>' 
+s.ElementIconShopping1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="barcode" size=big data-search-terms="info, laser, price, scan, upc"></FuiIcon>\n' +
@@ -14772,8 +14861,8 @@ s.ElementIconShopping1 =
   '    <FuiIcon name="tshirt" size=big data-search-terms="clothing, fashion, garment, shirt"></FuiIcon>\n' +
   '    tshirt\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconComputers1 =
+  '</FuiGrid>' 
+s.ElementIconComputers1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="database" size=big data-search-terms="computer, development, directory, memory, storage"></FuiIcon>\n' +
@@ -14891,8 +14980,8 @@ s.ElementIconComputers1 =
   '    <FuiIcon name="upload" size=big data-search-terms="hard drive, import, publish"></FuiIcon>\n' +
   '    upload\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconCharity1 =
+  '</FuiGrid>' 
+s.ElementIconCharity1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="dollar sign" size=big data-search-terms="$, cost, dollar-sign, money, price, usd"></FuiIcon>\n' +
@@ -14962,8 +15051,8 @@ s.ElementIconCharity1 =
   '    <FuiIcon name="seedling" size=big data-search-terms="flora, grow, plant, vegan"></FuiIcon>\n' +
   '    seedling\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconHoliday1 =
+  '</FuiGrid>' 
+s.ElementIconHoliday1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="candy cane" size=big data-search-terms="candy, christmas, holiday, mint, peppermint, striped, xmas"></FuiIcon>\n' +
@@ -15005,8 +15094,8 @@ s.ElementIconHoliday1 =
   '    <FuiIcon name="snowman" size=big data-search-terms="decoration, frost, frosty, holiday"></FuiIcon>\n' +
   '    snowman\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconConstruction1 =
+  '</FuiGrid>' 
+s.ElementIconConstruction1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="brush" size=big data-search-terms="art, bristles, color, handle, paint"></FuiIcon>\n' +
@@ -15076,8 +15165,8 @@ s.ElementIconConstruction1 =
   '    <FuiIcon name="wrench" size=big data-search-terms="construction, fix, mechanic, plumbing, settings, spanner, tool, update"></FuiIcon>\n' +
   '    wrench\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconUsersPeople1 =
+  '</FuiGrid>' 
+s.ElementIconUsersPeople1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="accessible" size=big data-search-terms="accessibility, handicap, person, wheelchair, wheelchair-alt"></FuiIcon>\n' +
@@ -15355,8 +15444,8 @@ s.ElementIconUsersPeople1 =
   '    <FuiIcon name="wheelchair" size=big data-search-terms="accessible, handicap, person"></FuiIcon>\n' +
   '    wheelchair\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconClothing1 =
+  '</FuiGrid>' 
+s.ElementIconClothing1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="graduation cap" size=big data-search-terms="ceremony, college, graduate, learning, school, student"></FuiIcon>\n' +
@@ -15386,8 +15475,8 @@ s.ElementIconClothing1 =
   '    <FuiIcon name="user tie" size=big data-search-terms="avatar, business, clothing, formal, professional, suit"></FuiIcon>\n' +
   '    user tie\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconHousehold1 =
+  '</FuiGrid>' 
+s.ElementIconHousehold1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="bath" size=big data-search-terms="clean, shower, tub, wash"></FuiIcon>\n' +
@@ -15437,8 +15526,8 @@ s.ElementIconHousehold1 =
   '    <FuiIcon name="tv" size=big data-search-terms="computer, display, monitor, television"></FuiIcon>\n' +
   '    tv\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconToggle1 =
+  '</FuiGrid>' 
+s.ElementIconToggle1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="bullseye" size=big data-search-terms="archery, goal, objective, target"></FuiIcon>\n' +
@@ -15496,13 +15585,13 @@ s.ElementIconToggle1 =
   '    <FuiIcon name="toggle on" size=big data-search-terms="switch"></FuiIcon>\n' +
   '    toggle on\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconIcons2 =
+  '</FuiGrid>' 
+s.ElementIconIcons2 = 
   '<FuiIcons size=huge>\n' +
   '  <FuiIcon name=dont color=red size=big></FuiIcon>\n' +
   '  <FuiIcon name=user color=black></FuiIcon>\n' +
-  '</FuiIcons>'
-s.ElementIconTravel1 =
+  '</FuiIcons>' 
+s.ElementIconTravel1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="archway" size=big data-search-terms="arc, monument, road, street, tunnel"></FuiIcon>\n' +
@@ -15652,8 +15741,8 @@ s.ElementIconTravel1 =
   '    <FuiIcon name="wine glass alternate" size=big data-search-terms="alcohol, beverage, cabernet, drink, grapes, merlot, sauvignon"></FuiIcon>\n' +
   '    wine glass alternate\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconEmoji1 =
+  '</FuiGrid>' 
+s.ElementIconEmoji1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="angry" size=big data-search-terms="disapprove, emoticon, face, mad, upset"></FuiIcon>\n' +
@@ -15943,8 +16032,8 @@ s.ElementIconEmoji1 =
   '    <FuiIcon name="tired outline" size=big data-search-terms="angry, emoticon, face, grumpy, upset"></FuiIcon>\n' +
   '    tired outline\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconStatus1 =
+  '</FuiGrid>' 
+s.ElementIconStatus1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="ban" size=big data-search-terms="abort, ban, block, cancel, delete, hide, prohibit, remove, stop, trash"></FuiIcon>\n' +
@@ -16418,8 +16507,8 @@ s.ElementIconStatus1 =
   '    <FuiIcon name="wifi" size=big data-search-terms="connection, hotspot, internet, network, wireless"></FuiIcon>\n' +
   '    wifi\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconInterfaces1 =
+  '</FuiGrid>' 
+s.ElementIconInterfaces1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +
   '    <FuiIcon name="award" size=big data-search-terms="honor, praise, prize, recognition, ribbon, trophy"></FuiIcon>\n' +
@@ -17249,8 +17338,8 @@ s.ElementIconInterfaces1 =
   '    <FuiIcon name="wrench" size=big data-search-terms="construction, fix, mechanic, plumbing, settings, spanner, tool, update"></FuiIcon>\n' +
   '    wrench\n' +
   '  </FuiColumn>\n' +
-  '</FuiGrid>'
-s.ElementIconCornerIcon2 =
+  '</FuiGrid>' 
+s.ElementIconCornerIcon2 = 
   '<FuiIcons size=huge>\n' +
   '  <FuiIcon name=puzzle></FuiIcon>\n' +
   '  <FuiIcon name=add corner="top left"></FuiIcon>\n' +
@@ -17266,13 +17355,13 @@ s.ElementIconCornerIcon2 =
   '<FuiIcons size=huge>\n' +
   '  <FuiIcon name=puzzle></FuiIcon>\n' +
   '  <FuiIcon name=add corner="bottom right"></FuiIcon>\n' +
-  '</FuiIcons>'
-s.ElementIconCornerIcon1 =
+  '</FuiIcons>' 
+s.ElementIconCornerIcon1 = 
   '<FuiIcons size=huge>\n' +
   '  <FuiIcon name=puzzle></FuiIcon>\n' +
   '  <FuiIcon name=add corner></FuiIcon>\n' +
-  '</FuiIcons>'
-s.CollectionGrid1 =
+  '</FuiIcons>' 
+s.CollectionGrid1 = 
   '<h2 class="ui dividing header">Introduction</h2>\n' +
   '<div class="highlighted example" data-class="grid">\n' +
   '  <h4 class="ui header">Grids</h4>\n' +
@@ -17686,8 +17775,8 @@ s.CollectionGrid1 =
   '    <div class="six wide tablet eight wide computer column"/>\n' +
   '    <div class="six wide tablet eight wide computer column"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionGrid1A =
+  '</div>' 
+s.CollectionGrid1A = 
   '<h2 class="ui dividing header">Types</h2>\n' +
   '<div class="highlighted example">\n' +
   '  <h4 class="ui header">\n' +
@@ -18776,8 +18865,8 @@ s.CollectionGrid1A =
   '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuText1A =
+  '</div>' 
+s.CollectionMenuText1A = 
   '<div class="ui vertical menu">\n' +
   '  <a class="item">\n' +
   '    <h4 class="ui header">Promotions</h4>\n' +
@@ -18791,8 +18880,8 @@ s.CollectionMenuText1A =
   '    <h4 class="ui header">Rebates</h4>\n' +
   '    <p>Visit our rebate forum for information on claiming rebates</p>\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuSize5 =
+  '</div>' 
+s.CollectionMenuSize5 = 
   '<div class="ui huge menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -18813,8 +18902,8 @@ s.CollectionMenuSize5 =
   '        <div class="ui primary button">Sign Up</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuMenu1A =
+  '</div>' 
+s.CollectionMenuMenu1A = 
   '<div class="ui menu">\n' +
   '  <a class="item">Browse</a>\n' +
   '  <a class="item">Submit</a>\n' +
@@ -18822,8 +18911,8 @@ s.CollectionMenuMenu1A =
   '    <a class="item">Sign Up</a>\n' +
   '    <a class="item">Help</a>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuSize3 =
+  '</div>' 
+s.CollectionMenuSize3 = 
   '<div class="ui small menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -18844,8 +18933,8 @@ s.CollectionMenuSize3 =
   '        <div class="ui primary button">Sign Up</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuPointing2 =
+  '</div>' 
+s.CollectionMenuPointing2 = 
   '<div class="ui secondary pointing menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -18864,8 +18953,8 @@ s.CollectionMenuPointing2 =
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.CollectionMenuInput1 =
+  '</div>' 
+s.CollectionMenuInput1 = 
   '<div class="ui menu">\n' +
   '  <div class="item">\n' +
   '    <div class="ui icon input">\n' +
@@ -18879,8 +18968,8 @@ s.CollectionMenuInput1 =
   '      <div class="ui button">Go</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuSize6 =
+  '</div>' 
+s.CollectionMenuSize6 = 
   '<div class="ui massive menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -18901,8 +18990,8 @@ s.CollectionMenuSize6 =
   '        <div class="ui primary button">Sign Up</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuSize2 =
+  '</div>' 
+s.CollectionMenuSize2 = 
   '<div class="ui tiny menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -18923,14 +19012,14 @@ s.CollectionMenuSize2 =
   '        <div class="ui primary button">Sign Up</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuFluid1 =
+  '</div>' 
+s.CollectionMenuFluid1 = 
   '<div class="ui fluid vertical menu">\n' +
   '  <a class="item">Run</a>\n' +
   '  <a class="item">Walk</a>\n' +
   '  <a class="item">Bike</a>\n' +
-  '</div>'
-s.CollectionMenuInverted4 =
+  '</div>' 
+s.CollectionMenuInverted4 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted secondary menu">\n' +
   '    <a class="active item">\n' +
@@ -18943,8 +19032,8 @@ s.CollectionMenuInverted4 =
   '      Friends\n' +
   '    </a>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenu3 =
+  '</div>' 
+s.CollectionMenu3 = 
   '<div class="ui large vertical menu">\n' +
   '  <a class="active item">\n' +
   '    <div class="ui small teal label">1</div>\n' +
@@ -18964,8 +19053,8 @@ s.CollectionMenu3 =
   '      <i class="search icon"></i>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuIcons1 =
+  '</div>' 
+s.CollectionMenuIcons1 = 
   '<div class="ui icon menu">\n' +
   '  <a class="item">\n' +
   '    <i class="gamepad icon"></i>\n' +
@@ -18988,8 +19077,8 @@ s.CollectionMenuIcons1 =
   '  <a class="item">\n' +
   '    <i class="video play icon"></i>\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuMenu3 =
+  '</div>' 
+s.CollectionMenuMenu3 = 
   '<div class="ui top attached menu">\n' +
   '  <div class="ui dropdown icon item">\n' +
   '    <i class="wrench icon"></i>\n' +
@@ -19030,8 +19119,8 @@ s.CollectionMenuMenu3 =
   '</div>\n' +
   '<div class="ui bottom attached segment">\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.CollectionMenuInverted5 =
+  '</div>' 
+s.CollectionMenuInverted5 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted secondary pointing menu">\n' +
   '    <a class="active item">\n' +
@@ -19044,8 +19133,8 @@ s.CollectionMenuInverted5 =
   '      Friends\n' +
   '    </a>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuButton1 =
+  '</div>' 
+s.CollectionMenuButton1 = 
   '<div class="ui menu">\n' +
   '  <div class="item">\n' +
   '    <div class="ui primary button">Sign up</div>\n' +
@@ -19053,8 +19142,8 @@ s.CollectionMenuButton1 =
   '  <div class="item">\n' +
   '    <div class="ui button">Log-in</div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuColored4 =
+  '</div>' 
+s.CollectionMenuColored4 = 
   '<div class="ui red three item inverted menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -19186,8 +19275,8 @@ s.CollectionMenuColored4 =
   '  <a class="item">\n' +
   '    Friends\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuFixed2 =
+  '</div>' 
+s.CollectionMenuFixed2 = 
   '<iframe src="/iframe/fixed-vertical-menu.html"/>\n' +
   '<div class="existing code">\n' +
   '  <div class="ui left fixed vertical menu">\n' +
@@ -19208,8 +19297,8 @@ s.CollectionMenuFixed2 =
   '  </div>\n' +
   '  <p/>\n' +
   '  <p/>\n' +
-  '</div>'
-s.CollectionMenuInverted1 =
+  '</div>' 
+s.CollectionMenuInverted1 = 
   '<div class="ui inverted menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -19220,8 +19309,8 @@ s.CollectionMenuInverted1 =
   '  <a class="item">\n' +
   '    Friends\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuPointing1 =
+  '</div>' 
+s.CollectionMenuPointing1 = 
   '<div class="ui pointing menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -19243,8 +19332,8 @@ s.CollectionMenuPointing1 =
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.CollectionMenuSearch1 =
+  '</div>' 
+s.CollectionMenuSearch1 = 
   '<div class="ui menu">\n' +
   '  <div class="ui category search item">\n' +
   '    <div class="ui transparent icon input">\n' +
@@ -19256,8 +19345,8 @@ s.CollectionMenuSearch1 =
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.CollectionMenuMenu2 =
+  '</div>' 
+s.CollectionMenuMenu2 = 
   '<div class="ui ignored info message">\n' +
   '  Many of the following examples use a coupling with <a href="/modules/dropdown.html">dropdowns</a> to display dropdown menus inside of <code>ui menu</code>. Please consult the dropdown documentation for the correct javascript initialization for this component.\n' +
   '</div>\n' +
@@ -19308,8 +19397,8 @@ s.CollectionMenuMenu2 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuStackable1 =
+  '</div>' 
+s.CollectionMenuStackable1 = 
   '<div class="ui ignored info message">\n' +
   '  Stackable menus are intended to be used with only simple menu content. Stacked menus will not replicate all additional stylings for vertical menus like adjusting dropdown position.\n' +
   '</div>\n' +
@@ -19320,14 +19409,14 @@ s.CollectionMenuStackable1 =
   '  <a class="item">Features</a>\n' +
   '  <a class="item">Testimonials</a>\n' +
   '  <a class="item">Sign-in</a>\n' +
-  '</div>'
-s.CollectionMenuEvenlyDivided1 =
+  '</div>' 
+s.CollectionMenuEvenlyDivided1 = 
   '<div class="ui fluid three item menu">\n' +
   '  <a class="item">Buy</a>\n' +
   '  <a class="item">Sell</a>\n' +
   '  <a class="item">Rent</a>\n' +
-  '</div>'
-s.CollectionMenuText1 =
+  '</div>' 
+s.CollectionMenuText1 = 
   '<div class="ui text menu">\n' +
   '  <div class="header item">Sort By</div>\n' +
   '  <a class="active item">\n' +
@@ -19339,8 +19428,8 @@ s.CollectionMenuText1 =
   '  <a class="item">\n' +
   '    Most Popular\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuLinkItem1 =
+  '</div>' 
+s.CollectionMenuLinkItem1 = 
   '<div class="ui vertical menu">\n' +
   '  <a href="http://www.google.com" class="item">\n' +
   '    Visit Google\n' +
@@ -19348,8 +19437,8 @@ s.CollectionMenuLinkItem1 =
   '  <div class="link item">\n' +
   '    Javascript Link\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuPagination1 =
+  '</div>' 
+s.CollectionMenuPagination1 = 
   '<div class="ui pagination menu">\n' +
   '  <a class="active item">\n' +
   '    1\n' +
@@ -19366,8 +19455,8 @@ s.CollectionMenuPagination1 =
   '  <a class="item">\n' +
   '    12\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuVerticalMenu3 =
+  '</div>' 
+s.CollectionMenuVerticalMenu3 = 
   '<div class="ui vertical text menu">\n' +
   '  <div class="header item">Sort By</div>\n' +
   '  <a class="active item">\n' +
@@ -19379,8 +19468,8 @@ s.CollectionMenuVerticalMenu3 =
   '  <a class="item">\n' +
   '    Most Popular\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuHover1 =
+  '</div>' 
+s.CollectionMenuHover1 = 
   '<div class="ui ignore warning message">Menu items are only hoverable if they are <code>a</code> links, or given the class name <code>link</code></div>\n' +
   '<div class="ui compact menu">\n' +
   '  <a class="item">\n' +
@@ -19389,8 +19478,8 @@ s.CollectionMenuHover1 =
   '  <div class="link item">\n' +
   '    div Link\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuTabular1 =
+  '</div>' 
+s.CollectionMenuTabular1 = 
   '<div class="ui ignored info message">\n' +
   '  Be sure to visit the <a href="/modules/tab.html">tab documentation</a> for information on how to set up dynamic tabs\n' +
   '</div>\n' +
@@ -19401,8 +19490,8 @@ s.CollectionMenuTabular1 =
   '  <a class="item">\n' +
   '    Photos\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuTabular2 =
+  '</div>' 
+s.CollectionMenuTabular2 = 
   '<div class="ui top attached tabular menu">\n' +
   '  <a class="active item">\n' +
   '    Bio\n' +
@@ -19421,8 +19510,8 @@ s.CollectionMenuTabular2 =
   '</div>\n' +
   '<div class="ui bottom attached segment">\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>'
-s.CollectionMenuSubMenu1 =
+  '</div>' 
+s.CollectionMenuSubMenu1 = 
   '<div class="ui vertical menu">\n' +
   '  <div class="item">\n' +
   '    <div class="ui input"><input type="text" placeholder="Search..."/></div>\n' +
@@ -19450,8 +19539,8 @@ s.CollectionMenuSubMenu1 =
   '      <a class="item"><i class="settings icon"></i> Account Settings</a>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuColored2 =
+  '</div>' 
+s.CollectionMenuColored2 = 
   '<div class="ui red three item menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -19583,8 +19672,8 @@ s.CollectionMenuColored2 =
   '  <a class="item">\n' +
   '    Friends\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuSize1 =
+  '</div>' 
+s.CollectionMenuSize1 = 
   '<div class="ui mini menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -19605,8 +19694,8 @@ s.CollectionMenuSize1 =
   '        <div class="ui primary button">Sign Up</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuColored3 =
+  '</div>' 
+s.CollectionMenuColored3 = 
   '<div class="ui inverted menu">\n' +
   '  <a class="active red item">Red</a>\n' +
   '  <a class="orange item">Orange</a>\n' +
@@ -19622,8 +19711,8 @@ s.CollectionMenuColored3 =
   '  <a class="pink item">Pink</a>\n' +
   '  <a class="brown item">Brown</a>\n' +
   '  <a class="grey item">Grey</a>\n' +
-  '</div>'
-s.CollectionMenuFixed1 =
+  '</div>' 
+s.CollectionMenuFixed1 = 
   '<div class="ui ignored info message">These examples use a an <code>iframe</code>, to prevent content from sticking to the browser viewport.</div>\n' +
   '<div class="ui ignored positive message">For more advanced behaviors consider using a <a href="/modules/sticky.html">sticky menu</a> or <a href="/behaviors/visibility.html#fixing-content-to-viewport">visibility APIs</a>.</div>\n' +
   '<iframe src="/iframe/fixed-menu.html"/>\n' +
@@ -19646,8 +19735,8 @@ s.CollectionMenuFixed1 =
   '  </div>\n' +
   '  <p/>\n' +
   '  <p/>\n' +
-  '</div>'
-s.CollectionMenuVerticalMenu2 =
+  '</div>' 
+s.CollectionMenuVerticalMenu2 = 
   '<div class="ui secondary vertical menu">\n' +
   '  <a class="active item">\n' +
   '    Account\n' +
@@ -19665,8 +19754,8 @@ s.CollectionMenuVerticalMenu2 =
   '      <a class="item">Large</a>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuVerticalMenu1 =
+  '</div>' 
+s.CollectionMenuVerticalMenu1 = 
   '<div class="ui ignore warning message">A vertical menu\'s width defaults to an arbitrary size. To have it fit your content more precisely use the fluid variation in conjunction with <a href="grid.html">ui grid</a>.</div>\n' +
   '<div class="ui vertical menu">\n' +
   '  <a class="active teal item">\n' +
@@ -19687,8 +19776,8 @@ s.CollectionMenuVerticalMenu1 =
   '      <i class="search icon"></i>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenu1 =
+  '</div>' 
+s.CollectionMenu1 = 
   '<div class="ui pointing vertical menu">\n' +
   '  <a class="item">\n' +
   '    Site Title\n' +
@@ -19709,8 +19798,8 @@ s.CollectionMenu1 =
   '      <div class="item">Choice 3</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuAttached2 =
+  '</div>' 
+s.CollectionMenuAttached2 = 
   '<div class="ui top attached menu">\n' +
   '  <a class="active item">\n' +
   '    Section 1\n' +
@@ -19729,8 +19818,8 @@ s.CollectionMenuAttached2 =
   '  <a class="item">\n' +
   '    Section 2\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuAttached1 =
+  '</div>' 
+s.CollectionMenuAttached1 = 
   '<div class="ui top attached tabular menu">\n' +
   '  <a class="active item">\n' +
   '    Tab 1\n' +
@@ -19741,8 +19830,8 @@ s.CollectionMenuAttached1 =
   '</div>\n' +
   '<div class="ui bottom attached segment">\n' +
   '  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.\n' +
-  '</div>'
-s.CollectionMenuColored1 =
+  '</div>' 
+s.CollectionMenuColored1 = 
   '<div class="ui menu">\n' +
   '  <a class="active red item">Red</a>\n' +
   '  <a class="orange item">Orange</a>\n' +
@@ -19758,8 +19847,8 @@ s.CollectionMenuColored1 =
   '  <a class="pink item">Pink</a>\n' +
   '  <a class="brown item">Brown</a>\n' +
   '  <a class="grey item">Grey</a>\n' +
-  '</div>'
-s.CollectionMenuLabeledIcon1 =
+  '</div>' 
+s.CollectionMenuLabeledIcon1 = 
   '<div class="ui labeled icon menu">\n' +
   '  <a class="item">\n' +
   '    <i class="gamepad icon"></i>\n' +
@@ -19788,8 +19877,8 @@ s.CollectionMenuLabeledIcon1 =
   '    <i class="video play icon"></i>\n' +
   '    Videos\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuSize4 =
+  '</div>' 
+s.CollectionMenuSize4 = 
   '<div class="ui large menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -19810,8 +19899,8 @@ s.CollectionMenuSize4 =
   '        <div class="ui primary button">Sign Up</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuInverted3 =
+  '</div>' 
+s.CollectionMenuInverted3 = 
   '<div class="ui inverted vertical pointing menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -19822,8 +19911,8 @@ s.CollectionMenuInverted3 =
   '  <a class="item">\n' +
   '    Friends\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuHeader1 =
+  '</div>' 
+s.CollectionMenuHeader1 = 
   '<div class="ui menu">\n' +
   '  <div class="header item">\n' +
   '    Our Company\n' +
@@ -19837,8 +19926,8 @@ s.CollectionMenuHeader1 =
   '  <a class="item">\n' +
   '    Locations\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenu2 =
+  '</div>' 
+s.CollectionMenu2 = 
   '<div class="ui small vertical menu">\n' +
   '  <a class="active item">\n' +
   '    <div class="ui small teal label">1</div>\n' +
@@ -19858,8 +19947,8 @@ s.CollectionMenu2 =
   '      <i class="search icon"></i>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuSecondaryMenu1 =
+  '</div>' 
+s.CollectionMenuSecondaryMenu1 = 
   '<div class="ui secondary  menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -19881,8 +19970,8 @@ s.CollectionMenuSecondaryMenu1 =
   '      Logout\n' +
   '    </a>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuCompact1 =
+  '</div>' 
+s.CollectionMenuCompact1 = 
   '<div class="ui compact menu">\n' +
   '  <a class="item">\n' +
   '    <i class="gamepad icon"></i>\n' +
@@ -19896,8 +19985,8 @@ s.CollectionMenuCompact1 =
   '    <i class="video play icon"></i>\n' +
   '    Videos\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuDropdownItem1 =
+  '</div>' 
+s.CollectionMenuDropdownItem1 = 
   '<div class="ui ignored message">\n' +
   '  <p>To have a dropdown open without Javascript, use the <a href="/modules/dropdown.html#simple">simple</a> variation</p>\n' +
   '</div>\n' +
@@ -19911,8 +20000,8 @@ s.CollectionMenuDropdownItem1 =
   '      <a class="item">Home</a>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuCompact2 =
+  '</div>' 
+s.CollectionMenuCompact2 = 
   '<div class="ui compact vertical labeled icon menu">\n' +
   '  <a class="item">\n' +
   '    <i class="gamepad icon"></i>\n' +
@@ -19926,8 +20015,8 @@ s.CollectionMenuCompact2 =
   '    <i class="video play icon"></i>\n' +
   '    Videos\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuInverted2 =
+  '</div>' 
+s.CollectionMenuInverted2 = 
   '<div class="ui inverted vertical menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -19938,8 +20027,8 @@ s.CollectionMenuInverted2 =
   '  <a class="item">\n' +
   '    Friends\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenu1A =
+  '</div>' 
+s.CollectionMenu1A = 
   '<div class="ui mini vertical menu">\n' +
   '  <a class="active item">\n' +
   '    <div class="ui teal label">1</div>\n' +
@@ -19959,8 +20048,8 @@ s.CollectionMenu1A =
   '      <i class="search icon"></i>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuPopupMenu1 =
+  '</div>' 
+s.CollectionMenuPopupMenu1 = 
   '<div class="ui menu">\n' +
   '  <a class="browse item">\n' +
   '    Browse\n' +
@@ -20005,8 +20094,8 @@ s.CollectionMenuPopupMenu1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuBorderless1 =
+  '</div>' 
+s.CollectionMenuBorderless1 = 
   '<div class="ui borderless menu">\n' +
   '  <a class="item">1</a>\n' +
   '  <a class="item">2</a>\n' +
@@ -20014,8 +20103,8 @@ s.CollectionMenuBorderless1 =
   '  <a class="item">4</a>\n' +
   '  <a class="item">5</a>\n' +
   '  <a class="item">6</a>\n' +
-  '</div>'
-s.CollectionMenuTabular3 =
+  '</div>' 
+s.CollectionMenuTabular3 = 
   '<div class="ui top attached segment">\n' +
   '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
@@ -20034,8 +20123,8 @@ s.CollectionMenuTabular3 =
   '      <i class="add icon"></i> New Tab\n' +
   '    </a>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuVerticalMenu5 =
+  '</div>' 
+s.CollectionMenuVerticalMenu5 = 
   '<div class="ui secondary vertical pointing menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -20046,14 +20135,14 @@ s.CollectionMenuVerticalMenu5 =
   '  <a class="item">\n' +
   '    Friends\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuActive1 =
+  '</div>' 
+s.CollectionMenuActive1 = 
   '<div class="ui compact menu">\n' +
   '  <div class="active item">\n' +
   '    Link\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuTabular4 =
+  '</div>' 
+s.CollectionMenuTabular4 = 
   '<div class="ui grid">\n' +
   '  <div class="four wide column">\n' +
   '    <div class="ui vertical fluid tabular menu">\n' +
@@ -20076,8 +20165,8 @@ s.CollectionMenuTabular4 =
   '      This is an stretched grid column. This segment will always match the tab height\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuHeader2 =
+  '</div>' 
+s.CollectionMenuHeader2 = 
   '<div class="ui vertical menu">\n' +
   '  <div class="item">\n' +
   '    <div class="header">Products</div>\n' +
@@ -20108,8 +20197,8 @@ s.CollectionMenuHeader2 =
   '      <a class="item">FAQs</a>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuMenu1 =
+  '</div>' 
+s.CollectionMenuMenu1 = 
   '<div class="ui ignored message">\n' +
   '  <p>Starting in <code>2.0</code> menus now use flexbox. This allows each menu item to automatically stretch to the size of the largest item.\n' +
   '</p></div>\n' +
@@ -20117,8 +20206,8 @@ s.CollectionMenuMenu1 =
   '  <a class="active item">Editorials</a>\n' +
   '  <a class="item">Reviews</a>\n' +
   '  <a class="item">Upcoming Events</a>\n' +
-  '</div>'
-s.CollectionMenuVerticalMenu4 =
+  '</div>' 
+s.CollectionMenuVerticalMenu4 = 
   '<div class="ui vertical pointing menu">\n' +
   '  <a class="active item">\n' +
   '    Home\n' +
@@ -20129,8 +20218,8 @@ s.CollectionMenuVerticalMenu4 =
   '  <a class="item">\n' +
   '    Friends\n' +
   '  </a>\n' +
-  '</div>'
-s.CollectionMenuFitted1 =
+  '</div>' 
+s.CollectionMenuFitted1 = 
   '<div class="ui menu">\n' +
   '  <div class="fitted item">\n' +
   '    No padding whatsoever\n' +
@@ -20141,8 +20230,8 @@ s.CollectionMenuFitted1 =
   '  <div class="vertically fitted item">\n' +
   '    No vertical padding\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenu4 =
+  '</div>' 
+s.CollectionMenu4 = 
   '<div class="ui massive vertical menu">\n' +
   '  <a class="active item">\n' +
   '    <div class="ui small teal label">1</div>\n' +
@@ -20162,8 +20251,8 @@ s.CollectionMenu4 =
   '      <i class="search icon"></i>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMenuTabular5 =
+  '</div>' 
+s.CollectionMenuTabular5 = 
   '<div class="ui grid">\n' +
   '  <div class="twelve wide stretched column">\n' +
   '    <div class="ui segment">\n' +
@@ -20186,8 +20275,8 @@ s.CollectionMenuTabular5 =
   '      </a>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormDisabledField1 =
+  '</div>' 
+s.CollectionFormDisabledField1 = 
   '<div class="ui form">\n' +
   '  <div class="two fields">\n' +
   '    <div class="disabled field">\n' +
@@ -20199,8 +20288,8 @@ s.CollectionFormDisabledField1 =
   '      <input placeholder="Disabled" type="text" disabled="disabled" tabindex="-1"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormSize3 =
+  '</div>' 
+s.CollectionFormSize3 = 
   '<div class="ui small form">\n' +
   '  <div class="two fields">\n' +
   '    <div class="field">\n' +
@@ -20213,8 +20302,8 @@ s.CollectionFormSize3 =
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="ui submit button">Submit</div>\n' +
-  '</div>'
-s.CollectionFormGroupedFields1 =
+  '</div>' 
+s.CollectionFormGroupedFields1 = 
   '<div class="ui form">\n' +
   '  <div class="grouped fields">\n' +
   '    <div class="field">\n' +
@@ -20242,8 +20331,8 @@ s.CollectionFormGroupedFields1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormSize1 =
+  '</div>' 
+s.CollectionFormSize1 = 
   '<div class="ui mini form">\n' +
   '  <div class="two fields">\n' +
   '    <div class="field">\n' +
@@ -20256,8 +20345,8 @@ s.CollectionFormSize1 =
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="ui submit button">Submit</div>\n' +
-  '</div>'
-s.CollectionFormTextArea1 =
+  '</div>' 
+s.CollectionFormTextArea1 = 
   '<div class="ui ignored info message">\n' +
   '  To specify an approximate text area size use the <code>rows</code> attribute.\n' +
   '</div>\n' +
@@ -20270,15 +20359,15 @@ s.CollectionFormTextArea1 =
   '    <label>Short Text</label>\n' +
   '    <textarea rows="2"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormInlineField1 =
+  '</div>' 
+s.CollectionFormInlineField1 = 
   '<div class="ui form">\n' +
   '  <div class="inline field">\n' +
   '    <label>Last name</label>\n' +
   '    <input type="text" placeholder="Full Name"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormSize4 =
+  '</div>' 
+s.CollectionFormSize4 = 
   '<div class="ui large form">\n' +
   '  <div class="two fields">\n' +
   '    <div class="field">\n' +
@@ -20291,8 +20380,8 @@ s.CollectionFormSize4 =
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="ui submit button">Submit</div>\n' +
-  '</div>'
-s.CollectionFormReadOnlyField1 =
+  '</div>' 
+s.CollectionFormReadOnlyField1 = 
   '<div class="ui form">\n' +
   '  <div class="two fields">\n' +
   '    <div class="field">\n' +
@@ -20304,8 +20393,8 @@ s.CollectionFormReadOnlyField1 =
   '      <input placeholder="Read Only" readonly="readonly" type="text"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormDropdown1 =
+  '</div>' 
+s.CollectionFormDropdown1 = 
   '<div class="ui ignored info message">\n' +
   '  Dropdown will automatically convert <code>select</code> elements initialized as dropdowns. For more details check out <a href="/modules/dropdown.html#usage">the dropdown docs</a>\n' +
   '</div>\n' +
@@ -20327,8 +20416,8 @@ s.CollectionFormDropdown1 =
   '          </div>\n' +
   '      </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormCalendar1 =
+  '</div>' 
+s.CollectionFormCalendar1 = 
   '<div class="code" data-type="javascript" data-label="true">\n' +
   '  $(\'.ui.calendar\').calendar({\n' +
   '    type: \'date\'\n' +
@@ -20344,8 +20433,8 @@ s.CollectionFormCalendar1 =
   '      </div>        \n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormSize5 =
+  '</div>' 
+s.CollectionFormSize5 = 
   '<div class="ui big form">\n' +
   '  <div class="two fields">\n' +
   '    <div class="field">\n' +
@@ -20358,8 +20447,8 @@ s.CollectionFormSize5 =
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="ui submit button">Submit</div>\n' +
-  '</div>'
-s.CollectionFormSuccess1 =
+  '</div>' 
+s.CollectionFormSuccess1 = 
   '<div class="ui form success">\n' +
   '  <div class="field">\n' +
   '    <label>E-mail</label>\n' +
@@ -20370,8 +20459,8 @@ s.CollectionFormSuccess1 =
   '    <p>You\'re all signed up for the newsletter.</p>\n' +
   '  </div>\n' +
   '  <div class="ui submit button">Submit</div>\n' +
-  '</div>'
-s.CollectionFormLoading1 =
+  '</div>' 
+s.CollectionFormLoading1 = 
   '<div class="ui ignored info message"><code>elastic</code> as loading style is currently not supported  because form uses the <code>:before</code> pseudoclass to dimm the background.</div>\n' +
   '<div class="ui loading form">\n' +
   '  <div class="field">\n' +
@@ -20386,8 +20475,8 @@ s.CollectionFormLoading1 =
   '      <input type="email" placeholder="joe@schmoe.com"/>\n' +
   '  </div>\n' +
   '<div class="ui submit button">Submit</div>\n' +
-  '  </div>'
-s.CollectionFormForm1 =
+  '  </div>' 
+s.CollectionFormForm1 = 
   '<div class="ui ignored warning message">\n' +
   '  <p>If you are looking for validation you should check out <a href="/behaviors/form.html">form behaviors</a>.</p>\n' +
   '</div>\n' +
@@ -20407,8 +20496,8 @@ s.CollectionFormForm1 =
   '    </div>\n' +
   '  </div>\n' +
   '  <button class="ui button" type="submit">Submit</button>\n' +
-  '</form>'
-s.CollectionFormForm2 =
+  '</form>' 
+s.CollectionFormForm2 = 
   '<div class="ui ignored hidden divider"/>\n' +
   '<form class="ui form">\n' +
   '  <h4 class="ui dividing header">Shipping Information</h4>\n' +
@@ -20551,8 +20640,8 @@ s.CollectionFormForm2 =
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="ui button" tabindex="0">Submit Order</div>\n' +
-  '</form>'
-s.CollectionFormRequired1 =
+  '</form>' 
+s.CollectionFormRequired1 = 
   '<div class="ui form">\n' +
   '  <div class="required field">\n' +
   '    <label>Last name</label>\n' +
@@ -20564,8 +20653,8 @@ s.CollectionFormRequired1 =
   '      <label>I agree to the terms and conditions</label>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormSize2 =
+  '</div>' 
+s.CollectionFormSize2 = 
   '<div class="ui tiny form">\n' +
   '  <div class="two fields">\n' +
   '    <div class="field">\n' +
@@ -20578,8 +20667,8 @@ s.CollectionFormSize2 =
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="ui submit button">Submit</div>\n' +
-  '</div>'
-s.CollectionFormEqualWidthForm1 =
+  '</div>' 
+s.CollectionFormEqualWidthForm1 = 
   '<div class="ui equal width form">\n' +
   '  <div class="fields">\n' +
   '    <div class="field">\n' +
@@ -20605,8 +20694,8 @@ s.CollectionFormEqualWidthForm1 =
   '      <input type="text" placeholder="Last Name"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormInlineFields1 =
+  '</div>' 
+s.CollectionFormInlineFields1 = 
   '<div class="ui form">\n' +
   '  <div class="inline fields">\n' +
   '    <label>Phone Number</label>\n' +
@@ -20620,8 +20709,8 @@ s.CollectionFormInlineFields1 =
   '      <input type="text" placeholder="xxxx"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormFields3 =
+  '</div>' 
+s.CollectionFormFields3 = 
   '<div class="ui form">\n' +
   '  <div class="inline fields">\n' +
   '    <div class="eight wide field">\n' +
@@ -20635,8 +20724,8 @@ s.CollectionFormFields3 =
   '      <input type="text" placeholder="Last Name"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormMultipleSelect1 =
+  '</div>' 
+s.CollectionFormMultipleSelect1 = 
   '<div class="ui form">\n' +
   '  <div class="field">\n' +
   '    <label>Country</label>\n' +
@@ -20893,8 +20982,8 @@ s.CollectionFormMultipleSelect1 =
   '      <option value="ZW">Zimbabwe</option>\n' +
   '    </select>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormHTMLSelect1 =
+  '</div>' 
+s.CollectionFormHTMLSelect1 = 
   '<div class="ui form">\n' +
   '  <div class="field">\n' +
   '    <select>\n' +
@@ -20903,8 +20992,8 @@ s.CollectionFormHTMLSelect1 =
   '      <option value="0">Female</option>\n' +
   '    </select>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormEqualWidthFields1 =
+  '</div>' 
+s.CollectionFormEqualWidthFields1 = 
   '<div class="ui form">\n' +
   '  <div class="fields">\n' +
   '    <div class="field">\n' +
@@ -20930,8 +21019,8 @@ s.CollectionFormEqualWidthFields1 =
   '      <input type="text" placeholder="Last Name"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormRadioCheckbox1 =
+  '</div>' 
+s.CollectionFormRadioCheckbox1 = 
   '<div class="evaluated code" data-type="javascript" data-label="true">\n' +
   '$(\'.ui.radio.checkbox\')\n' +
   '  .checkbox()\n' +
@@ -20992,8 +21081,8 @@ s.CollectionFormRadioCheckbox1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormWidth1 =
+  '</div>' 
+s.CollectionFormWidth1 = 
   '<div class="ui form">\n' +
   '  <div class="fields">\n' +
   '    <div class="six wide field">\n' +
@@ -21031,8 +21120,8 @@ s.CollectionFormWidth1 =
   '      <input type="text" placeholder="2 Wide"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormFields1 =
+  '</div>' 
+s.CollectionFormFields1 = 
   '<div class="ui ignored positive message">\n' +
   '  Field groups automatically receive responsive styling, swapping to one field per row on mobile devices.\n' +
   '</div>\n' +
@@ -21051,8 +21140,8 @@ s.CollectionFormFields1 =
   '      <input type="text" placeholder="Last Name"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormInverted1 =
+  '</div>' 
+s.CollectionFormInverted1 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted form">\n' +
   '    <div class="two fields">\n' +
@@ -21073,8 +21162,8 @@ s.CollectionFormInverted1 =
   '    </div>\n' +
   '    <div class="ui submit button">Submit</div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormCheckbox1 =
+  '</div>' 
+s.CollectionFormCheckbox1 = 
   '<div class="ui ignored info message">\n' +
   '  UI checkbox are special, styled versions of standard HTML checkboxes.\n' +
   '</div>\n' +
@@ -21103,8 +21192,8 @@ s.CollectionFormCheckbox1 =
   '      <label>Toggle</label>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormDropdown2 =
+  '</div>' 
+s.CollectionFormDropdown2 = 
   '<div class="ui form">\n' +
   '  <div class="field">\n' +
   '    <label>Country</label>\n' +
@@ -21361,15 +21450,15 @@ s.CollectionFormDropdown2 =
   '      <option value="ZW">Zimbabwe</option>\n' +
   '    </select>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormField1 =
+  '</div>' 
+s.CollectionFormField1 = 
   '<div class="ui form">\n' +
   '  <div class="field">\n' +
   '    <label>User Input</label>\n' +
   '    <input type="text"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormMessage1 =
+  '</div>' 
+s.CollectionFormMessage1 = 
   '<div class="ui ignored info message">\n' +
   '  Any <code>info</code>, <code>error</code>, <code>success</code>, or <code>warning</code> message blocks found inside a form are hidden by default.\n' +
   '</div>\n' +
@@ -21381,8 +21470,8 @@ s.CollectionFormMessage1 =
   '      <li>Please enter your last name</li>\n' +
   '    </ul>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormSize6 =
+  '</div>' 
+s.CollectionFormSize6 = 
   '<div class="ui huge form">\n' +
   '  <div class="two fields">\n' +
   '    <div class="field">\n' +
@@ -21395,8 +21484,8 @@ s.CollectionFormSize6 =
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="ui submit button">Submit</div>\n' +
-  '</div>'
-s.CollectionFormFieldError1 =
+  '</div>' 
+s.CollectionFormFieldError1 = 
   '<div class="ui form">\n' +
   '  <div class="two fields">\n' +
   '    <div class="field error">\n' +
@@ -21426,8 +21515,8 @@ s.CollectionFormFieldError1 =
   '      <label>I agree to the Terms and Conditions</label>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormFields2 =
+  '</div>' 
+s.CollectionFormFields2 = 
   '<div class="ui form">\n' +
   '  <div class="three fields">\n' +
   '    <div class="field">\n' +
@@ -21443,8 +21532,8 @@ s.CollectionFormFields2 =
   '      <input type="text" placeholder="Last Name"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormWarning1 =
+  '</div>' 
+s.CollectionFormWarning1 = 
   '<div class="ui form warning">\n' +
   '  <div class="field">\n' +
   '    <label>E-mail</label>\n' +
@@ -21457,8 +21546,8 @@ s.CollectionFormWarning1 =
   '    </ul>\n' +
   '  </div>\n' +
   '  <div class="ui submit button">Submit</div>\n' +
-  '</div>'
-s.CollectionFormError1 =
+  '</div>' 
+s.CollectionFormError1 = 
   '<div class="ui form error">\n' +
   '  <div class="field">\n' +
   '    <label>E-mail</label>\n' +
@@ -21469,8 +21558,8 @@ s.CollectionFormError1 =
   '    <p>You can only sign up for an account once with a given e-mail address.</p>\n' +
   '  </div>\n' +
   '  <div class="ui submit button">Submit</div>\n' +
-  '</div>'
-s.CollectionFormSize7 =
+  '</div>' 
+s.CollectionFormSize7 = 
   '<div class="ui massive form">\n' +
   '  <div class="two fields">\n' +
   '    <div class="field">\n' +
@@ -21483,15 +21572,15 @@ s.CollectionFormSize7 =
   '    </div>\n' +
   '  </div>\n' +
   '  <div class="ui submit button">Submit</div>\n' +
-  '</div>'
-s.CollectionFormTransparentTextarea1 =
+  '</div>' 
+s.CollectionFormTransparentTextarea1 = 
   '<div class="ui form">\n' +
   '  <div class="field">\n' +
   '    <label>Description</label>\n' +
   '    <textarea class="transparent" placeholder="Transparent textarea" cols="30" rows="3"/>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormEvenlyDivided1 =
+  '</div>' 
+s.CollectionFormEvenlyDivided1 = 
   '<div class="ui form">\n' +
   '  <div class="three fields">\n' +
   '    <div class="field">\n' +
@@ -21507,8 +21596,8 @@ s.CollectionFormEvenlyDivided1 =
   '      <input type="text" placeholder="Last Name"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionFormInlineFields2 =
+  '</div>' 
+s.CollectionFormInlineFields2 = 
   '<div class="ui form">\n' +
   '  <div class="inline fields">\n' +
   '    <label>What\'s your favorite fruit?</label>\n' +
@@ -21537,8 +21626,8 @@ s.CollectionFormInlineFields2 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMessageIconMessage2 =
+  '</div>' 
+s.CollectionMessageIconMessage2 = 
   '<div class="ui icon message">\n' +
   '  <i class="notched circle loading icon"></i>\n' +
   '  <div class="content">\n' +
@@ -21547,12 +21636,12 @@ s.CollectionMessageIconMessage2 =
   '    </div>\n' +
   '    <p>We\'re fetching that content for you.</p>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMessageFloating1 =
+  '</div>' 
+s.CollectionMessageFloating1 = 
   '<div class="ui floating message">\n' +
   '  <p>Way to go!</p>\n' +
-  '</div>'
-s.CollectionMessageListMessage1 =
+  '</div>' 
+s.CollectionMessageListMessage1 = 
   '<div class="ui message">\n' +
   '  <div class="header">\n' +
   '    New Site Features\n' +
@@ -21561,16 +21650,16 @@ s.CollectionMessageListMessage1 =
   '    <li>You can now have cover images on blog pages</li>\n' +
   '    <li>Drafts will now auto-save while writing</li>\n' +
   '  </ul>\n' +
-  '</div>'
-s.CollectionMessageCompact1 =
+  '</div>' 
+s.CollectionMessageCompact1 = 
   '<div class="ui compact message">\n' +
   '  <p>Get all the best inventions in your e-mail every day. Sign up now!</p>\n' +
-  '</div>'
-s.CollectionMessageVisible1 =
+  '</div>' 
+s.CollectionMessageVisible1 = 
   '<div class="ui visible message">\n' +
   '  <p>You can always see me</p>\n' +
-  '</div>'
-s.CollectionMessageSize1 =
+  '</div>' 
+s.CollectionMessageSize1 = 
   '<div class="ui mini message">\n' +
   '  This is a mini message.\n' +
   '</div>\n' +
@@ -21591,8 +21680,8 @@ s.CollectionMessageSize1 =
   '</div>\n' +
   '<div class="ui massive message">\n' +
   '  This is massive\n' +
-  '</div>'
-s.CollectionMessageAttached1 =
+  '</div>' 
+s.CollectionMessageAttached1 = 
   '<div class="ui attached message">\n' +
   '  <div class="header">\n' +
   '    Welcome to our site!\n' +
@@ -21629,22 +21718,22 @@ s.CollectionMessageAttached1 =
   '<div class="ui bottom attached warning message">\n' +
   '  <i class="icon help"></i>\n' +
   '  Already signed up? <a href="#">Login here</a> instead.\n' +
-  '</div>'
-s.CollectionMessageNegativeError1 =
+  '</div>' 
+s.CollectionMessageNegativeError1 = 
   '<div class="ui negative message">\n' +
   '  <i class="close icon"></i>\n' +
   '  <div class="header">\n' +
   '    We\'re sorry we can\'t apply that discount\n' +
   '  </div>\n' +
   '  <p>That offer has expired</p>\n' +
-  '</div>'
-s.CollectionMessageHidden1 =
+  '</div>' 
+s.CollectionMessageHidden1 = 
   '<div class="existing code">\n' +
   '  <div class="ui hidden message">\n' +
   '    <p>You can\'t see me</p>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMessageColored1 =
+  '</div>' 
+s.CollectionMessageColored1 = 
   '<div class="ui red message">Red</div>\n' +
   '<div class="ui orange message">Orange</div>\n' +
   '<div class="ui yellow message">Yellow</div>\n' +
@@ -21656,8 +21745,8 @@ s.CollectionMessageColored1 =
   '<div class="ui purple message">Purple</div>\n' +
   '<div class="ui pink message">Pink</div>\n' +
   '<div class="ui brown message">Brown</div>\n' +
-  '<div class="ui black message">Black</div>'
-s.CollectionMessageDismissableBlock1 =
+  '<div class="ui black message">Black</div>' 
+s.CollectionMessageDismissableBlock1 = 
   '<div class="ui message">\n' +
   '  <i class="close icon"></i>\n' +
   '  <div class="header">\n' +
@@ -21677,23 +21766,23 @@ s.CollectionMessageDismissableBlock1 =
   '    })\n' +
   '  ;\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMessagePositiveSuccess2 =
+  '</div>' 
+s.CollectionMessagePositiveSuccess2 = 
   '<div class="ui success message">\n' +
   '  <i class="close icon"></i>\n' +
   '  <div class="header">\n' +
   '    Your user registration was successful.\n' +
   '  </div>\n' +
   '  <p>You may now log-in with the username you have chosen</p>\n' +
-  '</div>'
-s.CollectionMessageMessage1 =
+  '</div>' 
+s.CollectionMessageMessage1 = 
   '<div class="ui message">\n' +
   '  <div class="header">\n' +
   '    Changes in Service\n' +
   '  </div>\n' +
   '  <p>We just updated our privacy policy here to better service our customers. We recommend reviewing the changes.</p>\n' +
-  '</div>'
-s.CollectionMessagePositiveSuccess1 =
+  '</div>' 
+s.CollectionMessagePositiveSuccess1 = 
   '<b class="ignored">\n' +
   '  <i class="attention icon"></i>\n' +
   '  Positive/Success and Negative/Error messages by default use similar colors, but each has their own color  variables that can be distinguished in your theme.\n' +
@@ -21704,16 +21793,16 @@ s.CollectionMessagePositiveSuccess1 =
   '    You are eligible for a reward\n' +
   '  </div>\n' +
   '  <p>Go to your <b>special offers</b> page to see now.</p>\n' +
-  '</div>'
-s.CollectionMessageWarning1 =
+  '</div>' 
+s.CollectionMessageWarning1 = 
   '<div class="ui warning message">\n' +
   '  <i class="close icon"></i>\n' +
   '  <div class="header">\n' +
   '    You must register before you can do that!\n' +
   '  </div>\n' +
   '  Visit our registration page, then try again\n' +
-  '</div>'
-s.CollectionMessageIconMessage1 =
+  '</div>' 
+s.CollectionMessageIconMessage1 = 
   '<div class="ui icon message">\n' +
   '  <i class="inbox icon"></i>\n' +
   '  <div class="content">\n' +
@@ -21722,8 +21811,8 @@ s.CollectionMessageIconMessage1 =
   '    </div>\n' +
   '    <p>Get the best news in your e-mail every day.</p>\n' +
   '  </div>\n' +
-  '</div>'
-s.CollectionMessageNegativeError2 =
+  '</div>' 
+s.CollectionMessageNegativeError2 = 
   '<div class="ui error message">\n' +
   '  <i class="close icon"></i>\n' +
   '  <div class="header">\n' +
@@ -21733,8 +21822,8 @@ s.CollectionMessageNegativeError2 =
   '    <li>You must include both a upper and lower case letters in your password.</li>\n' +
   '    <li>You need to select your home country.</li>\n' +
   '  </ul>\n' +
-  '</div>'
-s.CollectionMessageInfo1 =
+  '</div>' 
+s.CollectionMessageInfo1 = 
   '<div class="ui info message">\n' +
   '  <i class="close icon"></i>\n' +
   '  <div class="header">\n' +
@@ -21744,8 +21833,8 @@ s.CollectionMessageInfo1 =
   '    <li>It\'s good to see you again.</li>\n' +
   '    <li>Did you know it\'s been a while?</li>\n' +
   '  </ul>\n' +
-  '</div>'
-s.CollectionTableTable1 =
+  '</div>' 
+s.CollectionTableTable1 = 
   '<div class="ui ignored positive message">\n' +
   '  Tables will automatically stack their layouts for mobile devices. To disable this behavior, use the <code>unstackable</code> variation or <code>tablet stackable</code> to allow responsive adjustments for tablet.\n' +
   '</div>\n' +
@@ -21772,8 +21861,8 @@ s.CollectionTableTable1 =
   '      <td data-label="Job">Designer</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableSize1 =
+  '</table>' 
+s.CollectionTableSize1 = 
   '<table class="ui small table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -21804,8 +21893,8 @@ s.CollectionTableSize1 =
   '    <th>2 Approved</th>\n' +
   '    <th/>\n' +
   '  </tfoot>\n' +
-  '</table>'
-s.CollectionTableVerticalAlignment1 =
+  '</table>' 
+s.CollectionTableVerticalAlignment1 = 
   '<table class="ui striped table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -21834,8 +21923,8 @@ s.CollectionTableVerticalAlignment1 =
   '      </td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableTable3 =
+  '</table>' 
+s.CollectionTableTable3 = 
   '<table class="ui very basic collapsing celled table">\n' +
   '  <thead>\n' +
   '    <th>Employee</th>\n' +
@@ -21899,8 +21988,8 @@ s.CollectionTableTable3 =
   '      </td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableTextAlignment1 =
+  '</table>' 
+s.CollectionTableTextAlignment1 = 
   '<table class="ui striped table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -21926,8 +22015,8 @@ s.CollectionTableTextAlignment1 =
   '      <td class="right aligned">None</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableInverted1 =
+  '</table>' 
+s.CollectionTableInverted1 = 
   '<table class="ui inverted table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -21958,8 +22047,8 @@ s.CollectionTableInverted1 =
   '    <th>2 Approved</th>\n' +
   '    <th/>\n' +
   '  </tfoot>\n' +
-  '</table>'
-s.CollectionTableDisabled1 =
+  '</table>' 
+s.CollectionTableDisabled1 = 
   '<table class="ui celled table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -21990,8 +22079,8 @@ s.CollectionTableDisabled1 =
   '      <td>None</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableSize2 =
+  '</table>' 
+s.CollectionTableSize2 = 
   '<table class="ui large table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -22022,8 +22111,8 @@ s.CollectionTableSize2 =
   '    <th>2 Approved</th>\n' +
   '    <th/>\n' +
   '  </tfoot>\n' +
-  '</table>'
-s.CollectionTableWarning1 =
+  '</table>' 
+s.CollectionTableWarning1 = 
   '<table class="ui celled table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -22054,8 +22143,8 @@ s.CollectionTableWarning1 =
   '      <td>None</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableBasic1 =
+  '</table>' 
+s.CollectionTableBasic1 = 
   '<table class="ui basic table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -22081,8 +22170,8 @@ s.CollectionTableBasic1 =
   '      <td>None</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableInverted2 =
+  '</table>' 
+s.CollectionTableInverted2 = 
   '<table class="ui inverted red table">\n' +
   '  <thead>\n' +
   '    <th>Food</th>\n' +
@@ -22298,8 +22387,8 @@ s.CollectionTableInverted2 =
   '      <td>0g</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableSelectableRow1 =
+  '</table>' 
+s.CollectionTableSelectableRow1 = 
   '<table class="ui selectable celled table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -22340,8 +22429,8 @@ s.CollectionTableSelectableRow1 =
   '      <td>None</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableActive1 =
+  '</table>' 
+s.CollectionTableActive1 = 
   '<table class="ui celled table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -22372,8 +22461,8 @@ s.CollectionTableActive1 =
   '      <td>None</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableColoredCells1 =
+  '</table>' 
+s.CollectionTableColoredCells1 = 
   '<table class="ui celled table">\n' +
   '  <thead>\n' +
   '  <tr>\n' +
@@ -22404,8 +22493,8 @@ s.CollectionTableColoredCells1 =
   '    <td class="green">Vacation</td>\n' +
   '  </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableCelled1 =
+  '</table>' 
+s.CollectionTableCelled1 = 
   '<table class="ui celled table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -22436,8 +22525,8 @@ s.CollectionTableCelled1 =
   '    <th>2 Approved</th>\n' +
   '    <th/>\n' +
   '  </tfoot>\n' +
-  '</table>'
-s.CollectionTableColumnWidth1 =
+  '</table>' 
+s.CollectionTableColumnWidth1 = 
   '<div class="ui ignored info message">Tables use a 16 column grid similar to <a href="/collections/grid.html">ui grid</a></div>\n' +
   '<table class="ui table">\n' +
   '  <thead>\n' +
@@ -22462,8 +22551,8 @@ s.CollectionTableColumnWidth1 =
   '    <th>3 People</th>\n' +
   '    <th>2 Approved</th>\n' +
   '  </tfoot>\n' +
-  '</table>'
-s.CollectionTableBasic2 =
+  '</table>' 
+s.CollectionTableBasic2 = 
   '<table class="ui very basic table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -22489,8 +22578,8 @@ s.CollectionTableBasic2 =
   '      <td>None</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableCollapsing1 =
+  '</table>' 
+s.CollectionTableCollapsing1 = 
   '<table class="ui collapsing table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -22521,8 +22610,8 @@ s.CollectionTableCollapsing1 =
   '    <th>2 Approved</th>\n' +
   '    <th/>\n' +
   '  </tfoot>\n' +
-  '</table>'
-s.CollectionTableStructured1 =
+  '</table>' 
+s.CollectionTableStructured1 = 
   '<div class="ui ignored info message">\n' +
   '  <p>UI tables use <code>border-collapse: separate</code> to allow for tables to receive styles that cannot usually be applied to tables like <code>border-radius</code>. However this can cause some cell borders to appear missing with complex layouts that use <code>rowspan</code> or <code>colspan</code> and rows with varying column count.</p>\n' +
   '  <p><code>ui structured table</code> does not support some style features, but can correctly display all valid HTML table content.</p>\n' +
@@ -22581,8 +22670,8 @@ s.CollectionTableStructured1 =
   '      <td/>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableSelectableRow2 =
+  '</table>' 
+s.CollectionTableSelectableRow2 = 
   '<table class="ui selectable inverted table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -22608,8 +22697,8 @@ s.CollectionTableSelectableRow2 =
   '      <td class="right aligned">None</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableSingleLine1 =
+  '</table>' 
+s.CollectionTableSingleLine1 = 
   '<table class="ui single line table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -22639,8 +22728,8 @@ s.CollectionTableSingleLine1 =
   '      <td>Yes</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableTable4 =
+  '</table>' 
+s.CollectionTableTable4 = 
   '<table class="ui celled striped table">\n' +
   '  <thead>\n' +
   '    <th colspan="3">\n' +
@@ -22684,8 +22773,8 @@ s.CollectionTableTable4 =
   '      <td class="right aligned">10 hours ago</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableFullWidthHeaderFooter1 =
+  '</table>' 
+s.CollectionTableFullWidthHeaderFooter1 = 
   '<table class="ui compact celled definition table">\n' +
   '  <thead class="full-width">\n' +
   '    <tr>\n' +
@@ -22747,8 +22836,8 @@ s.CollectionTableFullWidthHeaderFooter1 =
   '      </th>\n' +
   '    </tr>\n' +
   '  </tfoot>\n' +
-  '</table>'
-s.CollectionTableSelectableCell1 =
+  '</table>' 
+s.CollectionTableSelectableCell1 = 
   '<div class="ui ignored info message">Using an <code>a</code> link inside a selectable cell will automatically make the hit box the entire cell area. By default links will inherit their cell color.</div>\n' +
   '<table class="ui celled table">\n' +
   '  <thead>\n' +
@@ -22802,8 +22891,8 @@ s.CollectionTableSelectableCell1 =
   '      </td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableFixed2 =
+  '</table>' 
+s.CollectionTableFixed2 = 
   '<div class="ui ignored info message">\n' +
   '  Fixed <code>single line</code> tables will automatically ensure content that does not fit in a single line will receive "..." ellipsis\n' +
   '</div>\n' +
@@ -22830,8 +22919,8 @@ s.CollectionTableFixed2 =
   '      <td>Shorter description</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableFixed1 =
+  '</table>' 
+s.CollectionTableFixed1 = 
   '<table class="ui fixed table">\n' +
   '  <thead>\n' +
   '    <th>Name</th>\n' +
@@ -22855,8 +22944,8 @@ s.CollectionTableFixed1 =
   '      <td>Jill is an alright girl but sometimes you don\'t really have enough room to describe everything you\'d like</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableSortable1 =
+  '</table>' 
+s.CollectionTableSortable1 = 
   '<div class="ui ignored warning message">Adding the class <code>ascending</code> or <code>descending</code> to the <code>th</code> will show the user the sorting direction. This example uses a modified version of the kylefox\'s <a href="https://github.com/kylefox/jquery-tablesort">tablesort plugin</a> to provide the proper class names. To make sortable tables work, include <a href="http://semantic-ui.com/javascript/library/tablesort.js">this javascript</a> into your page and call <code>$(\'table\').tablesort()</code> when the DOM is ready.\n' +
   '</div>\n' +
   '<table class="ui sortable celled table">\n' +
@@ -22889,8 +22978,8 @@ s.CollectionTableSortable1 =
   '    <th>2 Approved</th>\n' +
   '    <th/>\n' +
   '  </tfoot>\n' +
-  '</table>'
-s.CollectionTableCompact2 =
+  '</table>' 
+s.CollectionTableCompact2 = 
   '<table class="ui very compact table">\n' +
   '  <thead>\n' +
   '    <th>Name</th>\n' +
@@ -22948,8 +23037,8 @@ s.CollectionTableCompact2 =
   '      <td>Requires call</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableCollapsingCell1 =
+  '</table>' 
+s.CollectionTableCollapsingCell1 = 
   '<div class="ui ignored warning icon message">\n' +
   '  <i class="warning icon"></i>\n' +
   '  <div class="content">\n' +
@@ -22980,8 +23069,8 @@ s.CollectionTableCollapsingCell1 =
   '      <td>10 hours ago</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableDefinition1 =
+  '</table>' 
+s.CollectionTableDefinition1 = 
   '<div class="ui ignored info message">Definition tables are designed to display on a single background color. You can adjust this by changing <code>@definitionPageBackground</code>, or specifying a background color on the first cell</div>\n' +
   '<table class="ui definition table">\n' +
   '  <thead>\n' +
@@ -23000,8 +23089,8 @@ s.CollectionTableDefinition1 =
   '      <td>rating (integer)</td>\n' +
   '      <td>Sets the current star rating to specified value</td>\n' +
   '    </tr>\n' +
-  '</tbody></table>'
-s.CollectionTableTable2 =
+  '</tbody></table>' 
+s.CollectionTableTable2 = 
   '<table class="ui celled padded table">\n' +
   '  <thead>\n' +
   '    <th class="single line">Evidence Rating</th>\n' +
@@ -23060,8 +23149,8 @@ s.CollectionTableTable2 =
   '      </div>\n' +
   '    </th>\n' +
   '  </tfoot>\n' +
-  '</table>'
-s.CollectionTableDefinition2 =
+  '</table>' 
+s.CollectionTableDefinition2 = 
   '<table class="ui compact celled definition table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -23123,8 +23212,8 @@ s.CollectionTableDefinition2 =
   '      </th>\n' +
   '    </tr>\n' +
   '  </tfoot>\n' +
-  '</table>'
-s.CollectionTablePadded2 =
+  '</table>' 
+s.CollectionTablePadded2 = 
   '<table class="ui very padded table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -23145,8 +23234,8 @@ s.CollectionTablePadded2 =
   '      <td>Jamie was not interested in purchasing our product.</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTablePositiveNegative1 =
+  '</table>' 
+s.CollectionTablePositiveNegative1 = 
   '<table class="ui celled table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -23177,8 +23266,8 @@ s.CollectionTablePositiveNegative1 =
   '      <td>None</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableCompact1 =
+  '</table>' 
+s.CollectionTableCompact1 = 
   '<table class="ui compact table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -23229,8 +23318,8 @@ s.CollectionTableCompact1 =
   '      <td>Requires call</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableError1 =
+  '</table>' 
+s.CollectionTableError1 = 
   '<table class="ui celled table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -23261,8 +23350,8 @@ s.CollectionTableError1 =
   '      <td>None</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableColored1 =
+  '</table>' 
+s.CollectionTableColored1 = 
   '<table class="ui red table">\n' +
   '  <thead>\n' +
   '    <th>Food</th>\n' +
@@ -23478,8 +23567,8 @@ s.CollectionTableColored1 =
   '      <td>0g</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableStacking1 =
+  '</table>' 
+s.CollectionTableStacking1 = 
   '<table class="ui unstackable table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -23531,8 +23620,8 @@ s.CollectionTableStacking1 =
   '      <td class="right aligned">None</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTablePadded1 =
+  '</table>' 
+s.CollectionTablePadded1 = 
   '<table class="ui padded table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -23553,8 +23642,8 @@ s.CollectionTablePadded1 =
   '      <td>Jamie was not interested in purchasing our product.</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableStriped1 =
+  '</table>' 
+s.CollectionTableStriped1 = 
   '<table class="ui striped table">\n' +
   '  <thead>\n' +
   '    <tr>\n' +
@@ -23614,8 +23703,8 @@ s.CollectionTableStriped1 =
   '      <td>No</td>\n' +
   '    </tr>\n' +
   '  </tbody>\n' +
-  '</table>'
-s.CollectionTableColumnCount1 =
+  '</table>' 
+s.CollectionTableColumnCount1 = 
   '<table class="ui five column table">\n' +
   '  <thead>\n' +
   '    <th>Name</th>\n' +
@@ -23654,30 +23743,30 @@ s.CollectionTableColumnCount1 =
   '    <th/>\n' +
   '    <th/>\n' +
   '  </tfoot>\n' +
-  '</table>'
-s.CollectionBreadcrumbActive1 =
+  '</table>' 
+s.CollectionBreadcrumbActive1 = 
   '<div class="ui breadcrumb">\n' +
   '  <a class="section">Products</a>\n' +
   '  <div class="divider"> / </div>\n' +
   '  <div class="active section">Paper Towels</div>\n' +
-  '</div>'
-s.CollectionBreadcrumbDivider2 =
+  '</div>' 
+s.CollectionBreadcrumbDivider2 = 
   '<div class="ui breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
   '  <i class="right arrow icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
-  '</div>'
-s.CollectionBreadcrumbSize5 =
+  '</div>' 
+s.CollectionBreadcrumbSize5 = 
   '<div class="ui big breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
-  '</div>'
-s.CollectionBreadcrumbInverted1 =
+  '</div>' 
+s.CollectionBreadcrumbInverted1 = 
   '<div class="ui inverted segment">\n' +
   '    <div class="ui inverted breadcrumb">\n' +
   '        <a class="section">Home</a>\n' +
@@ -23694,92 +23783,92 @@ s.CollectionBreadcrumbInverted1 =
   '        <i class="right chevron icon divider"></i>\n' +
   '        <div class="active section">Personal Information</div>\n' +
   '    </div>\n' +
-  '</div>'
-s.CollectionBreadcrumbLink1 =
+  '</div>' 
+s.CollectionBreadcrumbLink1 = 
   '<div class="ui breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
   '  <div class="divider"> / </div>\n' +
   '  <div class="active section">Search for: <a href="#">paper towels</a></div>\n' +
-  '</div>'
-s.CollectionBreadcrumbSize1 =
+  '</div>' 
+s.CollectionBreadcrumbSize1 = 
   '<div class="ui mini breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
-  '</div>'
-s.CollectionBreadcrumbSize4 =
+  '</div>' 
+s.CollectionBreadcrumbSize4 = 
   '<div class="ui large breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
-  '</div>'
-s.CollectionBreadcrumbSize7 =
+  '</div>' 
+s.CollectionBreadcrumbSize7 = 
   '<div class="ui massive breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
-  '</div>'
-s.CollectionBreadcrumbSection1 =
+  '</div>' 
+s.CollectionBreadcrumbSection1 = 
   '<div class="ui breadcrumb">\n' +
   '  <div class="section">Home</div>\n' +
   '  <div class="divider"> / </div>\n' +
   '  <div class="active section">Search</div>\n' +
-  '</div>'
-s.CollectionBreadcrumbSize3 =
+  '</div>' 
+s.CollectionBreadcrumbSize3 = 
   '<div class="ui small breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
-  '</div>'
-s.CollectionBreadcrumbSize2 =
+  '</div>' 
+s.CollectionBreadcrumbSize2 = 
   '<div class="ui tiny breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
-  '</div>'
-s.CollectionBreadcrumbBreadcrumb2 =
+  '</div>' 
+s.CollectionBreadcrumbBreadcrumb2 = 
   '<div class="ui breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
   '  <i class="right angle icon divider"></i>\n' +
   '  <a class="section">Store</a>\n' +
   '  <i class="right angle icon divider"></i>\n' +
   '  <div class="active section">T-Shirt</div>\n' +
-  '</div>'
-s.CollectionBreadcrumbDivider1 =
+  '</div>' 
+s.CollectionBreadcrumbDivider1 = 
   '<div class="ui breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
   '  <span class="divider">/</span>\n' +
   '  <a class="section">Registration</a>\n' +
   '  <span class="divider">/</span>\n' +
   '  <div class="active section">Personal Information</div>\n' +
-  '</div>'
-s.CollectionBreadcrumbBreadcrumb1 =
+  '</div>' 
+s.CollectionBreadcrumbBreadcrumb1 = 
   '<div class="ui breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
   '  <div class="divider"> / </div>\n' +
   '  <a class="section">Store</a>\n' +
   '  <div class="divider"> / </div>\n' +
   '  <div class="active section">T-Shirt</div>\n' +
-  '</div>'
-s.CollectionBreadcrumbSize6 =
+  '</div>' 
+s.CollectionBreadcrumbSize6 = 
   '<div class="ui huge breadcrumb">\n' +
   '  <a class="section">Home</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <a class="section">Registration</a>\n' +
   '  <i class="right chevron icon divider"></i>\n' +
   '  <div class="active section">Personal Information</div>\n' +
-  '</div>'
-s.ViewFeedFeed1 =
+  '</div>' 
+s.ViewFeedFeed1 = 
   '<div class="ui feed">\n' +
   '  <div class="event">\n' +
   '    <div class="label">\n' +
@@ -23886,8 +23975,8 @@ s.ViewFeedFeed1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewFeedDate1 =
+  '</div>' 
+s.ViewFeedDate1 = 
   '<div class="ui feed">\n' +
   '  <div class="event">\n' +
   '    <div class="label">\n' +
@@ -23902,8 +23991,8 @@ s.ViewFeedDate1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewFeedLabel1 =
+  '</div>' 
+s.ViewFeedLabel1 = 
   '<div class="ui feed">\n' +
   '  <div class="event">\n' +
   '    <div class="label">\n' +
@@ -23913,8 +24002,8 @@ s.ViewFeedLabel1 =
   '      You added Elliot Fu to the group <a>Coworkers</a>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewFeedAdditionalinformation1 =
+  '</div>' 
+s.ViewFeedAdditionalinformation1 = 
   '<div class="ui feed">\n' +
   '  <div class="event">\n' +
   '    <div class="label">\n' +
@@ -23949,8 +24038,8 @@ s.ViewFeedAdditionalinformation1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewFeedDate2 =
+  '</div>' 
+s.ViewFeedDate2 = 
   '<div class="ui feed">\n' +
   '  <div class="event">\n' +
   '    <div class="label">\n' +
@@ -23965,8 +24054,8 @@ s.ViewFeedDate2 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewFeedSize1 =
+  '</div>' 
+s.ViewFeedSize1 = 
   '<div class="ui small feed">\n' +
   '  <h4 class="ui header">Followers Activity</h4>\n' +
   '  <div class="event">\n' +
@@ -23997,8 +24086,8 @@ s.ViewFeedSize1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewFeedLabel2 =
+  '</div>' 
+s.ViewFeedLabel2 = 
   '<div class="ui feed">\n' +
   '  <div class="event">\n' +
   '    <div class="label">\n' +
@@ -24011,8 +24100,8 @@ s.ViewFeedLabel2 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewFeedSize2 =
+  '</div>' 
+s.ViewFeedSize2 = 
   '<div class="ui large feed">\n' +
   '  <div class="event">\n' +
   '    <div class="label">\n' +
@@ -24203,31 +24292,31 @@ s.ViewFeedSize2 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewAdvertisementAd1 =
-  'bad template'
-s.ViewAdvertisementLeaderboards1 =
+  '</div>' 
+s.ViewAdvertisementAd1 = 
+  'bad template' 
+s.ViewAdvertisementLeaderboards1 = 
   '<div class="ui leaderboard test ad" data-text="Leaderboard"/>\n' +
   '<div class="ui large leaderboard test ad" data-text="Large Leaderboard"/>\n' +
-  '<div class="ui billboard test ad" data-text="Billboard"/>'
-s.ViewAdvertisementRectangle1 =
+  '<div class="ui billboard test ad" data-text="Billboard"/>' 
+s.ViewAdvertisementRectangle1 = 
   '<div class="ui vertical rectangle test ad" data-text="Vertical Rectangle"/>\n' +
-  '<div class="ui small rectangle test ad" data-text="Small Rectangle"/>'
-s.ViewAdvertisementButton1 =
+  '<div class="ui small rectangle test ad" data-text="Small Rectangle"/>' 
+s.ViewAdvertisementButton1 = 
   '<div class="ui button test ad" data-text="Button"/>\n' +
   '<div class="ui square button test ad" data-text="Square Button"/>\n' +
-  '<div class="ui small button test ad" data-text="Small Button"/>'
-s.ViewAdvertisementSkyscraper1 =
+  '<div class="ui small button test ad" data-text="Small Button"/>' 
+s.ViewAdvertisementSkyscraper1 = 
   '<div class="ui skyscraper test ad" data-text="Skyscraper"/>\n' +
-  '<div class="ui wide skyscraper test ad" data-text="Wide Skyscraper"/>'
-s.ViewAdvertisementNetboard1 =
-  '<div class="ui netboard test ad" data-text="Netboard"/>'
-s.ViewAdvertisementBanner1 =
+  '<div class="ui wide skyscraper test ad" data-text="Wide Skyscraper"/>' 
+s.ViewAdvertisementNetboard1 = 
+  '<div class="ui netboard test ad" data-text="Netboard"/>' 
+s.ViewAdvertisementBanner1 = 
   '<div class="ui banner test ad" data-text="Banner"/>\n' +
   '<div class="ui vertical banner test ad" data-text="Vertical Banner"/>\n' +
   '<div class="ui top banner test ad" data-text="Top Banner"/>\n' +
-  '<div class="ui half banner test ad" data-text="Half Banner"/>'
-s.ViewAdvertisementCommonUnits1 =
+  '<div class="ui half banner test ad" data-text="Half Banner"/>' 
+s.ViewAdvertisementCommonUnits1 = 
   '<div class="ui ignored info message">\n' +
   '  These additional examples use the <code>test</code> variation to appear on the page. <code>ui ad</code> is best used as a wrapper for third party ad network content like <a href="http://www.google.com/adsense/start/" target="_blank">AdSense</a> or <a href="http://www.google.com/doubleclick/publishers/welcome/" target="_blank">DoubleClick</a>.\n' +
   '</div>\n' +
@@ -24235,21 +24324,21 @@ s.ViewAdvertisementCommonUnits1 =
   '<div class="ui banner test ad" data-text="Banner"/>\n' +
   '<div class="ui leaderboard test ad" data-text="Leaderboard"/>\n' +
   '<div class="ui large rectangle test ad" data-text="Large Rectangle"/>\n' +
-  '<div class="ui half page test ad" data-text="Half Page"/>'
-s.ViewAdvertisementMobile1 =
+  '<div class="ui half page test ad" data-text="Half Page"/>' 
+s.ViewAdvertisementMobile1 = 
   '<div class="ui ignored info message">Mobile ads will automatically only appear on mobile browser viewports</div>\n' +
   '<div class="ui mobile leaderboard test ad" data-text="Mobile Leaderboard"/>\n' +
-  '<div class="ui mobile banner test ad" data-text="Mobile Banner"/>'
-s.ViewAdvertisementTest1 =
+  '<div class="ui mobile banner test ad" data-text="Mobile Banner"/>' 
+s.ViewAdvertisementTest1 = 
   '<div class="ui info ignored message">You can adjust the text displayed for your test ad placement by changing the value of <code>data-text</code>\n' +
   '</div>\n' +
   '<div class="ui medium rectangle test ad" data-text="Ad Unit 1"/>\n' +
-  '<div class="ui medium rectangle test ad" data-text="Ad Unit 2"/>'
-s.ViewAdvertisementPanorama1 =
-  '<div class="ui panorama test ad" data-text="Panorama"/>'
-s.ViewAdvertisementCentered1 =
-  '<div class="ui centered banner test ad"/>'
-s.ViewItemInverted1 =
+  '<div class="ui medium rectangle test ad" data-text="Ad Unit 2"/>' 
+s.ViewAdvertisementPanorama1 = 
+  '<div class="ui panorama test ad" data-text="Panorama"/>' 
+s.ViewAdvertisementCentered1 = 
+  '<div class="ui centered banner test ad"/>' 
+s.ViewItemInverted1 = 
   '<div class="ui ignored info message">\n' +
   '  <i class="info icon"></i>\n' +
   '  You need to make sure to set a dark background on your own or wrap your items in an <code>inverted segment</code>\n' +
@@ -24287,8 +24376,8 @@ s.ViewItemInverted1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewItemRelaxed1 =
+  '</div>' 
+s.ViewItemRelaxed1 = 
   '<FuiItems relaxed>\n' +
   '  <FuiItem>\n' +
   '    <FuiImage tag=div size=tiny>\n' +
@@ -24314,8 +24403,8 @@ s.ViewItemRelaxed1 =
   '      <a class="header">Watchmen</a>\n' +
   '    </FuiContent>\n' +
   '  </FuiItem>\n' +
-  '</FuiItems>'
-s.ViewItemMetadata1 =
+  '</FuiItems>' 
+s.ViewItemMetadata1 = 
   '<div class="ui ignored info message">\n' +
   '  <i class="info icon"></i>\n' +
   '  You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
@@ -24366,8 +24455,8 @@ s.ViewItemMetadata1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewItemImage1 =
+  '</div>' 
+s.ViewItemImage1 = 
   '<FuiItems divided>\n' +
   '  <FuiItem>\n' +
   '    <FuiImage tag=div>\n' +
@@ -24384,8 +24473,8 @@ s.ViewItemImage1 =
   '      <img src="/images/wireframe/image.png">\n' +
   '    </FuiImage>\n' +
   '  </FuiItem>\n' +
-  '</FuiItems>'
-s.ViewItemExtraContent1 =
+  '</FuiItems>' 
+s.ViewItemExtraContent1 = 
   '<div class="ui items">\n' +
   '  <div class="item">\n' +
   '    <div class="content">\n' +
@@ -24400,8 +24489,8 @@ s.ViewItemExtraContent1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewItemDivided1 =
+  '</div>' 
+s.ViewItemDivided1 = 
   '<div class="ui ignored info message">\n' +
   '  <i class="info icon"></i>\n' +
   '  The following example uses <a href="/elements/segment.html">ui</a> for legibility only. This is not necessary for using <code>ui items</code>\n' +
@@ -24466,8 +24555,8 @@ s.ViewItemDivided1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewItemStacking1 =
+  '</div>' 
+s.ViewItemStacking1 = 
   '<div class="ui unstackable items">\n' +
   '  <div class="item">\n' +
   '    <div class="image">\n' +
@@ -24503,8 +24592,8 @@ s.ViewItemStacking1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewItemLinkItem1 =
+  '</div>' 
+s.ViewItemLinkItem1 = 
   '<div class="ui link items">\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
@@ -24539,8 +24628,8 @@ s.ViewItemLinkItem1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewItemContent1 =
+  '</div>' 
+s.ViewItemContent1 = 
   '<div class="ui divided items">\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
@@ -24566,8 +24655,8 @@ s.ViewItemContent1 =
   '      Content C\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewItemRating1 =
+  '</div>' 
+s.ViewItemRating1 = 
   '<div class="ui items">\n' +
   '  <div class="item">\n' +
   '    <a class="ui tiny image">\n' +
@@ -24591,8 +24680,8 @@ s.ViewItemRating1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewItemHeader1 =
+  '</div>' 
+s.ViewItemHeader1 = 
   '<div class="ui items">\n' +
   '  <div class="item">\n' +
   '    <div class="ui tiny image">\n' +
@@ -24618,8 +24707,8 @@ s.ViewItemHeader1 =
   '      <a class="header">Watchmen</a>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewItemRelaxed2 =
+  '</div>' 
+s.ViewItemRelaxed2 = 
   '<FuiItems relaxed=very>\n' +
   '  <FuiItem>\n' +
   '    <FuiImage tag=div size=tiny>\n' +
@@ -24645,8 +24734,8 @@ s.ViewItemRelaxed2 =
   '      <a class="header">Watchmen</a>\n' +
   '    </FuiContent>\n' +
   '  </FuiItem>\n' +
-  '</FuiItems>'
-s.ViewItemDescription1 =
+  '</FuiItems>' 
+s.ViewItemDescription1 = 
   '<div class="ui items">\n' +
   '  <div class="item">\n' +
   '    <a class="ui small image">\n' +
@@ -24660,8 +24749,8 @@ s.ViewItemDescription1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewItemLink1 =
+  '</div>' 
+s.ViewItemLink1 = 
   '<div class="ui yellow message">\n' +
   '  <i class="star icon"></i>\n' +
   '  To make the entire content of an item link, check out the link variation below\n' +
@@ -24700,8 +24789,8 @@ s.ViewItemLink1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewItemFloatedContent1 =
+  '</div>' 
+s.ViewItemFloatedContent1 = 
   '<div class="ui ignored info message">\n' +
   '  <i class="info icon"></i>\n' +
   '  You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
@@ -24761,8 +24850,8 @@ s.ViewItemFloatedContent1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewItemItems1 =
+  '</div>' 
+s.ViewItemItems1 = 
   '<FuiItems>\n' +
   '  <FuiItem>\n' +
   '    <div class="image">\n' +
@@ -24798,8 +24887,8 @@ s.ViewItemItems1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </FuiItem>\n' +
-  '</FuiItems>'
-s.ViewItemVerticalAlignment1 =
+  '</FuiItems>' 
+s.ViewItemVerticalAlignment1 = 
   '<div class="ui ignored info message">\n' +
   '  <i class="info icon"></i>\n' +
   '  You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
@@ -24835,8 +24924,8 @@ s.ViewItemVerticalAlignment1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewStatisticStatistic1 =
+  '</div>' 
+s.ViewStatisticStatistic1 = 
   '<div class="ui statistic">\n' +
   '  <div class="value">\n' +
   '    5,550\n' +
@@ -24844,8 +24933,8 @@ s.ViewStatisticStatistic1 =
   '  <div class="label">\n' +
   '    Downloads\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewStatisticValue1 =
+  '</div>' 
+s.ViewStatisticValue1 = 
   '<div class="ui statistics">\n' +
   '  <div class="statistic">\n' +
   '    <div class="value">\n' +
@@ -24881,8 +24970,8 @@ s.ViewStatisticValue1 =
   '      Team Members\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewStatisticFloated1 =
+  '</div>' 
+s.ViewStatisticFloated1 = 
   '<div class="ui segment">\n' +
   '  <div class="ui right floated statistic">\n' +
   '    <div class="value">\n' +
@@ -24904,8 +24993,8 @@ s.ViewStatisticFloated1 =
   '  </div>\n' +
   '  <p>Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.</p>\n' +
   '  <p>Audiam quaerendum eu sea, pro omittam definiebas ex. Te est latine definitiones. Quot wisi nulla ex duo. Vis sint solet expetenda ne, his te phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide phaedrum, vim vivendum maiestatis in.</p>\n' +
-  '</div>'
-s.ViewStatisticInverted1 =
+  '</div>' 
+s.ViewStatisticInverted1 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted statistic">\n' +
   '    <div class="value">\n' +
@@ -25011,8 +25100,8 @@ s.ViewStatisticInverted1 =
   '      Grey\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewStatisticHorizontalStatistic2 =
+  '</div>' 
+s.ViewStatisticHorizontalStatistic2 = 
   '<div class="ui horizontal statistics">\n' +
   '  <div class="statistic">\n' +
   '    <div class="value">\n' +
@@ -25038,8 +25127,8 @@ s.ViewStatisticHorizontalStatistic2 =
   '      Tasks\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewStatisticSize2 =
+  '</div>' 
+s.ViewStatisticSize2 = 
   '<div class="ui ignored divider"/>\n' +
   '<div class="ui mini horizontal statistic">\n' +
   '  <div class="value">\n' +
@@ -25093,8 +25182,8 @@ s.ViewStatisticSize2 =
   '  <div class="label">\n' +
   '    Views\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewStatisticHorizontalStatistic1 =
+  '</div>' 
+s.ViewStatisticHorizontalStatistic1 = 
   '<div class="ui horizontal statistic">\n' +
   '  <div class="value">\n' +
   '    2,204\n' +
@@ -25102,8 +25191,8 @@ s.ViewStatisticHorizontalStatistic1 =
   '  <div class="label">\n' +
   '    Views\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewStatisticEvenlyDivided1 =
+  '</div>' 
+s.ViewStatisticEvenlyDivided1 = 
   '<div class="ui four statistics">\n' +
   '  <div class="statistic">\n' +
   '    <div class="value">\n' +
@@ -25139,8 +25228,8 @@ s.ViewStatisticEvenlyDivided1 =
   '      Team Members\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewStatisticSize1 =
+  '</div>' 
+s.ViewStatisticSize1 = 
   '<div class="ui mini statistic">\n' +
   '  <div class="value">\n' +
   '    2,204\n' +
@@ -25188,8 +25277,8 @@ s.ViewStatisticSize1 =
   '  <div class="label">\n' +
   '    Views\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewStatisticStatistic2 =
+  '</div>' 
+s.ViewStatisticStatistic2 = 
   '<div class="ui statistic">\n' +
   '  <div class="label">\n' +
   '    Views\n' +
@@ -25197,8 +25286,8 @@ s.ViewStatisticStatistic2 =
   '  <div class="value">\n' +
   '    40,509\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewStatisticColored1 =
+  '</div>' 
+s.ViewStatisticColored1 = 
   '<div class="ui statistics">\n' +
   '  <div class="red statistic">\n' +
   '    <div class="value">\n' +
@@ -25296,8 +25385,8 @@ s.ViewStatisticColored1 =
   '      Grey\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewStatisticLabel1 =
+  '</div>' 
+s.ViewStatisticLabel1 = 
   '<div class="ui statistic">\n' +
   '  <div class="value">\n' +
   '    2,204\n' +
@@ -25305,8 +25394,8 @@ s.ViewStatisticLabel1 =
   '  <div class="label">\n' +
   '    Views\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewStatisticStatisticGroup1 =
+  '</div>' 
+s.ViewStatisticStatisticGroup1 = 
   '<div class="ui statistics">\n' +
   '  <div class="statistic">\n' +
   '    <div class="value">\n' +
@@ -25332,8 +25421,8 @@ s.ViewStatisticStatisticGroup1 =
   '      Members\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewStatisticStackable1 =
+  '</div>' 
+s.ViewStatisticStackable1 = 
   '<div class="ui stackable statistics">\n' +
   '  <div class="red statistic">\n' +
   '    <div class="value">\n' +
@@ -25431,8 +25520,8 @@ s.ViewStatisticStackable1 =
   '      Grey\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardColumnCount1 =
+  '</div>' 
+s.ViewCardColumnCount1 = 
   '<div class="ui four cards">\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
@@ -25506,8 +25595,8 @@ s.ViewCardColumnCount1 =
   '      <div class="ui yellow rating" data-rating="4"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardCards2 =
+  '</div>' 
+s.ViewCardCards2 = 
   '<div class="ui link cards">\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
@@ -25578,8 +25667,8 @@ s.ViewCardCards2 =
   '      </span>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardRaisedCard1 =
+  '</div>' 
+s.ViewCardRaisedCard1 = 
   '<div class="ui raised card">\n' +
   '  <div class="content">\n' +
   '    <div class="header">Cute Dog</div>\n' +
@@ -25595,8 +25684,8 @@ s.ViewCardRaisedCard1 =
   '      <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/> Matt\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardDoubling1 =
+  '</div>' 
+s.ViewCardDoubling1 = 
   '<div class="ui ignored warning message">Resize your browser to a smaller size to see the cards stack after reaching mobile breakpoints</div>\n' +
   '<div class="ui six doubling cards">\n' +
   '  <div class="card">\n' +
@@ -25629,8 +25718,8 @@ s.ViewCardDoubling1 =
   '      <img src="/images/avatar/large/steve.jpg"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardHeader1 =
+  '</div>' 
+s.ViewCardHeader1 = 
   '<div class="ui cards">\n' +
   '  <div class="card">\n' +
   '    <div class="content">\n' +
@@ -25659,8 +25748,8 @@ s.ViewCardHeader1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardCard1 =
+  '</div>' 
+s.ViewCardCard1 = 
   '<div class="ui ignored warning message">\n' +
   '  To ensure cards are equal height use the plural, <a href="#cards"><code>cards</code></a>. Card groups automatically uses <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes" target="_blank">flex</a> styles to match height between cards in the same row.\n' +
   '</div>\n' +
@@ -25683,8 +25772,8 @@ s.ViewCardCard1 =
   '      22 Friends\n' +
   '    </a>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardImage2 =
+  '</div>' 
+s.ViewCardImage2 = 
   '<div class="evaluated code" data-type="javascript">\n' +
   '$(\'.special.cards .image\').dimmer({\n' +
   '  on: \'hover\'\n' +
@@ -25739,8 +25828,8 @@ s.ViewCardImage2 =
   '      </a>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardButtons1 =
+  '</div>' 
+s.ViewCardButtons1 = 
   '<div class="ui cards">\n' +
   '  <div class="card">\n' +
   '    <div class="content">\n' +
@@ -25778,8 +25867,8 @@ s.ViewCardButtons1 =
   '      Add Friend\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardLink1 =
+  '</div>' 
+s.ViewCardLink1 = 
   '<div class="ui ignored info message">To make the entire content of a card link, check out the link variation below\n' +
   '</div>\n' +
   '<div class="ui card">\n' +
@@ -25792,8 +25881,8 @@ s.ViewCardLink1 =
   '      <a>Last Seen 2 days ago</a>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardColored1 =
+  '</div>' 
+s.ViewCardColored1 = 
   '<div class="ui four cards">\n' +
   '  <a class="primary card">\n' +
   '    <div class="image">\n' +
@@ -25870,8 +25959,8 @@ s.ViewCardColored1 =
   '      <img src="/images/wireframe/white-image.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </a>\n' +
-  '</div>'
-s.ViewCardMetadata1 =
+  '</div>' 
+s.ViewCardMetadata1 = 
   '<div class="ui ignored info message">\n' +
   '  <i class="info icon"></i>\n' +
   '  You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
@@ -25885,8 +25974,8 @@ s.ViewCardMetadata1 =
   '    </div>\n' +
   '    <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardInverted1 =
+  '</div>' 
+s.ViewCardInverted1 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted cards">\n' +
   '    <div class="card">\n' +
@@ -25959,8 +26048,8 @@ s.ViewCardInverted1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardLinkCard2 =
+  '</div>' 
+s.ViewCardLinkCard2 = 
   '<div class="ui link card">\n' +
   '  <div class="content">\n' +
   '    <div class="header">Cute Dog</div>\n' +
@@ -25976,8 +26065,8 @@ s.ViewCardLinkCard2 =
   '      <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/> Matt\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardApproval1 =
+  '</div>' 
+s.ViewCardApproval1 = 
   '<div class="ui card">\n' +
   '  <div class="content">\n' +
   '    <i class="right floated like icon"></i>\n' +
@@ -25997,8 +26086,8 @@ s.ViewCardApproval1 =
   '      Favorite\n' +
   '    </span>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardFloatedContent1 =
+  '</div>' 
+s.ViewCardFloatedContent1 = 
   '<div class="ui ignored info message">\n' +
   '  <i class="info icon"></i>\n' +
   '  You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
@@ -26019,8 +26108,8 @@ s.ViewCardFloatedContent1 =
   '      <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/> Matt\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardHorizontalCards2 =
+  '</div>' 
+s.ViewCardHorizontalCards2 = 
   '<div class="ui horizontal cards">\n' +
   '  <div class="card">\n' +
   '    <div class="image">\n' +
@@ -26050,8 +26139,8 @@ s.ViewCardHorizontalCards2 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardStackable1 =
+  '</div>' 
+s.ViewCardStackable1 = 
   '<div class="ui ignored warning message">Resize your browser to a smaller size to see the cards stack after reaching mobile breakpoints</div>\n' +
   '<div class="ui three stackable cards">\n' +
   '  <div class="card">\n' +
@@ -26084,8 +26173,8 @@ s.ViewCardStackable1 =
   '      <img src="/images/avatar/large/steve.jpg"/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardRaisedCard2 =
+  '</div>' 
+s.ViewCardRaisedCard2 = 
   '<div class="ui raised link card">\n' +
   '  <div class="content">\n' +
   '    <div class="header">Cute Dog</div>\n' +
@@ -26101,8 +26190,8 @@ s.ViewCardRaisedCard2 =
   '      <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/> Matt\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardExtraContent1 =
+  '</div>' 
+s.ViewCardExtraContent1 = 
   '<div class="ui card">\n' +
   '  <div class="content">\n' +
   '    <div class="header">Cute Dog</div>\n' +
@@ -26116,8 +26205,8 @@ s.ViewCardExtraContent1 =
   '    <i class="check icon"></i>\n' +
   '    121 Votes\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardCenteredCard1 =
+  '</div>' 
+s.ViewCardCenteredCard1 = 
   '<div class="ui centered card">\n' +
   '  <div class="image">\n' +
   '    <img src="/images/avatar2/large/elyse.png">\n' +
@@ -26125,8 +26214,8 @@ s.ViewCardCenteredCard1 =
   '  <div class="content">\n' +
   '    <a class="header">Elyse</a>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardFluidCard1 =
+  '</div>' 
+s.ViewCardFluidCard1 = 
   '<div class="ui three column grid">\n' +
   '  <div class="column">\n' +
   '    <div class="ui fluid card">\n' +
@@ -26158,8 +26247,8 @@ s.ViewCardFluidCard1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardDescription1 =
+  '</div>' 
+s.ViewCardDescription1 = 
   '<div class="ui card">\n' +
   '  <div class="content">\n' +
   '    <div class="header">Cute Dog</div>\n' +
@@ -26169,8 +26258,8 @@ s.ViewCardDescription1 =
   '      <p>Many people also have their own barometers for what makes a cute dog.</p>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardTextAlignment1 =
+  '</div>' 
+s.ViewCardTextAlignment1 = 
   '<div class="ui ignored info message">\n' +
   '  <i class="info icon"></i>\n' +
   '  You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced\n' +
@@ -26187,8 +26276,8 @@ s.ViewCardTextAlignment1 =
   '      <img class="ui avatar image" src="/images/avatar/small/jenny.jpg"/> Jenny\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardHorizontalCards1 =
+  '</div>' 
+s.ViewCardHorizontalCards1 = 
   '<div class="ui horizontal card">\n' +
   '  <div class="image">\n' +
   '    <img src="/images/avatar2/large/elyse.png">\n' +
@@ -26202,8 +26291,8 @@ s.ViewCardHorizontalCards1 =
   '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardContentBlock1 =
+  '</div>' 
+s.ViewCardContentBlock1 = 
   '<div class="ui card">\n' +
   '  <div class="content">\n' +
   '    <div class="header">Project Timeline</div>\n' +
@@ -26237,8 +26326,8 @@ s.ViewCardContentBlock1 =
   '  <div class="extra content">\n' +
   '    <button class="ui button">Join Project</button>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardLinkCard1 =
+  '</div>' 
+s.ViewCardLinkCard1 = 
   '<a class="ui card" href="http://www.dog.com">\n' +
   '  <div class="content">\n' +
   '    <div class="header">Cute Dog</div>\n' +
@@ -26254,8 +26343,8 @@ s.ViewCardLinkCard1 =
   '      <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/> Matt\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</a>'
-s.ViewCardCards1 =
+  '</a>' 
+s.ViewCardCards1 = 
   '<div class="ui ignored info message">\n' +
   '  <p>Cards are designed to be flexible to your content. <code>content</code> blocks can include any custom elements related to your content.</p>\n' +
   '</div>\n' +
@@ -26300,8 +26389,8 @@ s.ViewCardCards1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardImage1 =
+  '</div>' 
+s.ViewCardImage1 = 
   '<div class="ui ignored info message">Cards can use <a href="/elements/reveal.html">reveal</a> or <a href="/modules/dimmer.html">dimmers</a> to easily show additional content, or options on hover</div>\n' +
   '<div class="ui card">\n' +
   '  <div class="ui slide masked reveal image">\n' +
@@ -26320,8 +26409,8 @@ s.ViewCardImage1 =
   '      2 Members\n' +
   '    </a>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCardCard2 =
+  '</div>' 
+s.ViewCardCard2 = 
   '<div class="ui card">\n' +
   '  <div class="content">\n' +
   '    <div class="right floated meta">14h</div>\n' +
@@ -26344,8 +26433,8 @@ s.ViewCardCard2 =
   '      <input type="text" placeholder="Add Comment..."/>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCommentInverted1 =
+  '</div>' 
+s.ViewCommentInverted1 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted threaded comments">\n' +
   '    <h3 class="ui inverted dividing header">Comments</h3>\n' +
@@ -26428,8 +26517,8 @@ s.ViewCommentInverted1 =
   '      </div>\n' +
   '    </form>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCommentThreaded1 =
+  '</div>' 
+s.ViewCommentThreaded1 = 
   '<div class="ui threaded comments">\n' +
   '  <h3 class="ui dividing header">Comments</h3>\n' +
   '  <div class="comment">\n' +
@@ -26510,8 +26599,8 @@ s.ViewCommentThreaded1 =
   '      <i class="icon edit"></i> Add Reply\n' +
   '    </div>\n' +
   '  </form>\n' +
-  '</div>'
-s.ViewCommentSize1 =
+  '</div>' 
+s.ViewCommentSize1 = 
   '<div class="ui small comments">\n' +
   '  <h3 class="ui dividing header">Comments</h3>\n' +
   '  <div class="comment">\n' +
@@ -26592,8 +26681,8 @@ s.ViewCommentSize1 =
   '      <i class="icon edit"></i> Add Reply\n' +
   '    </div>\n' +
   '  </form>\n' +
-  '</div>'
-s.ViewCommentReplyForm2 =
+  '</div>' 
+s.ViewCommentReplyForm2 = 
   '<div class="ui comments">\n' +
   '  <div class="comment">\n' +
   '    <a class="avatar">\n' +
@@ -26638,8 +26727,8 @@ s.ViewCommentReplyForm2 =
   '      <i class="icon edit"></i> Add Comment\n' +
   '    </div>\n' +
   '  </form>\n' +
-  '</div>'
-s.ViewCommentComments1 =
+  '</div>' 
+s.ViewCommentComments1 = 
   '<div class="ui ignored info attached message">\n' +
   '  <p>These examples uses <a href="/elements/segment.html">ui segment</a> to create content segments. This is not required.</p>\n' +
   '</div>\n' +
@@ -26726,8 +26815,8 @@ s.ViewCommentComments1 =
   '      <i class="icon edit"></i> Add Reply\n' +
   '    </div>\n' +
   '  </form>\n' +
-  '</div>'
-s.ViewCommentReplyForm1 =
+  '</div>' 
+s.ViewCommentReplyForm1 = 
   '<div class="ui ignored info message">\n' +
   '  <p>If a comment form is located inside a <code> ui comment</code> it will be formatted as an nested reply form. If the comment form is included after all comments, it will be formatted as a normal reply form.</p>\n' +
   '</div>\n' +
@@ -26757,8 +26846,8 @@ s.ViewCommentReplyForm1 =
   '      </form>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCommentSize2 =
+  '</div>' 
+s.ViewCommentSize2 = 
   '<div class="ui small comments">\n' +
   '  <h3 class="ui dividing header">Comments</h3>\n' +
   '  <div class="comment">\n' +
@@ -26839,8 +26928,8 @@ s.ViewCommentSize2 =
   '      <i class="icon edit"></i> Add Reply\n' +
   '    </div>\n' +
   '  </form>\n' +
-  '</div>'
-s.ViewCommentAvatar1 =
+  '</div>' 
+s.ViewCommentAvatar1 = 
   '<div class="ui comments">\n' +
   '  <div class="comment">\n' +
   '    <a class="avatar">\n' +
@@ -26850,8 +26939,8 @@ s.ViewCommentAvatar1 =
   '      <a class="author">Elliot Fu</a>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCommentMetadata1 =
+  '</div>' 
+s.ViewCommentMetadata1 = 
   '<div class="ui comments">\n' +
   '  <div class="comment">\n' +
   '    <a class="avatar">\n' +
@@ -26871,8 +26960,8 @@ s.ViewCommentMetadata1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCommentCollapsed1 =
+  '</div>' 
+s.ViewCommentCollapsed1 = 
   '<div class="ui comments">\n' +
   '  <div class="comment">\n' +
   '    <a class="avatar">\n' +
@@ -26929,8 +27018,8 @@ s.ViewCommentCollapsed1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCommentActions1 =
+  '</div>' 
+s.ViewCommentActions1 = 
   '<div class="ui comments">\n' +
   '  <div class="comment">\n' +
   '    <a class="avatar">\n' +
@@ -26952,8 +27041,8 @@ s.ViewCommentActions1 =
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>'
-s.ViewCommentMinimal1 =
+  '</div>' 
+s.ViewCommentMinimal1 = 
   '<div class="ui minimal comments">\n' +
   '  <h3 class="ui dividing header">Comments</h3>\n' +
   '  <div class="comment">\n' +
@@ -27034,5 +27123,5 @@ s.ViewCommentMinimal1 =
   '      <i class="icon edit"></i> Add Reply\n' +
   '    </div>\n' +
   '  </form>\n' +
-  '</div>'
+  '</div>' 
 export default s

@@ -1,22 +1,21 @@
 <template>
   <div>
-    <div class="ignored ui info message">Icons can be placed to the right inside a label.</div>
-    <div class="ui right icon label">
+    <FuiLabel icon=right>
       Mail
-      <i class="mail icon"></i>
-    </div>
-    <div class="ui right icon label">
+      <FuiIcon name=mail></FuiIcon>
+    </FuiLabel>
+    <FuiLabel icon=right>
       Test Passed
-      <i class="checkmark icon"></i>
-    </div>
-    <div class="ui right icon label">
+      <FuiIcon name=checkmark></FuiIcon>
+    </FuiLabel>
+    <FuiLabel icon=right>
       Dog
-      <i class="dog icon"></i>
-    </div>
-    <div class="ui right icon label">
+      <FuiIcon name=dog></FuiIcon>
+    </FuiLabel>
+    <FuiLabel icon=right>
       Cat
-      <i class="cat icon"></i>
-    </div>
+      <FuiIcon name=cat></FuiIcon>
+    </FuiLabel>
   </div>
 </template>
 
@@ -24,14 +23,13 @@
 export default {
   name: 'ElementLabelIcon2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Content',
     title2: 'Icon',
     description: 'A label can include an icon',
-    model: '    <div class="ignored ui info message">Icons can be placed to the right inside a label.</div>\n' +
-      '    <div class="ui right icon label">\n' +
+    model: '    <div class="ui right icon label">\n' +
       '      Mail\n' +
       '      <i class="mail icon"></i>\n' +
       '    </div>\n' +

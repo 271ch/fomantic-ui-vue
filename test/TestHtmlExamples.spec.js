@@ -12,7 +12,7 @@ FuiVue.registerAll(Vue)
 let converted = 0;
 let notConverted = 0;
 
-const skipElement = ['icon'];
+const skipElement = ['icon', 'flag'];
 //const skipElement = [];
 const skipTemplate = ['ViewItemImage1', 'ElementInputAction2', 'ElementInputAction3', 'ElementInputAction5'];
 

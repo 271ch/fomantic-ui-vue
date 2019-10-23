@@ -1,21 +1,21 @@
 <template>
   <div>
-    <div class="ui label">
-      <i class="mail icon"></i>
+    <FuiLabel>
+      <FuiIcon name=mail></FuiIcon>
       Mail
-    </div>
-    <div class="ui label">
-      <i class="checkmark icon"></i>
+    </FuiLabel>
+    <FuiLabel>
+      <FuiIcon name=checkmark></FuiIcon>
       Test Passed
-    </div>
-    <div class="ui label">
-      <i class="dog icon"></i>
+    </FuiLabel>
+    <FuiLabel>
+      <FuiIcon name=dog></FuiIcon>
       Dog
-    </div>
-    <div class="ui label">
-      <i class="cat icon"></i>
+    </FuiLabel>
+    <FuiLabel>
+      <FuiIcon name=cat></FuiIcon>
       Cat
-    </div>
+    </FuiLabel>
   </div>
 </template>
 
@@ -23,7 +23,7 @@
 export default {
   name: 'ElementLabelIcon1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Content',

@@ -1,10 +1,9 @@
 <template>
   <div>
-    <div class="ui label">
-      <i class="mail icon"></i>
+    <FuiLabel detailA="View Mail">
+      <FuiIcon name=mail></FuiIcon>
       23
-      <a class="detail">View Mail</a>
-    </div>
+    </FuiLabel>
   </div>
 </template>
 
@@ -12,7 +11,7 @@
 export default {
   name: 'ElementLabelLink2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Content',

@@ -1,20 +1,17 @@
 <template>
   <div>
-    <div class="ui image label">
-      <img src="/images/avatar/small/ade.jpg"/>
+    <FuiLabel image="/images/avatar/small/ade.jpg">
       Adrienne
-      <i class="delete icon"></i>
-    </div>
-    <div class="ui image label">
-      <img src="/images/avatar/small/zoe.jpg"/>
+      <FuiIcon name=delete></FuiIcon>
+    </FuiLabel>
+    <FuiLabel image="/images/avatar/small/zoe.jpg">
       Zoe
-      <i class="delete icon"></i>
-    </div>
-    <div class="ui image label">
-      <img src="/images/avatar/small/nan.jpg"/>
+      <FuiIcon name=delete></FuiIcon>
+    </FuiLabel>
+    <FuiLabel image="/images/avatar/small/nan.jpg">
       Nan
-      <i class="delete icon"></i>
-    </div>
+      <FuiIcon name=delete></FuiIcon>
+    </FuiLabel>
   </div>
 </template>
 
@@ -22,24 +19,24 @@
 export default {
   name: 'ElementLabelImage3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Types',
     title2: 'Image',
     description: 'A label can be formatted to emphasize an image',
     model: '    <div class="ui image label">\n' +
-      '      <img src="/images/avatar/small/ade.jpg"/>\n' +
+      '      <img src="/images/avatar/small/ade.jpg">\n' +
       '      Adrienne\n' +
       '      <i class="delete icon"></i>\n' +
       '    </div>\n' +
       '    <div class="ui image label">\n' +
-      '      <img src="/images/avatar/small/zoe.jpg"/>\n' +
+      '      <img src="/images/avatar/small/zoe.jpg">\n' +
       '      Zoe\n' +
       '      <i class="delete icon"></i>\n' +
       '    </div>\n' +
       '    <div class="ui image label">\n' +
-      '      <img src="/images/avatar/small/nan.jpg"/>\n' +
+      '      <img src="/images/avatar/small/nan.jpg">\n' +
       '      Nan\n' +
       '      <i class="delete icon"></i>\n' +
       '    </div>\n',

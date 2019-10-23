@@ -1,23 +1,22 @@
 <template>
   <div>
-    <div class="ui blue labels">
-      <a class="ui label">
+    <FuiLabels color=blue>
+      <FuiLabel tag=a>
         Fun <i class="icon close"></i>
-      </a>
-      <a class="ui label">
+      </FuiLabel>
+      <FuiLabel tag=a detail="22">
         Happy
-        <div class="detail">22</div>
-      </a>
-      <a class="ui label">
+      </FuiLabel>
+      <FuiLabel tag=a>
         Smart
-      </a>
-      <a class="ui label">
+      </FuiLabel>
+      <FuiLabel tag=a>
         Insane
-      </a>
-      <a class="ui label">
+      </FuiLabel>
+      <FuiLabel tag=a>
         Exciting
-      </a>
-    </div>
+      </FuiLabel>
+    </FuiLabels>
   </div>
 </template>
 
@@ -25,7 +24,7 @@
 export default {
   name: 'ElementLabelColoredGroup1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Groups',

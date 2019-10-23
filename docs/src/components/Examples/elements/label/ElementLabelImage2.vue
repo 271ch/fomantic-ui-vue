@@ -1,20 +1,14 @@
 <template>
   <div>
-    <a class="ui blue image label">
-      <img src="/images/avatar/small/veronika.jpg"/>
+    <FuiLabel tag=a color=blue image="/images/avatar/small/veronika.jpg" detail="Friend">
       Veronika
-      <div class="detail">Friend</div>
-    </a>
-    <a class="ui teal image label">
-      <img src="/images/avatar/small/jenny.jpg"/>
+    </FuiLabel>
+    <FuiLabel tag=a color=teal image="/images/avatar/small/jenny.jpg" detail="Student">
       Veronika
-      <div class="detail">Student</div>
-    </a>
-    <a class="ui yellow image label">
-      <img src="/images/avatar/small/christian.jpg"/>
+    </FuiLabel>
+    <FuiLabel tag=a color=yellow image="/images/avatar/small/christian.jpg" detail="Co-worker">
       Helen
-      <div class="detail">Co-worker</div>
-    </a>
+    </FuiLabel>
   </div>
 </template>
 
@@ -22,24 +16,24 @@
 export default {
   name: 'ElementLabelImage2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Types',
     title2: 'Image',
     description: 'A label can be formatted to emphasize an image',
     model: '    <a class="ui blue image label">\n' +
-      '      <img src="/images/avatar/small/veronika.jpg"/>\n' +
+      '      <img src="/images/avatar/small/veronika.jpg">\n' +
       '      Veronika\n' +
       '      <div class="detail">Friend</div>\n' +
       '    </a>\n' +
       '    <a class="ui teal image label">\n' +
-      '      <img src="/images/avatar/small/jenny.jpg"/>\n' +
+      '      <img src="/images/avatar/small/jenny.jpg">\n' +
       '      Veronika\n' +
       '      <div class="detail">Student</div>\n' +
       '    </a>\n' +
       '    <a class="ui yellow image label">\n' +
-      '      <img src="/images/avatar/small/christian.jpg"/>\n' +
+      '      <img src="/images/avatar/small/christian.jpg">\n' +
       '      Helen\n' +
       '      <div class="detail">Co-worker</div>\n' +
       '    </a>\n',

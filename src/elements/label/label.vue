@@ -4,10 +4,17 @@
     :class="classes"
   >
     <img
-      v-if="image"
-      :src="imageSrc"
+      v-if="image!==false"
+      :src="image"
     >
     <slot />
+    <component
+      :is="detail?'div':'a'"
+      v-if="detail!==false||detailA!==false"
+      class="detail"
+    >
+      {{ detail || detailA }}
+    </component>
   </component>
 </template>
 
@@ -24,45 +31,60 @@ export default {
   ],
   props: {
     image: {
-      type: Boolean,
+      type: [Boolean, String],
+      validator: (value) => {
+        return value !== true;
+      },
       description: 'A label can be formatted to emphasize an image.',
+      default: false,
     },
-    imageSrc: {
-      type: String,
-      description: 'Image path.',
-      default: '',
+    detail: {
+      type: [Boolean, String],
+      validator: (value) => {
+        return value !== true;
+      },
+      description: '', // TODO: descr
+      default: false,
+    },
+    detailA: {
+      type: [Boolean, String],
+      validator: (value) => {
+        return value !== true;
+      },
+      description: '', // TODO: descr
+      default: false,
     },
     pointing: {
-      type: String,
+      type: [Boolean, String],
       description: 'A label can point to content next to it.',
       validator: (value) => {
-        return !value || Enum.PointingLabel.check(value);
+        return value === true || value === false || Enum.PointingLabel.check(value);
       },
-      default: '',
+      default: false,
     },
     corner: {
-      type: Boolean,
+      type: [Boolean, String],
       description: 'A label can position itself in the corner of an element.',
-    },
-    cornerPosition: {
-      type: String,
-      description: 'Corner position of the label.',
       validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
+        return value === false || Enum.LeftRight.check(value);
       },
-      default: '',
+      default: false,
+    },
+    icon: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
+      validator: (value) => {
+        return value === false || value === true || Enum.LeftRight.check(value);
+      },
+      default: false,
     },
     ribbon: {
-      type: Boolean,
+      type: [Boolean, String],
       description: 'A label can appear as a ribbon attaching itself to an element.',
-    },
-    ribbonPosition: {
-      type: String,
-      description: 'Ribbon position.',
       validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
+        return value === false || Enum.LeftRight.check(value);
       },
-      default: '',
+      default: false,
     },
     attached: {
       type: String,
@@ -80,6 +102,10 @@ export default {
       type: Boolean,
       description: '', // TODO: descr
     },
+    circular: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
   },
   events: {
     click: {
@@ -94,13 +120,15 @@ export default {
         this.pointing && 'pointing',
         ...this.getClassesColor,
         this.image && 'image',
-        this.corner && [this.cornerPosition, 'corner'].join(' '),
-        this.ribbonPosition !== 'left' && this.ribbonPosition,
+        this.corner,
+        this.corner && 'corner',
+        this.icon,
+        this.icon && 'icon',
+        this.ribbon,
         this.ribbon && 'ribbon',
-        // icon position
-        // icon
         this.horizontal && 'horizontal',
         this.basic && 'basic',
+        this.circular && 'circular',
         'label'
       );
     },

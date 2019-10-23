@@ -1,18 +1,18 @@
 <template>
   <div>
-    <a class="ui red circular label">2</a>
-    <a class="ui orange circular label">2</a>
-    <a class="ui yellow circular label">2</a>
-    <a class="ui olive circular label">2</a>
-    <a class="ui green circular label">2</a>
-    <a class="ui teal circular label">2</a>
-    <a class="ui blue circular label">2</a>
-    <a class="ui violet circular label">2</a>
-    <a class="ui purple circular label">2</a>
-    <a class="ui pink circular label">2</a>
-    <a class="ui brown circular label">2</a>
-    <a class="ui grey circular label">2</a>
-    <a class="ui black circular label">2</a>
+    <FuiLabel tag=a color=red circular>2</FuiLabel>
+    <FuiLabel tag=a color=orange circular>2</FuiLabel>
+    <FuiLabel tag=a color=yellow circular>2</FuiLabel>
+    <FuiLabel tag=a color=olive circular>2</FuiLabel>
+    <FuiLabel tag=a color=green circular>2</FuiLabel>
+    <FuiLabel tag=a color=teal circular>2</FuiLabel>
+    <FuiLabel tag=a color=blue circular>2</FuiLabel>
+    <FuiLabel tag=a color=violet circular>2</FuiLabel>
+    <FuiLabel tag=a color=purple circular>2</FuiLabel>
+    <FuiLabel tag=a color=pink circular>2</FuiLabel>
+    <FuiLabel tag=a color=brown circular>2</FuiLabel>
+    <FuiLabel tag=a color=grey circular>2</FuiLabel>
+    <FuiLabel tag=a color=black circular>2</FuiLabel>
   </div>
 </template>
 
@@ -20,7 +20,7 @@
 export default {
   name: 'ElementLabelCircular1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Variations',
