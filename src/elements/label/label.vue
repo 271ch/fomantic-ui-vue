@@ -27,6 +27,13 @@ export default {
   name: 'FuiLabel',
   mixins: [
     Mixins.getMixinTag(['a', 'span', 'label'], 'div'),
+    Mixins.getMixinOfBools(
+      'Emphasis',
+      {
+        primary: 'Format showing a higher level of emphasis.',
+        secondary: 'Format showing a lower level of emphasis.',
+      }
+    ),
     Mixins.PColor,
   ],
   props: {
@@ -82,7 +89,7 @@ export default {
       type: [Boolean, String],
       description: 'A label can appear as a ribbon attaching itself to an element.',
       validator: (value) => {
-        return value === false || Enum.LeftRight.check(value);
+        return value === false || value === true || Enum.LeftRight.check(value);
       },
       default: false,
     },
@@ -102,7 +109,15 @@ export default {
       type: Boolean,
       description: '', // TODO: descr
     },
+    empty: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
     circular: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
+    tagged: {
       type: Boolean,
       description: '', // TODO: descr
     },
@@ -119,6 +134,7 @@ export default {
         this.pointing !== 'above' && this.pointing,
         this.pointing && 'pointing',
         ...this.getClassesColor,
+        ...this.getClassesEmphasis,
         this.image && 'image',
         this.corner,
         this.corner && 'corner',
@@ -128,7 +144,9 @@ export default {
         this.ribbon && 'ribbon',
         this.horizontal && 'horizontal',
         this.basic && 'basic',
+        this.empty && 'empty',
         this.circular && 'circular',
+        this.tagged && 'tag',
         'label'
       );
     },

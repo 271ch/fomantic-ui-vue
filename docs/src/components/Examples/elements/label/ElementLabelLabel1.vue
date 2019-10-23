@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="ui label">
-      <i class="mail icon"></i> 23
-    </div>
+    <FuiLabel>
+      <FuiIcon name=mail></FuiIcon> 23
+    </FuiLabel>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'ElementLabelLabel1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Types',

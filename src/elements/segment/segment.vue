@@ -23,6 +23,10 @@ export default {
       type: Boolean,
       description: '',
     },
+    raised: { // TODO: descr
+      type: Boolean,
+      description: '',
+    },
     placeholder: {
       type: Boolean,
       descr: '', // TODO: descr
@@ -56,6 +60,7 @@ export default {
         this.basic && 'basic',
         this.vertical && 'vertical',
         this.placeholder && 'placeholder',
+        this.raised && 'raised',
         'segment'
       );
     },

@@ -2742,10 +2742,6 @@ s.ElementLabelRibbon4 =
   '  </div>\n' +
   '</div>' 
 s.ElementLabelAttached1 = 
-  '<div class="ui ignored warning message">\n' +
-  '  <p>Attached labels attempt to intelligently pad other content to account for their position, but may not in all cases apply this padding correctly.</p>\n' +
-  '  <p>If this happens you may need to manually correct the padding of the other elements inside the container.\n' +
-  '</p></div>\n' +
   '<div class="ui three column grid">\n' +
   '  <div class="row">\n' +
   '    <div class="column">\n' +
@@ -2797,9 +2793,9 @@ s.ElementLabelAttached1 =
   '<div class="ui bottom right attached label">Admin View</div>\n' +
   '  </div>' 
 s.ElementLabelLabel1 = 
-  '<div class="ui label">\n' +
-  '  <i class="mail icon"></i> 23\n' +
-  '</div>' 
+  '<FuiLabel>\n' +
+  '  <FuiIcon name=mail></FuiIcon> 23\n' +
+  '</FuiLabel>' 
 s.ElementLabelIcon2 = 
   '<FuiLabel icon=right>\n' +
   '  Mail\n' +
@@ -3001,37 +2997,37 @@ s.ElementLabelRibbon2 =
   '  </div>\n' +
   '</div>' 
 s.ElementLabelCircular2 = 
-  '<a class="ui red empty circular label"/>\n' +
-  '<a class="ui orange empty circular label"/>\n' +
-  '<a class="ui yellow empty circular label"/>\n' +
-  '<a class="ui olive empty circular label"/>\n' +
-  '<a class="ui green empty circular label"/>\n' +
-  '<a class="ui teal empty circular label"/>\n' +
-  '<a class="ui blue empty circular label"/>\n' +
-  '<a class="ui violet empty circular label"/>\n' +
-  '<a class="ui purple empty circular label"/>\n' +
-  '<a class="ui pink empty circular label"/>\n' +
-  '<a class="ui brown empty circular label"/>\n' +
-  '<a class="ui grey empty circular label"/>\n' +
-  '<a class="ui black empty circular label"/>' 
+  '<FuiLabel tag=a color=red empty circular></FuiLabel>\n' +
+  '<FuiLabel tag=a color=orange empty circular></FuiLabel>\n' +
+  '<FuiLabel tag=a color=yellow empty circular></FuiLabel>\n' +
+  '<FuiLabel tag=a color=olive empty circular></FuiLabel>\n' +
+  '<FuiLabel tag=a color=green empty circular></FuiLabel>\n' +
+  '<FuiLabel tag=a color=teal empty circular></FuiLabel>\n' +
+  '<FuiLabel tag=a color=blue empty circular></FuiLabel>\n' +
+  '<FuiLabel tag=a color=violet empty circular></FuiLabel>\n' +
+  '<FuiLabel tag=a color=purple empty circular></FuiLabel>\n' +
+  '<FuiLabel tag=a color=pink empty circular></FuiLabel>\n' +
+  '<FuiLabel tag=a color=brown empty circular></FuiLabel>\n' +
+  '<FuiLabel tag=a color=grey empty circular></FuiLabel>\n' +
+  '<FuiLabel tag=a color=black empty circular></FuiLabel>' 
 s.ElementLabelCircularGroup1 = 
-  '<div class="ui circular labels">\n' +
-  '  <a class="ui label">\n' +
+  '<FuiLabels circular>\n' +
+  '  <FuiLabel tag=a>\n' +
   '    11\n' +
-  '  </a>\n' +
-  '  <a class="ui label">\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
   '    22\n' +
-  '  </a>\n' +
-  '  <a class="ui label">\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
   '    33\n' +
-  '  </a>\n' +
-  '  <a class="ui label">\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
   '    44\n' +
-  '  </a>\n' +
-  '  <a class="ui label">\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
   '    141\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiLabel>\n' +
+  '</FuiLabels>' 
 s.ElementLabelFloating1 = 
   '<div class="ui ignored warning message">A floating label must be positioned inside a container with <b>position: relative</b> to display properly.</div>\n' +
   '<div class="ui compact menu">\n' +
@@ -3093,22 +3089,22 @@ s.ElementLabelLink1 =
   '  <i class="mail icon"></i> 23\n' +
   '</a>' 
 s.ElementLabelBasicTagLabels1 = 
-  '<a class="ui basic tag label">Standard Tag</a>\n' +
-  '<a class="ui primary basic tag label">Primary</a>\n' +
-  '<a class="ui secondary basic tag label">Secondary</a>\n' +
-  '<a class="ui red basic tag label">Red</a>\n' +
-  '<a class="ui orange basic tag label">Orange</a>\n' +
-  '<a class="ui yellow basic tag label">Yellow</a>\n' +
-  '<a class="ui olive basic tag label">Olive</a>\n' +
-  '<a class="ui green basic tag label">Green</a>\n' +
-  '<a class="ui teal basic tag label">Teal</a>\n' +
-  '<a class="ui blue basic tag label">Blue</a>\n' +
-  '<a class="ui violet basic tag label">Violet</a>\n' +
-  '<a class="ui purple basic tag label">Purple</a>\n' +
-  '<a class="ui pink basic tag label">Pink</a>\n' +
-  '<a class="ui brown basic tag label">Brown</a>\n' +
-  '<a class="ui grey basic tag label">Grey</a>\n' +
-  '<a class="ui black basic tag label">Black</a>' 
+  '<FuiLabel tag=a basic tagged>Standard Tag</FuiLabel>\n' +
+  '<FuiLabel tag=a primary basic tagged>Primary</FuiLabel>\n' +
+  '<FuiLabel tag=a secondary basic tagged>Secondary</FuiLabel>\n' +
+  '<FuiLabel tag=a color=red basic tagged>Red</FuiLabel>\n' +
+  '<FuiLabel tag=a color=orange basic tagged>Orange</FuiLabel>\n' +
+  '<FuiLabel tag=a color=yellow basic tagged>Yellow</FuiLabel>\n' +
+  '<FuiLabel tag=a color=olive basic tagged>Olive</FuiLabel>\n' +
+  '<FuiLabel tag=a color=green basic tagged>Green</FuiLabel>\n' +
+  '<FuiLabel tag=a color=teal basic tagged>Teal</FuiLabel>\n' +
+  '<FuiLabel tag=a color=blue basic tagged>Blue</FuiLabel>\n' +
+  '<FuiLabel tag=a color=violet basic tagged>Violet</FuiLabel>\n' +
+  '<FuiLabel tag=a color=purple basic tagged>Purple</FuiLabel>\n' +
+  '<FuiLabel tag=a color=pink basic tagged>Pink</FuiLabel>\n' +
+  '<FuiLabel tag=a color=brown basic tagged>Brown</FuiLabel>\n' +
+  '<FuiLabel tag=a color=grey basic tagged>Grey</FuiLabel>\n' +
+  '<FuiLabel tag=a color=black basic tagged>Black</FuiLabel>' 
 s.ElementLabelImage3 = 
   '<FuiLabel image="/images/avatar/small/ade.jpg">\n' +
   '  Adrienne\n' +
@@ -3240,21 +3236,21 @@ s.ElementLabelCircular1 =
   '<FuiLabel tag=a color=grey circular>2</FuiLabel>\n' +
   '<FuiLabel tag=a color=black circular>2</FuiLabel>' 
 s.ElementLabelColored1 = 
-  '<a class="ui primary label">Primary</a>\n' +
-  '<a class="ui secondary label">Secondary</a>\n' +
-  '<a class="ui red label">Red</a>\n' +
-  '<a class="ui orange label">Orange</a>\n' +
-  '<a class="ui yellow label">Yellow</a>\n' +
-  '<a class="ui olive label">Olive</a>\n' +
-  '<a class="ui green label">Green</a>\n' +
-  '<a class="ui teal label">Teal</a>\n' +
-  '<a class="ui blue label">Blue</a>\n' +
-  '<a class="ui violet label">Violet</a>\n' +
-  '<a class="ui purple label">Purple</a>\n' +
-  '<a class="ui pink label">Pink</a>\n' +
-  '<a class="ui brown label">Brown</a>\n' +
-  '<a class="ui grey label">Grey</a>\n' +
-  '<a class="ui black label">Black</a>' 
+  '<FuiLabel tag=a primary>Primary</FuiLabel>\n' +
+  '<FuiLabel tag=a secondary>Secondary</FuiLabel>\n' +
+  '<FuiLabel tag=a color=red>Red</FuiLabel>\n' +
+  '<FuiLabel tag=a color=orange>Orange</FuiLabel>\n' +
+  '<FuiLabel tag=a color=yellow>Yellow</FuiLabel>\n' +
+  '<FuiLabel tag=a color=olive>Olive</FuiLabel>\n' +
+  '<FuiLabel tag=a color=green>Green</FuiLabel>\n' +
+  '<FuiLabel tag=a color=teal>Teal</FuiLabel>\n' +
+  '<FuiLabel tag=a color=blue>Blue</FuiLabel>\n' +
+  '<FuiLabel tag=a color=violet>Violet</FuiLabel>\n' +
+  '<FuiLabel tag=a color=purple>Purple</FuiLabel>\n' +
+  '<FuiLabel tag=a color=pink>Pink</FuiLabel>\n' +
+  '<FuiLabel tag=a color=brown>Brown</FuiLabel>\n' +
+  '<FuiLabel tag=a color=grey>Grey</FuiLabel>\n' +
+  '<FuiLabel tag=a color=black>Black</FuiLabel>' 
 s.ElementHeaderContentHeaders1 = 
   '<FuiButtons icon>\n' +
   '  <FuiButton> <FuiIcon name=plus></FuiIcon></FuiButton>\n' +

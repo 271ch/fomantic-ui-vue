@@ -1,23 +1,23 @@
 <template>
   <div>
-    <div class="ui two column grid">
-      <div class="column">
+    <FuiGrid column=two>
+      <FuiColumn>
         <div class="ui fluid image">
           <a class="ui left corner label">
             <i class="heart icon"></i>
           </a>
           <img src="/images/wireframe/image.png">
         </div>
-      </div>
-      <div class="column">
+      </FuiColumn>
+      <FuiColumn>
         <div class="ui fluid image">
           <a class="ui red right corner label">
             <i class="save icon"></i>
           </a>
           <img src="/images/wireframe/image.png">
         </div>
-      </div>
-    </div>
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 

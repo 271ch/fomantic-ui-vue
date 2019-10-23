@@ -1,9 +1,8 @@
 <template>
   <div>
-    <div class="ui label">
+    <FuiLabel detail="214">
       Dogs
-      <div class="detail">214</div>
-    </div>
+    </FuiLabel>
   </div>
 </template>
 
@@ -11,7 +10,7 @@
 export default {
   name: 'ElementLabelDetail1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Content',

@@ -19,6 +19,10 @@ export default {
       type: Boolean,
       description: '', // TODO: descr
     },
+    circular: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
   },
   events: {
     click: {
@@ -30,6 +34,7 @@ export default {
       return u.concatClasses(
         'ui',
         this.basic && 'basic',
+        this.circular && 'circular',
         ...this.getClassesColor,
         'labels'
       );

@@ -4,10 +4,10 @@
       Veronika
     </FuiLabel>
     <FuiLabel tag=a color=teal image="/images/avatar/small/jenny.jpg" detail="Student">
-      Veronika
+      Jenny
     </FuiLabel>
     <FuiLabel tag=a color=yellow image="/images/avatar/small/christian.jpg" detail="Co-worker">
-      Helen
+      Christian
     </FuiLabel>
   </div>
 </template>
@@ -29,12 +29,12 @@ export default {
       '    </a>\n' +
       '    <a class="ui teal image label">\n' +
       '      <img src="/images/avatar/small/jenny.jpg">\n' +
-      '      Veronika\n' +
+      '      Jenny\n' +
       '      <div class="detail">Student</div>\n' +
       '    </a>\n' +
       '    <a class="ui yellow image label">\n' +
       '      <img src="/images/avatar/small/christian.jpg">\n' +
-      '      Helen\n' +
+      '      Christian\n' +
       '      <div class="detail">Co-worker</div>\n' +
       '    </a>\n',
   },

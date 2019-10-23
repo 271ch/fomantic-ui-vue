@@ -1,23 +1,23 @@
 <template>
   <div>
-    <div class="ui two column grid">
-      <div class="column">
+    <FuiGrid column=two>
+      <FuiColumn>
         <div class="ui fluid image">
           <div class="ui black ribbon label">
             <i class="hotel icon"></i> Hotel
           </div>
           <img src="/images/wireframe/image.png">
         </div>
-      </div>
-      <div class="column">
+      </FuiColumn>
+      <FuiColumn>
         <div class="ui fluid image">
           <div class="ui blue right ribbon label">
             <i class="spoon icon"></i> Food
           </div>
           <img src="/images/wireframe/image.png">
         </div>
-      </div>
-    </div>
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 

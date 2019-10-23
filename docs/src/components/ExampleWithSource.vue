@@ -1,6 +1,11 @@
 <template>
-  <div>
-    <FuiHeader level=3>{{example}}</FuiHeader>
+  <FuiSegment>
+    <FuiHeader level=3>
+      {{example}}
+      <FuiHeader sub>
+        {{ getInfo().converted?'converted':'not converted' }}
+      </FuiHeader>
+    </FuiHeader>
     <FuiGrid>
       <FuiRow>
         <FuiColumn wide=eight>
@@ -19,7 +24,7 @@
         </FuiColumn>
       </FuiRow>
     </FuiGrid>
-  </div>
+  </FuiSegment>
 </template>
 
 <script>
@@ -61,6 +66,9 @@ export default {
     },
     getSourceHtmlTempl: function () {
       return srcTempl[this.example];
+    },
+    getInfo: function () {
+      return exUtils.getCompFromName(this.example).info;
     },
   },
 };

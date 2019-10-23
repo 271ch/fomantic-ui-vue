@@ -1,20 +1,20 @@
 <template>
   <div>
-    <a class="ui primary label">Primary</a>
-    <a class="ui secondary label">Secondary</a>
-    <a class="ui red label">Red</a>
-    <a class="ui orange label">Orange</a>
-    <a class="ui yellow label">Yellow</a>
-    <a class="ui olive label">Olive</a>
-    <a class="ui green label">Green</a>
-    <a class="ui teal label">Teal</a>
-    <a class="ui blue label">Blue</a>
-    <a class="ui violet label">Violet</a>
-    <a class="ui purple label">Purple</a>
-    <a class="ui pink label">Pink</a>
-    <a class="ui brown label">Brown</a>
-    <a class="ui grey label">Grey</a>
-    <a class="ui black label">Black</a>
+    <FuiLabel tag=a primary>Primary</FuiLabel>
+    <FuiLabel tag=a secondary>Secondary</FuiLabel>
+    <FuiLabel tag=a color=red>Red</FuiLabel>
+    <FuiLabel tag=a color=orange>Orange</FuiLabel>
+    <FuiLabel tag=a color=yellow>Yellow</FuiLabel>
+    <FuiLabel tag=a color=olive>Olive</FuiLabel>
+    <FuiLabel tag=a color=green>Green</FuiLabel>
+    <FuiLabel tag=a color=teal>Teal</FuiLabel>
+    <FuiLabel tag=a color=blue>Blue</FuiLabel>
+    <FuiLabel tag=a color=violet>Violet</FuiLabel>
+    <FuiLabel tag=a color=purple>Purple</FuiLabel>
+    <FuiLabel tag=a color=pink>Pink</FuiLabel>
+    <FuiLabel tag=a color=brown>Brown</FuiLabel>
+    <FuiLabel tag=a color=grey>Grey</FuiLabel>
+    <FuiLabel tag=a color=black>Black</FuiLabel>
   </div>
 </template>
 
@@ -22,7 +22,7 @@
 export default {
   name: 'ElementLabelColored1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Variations',

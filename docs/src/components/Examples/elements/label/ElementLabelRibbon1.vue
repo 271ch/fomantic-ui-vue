@@ -1,24 +1,24 @@
 <template>
   <div>
-    <div class="ui two column grid">
-      <div class="column">
-        <div class="ui raised segment">
-          <a class="ui red ribbon label">Overview</a>
+    <FuiGrid column=two>
+      <FuiColumn>
+        <FuiSegment raised>
+          <FuiLabel tag=a color=red ribbon>Overview</FuiLabel>
           <span>Account Details</span>
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-          <a class="ui blue ribbon label">Community</a> User Reviews
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-        </div>
-      </div>
-      <div class="column">
-        <div class="ui segment">
-          <a class="ui orange right ribbon label">Specs</a>
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-          <a class="ui teal right ribbon label">Reviews</a>
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-        </div>
-      </div>
-    </div>
+          <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+          <FuiLabel tag=a color=blue ribbon>Community</FuiLabel> User Reviews
+          <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+        </FuiSegment>
+      </FuiColumn>
+      <FuiColumn>
+        <FuiSegment>
+          <FuiLabel tag=a color=orange ribbon=right>Specs</FuiLabel>
+          <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+          <FuiLabel tag=a color=teal ribbon=right>Reviews</FuiLabel>
+          <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+        </FuiSegment>
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -26,7 +26,7 @@
 export default {
   name: 'ElementLabelRibbon1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Types',

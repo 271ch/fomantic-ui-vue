@@ -1,22 +1,22 @@
 <template>
   <div>
-    <div class="ui circular labels">
-      <a class="ui label">
+    <FuiLabels circular>
+      <FuiLabel tag=a>
         11
-      </a>
-      <a class="ui label">
+      </FuiLabel>
+      <FuiLabel tag=a>
         22
-      </a>
-      <a class="ui label">
+      </FuiLabel>
+      <FuiLabel tag=a>
         33
-      </a>
-      <a class="ui label">
+      </FuiLabel>
+      <FuiLabel tag=a>
         44
-      </a>
-      <a class="ui label">
+      </FuiLabel>
+      <FuiLabel tag=a>
         141
-      </a>
-    </div>
+      </FuiLabel>
+    </FuiLabels>
   </div>
 </template>
 
@@ -24,7 +24,7 @@
 export default {
   name: 'ElementLabelCircularGroup1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Groups',
