@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="ui disabled segment">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
+    <FuiSegment disabled>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'ElementSegmentDisabled1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'States',

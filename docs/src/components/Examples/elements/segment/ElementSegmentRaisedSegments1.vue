@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="ui raised segments">
-      <div class="ui segment">
+    <FuiSegments raised>
+      <FuiSegment>
         <p>Top</p>
-      </div>
-      <div class="ui segment">
+      </FuiSegment>
+      <FuiSegment>
         <p>Middle</p>
-      </div>
-      <div class="ui segment">
+      </FuiSegment>
+      <FuiSegment>
         <p>Bottom</p>
-      </div>
-    </div>
+      </FuiSegment>
+    </FuiSegments>
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 export default {
   name: 'ElementSegmentRaisedSegments1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Groups',

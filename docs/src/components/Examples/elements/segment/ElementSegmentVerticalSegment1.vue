@@ -1,14 +1,14 @@
 <template>
   <div>
-    <div class="ui vertical segment">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
-    <div class="ui vertical segment">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
-    <div class="ui vertical segment">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
+    <FuiSegment vertical>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
+    <FuiSegment vertical>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
+    <FuiSegment vertical>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -16,7 +16,7 @@
 export default {
   name: 'ElementSegmentVerticalSegment1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Types',

@@ -3,6 +3,10 @@
     :is="gTag"
     :class="classes"
   >
+    <i
+      v-if="iconName"
+      :class="iconName + ' icon'"
+    />
     <slot />
   </component>
 </template>
@@ -30,6 +34,14 @@ export default {  // TODO: Component FuiHeader
     Mixins.PSize,
   ],
   props: {
+    iconName: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
+      validator: (value) => {
+        return value !== true;
+      },
+      default: false,
+    },
     icon: {
       type: Boolean,
       description: 'A header can be formatted to emphasize an icon',

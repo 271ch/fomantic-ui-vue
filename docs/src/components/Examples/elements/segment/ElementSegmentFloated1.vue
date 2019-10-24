@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="ui right floated segment">
-      <p>This segment will appear to the right
-    </p></div>
-    <div class="ui left floated segment">
+    <FuiSegment floated=right>
+      <p>This segment will appear to the right</p>
+    </FuiSegment>
+    <FuiSegment floated=left>
       This segment will appear to the left
-    </div>
+    </FuiSegment>
   </div>
 </template>
 
@@ -13,7 +13,7 @@
 export default {
   name: 'ElementSegmentFloated1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Variations',

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="ui inverted segment">
+    <FuiSegment inverted>
       <p>I'm here to tell you something, and you will probably read me first.</p>
-    </div>
+    </FuiSegment>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'ElementSegmentInverted1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Variations',

@@ -30,7 +30,7 @@ FuiVue.registerAll(Vue)
 
 const skipDoneElements = true;
 
-let doneElements = ['button', 'divider', 'flag', 'header', 'icon', 'image'];
+let doneElements = ['button', 'divider', 'flag', 'header', 'icon', 'image', 'list'];
 let skipElements = [];
 if (skipDoneElements) {
   skipElements = [...skipElements,...doneElements];
@@ -177,8 +177,8 @@ describe('ROOT SUITE', function () {
           //console.log(`${p.et} begin`);
           tot_et = [0,0,0,0]
         } else if (p.t == 1) {
-          console.log(sp+'..........................................................................');
-          console.log(sp+` ${alignL(p.et,11)}      ${prtResult(tot_et)}`);
+          console.log(sp+'........................................................................');
+          console.log(sp+` ${alignL(p.et,11)}    ${prtResult(tot_et)}`);
           console.log();
           tot[0] += tot_et[0]
           tot[1] += tot_et[1]
@@ -187,7 +187,7 @@ describe('ROOT SUITE', function () {
         } else if (p.t == 2) {
           tot_e = [0,0,0,0]
         } else if (p.t == 3) {
-          console.log(sp+` ${alignL(p.e,13)} -> ${prtResult(tot_e)}`);
+          console.log(sp+` ${alignL(p.e,13)}  ${prtResult(tot_e)}`);
           tot_et[0] += tot_e[0]
           tot_et[1] += tot_e[1]
           tot_et[2] += tot_e[2]
@@ -199,8 +199,8 @@ describe('ROOT SUITE', function () {
           else if ('passSkip' in p) tot_e[3] += 1
         }
       }
-      console.log(sp+'--------------------------------------------------------------------------');
-      console.log(sp+Bright+` TOTAL            ${prtResult(tot)}`+Reset);
+      console.log(sp+'------------------------------------------------------------------------');
+      console.log(sp+Bright+` TOTAL          ${prtResult(tot)}`+Reset);
   })
 })
 

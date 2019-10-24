@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="ui compact segment">
+    <FuiSegment compact>
       <p>Pellentesque habitant morbi</p>
-    </div>
+    </FuiSegment>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'ElementSegmentCompact1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Variations',

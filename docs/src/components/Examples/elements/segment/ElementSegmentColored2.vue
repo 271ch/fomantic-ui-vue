@@ -1,18 +1,18 @@
 <template>
   <div>
-    <div class="ui red inverted segment">Red</div>
-    <div class="ui orange inverted segment">Orange</div>
-    <div class="ui yellow inverted segment">Yellow</div>
-    <div class="ui olive inverted segment">Olive</div>
-    <div class="ui green inverted segment">Green</div>
-    <div class="ui teal inverted segment">Teal</div>
-    <div class="ui blue inverted segment">Blue</div>
-    <div class="ui violet inverted segment">Violet</div>
-    <div class="ui purple inverted segment">Purple</div>
-    <div class="ui pink inverted segment">Pink</div>
-    <div class="ui brown inverted segment">Brown</div>
-    <div class="ui grey inverted segment">Grey</div>
-    <div class="ui black inverted segment">Black</div>
+    <FuiSegment color=red inverted>Red</FuiSegment>
+    <FuiSegment color=orange inverted>Orange</FuiSegment>
+    <FuiSegment color=yellow inverted>Yellow</FuiSegment>
+    <FuiSegment color=olive inverted>Olive</FuiSegment>
+    <FuiSegment color=green inverted>Green</FuiSegment>
+    <FuiSegment color=teal inverted>Teal</FuiSegment>
+    <FuiSegment color=blue inverted>Blue</FuiSegment>
+    <FuiSegment color=violet inverted>Violet</FuiSegment>
+    <FuiSegment color=purple inverted>Purple</FuiSegment>
+    <FuiSegment color=pink inverted>Pink</FuiSegment>
+    <FuiSegment color=brown inverted>Brown</FuiSegment>
+    <FuiSegment color=grey inverted>Grey</FuiSegment>
+    <FuiSegment color=black inverted>Black</FuiSegment>
   </div>
 </template>
 
@@ -20,7 +20,7 @@
 export default {
   name: 'ElementSegmentColored2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Variations',

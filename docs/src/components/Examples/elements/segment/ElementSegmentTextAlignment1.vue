@@ -1,14 +1,14 @@
 <template>
   <div>
-    <div class="ui right aligned segment">
+    <FuiSegment aligned=right>
       Right
-    </div>
-    <div class="ui left aligned segment">
+    </FuiSegment>
+    <FuiSegment aligned=left>
       Left
-    </div>
-    <div class="ui center aligned segment">
+    </FuiSegment>
+    <FuiSegment aligned=center>
       Center
-    </div>
+    </FuiSegment>
   </div>
 </template>
 
@@ -16,7 +16,7 @@
 export default {
   name: 'ElementSegmentTextAlignment1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Variations',

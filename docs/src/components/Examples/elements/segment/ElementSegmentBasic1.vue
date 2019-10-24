@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="ui basic segment">
+    <FuiSegment basic>
       <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-    </div>
+    </FuiSegment>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'ElementSegmentBasic1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Variations',

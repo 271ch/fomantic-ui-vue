@@ -1,18 +1,18 @@
 <template>
   <div>
-    <div class="ui red segment">Red</div>
-    <div class="ui orange segment">Orange</div>
-    <div class="ui yellow segment">Yellow</div>
-    <div class="ui olive segment">Olive</div>
-    <div class="ui green segment">Green</div>
-    <div class="ui teal segment">Teal</div>
-    <div class="ui blue segment">Blue</div>
-    <div class="ui violet segment">Violet</div>
-    <div class="ui purple segment">Purple</div>
-    <div class="ui pink segment">Pink</div>
-    <div class="ui brown segment">Brown</div>
-    <div class="ui grey segment">Grey</div>
-    <div class="ui black segment">Black</div>
+    <FuiSegment color=red>Red</FuiSegment>
+    <FuiSegment color=orange>Orange</FuiSegment>
+    <FuiSegment color=yellow>Yellow</FuiSegment>
+    <FuiSegment color=olive>Olive</FuiSegment>
+    <FuiSegment color=green>Green</FuiSegment>
+    <FuiSegment color=teal>Teal</FuiSegment>
+    <FuiSegment color=blue>Blue</FuiSegment>
+    <FuiSegment color=violet>Violet</FuiSegment>
+    <FuiSegment color=purple>Purple</FuiSegment>
+    <FuiSegment color=pink>Pink</FuiSegment>
+    <FuiSegment color=brown>Brown</FuiSegment>
+    <FuiSegment color=grey>Grey</FuiSegment>
+    <FuiSegment color=black>Black</FuiSegment>
   </div>
 </template>
 
@@ -20,7 +20,7 @@
 export default {
   name: 'ElementSegmentColored1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Variations',

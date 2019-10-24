@@ -1,17 +1,14 @@
 <template>
   <div>
-    <div class="ui ignored info message">
-      <p>Attached segments are designed to be used with other <code>attached</code> variations like <a href="/elements/header.html#attached">attached header</a> or <a href="/collections/message.html#attached">attached messages</a>.</p>
-    </div>
-    <div class="ui top attached segment">
+    <FuiSegment attached=top>
       <p>This segment is on top</p>
-    </div>
-    <div class="ui attached segment">
+    </FuiSegment>
+    <FuiSegment attached>
       <p>This segment is attached on both sides</p>
-    </div>
-    <div class="ui bottom attached segment">
+    </FuiSegment>
+    <FuiSegment attached=bottom>
       <p>This segment is on bottom</p>
-    </div>
+    </FuiSegment>
   </div>
 </template>
 
@@ -19,16 +16,13 @@
 export default {
   name: 'ElementSegmentAttached1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Variations',
     title2: 'Attached',
     description: 'A segment can be attached to other content on a page',
-    model: '    <div class="ui ignored info message">\n' +
-      '      <p>Attached segments are designed to be used with other <code>attached</code> variations like <a href="/elements/header.html#attached">attached header</a> or <a href="/collections/message.html#attached">attached messages</a>.</p>\n' +
-      '    </div>\n' +
-      '    <div class="ui top attached segment">\n' +
+    model: '    <div class="ui top attached segment">\n' +
       '      <p>This segment is on top</p>\n' +
       '    </div>\n' +
       '    <div class="ui attached segment">\n' +

@@ -107,6 +107,28 @@ mixins.PCountry = {
   },
 };
 
+// fitted segment
+mixins.PFitted = {
+  props: {
+    fitted: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
+      validator: (value) => {
+        return value === true || value === false || Enum.Fitted.check(value);
+      },
+      default: false,
+    },
+  },
+  computed: {
+    getClassesFitted: function () {
+      return [
+        this.fitted,
+        this.fitted && 'fitted',
+      ];
+    },
+  },
+};
+
 // headel level
 mixins.PHeaderLevel = {
   props: {

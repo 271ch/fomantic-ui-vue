@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="ui clearing segment">
-      <div class="ui right floated button">Floated</div>
-    </div>
+    <FuiSegment clearing>
+      <FuiButton tag=div floated=right>Floated</FuiButton>
+    </FuiSegment>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'ElementSegmentClearing1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Variations',

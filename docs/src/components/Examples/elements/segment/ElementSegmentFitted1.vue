@@ -1,14 +1,14 @@
 <template>
   <div>
-    <div class="ui fitted segment">
-        <p>Fitted Segment</p>
-    </div>
-    <div class="ui horizontally fitted segment">
-        <p>Horizontally fitted segment</p>
-    </div>
-    <div class="ui vertically fitted segment">
-        <p>Vertically fitted segment</p>
-    </div>
+    <FuiSegment fitted>
+      <p>Fitted Segment</p>
+    </FuiSegment>
+    <FuiSegment fitted=horizontally>
+      <p>Horizontally fitted segment</p>
+    </FuiSegment>
+    <FuiSegment fitted=vertically>
+      <p>Vertically fitted segment</p>
+    </FuiSegment>
   </div>
 </template>
 
@@ -16,7 +16,7 @@
 export default {
   name: 'ElementSegmentFitted1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Variations',

@@ -1,12 +1,11 @@
 <template>
   <div>
-    <div class="ui placeholder segment">
-      <div class="ui icon header">
-        <i class="pdf file outline icon"></i>
+    <FuiSegment placeholder>
+      <FuiHeader icon iconName="pdf file outline">
         No documents are listed for this customer.
-      </div>
-      <div class="ui primary button">Add Document</div>
-    </div>
+      </FuiHeader>
+      <FuiButton tag=div primary>Add Document</FuiButton>
+    </FuiSegment>
   </div>
 </template>
 
@@ -14,7 +13,7 @@
 export default {
   name: 'ElementSegmentPlaceholderSegment1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Types',

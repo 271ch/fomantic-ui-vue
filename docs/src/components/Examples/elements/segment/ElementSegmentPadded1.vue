@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="ui padded segment">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
+    <FuiSegment padded>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'ElementSegmentPadded1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Variations',

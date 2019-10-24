@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="ui loading segment">
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-    </div>
+    <FuiSegment loading>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'ElementSegmentLoading1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'States',

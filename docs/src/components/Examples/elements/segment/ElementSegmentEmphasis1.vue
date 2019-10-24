@@ -1,14 +1,14 @@
 <template>
   <div>
-    <div class="ui segment">
+    <FuiSegment>
       <p>I'm here to tell you something, and you will probably read me first.</p>
-    </div>
-    <div class="ui secondary segment">
+    </FuiSegment>
+    <FuiSegment secondary>
       <p>I am pretty noticeable but you might check out other content before you look at me.</p>
-    </div>
-    <div class="ui tertiary segment">
+    </FuiSegment>
+    <FuiSegment tertiary>
       <p>If you notice me you must be looking very hard.</p>
-    </div>
+    </FuiSegment>
   </div>
 </template>
 
@@ -16,7 +16,7 @@
 export default {
   name: 'ElementSegmentEmphasis1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Variations',

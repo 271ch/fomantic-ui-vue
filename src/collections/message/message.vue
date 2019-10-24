@@ -35,6 +35,7 @@ export default {
         negative: '',
       }
     ),
+    Mixins.getMixinAttached([true, 'top', 'bottom'], null),
   ],
   props: {
     visible: { // TODO: descr
@@ -81,6 +82,7 @@ export default {
         'ui',
         ...this.getClassesSize,
         ...this.getClassesColor,
+        ...this.getClassesAttached,
         ...this.getClassesKind,
         this.icon && 'icon',
         this.visible && 'visible',

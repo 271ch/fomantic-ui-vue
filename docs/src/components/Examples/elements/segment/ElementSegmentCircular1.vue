@@ -1,18 +1,17 @@
 <template>
   <div>
-    <div class="ui ignored info message">A circular segment will most likely have to have its content manually sized to be equal width and height, otherwise it will flow to the size of your content</div>
-    <div class="ui circular segment">
-      <h2 class="ui header">
+    <FuiSegment circular>
+      <FuiHeader level=2>
         Buy Now
-        <div class="sub header">$10.99</div>
-      </h2>
-    </div>
-    <div class="ui inverted circular segment">
-      <h2 class="ui inverted header">
+        <FuiSubheader>$10.99</FuiSubheader>
+      </FuiHeader>
+    </FuiSegment>
+    <FuiSegment inverted circular>
+      <FuiHeader level=2 inverted>
         Buy Now
-        <div class="sub header">$10.99</div>
-      </h2>
-    </div>
+        <FuiSubheader>$10.99</FuiSubheader>
+      </FuiHeader>
+    </FuiSegment>
   </div>
 </template>
 
@@ -20,14 +19,13 @@
 export default {
   name: 'ElementSegmentCircular1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Variations',
     title2: 'Circular',
     description: 'A segment can be circular',
-    model: '    <div class="ui ignored info message">A circular segment will most likely have to have its content manually sized to be equal width and height, otherwise it will flow to the size of your content</div>\n' +
-      '    <div class="ui circular segment">\n' +
+    model: '    <div class="ui circular segment">\n' +
       '      <h2 class="ui header">\n' +
       '        Buy Now\n' +
       '        <div class="sub header">$10.99</div>\n' +

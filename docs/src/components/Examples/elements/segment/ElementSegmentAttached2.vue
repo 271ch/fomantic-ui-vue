@@ -1,27 +1,26 @@
 <template>
   <div>
-    <h5 class="ui top attached header">
+    <FuiHeader level=5 attached=top>
       Dogs
-    </h5>
-    <div class="ui attached segment">
+    </FuiHeader>
+    <FuiSegment attached>
       <p>Dogs are one type of animal</p>
-    </div>
-    <h5 class="ui attached header">
+    </FuiSegment>
+    <FuiHeader level=5 attached>
       Cats
-    </h5>
-    <div class="ui attached segment">
+    </FuiHeader>
+    <FuiSegment attached>
       <p>Cats are thought of as being related to dogs, but only humans think this.</p>
-    </div>
-    <h5 class="ui attached header">
+    </FuiSegment>
+    <FuiHeader level=5 attached>
       Lions
-    </h5>
-    <div class="ui attached segment">
+    </FuiHeader>
+    <FuiSegment attached>
       <p>Humans don't think of lions as being like cats, but they are.</p>
-    </div>
-    <div class="ui bottom attached warning message">
-      <i class="warning icon"></i>
+    </FuiSegment>
+    <FuiMessage attached=bottom warning iconName=warning>
       You've reached the end of this content segment!
-    </div>
+    </FuiMessage>
   </div>
 </template>
 
@@ -29,7 +28,7 @@
 export default {
   name: 'ElementSegmentAttached2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Variations',
