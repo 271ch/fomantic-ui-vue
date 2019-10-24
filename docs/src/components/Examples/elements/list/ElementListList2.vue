@@ -1,31 +1,27 @@
 <template>
   <div>
-    <div class="ui list">
-      <div class="item">
-        <i class="users icon"></i>
-        <div class="content">
+    <FuiList>
+      <FuiItem iconName=users>
+        <FuiContent>
           Semantic UI
-        </div>
-      </div>
-      <div class="item">
-        <i class="marker icon"></i>
-        <div class="content">
+        </FuiContent>
+      </FuiItem>
+      <FuiItem iconName=marker>
+        <FuiContent>
           New York, NY
-        </div>
-      </div>
-      <div class="item">
-        <i class="mail icon"></i>
-        <div class="content">
+        </FuiContent>
+      </FuiItem>
+      <FuiItem iconName=mail>
+        <FuiContent>
           <a href="mailto:jack@semantic-ui.com">jack@semantic-ui.com</a>
-        </div>
-      </div>
-      <div class="item">
-        <i class="linkify icon"></i>
-        <div class="content">
+        </FuiContent>
+      </FuiItem>
+      <FuiItem iconName=linkify>
+        <FuiContent>
           <a href="http://www.semantic-ui.com">semantic-ui.com</a>
-        </div>
-      </div>
-    </div>
+        </FuiContent>
+      </FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -33,7 +29,7 @@
 export default {
   name: 'ElementListList2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Types',

@@ -1,5 +1,9 @@
 <template>
   <div :class="classes">
+    <i
+      v-if="iconName"
+      :class="iconName + ' icon'"
+    />
     <slot />
   </div>
 </template>
@@ -13,25 +17,14 @@ export default {
   name: 'FuiItem',
   mixins: [],
   props: {
-    /*
-    prop1: { // TODO: Component FuiList
-      type: Boolean,
-      description: '',
-    },
-    prop2: {
-      type: String,
-      description: '',
-      default: '',
-    },
-    prop3: {
-      type: String,
-      description: '',
+    iconName: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
       validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
+        return value !== true;
       },
-      default: '',
+      default: false,
     },
-    */
   },
   events: {
     click: {

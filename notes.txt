@@ -1,5 +1,3 @@
-npm run buildProd
-
 eslint src/*/*/*
 
 To open all code blocks on https://fomantic-ui.com/elements/button.html :
@@ -10,3 +8,6 @@ npm package nyc + package.json:
 
 find ./ -type f -regex ".*\.vue"  -exec sed -i -e 's/class="classes()">/class="classes">/g' {} \;
 find ./ -type f -regex ".*\.vue"  -exec sed -i -e 's/methods: {/computed: {/g' {} \;
+
+cd docs/public
+ln -s ../../utils/tmp/Fomantic-UI-Docs/server/raw/images images

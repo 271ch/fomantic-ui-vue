@@ -1,17 +1,17 @@
 <template>
   <div>
-    <div class="ui red message">Red</div>
-    <div class="ui orange message">Orange</div>
-    <div class="ui yellow message">Yellow</div>
-    <div class="ui olive message">Olive</div>
-    <div class="ui green message">Green</div>
-    <div class="ui teal message">Teal</div>
-    <div class="ui blue message">Blue</div>
-    <div class="ui violet message">Violet</div>
-    <div class="ui purple message">Purple</div>
-    <div class="ui pink message">Pink</div>
-    <div class="ui brown message">Brown</div>
-    <div class="ui black message">Black</div>
+    <FuiMessage color=red>Red</FuiMessage>
+    <FuiMessage color=orange>Orange</FuiMessage>
+    <FuiMessage color=yellow>Yellow</FuiMessage>
+    <FuiMessage color=olive>Olive</FuiMessage>
+    <FuiMessage color=green>Green</FuiMessage>
+    <FuiMessage color=teal>Teal</FuiMessage>
+    <FuiMessage color=blue>Blue</FuiMessage>
+    <FuiMessage color=violet>Violet</FuiMessage>
+    <FuiMessage color=purple>Purple</FuiMessage>
+    <FuiMessage color=pink>Pink</FuiMessage>
+    <FuiMessage color=brown>Brown</FuiMessage>
+    <FuiMessage color=black>Black</FuiMessage>
   </div>
 </template>
 
@@ -19,7 +19,7 @@
 export default {
   name: 'CollectionMessageColored1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'message',
     title1: 'Variations',

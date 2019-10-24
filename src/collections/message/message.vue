@@ -23,6 +23,7 @@ export default {
   name: 'FuiMessage',
   mixins: [
     Mixins.PSize,
+    Mixins.PColor,
     Mixins.getMixinOfBools(
       'Kind',
       {
@@ -37,6 +38,14 @@ export default {
   ],
   props: {
     visible: { // TODO: descr
+      type: Boolean,
+      description: '',
+    },
+    floating: { // TODO: descr
+      type: Boolean,
+      description: '',
+    },
+    compact: { // TODO: descr
       type: Boolean,
       description: '',
     },
@@ -81,9 +90,12 @@ export default {
       return u.concatClasses(
         'ui',
         ...this.getClassesSize,
+        ...this.getClassesColor,
         ...this.getClassesKind,
         this.icon && 'icon',
         this.visible && 'visible',
+        this.floating && 'floating',
+        this.compact && 'compact',
         'message'
       );
     },

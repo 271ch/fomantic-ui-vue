@@ -1,6 +1,6 @@
 <template>
   <div>
-    <FuiMessage info icon=close header="Was this what you wanted?">
+    <FuiMessage info iconName=close header="Was this what you wanted?">
       <ul class="list">
         <li>It's good to see you again.</li>
         <li>Did you know it's been a while?</li>

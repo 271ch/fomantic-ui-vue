@@ -19,21 +19,23 @@ virtualConsole.on("error", (...args) => { virt_cons.error += 1; console.log('!!!
 virtualConsole.on("warn", (...args) => { virt_cons.warn += 1; console.log('!!!!!!!!!!!!!!!!!!!');});
 virtualConsole.on("info", (...args) => { virt_cons.info += 1; console.log('!!!!!!!!!!!!!!!!!!!');});
 virtualConsole.on("dir", (...args) => { virt_cons.dir += 1; console.log('!!!!!!!!!!!!!!!!!!!'); });
-console.log(virtualConsole);
-const document = new jsdom.JSDOM(`<body></body>`, {
+const doc = new jsdom.JSDOM(`<body></body>`, {
     virtualConsole: virtualConsole
 })
-global.window = document.window
-global.document = document.window.document
+window = doc.window
+document = doc.window.document
 */
 
 FuiVue.registerAll(Vue)
 
-let converted = 0;
-let notConverted = 0;
+const skipDoneElements = true;
 
-let skipElement = ['icon', 'flag'];
-//skipElement = [];
+let doneElements = ['button', 'divider', 'header', 'icon', 'flag'];
+let skipElements = [];
+if (skipDoneElements) {
+  skipElements = [...skipElements,...doneElements];
+}
+
 const skipTemplate = ['ViewItemImage1', 'ElementInputAction2', 'ElementInputAction3', 'ElementInputAction5'];
 
 const html_std = function(html) {
@@ -89,7 +91,10 @@ const testElement = function (elem, templList) {
 
 const testTemplate = function (elem, templ) {
   it(`Template: [${templ.name}]`, async function () {
-    if (skipElement.indexOf(elem) !== -1) return this.skip();
+    if (skipElements.indexOf(elem) !== -1) {
+      stats.prot.push({t: 4, passSkip: true});
+      return this.skip();
+    }
     if (skipTemplate.indexOf(templ.name) !== -1) return this.skip();
 
     chai.assert.isTrue('info' in templ,
@@ -97,10 +102,8 @@ const testTemplate = function (elem, templ) {
     chai.assert.isTrue('converted' in templ.info,
       'info has \'converted\' key');
     if (templ.info.converted == false ) {
-      notConverted += 1;
       return this.skip();
     } else {
-      converted += 1;
       // html template
       const wrapper = mount(templ);
       let html = html_std(wrapper.html());
@@ -136,7 +139,8 @@ describe('ROOT SUITE', function () {
 
       console.log('\n\n\n');
       let prtResult = (p) => {
-        return `${align(p[0],3)} pass + ${align(p[2]-p[0]-p[1],3)} skip + ${align(p[1],3)} fail = ${align(p[2],3)}`;
+        let perc = Math.floor(100.0 * (p[0] + p[3]) / p[2]);
+        return `${align(p[0],3)} pass + ${align(p[3],3)} pass' + ${align(p[2]-p[0]-p[1]-p[3],3)} skip + ${align(p[1],3)} fail = ${align(p[2],3)} (${align(perc,3)}%)`;
       }
       let align = (s, n) => {
         let ss = s.toString()
@@ -152,40 +156,41 @@ describe('ROOT SUITE', function () {
         return ss+sss;
       }
 
-      let tot = [0,0,0]; // pass, fail, tot
-      let tot_et = [0,0,0]; // pass, fail, tot
-      let tot_e = [0,0,0]; // pass, fail, tot
+      let tot = [0,0,0,0]; // pass, fail, tot
+      let tot_et = [0,0,0,0]; // pass, fail, tot
+      let tot_e = [0,0,0,0]; // pass, fail, tot
       for(let ip in stats.prot) {
         let p = stats.prot[ip];
         if (p.t == 0) {
           //console.log(`${p.et} begin`);
-          tot_et = [0,0,0]
+          tot_et = [0,0,0,0]
         } else if (p.t == 1) {
-          console.log('.......................................................');
+          console.log('..........................................................................');
           console.log(` ${alignL(p.et,11)}      ${prtResult(tot_et)}`);
           console.log();
           tot[0] += tot_et[0]
           tot[1] += tot_et[1]
           tot[2] += tot_et[2]
+          tot[3] += tot_et[3]
         } else if (p.t == 2) {
-          tot_e = [0,0,0]
+          tot_e = [0,0,0,0]
         } else if (p.t == 3) {
           console.log(` ${alignL(p.e,13)} -> ${prtResult(tot_e)}`);
           tot_et[0] += tot_e[0]
           tot_et[1] += tot_e[1]
           tot_et[2] += tot_e[2]
+          tot_et[3] += tot_e[3]
         } else if (p.t == 4) {
           if ('pass' in p) tot_e[0] += 1
           else if ('fail' in p) tot_e[1] += 1
           else if ('tot' in p) tot_e[2] += 1
+          else if ('passSkip' in p) tot_e[3] += 1
         }
       }
-      console.log('-------------------------------------------------------');
+      console.log('--------------------------------------------------------------------------');
       console.log(` TOTAL            ${prtResult(tot)}`);
-      console.log('\n');
   })
 })
-
 
 /*
 describe(`Empty virtual console`, function () {

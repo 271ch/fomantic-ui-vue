@@ -10,7 +10,7 @@
 export default {
   name: 'CollectionMessageVisible1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'message',
     title1: 'States',

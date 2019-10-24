@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="ui compact message">
+    <FuiMessage compact>
       <p>Get all the best inventions in your e-mail every day. Sign up now!</p>
-    </div>
+    </FuiMessage>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'CollectionMessageCompact1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'message',
     title1: 'Variations',

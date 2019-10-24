@@ -828,11 +828,11 @@ s.ElementListItem1 =
   '  </div>\n' +
   '</div>' 
 s.ElementListList1 = 
-  '<div class="ui list">\n' +
-  '  <div class="item">Apples</div>\n' +
-  '  <div class="item">Pears</div>\n' +
-  '  <div class="item">Oranges</div>\n' +
-  '</div>' 
+  '<FuiList>\n' +
+  '  <FuiItem>Apples</FuiItem>\n' +
+  '  <FuiItem>Pears</FuiItem>\n' +
+  '  <FuiItem>Oranges</FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListLink1 = 
   '<div class="ui link list">\n' +
   '  <div class="active item">Home</div>\n' +
@@ -877,53 +877,43 @@ s.ElementListLink2 =
   '  </div>\n' +
   '</div>' 
 s.ElementListSize1 = 
-  '<div class="ui mini horizontal divided list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Helen</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/christian.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Christian</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Daniel</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList size=mini horizontal divided>\n' +
+  '  <FuiItem></FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/helen.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Helen"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/christian.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Christian"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/daniel.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Daniel"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListList2 = 
-  '<div class="ui list">\n' +
-  '  <div class="item">\n' +
-  '    <i class="users icon"></i>\n' +
-  '    <div class="content">\n' +
+  '<FuiList>\n' +
+  '  <FuiItem iconName=users>\n' +
+  '    <FuiContent>\n' +
   '      Semantic UI\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <i class="marker icon"></i>\n' +
-  '    <div class="content">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem iconName=marker>\n' +
+  '    <FuiContent>\n' +
   '      New York, NY\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <i class="mail icon"></i>\n' +
-  '    <div class="content">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem iconName=mail>\n' +
+  '    <FuiContent>\n' +
   '      <a href="mailto:jack@semantic-ui.com">jack@semantic-ui.com</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <i class="linkify icon"></i>\n' +
-  '    <div class="content">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem iconName=linkify>\n' +
+  '    <FuiContent>\n' +
   '      <a href="http://www.semantic-ui.com">semantic-ui.com</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListInverted1 = 
   '<div class="ui inverted segment">\n' +
   '  <div class="ui inverted relaxed divided list">\n' +
@@ -21625,9 +21615,9 @@ s.CollectionMessageIconMessage2 =
   '  </FuiContent>\n' +
   '</FuiMessage>' 
 s.CollectionMessageFloating1 = 
-  '<div class="ui floating message">\n' +
+  '<FuiMessage floating>\n' +
   '  <p>Way to go!</p>\n' +
-  '</div>' 
+  '</FuiMessage>' 
 s.CollectionMessageListMessage1 = 
   '<FuiMessage header="New Site Features">\n' +
   '  <ul class="list">\n' +
@@ -21636,9 +21626,9 @@ s.CollectionMessageListMessage1 =
   '  </ul>\n' +
   '</FuiMessage>' 
 s.CollectionMessageCompact1 = 
-  '<div class="ui compact message">\n' +
+  '<FuiMessage compact>\n' +
   '  <p>Get all the best inventions in your e-mail every day. Sign up now!</p>\n' +
-  '</div>' 
+  '</FuiMessage>' 
 s.CollectionMessageVisible1 = 
   '<FuiMessage visible>\n' +
   '  <p>You can always see me</p>\n' +
@@ -21714,18 +21704,18 @@ s.CollectionMessageHidden1 =
   '  </div>\n' +
   '</div>' 
 s.CollectionMessageColored1 = 
-  '<div class="ui red message">Red</div>\n' +
-  '<div class="ui orange message">Orange</div>\n' +
-  '<div class="ui yellow message">Yellow</div>\n' +
-  '<div class="ui olive message">Olive</div>\n' +
-  '<div class="ui green message">Green</div>\n' +
-  '<div class="ui teal message">Teal</div>\n' +
-  '<div class="ui blue message">Blue</div>\n' +
-  '<div class="ui violet message">Violet</div>\n' +
-  '<div class="ui purple message">Purple</div>\n' +
-  '<div class="ui pink message">Pink</div>\n' +
-  '<div class="ui brown message">Brown</div>\n' +
-  '<div class="ui black message">Black</div>' 
+  '<FuiMessage color=red>Red</FuiMessage>\n' +
+  '<FuiMessage color=orange>Orange</FuiMessage>\n' +
+  '<FuiMessage color=yellow>Yellow</FuiMessage>\n' +
+  '<FuiMessage color=olive>Olive</FuiMessage>\n' +
+  '<FuiMessage color=green>Green</FuiMessage>\n' +
+  '<FuiMessage color=teal>Teal</FuiMessage>\n' +
+  '<FuiMessage color=blue>Blue</FuiMessage>\n' +
+  '<FuiMessage color=violet>Violet</FuiMessage>\n' +
+  '<FuiMessage color=purple>Purple</FuiMessage>\n' +
+  '<FuiMessage color=pink>Pink</FuiMessage>\n' +
+  '<FuiMessage color=brown>Brown</FuiMessage>\n' +
+  '<FuiMessage color=black>Black</FuiMessage>' 
 s.CollectionMessageDismissableBlock1 = 
   '<div class="ui message">\n' +
   '  <i class="close icon"></i>\n' +
@@ -21765,22 +21755,19 @@ s.CollectionMessageWarning1 =
   '</FuiMessage>' 
 s.CollectionMessageIconMessage1 = 
   '<FuiMessage icon iconName=inbox>\n' +
-  '  <div class="content">\n' +
-  '    <div class="header">\n' +
-  '      Have you heard about our mailing list?\n' +
-  '    </div>\n' +
+  '  <FuiContent header="Have you heard about our mailing list?">\n' +
   '    <p>Get the best news in your e-mail every day.</p>\n' +
-  '  </div>\n' +
+  '  </FuiContent>\n' +
   '</FuiMessage>' 
 s.CollectionMessageNegativeError2 = 
-  '<FuiMessage error icon=close header="There were some errors with your submission">\n' +
+  '<FuiMessage error iconName=close header="There were some errors with your submission">\n' +
   '  <ul class="list">\n' +
   '    <li>You must include both a upper and lower case letters in your password.</li>\n' +
   '    <li>You need to select your home country.</li>\n' +
   '  </ul>\n' +
   '</FuiMessage>' 
 s.CollectionMessageInfo1 = 
-  '<FuiMessage info icon=close header="Was this what you wanted?">\n' +
+  '<FuiMessage info iconName=close header="Was this what you wanted?">\n' +
   '  <ul class="list">\n' +
   '    <li>It\'s good to see you again.</li>\n' +
   '    <li>Did you know it\'s been a while?</li>\n' +

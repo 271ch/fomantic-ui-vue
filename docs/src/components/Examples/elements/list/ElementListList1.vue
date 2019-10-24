@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui list">
-      <div class="item">Apples</div>
-      <div class="item">Pears</div>
-      <div class="item">Oranges</div>
-    </div>
+    <FuiList>
+      <FuiItem>Apples</FuiItem>
+      <FuiItem>Pears</FuiItem>
+      <FuiItem>Oranges</FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementListList1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Types',

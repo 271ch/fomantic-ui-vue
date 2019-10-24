@@ -1,6 +1,6 @@
 <template>
   <div>
-    <FuiMessage error icon=close header="There were some errors with your submission">
+    <FuiMessage error iconName=close header="There were some errors with your submission">
       <ul class="list">
         <li>You must include both a upper and lower case letters in your password.</li>
         <li>You need to select your home country.</li>

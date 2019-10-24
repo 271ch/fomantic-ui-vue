@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="ui floating message">
+    <FuiMessage floating>
       <p>Way to go!</p>
-    </div>
+    </FuiMessage>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'CollectionMessageFloating1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'message',
     title1: 'Variations',
