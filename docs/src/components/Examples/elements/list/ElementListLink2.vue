@@ -1,19 +1,17 @@
 <template>
   <div>
-    <div class="ui list">
-      <div class="item">
-        <a class="header">Header</a>
-        <div class="description">
+    <FuiList>
+      <FuiItem headerA="Header">
+        <FuiDescription>
           Click a link in our <a>description</a>.
-        </div>
-      </div>
-      <div class="item">
-        <a class="header">Learn More</a>
-        <div class="description">
+        </FuiDescription>
+      </FuiItem>
+      <FuiItem headerA="Learn More">
+        <FuiDescription>
           Learn more about this site on <a>our FAQ page</a>.
-        </div>
-      </div>
-    </div>
+        </FuiDescription>
+      </FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -21,7 +19,7 @@
 export default {
   name: 'ElementListLink2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Content',

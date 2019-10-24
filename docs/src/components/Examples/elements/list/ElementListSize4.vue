@@ -1,25 +1,19 @@
 <template>
   <div>
-    <div class="ui large horizontal divided list">
-      <div class="item">
-        <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>
-        <div class="content">
-          <div class="header">Helen</div>
-        </div>
-      </div>
-      <div class="item">
-        <img class="ui avatar image" src="/images/avatar/small/christian.jpg"/>
-        <div class="content">
-          <div class="header">Christian</div>
-        </div>
-      </div>
-      <div class="item">
-        <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>
-        <div class="content">
-          <div class="header">Daniel</div>
-        </div>
-      </div>
-    </div>
+    <FuiList size=large horizontal divided>
+      <FuiItem>
+        <FuiImage avatar src="/images/avatar/small/helen.jpg"></FuiImage>
+        <FuiContent header="Helen"></FuiContent>
+      </FuiItem>
+      <FuiItem>
+        <FuiImage avatar src="/images/avatar/small/christian.jpg"></FuiImage>
+        <FuiContent header="Christian"></FuiContent>
+      </FuiItem>
+      <FuiItem>
+        <FuiImage avatar src="/images/avatar/small/daniel.jpg"></FuiImage>
+        <FuiContent header="Daniel"></FuiContent>
+      </FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -27,7 +21,7 @@
 export default {
   name: 'ElementListSize4',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Variations',
@@ -35,19 +29,19 @@ export default {
     description: 'A list can vary in size',
     model: '    <div class="ui large horizontal divided list">\n' +
       '      <div class="item">\n' +
-      '        <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
+      '        <img src="/images/avatar/small/helen.jpg" class="ui avatar image">\n' +
       '        <div class="content">\n' +
       '          <div class="header">Helen</div>\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="item">\n' +
-      '        <img class="ui avatar image" src="/images/avatar/small/christian.jpg"/>\n' +
+      '        <img src="/images/avatar/small/christian.jpg" class="ui avatar image">\n' +
       '        <div class="content">\n' +
       '          <div class="header">Christian</div>\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="item">\n' +
-      '        <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
+      '        <img src="/images/avatar/small/daniel.jpg" class="ui avatar image">\n' +
       '        <div class="content">\n' +
       '          <div class="header">Daniel</div>\n' +
       '        </div>\n' +

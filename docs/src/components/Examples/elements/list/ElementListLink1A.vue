@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui list">
-      <a class="item">What is a FAQ?</a>
-      <a class="item">Who is our user?</a>
-      <a class="item">Where is our office located?</a>
-    </div>
+    <FuiList>
+      <FuiItem tag=a>What is a FAQ?</FuiItem>
+      <FuiItem tag=a>Who is our user?</FuiItem>
+      <FuiItem tag=a>Where is our office located?</FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementListLink1A',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Content',

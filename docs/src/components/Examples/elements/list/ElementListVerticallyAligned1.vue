@@ -1,25 +1,19 @@
 <template>
   <div>
-    <div class="ui horizontal list">
-      <div class="item">
-        <img src="/images/wireframe/square-image.png" class="ui avatar image">
-        <div class="top aligned content">
-          Top Aligned
-        </div>
-      </div>
-      <div class="item">
-        <img src="/images/wireframe/square-image.png" class="ui avatar image">
-        <div class="middle aligned content">
-          Middle
-        </div>
-      </div>
-      <div class="item">
-        <img src="/images/wireframe/square-image.png" class="ui avatar image">
-        <div class="bottom aligned content">
-          Bottom
-        </div>
-      </div>
-    </div>
+    <FuiList horizontal>
+      <FuiItem>
+        <FuiImage avatar src="/images/wireframe/square-image.png"></FuiImage>
+        <FuiContent aligned=top>Top Aligned</FuiContent>
+      </FuiItem>
+      <FuiItem>
+        <FuiImage avatar src="/images/wireframe/square-image.png"></FuiImage>
+        <FuiContent aligned=middle>Middle</FuiContent>
+      </FuiItem>
+      <FuiItem>
+        <FuiImage avatar src="/images/wireframe/square-image.png"></FuiImage>
+        <FuiContent aligned=bottom>Bottom</FuiContent>
+      </FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -27,7 +21,7 @@
 export default {
   name: 'ElementListVerticallyAligned1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Content Variations',

@@ -751,46 +751,38 @@ s.ElementSegmentPiled1 =
   '  <p>Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.</p>\n' +
   '</div>' 
 s.ElementListImage1 = 
-  '<!--     <div class="ui ignored warning message">\n' +
-  '  Due to issues with <a href="https://github.com/philipwalton/flexbugs#5-column-flex-items-dont-always-preserve-intrinsic-aspect-ratios" target="_blank">intrinsic aspect ratio in flexbox</a> <code>img</code> should use a container element.\n' +
-  '</div> -->\n' +
-  '<div class="ui list">\n' +
-  '  <div class="item">\n' +
-  '    <img src="/images/avatar2/small/rachel.png" class="ui avatar image">\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Rachel</a>\n' +
-  '      <div class="description">Last seen watching <a><b>Arrested Development</b></a> just now.</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img src="/images/avatar2/small/lindsay.png" class="ui avatar image">\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Lindsay</a>\n' +
-  '      <div class="description">Last seen watching <a><b>Bob\'s Burgers</b></a> 10 hours ago.</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img src="/images/avatar2/small/matthew.png" class="ui avatar image">\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Matthew</a>\n' +
-  '      <div class="description">Last seen watching <a><b>The Godfather Part 2</b></a> yesterday.</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/jenny.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Jenny Hess</a>\n' +
-  '      <div class="description">Last seen watching <a><b>Twin Peaks</b></a> 3 days ago.</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/veronika.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Veronika Ossi</a>\n' +
-  '      <div class="description">Has not watched anything recently</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar2/small/rachel.png" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Rachel">\n' +
+  '      <FuiDescription>Last seen watching <a><b>Arrested Development</b></a> just now.</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar2/small/lindsay.png" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Lindsay">\n' +
+  '      <FuiDescription>Last seen watching <a><b>Bob\'s Burgers</b></a> 10 hours ago.</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar2/small/matthew.png" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Matthew">\n' +
+  '      <FuiDescription>Last seen watching <a><b>The Godfather Part 2</b></a> yesterday.</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/jenny.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Jenny Hess">\n' +
+  '      <FuiDescription>Last seen watching <a><b>Twin Peaks</b></a> 3 days ago.</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/veronika.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Veronika Ossi">\n' +
+  '      <FuiDescription>Has not watched anything recently</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListList3 = 
   '<div class="ui relaxed divided list">\n' +
   '  <div class="item">\n' +
@@ -862,23 +854,21 @@ s.ElementListDivided1 =
   '  </div>\n' +
   '</div>' 
 s.ElementListLink2 = 
-  '<div class="ui list">\n' +
-  '  <div class="item">\n' +
-  '    <a class="header">Header</a>\n' +
-  '    <div class="description">\n' +
+  '<FuiList>\n' +
+  '  <FuiItem headerA="Header">\n' +
+  '    <FuiDescription>\n' +
   '      Click a link in our <a>description</a>.\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <a class="header">Learn More</a>\n' +
-  '    <div class="description">\n' +
+  '    </FuiDescription>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem headerA="Learn More">\n' +
+  '    <FuiDescription>\n' +
   '      Learn more about this site on <a>our FAQ page</a>.\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiDescription>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListSize1 = 
   '<FuiList size=mini horizontal divided>\n' +
-  '  <FuiItem></FuiItem>\n' +
+  '  <FuiItem>\n' +
   '    <FuiImage avatar src="/images/avatar/small/helen.jpg"></FuiImage>\n' +
   '    <FuiContent header="Helen"></FuiContent>\n' +
   '  </FuiItem>\n' +
@@ -988,26 +978,20 @@ s.ElementListBulleted2 =
   '  <li>Warranty</li>\n' +
   '</ul>' 
 s.ElementListSize3 = 
-  '<div class="ui small horizontal list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Helen</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/christian.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Christian</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Daniel</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList size=small horizontal>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/helen.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Helen"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/christian.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Christian"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/daniel.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Daniel"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListDescription1 = 
   '<div class="ui list">\n' +
   '  <div class="item">\n' +
@@ -1117,68 +1101,50 @@ s.ElementListHorizontal2 =
   '  </div>\n' +
   '</div>' 
 s.ElementListSize6 = 
-  '<div class="ui huge horizontal divided list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Helen</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/christian.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Christian</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Daniel</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList size=huge horizontal divided>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/helen.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Helen"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/christian.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Christian"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/daniel.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Daniel"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListSize4 = 
-  '<div class="ui large horizontal divided list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Helen</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/christian.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Christian</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Daniel</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList size=large horizontal divided>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/helen.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Helen"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/christian.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Christian"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/daniel.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Daniel"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListSize7 = 
-  '<div class="ui massive horizontal divided list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Helen</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/christian.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Christian</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Daniel</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList size=massive horizontal divided>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/helen.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Helen"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/christian.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Christian"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/daniel.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Daniel"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListOrdered2 = 
   '<div class="ignored ui info message">An ordered list can also use the <code>ol</code> tag</div>\n' +
   '<ol class="ui list">\n' +
@@ -1406,68 +1372,50 @@ s.ElementListOrdered4 =
   '  <li value="*">Deleting Your Account</li>\n' +
   '</ol>' 
 s.ElementListSize5 = 
-  '<div class="ui big horizontal divided list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Helen</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/christian.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Christian</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Daniel</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList size=big horizontal divided>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/helen.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Helen"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/christian.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Christian"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/daniel.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Daniel"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListSize2 = 
-  '<div class="ui tiny horizontal list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Helen</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/christian.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Christian</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Daniel</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList size=tiny horizontal>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/helen.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Helen"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/christian.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Christian"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/daniel.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Daniel"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListVerticallyAligned1 = 
-  '<div class="ui horizontal list">\n' +
-  '  <div class="item">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui avatar image">\n' +
-  '    <div class="top aligned content">\n' +
-  '      Top Aligned\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui avatar image">\n' +
-  '    <div class="middle aligned content">\n' +
-  '      Middle\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui avatar image">\n' +
-  '    <div class="bottom aligned content">\n' +
-  '      Bottom\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList horizontal>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/wireframe/square-image.png"></FuiImage>\n' +
+  '    <FuiContent aligned=top>Top Aligned</FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/wireframe/square-image.png"></FuiImage>\n' +
+  '    <FuiContent aligned=middle>Middle</FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/wireframe/square-image.png"></FuiImage>\n' +
+  '    <FuiContent aligned=bottom>Bottom</FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListAnimated1 = 
   '<div class="ui ignored info message">\n' +
   '  Be sure content can fit on one line when using the animated variation, otherwise text content will reflow when hovered.\n' +
@@ -1612,11 +1560,11 @@ s.ElementListIcon1 =
   '  </div>\n' +
   '</div>' 
 s.ElementListLink1A = 
-  '<div class="ui list">\n' +
-  '  <a class="item">What is a FAQ?</a>\n' +
-  '  <a class="item">Who is our user?</a>\n' +
-  '  <a class="item">Where is our office located?</a>\n' +
-  '</div>' 
+  '<FuiList>\n' +
+  '  <FuiItem tag=a>What is a FAQ?</FuiItem>\n' +
+  '  <FuiItem tag=a>Who is our user?</FuiItem>\n' +
+  '  <FuiItem tag=a>Where is our office located?</FuiItem>\n' +
+  '</FuiList>' 
 s.ElementStepEvenlyDivided2 = 
   '<div class="ui two steps">\n' +
   '  <div class="active step">\n' +

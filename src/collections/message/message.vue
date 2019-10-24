@@ -69,16 +69,6 @@ export default {
       },
       default: false,
     },
-    /*
-    prop3: {
-      type: String,
-      description: '',
-      validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
-      },
-      default: '',
-    },
-    */
   },
   events: {
     click: {
