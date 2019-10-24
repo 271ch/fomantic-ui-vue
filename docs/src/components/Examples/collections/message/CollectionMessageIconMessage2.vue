@@ -1,14 +1,11 @@
 <template>
   <div>
-    <div class="ui icon message">
-      <i class="notched circle loading icon"></i>
-      <div class="content">
-        <div class="header">
-          Just one second
-        </div>
+    <FuiMessage icon>
+      <FuiIcon name="notched circle" loading></FuiIcon>
+      <FuiContent header="Just one second">
         <p>We're fetching that content for you.</p>
-      </div>
-    </div>
+      </FuiContent>
+    </FuiMessage>
   </div>
 </template>
 
@@ -16,7 +13,7 @@
 export default {
   name: 'CollectionMessageIconMessage2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'message',
     title1: 'Types',

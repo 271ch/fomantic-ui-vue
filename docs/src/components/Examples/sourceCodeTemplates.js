@@ -65,8 +65,7 @@ s.ElementImageAvatar1 =
   '<FuiImage src="/images/wireframe/square-image.png" avatar></FuiImage>\n' +
   '<span>Username</span>' 
 s.ElementImageImageLink1 = 
-  '<FuiImage tag=a size=medium href="http://google.com">\n' +
-  '  <img src="/images/wireframe/image-text.png">\n' +
+  '<FuiImage tag=a size=medium href="http://google.com" src="/images/wireframe/image-text.png">\n' +
   '</FuiImage>' 
 s.ElementImageBordered1 = 
   '<FuiImage src="/images/wireframe/white-image.png" size=medium bordered></FuiImage>' 
@@ -86,8 +85,7 @@ s.ElementImageCentered1 =
   '  <p>Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.</p>\n' +
   '</FuiSegment>' 
 s.ElementImageImage2 = 
-  '<FuiImage tag=div size=small>\n' +
-  '  <img src="/images/wireframe/image.png">\n' +
+  '<FuiImage tag=div size=small src="/images/wireframe/image.png">\n' +
   '</FuiImage>' 
 s.ElementPlaceholderImage2 = 
   '<div class="ui three cards">\n' +
@@ -2165,12 +2163,11 @@ s.ElementInputAction6 =
   '  </FuiButton>\n' +
   '</FuiInput>' 
 s.ElementInputLabeled3 = 
-  '<div class="ui right labeled input">\n' +
-  '  <input type="text" placeholder="Enter weight.."/>\n' +
-  '  <div class="ui basic label">\n' +
+  '<FuiInput labeled=right placeholder="Enter weight..">\n' +
+  '  <FuiLabel basic>\n' +
   '    kg\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiLabel>\n' +
+  '</FuiInput>' 
 s.ElementInputLoading3 = 
   '<FuiInput placeholder="Search..." icon color=purple loading=double>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
@@ -2221,8 +2218,7 @@ s.ElementInputTransparent3 =
   '  <FuiIcon name=search></FuiIcon>\n' +
   '</FuiInput>' 
 s.ElementInputLabeled2 = 
-  '<div class="ui right labeled input">\n' +
-  '  <input type="text" placeholder="Find domain"/>\n' +
+  '<FuiInput labeled=right placeholder="Find domain">\n' +
   '  <div class="ui dropdown label">\n' +
   '    <div class="text">.com</div>\n' +
   '    <i class="dropdown icon"></i>\n' +
@@ -2232,7 +2228,7 @@ s.ElementInputLabeled2 =
   '      <div class="item">.org</div>\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '</div>' 
+  '</FuiInput>' 
 s.ElementInputLoading2 = 
   '<FuiInput placeholder="Search..." icon loading>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
@@ -2248,12 +2244,11 @@ s.ElementInputIcon2 =
   '  <FuiIcon name=users></FuiIcon>\n' +
   '</FuiInput>' 
 s.ElementInputLabeled7 = 
-  '<div class="ui corner labeled input">\n' +
-  '  <input type="text" placeholder="Search..."/>\n' +
-  '  <div class="ui corner label">\n' +
-  '    <i class="asterisk icon"></i>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiInput corner labeled placeholder="Search...">\n' +
+  '  <FuiLabel corner>\n' +
+  '    <FuiIcon name=asterisk></FuiIcon>\n' +
+  '  </FuiLabel>\n' +
+  '</FuiInput>' 
 s.ElementInputSize6 = 
   '<FuiInput placeholder="Search massive..." size=massive icon>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
@@ -2271,12 +2266,11 @@ s.ElementInputFluid1 =
   '  <FuiButton tag=div>Search</FuiButton>\n' +
   '</FuiInput>' 
 s.ElementInputLabeled6 = 
-  '<div class="ui left corner labeled input">\n' +
-  '  <input type="text" placeholder="Search..."/>\n' +
-  '  <div class="ui left corner label">\n' +
-  '    <i class="asterisk icon"></i>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiInput corner=left labeled placeholder="Search...">\n' +
+  '  <FuiLabel corner=left>\n' +
+  '    <FuiIcon name=asterisk></FuiIcon>\n' +
+  '  </FuiLabel>\n' +
+  '</FuiInput>' 
 s.ElementInputAction2 = 
   '<FuiInput action=left value="$52.03">\n' +
   '  <template #before>\n' +
@@ -2341,13 +2335,14 @@ s.ElementInputAction3 =
   '  </FuiButton>\n' +
   '</FuiInput>' 
 s.ElementInputLabeled5 = 
-  '<div class="ui right labeled left icon input">\n' +
-  '  <i class="tags icon"></i>\n' +
-  '  <input type="text" placeholder="Enter tags"/>\n' +
-  '  <a class="ui tag label">\n' +
+  '<FuiInput labeled=right icon=left placeholder="Enter tags">\n' +
+  '  <template #before>\n' +
+  '    <FuiIcon name=tags></FuiIcon>\n' +
+  '  </template>\n' +
+  '  <FuiLabel tag=a tagged>\n' +
   '    Add Tag\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiLabel>\n' +
+  '</FuiInput>' 
 s.ElementInputAction1 = 
   '<FuiInput action placeholder="Search...">\n' +
   '  <FuiButton>Search</FuiButton>\n' +
@@ -2369,12 +2364,13 @@ s.ElementInputAction4 =
   '  <FuiButton tag=div>Search</FuiButton>\n' +
   '</FuiInput>' 
 s.ElementInputLabeled1 = 
-  '<div class="ui labeled input">\n' +
-  '  <div class="ui label">\n' +
-  '    http://\n' +
-  '  </div>\n' +
-  '  <input type="text" placeholder="mysite.com"/>\n' +
-  '</div>' 
+  '<FuiInput labeled placeholder="mysite.com">\n' +
+  '  <template #before>\n' +
+  '    <FuiLabel>\n' +
+  '      http://\n' +
+  '    </FuiLabel>\n' +
+  '  </template>\n' +
+  '</FuiInput>' 
 s.ElementInputAction5 = 
   '<FuiInput action value="http://ww.short.url/c0opq">\n' +
   '  <FuiButton color=teal labeledIcon=right>\n' +
@@ -2394,11 +2390,16 @@ s.ElementInputSize3 =
   '  <FuiIcon name=search></FuiIcon>\n' +
   '</FuiInput>' 
 s.ElementInputLabeled4 = 
-  '<div class="ui right labeled input">\n' +
-  '  <label for="amount" class="ui label">$</label>\n' +
-  '  <input type="text" placeholder="Amount" id="amount"/>\n' +
-  '  <div class="ui basic label">.00</div>\n' +
-  '</div>' 
+  '<FuiInput labeled=right placeholder="Amount" id="amount">\n' +
+  '  <template #before>\n' +
+  '    <FuiLabel tag=label for="amount">\n' +
+  '      $\n' +
+  '    </FuiLabel>\n' +
+  '  </template>\n' +
+  '  <FuiLabel basic>\n' +
+  '    .00\n' +
+  '  </FuiLabel>\n' +
+  '</FuiInput>' 
 s.ElementInputIcon1 = 
   '<FuiInput placeholder="Search..." icon>\n' +
   '  <FuiIcon name=search></FuiIcon>\n' +
@@ -2647,24 +2648,24 @@ s.ElementLabelAllVariantsofLabelcanbeinverted1 =
   '    <a class="ui black inverted tag label">Black</a>\n' +
   '</div>' 
 s.ElementLabelCorner1 = 
-  '<div class="ui two column grid">\n' +
-  '  <div class="column">\n' +
+  '<FuiGrid column=two>\n' +
+  '  <FuiColumn>\n' +
   '    <div class="ui fluid image">\n' +
   '      <a class="ui left corner label">\n' +
   '        <i class="heart icon"></i>\n' +
   '      </a>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="column">\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
   '    <div class="ui fluid image">\n' +
   '      <a class="ui red right corner label">\n' +
   '        <i class="save icon"></i>\n' +
   '      </a>\n' +
   '      <img src="/images/wireframe/image.png">\n' +
   '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
 s.ElementLabelImage1 = 
   '<FuiLabel tag=a image="/images/avatar/small/joe.jpg">\n' +
   '  Joe\n' +
@@ -2723,24 +2724,22 @@ s.ElementLabelIcon4 =
   '  <FuiIcon name=delete></FuiIcon>\n' +
   '</FuiLabel>' 
 s.ElementLabelRibbon4 = 
-  '<div class="ui two column grid">\n' +
-  '  <div class="column">\n' +
-  '    <div class="ui fluid image">\n' +
-  '      <div class="ui black ribbon icon label">\n' +
-  '        <i class="hotel icon"></i> \n' +
-  '      </div>\n' +
-  '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="column">\n' +
-  '    <div class="ui fluid image">\n' +
-  '      <div class="ui blue right ribbon icon label">\n' +
-  '        <i class="spoon icon"></i>\n' +
-  '      </div>\n' +
-  '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiGrid column=two>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage tag=div fluid src="/images/wireframe/image.png">\n' +
+  '      <FuiLabel color=black ribbon icon>\n' +
+  '        <FuiIcon name=hotel></FuiIcon>\n' +
+  '      </FuiLabel>\n' +
+  '    </FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage tag=div fluid src="/images/wireframe/image.png">\n' +
+  '      <FuiLabel color=blue ribbon=right icon>\n' +
+  '        <FuiIcon name=spoon></FuiIcon>\n' +
+  '      </FuiLabel>\n' +
+  '    </FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
 s.ElementLabelAttached1 = 
   '<div class="ui three column grid">\n' +
   '  <div class="row">\n' +
@@ -2835,24 +2834,22 @@ s.ElementLabelFloatingaligned1 =
   '  </a>\n' +
   '</div>' 
 s.ElementLabelRibbon3 = 
-  '<div class="ui two column grid">\n' +
-  '  <div class="column">\n' +
-  '    <div class="ui fluid image">\n' +
-  '      <div class="ui black ribbon right icon label">\n' +
-  '        Hotel <i class="hotel icon"></i> \n' +
-  '      </div>\n' +
-  '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="column">\n' +
-  '    <div class="ui fluid image">\n' +
-  '      <div class="ui blue right ribbon right icon label">\n' +
-  '        Food <i class="spoon icon"></i>\n' +
-  '      </div>\n' +
-  '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiGrid column=two>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage tag=div fluid src="/images/wireframe/image.png">\n' +
+  '      <FuiLabel color=black ribbon icon=right>\n' +
+  '        Hotel <FuiIcon name=hotel></FuiIcon>\n' +
+  '      </FuiLabel>\n' +
+  '    </FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage tag=div fluid src="/images/wireframe/image.png">\n' +
+  '      <FuiLabel color=blue ribbon=right icon=right>\n' +
+  '        Food <FuiIcon name=spoon></FuiIcon>\n' +
+  '      </FuiLabel>\n' +
+  '    </FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
 s.ElementLabelPointing2 = 
   '<form class="ui fluid form">\n' +
   '  <div class="field">\n' +
@@ -2903,58 +2900,57 @@ s.ElementLabelHorizontal1 =
   '  </a>\n' +
   '</div>' 
 s.ElementLabelDetail1 = 
-  '<div class="ui label">\n' +
+  '<FuiLabel detail="214">\n' +
   '  Dogs\n' +
-  '  <div class="detail">214</div>\n' +
-  '</div>' 
+  '</FuiLabel>' 
 s.ElementLabelLink2 = 
   '<FuiLabel detailA="View Mail">\n' +
   '  <FuiIcon name=mail></FuiIcon>\n' +
   '  23\n' +
   '</FuiLabel>' 
 s.ElementLabelSize1 = 
-  '<div class="ui mini label">\n' +
+  '<FuiLabel size=mini>\n' +
   '  Mini\n' +
-  '</div>\n' +
-  '<div class="ui tiny label">\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel size=tiny>\n' +
   '  Tiny\n' +
-  '</div>\n' +
-  '<div class="ui small label">\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel size=small>\n' +
   '  Small\n' +
-  '</div>\n' +
-  '<div class="ui label">\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel>\n' +
   '  Medium\n' +
-  '</div>\n' +
-  '<div class="ui large label">\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel size=large>\n' +
   '  Large\n' +
-  '</div>\n' +
-  '<div class="ui big label">\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel size=big>\n' +
   '  Big\n' +
-  '</div>\n' +
-  '<div class="ui huge label">\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel size=huge>\n' +
   '  Huge\n' +
-  '</div>\n' +
-  '<div class="ui massive label">\n' +
+  '</FuiLabel>\n' +
+  '<FuiLabel size=massive>\n' +
   '  Massive\n' +
-  '</div>' 
+  '</FuiLabel>' 
 s.ElementLabelTagGroup1 = 
-  '<div class="ui tag labels">\n' +
-  '  <a class="ui label">\n' +
+  '<FuiLabels tagged>\n' +
+  '  <FuiLabel tag=a>\n' +
   '    $10.00\n' +
-  '  </a>\n' +
-  '  <a class="ui label">\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
   '    $19.99\n' +
-  '  </a>\n' +
-  '  <a class="ui label">\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
   '    $24.99\n' +
-  '  </a>\n' +
-  '  <a class="ui label">\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
   '    $30.99\n' +
-  '  </a>\n' +
-  '  <a class="ui label">\n' +
+  '  </FuiLabel>\n' +
+  '  <FuiLabel tag=a>\n' +
   '    $10.25\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiLabel>\n' +
+  '</FuiLabels>' 
 s.ElementLabelFloatingleft1 = 
   '<div class="ui compact menu">\n' +
   '  <a class="item">\n' +
@@ -2978,24 +2974,22 @@ s.ElementLabelFloatingleft1 =
   '  </a>\n' +
   '</div>' 
 s.ElementLabelRibbon2 = 
-  '<div class="ui two column grid">\n' +
-  '  <div class="column">\n' +
-  '    <div class="ui fluid image">\n' +
-  '      <div class="ui black ribbon label">\n' +
-  '        <i class="hotel icon"></i> Hotel\n' +
-  '      </div>\n' +
-  '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="column">\n' +
-  '    <div class="ui fluid image">\n' +
-  '      <div class="ui blue right ribbon label">\n' +
-  '        <i class="spoon icon"></i> Food\n' +
-  '      </div>\n' +
-  '      <img src="/images/wireframe/image.png">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiGrid column=two>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage tag=div fluid src="/images/wireframe/image.png">\n' +
+  '      <FuiLabel color=black ribbon>\n' +
+  '        <FuiIcon name=hotel></FuiIcon> Hotel\n' +
+  '      </FuiLabel>\n' +
+  '    </FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage tag=div fluid src="/images/wireframe/image.png">\n' +
+  '      <FuiLabel color=blue ribbon=right>\n' +
+  '        <FuiIcon name=spoon></FuiIcon> Food\n' +
+  '      </FuiLabel>\n' +
+  '    </FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
 s.ElementLabelCircular2 = 
   '<FuiLabel tag=a color=red empty circular></FuiLabel>\n' +
   '<FuiLabel tag=a color=orange empty circular></FuiLabel>\n' +
@@ -3085,9 +3079,9 @@ s.ElementLabelImage1A =
   '  Stevie\n' +
   '</a>' 
 s.ElementLabelLink1 = 
-  '<a class="ui label">\n' +
-  '  <i class="mail icon"></i> 23\n' +
-  '</a>' 
+  '<FuiLabel tag=a>\n' +
+  '  <FuiIcon name=mail></FuiIcon> 23\n' +
+  '</FuiLabel>' 
 s.ElementLabelBasicTagLabels1 = 
   '<FuiLabel tag=a basic tagged>Standard Tag</FuiLabel>\n' +
   '<FuiLabel tag=a primary basic tagged>Primary</FuiLabel>\n' +
@@ -3123,15 +3117,15 @@ s.ElementLabelImage2 =
   '  Veronika\n' +
   '</FuiLabel>\n' +
   '<FuiLabel tag=a color=teal image="/images/avatar/small/jenny.jpg" detail="Student">\n' +
-  '  Veronika\n' +
+  '  Jenny\n' +
   '</FuiLabel>\n' +
   '<FuiLabel tag=a color=yellow image="/images/avatar/small/christian.jpg" detail="Co-worker">\n' +
-  '  Helen\n' +
+  '  Christian\n' +
   '</FuiLabel>' 
 s.ElementLabelTag1 = 
-  '<a class="ui tag label">New</a>\n' +
-  '<a class="ui red tag label">Upcoming</a>\n' +
-  '<a class="ui teal tag label">Featured</a>' 
+  '<FuiLabel tag=a tagged>New</FuiLabel>\n' +
+  '<FuiLabel tag=a tagged color=red>Upcoming</FuiLabel>\n' +
+  '<FuiLabel tag=a tagged color=teal>Featured</FuiLabel>' 
 s.ElementLabelBasicGroup1 = 
   '<FuiLabels basic>\n' +
   '  <FuiLabel tag=a>\n' +
@@ -3202,25 +3196,25 @@ s.ElementLabelIcon1 =
   '  Cat\n' +
   '</FuiLabel>' 
 s.ElementLabelRibbon1 = 
-  '<div class="ui two column grid">\n' +
-  '  <div class="column">\n' +
-  '    <div class="ui raised segment">\n' +
-  '      <a class="ui red ribbon label">Overview</a>\n' +
+  '<FuiGrid column=two>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiSegment raised>\n' +
+  '      <FuiLabel tag=a color=red ribbon>Overview</FuiLabel>\n' +
   '      <span>Account Details</span>\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      <a class="ui blue ribbon label">Community</a> User Reviews\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="column">\n' +
-  '    <div class="ui segment">\n' +
-  '      <a class="ui orange right ribbon label">Specs</a>\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      <a class="ui teal right ribbon label">Reviews</a>\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '      <FuiLabel tag=a color=blue ribbon>Community</FuiLabel> User Reviews\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiSegment>\n' +
+  '      <FuiLabel tag=a color=orange ribbon=right>Specs</FuiLabel>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '      <FuiLabel tag=a color=teal ribbon=right>Reviews</FuiLabel>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
 s.ElementLabelCircular1 = 
   '<FuiLabel tag=a color=red circular>2</FuiLabel>\n' +
   '<FuiLabel tag=a color=orange circular>2</FuiLabel>\n' +
@@ -3377,29 +3371,29 @@ s.ElementHeaderIcon2 =
   '</FuiHeader>\n' +
   '<FuiImage wireframe src="/images/wireframe/short-paragraph.png"></FuiImage>' 
 s.ElementHeaderSubHeaders2 = 
-  '<div class="ui horizontal list">\n' +
-  '  <div class="item">\n' +
-  '    <img src="/images/avatar2/small/molly.png" class="ui mini circular image">\n' +
-  '    <div class="content">\n' +
-  '      <div class="ui sub header">Molly</div>\n' +
+  '<FuiList horizontal>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar2/small/molly.png" size=mini circular></FuiImage>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiHeader sub>Molly</FuiHeader>\n' +
   '      Coordinator\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img src="/images/avatar2/small/elyse.png" class="ui mini circular image">\n' +
-  '    <div class="content">\n' +
-  '      <div class="ui sub header">Elyse</div>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar2/small/elyse.png" size=mini circular></FuiImage>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiHeader sub>Elyse</FuiHeader>\n' +
   '      Developer\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img src="/images/avatar2/small/eve.png" class="ui mini circular image"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="ui sub header">Eve</div>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar2/small/eve.png" size=mini circular></FuiImage>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiHeader sub>Eve</FuiHeader>\n' +
   '      Project Manager\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementHeaderSubheader2 = 
   '<FuiHeader level=1>\n' +
   '  H1\n' +
@@ -21624,59 +21618,53 @@ s.CollectionFormInlineFields2 =
   '  </div>\n' +
   '</div>' 
 s.CollectionMessageIconMessage2 = 
-  '<div class="ui icon message">\n' +
-  '  <i class="notched circle loading icon"></i>\n' +
-  '  <div class="content">\n' +
-  '    <div class="header">\n' +
-  '      Just one second\n' +
-  '    </div>\n' +
+  '<FuiMessage icon>\n' +
+  '  <FuiIcon name="notched circle" loading></FuiIcon>\n' +
+  '  <FuiContent header="Just one second">\n' +
   '    <p>We\'re fetching that content for you.</p>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiContent>\n' +
+  '</FuiMessage>' 
 s.CollectionMessageFloating1 = 
   '<div class="ui floating message">\n' +
   '  <p>Way to go!</p>\n' +
   '</div>' 
 s.CollectionMessageListMessage1 = 
-  '<div class="ui message">\n' +
-  '  <div class="header">\n' +
-  '    New Site Features\n' +
-  '  </div>\n' +
+  '<FuiMessage header="New Site Features">\n' +
   '  <ul class="list">\n' +
   '    <li>You can now have cover images on blog pages</li>\n' +
   '    <li>Drafts will now auto-save while writing</li>\n' +
   '  </ul>\n' +
-  '</div>' 
+  '</FuiMessage>' 
 s.CollectionMessageCompact1 = 
   '<div class="ui compact message">\n' +
   '  <p>Get all the best inventions in your e-mail every day. Sign up now!</p>\n' +
   '</div>' 
 s.CollectionMessageVisible1 = 
-  '<div class="ui visible message">\n' +
+  '<FuiMessage visible>\n' +
   '  <p>You can always see me</p>\n' +
-  '</div>' 
+  '</FuiMessage>' 
 s.CollectionMessageSize1 = 
-  '<div class="ui mini message">\n' +
+  '<FuiMessage size=mini>\n' +
   '  This is a mini message.\n' +
-  '</div>\n' +
-  '<div class="ui tiny message">\n' +
+  '</FuiMessage>\n' +
+  '<FuiMessage size=tiny>\n' +
   '  This is a tiny message.\n' +
-  '</div>\n' +
-  '<div class="ui small message">\n' +
+  '</FuiMessage>\n' +
+  '<FuiMessage size=small>\n' +
   '  This is a small message.\n' +
-  '</div>\n' +
-  '<div class="ui large message">\n' +
+  '</FuiMessage>\n' +
+  '<FuiMessage size=large>\n' +
   '  This is large\n' +
-  '</div>\n' +
-  '<div class="ui big message">\n' +
+  '</FuiMessage>\n' +
+  '<FuiMessage size=big>\n' +
   '  This is big\n' +
-  '</div>\n' +
-  '<div class="ui huge message">\n' +
+  '</FuiMessage>\n' +
+  '<FuiMessage size=huge>\n' +
   '  This is huge\n' +
-  '</div>\n' +
-  '<div class="ui massive message">\n' +
+  '</FuiMessage>\n' +
+  '<FuiMessage size=massive>\n' +
   '  This is massive\n' +
-  '</div>' 
+  '</FuiMessage>' 
 s.CollectionMessageAttached1 = 
   '<div class="ui attached message">\n' +
   '  <div class="header">\n' +
@@ -21716,13 +21704,9 @@ s.CollectionMessageAttached1 =
   '  Already signed up? <a href="#">Login here</a> instead.\n' +
   '</div>' 
 s.CollectionMessageNegativeError1 = 
-  '<div class="ui negative message">\n' +
-  '  <i class="close icon"></i>\n' +
-  '  <div class="header">\n' +
-  '    We\'re sorry we can\'t apply that discount\n' +
-  '  </div>\n' +
+  '<FuiMessage negative iconName=close header="We\'re sorry we can\'t apply that discount">\n' +
   '  <p>That offer has expired</p>\n' +
-  '</div>' 
+  '</FuiMessage>' 
 s.CollectionMessageHidden1 = 
   '<div class="existing code">\n' +
   '  <div class="ui hidden message">\n' +
@@ -21764,72 +21748,44 @@ s.CollectionMessageDismissableBlock1 =
   '  </div>\n' +
   '</div>' 
 s.CollectionMessagePositiveSuccess2 = 
-  '<div class="ui success message">\n' +
-  '  <i class="close icon"></i>\n' +
-  '  <div class="header">\n' +
-  '    Your user registration was successful.\n' +
-  '  </div>\n' +
+  '<FuiMessage success iconName=close header="Your user registration was successful.">\n' +
   '  <p>You may now log-in with the username you have chosen</p>\n' +
-  '</div>' 
+  '</FuiMessage>' 
 s.CollectionMessageMessage1 = 
-  '<div class="ui message">\n' +
-  '  <div class="header">\n' +
-  '    Changes in Service\n' +
-  '  </div>\n' +
+  '<FuiMessage header="Changes in Service">\n' +
   '  <p>We just updated our privacy policy here to better service our customers. We recommend reviewing the changes.</p>\n' +
-  '</div>' 
+  '</FuiMessage>' 
 s.CollectionMessagePositiveSuccess1 = 
-  '<b class="ignored">\n' +
-  '  <i class="attention icon"></i>\n' +
-  '  Positive/Success and Negative/Error messages by default use similar colors, but each has their own color  variables that can be distinguished in your theme.\n' +
-  '</b>\n' +
-  '<div class="ui positive message">\n' +
-  '  <i class="close icon"></i>\n' +
-  '  <div class="header">\n' +
-  '    You are eligible for a reward\n' +
-  '  </div>\n' +
+  '<FuiMessage positive iconName=close header="You are eligible for a reward">\n' +
   '  <p>Go to your <b>special offers</b> page to see now.</p>\n' +
-  '</div>' 
+  '</FuiMessage>' 
 s.CollectionMessageWarning1 = 
-  '<div class="ui warning message">\n' +
-  '  <i class="close icon"></i>\n' +
-  '  <div class="header">\n' +
-  '    You must register before you can do that!\n' +
-  '  </div>\n' +
+  '<FuiMessage warning iconName=close header="You must register before you can do that!">\n' +
   '  Visit our registration page, then try again\n' +
-  '</div>' 
+  '</FuiMessage>' 
 s.CollectionMessageIconMessage1 = 
-  '<div class="ui icon message">\n' +
-  '  <i class="inbox icon"></i>\n' +
+  '<FuiMessage icon iconName=inbox>\n' +
   '  <div class="content">\n' +
   '    <div class="header">\n' +
   '      Have you heard about our mailing list?\n' +
   '    </div>\n' +
   '    <p>Get the best news in your e-mail every day.</p>\n' +
   '  </div>\n' +
-  '</div>' 
+  '</FuiMessage>' 
 s.CollectionMessageNegativeError2 = 
-  '<div class="ui error message">\n' +
-  '  <i class="close icon"></i>\n' +
-  '  <div class="header">\n' +
-  '    There were some errors with your submission\n' +
-  '  </div>\n' +
+  '<FuiMessage error icon=close header="There were some errors with your submission">\n' +
   '  <ul class="list">\n' +
   '    <li>You must include both a upper and lower case letters in your password.</li>\n' +
   '    <li>You need to select your home country.</li>\n' +
   '  </ul>\n' +
-  '</div>' 
+  '</FuiMessage>' 
 s.CollectionMessageInfo1 = 
-  '<div class="ui info message">\n' +
-  '  <i class="close icon"></i>\n' +
-  '  <div class="header">\n' +
-  '    Was this what you wanted?\n' +
-  '  </div>\n' +
+  '<FuiMessage info icon=close header="Was this what you wanted?">\n' +
   '  <ul class="list">\n' +
   '    <li>It\'s good to see you again.</li>\n' +
   '    <li>Did you know it\'s been a while?</li>\n' +
   '  </ul>\n' +
-  '</div>' 
+  '</FuiMessage>' 
 s.CollectionTableTable1 = 
   '<div class="ui ignored positive message">\n' +
   '  Tables will automatically stack their layouts for mobile devices. To disable this behavior, use the <code>unstackable</code> variation or <code>tablet stackable</code> to allow responsive adjustments for tablet.\n' +
@@ -24376,24 +24332,21 @@ s.ViewItemInverted1 =
 s.ViewItemRelaxed1 = 
   '<FuiItems relaxed>\n' +
   '  <FuiItem>\n' +
-  '    <FuiImage tag=div size=tiny>\n' +
-  '      <img src="/images/wireframe/image.png">\n' +
+  '    <FuiImage tag=div size=tiny src="/images/wireframe/image.png">\n' +
   '    </FuiImage>\n' +
   '    <FuiContent aligned=middle>\n' +
   '      <a class="header">12 Years a Slave</a>\n' +
   '    </FuiContent>\n' +
   '  </FuiItem>\n' +
   '  <FuiItem>\n' +
-  '    <FuiImage tag=div size=tiny>\n' +
-  '      <img src="/images/wireframe/image.png">\n' +
+  '    <FuiImage tag=div size=tiny src="/images/wireframe/image.png">\n' +
   '    </FuiImage>\n' +
   '    <FuiContent aligned=middle>\n' +
   '      <a class="header">My Neighbor Totoro</a>\n' +
   '    </FuiContent>\n' +
   '  </FuiItem>\n' +
   '  <FuiItem>\n' +
-  '    <FuiImage tag=div size=tiny>\n' +
-  '      <img src="/images/wireframe/image.png">\n' +
+  '    <FuiImage tag=div size=tiny src="/images/wireframe/image.png">\n' +
   '    </FuiImage>\n' +
   '    <FuiContent aligned=middle>\n' +
   '      <a class="header">Watchmen</a>\n' +
@@ -24707,24 +24660,21 @@ s.ViewItemHeader1 =
 s.ViewItemRelaxed2 = 
   '<FuiItems relaxed=very>\n' +
   '  <FuiItem>\n' +
-  '    <FuiImage tag=div size=tiny>\n' +
-  '      <img src="/images/wireframe/image.png">\n' +
+  '    <FuiImage tag=div size=tiny src="/images/wireframe/image.png">\n' +
   '    </FuiImage>\n' +
   '    <FuiContent aligned=middle>\n' +
   '      <a class="header">12 Years a Slave</a>\n' +
   '    </FuiContent>\n' +
   '  </FuiItem>\n' +
   '  <FuiItem>\n' +
-  '    <FuiImage tag=div size=tiny>\n' +
-  '      <img src="/images/wireframe/image.png">\n' +
+  '    <FuiImage tag=div size=tiny src="/images/wireframe/image.png">\n' +
   '    </FuiImage>\n' +
   '    <FuiContent aligned=middle>\n' +
   '      <a class="header">My Neighbor Totoro</a>\n' +
   '    </FuiContent>\n' +
   '  </FuiItem>\n' +
   '  <FuiItem>\n' +
-  '    <FuiImage tag=div size=tiny>\n' +
-  '      <img src="/images/wireframe/image.png">\n' +
+  '    <FuiImage tag=div size=tiny src="/images/wireframe/image.png">\n' +
   '    </FuiImage>\n' +
   '    <FuiContent aligned=middle>\n' +
   '      <a class="header">Watchmen</a>\n' +

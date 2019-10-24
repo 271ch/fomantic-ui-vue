@@ -1,12 +1,8 @@
 <template>
   <div>
-    <div class="ui negative message">
-      <i class="close icon"></i>
-      <div class="header">
-        We're sorry we can't apply that discount
-      </div>
+    <FuiMessage negative iconName=close header="We're sorry we can't apply that discount">
       <p>That offer has expired</p>
-    </div>
+    </FuiMessage>
   </div>
 </template>
 
@@ -14,7 +10,7 @@
 export default {
   name: 'CollectionMessageNegativeError1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'message',
     title1: 'Variations',

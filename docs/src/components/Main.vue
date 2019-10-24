@@ -17,6 +17,13 @@
     <router-link to="/step">Step</router-link>,
     <router-link to="/text">Text</router-link>,
     <br /><br />
+    <router-link to="/breadcrumb">Breadcrumb</router-link>,
+    <router-link to="/form">Form</router-link>,
+    <router-link to="/grid">Grid</router-link>,
+    <router-link to="/menu">Menu</router-link>,
+    <router-link to="/message">Message</router-link>,
+    <router-link to="/table">Table</router-link>,
+    <br /><br />
     <router-link to="/advertisement">Advertisement</router-link>,
     <router-link to="/card">Card</router-link>,
     <router-link to="/comment">Comment</router-link>,
@@ -47,6 +54,13 @@ import PageSegment from './Pages/PageSegment'
 import PageStep from './Pages/PageStep'
 import PageText from './Pages/PageText'
 
+import PageBreadcrumb from './Pages/PageBreadcrumb'
+import PageForm from './Pages/PageForm'
+import PageGrid from './Pages/PageGrid'
+import PageMenu from './Pages/PageMenu'
+import PageMessage from './Pages/PageMessage'
+import PageTable from './Pages/PageTable'
+
 import PageAdvertisement from './Pages/PageAdvertisement'
 import PageCard from './Pages/PageCard'
 import PageComment from './Pages/PageComment'
@@ -73,6 +87,13 @@ const routes = [
   { path: '/segment', component: PageSegment },
   { path: '/step', component: PageStep },
   { path: '/text', component: PageText },
+
+  { path: '/breadcrumb', component: PageBreadcrumb },
+  { path: '/form', component: PageForm },
+  { path: '/grid', component: PageGrid },
+  { path: '/menu', component: PageMenu },
+  { path: '/message', component: PageMessage },
+  { path: '/table', component: PageTable },
 
   { path: '/advertisement', component: PageAdvertisement },
   { path: '/card', component: PageCard },

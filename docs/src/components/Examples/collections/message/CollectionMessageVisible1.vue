@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="ui visible message">
+    <FuiMessage visible>
       <p>You can always see me</p>
-    </div>
+    </FuiMessage>
   </div>
 </template>
 

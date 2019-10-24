@@ -1,14 +1,13 @@
 <template>
   <div>
-    <div class="ui icon message">
-      <i class="inbox icon"></i>
+    <FuiMessage icon iconName=inbox>
       <div class="content">
         <div class="header">
           Have you heard about our mailing list?
         </div>
         <p>Get the best news in your e-mail every day.</p>
       </div>
-    </div>
+    </FuiMessage>
   </div>
 </template>
 

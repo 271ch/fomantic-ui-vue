@@ -1,22 +1,22 @@
 <template>
   <div>
-    <div class="ui tag labels">
-      <a class="ui label">
+    <FuiLabels tagged>
+      <FuiLabel tag=a>
         $10.00
-      </a>
-      <a class="ui label">
+      </FuiLabel>
+      <FuiLabel tag=a>
         $19.99
-      </a>
-      <a class="ui label">
+      </FuiLabel>
+      <FuiLabel tag=a>
         $24.99
-      </a>
-      <a class="ui label">
+      </FuiLabel>
+      <FuiLabel tag=a>
         $30.99
-      </a>
-      <a class="ui label">
+      </FuiLabel>
+      <FuiLabel tag=a>
         $10.25
-      </a>
-    </div>
+      </FuiLabel>
+    </FuiLabels>
   </div>
 </template>
 
@@ -24,7 +24,7 @@
 export default {
   name: 'ElementLabelTagGroup1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Groups',

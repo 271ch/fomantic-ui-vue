@@ -1,26 +1,26 @@
 <template>
   <div>
-    <div class="ui mini message">
+    <FuiMessage size=mini>
       This is a mini message.
-    </div>
-    <div class="ui tiny message">
+    </FuiMessage>
+    <FuiMessage size=tiny>
       This is a tiny message.
-    </div>
-    <div class="ui small message">
+    </FuiMessage>
+    <FuiMessage size=small>
       This is a small message.
-    </div>
-    <div class="ui large message">
+    </FuiMessage>
+    <FuiMessage size=large>
       This is large
-    </div>
-    <div class="ui big message">
+    </FuiMessage>
+    <FuiMessage size=big>
       This is big
-    </div>
-    <div class="ui huge message">
+    </FuiMessage>
+    <FuiMessage size=huge>
       This is huge
-    </div>
-    <div class="ui massive message">
+    </FuiMessage>
+    <FuiMessage size=massive>
       This is massive
-    </div>
+    </FuiMessage>
   </div>
 </template>
 
@@ -28,7 +28,7 @@
 export default {
   name: 'CollectionMessageSize1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'message',
     title1: 'Variations',

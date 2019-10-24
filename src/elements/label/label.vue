@@ -35,6 +35,7 @@ export default {
       }
     ),
     Mixins.PColor,
+    Mixins.PSize,
   ],
   props: {
     image: {
@@ -134,6 +135,7 @@ export default {
         this.pointing !== 'above' && this.pointing,
         this.pointing && 'pointing',
         ...this.getClassesColor,
+        ...this.getClassesSize,
         ...this.getClassesEmphasis,
         this.image && 'image',
         this.corner,

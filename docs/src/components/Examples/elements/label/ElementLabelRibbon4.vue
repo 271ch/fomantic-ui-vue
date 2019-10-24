@@ -1,23 +1,21 @@
 <template>
   <div>
-    <div class="ui two column grid">
-      <div class="column">
-        <div class="ui fluid image">
-          <div class="ui black ribbon icon label">
-            <i class="hotel icon"></i> 
-          </div>
-          <img src="/images/wireframe/image.png">
-        </div>
-      </div>
-      <div class="column">
-        <div class="ui fluid image">
-          <div class="ui blue right ribbon icon label">
-            <i class="spoon icon"></i>
-          </div>
-          <img src="/images/wireframe/image.png">
-        </div>
-      </div>
-    </div>
+    <FuiGrid column=two>
+      <FuiColumn>
+        <FuiImage tag=div fluid src="/images/wireframe/image.png">
+          <FuiLabel color=black ribbon icon>
+            <FuiIcon name=hotel></FuiIcon>
+          </FuiLabel>
+        </FuiImage>
+      </FuiColumn>
+      <FuiColumn>
+        <FuiImage tag=div fluid src="/images/wireframe/image.png">
+          <FuiLabel color=blue ribbon=right icon>
+            <FuiIcon name=spoon></FuiIcon>
+          </FuiLabel>
+        </FuiImage>
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -25,7 +23,7 @@
 export default {
   name: 'ElementLabelRibbon4',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Types',
@@ -34,7 +32,7 @@ export default {
     model: '    <div class="ui two column grid">\n' +
       '      <div class="column">\n' +
       '        <div class="ui fluid image">\n' +
-      '          <div class="ui black ribbon icon label">\n' +
+      '          <div class="ui black icon ribbon label">\n' +
       '            <i class="hotel icon"></i> \n' +
       '          </div>\n' +
       '          <img src="/images/wireframe/image.png">\n' +
@@ -42,7 +40,7 @@ export default {
       '      </div>\n' +
       '      <div class="column">\n' +
       '        <div class="ui fluid image">\n' +
-      '          <div class="ui blue right ribbon icon label">\n' +
+      '          <div class="ui blue icon right ribbon label">\n' +
       '            <i class="spoon icon"></i>\n' +
       '          </div>\n' +
       '          <img src="/images/wireframe/image.png">\n' +

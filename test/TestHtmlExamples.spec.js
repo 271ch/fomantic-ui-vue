@@ -8,18 +8,6 @@ import examples from '../docs/src/components/Examples/examples'
 var beautify_html = require('js-beautify').html;
 
 let stats = {
-  et: {
-    name: '',
-    skip: 0,
-    fail: 0,
-    n:0,
-  },
-  e: {
-    name: '',
-    skip: 0,
-    fail: 0,
-    n:0,
-  },
   prot: [],
 }
 

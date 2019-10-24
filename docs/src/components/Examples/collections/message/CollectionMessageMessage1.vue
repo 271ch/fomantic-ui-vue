@@ -1,11 +1,8 @@
 <template>
   <div>
-    <div class="ui message">
-      <div class="header">
-        Changes in Service
-      </div>
+    <FuiMessage header="Changes in Service">
       <p>We just updated our privacy policy here to better service our customers. We recommend reviewing the changes.</p>
-    </div>
+    </FuiMessage>
   </div>
 </template>
 
@@ -13,7 +10,7 @@
 export default {
   name: 'CollectionMessageMessage1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'message',
     title1: 'Types',

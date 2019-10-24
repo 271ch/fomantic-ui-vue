@@ -19,6 +19,10 @@ export default {
       type: Boolean,
       description: '', // TODO: descr
     },
+    tagged: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
     circular: {
       type: Boolean,
       description: '', // TODO: descr
@@ -35,6 +39,7 @@ export default {
         'ui',
         this.basic && 'basic',
         this.circular && 'circular',
+        this.tagged && 'tag',
         ...this.getClassesColor,
         'labels'
       );

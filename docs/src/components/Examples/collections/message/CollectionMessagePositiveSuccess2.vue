@@ -1,12 +1,8 @@
 <template>
   <div>
-    <div class="ui success message">
-      <i class="close icon"></i>
-      <div class="header">
-        Your user registration was successful.
-      </div>
+    <FuiMessage success iconName=close header="Your user registration was successful.">
       <p>You may now log-in with the username you have chosen</p>
-    </div>
+    </FuiMessage>
   </div>
 </template>
 
@@ -14,7 +10,7 @@
 export default {
   name: 'CollectionMessagePositiveSuccess2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'message',
     title1: 'Variations',

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <a class="ui tag label">New</a>
-    <a class="ui red tag label">Upcoming</a>
-    <a class="ui teal tag label">Featured</a>
+    <FuiLabel tag=a tagged>New</FuiLabel>
+    <FuiLabel tag=a tagged color=red>Upcoming</FuiLabel>
+    <FuiLabel tag=a tagged color=teal>Featured</FuiLabel>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: 'ElementLabelTag1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Types',

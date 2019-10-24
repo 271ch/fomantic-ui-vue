@@ -1,12 +1,8 @@
 <template>
   <div>
-    <div class="ui warning message">
-      <i class="close icon"></i>
-      <div class="header">
-        You must register before you can do that!
-      </div>
+    <FuiMessage warning iconName=close header="You must register before you can do that!">
       Visit our registration page, then try again
-    </div>
+    </FuiMessage>
   </div>
 </template>
 
@@ -14,7 +10,7 @@
 export default {
   name: 'CollectionMessageWarning1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'message',
     title1: 'Variations',

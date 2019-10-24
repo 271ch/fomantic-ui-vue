@@ -14,22 +14,22 @@ export default {
   mixins: [],
   props: {
     /*
-    prop1: { // TODO: Component FuiStep
+    prop1: {
       type: Boolean,
-      description: '',
+      description: '', // TODO: description
     },
     prop2: {
       type: String,
-      description: '',
+      description: '', // TODO: description
       default: '',
     },
     prop3: {
-      type: String,
-      description: '',
+      type: [Boolean, String],
+      description: '', // TODO: description
       validator: (value) => {
         return !value || Enum.LeftRight.check(value);
       },
-      default: '',
+      default: false,
     },
     */
   },

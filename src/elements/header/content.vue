@@ -2,6 +2,12 @@
   <div
     :class="classes"
   >
+    <div
+      v-if="header"
+      class="header"
+    >
+      {{ header }}
+    </div>
     <slot />
   </div>
 </template>
@@ -17,6 +23,14 @@ export default {  // TODO: Component FuiContent
     Mixins.getMixinAligned(['middle'], null),
   ],
   props: {
+    header: {
+      type: [Boolean, String],
+      description: '',
+      validator: (value) => {
+        return value !== true;
+      },
+      default: false,
+    },
   },
   events: {
     click: {

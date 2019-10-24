@@ -1,29 +1,29 @@
 <template>
   <div>
-    <div class="ui mini label">
+    <FuiLabel size=mini>
       Mini
-    </div>
-    <div class="ui tiny label">
+    </FuiLabel>
+    <FuiLabel size=tiny>
       Tiny
-    </div>
-    <div class="ui small label">
+    </FuiLabel>
+    <FuiLabel size=small>
       Small
-    </div>
-    <div class="ui label">
+    </FuiLabel>
+    <FuiLabel>
       Medium
-    </div>
-    <div class="ui large label">
+    </FuiLabel>
+    <FuiLabel size=large>
       Large
-    </div>
-    <div class="ui big label">
+    </FuiLabel>
+    <FuiLabel size=big>
       Big
-    </div>
-    <div class="ui huge label">
+    </FuiLabel>
+    <FuiLabel size=huge>
       Huge
-    </div>
-    <div class="ui massive label">
+    </FuiLabel>
+    <FuiLabel size=massive>
       Massive
-    </div>
+    </FuiLabel>
   </div>
 </template>
 
@@ -31,7 +31,7 @@
 export default {
   name: 'ElementLabelSize1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Variations',

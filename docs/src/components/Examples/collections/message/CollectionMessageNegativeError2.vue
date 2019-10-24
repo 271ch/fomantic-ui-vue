@@ -1,15 +1,11 @@
 <template>
   <div>
-    <div class="ui error message">
-      <i class="close icon"></i>
-      <div class="header">
-        There were some errors with your submission
-      </div>
+    <FuiMessage error icon=close header="There were some errors with your submission">
       <ul class="list">
         <li>You must include both a upper and lower case letters in your password.</li>
         <li>You need to select your home country.</li>
       </ul>
-    </div>
+    </FuiMessage>
   </div>
 </template>
 
