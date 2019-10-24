@@ -1,76 +1,58 @@
 <template>
   <div>
-    <div class="ui list">
-      <div class="item">
-        <i class="folder icon"></i>
-        <div class="content">
-          <div class="header">src</div>
-          <div class="description">Source files for project</div>
-          <div class="list">
-            <div class="item">
-              <i class="folder icon"></i>
-              <div class="content">
-                <div class="header">site</div>
-                <div class="description">Your site's theme</div>
-              </div>
-            </div>
-            <div class="item">
-              <i class="folder icon"></i>
-              <div class="content">
-                <div class="header">themes</div>
-                <div class="description">Packaged theme files</div>
-                <div class="list">
-                  <div class="item">
-                    <i class="folder icon"></i>
-                    <div class="content">
-                      <div class="header">default</div>
-                      <div class="description">Default packaged theme</div>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <i class="folder icon"></i>
-                    <div class="content">
-                      <div class="header">my_theme</div>
-                      <div class="description">Packaged themes are also available in this folder</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <i class="file icon"></i>
-              <div class="content">
-                <div class="header">theme.config</div>
-                <div class="description">Config file for setting packaged themes</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <i class="folder icon"></i>
-        <div class="content">
-          <div class="header">dist</div>
-          <div class="description">Compiled CSS and JS files</div>
-          <div class="list">
-            <div class="item">
-              <i class="folder icon"></i>
-              <div class="content">
-                <div class="header">components</div>
-                <div class="description">Individual component CSS and JS</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <i class="file icon"></i>
-        <div class="content">
-          <div class="header">semantic.json</div>
-          <div class="description">Contains build settings for gulp</div>
-        </div>
-      </div>
-    </div>
+    <FuiList>
+      <FuiItem iconName=folder>
+        <FuiContent header="src">
+          <FuiDescription>Source files for project</FuiDescription>
+          <FuiList sub>
+            <FuiItem iconName=folder>
+              <FuiContent header="site">
+                <FuiDescription>Your site's theme</FuiDescription>
+              </FuiContent>
+            </FuiItem>
+            <FuiItem iconName=folder>
+              <FuiContent header="themes">
+                <FuiDescription>Packaged theme files</FuiDescription>
+                <FuiList sub>
+                  <FuiItem iconName=folder>
+                    <FuiContent header="default">
+                      <FuiDescription>Default packaged theme</FuiDescription>
+                    </FuiContent>
+                  </FuiItem>
+                  <FuiItem iconName=folder>
+                    <FuiContent header="my_theme">
+                      <FuiDescription>Packaged themes are also available in this folder</FuiDescription>
+                    </FuiContent>
+                  </FuiItem>
+                </FuiList>
+              </FuiContent>
+            </FuiItem>
+            <FuiItem iconName=file>
+              <FuiContent header="theme.config">
+                <FuiDescription>Config file for setting packaged themes</FuiDescription>
+              </FuiContent>
+            </FuiItem>
+          </FuiList>
+        </FuiContent>
+      </FuiItem>
+      <FuiItem iconName=folder>
+        <FuiContent header="dist">
+          <FuiDescription>Compiled CSS and JS files</FuiDescription>
+          <FuiList sub>
+            <FuiItem iconName=folder>
+              <FuiContent header="components">
+                <FuiDescription>Individual component CSS and JS</FuiDescription>
+              </FuiContent>
+            </FuiItem>
+          </FuiList>
+        </FuiContent>
+      </FuiItem>
+      <FuiItem iconName=file>
+        <FuiContent header="semantic.json">
+          <FuiDescription>Contains build settings for gulp</FuiDescription>
+        </FuiContent>
+      </FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -78,7 +60,7 @@
 export default {
   name: 'ElementListList4',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Types',

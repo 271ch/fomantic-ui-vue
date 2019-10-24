@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div class="ignored ui info message">An ordered list can also use the <code>ol</code> tag</div>
-    <ol class="ui list">
+    <FuiList tag=ol>
       <li>Signing Up</li>
       <li>User Benefits</li>
       <li>User Types
@@ -12,7 +11,7 @@
         </ol>
       </li>
       <li>Deleting Your Account</li>
-    </ol>
+    </FuiList>
   </div>
 </template>
 
@@ -20,14 +19,13 @@
 export default {
   name: 'ElementListOrdered2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Types',
     title2: 'Ordered',
     description: 'A list can be ordered numerically',
-    model: '    <div class="ignored ui info message">An ordered list can also use the <code>ol</code> tag</div>\n' +
-      '    <ol class="ui list">\n' +
+    model: '    <ol class="ui list">\n' +
       '      <li>Signing Up</li>\n' +
       '      <li>User Benefits</li>\n' +
       '      <li>User Types\n' +

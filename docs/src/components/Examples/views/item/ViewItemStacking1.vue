@@ -11,7 +11,7 @@
             <span>Description</span>
           </div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
           <div class="extra">
             Additional Details
@@ -28,7 +28,7 @@
             <span>Description</span>
           </div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
           <div class="extra">
             Additional Details
@@ -60,7 +60,7 @@ export default {
       '            <span>Description</span>\n' +
       '          </div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="extra">\n' +
       '            Additional Details\n' +
@@ -77,7 +77,7 @@ export default {
       '            <span>Description</span>\n' +
       '          </div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="extra">\n' +
       '            Additional Details\n' +

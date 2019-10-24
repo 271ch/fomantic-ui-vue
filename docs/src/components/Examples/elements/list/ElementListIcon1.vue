@@ -1,25 +1,20 @@
 <template>
   <div>
-    <div class="ui list">
-      <a class="item">
-        <i class="help icon"></i>
-        <div class="content">
-          <div class="header">Floated Icon</div>
-          <div class="description">This text will always have a left margin to make sure it sits alongside your icon</div>
-        </div>
-      </a>
-      <a class="item">
-        <i class="right triangle icon"></i>
-        <div class="content">
-          <div class="header">Icon Alignment</div>
-          <div class="description">Floated icons are by default top aligned. To have an icon top aligned try this example.</div>
-        </div>
-      </a>
-      <div class="item">
-        <i class="help icon"></i>
+    <FuiList>
+      <FuiItem tag=a iconName=help>
+        <FuiContent header="Floated Icon">
+          <FuiDescription>This text will always have a left margin to make sure it sits alongside your icon</FuiDescription>
+        </FuiContent>
+      </FuiItem>
+      <FuiItem tag=a iconName="right triangle">
+        <FuiContent header="Icon Alignment">
+          <FuiDescription>Floated icons are by default top aligned. To have an icon top aligned try this example.</FuiDescription>
+        </FuiContent>
+      </FuiItem>
+      <FuiItem iconName=help>
         Inline Text
-      </div>
-    </div>
+      </FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -27,7 +22,7 @@
 export default {
   name: 'ElementListIcon1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Content',

@@ -1,15 +1,15 @@
 <template>
   <div>
-    <div class="ui right floated horizontal list">
-      <div class="disabled item" href="#">© GitHub, Inc.</div>
-      <a class="item" href="#">Terms</a>
-      <a class="item" href="#">Privacy</a>
-      <a class="item" href="#">Contact</a>
-    </div>
-    <div class="ui horizontal list">
-      <a class="item" href="#">About Us</a>
-      <a class="item" href="#">Jobs</a>
-    </div>
+    <FuiList floated=right horizontal>
+      <FuiItem disabled href="#">© GitHub, Inc.</FuiItem>
+      <FuiItem tag=a href="#">Terms</FuiItem>
+      <FuiItem tag=a href="#">Privacy</FuiItem>
+      <FuiItem tag=a href="#">Contact</FuiItem>
+    </FuiList>
+    <FuiList horizontal>
+      <FuiItem tag=a href="#">About Us</FuiItem>
+      <FuiItem tag=a href="#">Jobs</FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -17,7 +17,7 @@
 export default {
   name: 'ElementListFloated2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Content Variations',

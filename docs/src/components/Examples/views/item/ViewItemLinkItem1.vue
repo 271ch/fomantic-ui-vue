@@ -8,7 +8,7 @@
         <div class="content">
           <div class="header">Stevie Feliciano</div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -19,7 +19,7 @@
         <div class="content">
           <div class="header">Veronika Ossi</div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -30,7 +30,7 @@
         <div class="content">
           <div class="header">Jenny Hess</div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@ export default {
       '        <div class="content">\n' +
       '          <div class="header">Stevie Feliciano</div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -67,7 +67,7 @@ export default {
       '        <div class="content">\n' +
       '          <div class="header">Veronika Ossi</div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -78,7 +78,7 @@ export default {
       '        <div class="content">\n' +
       '          <div class="header">Jenny Hess</div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +

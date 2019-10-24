@@ -28,7 +28,7 @@
       </div>
       <div class="statistic">
         <div class="value">
-          <img src="/images/avatar/small/joe.jpg" class="ui circular inline image"/>
+          <img src="/images/avatar/small/joe.jpg" class="ui circular inline image">
           42
         </div>
         <div class="label">
@@ -77,7 +77,7 @@ export default {
       '      </div>\n' +
       '      <div class="statistic">\n' +
       '        <div class="value">\n' +
-      '          <img src="/images/avatar/small/joe.jpg" class="ui circular inline image"/>\n' +
+      '          <img src="/images/avatar/small/joe.jpg" class="ui circular inline image">\n' +
       '          42\n' +
       '        </div>\n' +
       '        <div class="label">\n' +

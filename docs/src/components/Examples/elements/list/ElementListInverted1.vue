@@ -1,27 +1,24 @@
 <template>
   <div>
-    <div class="ui inverted segment">
-      <div class="ui inverted relaxed divided list">
-        <div class="item">
-          <div class="content">
-            <div class="header">Snickerdoodle</div>
+    <FuiSegment inverted>
+      <FuiList inverted relaxed divided>
+        <FuiItem>
+          <FuiContent header="Snickerdoodle">
             An excellent companion
-          </div>
-        </div>
-        <div class="item">
-          <div class="content">
-            <div class="header">Poodle</div>
+          </FuiContent>
+        </FuiItem>
+        <FuiItem>
+          <FuiContent header="Poodle">
             A poodle, its pretty basic
-          </div>
-        </div>
-        <div class="item">
-          <div class="content">
-            <div class="header">Paulo</div>
+          </FuiContent>
+        </FuiItem>
+        <FuiItem>
+          <FuiContent header="Paulo">
             He's also a dog
-          </div>
-        </div>
-      </div>
-    </div>
+          </FuiContent>
+        </FuiItem>
+      </FuiList>
+    </FuiSegment>
   </div>
 </template>
 
@@ -29,7 +26,7 @@
 export default {
   name: 'ElementListInverted1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Variations',

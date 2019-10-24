@@ -107,27 +107,27 @@
           <div class="default text">Saved Contacts</div>
           <div class="menu">
             <div class="item" data-value="jenny" data-text="Jenny">
-              <img class="ui mini avatar image" src="/images/avatar/small/jenny.jpg"/>
+              <img src="/images/avatar/small/jenny.jpg" class="ui mini avatar image">
               Jenny Hess
             </div>
             <div class="item" data-value="elliot" data-text="Elliot">
-              <img class="ui mini avatar image" src="/images/avatar/small/elliot.jpg"/>
+              <img src="/images/avatar/small/elliot.jpg" class="ui mini avatar image">
               Elliot Fu
             </div>
             <div class="item" data-value="stevie" data-text="Stevie">
-              <img class="ui mini avatar image" src="/images/avatar/small/stevie.jpg"/>
+              <img src="/images/avatar/small/stevie.jpg" class="ui mini avatar image">
               Stevie Feliciano
             </div>
             <div class="item" data-value="christian" data-text="Christian">
-              <img class="ui mini avatar image" src="/images/avatar/small/christian.jpg"/>
+              <img src="/images/avatar/small/christian.jpg" class="ui mini avatar image">
               Christian
             </div>
             <div class="item" data-value="matt" data-text="Matt">
-              <img class="ui mini avatar image" src="/images/avatar/small/matt.jpg"/>
+              <img src="/images/avatar/small/matt.jpg" class="ui mini avatar image">
               Matt
             </div>
             <div class="item" data-value="justen" data-text="Justen">
-              <img class="ui mini avatar image" src="/images/avatar/small/justen.jpg"/>
+              <img src="/images/avatar/small/justen.jpg" class="ui mini avatar image">
               Justen Kitsune
             </div>
           </div>
@@ -263,27 +263,27 @@ export default {
       '          <div class="default text">Saved Contacts</div>\n' +
       '          <div class="menu">\n' +
       '            <div class="item" data-value="jenny" data-text="Jenny">\n' +
-      '              <img class="ui mini avatar image" src="/images/avatar/small/jenny.jpg"/>\n' +
+      '              <img src="/images/avatar/small/jenny.jpg" class="ui mini avatar image">\n' +
       '              Jenny Hess\n' +
       '            </div>\n' +
       '            <div class="item" data-value="elliot" data-text="Elliot">\n' +
-      '              <img class="ui mini avatar image" src="/images/avatar/small/elliot.jpg"/>\n' +
+      '              <img src="/images/avatar/small/elliot.jpg" class="ui mini avatar image">\n' +
       '              Elliot Fu\n' +
       '            </div>\n' +
       '            <div class="item" data-value="stevie" data-text="Stevie">\n' +
-      '              <img class="ui mini avatar image" src="/images/avatar/small/stevie.jpg"/>\n' +
+      '              <img src="/images/avatar/small/stevie.jpg" class="ui mini avatar image">\n' +
       '              Stevie Feliciano\n' +
       '            </div>\n' +
       '            <div class="item" data-value="christian" data-text="Christian">\n' +
-      '              <img class="ui mini avatar image" src="/images/avatar/small/christian.jpg"/>\n' +
+      '              <img src="/images/avatar/small/christian.jpg" class="ui mini avatar image">\n' +
       '              Christian\n' +
       '            </div>\n' +
       '            <div class="item" data-value="matt" data-text="Matt">\n' +
-      '              <img class="ui mini avatar image" src="/images/avatar/small/matt.jpg"/>\n' +
+      '              <img src="/images/avatar/small/matt.jpg" class="ui mini avatar image">\n' +
       '              Matt\n' +
       '            </div>\n' +
       '            <div class="item" data-value="justen" data-text="Justen">\n' +
-      '              <img class="ui mini avatar image" src="/images/avatar/small/justen.jpg"/>\n' +
+      '              <img src="/images/avatar/small/justen.jpg" class="ui mini avatar image">\n' +
       '              Justen Kitsune\n' +
       '            </div>\n' +
       '          </div>\n' +

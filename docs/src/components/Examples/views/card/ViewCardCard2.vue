@@ -3,7 +3,7 @@
     <div class="ui card">
       <div class="content">
         <div class="right floated meta">14h</div>
-        <img class="ui avatar image" src="/images/avatar/large/elliot.jpg"/> Elliot
+        <img src="/images/avatar/large/elliot.jpg" class="ui avatar image"> Elliot
       </div>
       <div class="image">
         <img src="/images/wireframe/image.png" class="ui wireframe image">
@@ -39,7 +39,7 @@ export default {
     model: '    <div class="ui card">\n' +
       '      <div class="content">\n' +
       '        <div class="right floated meta">14h</div>\n' +
-      '        <img class="ui avatar image" src="/images/avatar/large/elliot.jpg"/> Elliot\n' +
+      '        <img src="/images/avatar/large/elliot.jpg" class="ui avatar image"> Elliot\n' +
       '      </div>\n' +
       '      <div class="image">\n' +
       '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +

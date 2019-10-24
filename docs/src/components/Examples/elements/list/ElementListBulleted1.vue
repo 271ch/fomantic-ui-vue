@@ -1,18 +1,18 @@
 <template>
   <div>
-    <div class="ui bulleted list">
-      <div class="item">Gaining Access</div>
-      <div class="item">Inviting Friends</div>
-      <div class="item">
+    <FuiList bulleted>
+      <FuiItem>Gaining Access</FuiItem>
+      <FuiItem>Inviting Friends</FuiItem>
+      <FuiItem>
         <div>Benefits</div>
-        <div class="list">
-          <a class="item" href="#">Link to somewhere</a>
-          <div class="item">Rebates</div>
-          <div class="item">Discounts</div>
-        </div>
-      </div>
-      <div class="item">Warranty</div>
-    </div>
+        <FuiList sub>
+          <FuiItem tag=a href="#">Link to somewhere</FuiItem>
+          <FuiItem>Rebates</FuiItem>
+          <FuiItem>Discounts</FuiItem>
+        </FuiList>
+      </FuiItem>
+      <FuiItem>Warranty</FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -20,7 +20,7 @@
 export default {
   name: 'ElementListBulleted1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Types',

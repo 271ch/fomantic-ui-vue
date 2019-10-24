@@ -30,7 +30,7 @@ FuiVue.registerAll(Vue)
 
 const skipDoneElements = true;
 
-let doneElements = ['button', 'divider', 'header', 'icon', 'flag'];
+let doneElements = ['button', 'divider', 'flag', 'header', 'icon', 'image'];
 let skipElements = [];
 if (skipDoneElements) {
   skipElements = [...skipElements,...doneElements];
@@ -137,10 +137,21 @@ describe('ROOT SUITE', function () {
   after(async function(){
       // await utils.after()
 
+      const Reset = "\x1b[0m"
+      const Bright = "\x1b[1m"
+      const Underscore = "\x1b[4m"
+      const Blink = "\x1b[5m"
+      const FgRed = "\x1b[31m"
+      const FgGreen = "\x1b[32m"
+      const FgYellow = "\x1b[33m"
+      const FgBlue = "\x1b[34m"
+
       console.log('\n\n\n');
       let prtResult = (p) => {
         let perc = Math.floor(100.0 * (p[0] + p[3]) / p[2]);
-        return `${align(p[0],3)} pass + ${align(p[3],3)} pass' + ${align(p[2]-p[0]-p[1]-p[3],3)} skip + ${align(p[1],3)} fail = ${align(p[2],3)} (${align(perc,3)}%)`;
+        let b = (p[0] + p[3] == p[2])? FgGreen : '';
+        let e = (p[0] + p[3] == p[2])? Reset : '';
+        return `${align(p[0],3)} pass + ${align(p[3],3)} pass' + ${align(p[2]-p[0]-p[1]-p[3],3)} skip + ${p[1]>0?FgRed:''}${align(p[1],3)} fail${p[1]>0?Reset:''} = ${b}${align(p[2],3)} (${align(perc,3)}%)${e}`;
       }
       let align = (s, n) => {
         let ss = s.toString()
@@ -159,14 +170,15 @@ describe('ROOT SUITE', function () {
       let tot = [0,0,0,0]; // pass, fail, tot
       let tot_et = [0,0,0,0]; // pass, fail, tot
       let tot_e = [0,0,0,0]; // pass, fail, tot
+      let sp = '   '
       for(let ip in stats.prot) {
         let p = stats.prot[ip];
         if (p.t == 0) {
           //console.log(`${p.et} begin`);
           tot_et = [0,0,0,0]
         } else if (p.t == 1) {
-          console.log('..........................................................................');
-          console.log(` ${alignL(p.et,11)}      ${prtResult(tot_et)}`);
+          console.log(sp+'..........................................................................');
+          console.log(sp+` ${alignL(p.et,11)}      ${prtResult(tot_et)}`);
           console.log();
           tot[0] += tot_et[0]
           tot[1] += tot_et[1]
@@ -175,7 +187,7 @@ describe('ROOT SUITE', function () {
         } else if (p.t == 2) {
           tot_e = [0,0,0,0]
         } else if (p.t == 3) {
-          console.log(` ${alignL(p.e,13)} -> ${prtResult(tot_e)}`);
+          console.log(sp+` ${alignL(p.e,13)} -> ${prtResult(tot_e)}`);
           tot_et[0] += tot_e[0]
           tot_et[1] += tot_e[1]
           tot_et[2] += tot_e[2]
@@ -187,8 +199,8 @@ describe('ROOT SUITE', function () {
           else if ('passSkip' in p) tot_e[3] += 1
         }
       }
-      console.log('--------------------------------------------------------------------------');
-      console.log(` TOTAL            ${prtResult(tot)}`);
+      console.log(sp+'--------------------------------------------------------------------------');
+      console.log(sp+Bright+` TOTAL            ${prtResult(tot)}`+Reset);
   })
 })
 

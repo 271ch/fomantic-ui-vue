@@ -3,7 +3,7 @@
     <div class="ui items">
       <div class="item">
         <a class="ui small image">
-          <img src="/images/wireframe/image.png" class="ui wireframe image"/>
+          <img src="/images/wireframe/image.png" class="ui wireframe image">
         </a>
         <div class="content">
           <a class="header">Cute Dog</a>
@@ -30,7 +30,7 @@ export default {
     model: '    <div class="ui items">\n' +
       '      <div class="item">\n' +
       '        <a class="ui small image">\n' +
-      '          <img src="/images/wireframe/image.png" class="ui wireframe image"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </a>\n' +
       '        <div class="content">\n' +
       '          <a class="header">Cute Dog</a>\n' +

@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="ui horizontal bulleted link list">
-      <a class="item">
+    <FuiList horizontal bulleted link>
+      <FuiItem tag=a>
         Terms and Conditions
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem tag=a>
         Privacy Policy
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem tag=a>
         Contact Us
-      </a>
-    </div>
+      </FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 export default {
   name: 'ElementListHorizontal3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Variations',

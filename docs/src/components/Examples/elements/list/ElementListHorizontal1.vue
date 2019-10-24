@@ -1,28 +1,26 @@
 <template>
   <div>
-    <div class="ui horizontal list">
-      <div class="item">
-        <img class="ui avatar image" src="/images/avatar/small/tom.jpg"/>
+    <FuiList horizontal>
+      <FuiItem>
+        <FuiImage avatar src="/images/avatar/small/tom.jpg"></FuiImage>
         <div class="content">
           <div class="header">Tom</div>
           Top Contributor
         </div>
-      </div>
-      <div class="item">
-        <img class="ui avatar image" src="/images/avatar/small/christian.jpg"/>
-        <div class="content">
-          <div class="header">Christian Rocha</div>
+      </FuiItem>
+      <FuiItem>
+        <FuiImage avatar src="/images/avatar/small/christian.jpg"></FuiImage>
+        <FuiContent header="Christian Rocha">
           Admin
-        </div>
-      </div>
-      <div class="item">
-        <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/>
-        <div class="content">
-          <div class="header">Matt</div>
+        </FuiContent>
+      </FuiItem>
+      <FuiItem>
+        <FuiImage avatar src="/images/avatar/small/matt.jpg"></FuiImage>
+        <FuiContent header="Matt">
           Top Rated User
-        </div>
-      </div>
-    </div>
+        </FuiContent>
+      </FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -30,7 +28,7 @@
 export default {
   name: 'ElementListHorizontal1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Variations',
@@ -38,21 +36,21 @@ export default {
     description: 'A list can be formatted to have items appear horizontally',
     model: '    <div class="ui horizontal list">\n' +
       '      <div class="item">\n' +
-      '        <img class="ui avatar image" src="/images/avatar/small/tom.jpg"/>\n' +
+      '        <img src="/images/avatar/small/tom.jpg" class="ui avatar image">\n' +
       '        <div class="content">\n' +
       '          <div class="header">Tom</div>\n' +
       '          Top Contributor\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="item">\n' +
-      '        <img class="ui avatar image" src="/images/avatar/small/christian.jpg"/>\n' +
+      '        <img src="/images/avatar/small/christian.jpg" class="ui avatar image">\n' +
       '        <div class="content">\n' +
       '          <div class="header">Christian Rocha</div>\n' +
       '          Admin\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="item">\n' +
-      '        <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/>\n' +
+      '        <img src="/images/avatar/small/matt.jpg" class="ui avatar image">\n' +
       '        <div class="content">\n' +
       '          <div class="header">Matt</div>\n' +
       '          Top Rated User\n' +

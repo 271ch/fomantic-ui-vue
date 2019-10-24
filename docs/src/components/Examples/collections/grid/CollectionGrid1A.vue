@@ -1057,35 +1057,35 @@
       </div>
       <div class="ui grid">
         <div class="sixteen wide mobile eight wide tablet four wide computer column">
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="sixteen wide mobile eight wide tablet four wide computer column">
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="sixteen wide mobile eight wide tablet four wide computer column">
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="sixteen wide mobile eight wide tablet four wide computer column">
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="sixteen wide mobile eight wide tablet four wide computer column">
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
       </div>
     </div>
     <div class="another example">
       <div class="ui grid">
         <div class="four wide two wide large screen one wide widescreen column">
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="four wide two wide large screen one wide widescreen column">
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="four wide two wide large screen one wide widescreen column">
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
         <div class="four wide two wide large screen one wide widescreen column">
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
         </div>
       </div>
     </div>
@@ -2159,35 +2159,35 @@ export default {
       '      </div>\n' +
       '      <div class="ui grid">\n' +
       '        <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n' +
       '    <div class="another example">\n' +
       '      <div class="ui grid">\n' +
       '        <div class="four wide two wide large screen one wide widescreen column">\n' +
-      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="four wide two wide large screen one wide widescreen column">\n' +
-      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="four wide two wide large screen one wide widescreen column">\n' +
-      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="four wide two wide large screen one wide widescreen column">\n' +
-      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',

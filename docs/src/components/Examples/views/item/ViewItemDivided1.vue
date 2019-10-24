@@ -15,7 +15,7 @@
             <span class="cinema">Union Square 14</span>
           </div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
           <div class="extra">
             <div class="ui label">IMAX</div>
@@ -33,7 +33,7 @@
             <span class="cinema">IFC Cinema</span>
           </div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
           <div class="extra">
             <div class="ui right floated primary button">
@@ -54,7 +54,7 @@
             <span class="cinema">IFC</span>
           </div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
           <div class="extra">
             <div class="ui right floated primary button">
@@ -93,7 +93,7 @@ export default {
       '            <span class="cinema">Union Square 14</span>\n' +
       '          </div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="extra">\n' +
       '            <div class="ui label">IMAX</div>\n' +
@@ -111,7 +111,7 @@ export default {
       '            <span class="cinema">IFC Cinema</span>\n' +
       '          </div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="extra">\n' +
       '            <div class="ui right floated primary button">\n' +
@@ -132,7 +132,7 @@ export default {
       '            <span class="cinema">IFC</span>\n' +
       '          </div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="extra">\n' +
       '            <div class="ui right floated primary button">\n' +

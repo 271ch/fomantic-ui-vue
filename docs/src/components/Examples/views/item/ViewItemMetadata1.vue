@@ -16,7 +16,7 @@
             <span class="stay">1 Month</span>
           </div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -31,7 +31,7 @@
             <span class="stay">2 Weeks</span>
           </div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@
             <span class="stay">6 Weeks</span>
           </div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@ export default {
       '            <span class="stay">1 Month</span>\n' +
       '          </div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -95,7 +95,7 @@ export default {
       '            <span class="stay">2 Weeks</span>\n' +
       '          </div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -110,7 +110,7 @@ export default {
       '            <span class="stay">6 Weeks</span>\n' +
       '          </div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +

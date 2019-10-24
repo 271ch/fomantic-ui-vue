@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="ui attached segment">
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
     </div>
     <div class="ui three bottom attached steps">
       <div class="step">
@@ -86,7 +86,7 @@ export default {
       '      </div>\n' +
       '    </div>\n' +
       '    <div class="ui attached segment">\n' +
-      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n' +
       '    <div class="ui three bottom attached steps">\n' +
       '      <div class="step">\n' +

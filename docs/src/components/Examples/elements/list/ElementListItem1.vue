@@ -1,16 +1,10 @@
 <template>
   <div>
-    <div class="ui list">
-      <div class="item">
-        1
-      </div>
-      <div class="item">
-        2
-      </div>
-      <div class="item">
-        3
-      </div>
-    </div>
+    <FuiList>
+      <FuiItem>1</FuiItem>
+      <FuiItem>2</FuiItem>
+      <FuiItem>3</FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -18,7 +12,7 @@
 export default {
   name: 'ElementListItem1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Content',

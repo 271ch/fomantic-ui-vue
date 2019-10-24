@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui celled horizontal list">
-      <div class="item">About Us</div>
-      <div class="item">Contact</div>
-      <div class="item">Support</div>
-    </div>
+    <FuiList celled horizontal>
+      <FuiItem>About Us</FuiItem>
+      <FuiItem>Contact</FuiItem>
+      <FuiItem>Support</FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementListCelled3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Variations',

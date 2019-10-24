@@ -1,18 +1,18 @@
 <template>
   <div>
-    <div class="ui ordered list">
-      <a class="item">Getting Started</a>
-      <a class="item">Introduction</a>
-      <div class="item">
+    <FuiList ordered>
+      <FuiItem tag=a>Getting Started</FuiItem>
+      <FuiItem tag=a>Introduction</FuiItem>
+      <FuiItem>
         <a>Languages</a>
-        <div class="list">
-          <a class="item">HTML</a>
-          <a class="item">Javascript</a>
-          <a class="item">CSS</a>
-        </div>
-      </div>
-      <a class="item">Review</a>
-    </div>
+        <FuiList sub>
+          <FuiItem tag=a>HTML</FuiItem>
+          <FuiItem tag=a>Javascript</FuiItem>
+          <FuiItem tag=a>CSS</FuiItem>
+        </FuiList>
+      </FuiItem>
+      <FuiItem tag=a>Review</FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -20,7 +20,7 @@
 export default {
   name: 'ElementListOrdered1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Types',

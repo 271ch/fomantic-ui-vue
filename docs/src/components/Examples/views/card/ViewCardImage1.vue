@@ -3,8 +3,8 @@
     <div class="ui ignored info message">Cards can use <a href="/elements/reveal.html">reveal</a> or <a href="/modules/dimmer.html">dimmers</a> to easily show additional content, or options on hover</div>
     <div class="ui card">
       <div class="ui slide masked reveal image">
-        <img src="/images/avatar/large/jenny.jpg" class="visible content"/>
-        <img src="/images/avatar/large/elliot.jpg" class="hidden content"/>
+        <img src="/images/avatar/large/jenny.jpg" class="visible content">
+        <img src="/images/avatar/large/elliot.jpg" class="hidden content">
       </div>
       <div class="content">
         <a class="header">Team Fu &amp; Hess</a>
@@ -35,8 +35,8 @@ export default {
     model: '    <div class="ui ignored info message">Cards can use <a href="/elements/reveal.html">reveal</a> or <a href="/modules/dimmer.html">dimmers</a> to easily show additional content, or options on hover</div>\n' +
       '    <div class="ui card">\n' +
       '      <div class="ui slide masked reveal image">\n' +
-      '        <img src="/images/avatar/large/jenny.jpg" class="visible content"/>\n' +
-      '        <img src="/images/avatar/large/elliot.jpg" class="hidden content"/>\n' +
+      '        <img src="/images/avatar/large/jenny.jpg" class="visible content">\n' +
+      '        <img src="/images/avatar/large/elliot.jpg" class="hidden content">\n' +
       '      </div>\n' +
       '      <div class="content">\n' +
       '        <a class="header">Team Fu &amp; Hess</a>\n' +

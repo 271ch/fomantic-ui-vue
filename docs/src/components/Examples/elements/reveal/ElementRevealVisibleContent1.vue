@@ -4,7 +4,7 @@
       Visible and hidden content should be the same aspect ratio
     </div>
     <div class="ui small fade reveal image">
-      <img class="visible content" src="/images/avatar/large/ade.jpg"/>
+      <img src="/images/avatar/large/ade.jpg" class="visible content">
       <img src="/images/wireframe/square-image.png" class="hidden content">
     </div>
   </div>
@@ -24,7 +24,7 @@ export default {
       '      Visible and hidden content should be the same aspect ratio\n' +
       '    </div>\n' +
       '    <div class="ui small fade reveal image">\n' +
-      '      <img class="visible content" src="/images/avatar/large/ade.jpg"/>\n' +
+      '      <img src="/images/avatar/large/ade.jpg" class="visible content">\n' +
       '      <img src="/images/wireframe/square-image.png" class="hidden content">\n' +
       '    </div>\n',
   },

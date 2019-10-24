@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="ui horizontal bulleted list">
-      <a class="item">
+    <FuiList horizontal bulleted>
+      <FuiItem tag=a>
         About Us
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem tag=a>
         Sitemap
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem tag=a>
         Contact
-      </a>
-    </div>
+      </FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 export default {
   name: 'ElementListBulleted3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Types',

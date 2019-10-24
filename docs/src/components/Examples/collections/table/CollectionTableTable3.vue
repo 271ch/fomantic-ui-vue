@@ -9,7 +9,7 @@
         <tr>
           <td>
             <h4 class="ui image header">
-              <img src="/images/avatar2/small/lena.png" class="ui mini rounded image"/>
+              <img src="/images/avatar2/small/lena.png" class="ui mini rounded image">
               <div class="content">
                 Lena
                 <div class="sub header">Human Resources
@@ -23,7 +23,7 @@
         <tr>
           <td>
             <h4 class="ui image header">
-              <img src="/images/avatar2/small/matthew.png" class="ui mini rounded image"/>
+              <img src="/images/avatar2/small/matthew.png" class="ui mini rounded image">
               <div class="content">
                 Matthew
                 <div class="sub header">Fabric Design
@@ -37,7 +37,7 @@
         <tr>
           <td>
             <h4 class="ui image header">
-              <img src="/images/avatar2/small/lindsay.png" class="ui mini rounded image"/>
+              <img src="/images/avatar2/small/lindsay.png" class="ui mini rounded image">
               <div class="content">
                 Lindsay
                 <div class="sub header">Entertainment
@@ -51,7 +51,7 @@
         <tr>
           <td>
             <h4 class="ui image header">
-              <img src="/images/avatar2/small/mark.png" class="ui mini rounded image"/>
+              <img src="/images/avatar2/small/mark.png" class="ui mini rounded image">
               <div class="content">
                 Mark
                 <div class="sub header">Executive
@@ -86,7 +86,7 @@ export default {
       '        <tr>\n' +
       '          <td>\n' +
       '            <h4 class="ui image header">\n' +
-      '              <img src="/images/avatar2/small/lena.png" class="ui mini rounded image"/>\n' +
+      '              <img src="/images/avatar2/small/lena.png" class="ui mini rounded image">\n' +
       '              <div class="content">\n' +
       '                Lena\n' +
       '                <div class="sub header">Human Resources\n' +
@@ -100,7 +100,7 @@ export default {
       '        <tr>\n' +
       '          <td>\n' +
       '            <h4 class="ui image header">\n' +
-      '              <img src="/images/avatar2/small/matthew.png" class="ui mini rounded image"/>\n' +
+      '              <img src="/images/avatar2/small/matthew.png" class="ui mini rounded image">\n' +
       '              <div class="content">\n' +
       '                Matthew\n' +
       '                <div class="sub header">Fabric Design\n' +
@@ -114,7 +114,7 @@ export default {
       '        <tr>\n' +
       '          <td>\n' +
       '            <h4 class="ui image header">\n' +
-      '              <img src="/images/avatar2/small/lindsay.png" class="ui mini rounded image"/>\n' +
+      '              <img src="/images/avatar2/small/lindsay.png" class="ui mini rounded image">\n' +
       '              <div class="content">\n' +
       '                Lindsay\n' +
       '                <div class="sub header">Entertainment\n' +
@@ -128,7 +128,7 @@ export default {
       '        <tr>\n' +
       '          <td>\n' +
       '            <h4 class="ui image header">\n' +
-      '              <img src="/images/avatar2/small/mark.png" class="ui mini rounded image"/>\n' +
+      '              <img src="/images/avatar2/small/mark.png" class="ui mini rounded image">\n' +
       '              <div class="content">\n' +
       '                Mark\n' +
       '                <div class="sub header">Executive\n' +

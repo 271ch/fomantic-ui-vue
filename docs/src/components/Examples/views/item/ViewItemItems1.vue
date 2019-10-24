@@ -11,7 +11,7 @@
             <span>Description</span>
           </div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
           <div class="extra">
             Additional Details
@@ -28,7 +28,7 @@
             <span>Description</span>
           </div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
           <div class="extra">
             Additional Details

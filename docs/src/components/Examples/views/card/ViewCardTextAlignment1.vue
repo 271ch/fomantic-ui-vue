@@ -13,7 +13,7 @@
       </div>
       <div class="extra content">
         <div class="center aligned author">
-          <img class="ui avatar image" src="/images/avatar/small/jenny.jpg"/> Jenny
+          <img src="/images/avatar/small/jenny.jpg" class="ui avatar image"> Jenny
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@ export default {
       '      </div>\n' +
       '      <div class="extra content">\n' +
       '        <div class="center aligned author">\n' +
-      '          <img class="ui avatar image" src="/images/avatar/small/jenny.jpg"/> Jenny\n' +
+      '          <img src="/images/avatar/small/jenny.jpg" class="ui avatar image"> Jenny\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',

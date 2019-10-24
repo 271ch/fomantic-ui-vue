@@ -1,7 +1,7 @@
 <template>
   <div>
     <a class="ui label">
-      <img class="ui right spaced avatar image" src="/images/avatar/small/elliot.jpg"/>
+      <img src="/images/avatar/small/elliot.jpg" class="ui right spaced avatar image">
       Elliot
     </a>
     <a class="ui label">
@@ -22,7 +22,7 @@ export default {
     title2: 'Image',
     description: 'A label can include an image',
     model: '    <a class="ui label">\n' +
-      '      <img class="ui right spaced avatar image" src="/images/avatar/small/elliot.jpg"/>\n' +
+      '      <img src="/images/avatar/small/elliot.jpg" class="ui right spaced avatar image">\n' +
       '      Elliot\n' +
       '    </a>\n' +
       '    <a class="ui label">\n' +

@@ -20,6 +20,7 @@ export default {
         secondary: 'Format showing a lower level of emphasis.',
       }
     ),
+    Mixins.getMixinAligned(['middle'], null),
   ],
   props: {
     name: {
@@ -111,6 +112,7 @@ export default {
         this.corner !== true && this.corner,
         this.corner && 'corner',
         this.name,
+        ...this.getClassesAligned,
         this.loading && 'loading',
         this.link && 'link',
         'icon'

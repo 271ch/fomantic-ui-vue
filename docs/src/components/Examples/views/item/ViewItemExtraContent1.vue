@@ -5,8 +5,8 @@
         <div class="content">
           <a class="header">Cute Dog</a>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
           <div class="extra">
             <i class="green check icon"></i>
@@ -33,8 +33,8 @@ export default {
       '        <div class="content">\n' +
       '          <a class="header">Cute Dog</a>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="extra">\n' +
       '            <i class="green check icon"></i>\n' +

@@ -5,10 +5,10 @@
     </div>
     <div class="ui active move left reveal">
       <div class="visible content">
-        <img src="/images/wireframe/square-image.png" class="ui small image"/>
+        <img src="/images/wireframe/square-image.png" class="ui small image">
       </div>
       <div class="hidden content">
-        <img src="/images/avatar/large/nan.jpg" class="ui small image"/>
+        <img src="/images/avatar/large/nan.jpg" class="ui small image">
       </div>
     </div>
   </div>
@@ -29,10 +29,10 @@ export default {
       '    </div>\n' +
       '    <div class="ui active move left reveal">\n' +
       '      <div class="visible content">\n' +
-      '        <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
+      '        <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
       '      </div>\n' +
       '      <div class="hidden content">\n' +
-      '        <img src="/images/avatar/large/nan.jpg" class="ui small image"/>\n' +
+      '        <img src="/images/avatar/large/nan.jpg" class="ui small image">\n' +
       '      </div>\n' +
       '    </div>\n',
   },

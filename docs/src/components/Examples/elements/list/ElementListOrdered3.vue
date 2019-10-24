@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div class="ui ignored info message">An ordered list has a suffixed variation in which a dot <code>.</code> follows number.</div>
-    <ol class="ui suffixed list">
+    <FuiList tag=ol suffixed>
       <li>Signing Up</li>
       <li>User Benefits</li>
       <li>User Types
@@ -12,7 +11,7 @@
         </ol>
       </li>
       <li>Deleting Your Account</li>
-    </ol>
+    </FuiList>
   </div>
 </template>
 
@@ -20,14 +19,13 @@
 export default {
   name: 'ElementListOrdered3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Types',
     title2: 'Ordered',
     description: 'A list can be ordered numerically',
-    model: '    <div class="ui ignored info message">An ordered list has a suffixed variation in which a dot <code>.</code> follows number.</div>\n' +
-      '    <ol class="ui suffixed list">\n' +
+    model: '    <ol class="ui suffixed list">\n' +
       '      <li>Signing Up</li>\n' +
       '      <li>User Benefits</li>\n' +
       '      <li>User Types\n' +

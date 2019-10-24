@@ -17,7 +17,7 @@
       </div>
       <div class="extra content">
         <div class="right floated author">
-          <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/> Matt
+          <img src="/images/avatar/small/matt.jpg" class="ui avatar image"> Matt
         </div>
       </div>
     </div>
@@ -51,7 +51,7 @@ export default {
       '      </div>\n' +
       '      <div class="extra content">\n' +
       '        <div class="right floated author">\n' +
-      '          <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/> Matt\n' +
+      '          <img src="/images/avatar/small/matt.jpg" class="ui avatar image"> Matt\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',

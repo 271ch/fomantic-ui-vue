@@ -1,23 +1,19 @@
 <template>
   <div>
-    <div class="ui list">
-      <div class="item">
-        <div class="header">New York City</div>
+    <FuiList>
+      <FuiItem header="New York City">
         A lovely city
-      </div>
-      <div class="item">
-        <div class="header">Chicago</div>
+      </FuiItem>
+      <FuiItem header="Chicago">
         Also quite a lovely city
-      </div>
-      <div class="item">
-        <div class="header">Los Angeles</div>
+      </FuiItem>
+      <FuiItem header="Los Angeles">
         Sometimes can be a lovely city
-      </div>
-      <div class="item">
-        <div class="header">San Francisco</div>
+      </FuiItem>
+      <FuiItem header="San Francisco">
         What a lovely city
-      </div>
-    </div>
+      </FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -25,7 +21,7 @@
 export default {
   name: 'ElementListHeader1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Content',

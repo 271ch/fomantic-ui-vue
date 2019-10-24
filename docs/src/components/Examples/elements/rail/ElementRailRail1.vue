@@ -11,8 +11,8 @@
           Right Rail Content
         </div>
       </div>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
+      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
     </div>
   </div>
 </template>
@@ -38,8 +38,8 @@ export default {
       '          Right Rail Content\n' +
       '        </div>\n' +
       '      </div>\n' +
-      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n',
   },
 };

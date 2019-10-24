@@ -784,41 +784,32 @@ s.ElementListImage1 =
   '  </FuiItem>\n' +
   '</FuiList>' 
 s.ElementListList3 = 
-  '<div class="ui relaxed divided list">\n' +
-  '  <div class="item">\n' +
-  '    <i class="large github middle aligned icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Semantic-Org/Semantic-UI</a>\n' +
-  '      <div class="description">Updated 10 mins ago</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <i class="large github middle aligned icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Semantic-Org/Semantic-UI-Docs</a>\n' +
-  '      <div class="description">Updated 22 mins ago</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <i class="large github middle aligned icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Semantic-Org/Semantic-UI-Meteor</a>\n' +
-  '      <div class="description">Updated 34 mins ago</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList relaxed divided>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiIcon size=large name=github aligned=middle></FuiIcon>\n' +
+  '    <FuiContent headerA="Semantic-Org/Semantic-UI">\n' +
+  '      <FuiDescription>Updated 10 mins ago</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiIcon size=large name=github aligned=middle></FuiIcon>\n' +
+  '    <FuiContent headerA="Semantic-Org/Semantic-UI-Docs">\n' +
+  '      <FuiDescription>Updated 22 mins ago</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiIcon size=large name=github aligned=middle></FuiIcon>\n' +
+  '    <FuiContent headerA="Semantic-Org/Semantic-UI-Meteor">\n' +
+  '      <FuiDescription>Updated 34 mins ago</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListItem1 = 
-  '<div class="ui list">\n' +
-  '  <div class="item">\n' +
-  '    1\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    2\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    3\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList>\n' +
+  '  <FuiItem>1</FuiItem>\n' +
+  '  <FuiItem>2</FuiItem>\n' +
+  '  <FuiItem>3</FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListList1 = 
   '<FuiList>\n' +
   '  <FuiItem>Apples</FuiItem>\n' +
@@ -826,33 +817,27 @@ s.ElementListList1 =
   '  <FuiItem>Oranges</FuiItem>\n' +
   '</FuiList>' 
 s.ElementListLink1 = 
-  '<div class="ui link list">\n' +
-  '  <div class="active item">Home</div>\n' +
-  '  <a class="item">About</a>\n' +
-  '  <a class="item">Jobs</a>\n' +
-  '  <a class="item">Team</a>\n' +
-  '</div>' 
+  '<FuiList link>\n' +
+  '  <FuiItem active>Home</FuiItem>\n' +
+  '  <FuiItem tag=a>About</FuiItem>\n' +
+  '  <FuiItem tag=a>Jobs</FuiItem>\n' +
+  '  <FuiItem tag=a>Team</FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListDivided1 = 
-  '<div class="ui middle aligned divided list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Daniel Louise</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/stevie.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Stevie Feliciano</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/elliot.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Elliot Fu</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList aligned=middle divided>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/daniel.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Daniel Louise"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/stevie.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Stevie Feliciano"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/elliot.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Elliot Fu"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListLink2 = 
   '<FuiList>\n' +
   '  <FuiItem headerA="Header">\n' +
@@ -905,67 +890,66 @@ s.ElementListList2 =
   '  </FuiItem>\n' +
   '</FuiList>' 
 s.ElementListInverted1 = 
-  '<div class="ui inverted segment">\n' +
-  '  <div class="ui inverted relaxed divided list">\n' +
-  '    <div class="item">\n' +
-  '      <div class="content">\n' +
-  '        <div class="header">Snickerdoodle</div>\n' +
+  '<FuiSegment inverted>\n' +
+  '  <FuiList inverted relaxed divided>\n' +
+  '    <FuiItem>\n' +
+  '      <FuiContent header="Snickerdoodle">\n' +
   '        An excellent companion\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="item">\n' +
-  '      <div class="content">\n' +
-  '        <div class="header">Poodle</div>\n' +
+  '      </FuiContent>\n' +
+  '    </FuiItem>\n' +
+  '    <FuiItem>\n' +
+  '      <FuiContent header="Poodle">\n' +
   '        A poodle, its pretty basic\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="item">\n' +
-  '      <div class="content">\n' +
-  '        <div class="header">Paulo</div>\n' +
+  '      </FuiContent>\n' +
+  '    </FuiItem>\n' +
+  '    <FuiItem>\n' +
+  '      <FuiContent header="Paulo">\n' +
   '        He\'s also a dog\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '      </FuiContent>\n' +
+  '    </FuiItem>\n' +
+  '  </FuiList>\n' +
+  '</FuiSegment>' 
 s.ElementListBulleted3 = 
-  '<div class="ui horizontal bulleted list">\n' +
-  '  <a class="item">\n' +
+  '<FuiList horizontal bulleted>\n' +
+  '  <FuiItem tag=a>\n' +
   '    About Us\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem tag=a>\n' +
   '    Sitemap\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem tag=a>\n' +
   '    Contact\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListRelaxed3 = 
-  '<div class="ui very relaxed list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Daniel Louise</a>\n' +
-  '      <div class="description">Last seen watching <a><b>Arrested Development</b></a> just now.</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/stevie.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Stevie Feliciano</a>\n' +
-  '      <div class="description">Last seen watching <a><b>Bob\'s Burgers</b></a> 10 hours ago.</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/elliot.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Elliot Fu</a>\n' +
-  '      <div class="description">Last seen watching <a><b>The Godfather Part 2</b></a> yesterday.</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList relaxed=very>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/daniel.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Daniel Louise">\n' +
+  '      <FuiDescription>\n' +
+  '        Last seen watching <a><b>Arrested Development</b></a> just now.\n' +
+  '      </FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/stevie.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Stevie Feliciano">\n' +
+  '      <FuiDescription>\n' +
+  '        Last seen watching <a><b>Bob\'s Burgers</b></a> 10 hours ago.\n' +
+  '      </FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/elliot.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Elliot Fu">\n' +
+  '      <FuiDescription>\n' +
+  '        Last seen watching <a><b>The Godfather Part 2</b></a> yesterday.\n' +
+  '      </FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListBulleted2 = 
-  '<div class="ignored ui info message">For convenience, a simple bulleted list can also use <code>ul</code> tag.</div>\n' +
-  '<ul class="ui list">\n' +
+  '<FuiList tag=ul>\n' +
   '  <li>Gaining Access</li>\n' +
   '  <li>Inviting Friends</li>\n' +
   '  <li>Benefits\n' +
@@ -976,7 +960,7 @@ s.ElementListBulleted2 =
   '    </ul>\n' +
   '  </li>\n' +
   '  <li>Warranty</li>\n' +
-  '</ul>' 
+  '</FuiList>' 
 s.ElementListSize3 = 
   '<FuiList size=small horizontal>\n' +
   '  <FuiItem>\n' +
@@ -993,113 +977,105 @@ s.ElementListSize3 =
   '  </FuiItem>\n' +
   '</FuiList>' 
 s.ElementListDescription1 = 
-  '<div class="ui list">\n' +
-  '  <div class="item">\n' +
-  '    <i class="map marker icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Krolewskie Jadlo</a>\n' +
-  '      <div class="description">An excellent polish restaurant, quick delivery and hearty, filling meals.</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <i class="map marker icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Xian Famous Foods</a>\n' +
-  '      <div class="description">A taste of Shaanxi\'s delicious culinary traditions, with delights like spicy cold noodles and lamb burgers.</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <i class="map marker icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Sapporo Haru</a>\n' +
-  '      <div class="description">Greenpoint\'s best choice for quick and delicious sushi.</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <i class="map marker icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Enid\'s</a>\n' +
-  '      <div class="description">At night a bar, during the day a delicious brunch spot.</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiIcon name="map marker"></FuiIcon>\n' +
+  '    <FuiContent headerA="Krolewskie Jadlo">\n' +
+  '      <FuiDescription>\n' +
+  '        An excellent polish restaurant, quick delivery and hearty, filling meals.\n' +
+  '      </FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiIcon name="map marker"></FuiIcon>\n' +
+  '    <FuiContent headerA="Xian Famous Foods">\n' +
+  '      <FuiDescription>\n' +
+  '        A taste of Shaanxi\'s delicious culinary traditions, with delights like spicy cold noodles and lamb burgers.\n' +
+  '      </FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiIcon name="map marker"></FuiIcon>\n' +
+  '    <FuiContent headerA="Sapporo Haru">\n' +
+  '      <FuiDescription>\n' +
+  '        Greenpoint\'s best choice for quick and delicious sushi.\n' +
+  '      </FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiIcon name="map marker"></FuiIcon>\n' +
+  '    <FuiContent headerA="Enid\'s">\n' +
+  '      <FuiDescription>\n' +
+  '        At night a bar, during the day a delicious brunch spot.\n' +
+  '      </FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListRelaxed4 = 
-  '<div class="ui very relaxed horizontal list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Daniel Louise</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/stevie.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Stevie Feliciano</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/elliot.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Elliot Fu</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList relaxed=very horizontal>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/daniel.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Daniel Louise">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/stevie.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Stevie Feliciano">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/elliot.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Elliot Fu">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListFloated2 = 
-  '<div class="ui right floated horizontal list">\n' +
-  '  <div class="disabled item" href="#">© GitHub, Inc.</div>\n' +
-  '  <a class="item" href="#">Terms</a>\n' +
-  '  <a class="item" href="#">Privacy</a>\n' +
-  '  <a class="item" href="#">Contact</a>\n' +
-  '</div>\n' +
-  '<div class="ui horizontal list">\n' +
-  '  <a class="item" href="#">About Us</a>\n' +
-  '  <a class="item" href="#">Jobs</a>\n' +
-  '</div>' 
+  '<FuiList floated=right horizontal>\n' +
+  '  <FuiItem disabled href="#">© GitHub, Inc.</FuiItem>\n' +
+  '  <FuiItem tag=a href="#">Terms</FuiItem>\n' +
+  '  <FuiItem tag=a href="#">Privacy</FuiItem>\n' +
+  '  <FuiItem tag=a href="#">Contact</FuiItem>\n' +
+  '</FuiList>\n' +
+  '<FuiList horizontal>\n' +
+  '  <FuiItem tag=a href="#">About Us</FuiItem>\n' +
+  '  <FuiItem tag=a href="#">Jobs</FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListRelaxed2 = 
-  '<div class="ui relaxed horizontal list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Daniel Louise</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/stevie.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Stevie Feliciano</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/elliot.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Elliot Fu</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList relaxed horizontal>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/daniel.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Daniel Louise"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/stevie.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Stevie Feliciano"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/elliot.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent headerA="Elliot Fu"></FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListHorizontal2 = 
-  '<div class="ui ordered horizontal list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/tom.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Steve Jobes</div>\n' +
+  '<FuiList ordered horizontal>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/tom.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Steve Jobes">\n' +
   '      50 Points\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/stevie.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Stevie Feliciano</div>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/stevie.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Stevie Feliciano">\n' +
   '      44 Points\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/jenny.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Jenny Hess</div>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/jenny.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Jenny Hess">\n' +
   '      11 Points\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListSize6 = 
   '<FuiList size=huge horizontal divided>\n' +
   '  <FuiItem>\n' +
@@ -1146,8 +1122,7 @@ s.ElementListSize7 =
   '  </FuiItem>\n' +
   '</FuiList>' 
 s.ElementListOrdered2 = 
-  '<div class="ignored ui info message">An ordered list can also use the <code>ol</code> tag</div>\n' +
-  '<ol class="ui list">\n' +
+  '<FuiList tag=ol>\n' +
   '  <li>Signing Up</li>\n' +
   '  <li>User Benefits</li>\n' +
   '  <li>User Types\n' +
@@ -1158,108 +1133,89 @@ s.ElementListOrdered2 =
   '    </ol>\n' +
   '  </li>\n' +
   '  <li>Deleting Your Account</li>\n' +
-  '</ol>' 
+  '</FuiList>' 
 s.ElementListBulleted1 = 
-  '<div class="ui bulleted list">\n' +
-  '  <div class="item">Gaining Access</div>\n' +
-  '  <div class="item">Inviting Friends</div>\n' +
-  '  <div class="item">\n' +
+  '<FuiList bulleted>\n' +
+  '  <FuiItem>Gaining Access</FuiItem>\n' +
+  '  <FuiItem>Inviting Friends</FuiItem>\n' +
+  '  <FuiItem>\n' +
   '    <div>Benefits</div>\n' +
-  '    <div class="list">\n' +
-  '      <a class="item" href="#">Link to somewhere</a>\n' +
-  '      <div class="item">Rebates</div>\n' +
-  '      <div class="item">Discounts</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">Warranty</div>\n' +
-  '</div>' 
+  '    <FuiList sub>\n' +
+  '      <FuiItem tag=a href="#">Link to somewhere</FuiItem>\n' +
+  '      <FuiItem>Rebates</FuiItem>\n' +
+  '      <FuiItem>Discounts</FuiItem>\n' +
+  '    </FuiList>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>Warranty</FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListHorizontal3 = 
-  '<div class="ui horizontal bulleted link list">\n' +
-  '  <a class="item">\n' +
+  '<FuiList horizontal bulleted link>\n' +
+  '  <FuiItem tag=a>\n' +
   '    Terms and Conditions\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem tag=a>\n' +
   '    Privacy Policy\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem tag=a>\n' +
   '    Contact Us\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListList4 = 
-  '<div class="ui list">\n' +
-  '  <div class="item">\n' +
-  '    <i class="folder icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">src</div>\n' +
-  '      <div class="description">Source files for project</div>\n' +
-  '      <div class="list">\n' +
-  '        <div class="item">\n' +
-  '          <i class="folder icon"></i>\n' +
-  '          <div class="content">\n' +
-  '            <div class="header">site</div>\n' +
-  '            <div class="description">Your site\'s theme</div>\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '        <div class="item">\n' +
-  '          <i class="folder icon"></i>\n' +
-  '          <div class="content">\n' +
-  '            <div class="header">themes</div>\n' +
-  '            <div class="description">Packaged theme files</div>\n' +
-  '            <div class="list">\n' +
-  '              <div class="item">\n' +
-  '                <i class="folder icon"></i>\n' +
-  '                <div class="content">\n' +
-  '                  <div class="header">default</div>\n' +
-  '                  <div class="description">Default packaged theme</div>\n' +
-  '                </div>\n' +
-  '              </div>\n' +
-  '              <div class="item">\n' +
-  '                <i class="folder icon"></i>\n' +
-  '                <div class="content">\n' +
-  '                  <div class="header">my_theme</div>\n' +
-  '                  <div class="description">Packaged themes are also available in this folder</div>\n' +
-  '                </div>\n' +
-  '              </div>\n' +
-  '            </div>\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '        <div class="item">\n' +
-  '          <i class="file icon"></i>\n' +
-  '          <div class="content">\n' +
-  '            <div class="header">theme.config</div>\n' +
-  '            <div class="description">Config file for setting packaged themes</div>\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <i class="folder icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">dist</div>\n' +
-  '      <div class="description">Compiled CSS and JS files</div>\n' +
-  '      <div class="list">\n' +
-  '        <div class="item">\n' +
-  '          <i class="folder icon"></i>\n' +
-  '          <div class="content">\n' +
-  '            <div class="header">components</div>\n' +
-  '            <div class="description">Individual component CSS and JS</div>\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <i class="file icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">semantic.json</div>\n' +
-  '      <div class="description">Contains build settings for gulp</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList>\n' +
+  '  <FuiItem iconName=folder>\n' +
+  '    <FuiContent header="src">\n' +
+  '      <FuiDescription>Source files for project</FuiDescription>\n' +
+  '      <FuiList sub>\n' +
+  '        <FuiItem iconName=folder>\n' +
+  '          <FuiContent header="site">\n' +
+  '            <FuiDescription>Your site\'s theme</FuiDescription>\n' +
+  '          </FuiContent>\n' +
+  '        </FuiItem>\n' +
+  '        <FuiItem iconName=folder>\n' +
+  '          <FuiContent header="themes">\n' +
+  '            <FuiDescription>Packaged theme files</FuiDescription>\n' +
+  '            <FuiList sub>\n' +
+  '              <FuiItem iconName=folder>\n' +
+  '                <FuiContent header="default">\n' +
+  '                  <FuiDescription>Default packaged theme</FuiDescription>\n' +
+  '                </FuiContent>\n' +
+  '              </FuiItem>\n' +
+  '              <FuiItem iconName=folder>\n' +
+  '                <FuiContent header="my_theme">\n' +
+  '                  <FuiDescription>Packaged themes are also available in this folder</FuiDescription>\n' +
+  '                </FuiContent>\n' +
+  '              </FuiItem>\n' +
+  '            </FuiList>\n' +
+  '          </FuiContent>\n' +
+  '        </FuiItem>\n' +
+  '        <FuiItem iconName=file>\n' +
+  '          <FuiContent header="theme.config">\n' +
+  '            <FuiDescription>Config file for setting packaged themes</FuiDescription>\n' +
+  '          </FuiContent>\n' +
+  '        </FuiItem>\n' +
+  '      </FuiList>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem iconName=folder>\n' +
+  '    <FuiContent header="dist">\n' +
+  '      <FuiDescription>Compiled CSS and JS files</FuiDescription>\n' +
+  '      <FuiList sub>\n' +
+  '        <FuiItem iconName=folder>\n' +
+  '          <FuiContent header="components">\n' +
+  '            <FuiDescription>Individual component CSS and JS</FuiDescription>\n' +
+  '          </FuiContent>\n' +
+  '        </FuiItem>\n' +
+  '      </FuiList>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem iconName=file>\n' +
+  '    <FuiContent header="semantic.json">\n' +
+  '      <FuiDescription>Contains build settings for gulp</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListOrdered3 = 
-  '<div class="ui ignored info message">An ordered list has a suffixed variation in which a dot <code>.</code> follows number.</div>\n' +
-  '<ol class="ui suffixed list">\n' +
+  '<FuiList tag=ol suffixed>\n' +
   '  <li>Signing Up</li>\n' +
   '  <li>User Benefits</li>\n' +
   '  <li>User Types\n' +
@@ -1270,96 +1226,91 @@ s.ElementListOrdered3 =
   '    </ol>\n' +
   '  </li>\n' +
   '  <li>Deleting Your Account</li>\n' +
-  '</ol>' 
+  '</FuiList>' 
 s.ElementListCelled3 = 
-  '<div class="ui celled horizontal list">\n' +
-  '  <div class="item">About Us</div>\n' +
-  '  <div class="item">Contact</div>\n' +
-  '  <div class="item">Support</div>\n' +
-  '</div>' 
+  '<FuiList celled horizontal>\n' +
+  '  <FuiItem>About Us</FuiItem>\n' +
+  '  <FuiItem>Contact</FuiItem>\n' +
+  '  <FuiItem>Support</FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListRelaxed1 = 
-  '<div class="ui relaxed list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Daniel Louise</a>\n' +
-  '      <div class="description">Last seen watching <a><b>Arrested Development</b></a> just now.</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/stevie.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Stevie Feliciano</a>\n' +
-  '      <div class="description">Last seen watching <a><b>Bob\'s Burgers</b></a> 10 hours ago.</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/elliot.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <a class="header">Elliot Fu</a>\n' +
-  '      <div class="description">Last seen watching <a><b>The Godfather Part 2</b></a> yesterday.</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList relaxed>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/daniel.jpg"></FuiImage>\n' +
+  '    <FuiContent headerA="Daniel Louise">\n' +
+  '      <FuiDescription>\n' +
+  '        Last seen watching <a><b>Arrested Development</b></a> just now.\n' +
+  '      </FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/stevie.jpg"></FuiImage>\n' +
+  '    <FuiContent headerA="Stevie Feliciano">\n' +
+  '      <FuiDescription>\n' +
+  '        Last seen watching <a><b>Bob\'s Burgers</b></a> 10 hours ago.\n' +
+  '      </FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/elliot.jpg"></FuiImage>\n' +
+  '    <FuiContent headerA="Elliot Fu">\n' +
+  '      <FuiDescription>\n' +
+  '        Last seen watching <a><b>The Godfather Part 2</b></a> yesterday.\n' +
+  '      </FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListCelled2 = 
-  '<div class="ui celled ordered list">\n' +
-  '  <div class="item">Cats</div>\n' +
-  '  <div class="item">Horses</div>\n' +
-  '  <div class="item">Dogs\n' +
-  '    <div class="list">\n' +
-  '      <div class="item">Labradoodles</div>\n' +
-  '      <div class="item">Shiba Inu</div>\n' +
-  '      <div class="item">Mastiff</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList celled ordered>\n' +
+  '  <FuiItem>Cats</FuiItem>\n' +
+  '  <FuiItem>Horses</FuiItem>\n' +
+  '  <FuiItem>Dogs\n' +
+  '    <FuiList sub>\n' +
+  '      <FuiItem>Labradoodles</FuiItem>\n' +
+  '      <FuiItem>Shiba Inu</FuiItem>\n' +
+  '      <FuiItem>Mastiff</FuiItem>\n' +
+  '    </FuiList>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListHeader1 = 
-  '<div class="ui list">\n' +
-  '  <div class="item">\n' +
-  '    <div class="header">New York City</div>\n' +
+  '<FuiList>\n' +
+  '  <FuiItem header="New York City">\n' +
   '    A lovely city\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="header">Chicago</div>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem header="Chicago">\n' +
   '    Also quite a lovely city\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="header">Los Angeles</div>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem header="Los Angeles">\n' +
   '    Sometimes can be a lovely city\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="header">San Francisco</div>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem header="San Francisco">\n' +
   '    What a lovely city\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListHorizontal1 = 
-  '<div class="ui horizontal list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/tom.jpg"/>\n' +
+  '<FuiList horizontal>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/tom.jpg"></FuiImage>\n' +
   '    <div class="content">\n' +
   '      <div class="header">Tom</div>\n' +
   '      Top Contributor\n' +
   '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/christian.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Christian Rocha</div>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/christian.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Christian Rocha">\n' +
   '      Admin\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Matt</div>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/matt.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Matt">\n' +
   '      Top Rated User\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListOrdered4 = 
-  '<div class="ui ignored info message">You can also manually specify a value for an ordered list using <code>data-value</code> on a <code>div</code>, or <code>value</code> on an <code>li</code>\n' +
-  '</div>\n' +
-  '<ol class="ui list">\n' +
+  '<FuiList tag=ol>\n' +
   '  <li value="*">Signing Up</li>\n' +
   '  <li value="*">User Benefits</li>\n' +
   '  <li value="*">User Types\n' +
@@ -1370,7 +1321,7 @@ s.ElementListOrdered4 =
   '    </ol>\n' +
   '  </li>\n' +
   '  <li value="*">Deleting Your Account</li>\n' +
-  '</ol>' 
+  '</FuiList>' 
 s.ElementListSize5 = 
   '<FuiList size=big horizontal divided>\n' +
   '  <FuiItem>\n' +
@@ -1417,148 +1368,123 @@ s.ElementListVerticallyAligned1 =
   '  </FuiItem>\n' +
   '</FuiList>' 
 s.ElementListAnimated1 = 
-  '<div class="ui ignored info message">\n' +
-  '  Be sure content can fit on one line when using the animated variation, otherwise text content will reflow when hovered.\n' +
-  '</div>\n' +
-  '<div class="ui middle aligned animated list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Helen</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/christian.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Christian</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Daniel</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList aligned=middle animated>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/helen.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Helen">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/christian.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Christian">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/daniel.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Daniel">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListCelled1 = 
-  '<div class="ui celled list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Snickerdoodle</div>\n' +
+  '<FuiList celled>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/helen.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent header="Snickerdoodle">\n' +
   '      An excellent companion\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Poodle</div>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/daniel.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent header="Poodle">\n' +
   '      A poodle, its pretty basic\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Paulo</div>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/avatar/small/daniel.jpg" avatar></FuiImage>\n' +
+  '    <FuiContent header="Paulo">\n' +
   '      He\'s also a dog\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListSelection1 = 
-  '<div class="ui middle aligned selection list">\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/helen.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Helen</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/christian.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Christian</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg"/>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Daniel</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList  aligned=middle selection>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/helen.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Helen">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/christian.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Christian">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage avatar src="/images/avatar/small/daniel.jpg"></FuiImage>\n' +
+  '    <FuiContent header="Daniel">\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListOrdered1 = 
-  '<div class="ui ordered list">\n' +
-  '  <a class="item">Getting Started</a>\n' +
-  '  <a class="item">Introduction</a>\n' +
-  '  <div class="item">\n' +
+  '<FuiList ordered>\n' +
+  '  <FuiItem tag=a>Getting Started</FuiItem>\n' +
+  '  <FuiItem tag=a>Introduction</FuiItem>\n' +
+  '  <FuiItem>\n' +
   '    <a>Languages</a>\n' +
-  '    <div class="list">\n' +
-  '      <a class="item">HTML</a>\n' +
-  '      <a class="item">Javascript</a>\n' +
-  '      <a class="item">CSS</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <a class="item">Review</a>\n' +
-  '</div>' 
+  '    <FuiList sub>\n' +
+  '      <FuiItem tag=a>HTML</FuiItem>\n' +
+  '      <FuiItem tag=a>Javascript</FuiItem>\n' +
+  '      <FuiItem tag=a>CSS</FuiItem>\n' +
+  '    </FuiList>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem tag=a>Review</FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListFloated1 = 
-  '<div class="ui middle aligned divided list">\n' +
-  '  <div class="item">\n' +
-  '    <div class="right floated content">\n' +
-  '      <div class="ui button">Add</div>\n' +
-  '    </div>\n' +
-  '    <img src="/images/avatar2/small/lena.png" class="ui avatar image">\n' +
-  '    <div class="content">\n' +
-  '      Lena\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="right floated content">\n' +
-  '      <div class="ui button">Add</div>\n' +
-  '    </div>\n' +
-  '    <img src="/images/avatar2/small/lindsay.png" class="ui avatar image">\n' +
-  '    <div class="content">\n' +
-  '      Lindsay\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="right floated content">\n' +
-  '      <div class="ui button">Add</div>\n' +
-  '    </div>\n' +
-  '    <img src="/images/avatar2/small/mark.png" class="ui avatar image">\n' +
-  '    <div class="content">\n' +
-  '      Mark\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="right floated content">\n' +
-  '      <div class="ui button">Add</div>\n' +
-  '    </div>\n' +
-  '    <img src="/images/avatar2/small/molly.png" class="ui avatar image">\n' +
-  '    <div class="content">\n' +
-  '      Molly\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiList aligned=middle divided>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiContent floated=right>\n' +
+  '      <FuiButton tag=div>Add</FuiButton>\n' +
+  '    </FuiContent>\n' +
+  '    <FuiImage src="/images/avatar2/small/lena.png" avatar></FuiImage>\n' +
+  '    <FuiContent>Lena</FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiContent floated=right>\n' +
+  '      <FuiButton tag=div>Add</FuiButton>\n' +
+  '    </FuiContent>\n' +
+  '    <FuiImage src="/images/avatar2/small/lindsay.png" avatar></FuiImage>\n' +
+  '    <FuiContent>Lindsay</FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiContent floated=right>\n' +
+  '      <FuiButton tag=div>Add</FuiButton>\n' +
+  '    </FuiContent>\n' +
+  '    <FuiImage src="/images/avatar2/small/mark.png" avatar></FuiImage>\n' +
+  '    <FuiContent>Mark</FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiContent floated=right>\n' +
+  '      <FuiButton tag=div>Add</FuiButton>\n' +
+  '    </FuiContent>\n' +
+  '    <FuiImage src="/images/avatar2/small/molly.png" avatar></FuiImage>\n' +
+  '    <FuiContent>Molly</FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListIcon1 = 
-  '<div class="ui list">\n' +
-  '  <a class="item">\n' +
-  '    <i class="help icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Floated Icon</div>\n' +
-  '      <div class="description">This text will always have a left margin to make sure it sits alongside your icon</div>\n' +
-  '    </div>\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <i class="right triangle icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="header">Icon Alignment</div>\n' +
-  '      <div class="description">Floated icons are by default top aligned. To have an icon top aligned try this example.</div>\n' +
-  '    </div>\n' +
-  '  </a>\n' +
-  '  <div class="item">\n' +
-  '    <i class="help icon"></i>\n' +
+  '<FuiList>\n' +
+  '  <FuiItem tag=a iconName=help>\n' +
+  '    <FuiContent header="Floated Icon">\n' +
+  '      <FuiDescription>This text will always have a left margin to make sure it sits alongside your icon</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem tag=a iconName="right triangle">\n' +
+  '    <FuiContent header="Icon Alignment">\n' +
+  '      <FuiDescription>Floated icons are by default top aligned. To have an icon top aligned try this example.</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem iconName=help>\n' +
   '    Inline Text\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiList>' 
 s.ElementListLink1A = 
   '<FuiList>\n' +
   '  <FuiItem tag=a>What is a FAQ?</FuiItem>\n' +
@@ -1883,7 +1809,7 @@ s.ElementStepAttached1 =
   '  </div>\n' +
   '</div>\n' +
   '<div class="ui attached segment">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui three bottom attached steps">\n' +
   '  <div class="step">\n' +
@@ -3009,7 +2935,7 @@ s.ElementLabelFloating1 =
   '</div>' 
 s.ElementLabelImage1A = 
   '<a class="ui label">\n' +
-  '  <img class="ui right spaced avatar image" src="/images/avatar/small/elliot.jpg"/>\n' +
+  '  <img src="/images/avatar/small/elliot.jpg" class="ui right spaced avatar image">\n' +
   '  Elliot\n' +
   '</a>\n' +
   '<a class="ui label">\n' +
@@ -4312,8 +4238,8 @@ s.ElementLoaderIndeterminate1 =
   '</div>' 
 s.ElementRevealRotate2 = 
   '<div class="ui small circular rotate left reveal image">\n' +
-  '  <img src="/images/wireframe/square-image.png" class="visible content"/>\n' +
-  '  <img src="/images/avatar/large/veronika.jpg" class="hidden content"/>\n' +
+  '  <img src="/images/wireframe/square-image.png" class="visible content">\n' +
+  '  <img src="/images/avatar/large/veronika.jpg" class="hidden content">\n' +
   '</div>' 
 s.ElementRevealActive1 = 
   '<div class="ui ignored info message">\n' +
@@ -4321,10 +4247,10 @@ s.ElementRevealActive1 =
   '</div>\n' +
   '<div class="ui active move left reveal">\n' +
   '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
+  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
   '  </div>\n' +
   '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/nan.jpg" class="ui small image"/>\n' +
+  '    <img src="/images/avatar/large/nan.jpg" class="ui small image">\n' +
   '  </div>\n' +
   '</div>' 
 s.ElementRevealVisibleContent1 = 
@@ -4332,85 +4258,85 @@ s.ElementRevealVisibleContent1 =
   '  Visible and hidden content should be the same aspect ratio\n' +
   '</div>\n' +
   '<div class="ui small fade reveal image">\n' +
-  '  <img class="visible content" src="/images/avatar/large/ade.jpg"/>\n' +
+  '  <img src="/images/avatar/large/ade.jpg" class="visible content">\n' +
   '  <img src="/images/wireframe/square-image.png" class="hidden content">\n' +
   '</div>' 
 s.ElementRevealMove4 = 
   '<div class="ui move down reveal">\n' +
   '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
+  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
   '  </div>\n' +
   '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/nan.jpg" class="ui small image"/>\n' +
+  '    <img src="/images/avatar/large/nan.jpg" class="ui small image">\n' +
   '  </div>\n' +
   '</div>' 
 s.ElementRevealMove3 = 
   '<div class="ui move up reveal">\n' +
   '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
+  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
   '  </div>\n' +
   '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/justen.jpg" class="ui small image"/>\n' +
+  '    <img src="/images/avatar/large/justen.jpg" class="ui small image">\n' +
   '  </div>\n' +
   '</div>' 
 s.ElementRevealInstant1 = 
   '<div class="ui instant move reveal">\n' +
   '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
+  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
   '  </div>\n' +
   '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/chris.jpg" class="ui small image"/>\n' +
+  '    <img src="/images/avatar/large/chris.jpg" class="ui small image">\n' +
   '  </div>\n' +
   '</div>' 
 s.ElementRevealMove1 = 
   '<div class="ui move reveal">\n' +
   '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
+  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
   '  </div>\n' +
   '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/chris.jpg" class="ui small image"/>\n' +
+  '    <img src="/images/avatar/large/chris.jpg" class="ui small image">\n' +
   '  </div>\n' +
   '</div>' 
 s.ElementRevealMove2 = 
   '<div class="ui move right reveal small image">\n' +
   '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
+  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
   '  </div>\n' +
   '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/jenny.jpg" class="ui small image"/>\n' +
+  '    <img src="/images/avatar/large/jenny.jpg" class="ui small image">\n' +
   '  </div>\n' +
   '</div>' 
 s.ElementRevealFade1 = 
   '<div class="ui fade reveal">\n' +
   '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
+  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
   '  </div>\n' +
   '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/ade.jpg" class="ui small image"/>\n' +
+  '    <img src="/images/avatar/large/ade.jpg" class="ui small image">\n' +
   '  </div>\n' +
   '</div>' 
 s.ElementRevealHiddenContent1 = 
   '<div class="ui small fade reveal image">\n' +
   '  <img src="/images/wireframe/square-image.png" class="visible content">\n' +
-  '  <img class="hidden content" src="/images/avatar/large/ade.jpg"/>\n' +
+  '  <img src="/images/avatar/large/ade.jpg" class="hidden content">\n' +
   '</div>' 
 s.ElementRevealRotate1 = 
   '<div class="ui small circular rotate reveal image">\n' +
-  '  <img src="/images/wireframe/square-image.png" class="visible content"/>\n' +
-  '  <img src="/images/avatar/large/stevie.jpg" class="hidden content"/>\n' +
+  '  <img src="/images/wireframe/square-image.png" class="visible content">\n' +
+  '  <img src="/images/avatar/large/stevie.jpg" class="hidden content">\n' +
   '</div>' 
 s.ElementRevealFade2 = 
   '<div class="ui small fade reveal image">\n' +
   '  <img src="/images/wireframe/square-image.png" class="visible content">\n' +
-  '  <img class="hidden content" src="/images/avatar/large/ade.jpg"/>\n' +
+  '  <img src="/images/avatar/large/ade.jpg" class="hidden content">\n' +
   '</div>' 
 s.ElementRevealDisabled1 = 
   '<div class="ui disabled move reveal">\n' +
   '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
+  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
   '  </div>\n' +
   '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/chris.jpg" class="ui small image"/>\n' +
+  '    <img src="/images/avatar/large/chris.jpg" class="ui small image">\n' +
   '  </div>\n' +
   '</div>' 
 s.ElementRailSize1 = 
@@ -4421,8 +4347,8 @@ s.ElementRailSize1 =
   '  <div class="ui right tiny rail">\n' +
   '    Tiny\n' +
   '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui left small rail">\n' +
@@ -4431,8 +4357,8 @@ s.ElementRailSize1 =
   '  <div class="ui right large rail">\n' +
   '    Large\n' +
   '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui left big rail">\n' +
@@ -4441,15 +4367,15 @@ s.ElementRailSize1 =
   '  <div class="ui right huge rail">\n' +
   '    Huge\n' +
   '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>\n' +
   '<div class="ui segment">\n' +
   '  <div class="ui right massive rail">\n' +
   '    Massive\n' +
   '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementRailInternal1 = 
   '<div class="ui segment" style="left: -150px; width: 960px;min-height: 300px;">\n' +
@@ -4476,8 +4402,8 @@ s.ElementRailClose2 =
   '      Right Rail Content\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementRail1 = 
   '<h2 class="ui dividing header">Introduction</h2>\n' +
@@ -4498,8 +4424,8 @@ s.ElementRailClose1 =
   '      Right Rail Content\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementRailDividing1 = 
   '<div class="ui segment">\n' +
@@ -4513,8 +4439,8 @@ s.ElementRailDividing1 =
   '      Right Rail Content\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementRailRail1 = 
   '<div class="ui segment">\n' +
@@ -4528,8 +4454,8 @@ s.ElementRailRail1 =
   '      Right Rail Content\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementRailAttached1 = 
   '<div class="ui segment">\n' +
@@ -4543,8 +4469,8 @@ s.ElementRailAttached1 =
   '      Right Rail Content\n' +
   '    </div>\n' +
   '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementRailAttached2 = 
   '<div class="ui segment" style="left: -150px; width: 960px;min-height: 300px;">\n' +
@@ -18762,35 +18688,35 @@ s.CollectionGrid1A =
   '  </div>\n' +
   '  <div class="ui grid">\n' +
   '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>\n' +
   '<div class="another example">\n' +
   '  <div class="ui grid">\n' +
   '    <div class="four wide two wide large screen one wide widescreen column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="four wide two wide large screen one wide widescreen column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="four wide two wide large screen one wide widescreen column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '    <div class="four wide two wide large screen one wide widescreen column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -20533,27 +20459,27 @@ s.CollectionFormForm2 =
   '      <div class="default text">Saved Contacts</div>\n' +
   '      <div class="menu">\n' +
   '        <div class="item" data-value="jenny" data-text="Jenny">\n' +
-  '          <img class="ui mini avatar image" src="/images/avatar/small/jenny.jpg"/>\n' +
+  '          <img src="/images/avatar/small/jenny.jpg" class="ui mini avatar image">\n' +
   '          Jenny Hess\n' +
   '        </div>\n' +
   '        <div class="item" data-value="elliot" data-text="Elliot">\n' +
-  '          <img class="ui mini avatar image" src="/images/avatar/small/elliot.jpg"/>\n' +
+  '          <img src="/images/avatar/small/elliot.jpg" class="ui mini avatar image">\n' +
   '          Elliot Fu\n' +
   '        </div>\n' +
   '        <div class="item" data-value="stevie" data-text="Stevie">\n' +
-  '          <img class="ui mini avatar image" src="/images/avatar/small/stevie.jpg"/>\n' +
+  '          <img src="/images/avatar/small/stevie.jpg" class="ui mini avatar image">\n' +
   '          Stevie Feliciano\n' +
   '        </div>\n' +
   '        <div class="item" data-value="christian" data-text="Christian">\n' +
-  '          <img class="ui mini avatar image" src="/images/avatar/small/christian.jpg"/>\n' +
+  '          <img src="/images/avatar/small/christian.jpg" class="ui mini avatar image">\n' +
   '          Christian\n' +
   '        </div>\n' +
   '        <div class="item" data-value="matt" data-text="Matt">\n' +
-  '          <img class="ui mini avatar image" src="/images/avatar/small/matt.jpg"/>\n' +
+  '          <img src="/images/avatar/small/matt.jpg" class="ui mini avatar image">\n' +
   '          Matt\n' +
   '        </div>\n' +
   '        <div class="item" data-value="justen" data-text="Justen">\n' +
-  '          <img class="ui mini avatar image" src="/images/avatar/small/justen.jpg"/>\n' +
+  '          <img src="/images/avatar/small/justen.jpg" class="ui mini avatar image">\n' +
   '          Justen Kitsune\n' +
   '        </div>\n' +
   '      </div>\n' +
@@ -21821,7 +21747,7 @@ s.CollectionTableTable3 =
   '    <tr>\n' +
   '      <td>\n' +
   '        <h4 class="ui image header">\n' +
-  '          <img src="/images/avatar2/small/lena.png" class="ui mini rounded image"/>\n' +
+  '          <img src="/images/avatar2/small/lena.png" class="ui mini rounded image">\n' +
   '          <div class="content">\n' +
   '            Lena\n' +
   '            <div class="sub header">Human Resources\n' +
@@ -21835,7 +21761,7 @@ s.CollectionTableTable3 =
   '    <tr>\n' +
   '      <td>\n' +
   '        <h4 class="ui image header">\n' +
-  '          <img src="/images/avatar2/small/matthew.png" class="ui mini rounded image"/>\n' +
+  '          <img src="/images/avatar2/small/matthew.png" class="ui mini rounded image">\n' +
   '          <div class="content">\n' +
   '            Matthew\n' +
   '            <div class="sub header">Fabric Design\n' +
@@ -21849,7 +21775,7 @@ s.CollectionTableTable3 =
   '    <tr>\n' +
   '      <td>\n' +
   '        <h4 class="ui image header">\n' +
-  '          <img src="/images/avatar2/small/lindsay.png" class="ui mini rounded image"/>\n' +
+  '          <img src="/images/avatar2/small/lindsay.png" class="ui mini rounded image">\n' +
   '          <div class="content">\n' +
   '            Lindsay\n' +
   '            <div class="sub header">Entertainment\n' +
@@ -21863,7 +21789,7 @@ s.CollectionTableTable3 =
   '    <tr>\n' +
   '      <td>\n' +
   '        <h4 class="ui image header">\n' +
-  '          <img src="/images/avatar2/small/mark.png" class="ui mini rounded image"/>\n' +
+  '          <img src="/images/avatar2/small/mark.png" class="ui mini rounded image">\n' +
   '          <div class="content">\n' +
   '            Mark\n' +
   '            <div class="sub header">Executive\n' +
@@ -24243,7 +24169,7 @@ s.ViewItemInverted1 =
   '          <span class="stay">1 Month</span>\n' +
   '        </div>\n' +
   '        <div class="description">\n' +
-  '          <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '          <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '        </div>\n' +
   '      </div>\n' +
   '    </div>\n' +
@@ -24258,7 +24184,7 @@ s.ViewItemInverted1 =
   '          <span class="stay">2 Weeks</span>\n' +
   '        </div>\n' +
   '        <div class="description">\n' +
-  '          <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '          <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '        </div>\n' +
   '      </div>\n' +
   '    </div>\n' +
@@ -24305,7 +24231,7 @@ s.ViewItemMetadata1 =
   '        <span class="stay">1 Month</span>\n' +
   '      </div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -24320,7 +24246,7 @@ s.ViewItemMetadata1 =
   '        <span class="stay">2 Weeks</span>\n' +
   '      </div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -24335,7 +24261,7 @@ s.ViewItemMetadata1 =
   '        <span class="stay">6 Weeks</span>\n' +
   '      </div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -24364,8 +24290,8 @@ s.ViewItemExtraContent1 =
   '    <div class="content">\n' +
   '      <a class="header">Cute Dog</a>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="extra">\n' +
   '        <i class="green check icon"></i>\n' +
@@ -24390,7 +24316,7 @@ s.ViewItemDivided1 =
   '        <span class="cinema">Union Square 14</span>\n' +
   '      </div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="extra">\n' +
   '        <div class="ui label">IMAX</div>\n' +
@@ -24408,7 +24334,7 @@ s.ViewItemDivided1 =
   '        <span class="cinema">IFC Cinema</span>\n' +
   '      </div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="extra">\n' +
   '        <div class="ui right floated primary button">\n' +
@@ -24429,7 +24355,7 @@ s.ViewItemDivided1 =
   '        <span class="cinema">IFC</span>\n' +
   '      </div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="extra">\n' +
   '        <div class="ui right floated primary button">\n' +
@@ -24452,7 +24378,7 @@ s.ViewItemStacking1 =
   '        <span>Description</span>\n' +
   '      </div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="extra">\n' +
   '        Additional Details\n' +
@@ -24469,7 +24395,7 @@ s.ViewItemStacking1 =
   '        <span>Description</span>\n' +
   '      </div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="extra">\n' +
   '        Additional Details\n' +
@@ -24486,7 +24412,7 @@ s.ViewItemLinkItem1 =
   '    <div class="content">\n' +
   '      <div class="header">Stevie Feliciano</div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -24497,7 +24423,7 @@ s.ViewItemLinkItem1 =
   '    <div class="content">\n' +
   '      <div class="header">Veronika Ossi</div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -24508,7 +24434,7 @@ s.ViewItemLinkItem1 =
   '    <div class="content">\n' +
   '      <div class="header">Jenny Hess</div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
@@ -24620,7 +24546,7 @@ s.ViewItemDescription1 =
   '<div class="ui items">\n' +
   '  <div class="item">\n' +
   '    <a class="ui small image">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image"/>\n' +
+  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
   '    </a>\n' +
   '    <div class="content">\n' +
   '      <a class="header">Cute Dog</a>\n' +
@@ -24686,7 +24612,7 @@ s.ViewItemFloatedContent1 =
   '        Content A\n' +
   '      </div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="extra">\n' +
   '        <div class="ui right floated button">\n' +
@@ -24704,7 +24630,7 @@ s.ViewItemFloatedContent1 =
   '        Content B\n' +
   '      </div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="extra">\n' +
   '        <div class="ui right floated button">\n' +
@@ -24722,7 +24648,7 @@ s.ViewItemFloatedContent1 =
   '        Content C\n' +
   '      </div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="extra">\n' +
   '        <div class="ui right floated button">\n' +
@@ -24744,7 +24670,7 @@ s.ViewItemItems1 =
   '        <span>Description</span>\n' +
   '      </div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="extra">\n' +
   '        Additional Details\n' +
@@ -24761,7 +24687,7 @@ s.ViewItemItems1 =
   '        <span>Description</span>\n' +
   '      </div>\n' +
   '      <div class="description">\n' +
-  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+  '        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '      </div>\n' +
   '      <div class="extra">\n' +
   '        Additional Details\n' +
@@ -24844,7 +24770,7 @@ s.ViewStatisticValue1 =
   '  </div>\n' +
   '  <div class="statistic">\n' +
   '    <div class="value">\n' +
-  '      <img src="/images/avatar/small/joe.jpg" class="ui circular inline image"/>\n' +
+  '      <img src="/images/avatar/small/joe.jpg" class="ui circular inline image">\n' +
   '      42\n' +
   '    </div>\n' +
   '    <div class="label">\n' +
@@ -25102,7 +25028,7 @@ s.ViewStatisticEvenlyDivided1 =
   '  </div>\n' +
   '  <div class="statistic">\n' +
   '    <div class="value">\n' +
-  '      <img src="/images/avatar/small/joe.jpg" class="ui circular inline image"/>\n' +
+  '      <img src="/images/avatar/small/joe.jpg" class="ui circular inline image">\n' +
   '      42\n' +
   '    </div>\n' +
   '    <div class="label">\n' +
@@ -25562,7 +25488,7 @@ s.ViewCardRaisedCard1 =
   '  </div>\n' +
   '  <div class="extra content">\n' +
   '    <div class="right floated author">\n' +
-  '      <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/> Matt\n' +
+  '      <img src="/images/avatar/small/matt.jpg" class="ui avatar image"> Matt\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -25943,7 +25869,7 @@ s.ViewCardLinkCard2 =
   '  </div>\n' +
   '  <div class="extra content">\n' +
   '    <div class="right floated author">\n' +
-  '      <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/> Matt\n' +
+  '      <img src="/images/avatar/small/matt.jpg" class="ui avatar image"> Matt\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -25986,7 +25912,7 @@ s.ViewCardFloatedContent1 =
   '  </div>\n' +
   '  <div class="extra content">\n' +
   '    <div class="right floated author">\n' +
-  '      <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/> Matt\n' +
+  '      <img src="/images/avatar/small/matt.jpg" class="ui avatar image"> Matt\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -26068,7 +25994,7 @@ s.ViewCardRaisedCard2 =
   '  </div>\n' +
   '  <div class="extra content">\n' +
   '    <div class="right floated author">\n' +
-  '      <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/> Matt\n' +
+  '      <img src="/images/avatar/small/matt.jpg" class="ui avatar image"> Matt\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -26154,7 +26080,7 @@ s.ViewCardTextAlignment1 =
   '  </div>\n' +
   '  <div class="extra content">\n' +
   '    <div class="center aligned author">\n' +
-  '      <img class="ui avatar image" src="/images/avatar/small/jenny.jpg"/> Jenny\n' +
+  '      <img src="/images/avatar/small/jenny.jpg" class="ui avatar image"> Jenny\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
@@ -26221,7 +26147,7 @@ s.ViewCardLinkCard1 =
   '  </div>\n' +
   '  <div class="extra content">\n' +
   '    <div class="right floated author">\n' +
-  '      <img class="ui avatar image" src="/images/avatar/small/matt.jpg"/> Matt\n' +
+  '      <img src="/images/avatar/small/matt.jpg" class="ui avatar image"> Matt\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</a>' 
@@ -26232,7 +26158,7 @@ s.ViewCardCards1 =
   '<div class="ui cards">\n' +
   '  <div class="card">\n' +
   '    <div class="content">\n' +
-  '      <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg"/>\n' +
+  '      <img src="/images/avatar/large/elliot.jpg" class="right floated mini ui image">\n' +
   '      <div class="header">\n' +
   '        Elliot Fu\n' +
   '      </div>\n' +
@@ -26252,7 +26178,7 @@ s.ViewCardCards1 =
   '  </div>\n' +
   '  <div class="card">\n' +
   '    <div class="content">\n' +
-  '      <img class="right floated mini ui image" src="/images/avatar/large/jenny.jpg"/>\n' +
+  '      <img src="/images/avatar/large/jenny.jpg" class="right floated mini ui image">\n' +
   '      <div class="header">\n' +
   '        Jenny Hess\n' +
   '      </div>\n' +
@@ -26275,8 +26201,8 @@ s.ViewCardImage1 =
   '<div class="ui ignored info message">Cards can use <a href="/elements/reveal.html">reveal</a> or <a href="/modules/dimmer.html">dimmers</a> to easily show additional content, or options on hover</div>\n' +
   '<div class="ui card">\n' +
   '  <div class="ui slide masked reveal image">\n' +
-  '    <img src="/images/avatar/large/jenny.jpg" class="visible content"/>\n' +
-  '    <img src="/images/avatar/large/elliot.jpg" class="hidden content"/>\n' +
+  '    <img src="/images/avatar/large/jenny.jpg" class="visible content">\n' +
+  '    <img src="/images/avatar/large/elliot.jpg" class="hidden content">\n' +
   '  </div>\n' +
   '  <div class="content">\n' +
   '    <a class="header">Team Fu &amp; Hess</a>\n' +
@@ -26295,7 +26221,7 @@ s.ViewCardCard2 =
   '<div class="ui card">\n' +
   '  <div class="content">\n' +
   '    <div class="right floated meta">14h</div>\n' +
-  '    <img class="ui avatar image" src="/images/avatar/large/elliot.jpg"/> Elliot\n' +
+  '    <img src="/images/avatar/large/elliot.jpg" class="ui avatar image"> Elliot\n' +
   '  </div>\n' +
   '  <div class="image">\n' +
   '    <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +

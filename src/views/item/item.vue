@@ -3,6 +3,12 @@
     :is="gTag"
     :class="classes"
   >
+    <div
+      v-if="header"
+      class="header"
+    >
+      {{ header }}
+    </div>
     <a
       v-if="headerA"
       class="header"
@@ -36,6 +42,14 @@ export default {
       },
       default: false,
     },
+    header: {
+      type: [Boolean, String],
+      description: '',
+      validator: (value) => {
+        return value !== true;
+      },
+      default: false,
+    },
     headerA: {
       type: [Boolean, String],
       description: '',
@@ -43,6 +57,14 @@ export default {
         return value !== true;
       },
       default: false,
+    },
+    disabled: {
+      type: Boolean,
+      description: '',
+    },
+    active: {
+      type: Boolean,
+      description: '',
     },
   },
   events: {
@@ -53,6 +75,8 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
+        this.disabled && 'disabled',
+        this.active && 'active',
         'item'
       );
     },

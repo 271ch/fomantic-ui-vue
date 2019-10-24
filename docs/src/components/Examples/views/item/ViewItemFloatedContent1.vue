@@ -14,7 +14,7 @@
             Content A
           </div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
           <div class="extra">
             <div class="ui right floated button">
@@ -32,7 +32,7 @@
             Content B
           </div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
           <div class="extra">
             <div class="ui right floated button">
@@ -50,7 +50,7 @@
             Content C
           </div>
           <div class="description">
-            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>
+            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
           </div>
           <div class="extra">
             <div class="ui right floated button">
@@ -87,7 +87,7 @@ export default {
       '            Content A\n' +
       '          </div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="extra">\n' +
       '            <div class="ui right floated button">\n' +
@@ -105,7 +105,7 @@ export default {
       '            Content B\n' +
       '          </div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="extra">\n' +
       '            <div class="ui right floated button">\n' +
@@ -123,7 +123,7 @@ export default {
       '            Content C\n' +
       '          </div>\n' +
       '          <div class="description">\n' +
-      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image"/>\n' +
+      '            <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="extra">\n' +
       '            <div class="ui right floated button">\n' +

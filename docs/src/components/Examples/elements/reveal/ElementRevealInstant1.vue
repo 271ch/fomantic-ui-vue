@@ -2,10 +2,10 @@
   <div>
     <div class="ui instant move reveal">
       <div class="visible content">
-        <img src="/images/wireframe/square-image.png" class="ui small image"/>
+        <img src="/images/wireframe/square-image.png" class="ui small image">
       </div>
       <div class="hidden content">
-        <img src="/images/avatar/large/chris.jpg" class="ui small image"/>
+        <img src="/images/avatar/large/chris.jpg" class="ui small image">
       </div>
     </div>
   </div>
@@ -23,10 +23,10 @@ export default {
     description: 'An element can show its content without delay',
     model: '    <div class="ui instant move reveal">\n' +
       '      <div class="visible content">\n' +
-      '        <img src="/images/wireframe/square-image.png" class="ui small image"/>\n' +
+      '        <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
       '      </div>\n' +
       '      <div class="hidden content">\n' +
-      '        <img src="/images/avatar/large/chris.jpg" class="ui small image"/>\n' +
+      '        <img src="/images/avatar/large/chris.jpg" class="ui small image">\n' +
       '      </div>\n' +
       '    </div>\n',
   },

@@ -2,7 +2,7 @@
   <div>
     <div class="ui small fade reveal image">
       <img src="/images/wireframe/square-image.png" class="visible content">
-      <img class="hidden content" src="/images/avatar/large/ade.jpg"/>
+      <img src="/images/avatar/large/ade.jpg" class="hidden content">
     </div>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
     description: 'An element can disappear to reveal content below',
     model: '    <div class="ui small fade reveal image">\n' +
       '      <img src="/images/wireframe/square-image.png" class="visible content">\n' +
-      '      <img class="hidden content" src="/images/avatar/large/ade.jpg"/>\n' +
+      '      <img src="/images/avatar/large/ade.jpg" class="hidden content">\n' +
       '    </div>\n',
   },
 };

@@ -27,6 +27,7 @@ export default {  // TODO: Component FuiContent
   name: 'FuiContent',
   mixins: [
     Mixins.getMixinAligned(['middle', 'top', 'bottom'], null),
+    Mixins.getMixinFloated(['left', 'right'], null),
   ],
   props: {
     header: {
@@ -55,6 +56,7 @@ export default {  // TODO: Component FuiContent
     classes: function () {
       return u.concatClasses(
         ...this.getClassesAligned,
+        ...this.getClassesFloated,
         'content'
       );
     },

@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="ui celled ordered list">
-      <div class="item">Cats</div>
-      <div class="item">Horses</div>
-      <div class="item">Dogs
-        <div class="list">
-          <div class="item">Labradoodles</div>
-          <div class="item">Shiba Inu</div>
-          <div class="item">Mastiff</div>
-        </div>
-      </div>
-    </div>
+    <FuiList celled ordered>
+      <FuiItem>Cats</FuiItem>
+      <FuiItem>Horses</FuiItem>
+      <FuiItem>Dogs
+        <FuiList sub>
+          <FuiItem>Labradoodles</FuiItem>
+          <FuiItem>Shiba Inu</FuiItem>
+          <FuiItem>Mastiff</FuiItem>
+        </FuiList>
+      </FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -18,13 +18,13 @@
 export default {
   name: 'ElementListCelled2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Variations',
     title2: 'Celled',
     description: 'A list can divide its items into cells',
-    model: '    <div class="ui celled ordered list">\n' +
+    model: '    <div class="ui ordered celled list">\n' +
       '      <div class="item">Cats</div>\n' +
       '      <div class="item">Horses</div>\n' +
       '      <div class="item">Dogs\n' +

@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="ui link list">
-      <div class="active item">Home</div>
-      <a class="item">About</a>
-      <a class="item">Jobs</a>
-      <a class="item">Team</a>
-    </div>
+    <FuiList link>
+      <FuiItem active>Home</FuiItem>
+      <FuiItem tag=a>About</FuiItem>
+      <FuiItem tag=a>Jobs</FuiItem>
+      <FuiItem tag=a>Team</FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -13,7 +13,7 @@
 export default {
   name: 'ElementListLink1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'list',
     title1: 'Types',

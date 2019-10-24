@@ -7,8 +7,8 @@
       <div class="ui right tiny rail">
         Tiny
       </div>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
+      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
     </div>
     <div class="ui segment">
       <div class="ui left small rail">
@@ -17,8 +17,8 @@
       <div class="ui right large rail">
         Large
       </div>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
+      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
     </div>
     <div class="ui segment">
       <div class="ui left big rail">
@@ -27,15 +27,15 @@
       <div class="ui right huge rail">
         Huge
       </div>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
+      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
     </div>
     <div class="ui segment">
       <div class="ui right massive rail">
         Massive
       </div>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
+      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
+      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
     </div>
   </div>
 </template>
@@ -57,8 +57,8 @@ export default {
       '      <div class="ui right tiny rail">\n' +
       '        Tiny\n' +
       '      </div>\n' +
-      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n' +
       '    <div class="ui segment">\n' +
       '      <div class="ui left small rail">\n' +
@@ -67,8 +67,8 @@ export default {
       '      <div class="ui right large rail">\n' +
       '        Large\n' +
       '      </div>\n' +
-      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n' +
       '    <div class="ui segment">\n' +
       '      <div class="ui left big rail">\n' +
@@ -77,15 +77,15 @@ export default {
       '      <div class="ui right huge rail">\n' +
       '        Huge\n' +
       '      </div>\n' +
-      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n' +
       '    <div class="ui segment">\n' +
       '      <div class="ui right massive rail">\n' +
       '        Massive\n' +
       '      </div>\n' +
-      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+      '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n',
   },
 };

@@ -6,7 +6,7 @@
     <div class="ui cards">
       <div class="card">
         <div class="content">
-          <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg"/>
+          <img src="/images/avatar/large/elliot.jpg" class="right floated mini ui image">
           <div class="header">
             Elliot Fu
           </div>
@@ -26,7 +26,7 @@
       </div>
       <div class="card">
         <div class="content">
-          <img class="right floated mini ui image" src="/images/avatar/large/jenny.jpg"/>
+          <img src="/images/avatar/large/jenny.jpg" class="right floated mini ui image">
           <div class="header">
             Jenny Hess
           </div>
@@ -64,7 +64,7 @@ export default {
       '    <div class="ui cards">\n' +
       '      <div class="card">\n' +
       '        <div class="content">\n' +
-      '          <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg"/>\n' +
+      '          <img src="/images/avatar/large/elliot.jpg" class="right floated mini ui image">\n' +
       '          <div class="header">\n' +
       '            Elliot Fu\n' +
       '          </div>\n' +
@@ -84,7 +84,7 @@ export default {
       '      </div>\n' +
       '      <div class="card">\n' +
       '        <div class="content">\n' +
-      '          <img class="right floated mini ui image" src="/images/avatar/large/jenny.jpg"/>\n' +
+      '          <img src="/images/avatar/large/jenny.jpg" class="right floated mini ui image">\n' +
       '          <div class="header">\n' +
       '            Jenny Hess\n' +
       '          </div>\n' +
