@@ -1,19 +1,19 @@
 <template>
   <div>
-    <div class="ui segment">
-      <div class="ui left very close rail">
-        <div class="ui segment">
+    <FuiSegment>
+      <FuiRail very close=left>
+        <FuiSegment>
           Left Rail Content
-        </div>
-      </div>
-      <div class="ui right very close rail">
-        <div class="ui segment">
+        </FuiSegment>
+      </FuiRail>
+      <FuiRail very close=right>
+        <FuiSegment>
           Right Rail Content
-        </div>
-      </div>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-    </div>
+        </FuiSegment>
+      </FuiRail>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
 export default {
   name: 'ElementRailClose2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'rail',
     title1: 'Variations',

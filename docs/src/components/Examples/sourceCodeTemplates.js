@@ -292,464 +292,446 @@ s.ElementPlaceholderLineLength1 =
   '  <div class="very short line"/>\n' +
   '</div>' 
 s.ElementSegmentSegments1 = 
-  '<div class="ui segments">\n' +
-  '  <div class="ui segment">\n' +
+  '<FuiSegments>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Top</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Middle</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Middle</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Middle</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Bottom</p>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiSegment>\n' +
+  '</FuiSegments>' 
 s.ElementSegmentCompact2 = 
-  '<div class="ui compact segments">\n' +
-  '  <div class="ui segment">\n' +
+  '<FuiSegments compact>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Pellentesque habitant morbi</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Pellentesque habitant morbi</p>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiSegment>\n' +
+  '</FuiSegments>' 
 s.ElementSegmentPlaceholderSegment3 = 
-  '<div class="ui placeholder segment">\n' +
-  '  <div class="ui two column stackable center aligned grid">\n' +
-  '    <div class="ui vertical divider">Or</div>\n' +
-  '    <div class="middle aligned row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui icon header">\n' +
-  '          <i class="search icon"></i>\n' +
+  '<FuiSegment placeholder>\n' +
+  '  <FuiGrid column=two stackable aligned=center>\n' +
+  '    <FuiDivider vertical>Or</FuiDivider>\n' +
+  '    <FuiRow aligned=middle>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiHeader icon iconName=search>\n' +
   '          Find Country\n' +
-  '        </div>\n' +
-  '        <div class="field">\n' +
+  '        </FuiHeader>\n' +
+  '        <FuiField>\n' +
   '          <div class="ui search">\n' +
-  '            <div class="ui icon input">\n' +
-  '              <input class="prompt" type="text" placeholder="Search countries..."/>\n' +
-  '              <i class="search icon"></i>\n' +
-  '            </div>\n' +
+  '            <FuiInput icon prompt placeholder="Search countries...">\n' +
+  '              <FuiIcon name=search></FuiIcon>\n' +
+  '            </FuiInput>\n' +
   '            <div class="results"/>\n' +
   '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui icon header">\n' +
-  '          <i class="world icon"></i>\n' +
+  '        </FuiField>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiHeader icon iconName=world>\n' +
   '          Add New Country\n' +
-  '        </div>\n' +
-  '        <div class="ui primary button">\n' +
+  '        </FuiHeader>\n' +
+  '        <FuiButton tag=div primary>\n' +
   '          Create\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '        </FuiButton>\n' +
+  '      </FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '  </FuiGrid>\n' +
+  '</FuiSegment>' 
 s.ElementSegmentBasic1 = 
-  '<div class="ui basic segment">\n' +
+  '<FuiSegment basic>\n' +
   '  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementSegmentNestedSegments1 = 
-  '<div class="ui segments">\n' +
-  '  <div class="ui segment">\n' +
+  '<FuiSegments>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Top</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segments">\n' +
-  '    <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegments>\n' +
+  '    <FuiSegment>\n' +
   '      <p>Nested Top</p>\n' +
-  '    </div>\n' +
-  '    <div class="ui segment">\n' +
+  '    </FuiSegment>\n' +
+  '    <FuiSegment>\n' +
   '      <p>Nested Middle</p>\n' +
-  '    </div>\n' +
-  '    <div class="ui segment">\n' +
+  '    </FuiSegment>\n' +
+  '    <FuiSegment>\n' +
   '      <p>Nested Bottom</p>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiSegments>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Middle</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui horizontal segments">\n' +
-  '    <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegments horizontal>\n' +
+  '    <FuiSegment>\n' +
   '      <p>Top</p>\n' +
-  '    </div>\n' +
-  '    <div class="ui segment">\n' +
+  '    </FuiSegment>\n' +
+  '    <FuiSegment>\n' +
   '      <p>Middle</p>\n' +
-  '    </div>\n' +
-  '    <div class="ui segment">\n' +
+  '    </FuiSegment>\n' +
+  '    <FuiSegment>\n' +
   '      <p>Bottom</p>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiSegments>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Bottom</p>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiSegment>\n' +
+  '</FuiSegments>' 
 s.ElementSegmentRaised1 = 
-  '<div class="ui raised segment">\n' +
+  '<FuiSegment raised>\n' +
   '  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementSegmentStackedSegments1 = 
-  '<div class="ui stacked segments">\n' +
-  '  <div class="ui segment">\n' +
+  '<FuiSegments stacked>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Top</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Middle</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Bottom</p>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiSegment>\n' +
+  '</FuiSegments>' 
 s.ElementSegmentEmphasis1 = 
-  '<div class="ui segment">\n' +
+  '<FuiSegment>\n' +
   '  <p>I\'m here to tell you something, and you will probably read me first.</p>\n' +
-  '</div>\n' +
-  '<div class="ui secondary segment">\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment secondary>\n' +
   '  <p>I am pretty noticeable but you might check out other content before you look at me.</p>\n' +
-  '</div>\n' +
-  '<div class="ui tertiary segment">\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment tertiary>\n' +
   '  <p>If you notice me you must be looking very hard.</p>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementSegmentPadded2 = 
-  '<div class="ui very padded segment">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '<FuiSegment  padded=very>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementSegmentSegment1 = 
-  '<div class="ui segment">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '<FuiSegment>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementSegmentSegments3 = 
-  '<div class="ui segments">\n' +
-  '  <div class="ui segment">\n' +
+  '<FuiSegments>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Top</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui red segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment color=red>\n' +
   '    <p>Middle</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui blue segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment color=blue>\n' +
   '    <p>Middle</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui green segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment color=green>\n' +
   '    <p>Middle</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui yellow segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment color=yellow>\n' +
   '    <p>Bottom</p>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiSegment>\n' +
+  '</FuiSegments>' 
 s.ElementSegmentStacked1 = 
-  '<div class="ui stacked segment">\n' +
+  '<FuiSegment stacked>\n' +
   '  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementSegmentCompact1 = 
-  '<div class="ui compact segment">\n' +
+  '<FuiSegment compact>\n' +
   '  <p>Pellentesque habitant morbi</p>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementSegmentClearing1 = 
-  '<div class="ui clearing segment">\n' +
-  '  <div class="ui right floated button">Floated</div>\n' +
-  '</div>' 
+  '<FuiSegment clearing>\n' +
+  '  <FuiButton tag=div floated=right>Floated</FuiButton>\n' +
+  '</FuiSegment>' 
 s.ElementSegmentPadded1 = 
-  '<div class="ui padded segment">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '<FuiSegment padded>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementSegmentHorizontalSegments1 = 
-  '<div class="ui horizontal segments">\n' +
-  '  <div class="ui segment">\n' +
-  '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
-  '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
-  '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSegments horizontal>\n' +
+  '  <FuiSegment>\n' +
+  '    <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
+  '    <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
+  '    <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiSegment>\n' +
+  '</FuiSegments>' 
 s.ElementSegmentPlaceholderSegment1 = 
-  '<div class="ui placeholder segment">\n' +
-  '  <div class="ui icon header">\n' +
-  '    <i class="pdf file outline icon"></i>\n' +
+  '<FuiSegment placeholder>\n' +
+  '  <FuiHeader icon iconName="pdf file outline">\n' +
   '    No documents are listed for this customer.\n' +
-  '  </div>\n' +
-  '  <div class="ui primary button">Add Document</div>\n' +
-  '</div>' 
+  '  </FuiHeader>\n' +
+  '  <FuiButton tag=div primary>Add Document</FuiButton>\n' +
+  '</FuiSegment>' 
 s.ElementSegmentVerticalSegment1 = 
-  '<div class="ui vertical segment">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui vertical segment">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui vertical segment">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '<FuiSegment vertical>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment vertical>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment vertical>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementSegmentFitted1 = 
-  '<div class="ui fitted segment">\n' +
-  '    <p>Fitted Segment</p>\n' +
-  '</div>\n' +
-  '<div class="ui horizontally fitted segment">\n' +
-  '    <p>Horizontally fitted segment</p>\n' +
-  '</div>\n' +
-  '<div class="ui vertically fitted segment">\n' +
-  '    <p>Vertically fitted segment</p>\n' +
-  '</div>' 
+  '<FuiSegment fitted>\n' +
+  '  <p>Fitted Segment</p>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment fitted=horizontally>\n' +
+  '  <p>Horizontally fitted segment</p>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment fitted=vertically>\n' +
+  '  <p>Vertically fitted segment</p>\n' +
+  '</FuiSegment>' 
 s.ElementSegmentSegments2 = 
-  '<div class="ui basic segments">\n' +
-  '  <div class="ui segment">\n' +
+  '<FuiSegments basic>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Top</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Middle</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Middle</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Middle</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Bottom</p>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiSegment>\n' +
+  '</FuiSegments>' 
 s.ElementSegmentHorizontalstackableSegments1 = 
-  '<div class="ui horizontal stackable segments">\n' +
-  '  <div class="ui segment">\n' +
+  '<FuiSegments horizontal stackable>\n' +
+  '  <FuiSegment>\n' +
   '    Segment One\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    Segment Two\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
-  '   Segment Three\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
-  '   Segment Four\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
+  '    Segment Three\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
+  '    Segment Four\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    Segment Five\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    Segment Six\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    Segment Seven\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    Segment Eight\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiSegment>\n' +
+  '</FuiSegments>' 
 s.ElementSegmentSegments4 = 
-  '<div class="ui segments">\n' +
-  '  <div class="ui segment">\n' +
+  '<FuiSegments>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Top</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui secondary segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment secondary>\n' +
   '    <p>Secondary Content</p>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiSegment>\n' +
+  '</FuiSegments>' 
 s.ElementSegmentColored2 = 
-  '<div class="ui red inverted segment">Red</div>\n' +
-  '<div class="ui orange inverted segment">Orange</div>\n' +
-  '<div class="ui yellow inverted segment">Yellow</div>\n' +
-  '<div class="ui olive inverted segment">Olive</div>\n' +
-  '<div class="ui green inverted segment">Green</div>\n' +
-  '<div class="ui teal inverted segment">Teal</div>\n' +
-  '<div class="ui blue inverted segment">Blue</div>\n' +
-  '<div class="ui violet inverted segment">Violet</div>\n' +
-  '<div class="ui purple inverted segment">Purple</div>\n' +
-  '<div class="ui pink inverted segment">Pink</div>\n' +
-  '<div class="ui brown inverted segment">Brown</div>\n' +
-  '<div class="ui grey inverted segment">Grey</div>\n' +
-  '<div class="ui black inverted segment">Black</div>' 
+  '<FuiSegment color=red inverted>Red</FuiSegment>\n' +
+  '<FuiSegment color=orange inverted>Orange</FuiSegment>\n' +
+  '<FuiSegment color=yellow inverted>Yellow</FuiSegment>\n' +
+  '<FuiSegment color=olive inverted>Olive</FuiSegment>\n' +
+  '<FuiSegment color=green inverted>Green</FuiSegment>\n' +
+  '<FuiSegment color=teal inverted>Teal</FuiSegment>\n' +
+  '<FuiSegment color=blue inverted>Blue</FuiSegment>\n' +
+  '<FuiSegment color=violet inverted>Violet</FuiSegment>\n' +
+  '<FuiSegment color=purple inverted>Purple</FuiSegment>\n' +
+  '<FuiSegment color=pink inverted>Pink</FuiSegment>\n' +
+  '<FuiSegment color=brown inverted>Brown</FuiSegment>\n' +
+  '<FuiSegment color=grey inverted>Grey</FuiSegment>\n' +
+  '<FuiSegment color=black inverted>Black</FuiSegment>' 
 s.ElementSegmentPlaceholderSegment2 = 
-  '<div class="ui ignored info message">\n' +
-  '  To use inline-block content inside a placeholder, wrap the content in <code>inline</code>.\n' +
-  '</div>\n' +
-  '<div class="ui placeholder segment">\n' +
-  '  <div class="ui icon header">\n' +
-  '    <i class="search icon"></i>\n' +
+  '<FuiSegment placeholder>\n' +
+  '  <FuiHeader icon iconName=search>\n' +
   '    We don\'t have any documents matching your query\n' +
-  '  </div>\n' +
+  '  </FuiHeader>\n' +
   '  <div class="inline">\n' +
-  '    <div class="ui primary button">Clear Query</div>\n' +
-  '    <div class="ui button">Add Document</div>\n' +
+  '    <FuiButton tag=div primary>Clear Query</FuiButton>\n' +
+  '    <FuiButton tag=div>Add Document</FuiButton>\n' +
   '  </div>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementSegmentColored1 = 
-  '<div class="ui red segment">Red</div>\n' +
-  '<div class="ui orange segment">Orange</div>\n' +
-  '<div class="ui yellow segment">Yellow</div>\n' +
-  '<div class="ui olive segment">Olive</div>\n' +
-  '<div class="ui green segment">Green</div>\n' +
-  '<div class="ui teal segment">Teal</div>\n' +
-  '<div class="ui blue segment">Blue</div>\n' +
-  '<div class="ui violet segment">Violet</div>\n' +
-  '<div class="ui purple segment">Purple</div>\n' +
-  '<div class="ui pink segment">Pink</div>\n' +
-  '<div class="ui brown segment">Brown</div>\n' +
-  '<div class="ui grey segment">Grey</div>\n' +
-  '<div class="ui black segment">Black</div>' 
+  '<FuiSegment color=red>Red</FuiSegment>\n' +
+  '<FuiSegment color=orange>Orange</FuiSegment>\n' +
+  '<FuiSegment color=yellow>Yellow</FuiSegment>\n' +
+  '<FuiSegment color=olive>Olive</FuiSegment>\n' +
+  '<FuiSegment color=green>Green</FuiSegment>\n' +
+  '<FuiSegment color=teal>Teal</FuiSegment>\n' +
+  '<FuiSegment color=blue>Blue</FuiSegment>\n' +
+  '<FuiSegment color=violet>Violet</FuiSegment>\n' +
+  '<FuiSegment color=purple>Purple</FuiSegment>\n' +
+  '<FuiSegment color=pink>Pink</FuiSegment>\n' +
+  '<FuiSegment color=brown>Brown</FuiSegment>\n' +
+  '<FuiSegment color=grey>Grey</FuiSegment>\n' +
+  '<FuiSegment color=black>Black</FuiSegment>' 
 s.ElementSegmentEmphasis3 = 
-  '<div class="ui inverted red segment">\n' +
+  '<FuiSegment inverted color=red>\n' +
   '  <p>I\'m here to tell you something, and you will probably read me first.</p>\n' +
-  '</div>\n' +
-  '<div class="ui secondary inverted red segment">\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment secondary inverted color=red>\n' +
   '  <p>I am pretty noticeable but you might check out other content before you look at me.</p>\n' +
-  '</div>\n' +
-  '<div class="ui tertiary inverted red segment">\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment tertiary inverted color=red>\n' +
   '  <p>If you notice me you must be looking very hard.</p>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementSegmentInverted1 = 
-  '<div class="ui inverted segment">\n' +
+  '<FuiSegment inverted>\n' +
   '  <p>I\'m here to tell you something, and you will probably read me first.</p>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementSegmentLoading1 = 
-  '<div class="ui loading segment">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '<FuiSegment loading>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementSegmentDisabled1 = 
-  '<div class="ui disabled segment">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '<FuiSegment disabled>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementSegmentLoading2 = 
-  '<div class="ui black label">New in 2.7.0</div>\n' +
-  '<div class="ui ignored info message"><code>elastic</code> as loading style is currently not supported  because segment uses the <code>:before</code> pseudoclass to dimm the background.</div>\n' +
-  '<div class="ui brown double loading segment">\n' +
-  '    <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui brown usual double loading segment">\n' +
-  '    <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '<FuiSegment color=brown loading=double>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment color=brown loading="usual double">\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementSegmentAttached2 = 
-  '<h5 class="ui top attached header">\n' +
+  '<FuiHeader level=5 attached=top>\n' +
   '  Dogs\n' +
-  '</h5>\n' +
-  '<div class="ui attached segment">\n' +
+  '</FuiHeader>\n' +
+  '<FuiSegment attached>\n' +
   '  <p>Dogs are one type of animal</p>\n' +
-  '</div>\n' +
-  '<h5 class="ui attached header">\n' +
+  '</FuiSegment>\n' +
+  '<FuiHeader level=5 attached>\n' +
   '  Cats\n' +
-  '</h5>\n' +
-  '<div class="ui attached segment">\n' +
+  '</FuiHeader>\n' +
+  '<FuiSegment attached>\n' +
   '  <p>Cats are thought of as being related to dogs, but only humans think this.</p>\n' +
-  '</div>\n' +
-  '<h5 class="ui attached header">\n' +
+  '</FuiSegment>\n' +
+  '<FuiHeader level=5 attached>\n' +
   '  Lions\n' +
-  '</h5>\n' +
-  '<div class="ui attached segment">\n' +
+  '</FuiHeader>\n' +
+  '<FuiSegment attached>\n' +
   '  <p>Humans don\'t think of lions as being like cats, but they are.</p>\n' +
-  '</div>\n' +
-  '<div class="ui bottom attached warning message">\n' +
-  '  <i class="warning icon"></i>\n' +
+  '</FuiSegment>\n' +
+  '<FuiMessage attached=bottom warning iconName=warning>\n' +
   '  You\'ve reached the end of this content segment!\n' +
-  '</div>' 
+  '</FuiMessage>' 
 s.ElementSegmentStacked2 = 
-  '<div class="ui tall stacked segment">\n' +
+  '<FuiSegment tall stacked>\n' +
   '  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementSegmentHorizontalSegments2 = 
-  '<div class="ui horizontal basic segments">\n' +
-  '  <div class="ui segment">\n' +
-  '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
-  '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
-  '    <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSegments horizontal basic>\n' +
+  '  <FuiSegment>\n' +
+  '    <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
+  '    <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
+  '    <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiSegment>\n' +
+  '</FuiSegments>' 
 s.ElementSegmentCircular1 = 
-  '<div class="ui ignored info message">A circular segment will most likely have to have its content manually sized to be equal width and height, otherwise it will flow to the size of your content</div>\n' +
-  '<div class="ui circular segment">\n' +
-  '  <h2 class="ui header">\n' +
+  '<FuiSegment circular>\n' +
+  '  <FuiHeader level=2>\n' +
   '    Buy Now\n' +
-  '    <div class="sub header">$10.99</div>\n' +
-  '  </h2>\n' +
-  '</div>\n' +
-  '<div class="ui inverted circular segment">\n' +
-  '  <h2 class="ui inverted header">\n' +
+  '    <FuiSubheader>$10.99</FuiSubheader>\n' +
+  '  </FuiHeader>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment inverted circular>\n' +
+  '  <FuiHeader level=2 inverted>\n' +
   '    Buy Now\n' +
-  '    <div class="sub header">$10.99</div>\n' +
-  '  </h2>\n' +
-  '</div>' 
+  '    <FuiSubheader>$10.99</FuiSubheader>\n' +
+  '  </FuiHeader>\n' +
+  '</FuiSegment>' 
 s.ElementSegmentAttached1 = 
-  '<div class="ui ignored info message">\n' +
-  '  <p>Attached segments are designed to be used with other <code>attached</code> variations like <a href="/elements/header.html#attached">attached header</a> or <a href="/collections/message.html#attached">attached messages</a>.</p>\n' +
-  '</div>\n' +
-  '<div class="ui top attached segment">\n' +
+  '<FuiSegment attached=top>\n' +
   '  <p>This segment is on top</p>\n' +
-  '</div>\n' +
-  '<div class="ui attached segment">\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment attached>\n' +
   '  <p>This segment is attached on both sides</p>\n' +
-  '</div>\n' +
-  '<div class="ui bottom attached segment">\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment attached=bottom>\n' +
   '  <p>This segment is on bottom</p>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementSegmentEmphasis2 = 
-  '<div class="ui inverted segment">\n' +
+  '<FuiSegment inverted>\n' +
   '  <p>I\'m here to tell you something, and you will probably read me first.</p>\n' +
-  '</div>\n' +
-  '<div class="ui secondary inverted segment">\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment secondary inverted>\n' +
   '  <p>I am pretty noticeable but you might check out other content before you look at me.</p>\n' +
-  '</div>\n' +
-  '<div class="ui tertiary inverted segment">\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment tertiary inverted>\n' +
   '  <p>If you notice me you must be looking very hard.</p>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementSegmentRaisedSegments1 = 
-  '<div class="ui raised segments">\n' +
-  '  <div class="ui segment">\n' +
+  '<FuiSegments raised>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Top</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Middle</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Bottom</p>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiSegment>\n' +
+  '</FuiSegments>' 
 s.ElementSegmentFloated1 = 
-  '<div class="ui right floated segment">\n' +
-  '  <p>This segment will appear to the right\n' +
-  '</p></div>\n' +
-  '<div class="ui left floated segment">\n' +
+  '<FuiSegment floated=right>\n' +
+  '  <p>This segment will appear to the right</p>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment floated=left>\n' +
   '  This segment will appear to the left\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementSegmentTextAlignment1 = 
-  '<div class="ui right aligned segment">\n' +
+  '<FuiSegment aligned=right>\n' +
   '  Right\n' +
-  '</div>\n' +
-  '<div class="ui left aligned segment">\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment aligned=left>\n' +
   '  Left\n' +
-  '</div>\n' +
-  '<div class="ui center aligned segment">\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment aligned=center>\n' +
   '  Center\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementSegmentPiledSegments1 = 
-  '<div class="ui piled segments">\n' +
-  '  <div class="ui segment">\n' +
+  '<FuiSegments piled>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Top</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Middle</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui segment">\n' +
+  '  </FuiSegment>\n' +
+  '  <FuiSegment>\n' +
   '    <p>Bottom</p>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiSegment>\n' +
+  '</FuiSegments>' 
 s.ElementSegmentPiled1 = 
-  '<div class="ui ignored warning message">\n' +
-  '  Piled segments use <b>negative z-index</b> to format the additional pages below the segment. In order for them to appear correctly, your segment\'s offset container must have a z-index declared.\n' +
-  '</div>\n' +
-  '<div class="ui piled segment">\n' +
-  '  <h4 class="ui header">A header</h4>\n' +
+  '<FuiSegment piled>\n' +
+  '  <FuiHeader level=4>A header</FuiHeader>\n' +
   '  <p>Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>\n' +
   '  <p>Audiam quaerendum eu sea, pro omittam definiebas ex. Te est latine definitiones. Quot wisi nulla ex duo. Vis sint solet expetenda ne, his te phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide phaedrum, vim vivendum maiestatis in.</p>\n' +
   '  <p>Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.</p>\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.ElementListImage1 = 
   '<FuiList>\n' +
   '  <FuiItem>\n' +
@@ -2277,39 +2259,23 @@ s.ElementInputSize4 =
   '  <FuiIcon name=search></FuiIcon>\n' +
   '</FuiInput>' 
 s.ElementText1 = 
-  '<h2 class="ui header">Definition</h2>\n' +
-  '<div class="no example">\n' +
-  '  <h4 class="ui header">Text</h4>\n' +
-  '  <p>A text is always used inline and uses one color from the FUI color palette</p>\n' +
-  '  <div class="ui info message">\n' +
-  '    To not interfere with all other colorable elements the <code>text</code> element is limited to be used in <code>span</code> tags only\n' +
-  '  </div>\n' +
-  '  <div class="code" data-type="html" data-preview="true">\n' +
-  '      <div class="ui segment">\n' +
-  '        This is <span class="ui red text">red</span> inline text and this is <span class="ui blue text">blue</span> inline text and this is <span class="ui purple text">purple</span> inline text\n' +
-  '      </div>\n' +
-  '      <div class="ui inverted segment">\n' +
-  '        This is <span class="ui inverted red text">red</span> inline text and this is <span class="ui inverted blue text">blue</span> inline text and this is <span class="ui inverted purple text">purple</span> inline text\n' +
-  '      </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<h2 class="ui dividing header">Variations</h2>\n' +
-  '<div class="example">\n' +
-  '  <h4 class="ui header">Size\n' +
-  '    <div class="ui black label">New in 2.7.2</div>\n' +
-  '  </h4>\n' +
-  '  <p>Text can vary in the same sizes as icons</p>\n' +
-  '    <div class="ui segment">\n' +
-  '      <p>Starting with <span class="ui mini red text">mini</span> text</p>\n' +
-  '      <p>which turns into <span class="ui tiny red text">tiny</span> text</p>\n' +
-  '      <p>changing to <span class="ui small red text">small</span> text until it is</p>\n' +
-  '      <p>the default <span class="ui medium red text">medium</span> text</p>\n' +
-  '      <p>and could be <span class="ui large red text">large</span> text</p>\n' +
-  '      <p>to turn into <span class="ui big red text">big</span> text</p>\n' +
-  '      <p>then growing to <span class="ui huge red text">huge</span> text</p>\n' +
-  '      <p>to finally become <span class="ui red massive text">massive</span> text</p>\n' +
-  '    </div>\n' +
-  '</div>' 
+  '<FuiSegment>\n' +
+  '  This is <FuiText color=red>red</FuiText> inline text and this is <FuiText color=blue>blue</FuiText> inline text and this is <FuiText color=purple>purple</FuiText> inline text\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment inverted>\n' +
+  '  This is <FuiText inverted color=red>red</FuiText> inline text and this is <FuiText inverted color=blue>blue</FuiText> inline text and this is <FuiText inverted color=purple>purple</FuiText> inline text\n' +
+  '</FuiSegment>' 
+s.ElementText2 = 
+  '<FuiSegment>\n' +
+  '  <p>Starting with <FuiText size=mini color=red>mini</FuiText> text</p>\n' +
+  '  <p>which turns into <FuiText size=tiny color=red>tiny</FuiText> text</p>\n' +
+  '  <p>changing to <FuiText size=small color=red>small</FuiText> text until it is</p>\n' +
+  '  <p>the default <FuiText size=medium color=red>medium</FuiText> text</p>\n' +
+  '  <p>and could be <FuiText size=large color=red>large</FuiText> text</p>\n' +
+  '  <p>to turn into <FuiText size=big color=red>big</FuiText> text</p>\n' +
+  '  <p>then growing to <FuiText size=huge color=red>huge</FuiText> text</p>\n' +
+  '  <p>to finally become <FuiText size=massive color=red>massive</FuiText> text</p>\n' +
+  '</FuiSegment>' 
 s.ElementDividerHorizontalDivider1 = 
   '<FuiSegment aligned=center basic>\n' +
   '  <FuiInput icon=left action placeholder="Order #">\n' +
@@ -4340,151 +4306,144 @@ s.ElementRevealDisabled1 =
   '  </div>\n' +
   '</div>' 
 s.ElementRailSize1 = 
-  '<div class="ui segment">\n' +
-  '  <div class="ui left mini rail">\n' +
+  '<FuiSegment>\n' +
+  '  <FuiRail size=mini left>\n' +
   '    Mini\n' +
-  '  </div>\n' +
-  '  <div class="ui right tiny rail">\n' +
+  '  </FuiRail>\n' +
+  '  <FuiRail size=tiny right>\n' +
   '    Tiny\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui left small rail">\n' +
+  '  </FuiRail>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiRail size=small left>\n' +
   '    Small\n' +
-  '  </div>\n' +
-  '  <div class="ui right large rail">\n' +
+  '  </FuiRail>\n' +
+  '  <FuiRail size=large right>\n' +
   '    Large\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui left big rail">\n' +
+  '  </FuiRail>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiRail size=big left>\n' +
   '    Big\n' +
-  '  </div>\n' +
-  '  <div class="ui right huge rail">\n' +
+  '  </FuiRail>\n' +
+  '  <FuiRail size=huge right>\n' +
   '    Huge\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui right massive rail">\n' +
+  '  </FuiRail>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiRail right size=massive>\n' +
   '    Massive\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '  </FuiRail>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementRailInternal1 = 
-  '<div class="ui segment" style="left: -150px; width: 960px;min-height: 300px;">\n' +
-  '  <div class="ui left internal rail">\n' +
-  '    <div class="ui segment">\n' +
+  '<FuiSegment style="left: -150px; width: 960px; min-height: 300px;">\n' +
+  '  <FuiRail internal=left>\n' +
+  '    <FuiSegment>\n' +
   '      Left Rail Content\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui right internal rail">\n' +
-  '    <div class="ui segment">\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiRail>\n' +
+  '  <FuiRail internal=right>\n' +
+  '    <FuiSegment>\n' +
   '      Right Rail Content\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiSegment>\n' +
+  '  </FuiRail>\n' +
+  '</FuiSegment>' 
 s.ElementRailClose2 = 
-  '<div class="ui segment">\n' +
-  '  <div class="ui left very close rail">\n' +
-  '    <div class="ui segment">\n' +
+  '<FuiSegment>\n' +
+  '  <FuiRail very close=left>\n' +
+  '    <FuiSegment>\n' +
   '      Left Rail Content\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui right very close rail">\n' +
-  '    <div class="ui segment">\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiRail>\n' +
+  '  <FuiRail very close=right>\n' +
+  '    <FuiSegment>\n' +
   '      Right Rail Content\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
-s.ElementRail1 = 
-  '<h2 class="ui dividing header">Introduction</h2>\n' +
-  '<h3 class="ui header">When to Use</h3>\n' +
-  '<h3 class="ui header">Adjusting Sizes</h3>\n' +
-  '<div class="ui ignored warning message">\n' +
-  '  The following examples do not use any breakpoints, so some railed content may appear outside your browser\'s viewport on smaller screens.\n' +
-  '</div>' 
+  '    </FuiSegment>\n' +
+  '  </FuiRail>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementRailClose1 = 
-  '<div class="ui segment">\n' +
-  '  <div class="ui left close rail">\n' +
-  '    <div class="ui segment">\n' +
+  '<FuiSegment>\n' +
+  '  <FuiRail close=left>\n' +
+  '    <FuiSegment>\n' +
   '      Left Rail Content\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui right close rail">\n' +
-  '    <div class="ui segment">\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiRail>\n' +
+  '  <FuiRail close=right>\n' +
+  '    <FuiSegment>\n' +
   '      Right Rail Content\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '    </FuiSegment>\n' +
+  '  </FuiRail>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementRailDividing1 = 
-  '<div class="ui segment">\n' +
-  '  <div class="ui left dividing rail">\n' +
-  '    <div class="ui segment">\n' +
+  '<FuiSegment>\n' +
+  '  <FuiRail dividing=left>\n' +
+  '    <FuiSegment>\n' +
   '      Left Rail Content\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui right dividing rail">\n' +
-  '    <div class="ui segment">\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiRail>\n' +
+  '  <FuiRail dividing=right>\n' +
+  '    <FuiSegment>\n' +
   '      Right Rail Content\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '    </FuiSegment>\n' +
+  '  </FuiRail>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementRailRail1 = 
-  '<div class="ui segment">\n' +
-  '  <div class="ui left rail">\n' +
-  '    <div class="ui segment">\n' +
+  '<FuiSegment>\n' +
+  '  <FuiRail left>\n' +
+  '    <FuiSegment>\n' +
   '      Left Rail Content\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui right rail">\n' +
-  '    <div class="ui segment">\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiRail>\n' +
+  '  <FuiRail right>\n' +
+  '    <FuiSegment>\n' +
   '      Right Rail Content\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '    </FuiSegment>\n' +
+  '  </FuiRail>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementRailAttached1 = 
-  '<div class="ui segment">\n' +
-  '  <div class="ui left attached rail">\n' +
-  '    <div class="ui segment">\n' +
+  '<FuiSegment>\n' +
+  '  <FuiRail attached=left>\n' +
+  '    <FuiSegment>\n' +
   '      Left Rail Content\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui right attached rail">\n' +
-  '    <div class="ui segment">\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiRail>\n' +
+  '  <FuiRail attached=right>\n' +
+  '    <FuiSegment>\n' +
   '      Right Rail Content\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '    </FuiSegment>\n' +
+  '  </FuiRail>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementRailAttached2 = 
-  '<div class="ui segment" style="left: -150px; width: 960px;min-height: 300px;">\n' +
-  '  <div class="ui left internal attached rail">\n' +
-  '    <div class="ui segment">\n' +
+  '<FuiSegment style="left: -150px; width: 960px; min-height: 300px;">\n' +
+  '  <FuiRail attached="left internal">\n' +
+  '    <FuiSegment>\n' +
   '      Left Rail Content\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui right internal attached rail">\n' +
-  '    <div class="ui segment">\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiRail>\n' +
+  '  <FuiRail attached="right internal">\n' +
+  '    <FuiSegment>\n' +
   '      Right Rail Content\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiSegment>\n' +
+  '  </FuiRail>\n' +
+  '</FuiSegment>' 
 s.ElementIconScienceFiction1 = 
   '<FuiGrid doubling column=five>\n' +
   '  <FuiColumn>\n' +

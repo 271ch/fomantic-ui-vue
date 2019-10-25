@@ -6,7 +6,6 @@
         Rail examples
       </FuiHeader>
     </FuiHeader>
-    <ExampleWithSource example="ElementRail1"></ExampleWithSource>
     <ExampleWithSource example="ElementRailRail1"></ExampleWithSource>
     <ExampleWithSource example="ElementRailInternal1"></ExampleWithSource>
     <ExampleWithSource example="ElementRailDividing1"></ExampleWithSource>

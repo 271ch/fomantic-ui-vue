@@ -1,17 +1,17 @@
 <template>
   <div>
-    <div class="ui segment" style="left: -150px; width: 960px;min-height: 300px;">
-      <div class="ui left internal attached rail">
-        <div class="ui segment">
+    <FuiSegment style="left: -150px; width: 960px; min-height: 300px;">
+      <FuiRail attached="left internal">
+        <FuiSegment>
           Left Rail Content
-        </div>
-      </div>
-      <div class="ui right internal attached rail">
-        <div class="ui segment">
+        </FuiSegment>
+      </FuiRail>
+      <FuiRail attached="right internal">
+        <FuiSegment>
           Right Rail Content
-        </div>
-      </div>
-    </div>
+        </FuiSegment>
+      </FuiRail>
+    </FuiSegment>
   </div>
 </template>
 
@@ -19,13 +19,13 @@
 export default {
   name: 'ElementRailAttached2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'rail',
     title1: 'Variations',
     title2: 'Attached',
     description: 'A rail can appear attached to the main viewport',
-    model: '    <div class="ui segment" style="left: -150px; width: 960px;min-height: 300px;">\n' +
+    model: '    <div class="ui segment" style="left: -150px; width: 960px; min-height: 300px;">\n' +
       '      <div class="ui left internal attached rail">\n' +
       '        <div class="ui segment">\n' +
       '          Left Rail Content\n' +

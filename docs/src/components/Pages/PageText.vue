@@ -7,6 +7,7 @@
       </FuiHeader>
     </FuiHeader>
     <ExampleWithSource example="ElementText1"></ExampleWithSource>
+    <ExampleWithSource example="ElementText2"></ExampleWithSource>
   </FuiContainer>
 </template>
 

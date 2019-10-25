@@ -712,8 +712,6 @@ c.push(ElementPlaceholderInverted1);
 b.push(['placeholder', c]); c = [];
 // end of element [placeholder]
 // begin of element [rail]
-import ElementRail1 from './elements/rail/ElementRail1';
-c.push(ElementRail1);
 import ElementRailRail1 from './elements/rail/ElementRailRail1';
 c.push(ElementRailRail1);
 import ElementRailInternal1 from './elements/rail/ElementRailInternal1';
@@ -908,6 +906,8 @@ b.push(['step', c]); c = [];
 // begin of element [text]
 import ElementText1 from './elements/text/ElementText1';
 c.push(ElementText1);
+import ElementText2 from './elements/text/ElementText2';
+c.push(ElementText2);
 b.push(['text', c]); c = [];
 // end of element [text]
 a.push(['elements', b]); b = [];

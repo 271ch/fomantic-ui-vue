@@ -1,42 +1,42 @@
 <template>
   <div>
-    <div class="ui segment">
-      <div class="ui left mini rail">
+    <FuiSegment>
+      <FuiRail size=mini left>
         Mini
-      </div>
-      <div class="ui right tiny rail">
+      </FuiRail>
+      <FuiRail size=tiny right>
         Tiny
-      </div>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-    </div>
-    <div class="ui segment">
-      <div class="ui left small rail">
+      </FuiRail>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
+    <FuiSegment>
+      <FuiRail size=small left>
         Small
-      </div>
-      <div class="ui right large rail">
+      </FuiRail>
+      <FuiRail size=large right>
         Large
-      </div>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-    </div>
-    <div class="ui segment">
-      <div class="ui left big rail">
+      </FuiRail>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
+    <FuiSegment>
+      <FuiRail size=big left>
         Big
-      </div>
-      <div class="ui right huge rail">
+      </FuiRail>
+      <FuiRail size=huge right>
         Huge
-      </div>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-    </div>
-    <div class="ui segment">
-      <div class="ui right massive rail">
+      </FuiRail>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
+    <FuiSegment>
+      <FuiRail right size=massive>
         Massive
-      </div>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-    </div>
+      </FuiRail>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -44,7 +44,7 @@
 export default {
   name: 'ElementRailSize1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'rail',
     title1: 'Variations',

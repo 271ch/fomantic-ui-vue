@@ -1,37 +1,25 @@
 <template>
-  <div :class="classes">
+  <span :class="classes">
     <slot />
-  </div>
+  </span>
 </template>
 
 <script>
 import u from '../../lib/util';
 // import Enum from '../../lib/enum';
-// import Mixins from '../../lib/mixins';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiText',
-  mixins: [],
+  mixins: [
+    Mixins.PSize,
+    Mixins.PColor,
+  ],
   props: {
-    /*
-    prop1: { // TODO: Component FuiText
+    inverted: {
       type: Boolean,
-      description: '',
+      description: '', // TODO: descr
     },
-    prop2: {
-      type: String,
-      description: '',
-      default: '',
-    },
-    prop3: {
-      type: String,
-      description: '',
-      validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
-      },
-      default: '',
-    },
-    */
   },
   events: {
     click: {
@@ -41,6 +29,10 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
+        'ui',
+        ...this.getClassesSize,
+        this.inverted && 'inverted',
+        ...this.getClassesColor,
         'text'
       );
     },

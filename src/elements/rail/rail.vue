@@ -6,32 +6,52 @@
 
 <script>
 import u from '../../lib/util';
-// import Enum from '../../lib/enum';
-// import Mixins from '../../lib/mixins';
+import Enum from '../../lib/enum';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiRail',
-  mixins: [],
+  mixins: [
+    Mixins.PSize,
+    Mixins.getMixinAttached(['left', 'right', 'left internal', 'right internal'], null)
+  ],
   props: {
-    /*
-    prop1: { // TODO: Component FuiRail
+    very: {
       type: Boolean,
-      description: '',
+      description: '', // TODO: descr
     },
-    prop2: {
-      type: String,
-      description: '',
-      default: '',
-    },
-    prop3: {
-      type: String,
-      description: '',
+    close: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
       validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
+        return value === false || Enum.LeftRight.check(value);
       },
-      default: '',
+      default: false,
     },
-    */
+    dividing: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
+      validator: (value) => {
+        return value === false || Enum.LeftRight.check(value);
+      },
+      default: false,
+    },
+    internal: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
+      validator: (value) => {
+        return value === false || Enum.LeftRight.check(value);
+      },
+      default: false,
+    },
+    left: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
+    right: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
   },
   events: {
     click: {
@@ -41,6 +61,18 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
+        'ui',
+        this.close,
+        this.very && 'very',
+        this.close && 'close',
+        this.dividing,
+        this.dividing && 'dividing',
+        this.internal,
+        this.internal && 'internal',
+        ...this.getClassesAttached,
+        this.left && 'left',
+        this.right && 'right',
+        ...this.getClassesSize,
         'rail'
       );
     },

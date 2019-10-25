@@ -1,19 +1,19 @@
 <template>
   <div>
-    <div class="ui segment">
-      <div class="ui left attached rail">
-        <div class="ui segment">
+    <FuiSegment>
+      <FuiRail attached=left>
+        <FuiSegment>
           Left Rail Content
-        </div>
-      </div>
-      <div class="ui right attached rail">
-        <div class="ui segment">
+        </FuiSegment>
+      </FuiRail>
+      <FuiRail attached=right>
+        <FuiSegment>
           Right Rail Content
-        </div>
-      </div>
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-    </div>
+        </FuiSegment>
+      </FuiRail>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
 export default {
   name: 'ElementRailAttached1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'rail',
     title1: 'Variations',
