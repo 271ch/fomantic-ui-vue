@@ -1,20 +1,19 @@
 <template>
   <div>
-    <div class="ui steps">
-      <a class="active step">
-        <i class="truck icon"></i>
-        <div class="content">
-          <div class="title">Shipping</div>
-          <div class="description">Choose your shipping options</div>
-        </div>
-      </a>
-      <a class="step">
-        <div class="content">
-          <div class="title">Billing</div>
-          <div class="description">Enter billing information</div>
-        </div>
-      </a>
-    </div>
+    <FuiSteps>
+      <FuiStep tag=a active iconName=truck>
+        <FuiContent>
+          <FuiTitle>Shipping</FuiTitle>
+          <FuiDescription>Choose your shipping options</FuiDescription>
+        </FuiContent>
+      </FuiStep>
+      <FuiStep tag=a>
+        <FuiContent>
+          <FuiTitle>Billing</FuiTitle>
+          <FuiDescription>Enter billing information</FuiDescription>
+        </FuiContent>
+      </FuiStep>
+    </FuiSteps>
   </div>
 </template>
 
@@ -22,7 +21,7 @@
 export default {
   name: 'ElementStepLink1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'step',
     title1: 'Content',

@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="ui steps">
-      <div class="step">
-        <div class="title">Shipping</div>
-        <div class="description">Choose your shipping options</div>
-      </div>
-    </div>
+    <FuiSteps>
+      <FuiStep>
+        <FuiTitle>Shipping</FuiTitle>
+        <FuiDescription>Choose your shipping options</FuiDescription>
+      </FuiStep>
+    </FuiSteps>
   </div>
 </template>
 
@@ -13,7 +13,7 @@
 export default {
   name: 'ElementStepDescription1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'step',
     title1: 'Content',

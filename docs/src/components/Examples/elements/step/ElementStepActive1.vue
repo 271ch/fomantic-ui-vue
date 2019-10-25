@@ -1,14 +1,13 @@
 <template>
   <div>
-    <div class="ui steps">
-      <div class="active step">
-        <i class="payment icon"></i>
-        <div class="content">
-          <div class="title">Billing</div>
-          <div class="description">Enter billing information</div>
-        </div>
-      </div>
-    </div>
+    <FuiSteps>
+      <FuiStep active iconName=payment>
+        <FuiContent>
+          <FuiTitle>Billing</FuiTitle>
+          <FuiDescription>Enter billing information</FuiDescription>
+        </FuiContent>
+      </FuiStep>
+    </FuiSteps>
   </div>
 </template>
 
@@ -16,7 +15,7 @@
 export default {
   name: 'ElementStepActive1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'step',
     title1: 'States',

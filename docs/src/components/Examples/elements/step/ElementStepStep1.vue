@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui steps">
-      <div class="step">
+    <FuiSteps>
+      <FuiStep>
         Shipping
-      </div>
-    </div>
+      </FuiStep>
+    </FuiSteps>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementStepStep1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'step',
     title1: 'Types',

@@ -1,34 +1,24 @@
 <template>
   <div>
-    <div class="ui ignored positive icon message">
-      <i class="mobile icon"></i>
-      <div class="content">
-        <h3 class="header">Responsive Element</h3>
-        <p>Steps will automatically stack on mobile. To make steps automatically stack for tablet use the <code>tablet stackable</code> variation.</p>
-      </div>
-    </div>
-    <div class="ui steps">
-      <div class="step">
-        <i class="truck icon"></i>
-        <div class="content">
-          <div class="title">Shipping</div>
-          <div class="description">Choose your shipping options</div>
-        </div>
-      </div>
-      <div class="active step">
-        <i class="payment icon"></i>
-        <div class="content">
-          <div class="title">Billing</div>
-          <div class="description">Enter billing information</div>
-        </div>
-      </div>
-      <div class="disabled step">
-        <i class="info icon"></i>
-        <div class="content">
-          <div class="title">Confirm Order</div>
-        </div>
-      </div>
-    </div>
+    <FuiSteps>
+      <FuiStep iconName=truck>
+        <FuiContent>
+          <FuiTitle>Shipping</FuiTitle>
+          <FuiDescription>Choose your shipping options</FuiDescription>
+        </FuiContent>
+      </FuiStep>
+      <FuiStep active iconName=payment>
+        <FuiContent>
+          <FuiTitle>Billing</FuiTitle>
+          <FuiDescription>Enter billing information</FuiDescription>
+        </FuiContent>
+      </FuiStep>
+      <FuiStep disabled iconName=info>
+        <FuiContent>
+          <FuiTitle>Confirm Order</FuiTitle>
+        </FuiContent>
+      </FuiStep>
+    </FuiSteps>
   </div>
 </template>
 
@@ -36,20 +26,13 @@
 export default {
   name: 'ElementStepSteps1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'step',
     title1: 'Groups',
     title2: 'Steps',
     description: 'A set of steps',
-    model: '    <div class="ui ignored positive icon message">\n' +
-      '      <i class="mobile icon"></i>\n' +
-      '      <div class="content">\n' +
-      '        <h3 class="header">Responsive Element</h3>\n' +
-      '        <p>Steps will automatically stack on mobile. To make steps automatically stack for tablet use the <code>tablet stackable</code> variation.</p>\n' +
-      '      </div>\n' +
-      '    </div>\n' +
-      '    <div class="ui steps">\n' +
+    model: '    <div class="ui steps">\n' +
       '      <div class="step">\n' +
       '        <i class="truck icon"></i>\n' +
       '        <div class="content">\n' +

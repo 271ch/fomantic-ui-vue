@@ -1474,534 +1474,474 @@ s.ElementListLink1A =
   '  <FuiItem tag=a>Where is our office located?</FuiItem>\n' +
   '</FuiList>' 
 s.ElementStepEvenlyDivided2 = 
-  '<div class="ui two steps">\n' +
-  '  <div class="active step">\n' +
-  '    <i class="payment icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="disabled step">\n' +
-  '    <i class="info icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Confirm Order</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps n=two>\n' +
+  '  <FuiStep active iconName=payment>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep disabled iconName=info>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepActive1 = 
-  '<div class="ui steps">\n' +
-  '  <div class="active step">\n' +
-  '    <i class="payment icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps>\n' +
+  '  <FuiStep active iconName=payment>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepIcon1 = 
-  '<div class="ui steps">\n' +
-  '  <div class="step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '      <div class="description">Choose your shipping options</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps>\n' +
+  '  <FuiStep iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '      <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepOrdered1 = 
-  '<div class="ui ordered steps">\n' +
-  '  <div class="completed step">\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '      <div class="description">Choose your shipping options</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="completed step">\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Confirm Order</div>\n' +
-  '      <div class="description">Verify order details</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps ordered>\n' +
+  '  <FuiStep completed>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '      <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep completed>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '      <FuiDescription>Verify order details</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepCompleted2 = 
-  '<div class="ui ordered steps">\n' +
-  '  <div class="completed step">\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps ordered>\n' +
+  '  <FuiStep completed>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepDisabled1 = 
-  '<div class="ui steps">\n' +
-  '  <div class="disabled step">\n' +
+  '<FuiSteps>\n' +
+  '  <FuiStep disabled>\n' +
   '    Billing\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepUnstackable1 = 
-  '<div class="ui unstackable steps">\n' +
-  '  <div class="step">\n' +
-  '    <i class="plane icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '      <div class="description">Choose your shipping options</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <i class="dollar icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="disabled step">\n' +
-  '    <i class="info circle icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Confirm Order</div>\n' +
-  '      <div class="description">Verify order details</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps unstackable>\n' +
+  '  <FuiStep iconName=plane>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '      <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active iconName=dollar>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep disabled iconName="info circle">\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '      <FuiDescription>Verify order details</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepSize5 = 
-  '<div class="ui big steps">\n' +
-  '  <div class="step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <i class="payment icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps size=big>\n' +
+  '  <FuiStep iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active iconName=payment>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepEvenlyDivided1 = 
-  '<div class="ui three steps">\n' +
-  '  <div class="step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <i class="payment icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="disabled step">\n' +
-  '    <i class="info icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Confirm Order</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps n=three>\n' +
+  '  <FuiStep iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active iconName=payment>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep disabled iconName=info>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepLink2 = 
-  '<div class="ui steps">\n' +
-  '  <div class="link step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '      <div class="description">Choose your shipping options</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="link step">\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps>\n' +
+  '  <FuiStep link iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '      <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep link>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepSteps1 = 
-  '<div class="ui ignored positive icon message">\n' +
-  '  <i class="mobile icon"></i>\n' +
-  '  <div class="content">\n' +
-  '    <h3 class="header">Responsive Element</h3>\n' +
-  '    <p>Steps will automatically stack on mobile. To make steps automatically stack for tablet use the <code>tablet stackable</code> variation.</p>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="ui steps">\n' +
-  '  <div class="step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '      <div class="description">Choose your shipping options</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <i class="payment icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="disabled step">\n' +
-  '    <i class="info icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Confirm Order</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps>\n' +
+  '  <FuiStep iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '      <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active iconName=payment>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep disabled iconName=info>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepSize7 = 
-  '<div class="ui massive steps">\n' +
-  '  <div class="step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <i class="payment icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps size=massive>\n' +
+  '  <FuiStep iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active iconName=payment>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepStep1 = 
-  '<div class="ui steps">\n' +
-  '  <div class="step">\n' +
+  '<FuiSteps>\n' +
+  '  <FuiStep>\n' +
   '    Shipping\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepSize2 = 
-  '<div class="ui tiny steps">\n' +
-  '  <div class="step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '      <div class="description">Choose your shipping options</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <i class="payment icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="disabled step">\n' +
-  '    <i class="info icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Confirm Order</div>\n' +
-  '      <div class="description">Verify order details</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps size=tiny>\n' +
+  '  <FuiStep iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '      <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active iconName=payment>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep disabled iconName=info>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '      <FuiDescription>Verify order details</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepSize1 = 
-  '<div class="ui mini steps">\n' +
-  '  <div class="step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '      <div class="description">Choose your shipping options</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <i class="payment icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="disabled step">\n' +
-  '    <i class="info icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Confirm Order</div>\n' +
-  '      <div class="description">Verify order details</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps size=mini>\n' +
+  '  <FuiStep iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '      <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active iconName=payment>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep disabled iconName=info>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '      <FuiDescription>Verify order details</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepFluid1 = 
-  '<div class="ui two column grid">\n' +
-  '  <div class="column">\n' +
-  '    <div class="ui fluid vertical steps">\n' +
-  '      <div class="completed step">\n' +
-  '        <i class="truck icon"></i>\n' +
-  '        <div class="content">\n' +
-  '          <div class="title">Shipping</div>\n' +
-  '          <div class="description">Choose your shipping options</div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="active step">\n' +
-  '        <i class="dollar icon"></i>\n' +
-  '        <div class="content">\n' +
-  '          <div class="title">Billing</div>\n' +
-  '          <div class="description">Enter billing information</div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="column">\n' +
+  '<FuiGrid column=two>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiSteps fluid vertical>\n' +
+  '      <FuiStep completed iconName=truck>\n' +
+  '        <FuiContent>\n' +
+  '          <FuiTitle>Shipping</FuiTitle>\n' +
+  '          <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '        </FuiContent>\n' +
+  '      </FuiStep>\n' +
+  '      <FuiStep active iconName=dollar>\n' +
+  '        <FuiContent>\n' +
+  '          <FuiTitle>Billing</FuiTitle>\n' +
+  '          <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '        </FuiContent>\n' +
+  '      </FuiStep>\n' +
+  '    </FuiSteps>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
   '    <p>The steps take up the entire column width</p>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
 s.ElementStepInverted2 = 
-  '<div class="ui inverted segment">\n' +
-  '  <div class="ui inverted ordered steps">\n' +
-  '    <div class="completed step">\n' +
-  '      <div class="content">\n' +
-  '        <div class="title">Shipping</div>\n' +
-  '        <div class="description">Choose your shipping options</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="completed step">\n' +
-  '      <div class="content">\n' +
-  '        <div class="title">Billing</div>\n' +
-  '        <div class="description">Enter billing information</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="active step">\n' +
-  '      <div class="content">\n' +
-  '        <div class="title">Confirm Order</div>\n' +
-  '        <div class="description">Verify order details</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSegment inverted>\n' +
+  '  <FuiSteps inverted ordered>\n' +
+  '    <FuiStep completed>\n' +
+  '      <FuiContent>\n' +
+  '        <FuiTitle>Shipping</FuiTitle>\n' +
+  '        <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '      </FuiContent>\n' +
+  '    </FuiStep>\n' +
+  '    <FuiStep completed>\n' +
+  '      <FuiContent>\n' +
+  '        <FuiTitle>Billing</FuiTitle>\n' +
+  '        <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '      </FuiContent>\n' +
+  '    </FuiStep>\n' +
+  '    <FuiStep active>\n' +
+  '      <FuiContent>\n' +
+  '        <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '        <FuiDescription>Verify order details</FuiDescription>\n' +
+  '      </FuiContent>\n' +
+  '    </FuiStep>\n' +
+  '  </FuiSteps>\n' +
+  '</FuiSegment>' 
 s.ElementStepAttached1 = 
-  '<div class="ui three top attached steps">\n' +
-  '  <div class="step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '      <div class="description">Choose your shipping options</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <i class="payment icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="disabled step">\n' +
-  '    <i class="info icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Confirm Order</div>\n' +
-  '      <div class="description">Verify order details</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="ui attached segment">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui three bottom attached steps">\n' +
-  '  <div class="step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '      <div class="description">Choose your shipping options</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <i class="payment icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="disabled step">\n' +
-  '    <i class="info icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Confirm Order</div>\n' +
-  '      <div class="description">Verify order details</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps n=three attached=top>\n' +
+  '  <FuiStep iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '      <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active iconName=payment>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep disabled iconName=info>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '      <FuiDescription>Verify order details</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>\n' +
+  '<FuiSegment attached>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSteps n=three attached=bottom>\n' +
+  '  <FuiStep iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '      <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active iconName=payment>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep disabled iconName=info>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '      <FuiDescription>Verify order details</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepSize4 = 
-  '<div class="ui large steps">\n' +
-  '  <div class="step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <i class="payment icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps size=large>\n' +
+  '  <FuiStep iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active iconName=payment>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepStackable1 = 
-  '<div class="ui tablet stackable steps">\n' +
-  '  <div class="step">\n' +
-  '    <i class="plane icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '      <div class="description">Choose your shipping options</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <i class="dollar icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="disabled step">\n' +
-  '    <i class="info circle icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Confirm Order</div>\n' +
-  '      <div class="description">Verify order details</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps tablet stackable>\n' +
+  '  <FuiStep iconName=plane>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '      <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active iconName=dollar>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep disabled iconName="info circle">\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '      <FuiDescription>Verify order details</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepInverted3 = 
-  '<div class="ui inverted segment">\n' +
-  '  <div class="ui inverted vertical steps">\n' +
-  '    <div class="completed step">\n' +
-  '      <i class="truck icon"></i>\n' +
-  '      <div class="content">\n' +
-  '        <div class="title">Shipping</div>\n' +
-  '        <div class="description">Choose your shipping options</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="completed step">\n' +
-  '      <i class="credit card icon"></i>\n' +
-  '      <div class="content">\n' +
-  '        <div class="title">Billing</div>\n' +
-  '        <div class="description">Enter billing information</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="active step">\n' +
-  '      <i class="info icon"></i>\n' +
-  '      <div class="content">\n' +
-  '        <div class="title">Confirm Order</div>\n' +
-  '        <div class="description">Verify order details</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSegment inverted>\n' +
+  '  <FuiSteps inverted vertical>\n' +
+  '    <FuiStep completed iconName=truck>\n' +
+  '      <FuiContent>\n' +
+  '        <FuiTitle>Shipping</FuiTitle>\n' +
+  '        <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '      </FuiContent>\n' +
+  '    </FuiStep>\n' +
+  '    <FuiStep completed iconName="credit card">\n' +
+  '      <FuiContent>\n' +
+  '        <FuiTitle>Billing</FuiTitle>\n' +
+  '        <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '      </FuiContent>\n' +
+  '    </FuiStep>\n' +
+  '    <FuiStep active iconName=info>\n' +
+  '      <FuiContent>\n' +
+  '        <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '        <FuiDescription>Verify order details</FuiDescription>\n' +
+  '      </FuiContent>\n' +
+  '    </FuiStep>\n' +
+  '  </FuiSteps>\n' +
+  '</FuiSegment>' 
 s.ElementStepLink1 = 
-  '<div class="ui steps">\n' +
-  '  <a class="active step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '      <div class="description">Choose your shipping options</div>\n' +
-  '    </div>\n' +
-  '  </a>\n' +
-  '  <a class="step">\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </a>\n' +
-  '</div>' 
+  '<FuiSteps>\n' +
+  '  <FuiStep tag=a active iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '      <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep tag=a>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepInverted1 = 
-  '<div class="ui inverted segment">\n' +
-  '  <div class="ui inverted steps">\n' +
-  '    <div class="step">\n' +
-  '      <i class="truck icon"></i>\n' +
-  '      <div class="content">\n' +
-  '        <div class="title">Shipping</div>\n' +
-  '        <div class="description">Choose your shipping options</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="active step">\n' +
-  '      <i class="payment icon"></i>\n' +
-  '      <div class="content">\n' +
-  '        <div class="title">Billing</div>\n' +
-  '        <div class="description">Enter billing information</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="disabled step">\n' +
-  '      <i class="info icon"></i>\n' +
-  '      <div class="content">\n' +
-  '        <div class="title">Confirm Order</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSegment inverted>\n' +
+  '  <FuiSteps inverted>\n' +
+  '    <FuiStep iconName=truck>\n' +
+  '      <FuiContent>\n' +
+  '        <FuiTitle>Shipping</FuiTitle>\n' +
+  '        <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '      </FuiContent>\n' +
+  '    </FuiStep>\n' +
+  '    <FuiStep active iconName=payment>\n' +
+  '      <FuiContent>\n' +
+  '        <FuiTitle>Billing</FuiTitle>\n' +
+  '        <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '      </FuiContent>\n' +
+  '    </FuiStep>\n' +
+  '    <FuiStep disabled iconName=info>\n' +
+  '      <FuiContent>\n' +
+  '        <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '      </FuiContent>\n' +
+  '    </FuiStep>\n' +
+  '  </FuiSteps>\n' +
+  '</FuiSegment>' 
 s.ElementStepSize6 = 
-  '<div class="ui huge steps">\n' +
-  '  <div class="step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <i class="payment icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps size=huge>\n' +
+  '  <FuiStep iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active iconName=payment>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepDescription1 = 
-  '<div class="ui steps">\n' +
-  '  <div class="step">\n' +
-  '    <div class="title">Shipping</div>\n' +
-  '    <div class="description">Choose your shipping options</div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps>\n' +
+  '  <FuiStep>\n' +
+  '    <FuiTitle>Shipping</FuiTitle>\n' +
+  '    <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepSize3 = 
-  '<div class="ui small steps">\n' +
-  '  <div class="step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '      <div class="description">Choose your shipping options</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <i class="payment icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="disabled step">\n' +
-  '    <i class="info icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Confirm Order</div>\n' +
-  '      <div class="description">Verify order details</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps size=small>\n' +
+  '  <FuiStep iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '      <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active iconName=payment>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep disabled iconName=info>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '      <FuiDescription>Verify order details</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepCompleted1 = 
-  '<div class="ui steps">\n' +
-  '  <div class="completed step">\n' +
-  '    <i class="payment icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps>\n' +
+  '  <FuiStep completed iconName=payment>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementStepVertical1 = 
-  '<div class="ui vertical steps">\n' +
-  '  <div class="completed step">\n' +
-  '    <i class="truck icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Shipping</div>\n' +
-  '      <div class="description">Choose your shipping options</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="completed step">\n' +
-  '    <i class="credit card icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Billing</div>\n' +
-  '      <div class="description">Enter billing information</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="active step">\n' +
-  '    <i class="info icon"></i>\n' +
-  '    <div class="content">\n' +
-  '      <div class="title">Confirm Order</div>\n' +
-  '      <div class="description">Verify order details</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSteps vertical>\n' +
+  '  <FuiStep completed iconName=truck>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Shipping</FuiTitle>\n' +
+  '      <FuiDescription>Choose your shipping options</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep completed iconName="credit card">\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Billing</FuiTitle>\n' +
+  '      <FuiDescription>Enter billing information</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '  <FuiStep active iconName=info>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiTitle>Confirm Order</FuiTitle>\n' +
+  '      <FuiDescription>Verify order details</FuiDescription>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiStep>\n' +
+  '</FuiSteps>' 
 s.ElementInputAction6 = 
   '<FuiInput action placeholder="Search...">\n' +
   '  <FuiButton icon>\n' +

@@ -1,37 +1,51 @@
 <template>
-  <div :class="classes">
+  <component
+    :is="gTag"
+    :class="classes"
+  >
+    <i
+      v-if="iconName"
+      :class="iconName + ' icon'"
+    />
     <slot />
-  </div>
+  </component>
 </template>
 
 <script>
 import u from '../../lib/util';
 // import Enum from '../../lib/enum';
-// import Mixins from '../../lib/mixins';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiStep',
-  mixins: [],
+  mixins: [
+    Mixins.getMixinTag(['a'], 'div'),
+  ],
   props: {
-    /*
-    prop1: { // TODO: Component FuiStep
-      type: Boolean,
-      description: '',
-    },
-    prop2: {
-      type: String,
-      description: '',
-      default: '',
-    },
-    prop3: {
-      type: String,
-      description: '',
+    iconName: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
       validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
+        return value !== true;
       },
-      default: '',
+      default: false,
     },
-    */
+    disabled: {
+      type: Boolean,
+      description: '', // TODO: descr.
+    },
+    active: {
+      type: Boolean,
+      description: '', // TODO: descr.
+    },
+    link: {
+      type: Boolean,
+      description: '', // TODO: descr.
+    },
+    completed: {
+      type: Boolean,
+      description: '', // TODO: descr.
+    },
   },
   events: {
     click: {
@@ -41,6 +55,10 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
+        this.completed && 'completed',
+        this.link && 'link',
+        this.disabled && 'disabled',
+        this.active && 'active',
         'step'
       );
     },

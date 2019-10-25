@@ -1,28 +1,26 @@
 <template>
   <div>
-    <div class="ui two column grid">
-      <div class="column">
-        <div class="ui fluid vertical steps">
-          <div class="completed step">
-            <i class="truck icon"></i>
-            <div class="content">
-              <div class="title">Shipping</div>
-              <div class="description">Choose your shipping options</div>
-            </div>
-          </div>
-          <div class="active step">
-            <i class="dollar icon"></i>
-            <div class="content">
-              <div class="title">Billing</div>
-              <div class="description">Enter billing information</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column">
+    <FuiGrid column=two>
+      <FuiColumn>
+        <FuiSteps fluid vertical>
+          <FuiStep completed iconName=truck>
+            <FuiContent>
+              <FuiTitle>Shipping</FuiTitle>
+              <FuiDescription>Choose your shipping options</FuiDescription>
+            </FuiContent>
+          </FuiStep>
+          <FuiStep active iconName=dollar>
+            <FuiContent>
+              <FuiTitle>Billing</FuiTitle>
+              <FuiDescription>Enter billing information</FuiDescription>
+            </FuiContent>
+          </FuiStep>
+        </FuiSteps>
+      </FuiColumn>
+      <FuiColumn>
         <p>The steps take up the entire column width</p>
-      </div>
-    </div>
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -30,7 +28,7 @@
 export default {
   name: 'ElementStepFluid1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'step',
     title1: 'Variations',

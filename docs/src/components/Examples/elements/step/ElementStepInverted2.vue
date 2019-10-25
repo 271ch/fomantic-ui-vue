@@ -1,27 +1,27 @@
 <template>
   <div>
-    <div class="ui inverted segment">
-      <div class="ui inverted ordered steps">
-        <div class="completed step">
-          <div class="content">
-            <div class="title">Shipping</div>
-            <div class="description">Choose your shipping options</div>
-          </div>
-        </div>
-        <div class="completed step">
-          <div class="content">
-            <div class="title">Billing</div>
-            <div class="description">Enter billing information</div>
-          </div>
-        </div>
-        <div class="active step">
-          <div class="content">
-            <div class="title">Confirm Order</div>
-            <div class="description">Verify order details</div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <FuiSegment inverted>
+      <FuiSteps inverted ordered>
+        <FuiStep completed>
+          <FuiContent>
+            <FuiTitle>Shipping</FuiTitle>
+            <FuiDescription>Choose your shipping options</FuiDescription>
+          </FuiContent>
+        </FuiStep>
+        <FuiStep completed>
+          <FuiContent>
+            <FuiTitle>Billing</FuiTitle>
+            <FuiDescription>Enter billing information</FuiDescription>
+          </FuiContent>
+        </FuiStep>
+        <FuiStep active>
+          <FuiContent>
+            <FuiTitle>Confirm Order</FuiTitle>
+            <FuiDescription>Verify order details</FuiDescription>
+          </FuiContent>
+        </FuiStep>
+      </FuiSteps>
+    </FuiSegment>
   </div>
 </template>
 
@@ -29,7 +29,7 @@
 export default {
   name: 'ElementStepInverted2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'step',
     title1: 'Variations',

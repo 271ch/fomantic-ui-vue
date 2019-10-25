@@ -1,25 +1,22 @@
 <template>
   <div>
-    <div class="ui three steps">
-      <div class="step">
-        <i class="truck icon"></i>
-        <div class="content">
-          <div class="title">Shipping</div>
-        </div>
-      </div>
-      <div class="active step">
-        <i class="payment icon"></i>
-        <div class="content">
-          <div class="title">Billing</div>
-        </div>
-      </div>
-      <div class="disabled step">
-        <i class="info icon"></i>
-        <div class="content">
-          <div class="title">Confirm Order</div>
-        </div>
-      </div>
-    </div>
+    <FuiSteps n=three>
+      <FuiStep iconName=truck>
+        <FuiContent>
+          <FuiTitle>Shipping</FuiTitle>
+        </FuiContent>
+      </FuiStep>
+      <FuiStep active iconName=payment>
+        <FuiContent>
+          <FuiTitle>Billing</FuiTitle>
+        </FuiContent>
+      </FuiStep>
+      <FuiStep disabled iconName=info>
+        <FuiContent>
+          <FuiTitle>Confirm Order</FuiTitle>
+        </FuiContent>
+      </FuiStep>
+    </FuiSteps>
   </div>
 </template>
 
@@ -27,7 +24,7 @@
 export default {
   name: 'ElementStepEvenlyDivided1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'step',
     title1: 'Variations',

@@ -1,19 +1,17 @@
 <template>
   <div>
-    <div class="ui big steps">
-      <div class="step">
-        <i class="truck icon"></i>
-        <div class="content">
-          <div class="title">Shipping</div>
-        </div>
-      </div>
-      <div class="active step">
-        <i class="payment icon"></i>
-        <div class="content">
-          <div class="title">Billing</div>
-        </div>
-      </div>
-    </div>
+    <FuiSteps size=big>
+      <FuiStep iconName=truck>
+        <FuiContent>
+          <FuiTitle>Shipping</FuiTitle>
+        </FuiContent>
+      </FuiStep>
+      <FuiStep active iconName=payment>
+        <FuiContent>
+          <FuiTitle>Billing</FuiTitle>
+        </FuiContent>
+      </FuiStep>
+    </FuiSteps>
   </div>
 </template>
 
@@ -21,7 +19,7 @@
 export default {
   name: 'ElementStepSize5',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'step',
     title1: 'Variations',

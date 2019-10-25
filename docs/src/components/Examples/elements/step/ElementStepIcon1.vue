@@ -1,14 +1,13 @@
 <template>
   <div>
-    <div class="ui steps">
-      <div class="step">
-        <i class="truck icon"></i>
-        <div class="content">
-          <div class="title">Shipping</div>
-          <div class="description">Choose your shipping options</div>
-        </div>
-      </div>
-    </div>
+    <FuiSteps>
+      <FuiStep iconName=truck>
+        <FuiContent>
+          <FuiTitle>Shipping</FuiTitle>
+          <FuiDescription>Choose your shipping options</FuiDescription>
+        </FuiContent>
+      </FuiStep>
+    </FuiSteps>
   </div>
 </template>
 
@@ -16,7 +15,7 @@
 export default {
   name: 'ElementStepIcon1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'step',
     title1: 'Content',

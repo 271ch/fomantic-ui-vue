@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui steps">
-      <div class="disabled step">
+    <FuiSteps>
+      <FuiStep disabled>
         Billing
-      </div>
-    </div>
+      </FuiStep>
+    </FuiSteps>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'ElementStepDisabled1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'step',
     title1: 'States',

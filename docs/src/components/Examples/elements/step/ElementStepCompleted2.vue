@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="ui ordered steps">
-      <div class="completed step">
-        <div class="content">
-          <div class="title">Billing</div>
-          <div class="description">Enter billing information</div>
-        </div>
-      </div>
-    </div>
+    <FuiSteps ordered>
+      <FuiStep completed>
+        <FuiContent>
+          <FuiTitle>Billing</FuiTitle>
+          <FuiDescription>Enter billing information</FuiDescription>
+        </FuiContent>
+      </FuiStep>
+    </FuiSteps>
   </div>
 </template>
 
@@ -15,7 +15,7 @@
 export default {
   name: 'ElementStepCompleted2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'step',
     title1: 'States',
