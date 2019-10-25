@@ -1,18 +1,14 @@
 <template>
   <div>
-    <div class="ui ignored info message">
-      To use inline-block content inside a placeholder, wrap the content in <code>inline</code>.
-    </div>
-    <div class="ui placeholder segment">
-      <div class="ui icon header">
-        <i class="search icon"></i>
+    <FuiSegment placeholder>
+      <FuiHeader icon iconName=search>
         We don't have any documents matching your query
-      </div>
+      </FuiHeader>
       <div class="inline">
-        <div class="ui primary button">Clear Query</div>
-        <div class="ui button">Add Document</div>
+        <FuiButton tag=div primary>Clear Query</FuiButton>
+        <FuiButton tag=div>Add Document</FuiButton>
       </div>
-    </div>
+    </FuiSegment>
   </div>
 </template>
 
@@ -20,16 +16,13 @@
 export default {
   name: 'ElementSegmentPlaceholderSegment2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Types',
     title2: 'Placeholder Segment',
     description: 'A segment can be used to reserve space for conditionally displayed content.',
-    model: '    <div class="ui ignored info message">\n' +
-      '      To use inline-block content inside a placeholder, wrap the content in <code>inline</code>.\n' +
-      '    </div>\n' +
-      '    <div class="ui placeholder segment">\n' +
+    model: '    <div class="ui placeholder segment">\n' +
       '      <div class="ui icon header">\n' +
       '        <i class="search icon"></i>\n' +
       '        We don\'t have any documents matching your query\n' +

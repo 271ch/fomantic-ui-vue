@@ -1,22 +1,22 @@
 <template>
   <div>
-    <div class="ui segments">
-      <div class="ui segment">
+    <FuiSegments>
+      <FuiSegment>
         <p>Top</p>
-      </div>
-      <div class="ui red segment">
+      </FuiSegment>
+      <FuiSegment color=red>
         <p>Middle</p>
-      </div>
-      <div class="ui blue segment">
+      </FuiSegment>
+      <FuiSegment color=blue>
         <p>Middle</p>
-      </div>
-      <div class="ui green segment">
+      </FuiSegment>
+      <FuiSegment color=green>
         <p>Middle</p>
-      </div>
-      <div class="ui yellow segment">
+      </FuiSegment>
+      <FuiSegment color=yellow>
         <p>Bottom</p>
-      </div>
-    </div>
+      </FuiSegment>
+    </FuiSegments>
   </div>
 </template>
 
@@ -24,7 +24,7 @@
 export default {
   name: 'ElementSegmentSegments3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Groups',

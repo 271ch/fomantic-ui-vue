@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="ui horizontal segments">
-      <div class="ui segment">
-        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-      </div>
-      <div class="ui segment">
-        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-      </div>
-      <div class="ui segment">
-        <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-      </div>
-    </div>
+    <FuiSegments horizontal>
+      <FuiSegment>
+        <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+      </FuiSegment>
+      <FuiSegment>
+        <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+      </FuiSegment>
+      <FuiSegment>
+        <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+      </FuiSegment>
+    </FuiSegments>
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 export default {
   name: 'ElementSegmentHorizontalSegments1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Groups',

@@ -22,7 +22,23 @@ export default {
       type: Boolean,
       description: '', // TODO: descr
     },
+    basic: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
     stacked: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
+    stackable: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
+    piled: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
+    horizontal: {
       type: Boolean,
       description: '', // TODO: descr
     },
@@ -38,7 +54,11 @@ export default {
         'ui',
         this.compact && 'compact',
         this.raised && 'raised',
+        this.basic && 'basic',
+        this.horizontal && 'horizontal',
+        this.piled && 'piled',
         this.stacked && 'stacked',
+        this.stackable && 'stackable',
         'segments'
       );
     },

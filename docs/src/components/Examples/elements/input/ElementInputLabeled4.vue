@@ -25,7 +25,7 @@ export default {
     description: 'An input can be formatted with a label',
     model: '    <div class="ui right labeled input">\n' +
       '      <label class="ui label" for="amount">$</label>\n' +
-      '      <input type="text" placeholder="Amount" id="amount">\n' +
+      '      <input id="amount" type="text" placeholder="Amount">\n' +
       '      <div class="ui basic label">.00</div>\n' +
       '    </div>\n',
   },

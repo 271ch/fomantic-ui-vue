@@ -6,9 +6,14 @@
 
 <script>
 import u from '../../lib/util';
+// import Enum from '../../lib/enum';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiRow',
+  mixins: [
+    Mixins.getMixinAligned(['middle'], null),
+  ],
   props: {
   },
   events: {
@@ -19,6 +24,7 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
+        ...this.getClassesAligned,
         'row'
       );
     },

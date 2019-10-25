@@ -1,31 +1,31 @@
 <template>
   <div>
-    <div class="ui horizontal stackable segments">
-      <div class="ui segment">
+    <FuiSegments horizontal stackable>
+      <FuiSegment>
         Segment One
-      </div>
-      <div class="ui segment">
+      </FuiSegment>
+      <FuiSegment>
         Segment Two
-      </div>
-      <div class="ui segment">
-       Segment Three
-      </div>
-      <div class="ui segment">
-       Segment Four
-      </div>
-      <div class="ui segment">
+      </FuiSegment>
+      <FuiSegment>
+        Segment Three
+      </FuiSegment>
+      <FuiSegment>
+        Segment Four
+      </FuiSegment>
+      <FuiSegment>
         Segment Five
-      </div>
-      <div class="ui segment">
+      </FuiSegment>
+      <FuiSegment>
         Segment Six
-      </div>
-      <div class="ui segment">
+      </FuiSegment>
+      <FuiSegment>
         Segment Seven
-      </div>
-      <div class="ui segment">
+      </FuiSegment>
+      <FuiSegment>
         Segment Eight
-      </div>
-    </div>
+      </FuiSegment>
+    </FuiSegments>
   </div>
 </template>
 
@@ -33,7 +33,7 @@
 export default {
   name: 'ElementSegmentHorizontalstackableSegments1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Groups',

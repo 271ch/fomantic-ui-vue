@@ -1,36 +1,33 @@
 <template>
   <div>
-    <div class="ui placeholder segment">
-      <div class="ui two column stackable center aligned grid">
-        <div class="ui vertical divider">Or</div>
-        <div class="middle aligned row">
-          <div class="column">
-            <div class="ui icon header">
-              <i class="search icon"></i>
+    <FuiSegment placeholder>
+      <FuiGrid column=two stackable aligned=center>
+        <FuiDivider vertical>Or</FuiDivider>
+        <FuiRow aligned=middle>
+          <FuiColumn>
+            <FuiHeader icon iconName=search>
               Find Country
-            </div>
-            <div class="field">
+            </FuiHeader>
+            <FuiField>
               <div class="ui search">
-                <div class="ui icon input">
-                  <input class="prompt" type="text" placeholder="Search countries..."/>
-                  <i class="search icon"></i>
-                </div>
+                <FuiInput icon prompt placeholder="Search countries...">
+                  <FuiIcon name=search></FuiIcon>
+                </FuiInput>
                 <div class="results"/>
               </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui icon header">
-              <i class="world icon"></i>
+            </FuiField>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiHeader icon iconName=world>
               Add New Country
-            </div>
-            <div class="ui primary button">
+            </FuiHeader>
+            <FuiButton tag=div primary>
               Create
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            </FuiButton>
+          </FuiColumn>
+        </FuiRow>
+      </FuiGrid>
+    </FuiSegment>
   </div>
 </template>
 
@@ -38,7 +35,7 @@
 export default {
   name: 'ElementSegmentPlaceholderSegment3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Types',
@@ -56,10 +53,10 @@ export default {
       '            <div class="field">\n' +
       '              <div class="ui search">\n' +
       '                <div class="ui icon input">\n' +
-      '                  <input class="prompt" type="text" placeholder="Search countries..."/>\n' +
+      '                  <input type="text" placeholder="Search countries..." class="prompt">\n' +
       '                  <i class="search icon"></i>\n' +
       '                </div>\n' +
-      '                <div class="results"/>\n' +
+      '                <div class="results"></div>\n' +
       '              </div>\n' +
       '            </div>\n' +
       '          </div>\n' +

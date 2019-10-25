@@ -7,11 +7,13 @@
 <script>
 import u from '../../lib/util';
 import Enum from '../../lib/enum';
-// import Mixins from '../../lib/mixins';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiGrid',
-  mixins: [],
+  mixins: [
+    Mixins.getMixinAligned(['center'], null),
+  ],
   props: {
     column: {
       type: [Boolean, String],
@@ -72,6 +74,7 @@ export default {
         this.relaxed === 'very' && 'very',
         this.relaxed && 'relaxed',
         this.stackable && 'stackable',
+        ...this.getClassesAligned,
         'grid'
       );
     },

@@ -2,10 +2,20 @@
   <div :class="classes">
     <slot name="before" />
     <input
+      v-if="!prompt"
+      :id="id"
       :type="type"
       :placeholder="placeholder"
       :value="value"
+      :disabled="inputDisabled"
+    >
+    <input
+      v-if="prompt"
       :id="id"
+      :type="type"
+      :placeholder="placeholder"
+      :value="value"
+      class="prompt"
       :disabled="inputDisabled"
     >
     <slot />
@@ -13,6 +23,9 @@
 </template>
 
 <script>
+// TODO: the handling of the class prompt is not appropriate,
+//       but using :class=getClassesInput result is class=""
+//       in case of no classes
 import u from '../../lib/util';
 import Enum from '../../lib/enum';
 import Mixins from '../../lib/mixins';
@@ -116,6 +129,10 @@ export default {
         return value !== true;
       },
       default: false,
+    },
+    prompt: {
+      type: Boolean,
+      description: '', // TODO: descr
     },
   },
   events: {

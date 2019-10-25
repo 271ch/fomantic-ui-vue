@@ -1,38 +1,38 @@
 <template>
   <div>
-    <div class="ui segments">
-      <div class="ui segment">
+    <FuiSegments>
+      <FuiSegment>
         <p>Top</p>
-      </div>
-      <div class="ui segments">
-        <div class="ui segment">
+      </FuiSegment>
+      <FuiSegments>
+        <FuiSegment>
           <p>Nested Top</p>
-        </div>
-        <div class="ui segment">
+        </FuiSegment>
+        <FuiSegment>
           <p>Nested Middle</p>
-        </div>
-        <div class="ui segment">
+        </FuiSegment>
+        <FuiSegment>
           <p>Nested Bottom</p>
-        </div>
-      </div>
-      <div class="ui segment">
+        </FuiSegment>
+      </FuiSegments>
+      <FuiSegment>
         <p>Middle</p>
-      </div>
-      <div class="ui horizontal segments">
-        <div class="ui segment">
+      </FuiSegment>
+      <FuiSegments horizontal>
+        <FuiSegment>
           <p>Top</p>
-        </div>
-        <div class="ui segment">
+        </FuiSegment>
+        <FuiSegment>
           <p>Middle</p>
-        </div>
-        <div class="ui segment">
+        </FuiSegment>
+        <FuiSegment>
           <p>Bottom</p>
-        </div>
-      </div>
-      <div class="ui segment">
+        </FuiSegment>
+      </FuiSegments>
+      <FuiSegment>
         <p>Bottom</p>
-      </div>
-    </div>
+      </FuiSegment>
+    </FuiSegments>
   </div>
 </template>
 
@@ -40,7 +40,7 @@
 export default {
   name: 'ElementSegmentNestedSegments1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'segment',
     title1: 'Groups',
