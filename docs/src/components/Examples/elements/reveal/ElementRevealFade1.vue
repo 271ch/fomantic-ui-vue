@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="ui fade reveal">
-      <div class="visible content">
-        <img src="/images/wireframe/square-image.png" class="ui small image">
-      </div>
-      <div class="hidden content">
-        <img src="/images/avatar/large/ade.jpg" class="ui small image">
-      </div>
-    </div>
+    <FuiReveal fade>
+      <FuiContent visible>
+        <FuiImage src="/images/wireframe/square-image.png" size=small></FuiImage>
+      </FuiContent>
+      <FuiContent hidden>
+        <FuiImage src="/images/avatar/large/ade.jpg" size=small></FuiImage>
+      </FuiContent>
+    </FuiReveal>
   </div>
 </template>
 
@@ -15,7 +15,7 @@
 export default {
   name: 'ElementRevealFade1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'reveal',
     title1: 'Types',

@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="ui move down reveal">
-      <div class="visible content">
-        <img src="/images/wireframe/square-image.png" class="ui small image">
-      </div>
-      <div class="hidden content">
-        <img src="/images/avatar/large/nan.jpg" class="ui small image">
-      </div>
-    </div>
+    <FuiReveal move=down>
+      <FuiContent visible>
+        <FuiImage src="/images/wireframe/square-image.png" size=small></FuiImage>
+      </FuiContent>
+      <FuiContent hidden>
+        <FuiImage src="/images/avatar/large/nan.jpg" size=small></FuiImage>
+      </FuiContent>
+    </FuiReveal>
   </div>
 </template>
 
@@ -15,7 +15,7 @@
 export default {
   name: 'ElementRevealMove4',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'reveal',
     title1: 'Types',

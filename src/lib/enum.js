@@ -62,6 +62,7 @@ const enums = {
     '5': { tag: 'h5', },
   }),
   Fitted: Enum.from('vertically', 'horizontally'),
+  Move: Enum.from('down', 'up', 'left', 'right'),
 };
 
 export default enums;

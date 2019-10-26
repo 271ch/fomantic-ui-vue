@@ -46,6 +46,14 @@ export default {  // TODO: Component FuiContent
       },
       default: false,
     },
+    visible: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
+    hidden: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
   },
   events: {
     click: {
@@ -57,6 +65,8 @@ export default {  // TODO: Component FuiContent
       return u.concatClasses(
         ...this.getClassesAligned,
         ...this.getClassesFloated,
+        this.visible && 'visible',
+        this.hidden && 'hidden',
         'content'
       );
     },
