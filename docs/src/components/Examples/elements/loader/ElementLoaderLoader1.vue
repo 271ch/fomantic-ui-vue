@@ -1,12 +1,11 @@
 <template>
   <div>
-    <div class="ui ignored info message">Loaders are hidden unless <code>active</code> or inside an <a href="/modules/dimmer.html"><code>active dimmer</code></a>.</div>
-    <div class="ui segment">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-      <div class="ui active dimmer">
-        <div class="ui loader"/>
-      </div>
-    </div>
+    <FuiSegment>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+      <FuiDimmer active>
+        <FuiLoader></FuiLoader>
+      </FuiDimmer>
+    </FuiSegment>
   </div>
 </template>
 
@@ -14,17 +13,16 @@
 export default {
   name: 'ElementLoaderLoader1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'loader',
     title1: 'Types',
     title2: 'Loader',
     description: 'A loader',
-    model: '    <div class="ui ignored info message">Loaders are hidden unless <code>active</code> or inside an <a href="/modules/dimmer.html"><code>active dimmer</code></a>.</div>\n' +
-      '    <div class="ui segment">\n' +
+    model: '    <div class="ui segment">\n' +
       '      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '      <div class="ui active dimmer">\n' +
-      '        <div class="ui loader"/>\n' +
+      '        <div class="ui loader"></div>\n' +
       '      </div>\n' +
       '    </div>\n',
   },

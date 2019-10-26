@@ -4133,108 +4133,102 @@ s.ElementLoaderIndeterminate1 =
   '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
   '</div>' 
 s.ElementRevealRotate2 = 
-  '<div class="ui small circular rotate left reveal image">\n' +
-  '  <img src="/images/wireframe/square-image.png" class="visible content">\n' +
-  '  <img src="/images/avatar/large/veronika.jpg" class="hidden content">\n' +
-  '</div>' 
+  '<FuiReveal small circular rotate=left image>\n' +
+  '  <FuiRevealImage src="/images/wireframe/square-image.png" visible></FuiRevealImage>\n' +
+  '  <FuiRevealImage src="/images/avatar/large/veronika.jpg" hidden></FuiRevealImage>\n' +
+  '</FuiReveal>' 
 s.ElementRevealActive1 = 
-  '<div class="ui ignored info message">\n' +
-  '  Adding the class <code>active</code> can allow you to show the hidden contents programatically\n' +
-  '</div>\n' +
-  '<div class="ui active move left reveal">\n' +
-  '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
-  '  </div>\n' +
-  '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/nan.jpg" class="ui small image">\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiReveal active move=left>\n' +
+  '  <FuiContent visible>\n' +
+  '    <FuiImage src="/images/wireframe/square-image.png" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '  <FuiContent hidden>\n' +
+  '    <FuiImage src="/images/avatar/large/nan.jpg" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '</FuiReveal>' 
 s.ElementRevealVisibleContent1 = 
-  '<div class="ui ignored info message">\n' +
-  '  Visible and hidden content should be the same aspect ratio\n' +
-  '</div>\n' +
-  '<div class="ui small fade reveal image">\n' +
-  '  <img src="/images/avatar/large/ade.jpg" class="visible content">\n' +
-  '  <img src="/images/wireframe/square-image.png" class="hidden content">\n' +
-  '</div>' 
+  '<FuiReveal small fade image>\n' +
+  '  <FuiRevealImage src="/images/avatar/large/ade.jpg" visible></FuiRevealImage>\n' +
+  '  <FuiRevealImage src="/images/wireframe/square-image.png" hidden></FuiRevealImage>\n' +
+  '</FuiReveal>' 
 s.ElementRevealMove4 = 
-  '<div class="ui move down reveal">\n' +
-  '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
-  '  </div>\n' +
-  '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/nan.jpg" class="ui small image">\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiReveal move=down>\n' +
+  '  <FuiContent visible>\n' +
+  '    <FuiImage src="/images/wireframe/square-image.png" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '  <FuiContent hidden>\n' +
+  '    <FuiImage src="/images/avatar/large/nan.jpg" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '</FuiReveal>' 
 s.ElementRevealMove3 = 
-  '<div class="ui move up reveal">\n' +
-  '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
-  '  </div>\n' +
-  '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/justen.jpg" class="ui small image">\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiReveal move=up>\n' +
+  '  <FuiContent visible>\n' +
+  '    <FuiImage src="/images/wireframe/square-image.png" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '  <FuiContent hidden>\n' +
+  '    <FuiImage src="/images/avatar/large/justen.jpg" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '</FuiReveal>' 
 s.ElementRevealInstant1 = 
-  '<div class="ui instant move reveal">\n' +
-  '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
-  '  </div>\n' +
-  '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/chris.jpg" class="ui small image">\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiReveal instant move>\n' +
+  '  <FuiContent visible>\n' +
+  '    <FuiImage src="/images/wireframe/square-image.png" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '  <FuiContent hidden>\n' +
+  '    <FuiImage src="/images/avatar/large/chris.jpg" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '</FuiReveal>' 
 s.ElementRevealMove1 = 
-  '<div class="ui move reveal">\n' +
-  '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
-  '  </div>\n' +
-  '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/chris.jpg" class="ui small image">\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiReveal move>\n' +
+  '  <FuiContent visible>\n' +
+  '    <FuiImage src="/images/wireframe/square-image.png" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '  <FuiContent hidden>\n' +
+  '    <FuiImage src="/images/avatar/large/chris.jpg" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '</FuiReveal>' 
 s.ElementRevealMove2 = 
-  '<div class="ui move right reveal small image">\n' +
-  '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
-  '  </div>\n' +
-  '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/jenny.jpg" class="ui small image">\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiReveal move=right small image>\n' +
+  '  <FuiContent visible>\n' +
+  '    <FuiImage src="/images/wireframe/square-image.png" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '  <FuiContent hidden>\n' +
+  '    <FuiImage src="/images/avatar/large/jenny.jpg" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '</FuiReveal>' 
 s.ElementRevealFade1 = 
-  '<div class="ui fade reveal">\n' +
-  '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
-  '  </div>\n' +
-  '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/ade.jpg" class="ui small image">\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiReveal fade>\n' +
+  '  <FuiContent visible>\n' +
+  '    <FuiImage src="/images/wireframe/square-image.png" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '  <FuiContent hidden>\n' +
+  '    <FuiImage src="/images/avatar/large/ade.jpg" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '</FuiReveal>' 
 s.ElementRevealHiddenContent1 = 
-  '<div class="ui small fade reveal image">\n' +
-  '  <img src="/images/wireframe/square-image.png" class="visible content">\n' +
-  '  <img src="/images/avatar/large/ade.jpg" class="hidden content">\n' +
-  '</div>' 
+  '<FuiReveal small fade image>\n' +
+  '  <FuiRevealImage src="/images/wireframe/square-image.png" visible></FuiRevealImage>\n' +
+  '  <FuiRevealImage src="/images/avatar/large/ade.jpg" hidden></FuiRevealImage>\n' +
+  '</FuiReveal>' 
 s.ElementRevealRotate1 = 
-  '<div class="ui small circular rotate reveal image">\n' +
-  '  <img src="/images/wireframe/square-image.png" class="visible content">\n' +
-  '  <img src="/images/avatar/large/stevie.jpg" class="hidden content">\n' +
-  '</div>' 
+  '<FuiReveal small circular rotate image>\n' +
+  '  <FuiRevealImage src="/images/wireframe/square-image.png" visible></FuiRevealImage>\n' +
+  '  <FuiRevealImage src="/images/avatar/large/stevie.jpg" hidden></FuiRevealImage>\n' +
+  '</FuiReveal>' 
 s.ElementRevealFade2 = 
-  '<div class="ui small fade reveal image">\n' +
-  '  <img src="/images/wireframe/square-image.png" class="visible content">\n' +
-  '  <img src="/images/avatar/large/ade.jpg" class="hidden content">\n' +
-  '</div>' 
+  '<FuiReveal small fade image>\n' +
+  '  <FuiRevealImage src="/images/wireframe/square-image.png" visible></FuiRevealImage>\n' +
+  '  <FuiRevealImage src="/images/avatar/large/ade.jpg" hidden></FuiRevealImage>\n' +
+  '</FuiReveal>' 
 s.ElementRevealDisabled1 = 
-  '<div class="ui disabled move reveal">\n' +
-  '  <div class="visible content">\n' +
-  '    <img src="/images/wireframe/square-image.png" class="ui small image">\n' +
-  '  </div>\n' +
-  '  <div class="hidden content">\n' +
-  '    <img src="/images/avatar/large/chris.jpg" class="ui small image">\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiReveal disabled move>\n' +
+  '  <FuiContent visible>\n' +
+  '    <FuiImage src="/images/wireframe/square-image.png" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '  <FuiContent hidden>\n' +
+  '    <FuiImage src="/images/avatar/large/chris.jpg" size=small></FuiImage>\n' +
+  '  </FuiContent>\n' +
+  '</FuiReveal>' 
 s.ElementRailSize1 = 
   '<FuiSegment>\n' +
   '  <FuiRail size=mini left>\n' +

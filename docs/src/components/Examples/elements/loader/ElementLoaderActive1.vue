@@ -1,12 +1,9 @@
 <template>
   <div>
-    <div class="ui ignored info message">
-      An active loader may not be clearly visible without using a <a href="/modules/dimmer.html">ui dimmer</a>
-    </div>
-    <div class="ui segment">
-      <div class="ui active loader"/>
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
+    <FuiSegment>
+      <FuiLoader active></FuiLoader>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -14,17 +11,14 @@
 export default {
   name: 'ElementLoaderActive1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'loader',
     title1: 'States',
     title2: 'Active',
     description: 'A loader can be active or visible',
-    model: '    <div class="ui ignored info message">\n' +
-      '      An active loader may not be clearly visible without using a <a href="/modules/dimmer.html">ui dimmer</a>\n' +
-      '    </div>\n' +
-      '    <div class="ui segment">\n' +
-      '      <div class="ui active loader"/>\n' +
+    model: '    <div class="ui segment">\n' +
+      '      <div class="ui active loader"></div>\n' +
       '      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
       '    </div>\n',
   },

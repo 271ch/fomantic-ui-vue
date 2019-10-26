@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="ui segment">
-      <div class="ui active inverted dimmer">
-        <div class="ui text loader">Loading</div>
-      </div>
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
+    <FuiSegment>
+      <FuiDimmer active inverted>
+        <FuiLoader text>Loading</FuiLoader>
+      </FuiDimmer>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -13,7 +13,7 @@
 export default {
   name: 'ElementLoaderTextLoader2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'loader',
     title1: 'Types',

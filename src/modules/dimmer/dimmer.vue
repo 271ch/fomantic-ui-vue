@@ -13,25 +13,14 @@ export default {
   name: 'FuiDimmer',
   mixins: [],
   props: {
-    /*
-    prop1: {
+    active: {
       type: Boolean,
       description: '', // TODO: description
     },
-    prop2: {
-      type: String,
+    inverted: {
+      type: Boolean,
       description: '', // TODO: description
-      default: '',
     },
-    prop3: {
-      type: [Boolean, String],
-      description: '', // TODO: description
-      validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
-      },
-      default: false,
-    },
-    */
   },
   events: {
     click: {
@@ -41,6 +30,9 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
+        'ui',
+        this.active && 'active',
+        this.inverted && 'inverted',
         'dimmer'
       );
     },

@@ -30,7 +30,7 @@ FuiVue.registerAll(Vue)
 
 const skipDoneElements = true;
 
-let doneElements = ['button', 'divider', 'flag', 'header', 'icon', 'image', 'list', 'segment'];
+let doneElements = ['button', 'divider', 'flag', 'header', 'icon', 'image', 'list', 'loader', 'placeholder', 'rail', 'reveal', 'segment', 'step', 'text'];
 let skipElements = [];
 if (skipDoneElements) {
   skipElements = [...skipElements,...doneElements];

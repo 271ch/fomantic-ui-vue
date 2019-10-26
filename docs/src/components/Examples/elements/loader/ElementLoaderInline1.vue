@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="ui active inline loader"/>
+    <FuiLoader active inline></FuiLoader>
   </div>
 </template>
 
@@ -8,13 +8,13 @@
 export default {
   name: 'ElementLoaderInline1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'loader',
     title1: 'Variations',
     title2: 'Inline',
     description: 'Loaders can appear inline with content',
-    model: '    <div class="ui active inline loader"/>\n',
+    model: '    <div class="ui active inline loader"></div>\n',
   },
 };
 </script>

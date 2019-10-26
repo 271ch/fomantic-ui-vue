@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="ui active centered inline loader"/>
+    <FuiLoader active centered inline></FuiLoader>
   </div>
 </template>
 
@@ -8,13 +8,13 @@
 export default {
   name: 'ElementLoaderInlineCenter1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'loader',
     title1: 'Variations',
     title2: 'Inline Center',
     description: 'Loaders can appear inline centered with content',
-    model: '    <div class="ui active centered inline loader"/>\n',
+    model: '    <div class="ui active centered inline loader"></div>\n',
   },
 };
 </script>

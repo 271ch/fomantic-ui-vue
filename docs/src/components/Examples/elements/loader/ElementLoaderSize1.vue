@@ -1,62 +1,62 @@
 <template>
   <div>
-    <div class="ui segment">
-      <div class="ui active dimmer">
-        <div class="ui mini text loader">Loading</div>
-      </div>
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
-    <div class="ui segment">
-      <div class="ui active dimmer">
-        <div class="ui tiny text loader">Loading</div>
-      </div>
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
-    <div class="ui segment">
-      <div class="ui active dimmer">
-        <div class="ui small text loader">Loading</div>
-      </div>
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
-    <div class="ui segment">
-      <div class="ui active dimmer">
-        <div class="ui medium text loader">Loading</div>
-      </div>
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
-    <div class="ui segment">
-      <div class="ui active dimmer">
-        <div class="ui large text loader">Loading</div>
-      </div>
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
-    <div class="ui segment">
-      <div class="ui active dimmer">
-        <div class="ui big text loader">Loading</div>
-      </div>
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
-    <div class="ui segment">
-      <div class="ui active dimmer">
-        <div class="ui huge text loader">Loading</div>
-      </div>
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
-    <div class="ui segment">
-      <div class="ui active dimmer">
-        <div class="ui massive text loader">Loading</div>
-      </div>
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-      <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">
-    </div>
+    <FuiSegment>
+      <FuiDimmer active>
+        <FuiLoader size=mini text>Loading</FuiLoader>
+      </FuiDimmer>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
+    <FuiSegment>
+      <FuiDimmer active>
+        <FuiLoader size=tiny text>Loading</FuiLoader>
+      </FuiDimmer>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
+    <FuiSegment>
+      <FuiDimmer active>
+        <FuiLoader size=small text>Loading</FuiLoader>
+      </FuiDimmer>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
+    <FuiSegment>
+      <FuiDimmer active>
+        <FuiLoader size=medium text>Loading</FuiLoader>
+      </FuiDimmer>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
+    <FuiSegment>
+      <FuiDimmer active>
+        <FuiLoader size=large text>Loading</FuiLoader>
+      </FuiDimmer>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
+    <FuiSegment>
+      <FuiDimmer active>
+        <FuiLoader size=big text>Loading</FuiLoader>
+      </FuiDimmer>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
+    <FuiSegment>
+      <FuiDimmer active>
+        <FuiLoader size=huge text>Loading</FuiLoader>
+      </FuiDimmer>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
+    <FuiSegment>
+      <FuiDimmer active>
+        <FuiLoader size=massive text>Loading</FuiLoader>
+      </FuiDimmer>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+      <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -64,7 +64,7 @@
 export default {
   name: 'ElementLoaderSize1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'loader',
     title1: 'Variations',
