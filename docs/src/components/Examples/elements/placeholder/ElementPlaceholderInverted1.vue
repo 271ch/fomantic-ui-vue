@@ -1,18 +1,18 @@
 <template>
   <div>
-    <div class="ui inverted segment">
-      <div class="ui active inverted placeholder">
-        <div class="image header">
-          <div class="line"/>
-          <div class="line"/>
-        </div>
-        <div class="paragraph">
-          <div class="line"/>
-          <div class="line"/>
-          <div class="line"/>
-        </div>
-      </div>
-    </div>
+    <FuiSegment inverted>
+      <FuiPlaceholder active inverted>
+        <FuiPHHeader image>
+          <FuiPHLine></FuiPHLine>
+          <FuiPHLine></FuiPHLine>
+        </FuiPHHeader>
+        <FuiPHParagraph>
+          <FuiPHLine></FuiPHLine>
+          <FuiPHLine></FuiPHLine>
+          <FuiPHLine></FuiPHLine>
+        </FuiPHParagraph>
+      </FuiPlaceholder>
+    </FuiSegment>
   </div>
 </template>
 
@@ -20,7 +20,7 @@
 export default {
   name: 'ElementPlaceholderInverted1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'placeholder',
     title1: 'Variations',
@@ -29,13 +29,13 @@ export default {
     model: '    <div class="ui inverted segment">\n' +
       '      <div class="ui active inverted placeholder">\n' +
       '        <div class="image header">\n' +
-      '          <div class="line"/>\n' +
-      '          <div class="line"/>\n' +
+      '          <div class="line"></div>\n' +
+      '          <div class="line"></div>\n' +
       '        </div>\n' +
       '        <div class="paragraph">\n' +
-      '          <div class="line"/>\n' +
-      '          <div class="line"/>\n' +
-      '          <div class="line"/>\n' +
+      '          <div class="line"></div>\n' +
+      '          <div class="line"></div>\n' +
+      '          <div class="line"></div>\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n',

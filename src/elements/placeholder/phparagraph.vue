@@ -10,21 +10,9 @@ import u from '../../lib/util';
 // import Mixins from '../../lib/mixins';
 
 export default {
-  name: 'FuiPlaceholder',
+  name: 'FuiPHParagraph',
   mixins: [],
   props: {
-    active: {
-      type: Boolean,
-      description: '', // TODO: descr
-    },
-    fluid: {
-      type: Boolean,
-      description: '', // TODO: descr
-    },
-    inverted: {
-      type: Boolean,
-      description: '', // TODO: descr
-    },
   },
   events: {
     click: {
@@ -34,11 +22,7 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
-        'ui',
-        this.active && 'active',
-        this.fluid && 'fluid',
-        this.inverted && 'inverted',
-        'placeholder'
+        'paragraph'
       );
     },
   },

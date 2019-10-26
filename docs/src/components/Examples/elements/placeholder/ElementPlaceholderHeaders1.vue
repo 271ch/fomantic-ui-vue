@@ -1,14 +1,11 @@
 <template>
   <div>
-    <div class="ui ignored info message">
-      Header content will have a slightly larger block size from paragraph
-    </div>
-    <div class="ui placeholder">
-      <div class="image header">
-        <div class="line"/>
-        <div class="line"/>
-      </div>
-    </div>
+    <FuiPlaceholder>
+      <FuiPHHeader image>
+        <FuiPHLine></FuiPHLine>
+        <FuiPHLine></FuiPHLine>
+      </FuiPHHeader>
+    </FuiPlaceholder>
   </div>
 </template>
 
@@ -16,19 +13,16 @@
 export default {
   name: 'ElementPlaceholderHeaders1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'placeholder',
     title1: 'Content',
     title2: 'Headers',
     description: 'A placeholder can contain a header',
-    model: '    <div class="ui ignored info message">\n' +
-      '      Header content will have a slightly larger block size from paragraph\n' +
-      '    </div>\n' +
-      '    <div class="ui placeholder">\n' +
+    model: '    <div class="ui placeholder">\n' +
       '      <div class="image header">\n' +
-      '        <div class="line"/>\n' +
-      '        <div class="line"/>\n' +
+      '        <div class="line"></div>\n' +
+      '        <div class="line"></div>\n' +
       '      </div>\n' +
       '    </div>\n',
   },

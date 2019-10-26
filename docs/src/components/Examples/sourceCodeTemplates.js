@@ -88,209 +88,199 @@ s.ElementImageImage2 =
   '<FuiImage tag=div size=small src="/images/wireframe/image.png">\n' +
   '</FuiImage>' 
 s.ElementPlaceholderImage2 = 
-  '<div class="ui three cards">\n' +
-  '  <div class="ui card">\n' +
-  '    <div class="content">\n' +
-  '      <div class="ui placeholder">\n' +
-  '        <div class="square image"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui card">\n' +
-  '    <div class="content">\n' +
-  '      <div class="ui placeholder">\n' +
-  '        <div class="square image"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui card">\n' +
-  '    <div class="content">\n' +
-  '      <div class="ui placeholder">\n' +
-  '        <div class="square image"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiCards n=three>\n' +
+  '  <FuiCard>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiPlaceholder>\n' +
+  '        <FuiPHImage square></FuiPHImage>\n' +
+  '      </FuiPlaceholder>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiCard>\n' +
+  '  <FuiCard>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiPlaceholder>\n' +
+  '        <FuiPHImage square></FuiPHImage>\n' +
+  '      </FuiPlaceholder>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiCard>\n' +
+  '  <FuiCard>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiPlaceholder>\n' +
+  '        <FuiPHImage square></FuiPHImage>\n' +
+  '      </FuiPlaceholder>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiCard>\n' +
+  '</FuiCards>' 
 s.ElementPlaceholderLines1 = 
-  '<div class="ui ignored info message">By default, repeated lines will appear varied in width. However, it may be useful to specify an exact length to make it match up with content more effectively</div>\n' +
-  '<div class="ui placeholder">\n' +
-  '  <div class="line"/>\n' +
-  '  <div class="line"/>\n' +
-  '  <div class="line"/>\n' +
-  '  <div class="line"/>\n' +
-  '  <div class="line"/>\n' +
-  '</div>' 
+  '<FuiPlaceholder>\n' +
+  '  <FuiPHLine></FuiPHLine>\n' +
+  '  <FuiPHLine></FuiPHLine>\n' +
+  '  <FuiPHLine></FuiPHLine>\n' +
+  '  <FuiPHLine></FuiPHLine>\n' +
+  '  <FuiPHLine></FuiPHLine>\n' +
+  '</FuiPlaceholder>' 
 s.ElementPlaceholderLineLength2 = 
-  '<div class="ui placeholder">\n' +
-  '  <div class="image header">\n' +
-  '    <div class="medium line"/>\n' +
-  '    <div class="full line"/>\n' +
-  '  </div>\n' +
-  '  <div class="paragraph">\n' +
-  '    <div class="full line"/>\n' +
-  '    <div class="medium line"/>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiPlaceholder>\n' +
+  '  <FuiPHHeader image>\n' +
+  '    <FuiPHLine medium></FuiPHLine>\n' +
+  '    <FuiPHLine full></FuiPHLine>\n' +
+  '  </FuiPHHeader>\n' +
+  '  <FuiPHParagraph>\n' +
+  '    <FuiPHLine full></FuiPHLine>\n' +
+  '    <FuiPHLine medium></FuiPHLine>\n' +
+  '  </FuiPHParagraph>\n' +
+  '</FuiPlaceholder>' 
 s.ElementPlaceholderImage1 = 
-  '<div class="ui placeholder" style="width:150px;height:150px;">\n' +
-  '  <div class="image"/>\n' +
-  '</div>' 
+  '<FuiPlaceholder style="width:150px; height:150px;">\n' +
+  '  <FuiPHImage></FuiPHImage>\n' +
+  '</FuiPlaceholder>' 
 s.ElementPlaceholderHeaders2 = 
-  '<div class="ui placeholder">\n' +
-  '  <div class="header">\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiPlaceholder>\n' +
+  '  <FuiPHHeader>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '  </FuiPHHeader>\n' +
+  '</FuiPlaceholder>' 
 s.ElementPlaceholderHeaders1 = 
-  '<div class="ui ignored info message">\n' +
-  '  Header content will have a slightly larger block size from paragraph\n' +
-  '</div>\n' +
-  '<div class="ui placeholder">\n' +
-  '  <div class="image header">\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiPlaceholder>\n' +
+  '  <FuiPHHeader image>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '  </FuiPHHeader>\n' +
+  '</FuiPlaceholder>' 
 s.ElementPlaceholderPlaceholder1 = 
-  '<div class="ui ignored info message">\n' +
-  '  Placeholders can include <code>paragraph</code>, <code>header</code>, <code>image header</code> and <code>image</code> to let you format the loaders to emulate the content being loaded.\n' +
-  '</div>\n' +
-  '<div class="ui placeholder">\n' +
-  '  <div class="image header">\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '  </div>\n' +
-  '  <div class="paragraph">\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiPlaceholder>\n' +
+  '  <FuiPHHeader image>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '  </FuiPHHeader>\n' +
+  '  <FuiPHParagraph>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '  </FuiPHParagraph>\n' +
+  '</FuiPlaceholder>' 
 s.ElementPlaceholderImage3 = 
-  '<div class="ui three cards">\n' +
-  '  <div class="ui card">\n' +
-  '    <div class="content">\n' +
-  '      <div class="ui placeholder">\n' +
-  '        <div class="rectangular image"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui card">\n' +
-  '    <div class="content">\n' +
-  '      <div class="ui placeholder">\n' +
-  '        <div class="rectangular image"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui card">\n' +
-  '    <div class="content">\n' +
-  '      <div class="ui placeholder">\n' +
-  '        <div class="rectangular image"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiCards n=three>\n' +
+  '  <FuiCard>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiPlaceholder>\n' +
+  '        <FuiPHImage rectangular></FuiPHImage>\n' +
+  '      </FuiPlaceholder>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiCard>\n' +
+  '  <FuiCard>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiPlaceholder>\n' +
+  '        <FuiPHImage rectangular></FuiPHImage>\n' +
+  '      </FuiPlaceholder>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiCard>\n' +
+  '  <FuiCard>\n' +
+  '    <FuiContent>\n' +
+  '      <FuiPlaceholder>\n' +
+  '        <FuiPHImage rectangular></FuiPHImage>\n' +
+  '      </FuiPlaceholder>\n' +
+  '    </FuiContent>\n' +
+  '  </FuiCard>\n' +
+  '</FuiCards>' 
 s.ElementPlaceholderParagraph1 = 
-  '<div class="ui ignored info message">Paragraphs are used to group lines together.</div>\n' +
-  '<div class="ui placeholder">\n' +
-  '  <div class="paragraph">\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '  </div>\n' +
-  '  <div class="paragraph">\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '  </div>\n' +
-  '</div>' 
-s.ElementPlaceholderPlaceholder3 = 
-  '' 
+  '<FuiPlaceholder>\n' +
+  '  <FuiPHParagraph>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '  </FuiPHParagraph>\n' +
+  '  <FuiPHParagraph>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '  </FuiPHParagraph>\n' +
+  '</FuiPlaceholder>' 
 s.ElementPlaceholderPlaceholder2 = 
-  '<div class="ui three column stackable grid">\n' +
-  '  <div class="column">\n' +
-  '    <div class="ui raised segment">\n' +
-  '      <div class="ui placeholder">\n' +
-  '        <div class="image header">\n' +
-  '          <div class="line"/>\n' +
-  '          <div class="line"/>\n' +
-  '        </div>\n' +
-  '        <div class="paragraph">\n' +
-  '          <div class="medium line"/>\n' +
-  '          <div class="short line"/>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="column">\n' +
-  '    <div class="ui raised segment">\n' +
-  '      <div class="ui placeholder">\n' +
-  '        <div class="image header">\n' +
-  '          <div class="line"/>\n' +
-  '          <div class="line"/>\n' +
-  '        </div>\n' +
-  '        <div class="paragraph">\n' +
-  '          <div class="medium line"/>\n' +
-  '          <div class="short line"/>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="column">\n' +
-  '    <div class="ui raised segment">\n' +
-  '      <div class="ui placeholder">\n' +
-  '        <div class="image header">\n' +
-  '          <div class="line"/>\n' +
-  '          <div class="line"/>\n' +
-  '        </div>\n' +
-  '        <div class="paragraph">\n' +
-  '          <div class="medium line"/>\n' +
-  '          <div class="short line"/>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiGrid column=three stackable>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiSegment raised>\n' +
+  '      <FuiPlaceholder>\n' +
+  '        <FuiPHHeader image>\n' +
+  '          <FuiPHLine></FuiPHLine>\n' +
+  '          <FuiPHLine></FuiPHLine>\n' +
+  '        </FuiPHHeader>\n' +
+  '        <FuiPHParagraph>\n' +
+  '          <FuiPHLine medium></FuiPHLine>\n' +
+  '          <FuiPHLine short></FuiPHLine>\n' +
+  '        </FuiPHParagraph>\n' +
+  '      </FuiPlaceholder>\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiSegment raised>\n' +
+  '      <FuiPlaceholder>\n' +
+  '        <FuiPHHeader image>\n' +
+  '          <FuiPHLine></FuiPHLine>\n' +
+  '          <FuiPHLine></FuiPHLine>\n' +
+  '        </FuiPHHeader>\n' +
+  '        <FuiPHParagraph>\n' +
+  '          <FuiPHLine medium></FuiPHLine>\n' +
+  '          <FuiPHLine short></FuiPHLine>\n' +
+  '        </FuiPHParagraph>\n' +
+  '      </FuiPlaceholder>\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiSegment raised>\n' +
+  '      <FuiPlaceholder>\n' +
+  '        <FuiPHHeader image>\n' +
+  '          <FuiPHLine></FuiPHLine>\n' +
+  '          <FuiPHLine></FuiPHLine>\n' +
+  '        </FuiPHHeader>\n' +
+  '        <FuiPHParagraph>\n' +
+  '          <FuiPHLine medium></FuiPHLine>\n' +
+  '          <FuiPHLine short></FuiPHLine>\n' +
+  '        </FuiPHParagraph>\n' +
+  '      </FuiPlaceholder>\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
 s.ElementPlaceholderFluid1 = 
-  '<div class="ui fluid placeholder">\n' +
-  '  <div class="image header">\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '  </div>\n' +
-  '  <div class="paragraph">\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '    <div class="line"/>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiPlaceholder fluid>\n' +
+  '  <FuiPHHeader image>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '  </FuiPHHeader>\n' +
+  '  <FuiPHParagraph>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '    <FuiPHLine></FuiPHLine>\n' +
+  '  </FuiPHParagraph>\n' +
+  '</FuiPlaceholder>' 
 s.ElementPlaceholderInverted1 = 
-  '<div class="ui inverted segment">\n' +
-  '  <div class="ui active inverted placeholder">\n' +
-  '    <div class="image header">\n' +
-  '      <div class="line"/>\n' +
-  '      <div class="line"/>\n' +
-  '    </div>\n' +
-  '    <div class="paragraph">\n' +
-  '      <div class="line"/>\n' +
-  '      <div class="line"/>\n' +
-  '      <div class="line"/>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSegment inverted>\n' +
+  '  <FuiPlaceholder active inverted>\n' +
+  '    <FuiPHHeader image>\n' +
+  '      <FuiPHLine></FuiPHLine>\n' +
+  '      <FuiPHLine></FuiPHLine>\n' +
+  '    </FuiPHHeader>\n' +
+  '    <FuiPHParagraph>\n' +
+  '      <FuiPHLine></FuiPHLine>\n' +
+  '      <FuiPHLine></FuiPHLine>\n' +
+  '      <FuiPHLine></FuiPHLine>\n' +
+  '    </FuiPHParagraph>\n' +
+  '  </FuiPlaceholder>\n' +
+  '</FuiSegment>' 
 s.ElementPlaceholderLineLength1 = 
-  '<div class="ui placeholder">\n' +
-  '  <div class="full line"/>\n' +
-  '  <div class="very long line"/>\n' +
-  '  <div class="long line"/>\n' +
-  '  <div class="medium line"/>\n' +
-  '  <div class="short line"/>\n' +
-  '  <div class="very short line"/>\n' +
-  '</div>' 
+  '<FuiPlaceholder>\n' +
+  '  <FuiPHLine full></FuiPHLine>\n' +
+  '  <FuiPHLine very long></FuiPHLine>\n' +
+  '  <FuiPHLine long></FuiPHLine>\n' +
+  '  <FuiPHLine medium></FuiPHLine>\n' +
+  '  <FuiPHLine short></FuiPHLine>\n' +
+  '  <FuiPHLine very short></FuiPHLine>\n' +
+  '</FuiPlaceholder>' 
 s.ElementSegmentSegments1 = 
   '<FuiSegments>\n' +
   '  <FuiSegment>\n' +

@@ -1,7 +1,5 @@
 <template>
-  <div :class="classes">
-    <slot />
-  </div>
+  <div :class="classes" />
 </template>
 
 <script>
@@ -10,18 +8,14 @@ import u from '../../lib/util';
 // import Mixins from '../../lib/mixins';
 
 export default {
-  name: 'FuiPlaceholder',
+  name: 'FuiPHImage',
   mixins: [],
   props: {
-    active: {
+    square: {
       type: Boolean,
       description: '', // TODO: descr
     },
-    fluid: {
-      type: Boolean,
-      description: '', // TODO: descr
-    },
-    inverted: {
+    rectangular: {
       type: Boolean,
       description: '', // TODO: descr
     },
@@ -34,11 +28,9 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
-        'ui',
-        this.active && 'active',
-        this.fluid && 'fluid',
-        this.inverted && 'inverted',
-        'placeholder'
+        this.square && 'square',
+        this.rectangular && 'rectangular',
+        'image'
       );
     },
   },

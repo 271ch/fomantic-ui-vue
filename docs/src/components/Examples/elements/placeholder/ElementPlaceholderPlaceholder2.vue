@@ -1,49 +1,49 @@
 <template>
   <div>
-    <div class="ui three column stackable grid">
-      <div class="column">
-        <div class="ui raised segment">
-          <div class="ui placeholder">
-            <div class="image header">
-              <div class="line"/>
-              <div class="line"/>
-            </div>
-            <div class="paragraph">
-              <div class="medium line"/>
-              <div class="short line"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="ui raised segment">
-          <div class="ui placeholder">
-            <div class="image header">
-              <div class="line"/>
-              <div class="line"/>
-            </div>
-            <div class="paragraph">
-              <div class="medium line"/>
-              <div class="short line"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="ui raised segment">
-          <div class="ui placeholder">
-            <div class="image header">
-              <div class="line"/>
-              <div class="line"/>
-            </div>
-            <div class="paragraph">
-              <div class="medium line"/>
-              <div class="short line"/>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <FuiGrid column=three stackable>
+      <FuiColumn>
+        <FuiSegment raised>
+          <FuiPlaceholder>
+            <FuiPHHeader image>
+              <FuiPHLine></FuiPHLine>
+              <FuiPHLine></FuiPHLine>
+            </FuiPHHeader>
+            <FuiPHParagraph>
+              <FuiPHLine medium></FuiPHLine>
+              <FuiPHLine short></FuiPHLine>
+            </FuiPHParagraph>
+          </FuiPlaceholder>
+        </FuiSegment>
+      </FuiColumn>
+      <FuiColumn>
+        <FuiSegment raised>
+          <FuiPlaceholder>
+            <FuiPHHeader image>
+              <FuiPHLine></FuiPHLine>
+              <FuiPHLine></FuiPHLine>
+            </FuiPHHeader>
+            <FuiPHParagraph>
+              <FuiPHLine medium></FuiPHLine>
+              <FuiPHLine short></FuiPHLine>
+            </FuiPHParagraph>
+          </FuiPlaceholder>
+        </FuiSegment>
+      </FuiColumn>
+      <FuiColumn>
+        <FuiSegment raised>
+          <FuiPlaceholder>
+            <FuiPHHeader image>
+              <FuiPHLine></FuiPHLine>
+              <FuiPHLine></FuiPHLine>
+            </FuiPHHeader>
+            <FuiPHParagraph>
+              <FuiPHLine medium></FuiPHLine>
+              <FuiPHLine short></FuiPHLine>
+            </FuiPHParagraph>
+          </FuiPlaceholder>
+        </FuiSegment>
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -51,7 +51,7 @@
 export default {
   name: 'ElementPlaceholderPlaceholder2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'placeholder',
     title1: 'Types',
@@ -62,12 +62,12 @@ export default {
       '        <div class="ui raised segment">\n' +
       '          <div class="ui placeholder">\n' +
       '            <div class="image header">\n' +
-      '              <div class="line"/>\n' +
-      '              <div class="line"/>\n' +
+      '              <div class="line"></div>\n' +
+      '              <div class="line"></div>\n' +
       '            </div>\n' +
       '            <div class="paragraph">\n' +
-      '              <div class="medium line"/>\n' +
-      '              <div class="short line"/>\n' +
+      '              <div class="medium line"></div>\n' +
+      '              <div class="short line"></div>\n' +
       '            </div>\n' +
       '          </div>\n' +
       '        </div>\n' +
@@ -76,12 +76,12 @@ export default {
       '        <div class="ui raised segment">\n' +
       '          <div class="ui placeholder">\n' +
       '            <div class="image header">\n' +
-      '              <div class="line"/>\n' +
-      '              <div class="line"/>\n' +
+      '              <div class="line"></div>\n' +
+      '              <div class="line"></div>\n' +
       '            </div>\n' +
       '            <div class="paragraph">\n' +
-      '              <div class="medium line"/>\n' +
-      '              <div class="short line"/>\n' +
+      '              <div class="medium line"></div>\n' +
+      '              <div class="short line"></div>\n' +
       '            </div>\n' +
       '          </div>\n' +
       '        </div>\n' +
@@ -90,12 +90,12 @@ export default {
       '        <div class="ui raised segment">\n' +
       '          <div class="ui placeholder">\n' +
       '            <div class="image header">\n' +
-      '              <div class="line"/>\n' +
-      '              <div class="line"/>\n' +
+      '              <div class="line"></div>\n' +
+      '              <div class="line"></div>\n' +
       '            </div>\n' +
       '            <div class="paragraph">\n' +
-      '              <div class="medium line"/>\n' +
-      '              <div class="short line"/>\n' +
+      '              <div class="medium line"></div>\n' +
+      '              <div class="short line"></div>\n' +
       '            </div>\n' +
       '          </div>\n' +
       '        </div>\n' +

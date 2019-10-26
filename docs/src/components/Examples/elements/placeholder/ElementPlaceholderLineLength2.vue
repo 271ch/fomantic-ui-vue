@@ -1,15 +1,15 @@
 <template>
   <div>
-    <div class="ui placeholder">
-      <div class="image header">
-        <div class="medium line"/>
-        <div class="full line"/>
-      </div>
-      <div class="paragraph">
-        <div class="full line"/>
-        <div class="medium line"/>
-      </div>
-    </div>
+    <FuiPlaceholder>
+      <FuiPHHeader image>
+        <FuiPHLine medium></FuiPHLine>
+        <FuiPHLine full></FuiPHLine>
+      </FuiPHHeader>
+      <FuiPHParagraph>
+        <FuiPHLine full></FuiPHLine>
+        <FuiPHLine medium></FuiPHLine>
+      </FuiPHParagraph>
+    </FuiPlaceholder>
   </div>
 </template>
 
@@ -17,7 +17,7 @@
 export default {
   name: 'ElementPlaceholderLineLength2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'placeholder',
     title1: 'Variations',
@@ -25,12 +25,12 @@ export default {
     description: 'A line can specify how long its contents should appear',
     model: '    <div class="ui placeholder">\n' +
       '      <div class="image header">\n' +
-      '        <div class="medium line"/>\n' +
-      '        <div class="full line"/>\n' +
+      '        <div class="medium line"></div>\n' +
+      '        <div class="full line"></div>\n' +
       '      </div>\n' +
       '      <div class="paragraph">\n' +
-      '        <div class="full line"/>\n' +
-      '        <div class="medium line"/>\n' +
+      '        <div class="full line"></div>\n' +
+      '        <div class="medium line"></div>\n' +
       '      </div>\n' +
       '    </div>\n',
   },

@@ -6,24 +6,20 @@
 
 <script>
 import u from '../../lib/util';
-// import Enum from '../../lib/enum';
+import Enum from '../../lib/enum';
 // import Mixins from '../../lib/mixins';
 
 export default {
-  name: 'FuiPlaceholder',
+  name: 'FuiCards',
   mixins: [],
   props: {
-    active: {
-      type: Boolean,
+    n: {
+      type: [Boolean, String],
       description: '', // TODO: descr
-    },
-    fluid: {
-      type: Boolean,
-      description: '', // TODO: descr
-    },
-    inverted: {
-      type: Boolean,
-      description: '', // TODO: descr
+      validator: (value) => {
+        return value === false || Enum.Number.check(value);
+      },
+      default: false,
     },
   },
   events: {
@@ -35,10 +31,8 @@ export default {
     classes: function () {
       return u.concatClasses(
         'ui',
-        this.active && 'active',
-        this.fluid && 'fluid',
-        this.inverted && 'inverted',
-        'placeholder'
+        this.n,
+        'cards'
       );
     },
   },

@@ -8,7 +8,6 @@
     </FuiHeader>
     <ExampleWithSource example="ElementPlaceholderPlaceholder1"></ExampleWithSource>
     <ExampleWithSource example="ElementPlaceholderPlaceholder2"></ExampleWithSource>
-    <ExampleWithSource example="ElementPlaceholderPlaceholder3"></ExampleWithSource>
     <ExampleWithSource example="ElementPlaceholderLines1"></ExampleWithSource>
     <ExampleWithSource example="ElementPlaceholderHeaders1"></ExampleWithSource>
     <ExampleWithSource example="ElementPlaceholderHeaders2"></ExampleWithSource>

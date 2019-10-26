@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="ui placeholder">
-      <div class="header">
-        <div class="line"/>
-        <div class="line"/>
-      </div>
-    </div>
+    <FuiPlaceholder>
+      <FuiPHHeader>
+        <FuiPHLine></FuiPHLine>
+        <FuiPHLine></FuiPHLine>
+      </FuiPHHeader>
+    </FuiPlaceholder>
   </div>
 </template>
 
@@ -13,7 +13,7 @@
 export default {
   name: 'ElementPlaceholderHeaders2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'placeholder',
     title1: 'Content',
@@ -21,8 +21,8 @@ export default {
     description: 'A placeholder can contain a header',
     model: '    <div class="ui placeholder">\n' +
       '      <div class="header">\n' +
-      '        <div class="line"/>\n' +
-      '        <div class="line"/>\n' +
+      '        <div class="line"></div>\n' +
+      '        <div class="line"></div>\n' +
       '      </div>\n' +
       '    </div>\n',
   },

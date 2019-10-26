@@ -1,28 +1,28 @@
 <template>
   <div>
-    <div class="ui three cards">
-      <div class="ui card">
-        <div class="content">
-          <div class="ui placeholder">
-            <div class="square image"/>
-          </div>
-        </div>
-      </div>
-      <div class="ui card">
-        <div class="content">
-          <div class="ui placeholder">
-            <div class="square image"/>
-          </div>
-        </div>
-      </div>
-      <div class="ui card">
-        <div class="content">
-          <div class="ui placeholder">
-            <div class="square image"/>
-          </div>
-        </div>
-      </div>
-    </div>
+    <FuiCards n=three>
+      <FuiCard>
+        <FuiContent>
+          <FuiPlaceholder>
+            <FuiPHImage square></FuiPHImage>
+          </FuiPlaceholder>
+        </FuiContent>
+      </FuiCard>
+      <FuiCard>
+        <FuiContent>
+          <FuiPlaceholder>
+            <FuiPHImage square></FuiPHImage>
+          </FuiPlaceholder>
+        </FuiContent>
+      </FuiCard>
+      <FuiCard>
+        <FuiContent>
+          <FuiPlaceholder>
+            <FuiPHImage square></FuiPHImage>
+          </FuiPlaceholder>
+        </FuiContent>
+      </FuiCard>
+    </FuiCards>
   </div>
 </template>
 
@@ -30,7 +30,7 @@
 export default {
   name: 'ElementPlaceholderImage2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'placeholder',
     title1: 'Content',
@@ -40,21 +40,21 @@ export default {
       '      <div class="ui card">\n' +
       '        <div class="content">\n' +
       '          <div class="ui placeholder">\n' +
-      '            <div class="square image"/>\n' +
+      '            <div class="square image"></div>\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="ui card">\n' +
       '        <div class="content">\n' +
       '          <div class="ui placeholder">\n' +
-      '            <div class="square image"/>\n' +
+      '            <div class="square image"></div>\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="ui card">\n' +
       '        <div class="content">\n' +
       '          <div class="ui placeholder">\n' +
-      '            <div class="square image"/>\n' +
+      '            <div class="square image"></div>\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +

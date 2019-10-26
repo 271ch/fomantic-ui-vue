@@ -10,18 +10,10 @@ import u from '../../lib/util';
 // import Mixins from '../../lib/mixins';
 
 export default {
-  name: 'FuiPlaceholder',
+  name: 'FuiPHHeader',
   mixins: [],
   props: {
-    active: {
-      type: Boolean,
-      description: '', // TODO: descr
-    },
-    fluid: {
-      type: Boolean,
-      description: '', // TODO: descr
-    },
-    inverted: {
+    image: {
       type: Boolean,
       description: '', // TODO: descr
     },
@@ -34,11 +26,8 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
-        'ui',
-        this.active && 'active',
-        this.fluid && 'fluid',
-        this.inverted && 'inverted',
-        'placeholder'
+        this.image && 'image',
+        'header'
       );
     },
   },

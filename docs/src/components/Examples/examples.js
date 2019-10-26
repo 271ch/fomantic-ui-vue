@@ -685,8 +685,6 @@ import ElementPlaceholderPlaceholder1 from './elements/placeholder/ElementPlaceh
 c.push(ElementPlaceholderPlaceholder1);
 import ElementPlaceholderPlaceholder2 from './elements/placeholder/ElementPlaceholderPlaceholder2';
 c.push(ElementPlaceholderPlaceholder2);
-import ElementPlaceholderPlaceholder3 from './elements/placeholder/ElementPlaceholderPlaceholder3';
-c.push(ElementPlaceholderPlaceholder3);
 import ElementPlaceholderLines1 from './elements/placeholder/ElementPlaceholderLines1';
 c.push(ElementPlaceholderLines1);
 import ElementPlaceholderHeaders1 from './elements/placeholder/ElementPlaceholderHeaders1';
