@@ -1,56 +1,52 @@
 <template>
   <div>
-    <div class="ui ignored info message">
-      Many of the following examples use a coupling with <a href="/modules/dropdown.html">dropdowns</a> to display dropdown menus inside of <code>ui menu</code>. Please consult the dropdown documentation for the correct javascript initialization for this component.
-    </div>
-    <div class="ui text menu">
-      <div class="item">
-        <img src="/images/new-school.jpg"/>
-      </div>
-      <a class="browse item">
+    <FuiMenu text>
+      <FuiItem src="/images/new-school.jpg">
+      </FuiItem>
+      <FuiItem a>
         Browse Courses
-        <i class="dropdown icon"></i>
-      </a>
-      <div class="ui right dropdown item">
+        <FuiIcon name=dropdown></FuiIcon>
+      </FuiItem>
+      <FuiItem right dropdown>
         More
-        <i class="dropdown icon"></i>
-        <div class="menu">
-          <div class="item">Applications</div>
-          <div class="item">International Students</div>
-          <div class="item">Scholarships</div>
-        </div>
-      </div>
-    </div>
-    <div class="ui flowing basic admission popup">
-      <div class="ui three column relaxed divided grid">
-        <div class="column">
-          <h4 class="ui header">Business</h4>
-          <div class="ui link list">
-            <a class="item">Design &amp; Urban Ecologies</a>
-            <a class="item">Fashion Design</a>
-            <a class="item">Fine Art</a>
-            <a class="item">Strategic Design</a>
-          </div>
-        </div>
-        <div class="column">
-          <h4 class="ui header">Liberal Arts</h4>
-          <div class="ui link list">
-            <a class="item">Anthropology</a>
-            <a class="item">Economics</a>
-            <a class="item">Media Studies</a>
-            <a class="item">Philosophy</a>
-          </div>
-        </div>
-        <div class="column">
-          <h4 class="ui header">Social Sciences</h4>
-          <div class="ui link list">
-            <a class="item">Food Studies</a>
-            <a class="item">Journalism</a>
-            <a class="item">Non Profit Management</a>
-          </div>
-        </div>
-      </div>
-    </div>
+        <FuiIcon name=dropdown></FuiIcon>
+        <FuiMenu sub>
+          <FuiItem>Applications</FuiItem>
+          <FuiItem>International Students</FuiItem>
+          <FuiItem>Scholarships</FuiItem>
+        </FuiMenu>
+      </FuiItem>
+    </FuiMenu>
+    <FuiPopup flowing basic admission>
+      <FuiGrid column=three relaxed divided>
+        <FuiColumn>
+          <FuiHeader level=4>Business</FuiHeader>
+          <FuiList link>
+            <FuiItem a>Design &amp; Urban Ecologies</FuiItem>
+            <FuiItem a>Fashion Design</FuiItem>
+            <FuiItem a>Fine Art</FuiItem>
+            <FuiItem a>Strategic Design</FuiItem>
+          </FuiList>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiHeader level=4>Liberal Arts</FuiHeader>
+          <FuiList link>
+            <FuiItem a>Anthropology</FuiItem>
+            <FuiItem a>Economics</FuiItem>
+            <FuiItem a>Media Studies</FuiItem>
+            <FuiItem a>Philosophy</FuiItem>
+          </FuiList>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiHeader level=4>Social Sciences</FuiHeader>
+          <FuiList link>
+            <FuiItem a>Food Studies</FuiItem>
+            <FuiItem a>Journalism</FuiItem>
+            <FuiItem a>Non Profit Management</FuiItem>
+          </FuiList>
+        </FuiColumn>
+      </FuiGrid>
+    </FuiPopup>
   </div>
 </template>
 
@@ -58,24 +54,21 @@
 export default {
   name: 'CollectionMenuMenu2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Types',
     title2: 'Menu',
     description: 'A menu',
-    model: '    <div class="ui ignored info message">\n' +
-      '      Many of the following examples use a coupling with <a href="/modules/dropdown.html">dropdowns</a> to display dropdown menus inside of <code>ui menu</code>. Please consult the dropdown documentation for the correct javascript initialization for this component.\n' +
-      '    </div>\n' +
-      '    <div class="ui text menu">\n' +
+    model: '    <div class="ui text menu">\n' +
       '      <div class="item">\n' +
-      '        <img src="/images/new-school.jpg"/>\n' +
+      '        <img src="/images/new-school.jpg">\n' +
       '      </div>\n' +
-      '      <a class="browse item">\n' +
+      '      <a class="item">\n' +
       '        Browse Courses\n' +
       '        <i class="dropdown icon"></i>\n' +
       '      </a>\n' +
-      '      <div class="ui right dropdown item">\n' +
+      '      <div class="ui dropdown right item">\n' +
       '        More\n' +
       '        <i class="dropdown icon"></i>\n' +
       '        <div class="menu">\n' +

@@ -1,24 +1,23 @@
 <template>
   <div>
-    <div class="ui top attached tabular menu">
-      <a class="active item">
+    <FuiMenu attached=top tabular>
+      <FuiItem a active>
         Bio
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Photos
-      </a>
-      <div class="right menu">
-        <div class="item">
-          <div class="ui transparent icon input">
-            <input type="text" placeholder="Search users..."/>
-            <i class="search link icon"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="ui bottom attached segment">
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-    </div>
+      </FuiItem>
+      <FuiMenu sub right>
+        <FuiItem>
+          <FuiInput transparent icon placeholder="Search users...">
+            <FuiIcon name=search link></FuiIcon>
+          </FuiInput>
+        </FuiItem>
+      </FuiMenu>
+    </FuiMenu>
+    <FuiSegment attached=bottom>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -26,7 +25,7 @@
 export default {
   name: 'CollectionMenuTabular2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Types',
@@ -42,7 +41,7 @@ export default {
       '      <div class="right menu">\n' +
       '        <div class="item">\n' +
       '          <div class="ui transparent icon input">\n' +
-      '            <input type="text" placeholder="Search users..."/>\n' +
+      '            <input type="text" placeholder="Search users...">\n' +
       '            <i class="search link icon"></i>\n' +
       '          </div>\n' +
       '        </div>\n' +

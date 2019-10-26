@@ -6,7 +6,7 @@
       <FuiItem>
         <div>Benefits</div>
         <FuiList sub>
-          <FuiItem tag=a href="#">Link to somewhere</FuiItem>
+          <FuiItem a href="#">Link to somewhere</FuiItem>
           <FuiItem>Rebates</FuiItem>
           <FuiItem>Discounts</FuiItem>
         </FuiList>

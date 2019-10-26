@@ -1,36 +1,32 @@
 <template>
   <div>
-    <div class="ui vertical menu">
-      <div class="item">
-        <div class="header">Products</div>
-        <div class="menu">
-          <a class="item">Enterprise</a>
-          <a class="item">Consumer</a>
-        </div>
-      </div>
-      <div class="item">
-        <div class="header">CMS Solutions</div>
-        <div class="menu">
-          <a class="item">Rails</a>
-          <a class="item">Python</a>
-          <a class="item">PHP</a>
-        </div>
-      </div>
-      <div class="item">
-        <div class="header">Hosting</div>
-        <div class="menu">
-          <a class="item">Shared</a>
-          <a class="item">Dedicated</a>
-        </div>
-      </div>
-      <div class="item">
-        <div class="header">Support</div>
-        <div class="menu">
-          <a class="item">E-mail Support</a>
-          <a class="item">FAQs</a>
-        </div>
-      </div>
-    </div>
+    <FuiMenu vertical>
+      <FuiItem header="Products">
+        <FuiMenu sub>
+          <FuiItem a>Enterprise</FuiItem>
+          <FuiItem a>Consumer</FuiItem>
+        </FuiMenu>
+      </FuiItem>
+      <FuiItem header="CMS Solutions">
+        <FuiMenu sub>
+          <FuiItem a>Rails</FuiItem>
+          <FuiItem a>Python</FuiItem>
+          <FuiItem a>PHP</FuiItem>
+        </FuiMenu>
+      </FuiItem>
+      <FuiItem header="Hosting">
+        <FuiMenu sub>
+          <FuiItem a>Shared</FuiItem>
+          <FuiItem a>Dedicated</FuiItem>
+        </FuiMenu>
+      </FuiItem>
+      <FuiItem header="Support">
+        <FuiMenu sub>
+          <FuiItem a>E-mail Support</FuiItem>
+          <FuiItem a>FAQs</FuiItem>
+        </FuiMenu>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -38,7 +34,7 @@
 export default {
   name: 'CollectionMenuHeader2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Content',

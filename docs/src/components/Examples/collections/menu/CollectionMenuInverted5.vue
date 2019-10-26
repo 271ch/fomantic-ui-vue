@@ -1,18 +1,18 @@
 <template>
   <div>
-    <div class="ui inverted segment">
-      <div class="ui inverted secondary pointing menu">
-        <a class="active item">
+    <FuiSegment inverted>
+      <FuiMenu inverted secondary pointing>
+        <FuiItem a active>
           Home
-        </a>
-        <a class="item">
+        </FuiItem>
+        <FuiItem a>
           Messages
-        </a>
-        <a class="item">
+        </FuiItem>
+        <FuiItem a>
           Friends
-        </a>
-      </div>
-    </div>
+        </FuiItem>
+      </FuiMenu>
+    </FuiSegment>
   </div>
 </template>
 
@@ -20,7 +20,7 @@
 export default {
   name: 'CollectionMenuInverted5',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',

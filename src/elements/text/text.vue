@@ -20,6 +20,10 @@ export default {
       type: Boolean,
       description: '', // TODO: descr
     },
+    int: {
+      type: Boolean,
+      description: 'Internal text (no ui)', // TODO: descr
+    },
   },
   events: {
     click: {
@@ -29,7 +33,7 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
-        'ui',
+        !this.int && 'ui',
         ...this.getClassesSize,
         this.inverted && 'inverted',
         ...this.getClassesColor,

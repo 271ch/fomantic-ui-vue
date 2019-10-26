@@ -1,137 +1,137 @@
 <template>
   <div>
-    <div class="ui red three item inverted menu">
-      <a class="active item">
+    <FuiMenu color=red n=three inverted>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui orange three item inverted menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=orange n=three inverted>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui yellow three item inverted menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=yellow n=three inverted>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui olive three item inverted menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=olive n=three inverted>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui green three item inverted menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=green n=three inverted>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui teal three item inverted menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=teal n=three inverted>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui blue three item inverted menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=blue n=three inverted>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui violet three item inverted menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=violet n=three inverted>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui purple three item inverted menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=purple n=three inverted>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui pink three item inverted menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=pink n=three inverted>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui brown three item inverted menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=brown n=three inverted>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui grey three item inverted menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=grey n=three inverted>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -139,7 +139,7 @@
 export default {
   name: 'CollectionMenuColored4',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',

@@ -1,22 +1,22 @@
 <template>
   <div>
-    <div class="ui pagination menu">
-      <a class="active item">
+    <FuiMenu pagination>
+      <FuiItem a active>
         1
-      </a>
-      <div class="disabled item">
+      </FuiItem>
+      <FuiItem disabled>
         ...
-      </div>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         10
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         11
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         12
-      </a>
-    </div>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -24,7 +24,7 @@
 export default {
   name: 'CollectionMenuPagination1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Types',

@@ -1,27 +1,26 @@
 <template>
   <div>
-    <div class="ui secondary  menu">
-      <a class="active item">
+    <FuiMenu secondary >
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-      <div class="right menu">
-        <div class="item">
-          <div class="ui icon input">
-            <input type="text" placeholder="Search..."/>
-            <i class="search link icon"></i>
-          </div>
-        </div>
-        <a class="ui item">
+      </FuiItem>
+      <FuiMenu sub right>
+        <FuiItem>
+          <FuiInput icon placeholder="Search...">
+            <FuiIcon name=search link></FuiIcon>
+          </FuiInput>
+        </FuiItem>
+        <FuiItem a>
           Logout
-        </a>
-      </div>
-    </div>
+        </FuiItem>
+      </FuiMenu>
+    </FuiMenu>
   </div>
 </template>
 
@@ -29,13 +28,13 @@
 export default {
   name: 'CollectionMenuSecondaryMenu1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Types',
     title2: 'Secondary Menu',
     description: 'A menu can adjust its appearance to de-emphasize its contents',
-    model: '    <div class="ui secondary  menu">\n' +
+    model: '    <div class="ui secondary menu">\n' +
       '      <a class="active item">\n' +
       '        Home\n' +
       '      </a>\n' +
@@ -48,11 +47,11 @@ export default {
       '      <div class="right menu">\n' +
       '        <div class="item">\n' +
       '          <div class="ui icon input">\n' +
-      '            <input type="text" placeholder="Search..."/>\n' +
+      '            <input type="text" placeholder="Search...">\n' +
       '            <i class="search link icon"></i>\n' +
       '          </div>\n' +
       '        </div>\n' +
-      '        <a class="ui item">\n' +
+      '        <a class="item">\n' +
       '          Logout\n' +
       '        </a>\n' +
       '      </div>\n' +

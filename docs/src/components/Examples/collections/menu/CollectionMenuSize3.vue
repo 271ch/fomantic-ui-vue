@@ -1,26 +1,26 @@
 <template>
   <div>
-    <div class="ui small menu">
-      <a class="active item">
+    <FuiMenu size=small>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <div class="right menu">
-        <div class="ui dropdown item">
-          Language <i class="dropdown icon"></i>
-          <div class="menu">
-            <a class="item">English</a>
-            <a class="item">Russian</a>
-            <a class="item">Spanish</a>
-          </div>
-        </div>
-        <div class="item">
-            <div class="ui primary button">Sign Up</div>
-        </div>
-      </div>
-    </div>
+      </FuiItem>
+      <FuiMenu sub right>
+        <FuiItem dropdown>
+          Language <FuiIcon name=dropdown></FuiIcon>
+          <FuiMenu sub>
+            <FuiItem a>English</FuiItem>
+            <FuiItem a>Russian</FuiItem>
+            <FuiItem a>Spanish</FuiItem>
+          </FuiMenu>
+        </FuiItem>
+        <FuiItem>
+          <FuiButton tag=div primary>Sign Up</FuiButton>
+        </FuiItem>
+      </FuiMenu>
+    </FuiMenu>
   </div>
 </template>
 
@@ -28,7 +28,7 @@
 export default {
   name: 'CollectionMenuSize3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',

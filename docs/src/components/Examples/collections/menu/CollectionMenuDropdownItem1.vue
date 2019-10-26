@@ -1,19 +1,16 @@
 <template>
   <div>
-    <div class="ui ignored message">
-      <p>To have a dropdown open without Javascript, use the <a href="/modules/dropdown.html#simple">simple</a> variation</p>
-    </div>
-    <div class="ui vertical menu">
-      <div class="ui dropdown item">
+    <FuiMenu vertical>
+      <FuiItem dropdown>
         Categories
-        <i class="dropdown icon"></i>
-        <div class="menu">
-          <a class="item">Electronics</a>
-          <a class="item">Automotive</a>
-          <a class="item">Home</a>
-        </div>
-      </div>
-    </div>
+        <FuiIcon name=dropdown></FuiIcon>
+        <FuiMenu sub>
+          <FuiItem a>Electronics</FuiItem>
+          <FuiItem a>Automotive</FuiItem>
+          <FuiItem a>Home</FuiItem>
+        </FuiMenu>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -21,16 +18,13 @@
 export default {
   name: 'CollectionMenuDropdownItem1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Content',
     title2: 'Dropdown Item',
     description: 'An item may contain a nested menu in a',
-    model: '    <div class="ui ignored message">\n' +
-      '      <p>To have a dropdown open without Javascript, use the <a href="/modules/dropdown.html#simple">simple</a> variation</p>\n' +
-      '    </div>\n' +
-      '    <div class="ui vertical menu">\n' +
+    model: '    <div class="ui vertical menu">\n' +
       '      <div class="ui dropdown item">\n' +
       '        Categories\n' +
       '        <i class="dropdown icon"></i>\n' +

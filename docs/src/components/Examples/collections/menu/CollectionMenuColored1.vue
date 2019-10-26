@@ -1,21 +1,21 @@
 <template>
   <div>
-    <div class="ui menu">
-      <a class="active red item">Red</a>
-      <a class="orange item">Orange</a>
-      <a class="yellow item">Yellow</a>
-      <a class="olive item">Olive</a>
-      <a class="green item">Green</a>
-      <a class="teal item">Teal</a>
-    </div>
-    <div class="ui menu">
-      <a class="blue item">Blue</a>
-      <a class="violet item">Violet</a>
-      <a class="purple item">Purple</a>
-      <a class="pink item">Pink</a>
-      <a class="brown item">Brown</a>
-      <a class="grey item">Grey</a>
-    </div>
+    <FuiMenu>
+      <FuiItem a active color=red>Red</FuiItem>
+      <FuiItem a color=orange>Orange</FuiItem>
+      <FuiItem a color=yellow>Yellow</FuiItem>
+      <FuiItem a color=olive>Olive</FuiItem>
+      <FuiItem a color=green>Green</FuiItem>
+      <FuiItem a color=teal>Teal</FuiItem>
+    </FuiMenu>
+    <FuiMenu>
+      <FuiItem a color=blue>Blue</FuiItem>
+      <FuiItem a color=violet>Violet</FuiItem>
+      <FuiItem a color=purple>Purple</FuiItem>
+      <FuiItem a color=pink>Pink</FuiItem>
+      <FuiItem a color=brown>Brown</FuiItem>
+      <FuiItem a color=grey>Grey</FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -23,7 +23,7 @@
 export default {
   name: 'CollectionMenuColored1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',

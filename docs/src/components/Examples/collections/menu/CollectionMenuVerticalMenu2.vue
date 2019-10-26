@@ -1,23 +1,22 @@
 <template>
   <div>
-    <div class="ui secondary vertical menu">
-      <a class="active item">
+    <FuiMenu secondary vertical>
+      <FuiItem a active>
         Account
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Settings
-      </a>
-      <div class="ui dropdown item">
-        <i class="dropdown icon"></i>
+      </FuiItem>
+      <FuiItem dropdown>
+        <FuiIcon name=dropdown></FuiIcon>
         Display Options
-        <div class="menu">
-          <div class="header">Text Size</div>
-          <a class="item">Small</a>
-          <a class="item">Medium</a>
-          <a class="item">Large</a>
-        </div>
-      </div>
-    </div>
+        <FuiMenu sub header="Text Size">
+          <FuiItem a>Small</FuiItem>
+          <FuiItem a>Medium</FuiItem>
+          <FuiItem a>Large</FuiItem>
+        </FuiMenu>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -25,7 +24,7 @@
 export default {
   name: 'CollectionMenuVerticalMenu2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Types',

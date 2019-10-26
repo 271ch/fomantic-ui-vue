@@ -1,19 +1,19 @@
 <template>
   <div>
-    <div class="ui compact vertical labeled icon menu">
-      <a class="item">
-        <i class="gamepad icon"></i>
+    <FuiMenu compact vertical icon=labeled>
+      <FuiItem a>
+        <FuiIcon name=gamepad></FuiIcon>
         Games
-      </a>
-      <a class="item">
-        <i class="video camera icon"></i>
+      </FuiItem>
+      <FuiItem a>
+        <FuiIcon name="video camera"></FuiIcon>
         Channels
-      </a>
-      <a class="item">
-        <i class="video play icon"></i>
+      </FuiItem>
+      <FuiItem a>
+        <FuiIcon name="video play"></FuiIcon>
         Videos
-      </a>
-    </div>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
 export default {
   name: 'CollectionMenuCompact2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',

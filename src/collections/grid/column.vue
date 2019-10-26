@@ -23,6 +23,10 @@ export default {
       },
       default: false,
     },
+    stretched: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
   },
   events: {
     click: {
@@ -42,7 +46,7 @@ export default {
         // end repeat
         // olive
         // computer,tablet,mobile only
-        // stretched
+        this.stretched && 'stretched',
         'column'
       );
     },

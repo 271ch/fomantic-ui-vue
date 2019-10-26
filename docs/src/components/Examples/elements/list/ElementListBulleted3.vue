@@ -1,13 +1,13 @@
 <template>
   <div>
     <FuiList horizontal bulleted>
-      <FuiItem tag=a>
+      <FuiItem a>
         About Us
       </FuiItem>
-      <FuiItem tag=a>
+      <FuiItem a>
         Sitemap
       </FuiItem>
-      <FuiItem tag=a>
+      <FuiItem a>
         Contact
       </FuiItem>
     </FuiList>

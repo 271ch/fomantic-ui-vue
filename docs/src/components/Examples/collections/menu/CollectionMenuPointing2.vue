@@ -1,24 +1,24 @@
 <template>
   <div>
-    <div class="ui secondary pointing menu">
-      <a class="active item">
+    <FuiMenu secondary pointing>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-      <div class="right menu">
-        <a class="ui item">
+      </FuiItem>
+      <FuiMenu sub right>
+        <FuiItem a>
           Logout
-        </a>
-      </div>
-    </div>
-    <div class="ui segment">
-      <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">
-    </div>
+        </FuiItem>
+      </FuiMenu>
+    </FuiMenu>
+    <FuiSegment>
+      <FuiImage src="/images/wireframe/media-paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -26,7 +26,7 @@
 export default {
   name: 'CollectionMenuPointing2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Types',
@@ -43,7 +43,7 @@ export default {
       '        Friends\n' +
       '      </a>\n' +
       '      <div class="right menu">\n' +
-      '        <a class="ui item">\n' +
+      '        <a class="item">\n' +
       '          Logout\n' +
       '        </a>\n' +
       '      </div>\n' +

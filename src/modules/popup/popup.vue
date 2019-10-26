@@ -13,25 +13,22 @@ export default {
   name: 'FuiPopup',
   mixins: [],
   props: {
-    /*
-    prop1: {
+    flowing: {
       type: Boolean,
       description: '', // TODO: description
     },
-    prop2: {
-      type: String,
+    fluid: {
+      type: Boolean,
       description: '', // TODO: description
-      default: '',
     },
-    prop3: {
-      type: [Boolean, String],
+    basic: {
+      type: Boolean,
       description: '', // TODO: description
-      validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
-      },
-      default: false,
     },
-    */
+    admission: {
+      type: Boolean,
+      description: '', // TODO: description
+    },
   },
   events: {
     click: {
@@ -41,6 +38,11 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
+        'ui',
+        this.flowing && 'flowing',
+        this.fluid && 'fluid',
+        this.basic && 'basic',
+        this.admission && 'admission',
         'popup'
       );
     },

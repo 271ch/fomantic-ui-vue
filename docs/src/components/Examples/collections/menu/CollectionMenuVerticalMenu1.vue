@@ -1,26 +1,24 @@
 <template>
   <div>
-    <div class="ui ignore warning message">A vertical menu's width defaults to an arbitrary size. To have it fit your content more precisely use the fluid variation in conjunction with <a href="grid.html">ui grid</a>.</div>
-    <div class="ui vertical menu">
-      <a class="active teal item">
+    <FuiMenu vertical>
+      <FuiItem a active color=teal>
         Inbox
-        <div class="ui teal left pointing label">1</div>
-      </a>
-      <a class="item">
+        <FuiLabel color=teal pointing=left>1</FuiLabel>
+      </FuiItem>
+      <FuiItem a>
         Spam
-        <div class="ui label">51</div>
-      </a>
-      <a class="item">
+        <FuiLabel>51</FuiLabel>
+      </FuiItem>
+      <FuiItem a>
         Updates
-        <div class="ui label">1</div>
-      </a>
-      <div class="item">
-        <div class="ui transparent icon input">
-          <input type="text" placeholder="Search mail..."/>
-          <i class="search icon"></i>
-        </div>
-      </div>
-    </div>
+        <FuiLabel>1</FuiLabel>
+      </FuiItem>
+      <FuiItem>
+        <FuiInput transparent icon placeholder="Search mail...">
+          <FuiIcon name=search></FuiIcon>
+        </FuiInput>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -28,17 +26,16 @@
 export default {
   name: 'CollectionMenuVerticalMenu1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Types',
     title2: 'Vertical Menu',
     description: 'A vertical menu displays elements vertically..',
-    model: '    <div class="ui ignore warning message">A vertical menu\'s width defaults to an arbitrary size. To have it fit your content more precisely use the fluid variation in conjunction with <a href="grid.html">ui grid</a>.</div>\n' +
-      '    <div class="ui vertical menu">\n' +
+    model: '    <div class="ui vertical menu">\n' +
       '      <a class="active teal item">\n' +
       '        Inbox\n' +
-      '        <div class="ui teal left pointing label">1</div>\n' +
+      '        <div class="ui left pointing teal label">1</div>\n' +
       '      </a>\n' +
       '      <a class="item">\n' +
       '        Spam\n' +
@@ -50,7 +47,7 @@ export default {
       '      </a>\n' +
       '      <div class="item">\n' +
       '        <div class="ui transparent icon input">\n' +
-      '          <input type="text" placeholder="Search mail..."/>\n' +
+      '          <input type="text" placeholder="Search mail...">\n' +
       '          <i class="search icon"></i>\n' +
       '        </div>\n' +
       '      </div>\n' +

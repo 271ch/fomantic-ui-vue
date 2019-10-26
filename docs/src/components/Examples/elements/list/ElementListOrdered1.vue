@@ -1,17 +1,17 @@
 <template>
   <div>
     <FuiList ordered>
-      <FuiItem tag=a>Getting Started</FuiItem>
-      <FuiItem tag=a>Introduction</FuiItem>
+      <FuiItem a>Getting Started</FuiItem>
+      <FuiItem a>Introduction</FuiItem>
       <FuiItem>
         <a>Languages</a>
         <FuiList sub>
-          <FuiItem tag=a>HTML</FuiItem>
-          <FuiItem tag=a>Javascript</FuiItem>
-          <FuiItem tag=a>CSS</FuiItem>
+          <FuiItem a>HTML</FuiItem>
+          <FuiItem a>Javascript</FuiItem>
+          <FuiItem a>CSS</FuiItem>
         </FuiList>
       </FuiItem>
-      <FuiItem tag=a>Review</FuiItem>
+      <FuiItem a>Review</FuiItem>
     </FuiList>
   </div>
 </template>

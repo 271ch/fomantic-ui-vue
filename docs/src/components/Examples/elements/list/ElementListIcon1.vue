@@ -1,12 +1,12 @@
 <template>
   <div>
     <FuiList>
-      <FuiItem tag=a iconName=help>
+      <FuiItem a iconName=help>
         <FuiContent header="Floated Icon">
           <FuiDescription>This text will always have a left margin to make sure it sits alongside your icon</FuiDescription>
         </FuiContent>
       </FuiItem>
-      <FuiItem tag=a iconName="right triangle">
+      <FuiItem a iconName="right triangle">
         <FuiContent header="Icon Alignment">
           <FuiDescription>Floated icons are by default top aligned. To have an icon top aligned try this example.</FuiDescription>
         </FuiContent>

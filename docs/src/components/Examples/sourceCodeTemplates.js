@@ -791,9 +791,9 @@ s.ElementListList1 =
 s.ElementListLink1 = 
   '<FuiList link>\n' +
   '  <FuiItem active>Home</FuiItem>\n' +
-  '  <FuiItem tag=a>About</FuiItem>\n' +
-  '  <FuiItem tag=a>Jobs</FuiItem>\n' +
-  '  <FuiItem tag=a>Team</FuiItem>\n' +
+  '  <FuiItem a>About</FuiItem>\n' +
+  '  <FuiItem a>Jobs</FuiItem>\n' +
+  '  <FuiItem a>Team</FuiItem>\n' +
   '</FuiList>' 
 s.ElementListDivided1 = 
   '<FuiList aligned=middle divided>\n' +
@@ -883,13 +883,13 @@ s.ElementListInverted1 =
   '</FuiSegment>' 
 s.ElementListBulleted3 = 
   '<FuiList horizontal bulleted>\n' +
-  '  <FuiItem tag=a>\n' +
+  '  <FuiItem a>\n' +
   '    About Us\n' +
   '  </FuiItem>\n' +
-  '  <FuiItem tag=a>\n' +
+  '  <FuiItem a>\n' +
   '    Sitemap\n' +
   '  </FuiItem>\n' +
-  '  <FuiItem tag=a>\n' +
+  '  <FuiItem a>\n' +
   '    Contact\n' +
   '  </FuiItem>\n' +
   '</FuiList>' 
@@ -1004,13 +1004,13 @@ s.ElementListRelaxed4 =
 s.ElementListFloated2 = 
   '<FuiList floated=right horizontal>\n' +
   '  <FuiItem disabled href="#">© GitHub, Inc.</FuiItem>\n' +
-  '  <FuiItem tag=a href="#">Terms</FuiItem>\n' +
-  '  <FuiItem tag=a href="#">Privacy</FuiItem>\n' +
-  '  <FuiItem tag=a href="#">Contact</FuiItem>\n' +
+  '  <FuiItem a href="#">Terms</FuiItem>\n' +
+  '  <FuiItem a href="#">Privacy</FuiItem>\n' +
+  '  <FuiItem a href="#">Contact</FuiItem>\n' +
   '</FuiList>\n' +
   '<FuiList horizontal>\n' +
-  '  <FuiItem tag=a href="#">About Us</FuiItem>\n' +
-  '  <FuiItem tag=a href="#">Jobs</FuiItem>\n' +
+  '  <FuiItem a href="#">About Us</FuiItem>\n' +
+  '  <FuiItem a href="#">Jobs</FuiItem>\n' +
   '</FuiList>' 
 s.ElementListRelaxed2 = 
   '<FuiList relaxed horizontal>\n' +
@@ -1113,7 +1113,7 @@ s.ElementListBulleted1 =
   '  <FuiItem>\n' +
   '    <div>Benefits</div>\n' +
   '    <FuiList sub>\n' +
-  '      <FuiItem tag=a href="#">Link to somewhere</FuiItem>\n' +
+  '      <FuiItem a href="#">Link to somewhere</FuiItem>\n' +
   '      <FuiItem>Rebates</FuiItem>\n' +
   '      <FuiItem>Discounts</FuiItem>\n' +
   '    </FuiList>\n' +
@@ -1122,13 +1122,13 @@ s.ElementListBulleted1 =
   '</FuiList>' 
 s.ElementListHorizontal3 = 
   '<FuiList horizontal bulleted link>\n' +
-  '  <FuiItem tag=a>\n' +
+  '  <FuiItem a>\n' +
   '    Terms and Conditions\n' +
   '  </FuiItem>\n' +
-  '  <FuiItem tag=a>\n' +
+  '  <FuiItem a>\n' +
   '    Privacy Policy\n' +
   '  </FuiItem>\n' +
-  '  <FuiItem tag=a>\n' +
+  '  <FuiItem a>\n' +
   '    Contact Us\n' +
   '  </FuiItem>\n' +
   '</FuiList>' 
@@ -1398,17 +1398,17 @@ s.ElementListSelection1 =
   '</FuiList>' 
 s.ElementListOrdered1 = 
   '<FuiList ordered>\n' +
-  '  <FuiItem tag=a>Getting Started</FuiItem>\n' +
-  '  <FuiItem tag=a>Introduction</FuiItem>\n' +
+  '  <FuiItem a>Getting Started</FuiItem>\n' +
+  '  <FuiItem a>Introduction</FuiItem>\n' +
   '  <FuiItem>\n' +
   '    <a>Languages</a>\n' +
   '    <FuiList sub>\n' +
-  '      <FuiItem tag=a>HTML</FuiItem>\n' +
-  '      <FuiItem tag=a>Javascript</FuiItem>\n' +
-  '      <FuiItem tag=a>CSS</FuiItem>\n' +
+  '      <FuiItem a>HTML</FuiItem>\n' +
+  '      <FuiItem a>Javascript</FuiItem>\n' +
+  '      <FuiItem a>CSS</FuiItem>\n' +
   '    </FuiList>\n' +
   '  </FuiItem>\n' +
-  '  <FuiItem tag=a>Review</FuiItem>\n' +
+  '  <FuiItem a>Review</FuiItem>\n' +
   '</FuiList>' 
 s.ElementListFloated1 = 
   '<FuiList aligned=middle divided>\n' +
@@ -1443,12 +1443,12 @@ s.ElementListFloated1 =
   '</FuiList>' 
 s.ElementListIcon1 = 
   '<FuiList>\n' +
-  '  <FuiItem tag=a iconName=help>\n' +
+  '  <FuiItem a iconName=help>\n' +
   '    <FuiContent header="Floated Icon">\n' +
   '      <FuiDescription>This text will always have a left margin to make sure it sits alongside your icon</FuiDescription>\n' +
   '    </FuiContent>\n' +
   '  </FuiItem>\n' +
-  '  <FuiItem tag=a iconName="right triangle">\n' +
+  '  <FuiItem a iconName="right triangle">\n' +
   '    <FuiContent header="Icon Alignment">\n' +
   '      <FuiDescription>Floated icons are by default top aligned. To have an icon top aligned try this example.</FuiDescription>\n' +
   '    </FuiContent>\n' +
@@ -1459,9 +1459,9 @@ s.ElementListIcon1 =
   '</FuiList>' 
 s.ElementListLink1A = 
   '<FuiList>\n' +
-  '  <FuiItem tag=a>What is a FAQ?</FuiItem>\n' +
-  '  <FuiItem tag=a>Who is our user?</FuiItem>\n' +
-  '  <FuiItem tag=a>Where is our office located?</FuiItem>\n' +
+  '  <FuiItem a>What is a FAQ?</FuiItem>\n' +
+  '  <FuiItem a>Who is our user?</FuiItem>\n' +
+  '  <FuiItem a>Where is our office located?</FuiItem>\n' +
   '</FuiList>' 
 s.ElementStepEvenlyDivided2 = 
   '<FuiSteps n=two>\n' +
@@ -3957,181 +3957,176 @@ s.ElementFlag1 =
   'Zambia (<FuiFlag country=zambia></FuiFlag>),\n' +
   'Zimbabwe (<FuiFlag country=zimbabwe></FuiFlag>),' 
 s.ElementLoaderInverted2 = 
-  '<div class="ui ignored info message">Loaders will automatically be inverted inside <code>inverted dimmer</code></div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui active inverted dimmer">\n' +
-  '    <div class="ui mini text loader">Loading</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui active inverted dimmer">\n' +
-  '    <div class="ui small text loader">Loading</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui active inverted dimmer">\n' +
-  '    <div class="ui medium text loader">Loading</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui active inverted dimmer">\n' +
-  '    <div class="ui large text loader">Loading</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active inverted>\n' +
+  '    <FuiLoader size=mini text>Loading</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active inverted>\n' +
+  '    <FuiLoader size=small text>Loading</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active inverted>\n' +
+  '    <FuiLoader size=medium text>Loading</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active inverted>\n' +
+  '    <FuiLoader size=large text>Loading</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementLoaderLoader1 = 
-  '<div class="ui ignored info message">Loaders are hidden unless <code>active</code> or inside an <a href="/modules/dimmer.html"><code>active dimmer</code></a>.</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  <div class="ui active dimmer">\n' +
-  '    <div class="ui loader"/>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiSegment>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiDimmer active>\n' +
+  '    <FuiLoader></FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '</FuiSegment>' 
 s.ElementLoaderColors1 = 
-  '<div class="ui active primary inline loader"/>\n' +
-  '<div class="ui active secondary inline loader"/>\n' +
-  '<div class="ui active red inline loader"/>\n' +
-  '<div class="ui active orange inline loader"/>\n' +
-  '<div class="ui active yellow inline loader"/>\n' +
-  '<div class="ui active olive inline loader"/>\n' +
-  '<div class="ui active green inline loader"/>\n' +
-  '<div class="ui active teal inline loader"/>\n' +
-  '<div class="ui active blue inline loader"/>\n' +
-  '<div class="ui active violet inline loader"/>\n' +
-  '<div class="ui active purple inline loader"/>\n' +
-  '<div class="ui active pink inline loader"/>\n' +
-  '<div class="ui active brown inline loader"/>\n' +
-  '<div class="ui active grey inline loader"/>\n' +
-  '<div class="ui active black inline loader"/>' 
+  '<FuiLoader active primary inline></FuiLoader>\n' +
+  '<FuiLoader active secondary inline></FuiLoader>\n' +
+  '<FuiLoader active color=red inline></FuiLoader>\n' +
+  '<FuiLoader active color=orange inline></FuiLoader>\n' +
+  '<FuiLoader active color=yellow inline></FuiLoader>\n' +
+  '<FuiLoader active color=olive inline></FuiLoader>\n' +
+  '<FuiLoader active color=green inline></FuiLoader>\n' +
+  '<FuiLoader active color=teal inline></FuiLoader>\n' +
+  '<FuiLoader active color=blue inline></FuiLoader>\n' +
+  '<FuiLoader active color=violet inline></FuiLoader>\n' +
+  '<FuiLoader active color=purple inline></FuiLoader>\n' +
+  '<FuiLoader active color=pink inline></FuiLoader>\n' +
+  '<FuiLoader active color=brown inline></FuiLoader>\n' +
+  '<FuiLoader active color=grey inline></FuiLoader>\n' +
+  '<FuiLoader active color=black inline></FuiLoader>' 
 s.ElementLoaderActive1 = 
-  '<div class="ui ignored info message">\n' +
-  '  An active loader may not be clearly visible without using a <a href="/modules/dimmer.html">ui dimmer</a>\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui active loader"/>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '<FuiSegment>\n' +
+  '  <FuiLoader active></FuiLoader>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementLoaderDisabled1 = 
-  '<div class="ui segment">\n' +
-  '  <div class="ui disabled loader"/>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '<FuiSegment>\n' +
+  '  <FuiLoader disabled></FuiLoader>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementLoaderStyles1 = 
-  '<div class="ui segment">\n' +
-  '    <div class="ui active slow green double loader"/>\n' +
-  '    <br/>\n' +
-  '    <br/>\n' +
-  '    <br/>\n' +
-  '    <br/>\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '    <div class="ui active blue elastic loader"/>\n' +
-  '    <br/>\n' +
-  '    <br/>\n' +
-  '    <br/>\n' +
-  '    <br/>\n' +
-  '</div>' 
+  '<FuiSegment>\n' +
+  '    <FuiLoader active slow color=green double></FuiLoader>\n' +
+  '    <br>\n' +
+  '    <br>\n' +
+  '    <br>\n' +
+  '    <br>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment>\n' +
+  '    <FuiLoader active color=blue elastic></FuiLoader>\n' +
+  '    <br>\n' +
+  '    <br>\n' +
+  '    <br>\n' +
+  '    <br>\n' +
+  '</FuiSegment>' 
 s.ElementLoaderInline1 = 
-  '<div class="ui active inline loader"/>' 
+  '<FuiLoader active inline></FuiLoader>' 
 s.ElementLoaderTextLoader2 = 
-  '<div class="ui segment">\n' +
-  '  <div class="ui active inverted dimmer">\n' +
-  '    <div class="ui text loader">Loading</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active inverted>\n' +
+  '    <FuiLoader text>Loading</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementLoaderSize1 = 
-  '<div class="ui segment">\n' +
-  '  <div class="ui active dimmer">\n' +
-  '    <div class="ui mini text loader">Loading</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui active dimmer">\n' +
-  '    <div class="ui tiny text loader">Loading</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui active dimmer">\n' +
-  '    <div class="ui small text loader">Loading</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui active dimmer">\n' +
-  '    <div class="ui medium text loader">Loading</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui active dimmer">\n' +
-  '    <div class="ui large text loader">Loading</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui active dimmer">\n' +
-  '    <div class="ui big text loader">Loading</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui active dimmer">\n' +
-  '    <div class="ui huge text loader">Loading</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <div class="ui active dimmer">\n' +
-  '    <div class="ui massive text loader">Loading</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active>\n' +
+  '    <FuiLoader size=mini text>Loading</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active>\n' +
+  '    <FuiLoader size=tiny text>Loading</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active>\n' +
+  '    <FuiLoader size=small text>Loading</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active>\n' +
+  '    <FuiLoader size=medium text>Loading</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active>\n' +
+  '    <FuiLoader size=large text>Loading</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active>\n' +
+  '    <FuiLoader size=big text>Loading</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active>\n' +
+  '    <FuiLoader size=huge text>Loading</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active>\n' +
+  '    <FuiLoader size=massive text>Loading</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementLoaderInverted1 = 
-  '<div class="ui inverted segment">\n' +
-  '  <div class="ui active inverted loader"/>\n' +
-  '  <br/>\n' +
-  '  <br/>\n' +
-  '  <br/>\n' +
-  '  <br/>\n' +
-  '</div>' 
+  '<FuiSegment inverted>\n' +
+  '  <FuiLoader active inverted></FuiLoader>\n' +
+  '  <br>\n' +
+  '  <br>\n' +
+  '  <br>\n' +
+  '  <br>\n' +
+  '</FuiSegment>' 
 s.ElementLoaderInlineCenter1 = 
-  '<div class="ui active centered inline loader"/>' 
+  '<FuiLoader active centered inline></FuiLoader>' 
 s.ElementLoaderSpeed1 = 
-  '<div class="ui active inline slow loader"/>\n' +
-  '<div class="ui active inline loader"/>\n' +
-  '<div class="ui active inline fast loader"/>' 
+  '<FuiLoader active inline slow></FuiLoader>\n' +
+  '<FuiLoader active inline></FuiLoader>\n' +
+  '<FuiLoader active inline fast></FuiLoader>' 
 s.ElementLoaderTextLoader1 = 
-  '<div class="ui segment">\n' +
-  '  <div class="ui active dimmer">\n' +
-  '    <div class="ui text loader">Loading</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active>\n' +
+  '    <FuiLoader text>Loading</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementLoaderIndeterminate1 = 
-  '<div class="ui segment">\n' +
-  '  <div class="ui active dimmer">\n' +
-  '    <div class="ui indeterminate text loader">Preparing Files</div>\n' +
-  '  </div>\n' +
-  '  <img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '<FuiSegment>\n' +
+  '  <FuiDimmer active>\n' +
+  '    <FuiLoader indeterminate text>Preparing Files</FuiLoader>\n' +
+  '  </FuiDimmer>\n' +
+  '  <FuiImage src="/images/wireframe/short-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.ElementRevealRotate2 = 
   '<FuiReveal small circular rotate=left image>\n' +
   '  <FuiRevealImage src="/images/wireframe/square-image.png" visible></FuiRevealImage>\n' +
@@ -18604,1415 +18599,1366 @@ s.CollectionGrid1A =
   '  </div>\n' +
   '</div>' 
 s.CollectionMenuText1A = 
-  '<div class="ui vertical menu">\n' +
-  '  <a class="item">\n' +
-  '    <h4 class="ui header">Promotions</h4>\n' +
+  '<FuiMenu vertical>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiHeader level=4>Promotions</FuiHeader>\n' +
   '    <p>Check out our new promotions</p>\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <h4 class="ui header">Coupons</h4>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiHeader level=4>Coupons</FuiHeader>\n' +
   '    <p>Check out our collection of coupons</p>\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <h4 class="ui header">Rebates</h4>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiHeader level=4>Rebates</FuiHeader>\n' +
   '    <p>Visit our rebate forum for information on claiming rebates</p>\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuSize5 = 
-  '<div class="ui huge menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu size=huge>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <div class="right menu">\n' +
-  '    <div class="ui dropdown item">\n' +
-  '      Language <i class="dropdown icon"></i>\n' +
-  '      <div class="menu">\n' +
-  '        <a class="item">English</a>\n' +
-  '        <a class="item">Russian</a>\n' +
-  '        <a class="item">Spanish</a>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="item">\n' +
-  '        <div class="ui primary button">Sign Up</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '  <FuiMenu sub right>\n' +
+  '    <FuiItem dropdown>\n' +
+  '      Language <FuiIcon name=dropdown></FuiIcon>\n' +
+  '      <FuiMenu sub>\n' +
+  '        <FuiItem a>English</FuiItem>\n' +
+  '        <FuiItem a>Russian</FuiItem>\n' +
+  '        <FuiItem a>Spanish</FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiItem>\n' +
+  '    <FuiItem>\n' +
+  '      <FuiButton tag=div primary>Sign Up</FuiButton>\n' +
+  '    </FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuMenu1A = 
-  '<div class="ui menu">\n' +
-  '  <a class="item">Browse</a>\n' +
-  '  <a class="item">Submit</a>\n' +
-  '  <div class="right menu">\n' +
-  '    <a class="item">Sign Up</a>\n' +
-  '    <a class="item">Help</a>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiMenu>\n' +
+  '  <FuiItem a>Browse</FuiItem>\n' +
+  '  <FuiItem a>Submit</FuiItem>\n' +
+  '  <FuiMenu sub right>\n' +
+  '    <FuiItem a>Sign Up</FuiItem>\n' +
+  '    <FuiItem a>Help</FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuSize3 = 
-  '<div class="ui small menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu size=small>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <div class="right menu">\n' +
-  '    <div class="ui dropdown item">\n' +
-  '      Language <i class="dropdown icon"></i>\n' +
-  '      <div class="menu">\n' +
-  '        <a class="item">English</a>\n' +
-  '        <a class="item">Russian</a>\n' +
-  '        <a class="item">Spanish</a>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="item">\n' +
-  '        <div class="ui primary button">Sign Up</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '  <FuiMenu sub right>\n' +
+  '    <FuiItem dropdown>\n' +
+  '      Language <FuiIcon name=dropdown></FuiIcon>\n' +
+  '      <FuiMenu sub>\n' +
+  '        <FuiItem a>English</FuiItem>\n' +
+  '        <FuiItem a>Russian</FuiItem>\n' +
+  '        <FuiItem a>Spanish</FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiItem>\n' +
+  '    <FuiItem>\n' +
+  '      <FuiButton tag=div primary>Sign Up</FuiButton>\n' +
+  '    </FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuPointing2 = 
-  '<div class="ui secondary pointing menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu secondary pointing>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '  <div class="right menu">\n' +
-  '    <a class="ui item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiMenu sub right>\n' +
+  '    <FuiItem a>\n' +
   '      Logout\n' +
-  '    </a>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '    </FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiMenu>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiImage src="/images/wireframe/media-paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.CollectionMenuInput1 = 
-  '<div class="ui menu">\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui icon input">\n' +
-  '      <input type="text" placeholder="Search..."/>\n' +
-  '      <i class="search icon"></i>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="right item">\n' +
-  '    <div class="ui action input">\n' +
-  '      <input type="text" placeholder="Navigate to..."/>\n' +
-  '      <div class="ui button">Go</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiMenu>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiInput icon placeholder="Search...">\n' +
+  '      <FuiIcon name=search></FuiIcon>\n' +
+  '    </FuiInput>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem right>\n' +
+  '    <FuiInput action placeholder="Navigate to...">\n' +
+  '      <FuiButton tag=div>Go</FuiButton>\n' +
+  '    </FuiInput>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuSize6 = 
-  '<div class="ui massive menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu size=massive>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <div class="right menu">\n' +
-  '    <div class="ui dropdown item">\n' +
-  '      Language <i class="dropdown icon"></i>\n' +
-  '      <div class="menu">\n' +
-  '        <a class="item">English</a>\n' +
-  '        <a class="item">Russian</a>\n' +
-  '        <a class="item">Spanish</a>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="item">\n' +
-  '        <div class="ui primary button">Sign Up</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '  <FuiMenu sub right>\n' +
+  '    <FuiItem dropdown>\n' +
+  '      Language <FuiIcon name=dropdown></FuiIcon>\n' +
+  '      <FuiMenu sub>\n' +
+  '        <FuiItem a>English</FuiItem>\n' +
+  '        <FuiItem a>Russian</FuiItem>\n' +
+  '        <FuiItem a>Spanish</FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiItem>\n' +
+  '    <FuiItem>\n' +
+  '      <FuiButton tag=div primary>Sign Up</FuiButton>\n' +
+  '    </FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuSize2 = 
-  '<div class="ui tiny menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu size=tiny>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <div class="right menu">\n' +
-  '    <div class="ui dropdown item">\n' +
-  '      Language <i class="dropdown icon"></i>\n' +
-  '      <div class="menu">\n' +
-  '        <a class="item">English</a>\n' +
-  '        <a class="item">Russian</a>\n' +
-  '        <a class="item">Spanish</a>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="item">\n' +
-  '        <div class="ui primary button">Sign Up</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '  <FuiMenu sub right>\n' +
+  '    <FuiItem dropdown>\n' +
+  '      Language <FuiIcon name=dropdown></FuiIcon>\n' +
+  '      <FuiMenu sub>\n' +
+  '        <FuiItem a>English</FuiItem>\n' +
+  '        <FuiItem a>Russian</FuiItem>\n' +
+  '        <FuiItem a>Spanish</FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiItem>\n' +
+  '    <FuiItem>\n' +
+  '        <FuiButton tag=div primary>Sign Up</FuiButton>\n' +
+  '    </FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuFluid1 = 
-  '<div class="ui fluid vertical menu">\n' +
-  '  <a class="item">Run</a>\n' +
-  '  <a class="item">Walk</a>\n' +
-  '  <a class="item">Bike</a>\n' +
-  '</div>' 
+  '<FuiMenu fluid vertical>\n' +
+  '  <FuiItem a>Run</FuiItem>\n' +
+  '  <FuiItem a>Walk</FuiItem>\n' +
+  '  <FuiItem a>Bike</FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuInverted4 = 
-  '<div class="ui inverted segment">\n' +
-  '  <div class="ui inverted secondary menu">\n' +
-  '    <a class="active item">\n' +
+  '<FuiSegment inverted>\n' +
+  '  <FuiMenu inverted secondary>\n' +
+  '    <FuiItem a active>\n' +
   '      Home\n' +
-  '    </a>\n' +
-  '    <a class="item">\n' +
+  '    </FuiItem>\n' +
+  '    <FuiItem a>\n' +
   '      Messages\n' +
-  '    </a>\n' +
-  '    <a class="item">\n' +
+  '    </FuiItem>\n' +
+  '    <FuiItem a>\n' +
   '      Friends\n' +
-  '    </a>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiSegment>' 
 s.CollectionMenu3 = 
-  '<div class="ui large vertical menu">\n' +
-  '  <a class="active item">\n' +
-  '    <div class="ui small teal label">1</div>\n' +
+  '<FuiMenu size=large vertical>\n' +
+  '  <FuiItem a active>\n' +
+  '    <FuiLabel size=small color=teal>1</FuiLabel>\n' +
   '    Inbox\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <div class="ui small label">51</div>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiLabel size=small>51</FuiLabel>\n' +
   '    Spam\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <div class="ui small label">1</div>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiLabel size=small>1</FuiLabel>\n' +
   '    Updates\n' +
-  '  </a>\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui icon input">\n' +
-  '      <input type="text" placeholder="Search mail..."/>\n' +
-  '      <i class="search icon"></i>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiInput icon placeholder="Search mail...">\n' +
+  '      <FuiIcon name=search></FuiIcon>\n' +
+  '    </FuiInput>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuIcons1 = 
-  '<div class="ui icon menu">\n' +
-  '  <a class="item">\n' +
-  '    <i class="gamepad icon"></i>\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <i class="video camera icon"></i>\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <i class="video play icon"></i>\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<br/><br/>\n' +
-  '<div class="ui vertical icon menu">\n' +
-  '  <a class="item">\n' +
-  '    <i class="gamepad icon"></i>\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <i class="video camera icon"></i>\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <i class="video play icon"></i>\n' +
-  '  </a>\n' +
-  '</div>' 
+  '<FuiMenu icon>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name=gamepad></FuiIcon>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name="video camera"></FuiIcon>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name="video play"></FuiIcon>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<br><br>\n' +
+  '<FuiMenu vertical icon>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name=gamepad></FuiIcon>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name="video camera"></FuiIcon>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name="video play"></FuiIcon>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuMenu3 = 
-  '<div class="ui top attached menu">\n' +
-  '  <div class="ui dropdown icon item">\n' +
-  '    <i class="wrench icon"></i>\n' +
-  '    <div class="menu">\n' +
-  '      <div class="item">\n' +
-  '        <i class="dropdown icon"></i>\n' +
-  '        <span class="text">New</span>\n' +
-  '        <div class="menu">\n' +
-  '          <div class="item">Document</div>\n' +
-  '          <div class="item">Image</div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="item">\n' +
+  '<FuiMenu attached=top>\n' +
+  '  <FuiItem dropdown icon>\n' +
+  '    <FuiIcon name=wrench></FuiIcon>\n' +
+  '    <FuiMenu sub>\n' +
+  '      <FuiItem>\n' +
+  '        <FuiIcon name=dropdown></FuiIcon>\n' +
+  '        <FuiText int>New</FuiText>\n' +
+  '        <FuiMenu sub>\n' +
+  '          <FuiItem>Document</FuiItem>\n' +
+  '          <FuiItem>Image</FuiItem>\n' +
+  '        </FuiMenu>\n' +
+  '      </FuiItem>\n' +
+  '      <FuiItem>\n' +
   '        Open...\n' +
-  '      </div>\n' +
-  '      <div class="item">\n' +
+  '      </FuiItem>\n' +
+  '      <FuiItem>\n' +
   '        Save...\n' +
-  '      </div>\n' +
-  '      <div class="item">Edit Permissions</div>\n' +
+  '      </FuiItem>\n' +
+  '      <FuiItem>Edit Permissions</FuiItem>\n' +
   '      <div class="divider"/>\n' +
   '      <div class="header">\n' +
   '        Export\n' +
   '      </div>\n' +
-  '      <div class="item">\n' +
+  '      <FuiItem>\n' +
   '        Share...\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="right menu">\n' +
-  '    <div class="ui right aligned category search item">\n' +
-  '      <div class="ui transparent icon input">\n' +
-  '        <input class="prompt" type="text" placeholder="Search animals..."/>\n' +
-  '        <i class="search link icon"></i>\n' +
-  '      </div>\n' +
-  '      <div class="results"/>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="ui bottom attached segment">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '      </FuiItem>\n' +
+  '    </FuiMenu>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiMenu sub right>\n' +
+  '    <FuiItem right aligned search>\n' +
+  '      <FuiInput transparent icon prompt placeholder="Search animals...">\n' +
+  '        <FuiIcon name=search link></FuiIcon>\n' +
+  '      </FuiInput>\n' +
+  '      <div class="results"></div>\n' +
+  '    </FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiMenu>\n' +
+  '<FuiSegment attached=bottom>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.CollectionMenuInverted5 = 
-  '<div class="ui inverted segment">\n' +
-  '  <div class="ui inverted secondary pointing menu">\n' +
-  '    <a class="active item">\n' +
+  '<FuiSegment inverted>\n' +
+  '  <FuiMenu inverted secondary pointing>\n' +
+  '    <FuiItem a active>\n' +
   '      Home\n' +
-  '    </a>\n' +
-  '    <a class="item">\n' +
+  '    </FuiItem>\n' +
+  '    <FuiItem a>\n' +
   '      Messages\n' +
-  '    </a>\n' +
-  '    <a class="item">\n' +
+  '    </FuiItem>\n' +
+  '    <FuiItem a>\n' +
   '      Friends\n' +
-  '    </a>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiSegment>' 
 s.CollectionMenuButton1 = 
-  '<div class="ui menu">\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui primary button">Sign up</div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui button">Log-in</div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiMenu>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiButton tag=div primary>Sign up</FuiButton>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiButton tag=div>Log-in</FuiButton>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuColored4 = 
-  '<div class="ui red three item inverted menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu color=red n=three inverted>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui orange three item inverted menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=orange n=three inverted>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui yellow three item inverted menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=yellow n=three inverted>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui olive three item inverted menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=olive n=three inverted>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui green three item inverted menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=green n=three inverted>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui teal three item inverted menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=teal n=three inverted>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui blue three item inverted menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=blue n=three inverted>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui violet three item inverted menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=violet n=three inverted>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui purple three item inverted menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=purple n=three inverted>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui pink three item inverted menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=pink n=three inverted>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui brown three item inverted menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=brown n=three inverted>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui grey three item inverted menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=grey n=three inverted>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuFixed2 = 
-  '<iframe src="/iframe/fixed-vertical-menu.html"/>\n' +
-  '<div class="existing code">\n' +
-  '  <div class="ui left fixed vertical menu">\n' +
-  '    <div class="item">\n' +
-  '      <img src="/images/logo.png" class="ui mini image">\n' +
-  '    </div>\n' +
-  '    <a class="item">Features</a>\n' +
-  '    <a class="item">Testimonials</a>\n' +
-  '    <a class="item">Sign-in</a>\n' +
-  '  </div>\n' +
-  '  <div class="ui right fixed vertical menu">\n' +
-  '    <div class="item">\n' +
-  '      <img src="/images/logo.png" class="ui mini image">\n' +
-  '    </div>\n' +
-  '    <a class="item">Features</a>\n' +
-  '    <a class="item">Testimonials</a>\n' +
-  '    <a class="item">Sign-in</a>\n' +
-  '  </div>\n' +
-  '  <p/>\n' +
-  '  <p/>\n' +
-  '</div>' 
+  '<FuiMenu fixed=left vertical>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/logo.png" mini></FuiImage>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>Features</FuiItem>\n' +
+  '  <FuiItem a>Testimonials</FuiItem>\n' +
+  '  <FuiItem a>Sign-in</FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu fixed=right vertical>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiImage src="/images/logo.png" mini></FuiImage>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>Features</FuiItem>\n' +
+  '  <FuiItem a>Testimonials</FuiItem>\n' +
+  '  <FuiItem a>Sign-in</FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuInverted1 = 
-  '<div class="ui inverted menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu inverted>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuPointing1 = 
-  '<div class="ui pointing menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu pointing>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '  <div class="right menu">\n' +
-  '    <div class="item">\n' +
-  '      <div class="ui transparent icon input">\n' +
-  '        <input type="text" placeholder="Search..."/>\n' +
-  '        <i class="search link icon"></i>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '  <FuiMenu sub right>\n' +
+  '    <FuiItem>\n' +
+  '      <FuiInput transparent icon placeholder="Search...">\n' +
+  '        <FuiIcon name=search link></FuiIcon>\n' +
+  '      </FuiInput>\n' +
+  '    </FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiMenu>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.CollectionMenuSearch1 = 
-  '<div class="ui menu">\n' +
-  '  <div class="ui category search item">\n' +
-  '    <div class="ui transparent icon input">\n' +
-  '      <input class="prompt" type="text" placeholder="Search animals..."/>\n' +
-  '      <i class="search link icon"></i>\n' +
-  '    </div>\n' +
+  '<FuiMenu>\n' +
+  '  <FuiItem search>\n' +
+  '    <FuiInput transparent icon prompt placeholder="Search animals...">\n' +
+  '      <FuiIcon name=search link></FuiIcon>\n' +
+  '    </FuiInput>\n' +
   '    <div class="results"/>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="ui segment">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiSegment>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.CollectionMenuMenu2 = 
-  '<div class="ui ignored info message">\n' +
-  '  Many of the following examples use a coupling with <a href="/modules/dropdown.html">dropdowns</a> to display dropdown menus inside of <code>ui menu</code>. Please consult the dropdown documentation for the correct javascript initialization for this component.\n' +
-  '</div>\n' +
-  '<div class="ui text menu">\n' +
-  '  <div class="item">\n' +
-  '    <img src="/images/new-school.jpg"/>\n' +
-  '  </div>\n' +
-  '  <a class="browse item">\n' +
+  '<FuiMenu text>\n' +
+  '  <FuiItem src="/images/new-school.jpg">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Browse Courses\n' +
-  '    <i class="dropdown icon"></i>\n' +
-  '  </a>\n' +
-  '  <div class="ui right dropdown item">\n' +
+  '    <FuiIcon name=dropdown></FuiIcon>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem right dropdown>\n' +
   '    More\n' +
-  '    <i class="dropdown icon"></i>\n' +
-  '    <div class="menu">\n' +
-  '      <div class="item">Applications</div>\n' +
-  '      <div class="item">International Students</div>\n' +
-  '      <div class="item">Scholarships</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="ui flowing basic admission popup">\n' +
-  '  <div class="ui three column relaxed divided grid">\n' +
-  '    <div class="column">\n' +
-  '      <h4 class="ui header">Business</h4>\n' +
-  '      <div class="ui link list">\n' +
-  '        <a class="item">Design &amp; Urban Ecologies</a>\n' +
-  '        <a class="item">Fashion Design</a>\n' +
-  '        <a class="item">Fine Art</a>\n' +
-  '        <a class="item">Strategic Design</a>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <h4 class="ui header">Liberal Arts</h4>\n' +
-  '      <div class="ui link list">\n' +
-  '        <a class="item">Anthropology</a>\n' +
-  '        <a class="item">Economics</a>\n' +
-  '        <a class="item">Media Studies</a>\n' +
-  '        <a class="item">Philosophy</a>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <h4 class="ui header">Social Sciences</h4>\n' +
-  '      <div class="ui link list">\n' +
-  '        <a class="item">Food Studies</a>\n' +
-  '        <a class="item">Journalism</a>\n' +
-  '        <a class="item">Non Profit Management</a>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    <FuiIcon name=dropdown></FuiIcon>\n' +
+  '    <FuiMenu sub>\n' +
+  '      <FuiItem>Applications</FuiItem>\n' +
+  '      <FuiItem>International Students</FuiItem>\n' +
+  '      <FuiItem>Scholarships</FuiItem>\n' +
+  '    </FuiMenu>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiPopup flowing basic admission>\n' +
+  '  <FuiGrid column=three relaxed divided>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiHeader level=4>Business</FuiHeader>\n' +
+  '      <FuiList link>\n' +
+  '        <FuiItem a>Design &amp; Urban Ecologies</FuiItem>\n' +
+  '        <FuiItem a>Fashion Design</FuiItem>\n' +
+  '        <FuiItem a>Fine Art</FuiItem>\n' +
+  '        <FuiItem a>Strategic Design</FuiItem>\n' +
+  '      </FuiList>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiHeader level=4>Liberal Arts</FuiHeader>\n' +
+  '      <FuiList link>\n' +
+  '        <FuiItem a>Anthropology</FuiItem>\n' +
+  '        <FuiItem a>Economics</FuiItem>\n' +
+  '        <FuiItem a>Media Studies</FuiItem>\n' +
+  '        <FuiItem a>Philosophy</FuiItem>\n' +
+  '      </FuiList>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiHeader level=4>Social Sciences</FuiHeader>\n' +
+  '      <FuiList link>\n' +
+  '        <FuiItem a>Food Studies</FuiItem>\n' +
+  '        <FuiItem a>Journalism</FuiItem>\n' +
+  '        <FuiItem a>Non Profit Management</FuiItem>\n' +
+  '      </FuiList>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiGrid>\n' +
+  '</FuiPopup>' 
 s.CollectionMenuStackable1 = 
-  '<div class="ui ignored info message">\n' +
-  '  Stackable menus are intended to be used with only simple menu content. Stacked menus will not replicate all additional stylings for vertical menus like adjusting dropdown position.\n' +
-  '</div>\n' +
-  '<div class="ui stackable menu">\n' +
-  '  <div class="item">\n' +
-  '    <img src="/images/logo.png">\n' +
-  '  </div>\n' +
-  '  <a class="item">Features</a>\n' +
-  '  <a class="item">Testimonials</a>\n' +
-  '  <a class="item">Sign-in</a>\n' +
-  '</div>' 
+  '<FuiMenu stackable>\n' +
+  '  <FuiItem src="/images/logo.png">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>Features</FuiItem>\n' +
+  '  <FuiItem a>Testimonials</FuiItem>\n' +
+  '  <FuiItem a>Sign-in</FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuEvenlyDivided1 = 
-  '<div class="ui fluid three item menu">\n' +
-  '  <a class="item">Buy</a>\n' +
-  '  <a class="item">Sell</a>\n' +
-  '  <a class="item">Rent</a>\n' +
-  '</div>' 
+  '<FuiMenu fluid n=three>\n' +
+  '  <FuiItem a>Buy</FuiItem>\n' +
+  '  <FuiItem a>Sell</FuiItem>\n' +
+  '  <FuiItem a>Rent</FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuText1 = 
-  '<div class="ui text menu">\n' +
-  '  <div class="header item">Sort By</div>\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu text>\n' +
+  '  <FuiItem isHeader>Sort By</FuiItem>\n' +
+  '  <FuiItem a active>\n' +
   '    Closest\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Most Comments\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Most Popular\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuLinkItem1 = 
-  '<div class="ui vertical menu">\n' +
-  '  <a href="http://www.google.com" class="item">\n' +
+  '<FuiMenu vertical>\n' +
+  '  <FuiItem a href="http://www.google.com">\n' +
   '    Visit Google\n' +
-  '  </a>\n' +
-  '  <div class="link item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem link>\n' +
   '    Javascript Link\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuPagination1 = 
-  '<div class="ui pagination menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu pagination>\n' +
+  '  <FuiItem a active>\n' +
   '    1\n' +
-  '  </a>\n' +
-  '  <div class="disabled item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem disabled>\n' +
   '    ...\n' +
-  '  </div>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    10\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    11\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    12\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuVerticalMenu3 = 
-  '<div class="ui vertical text menu">\n' +
-  '  <div class="header item">Sort By</div>\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu vertical text>\n' +
+  '  <FuiItem isHeader>Sort By</FuiItem>\n' +
+  '  <FuiItem a active>\n' +
   '    Closest\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Most Comments\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Most Popular\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuHover1 = 
-  '<div class="ui ignore warning message">Menu items are only hoverable if they are <code>a</code> links, or given the class name <code>link</code></div>\n' +
-  '<div class="ui compact menu">\n' +
-  '  <a class="item">\n' +
+  '<FuiMenu compact>\n' +
+  '  <FuiItem a>\n' +
   '    A link\n' +
-  '  </a>\n' +
-  '  <div class="link item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem link>\n' +
   '    div Link\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuTabular1 = 
-  '<div class="ui ignored info message">\n' +
-  '  Be sure to visit the <a href="/modules/tab.html">tab documentation</a> for information on how to set up dynamic tabs\n' +
-  '</div>\n' +
-  '<div class="ui tabular menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu tabular>\n' +
+  '  <FuiItem a active>\n' +
   '    Bio\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Photos\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuTabular2 = 
-  '<div class="ui top attached tabular menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu attached=top tabular>\n' +
+  '  <FuiItem a active>\n' +
   '    Bio\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Photos\n' +
-  '  </a>\n' +
-  '  <div class="right menu">\n' +
-  '    <div class="item">\n' +
-  '      <div class="ui transparent icon input">\n' +
-  '        <input type="text" placeholder="Search users..."/>\n' +
-  '        <i class="search link icon"></i>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="ui bottom attached segment">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '  <FuiMenu sub right>\n' +
+  '    <FuiItem>\n' +
+  '      <FuiInput transparent icon placeholder="Search users...">\n' +
+  '        <FuiIcon name=search link></FuiIcon>\n' +
+  '      </FuiInput>\n' +
+  '    </FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiMenu>\n' +
+  '<FuiSegment attached=bottom>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>' 
 s.CollectionMenuSubMenu1 = 
-  '<div class="ui vertical menu">\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui input"><input type="text" placeholder="Search..."/></div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
+  '<FuiMenu vertical>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiInput placeholder="Search..."></FuiInput>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
   '    Home\n' +
-  '    <div class="menu">\n' +
-  '      <a class="active item">Search</a>\n' +
-  '      <a class="item">Add</a>\n' +
-  '      <a class="item">Remove</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <a class="item">\n' +
-  '    <i class="grid layout icon"></i> Browse\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '    <FuiMenu sub>\n' +
+  '      <FuiItem a active>Search</FuiItem>\n' +
+  '      <FuiItem a>Add</FuiItem>\n' +
+  '      <FuiItem a>Remove</FuiItem>\n' +
+  '    </FuiMenu>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name="grid layout"></FuiIcon> Browse\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <div class="ui dropdown item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem dropdown>\n' +
   '    More\n' +
-  '    <i class="dropdown icon"></i>\n' +
-  '    <div class="menu">\n' +
-  '      <a class="item"><i class="edit icon"></i> Edit Profile</a>\n' +
-  '      <a class="item"><i class="globe icon"></i> Choose Language</a>\n' +
-  '      <a class="item"><i class="settings icon"></i> Account Settings</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    <FuiIcon name=dropdown></FuiIcon>\n' +
+  '    <FuiMenu sub>\n' +
+  '      <FuiItem a><FuiIcon name=edit></FuiIcon> Edit Profile</FuiItem>\n' +
+  '      <FuiItem a><FuiIcon name=globe></FuiIcon> Choose Language</FuiItem>\n' +
+  '      <FuiItem a><FuiIcon name=settings></FuiIcon> Account Settings</FuiItem>\n' +
+  '    </FuiMenu>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuColored2 = 
-  '<div class="ui red three item menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu color=red n=three>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui orange three item menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=orange n=three>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui yellow three item menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=yellow n=three>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui olive three item menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=olive n=three>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui green three item menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=green n=three>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui teal three item menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=teal n=three>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui blue three item menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=blue n=three>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui violet three item menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=violet n=three>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui purple three item menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=purple n=three>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui pink three item menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=pink n=three>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui brown three item menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=brown n=three>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui grey three item menu">\n' +
-  '  <a class="active item">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu color=grey n=three>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuSize1 = 
-  '<div class="ui mini menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu size=mini>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <div class="right menu">\n' +
-  '    <div class="ui dropdown item">\n' +
-  '      Language <i class="dropdown icon"></i>\n' +
-  '      <div class="menu">\n' +
-  '        <a class="item">English</a>\n' +
-  '        <a class="item">Russian</a>\n' +
-  '        <a class="item">Spanish</a>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiMenu sub right>\n' +
+  '    <FuiItem dropdown>\n' +
+  '      Language <FuiIcon name=dropdown></FuiIcon>\n' +
+  '      <FuiMenu sub>\n' +
+  '        <FuiItem a>English</FuiItem>\n' +
+  '        <FuiItem a>Russian</FuiItem>\n' +
+  '        <FuiItem a>Spanish</FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiItem>\n' +
+  '    <FuiItem>\n' +
   '        <div class="ui primary button">Sign Up</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuColored3 = 
-  '<div class="ui inverted menu">\n' +
-  '  <a class="active red item">Red</a>\n' +
-  '  <a class="orange item">Orange</a>\n' +
-  '  <a class="yellow item">Yellow</a>\n' +
-  '  <a class="olive item">Olive</a>\n' +
-  '  <a class="green item">Green</a>\n' +
-  '  <a class="teal item">Teal</a>\n' +
-  '</div>\n' +
-  '<div class="ui inverted menu">\n' +
-  '  <a class="blue item">Blue</a>\n' +
-  '  <a class="violet item">Violet</a>\n' +
-  '  <a class="purple item">Purple</a>\n' +
-  '  <a class="pink item">Pink</a>\n' +
-  '  <a class="brown item">Brown</a>\n' +
-  '  <a class="grey item">Grey</a>\n' +
-  '</div>' 
+  '<FuiMenu inverted>\n' +
+  '  <FuiItem a active color=red>Red</FuiItem>\n' +
+  '  <FuiItem a color=orange>Orange</FuiItem>\n' +
+  '  <FuiItem a color=yellow>Yellow</FuiItem>\n' +
+  '  <FuiItem a color=olive>Olive</FuiItem>\n' +
+  '  <FuiItem a color=green>Green</FuiItem>\n' +
+  '  <FuiItem a color=teal>Teal</FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu inverted>\n' +
+  '  <FuiItem a color=blue>Blue</FuiItem>\n' +
+  '  <FuiItem a color=violet>Violet</FuiItem>\n' +
+  '  <FuiItem a color=purple>Purple</FuiItem>\n' +
+  '  <FuiItem a color=pink>Pink</FuiItem>\n' +
+  '  <FuiItem a color=brown>Brown</FuiItem>\n' +
+  '  <FuiItem a color=grey>Grey</FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuFixed1 = 
-  '<div class="ui ignored info message">These examples use a an <code>iframe</code>, to prevent content from sticking to the browser viewport.</div>\n' +
-  '<div class="ui ignored positive message">For more advanced behaviors consider using a <a href="/modules/sticky.html">sticky menu</a> or <a href="/behaviors/visibility.html#fixing-content-to-viewport">visibility APIs</a>.</div>\n' +
-  '<iframe src="/iframe/fixed-menu.html"/>\n' +
-  '<div class="existing code">\n' +
-  '  <div class="ui top fixed menu">\n' +
-  '    <div class="item">\n' +
-  '      <img src="/images/logo.png">\n' +
-  '    </div>\n' +
-  '    <a class="item">Features</a>\n' +
-  '    <a class="item">Testimonials</a>\n' +
-  '    <a class="item">Sign-in</a>\n' +
-  '  </div>\n' +
-  '  <div class="ui bottom fixed menu">\n' +
-  '    <div class="item">\n' +
-  '      <img src="/images/logo.png">\n' +
-  '    </div>\n' +
-  '    <a class="item">Features</a>\n' +
-  '    <a class="item">Testimonials</a>\n' +
-  '    <a class="item">Sign-in</a>\n' +
-  '  </div>\n' +
-  '  <p/>\n' +
-  '  <p/>\n' +
-  '</div>' 
+  '<FuiMenu fixed=top>\n' +
+  '  <FuiItem>\n' +
+  '    <img src="/images/logo.png">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>Features</FuiItem>\n' +
+  '  <FuiItem a>Testimonials</FuiItem>\n' +
+  '  <FuiItem a>Sign-in</FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu fixed=bottom>\n' +
+  '  <FuiItem src="/images/logo.png">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>Features</FuiItem>\n' +
+  '  <FuiItem a>Testimonials</FuiItem>\n' +
+  '  <FuiItem a>Sign-in</FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuVerticalMenu2 = 
-  '<div class="ui secondary vertical menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu secondary vertical>\n' +
+  '  <FuiItem a active>\n' +
   '    Account\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Settings\n' +
-  '  </a>\n' +
-  '  <div class="ui dropdown item">\n' +
-  '    <i class="dropdown icon"></i>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem dropdown>\n' +
+  '    <FuiIcon name=dropdown></FuiIcon>\n' +
   '    Display Options\n' +
-  '    <div class="menu">\n' +
-  '      <div class="header">Text Size</div>\n' +
-  '      <a class="item">Small</a>\n' +
-  '      <a class="item">Medium</a>\n' +
-  '      <a class="item">Large</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    <FuiMenu sub header="Text Size">\n' +
+  '      <FuiItem a>Small</FuiItem>\n' +
+  '      <FuiItem a>Medium</FuiItem>\n' +
+  '      <FuiItem a>Large</FuiItem>\n' +
+  '    </FuiMenu>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuVerticalMenu1 = 
-  '<div class="ui ignore warning message">A vertical menu\'s width defaults to an arbitrary size. To have it fit your content more precisely use the fluid variation in conjunction with <a href="grid.html">ui grid</a>.</div>\n' +
-  '<div class="ui vertical menu">\n' +
-  '  <a class="active teal item">\n' +
+  '<FuiMenu vertical>\n' +
+  '  <FuiItem a active color=teal>\n' +
   '    Inbox\n' +
-  '    <div class="ui teal left pointing label">1</div>\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '    <FuiLabel color=teal pointing=left>1</FuiLabel>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Spam\n' +
-  '    <div class="ui label">51</div>\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '    <FuiLabel>51</FuiLabel>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Updates\n' +
-  '    <div class="ui label">1</div>\n' +
-  '  </a>\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui transparent icon input">\n' +
-  '      <input type="text" placeholder="Search mail..."/>\n' +
-  '      <i class="search icon"></i>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    <FuiLabel>1</FuiLabel>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiInput transparent icon placeholder="Search mail...">\n' +
+  '      <FuiIcon name=search></FuiIcon>\n' +
+  '    </FuiInput>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenu1 = 
-  '<div class="ui pointing vertical menu">\n' +
-  '  <a class="item">\n' +
+  '<FuiMenu pointing vertical>\n' +
+  '  <FuiItem a>\n' +
   '    Site Title\n' +
-  '  </a>\n' +
-  '  <div class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
   '    <b>Grouped Section</b>\n' +
-  '    <div class="menu">\n' +
-  '      <a class="item">Subsection 1</a>\n' +
-  '      <a class="active item">Subsection 1</a>\n' +
-  '      <a class="item">Subsection 1</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui dropdown item">\n' +
-  '    Dropdown <i class="dropdown icon"></i>\n' +
-  '    <div class="menu">\n' +
-  '      <div class="item">Choice 1</div>\n' +
-  '      <div class="item">Choice 2</div>\n' +
-  '      <div class="item">Choice 3</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    <FuiMenu sub>\n' +
+  '      <FuiItem a>Subsection 1</FuiItem>\n' +
+  '      <FuiItem a active>Subsection 1</FuiItem>\n' +
+  '      <FuiItem a>Subsection 1</FuiItem>\n' +
+  '    </FuiMenu>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem dropdown>\n' +
+  '    Dropdown <FuiIcon name=dropdown></FuiIcon>\n' +
+  '    <FuiMenu sub>\n' +
+  '      <FuiItem>Choice 1</FuiItem>\n' +
+  '      <FuiItem>Choice 2</FuiItem>\n' +
+  '      <FuiItem>Choice 3</FuiItem>\n' +
+  '    </FuiMenu>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuAttached2 = 
-  '<div class="ui top attached menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu attached=top>\n' +
+  '  <FuiItem a active>\n' +
   '    Section 1\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Section 2\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui attached segment">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiSegment attached>\n' +
   '  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.\n' +
-  '</div>\n' +
-  '<div class="ui bottom attached menu">\n' +
-  '  <a class="active item">\n' +
+  '</FuiSegment>\n' +
+  '<FuiMenu attached=bottom>\n' +
+  '  <FuiItem a active>\n' +
   '    Section 1\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Section 2\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuAttached1 = 
-  '<div class="ui top attached tabular menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu attached=top tabular>\n' +
+  '  <FuiItem a active>\n' +
   '    Tab 1\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Tab 2\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<div class="ui bottom attached segment">\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiSegment attached=bottom>\n' +
   '  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.\n' +
-  '</div>' 
+  '</FuiSegment>' 
 s.CollectionMenuColored1 = 
-  '<div class="ui menu">\n' +
-  '  <a class="active red item">Red</a>\n' +
-  '  <a class="orange item">Orange</a>\n' +
-  '  <a class="yellow item">Yellow</a>\n' +
-  '  <a class="olive item">Olive</a>\n' +
-  '  <a class="green item">Green</a>\n' +
-  '  <a class="teal item">Teal</a>\n' +
-  '</div>\n' +
-  '<div class="ui menu">\n' +
-  '  <a class="blue item">Blue</a>\n' +
-  '  <a class="violet item">Violet</a>\n' +
-  '  <a class="purple item">Purple</a>\n' +
-  '  <a class="pink item">Pink</a>\n' +
-  '  <a class="brown item">Brown</a>\n' +
-  '  <a class="grey item">Grey</a>\n' +
-  '</div>' 
+  '<FuiMenu>\n' +
+  '  <FuiItem a active color=red>Red</FuiItem>\n' +
+  '  <FuiItem a color=orange>Orange</FuiItem>\n' +
+  '  <FuiItem a color=yellow>Yellow</FuiItem>\n' +
+  '  <FuiItem a color=olive>Olive</FuiItem>\n' +
+  '  <FuiItem a color=green>Green</FuiItem>\n' +
+  '  <FuiItem a color=teal>Teal</FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<FuiMenu>\n' +
+  '  <FuiItem a color=blue>Blue</FuiItem>\n' +
+  '  <FuiItem a color=violet>Violet</FuiItem>\n' +
+  '  <FuiItem a color=purple>Purple</FuiItem>\n' +
+  '  <FuiItem a color=pink>Pink</FuiItem>\n' +
+  '  <FuiItem a color=brown>Brown</FuiItem>\n' +
+  '  <FuiItem a color=grey>Grey</FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuLabeledIcon1 = 
-  '<div class="ui labeled icon menu">\n' +
-  '  <a class="item">\n' +
-  '    <i class="gamepad icon"></i>\n' +
+  '<FuiMenu icon=labeled>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name=gamepad></FuiIcon>\n' +
   '    Games\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <i class="video camera icon"></i>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name="video camera"></FuiIcon>\n' +
   '    Channels\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <i class="video play icon"></i>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name="video play"></FuiIcon>\n' +
   '    Videos\n' +
-  '  </a>\n' +
-  '</div>\n' +
-  '<br/><br/>\n' +
-  '<div class="ui vertical labeled icon menu">\n' +
-  '  <a class="item">\n' +
-  '    <i class="gamepad icon"></i>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
+  '<br><br>\n' +
+  '<FuiMenu vertical icon=labeled>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name=gamepad></FuiIcon>\n' +
   '    Games\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <i class="video camera icon"></i>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name="video camera"></FuiIcon>\n' +
   '    Channels\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <i class="video play icon"></i>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name="video play"></FuiIcon>\n' +
   '    Videos\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuSize4 = 
-  '<div class="ui large menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu size=large>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <div class="right menu">\n' +
-  '    <div class="ui dropdown item">\n' +
-  '      Language <i class="dropdown icon"></i>\n' +
-  '      <div class="menu">\n' +
-  '        <a class="item">English</a>\n' +
-  '        <a class="item">Russian</a>\n' +
-  '        <a class="item">Spanish</a>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="item">\n' +
-  '        <div class="ui primary button">Sign Up</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '  <FuiMenu sub right>\n' +
+  '    <FuiItem dropdown>\n' +
+  '      Language <FuiIcon name=dropdown></FuiIcon>\n' +
+  '      <FuiMenu sub>\n' +
+  '        <FuiItem a>English</FuiItem>\n' +
+  '        <FuiItem a>Russian</FuiItem>\n' +
+  '        <FuiItem a>Spanish</FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiItem>\n' +
+  '    <FuiItem>\n' +
+  '      <FuiButton tag=div primary>Sign Up</FuiButton>\n' +
+  '    </FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuInverted3 = 
-  '<div class="ui inverted vertical pointing menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu inverted vertical pointing>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuHeader1 = 
-  '<div class="ui menu">\n' +
-  '  <div class="header item">\n' +
+  '<FuiMenu>\n' +
+  '  <FuiItem isHeader>\n' +
   '    Our Company\n' +
-  '  </div>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    About Us\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Jobs\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Locations\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenu2 = 
-  '<div class="ui small vertical menu">\n' +
-  '  <a class="active item">\n' +
-  '    <div class="ui small teal label">1</div>\n' +
+  '<FuiMenu size=small vertical>\n' +
+  '  <FuiItem a active>\n' +
+  '    <FuiLabel size=small color=teal>1</FuiLabel>\n' +
   '    Inbox\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <div class="ui small label">51</div>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiLabel size=small>51</FuiLabel>\n' +
   '    Spam\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <div class="ui small label">1</div>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiLabel size=small>1</FuiLabel>\n' +
   '    Updates\n' +
-  '  </a>\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui icon input">\n' +
-  '      <input type="text" placeholder="Search mail..."/>\n' +
-  '      <i class="search icon"></i>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiInput icon placeholder="Search mail...">\n' +
+  '      <FuiIcon name=search></FuiIcon>\n' +
+  '    </FuiInput>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuSecondaryMenu1 = 
-  '<div class="ui secondary  menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu secondary >\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '  <div class="right menu">\n' +
-  '    <div class="item">\n' +
-  '      <div class="ui icon input">\n' +
-  '        <input type="text" placeholder="Search..."/>\n' +
-  '        <i class="search link icon"></i>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <a class="ui item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiMenu sub right>\n' +
+  '    <FuiItem>\n' +
+  '      <FuiInput icon placeholder="Search...">\n' +
+  '        <FuiIcon name=search link></FuiIcon>\n' +
+  '      </FuiInput>\n' +
+  '    </FuiItem>\n' +
+  '    <FuiItem a>\n' +
   '      Logout\n' +
-  '    </a>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuCompact1 = 
-  '<div class="ui compact menu">\n' +
-  '  <a class="item">\n' +
-  '    <i class="gamepad icon"></i>\n' +
+  '<FuiMenu compact>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name=gamepad></FuiIcon>\n' +
   '    Games\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <i class="video camera icon"></i>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name="video camera"></FuiIcon>\n' +
   '    Channels\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <i class="video play icon"></i>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name="video play"></FuiIcon>\n' +
   '    Videos\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuDropdownItem1 = 
-  '<div class="ui ignored message">\n' +
-  '  <p>To have a dropdown open without Javascript, use the <a href="/modules/dropdown.html#simple">simple</a> variation</p>\n' +
-  '</div>\n' +
-  '<div class="ui vertical menu">\n' +
-  '  <div class="ui dropdown item">\n' +
+  '<FuiMenu vertical>\n' +
+  '  <FuiItem dropdown>\n' +
   '    Categories\n' +
-  '    <i class="dropdown icon"></i>\n' +
-  '    <div class="menu">\n' +
-  '      <a class="item">Electronics</a>\n' +
-  '      <a class="item">Automotive</a>\n' +
-  '      <a class="item">Home</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    <FuiIcon name=dropdown></FuiIcon>\n' +
+  '    <FuiMenu sub>\n' +
+  '      <FuiItem a>Electronics</FuiItem>\n' +
+  '      <FuiItem a>Automotive</FuiItem>\n' +
+  '      <FuiItem a>Home</FuiItem>\n' +
+  '    </FuiMenu>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuCompact2 = 
-  '<div class="ui compact vertical labeled icon menu">\n' +
-  '  <a class="item">\n' +
-  '    <i class="gamepad icon"></i>\n' +
+  '<FuiMenu compact vertical icon=labeled>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name=gamepad></FuiIcon>\n' +
   '    Games\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <i class="video camera icon"></i>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name="video camera"></FuiIcon>\n' +
   '    Channels\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <i class="video play icon"></i>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiIcon name="video play"></FuiIcon>\n' +
   '    Videos\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuInverted2 = 
-  '<div class="ui inverted vertical menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu inverted vertical>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenu1A = 
-  '<div class="ui mini vertical menu">\n' +
-  '  <a class="active item">\n' +
-  '    <div class="ui teal label">1</div>\n' +
+  '<FuiMenu size=mini vertical>\n' +
+  '  <FuiItem a active>\n' +
+  '    <FuiLabel color=teal>1</FuiLabel>\n' +
   '    Inbox\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <div class="ui label">51</div>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiLabel>51</FuiLabel>\n' +
   '    Spam\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <div class="ui label">1</div>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiLabel>1</FuiLabel>\n' +
   '    Updates\n' +
-  '  </a>\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui icon input">\n' +
-  '      <input type="text" placeholder="Search mail..."/>\n' +
-  '      <i class="search icon"></i>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiInput icon placeholder="Search mail...">\n' +
+  '      <FuiIcon name=search></FuiIcon>\n' +
+  '    </FuiInput>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuPopupMenu1 = 
-  '<div class="ui menu">\n' +
-  '  <a class="browse item">\n' +
+  '<FuiMenu>\n' +
+  '  <FuiItem a browse>\n' +
   '    Browse\n' +
-  '    <i class="dropdown icon"></i>\n' +
-  '  </a>\n' +
-  '</div>\n' +
+  '    <FuiIcon name=dropdown></FuiIcon>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>\n' +
   '<div class="ui fluid popup">\n' +
   '  <div class="ui four column relaxed equal height divided grid">\n' +
   '    <div class="column">\n' +
   '      <h4 class="ui header">Fabrics</h4>\n' +
   '      <div class="ui link list">\n' +
-  '        <a class="item">Cashmere</a>\n' +
-  '        <a class="item">Linen</a>\n' +
-  '        <a class="item">Cotton</a>\n' +
-  '        <a class="item">Viscose</a>\n' +
+  '        <FuiItem a>Cashmere</FuiItem>\n' +
+  '        <FuiItem a>Linen</FuiItem>\n' +
+  '        <FuiItem a>Cotton</FuiItem>\n' +
+  '        <FuiItem a>Viscose</FuiItem>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
   '      <h4 class="ui header">Size</h4>\n' +
   '      <div class="ui link list">\n' +
-  '        <a class="item">Small</a>\n' +
-  '        <a class="item">Medium</a>\n' +
-  '        <a class="item">Large</a>\n' +
-  '        <a class="item">Plus Sizes</a>\n' +
+  '        <FuiItem a>Small</FuiItem>\n' +
+  '        <FuiItem a>Medium</FuiItem>\n' +
+  '        <FuiItem a>Large</FuiItem>\n' +
+  '        <FuiItem a>Plus Sizes</FuiItem>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
   '      <h4 class="ui header">Colored</h4>\n' +
   '      <div class="ui link list">\n' +
-  '        <a class="item">Neutrals</a>\n' +
-  '        <a class="item">Brights</a>\n' +
-  '        <a class="item">Pastels</a>\n' +
+  '        <FuiItem a>Neutrals</FuiItem>\n' +
+  '        <FuiItem a>Brights</FuiItem>\n' +
+  '        <FuiItem a>Pastels</FuiItem>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="column">\n' +
   '      <h4 class="ui header">Types</h4>\n' +
   '      <div class="ui link list">\n' +
-  '        <a class="item">Knitwear</a>\n' +
-  '        <a class="item">Outerwear</a>\n' +
-  '        <a class="item">Pants</a>\n' +
-  '        <a class="item">Shoes</a>\n' +
+  '        <FuiItem a>Knitwear</FuiItem>\n' +
+  '        <FuiItem a>Outerwear</FuiItem>\n' +
+  '        <FuiItem a>Pants</FuiItem>\n' +
+  '        <FuiItem a>Shoes</FuiItem>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
 s.CollectionMenuBorderless1 = 
-  '<div class="ui borderless menu">\n' +
-  '  <a class="item">1</a>\n' +
-  '  <a class="item">2</a>\n' +
-  '  <a class="item">3</a>\n' +
-  '  <a class="item">4</a>\n' +
-  '  <a class="item">5</a>\n' +
-  '  <a class="item">6</a>\n' +
-  '</div>' 
+  '<FuiMenu borderless>\n' +
+  '  <FuiItem a>1</FuiItem>\n' +
+  '  <FuiItem a>2</FuiItem>\n' +
+  '  <FuiItem a>3</FuiItem>\n' +
+  '  <FuiItem a>4</FuiItem>\n' +
+  '  <FuiItem a>5</FuiItem>\n' +
+  '  <FuiItem a>6</FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuTabular3 = 
-  '<div class="ui top attached segment">\n' +
-  '  <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '</div>\n' +
-  '<div class="ui bottom attached tabular menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiSegment attached=top>\n' +
+  '  <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '</FuiSegment>\n' +
+  '<FuiMenu attached=bottom tabular>\n' +
+  '  <FuiItem a active>\n' +
   '    Active Project\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Project #2\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Project #3\n' +
-  '  </a>\n' +
-  '  <div class="right menu">\n' +
-  '    <a class="item">\n' +
-  '      <i class="add icon"></i> New Tab\n' +
-  '    </a>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '  <FuiMenu sub right>\n' +
+  '    <FuiItem a>\n' +
+  '      <FuiIcon name=add></FuiIcon> New Tab\n' +
+  '    </FuiItem>\n' +
+  '  </FuiMenu>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuVerticalMenu5 = 
-  '<div class="ui secondary vertical pointing menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu secondary vertical pointing>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuActive1 = 
-  '<div class="ui compact menu">\n' +
-  '  <div class="active item">\n' +
+  '<FuiMenu compact>\n' +
+  '  <FuiItem active>\n' +
   '    Link\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuTabular4 = 
-  '<div class="ui grid">\n' +
-  '  <div class="four wide column">\n' +
-  '    <div class="ui vertical fluid tabular menu">\n' +
-  '      <a class="active item">\n' +
+  '<FuiGrid>\n' +
+  '  <FuiColumn wide=four>\n' +
+  '    <FuiMenu vertical fluid tabular>\n' +
+  '      <FuiItem a active>\n' +
   '        Bio\n' +
-  '      </a>\n' +
-  '      <a class="item">\n' +
+  '      </FuiItem>\n' +
+  '      <FuiItem a>\n' +
   '        Pics\n' +
-  '      </a>\n' +
-  '      <a class="item">\n' +
+  '      </FuiItem>\n' +
+  '      <FuiItem a>\n' +
   '        Companies\n' +
-  '      </a>\n' +
-  '      <a class="item">\n' +
+  '      </FuiItem>\n' +
+  '      <FuiItem a>\n' +
   '        Links\n' +
-  '      </a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="twelve wide stretched column">\n' +
-  '    <div class="ui segment">\n' +
+  '      </FuiItem>\n' +
+  '    </FuiMenu>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn wide=twelve stretched>\n' +
+  '    <FuiSegment>\n' +
   '      This is an stretched grid column. This segment will always match the tab height\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
 s.CollectionMenuHeader2 = 
-  '<div class="ui vertical menu">\n' +
-  '  <div class="item">\n' +
-  '    <div class="header">Products</div>\n' +
-  '    <div class="menu">\n' +
-  '      <a class="item">Enterprise</a>\n' +
-  '      <a class="item">Consumer</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="header">CMS Solutions</div>\n' +
-  '    <div class="menu">\n' +
-  '      <a class="item">Rails</a>\n' +
-  '      <a class="item">Python</a>\n' +
-  '      <a class="item">PHP</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="header">Hosting</div>\n' +
-  '    <div class="menu">\n' +
-  '      <a class="item">Shared</a>\n' +
-  '      <a class="item">Dedicated</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="item">\n' +
-  '    <div class="header">Support</div>\n' +
-  '    <div class="menu">\n' +
-  '      <a class="item">E-mail Support</a>\n' +
-  '      <a class="item">FAQs</a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '<FuiMenu vertical>\n' +
+  '  <FuiItem header="Products">\n' +
+  '    <FuiMenu sub>\n' +
+  '      <FuiItem a>Enterprise</FuiItem>\n' +
+  '      <FuiItem a>Consumer</FuiItem>\n' +
+  '    </FuiMenu>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem header="CMS Solutions">\n' +
+  '    <FuiMenu sub>\n' +
+  '      <FuiItem a>Rails</FuiItem>\n' +
+  '      <FuiItem a>Python</FuiItem>\n' +
+  '      <FuiItem a>PHP</FuiItem>\n' +
+  '    </FuiMenu>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem header="Hosting">\n' +
+  '    <FuiMenu sub>\n' +
+  '      <FuiItem a>Shared</FuiItem>\n' +
+  '      <FuiItem a>Dedicated</FuiItem>\n' +
+  '    </FuiMenu>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem header="Support">\n' +
+  '    <FuiMenu sub>\n' +
+  '      <FuiItem a>E-mail Support</FuiItem>\n' +
+  '      <FuiItem a>FAQs</FuiItem>\n' +
+  '    </FuiMenu>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuMenu1 = 
-  '<div class="ui ignored message">\n' +
-  '  <p>Starting in <code>2.0</code> menus now use flexbox. This allows each menu item to automatically stretch to the size of the largest item.\n' +
-  '</p></div>\n' +
-  '<div class="ui three item menu">\n' +
-  '  <a class="active item">Editorials</a>\n' +
-  '  <a class="item">Reviews</a>\n' +
-  '  <a class="item">Upcoming Events</a>\n' +
-  '</div>' 
+  '<FuiMenu n=three>\n' +
+  '  <FuiItem a active>Editorials</FuiItem>\n' +
+  '  <FuiItem a>Reviews</FuiItem>\n' +
+  '  <FuiItem a>Upcoming Events</FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuVerticalMenu4 = 
-  '<div class="ui vertical pointing menu">\n' +
-  '  <a class="active item">\n' +
+  '<FuiMenu vertical pointing>\n' +
+  '  <FuiItem a active>\n' +
   '    Home\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Messages\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
   '    Friends\n' +
-  '  </a>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuFitted1 = 
-  '<div class="ui menu">\n' +
-  '  <div class="fitted item">\n' +
+  '<FuiMenu>\n' +
+  '  <FuiItem fitted>\n' +
   '    No padding whatsoever\n' +
-  '  </div>\n' +
-  '  <div class="horizontally fitted item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem fitted=horizontally>\n' +
   '    No horizontal padding\n' +
-  '  </div>\n' +
-  '  <div class="vertically fitted item">\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem fitted=vertically>\n' +
   '    No vertical padding\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenu4 = 
-  '<div class="ui massive vertical menu">\n' +
-  '  <a class="active item">\n' +
-  '    <div class="ui small teal label">1</div>\n' +
+  '<FuiMenu size=massive vertical>\n' +
+  '  <FuiItem a active>\n' +
+  '    <FuiLabel size=small color=teal>1</FuiLabel>\n' +
   '    Inbox\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <div class="ui small label">51</div>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiLabel size=small>51</FuiLabel>\n' +
   '    Spam\n' +
-  '  </a>\n' +
-  '  <a class="item">\n' +
-  '    <div class="ui small label">1</div>\n' +
+  '  </FuiItem>\n' +
+  '  <FuiItem a>\n' +
+  '    <FuiLabel size=small>1</FuiLabel>\n' +
   '    Updates\n' +
-  '  </a>\n' +
-  '  <div class="item">\n' +
-  '    <div class="ui icon input">\n' +
-  '      <input type="text" placeholder="Search mail..."/>\n' +
-  '      <i class="search icon"></i>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '  </FuiItem>\n' +
+  '  <FuiItem>\n' +
+  '    <FuiInput icon placeholder="Search mail...">\n' +
+  '      <FuiIcon name=search></FuiIcon>\n' +
+  '    </FuiInput>\n' +
+  '  </FuiItem>\n' +
+  '</FuiMenu>' 
 s.CollectionMenuTabular5 = 
-  '<div class="ui grid">\n' +
-  '  <div class="twelve wide stretched column">\n' +
-  '    <div class="ui segment">\n' +
+  '<FuiGrid>\n' +
+  '  <FuiColumn wide=twelve stretched>\n' +
+  '    <FuiSegment>\n' +
   '      This is an stretched grid column. This segment will always match the tab height\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="four wide column">\n' +
-  '    <div class="ui vertical fluid right tabular menu">\n' +
-  '      <a class="active item">\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn wide=four>\n' +
+  '    <FuiMenu vertical fluid right tabular>\n' +
+  '      <FuiItem a active>\n' +
   '        Bio\n' +
-  '      </a>\n' +
-  '      <a class="item">\n' +
+  '      </FuiItem>\n' +
+  '      <FuiItem a>\n' +
   '        Pics\n' +
-  '      </a>\n' +
-  '      <a class="item">\n' +
+  '      </FuiItem>\n' +
+  '      <FuiItem a>\n' +
   '        Companies\n' +
-  '      </a>\n' +
-  '      <a class="item">\n' +
+  '      </FuiItem>\n' +
+  '      <FuiItem a>\n' +
   '        Links\n' +
-  '      </a>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '      </FuiItem>\n' +
+  '    </FuiMenu>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
 s.CollectionFormDisabledField1 = 
   '<div class="ui form">\n' +
   '  <div class="two fields">\n' +

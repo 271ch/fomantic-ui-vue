@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="ui vertical pointing menu">
-      <a class="active item">
+    <FuiMenu vertical pointing>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -18,13 +18,13 @@
 export default {
   name: 'CollectionMenuVerticalMenu4',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Types',
     title2: 'Vertical Menu',
     description: 'A vertical menu displays elements vertically..',
-    model: '    <div class="ui vertical pointing menu">\n' +
+    model: '    <div class="ui pointing vertical menu">\n' +
       '      <a class="active item">\n' +
       '        Home\n' +
       '      </a>\n' +

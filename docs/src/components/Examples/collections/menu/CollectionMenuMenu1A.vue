@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="ui menu">
-      <a class="item">Browse</a>
-      <a class="item">Submit</a>
-      <div class="right menu">
-        <a class="item">Sign Up</a>
-        <a class="item">Help</a>
-      </div>
-    </div>
+    <FuiMenu>
+      <FuiItem a>Browse</FuiItem>
+      <FuiItem a>Submit</FuiItem>
+      <FuiMenu sub right>
+        <FuiItem a>Sign Up</FuiItem>
+        <FuiItem a>Help</FuiItem>
+      </FuiMenu>
+    </FuiMenu>
   </div>
 </template>
 
@@ -15,7 +15,7 @@
 export default {
   name: 'CollectionMenuMenu1A',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Content',

@@ -1,14 +1,13 @@
 <template>
   <div>
-    <div class="ui ignore warning message">Menu items are only hoverable if they are <code>a</code> links, or given the class name <code>link</code></div>
-    <div class="ui compact menu">
-      <a class="item">
+    <FuiMenu compact>
+      <FuiItem a>
         A link
-      </a>
-      <div class="link item">
+      </FuiItem>
+      <FuiItem link>
         div Link
-      </div>
-    </div>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -16,14 +15,13 @@
 export default {
   name: 'CollectionMenuHover1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'States',
     title2: 'Hover',
     description: 'A menu item can be hovered',
-    model: '    <div class="ui ignore warning message">Menu items are only hoverable if they are <code>a</code> links, or given the class name <code>link</code></div>\n' +
-      '    <div class="ui compact menu">\n' +
+    model: '    <div class="ui compact menu">\n' +
       '      <a class="item">\n' +
       '        A link\n' +
       '      </a>\n' +

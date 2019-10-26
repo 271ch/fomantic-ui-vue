@@ -1,19 +1,19 @@
 <template>
   <div>
-    <div class="ui menu">
-      <div class="header item">
+    <FuiMenu>
+      <FuiItem isHeader>
         Our Company
-      </div>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         About Us
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Jobs
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Locations
-      </a>
-    </div>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
 export default {
   name: 'CollectionMenuHeader1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Content',

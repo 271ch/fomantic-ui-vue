@@ -1,50 +1,50 @@
 <template>
   <div>
-    <div class="ui menu">
-      <a class="browse item">
+    <FuiMenu>
+      <FuiItem a>
         Browse
-        <i class="dropdown icon"></i>
-      </a>
-    </div>
-    <div class="ui fluid popup">
-      <div class="ui four column relaxed equal height divided grid">
-        <div class="column">
-          <h4 class="ui header">Fabrics</h4>
-          <div class="ui link list">
-            <a class="item">Cashmere</a>
-            <a class="item">Linen</a>
-            <a class="item">Cotton</a>
-            <a class="item">Viscose</a>
-          </div>
-        </div>
-        <div class="column">
-          <h4 class="ui header">Size</h4>
-          <div class="ui link list">
-            <a class="item">Small</a>
-            <a class="item">Medium</a>
-            <a class="item">Large</a>
-            <a class="item">Plus Sizes</a>
-          </div>
-        </div>
-        <div class="column">
-          <h4 class="ui header">Colored</h4>
-          <div class="ui link list">
-            <a class="item">Neutrals</a>
-            <a class="item">Brights</a>
-            <a class="item">Pastels</a>
-          </div>
-        </div>
-        <div class="column">
-          <h4 class="ui header">Types</h4>
-          <div class="ui link list">
-            <a class="item">Knitwear</a>
-            <a class="item">Outerwear</a>
-            <a class="item">Pants</a>
-            <a class="item">Shoes</a>
-          </div>
-        </div>
-      </div>
-    </div>
+        <FuiIcon name=dropdown></FuiIcon>
+      </FuiItem>
+    </FuiMenu>
+    <FuiPopup fluid>
+      <FuiGrid column=four relaxed equalHeight divided>
+        <FuiColumn>
+          <FuiHeader level=4>Fabrics</FuiHeader>
+          <FuiList link>
+            <FuiItem a>Cashmere</FuiItem>
+            <FuiItem a>Linen</FuiItem>
+            <FuiItem a>Cotton</FuiItem>
+            <FuiItem a>Viscose</FuiItem>
+          </FuiList>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiHeader level=4>Size</FuiHeader>
+          <FuiList link>
+            <FuiItem a>Small</FuiItem>
+            <FuiItem a>Medium</FuiItem>
+            <FuiItem a>Large</FuiItem>
+            <FuiItem a>Plus Sizes</FuiItem>
+          </FuiList>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiHeader level=4>Colored</FuiHeader>
+          <FuiList link>
+            <FuiItem a>Neutrals</FuiItem>
+            <FuiItem a>Brights</FuiItem>
+            <FuiItem a>Pastels</FuiItem>
+          </FuiList>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiHeader level=4>Types</FuiHeader>
+          <FuiList link>
+            <FuiItem a>Knitwear</FuiItem>
+            <FuiItem a>Outerwear</FuiItem>
+            <FuiItem a>Pants</FuiItem>
+            <FuiItem a>Shoes</FuiItem>
+          </FuiList>
+        </FuiColumn>
+      </FuiGrid>
+    </FuiPopup>
   </div>
 </template>
 
@@ -52,14 +52,14 @@
 export default {
   name: 'CollectionMenuPopupMenu1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Content',
     title2: 'Popup Menu',
     description: 'A menu item may show a large menu, or additional content using a',
     model: '    <div class="ui menu">\n' +
-      '      <a class="browse item">\n' +
+      '      <a class="item">\n' +
       '        Browse\n' +
       '        <i class="dropdown icon"></i>\n' +
       '      </a>\n' +

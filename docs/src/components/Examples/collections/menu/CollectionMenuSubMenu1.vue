@@ -1,33 +1,33 @@
 <template>
   <div>
-    <div class="ui vertical menu">
-      <div class="item">
-        <div class="ui input"><input type="text" placeholder="Search..."/></div>
-      </div>
-      <div class="item">
+    <FuiMenu vertical>
+      <FuiItem>
+        <FuiInput placeholder="Search..."></FuiInput>
+      </FuiItem>
+      <FuiItem>
         Home
-        <div class="menu">
-          <a class="active item">Search</a>
-          <a class="item">Add</a>
-          <a class="item">Remove</a>
-        </div>
-      </div>
-      <a class="item">
-        <i class="grid layout icon"></i> Browse
-      </a>
-      <a class="item">
+        <FuiMenu sub>
+          <FuiItem a active>Search</FuiItem>
+          <FuiItem a>Add</FuiItem>
+          <FuiItem a>Remove</FuiItem>
+        </FuiMenu>
+      </FuiItem>
+      <FuiItem a>
+        <FuiIcon name="grid layout"></FuiIcon> Browse
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <div class="ui dropdown item">
+      </FuiItem>
+      <FuiItem dropdown>
         More
-        <i class="dropdown icon"></i>
-        <div class="menu">
-          <a class="item"><i class="edit icon"></i> Edit Profile</a>
-          <a class="item"><i class="globe icon"></i> Choose Language</a>
-          <a class="item"><i class="settings icon"></i> Account Settings</a>
-        </div>
-      </div>
-    </div>
+        <FuiIcon name=dropdown></FuiIcon>
+        <FuiMenu sub>
+          <FuiItem a><FuiIcon name=edit></FuiIcon> Edit Profile</FuiItem>
+          <FuiItem a><FuiIcon name=globe></FuiIcon> Choose Language</FuiItem>
+          <FuiItem a><FuiIcon name=settings></FuiIcon> Account Settings</FuiItem>
+        </FuiMenu>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -35,7 +35,7 @@
 export default {
   name: 'CollectionMenuSubMenu1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Content',
@@ -43,7 +43,7 @@ export default {
     description: 'A menu item may contain another menu nested inside that acts as a grouped sub-menu.',
     model: '    <div class="ui vertical menu">\n' +
       '      <div class="item">\n' +
-      '        <div class="ui input"><input type="text" placeholder="Search..."/></div>\n' +
+      '        <div class="ui input"><input type="text" placeholder="Search..."></div>\n' +
       '      </div>\n' +
       '      <div class="item">\n' +
       '        Home\n' +

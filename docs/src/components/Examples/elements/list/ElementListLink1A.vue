@@ -1,9 +1,9 @@
 <template>
   <div>
     <FuiList>
-      <FuiItem tag=a>What is a FAQ?</FuiItem>
-      <FuiItem tag=a>Who is our user?</FuiItem>
-      <FuiItem tag=a>Where is our office located?</FuiItem>
+      <FuiItem a>What is a FAQ?</FuiItem>
+      <FuiItem a>Who is our user?</FuiItem>
+      <FuiItem a>Where is our office located?</FuiItem>
     </FuiList>
   </div>
 </template>

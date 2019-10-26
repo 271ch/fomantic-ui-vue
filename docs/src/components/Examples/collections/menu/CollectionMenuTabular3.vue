@@ -1,24 +1,24 @@
 <template>
   <div>
-    <div class="ui top attached segment">
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-    </div>
-    <div class="ui bottom attached tabular menu">
-      <a class="active item">
+    <FuiSegment attached=top>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
+    <FuiMenu attached=bottom tabular>
+      <FuiItem a active>
         Active Project
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Project #2
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Project #3
-      </a>
-      <div class="right menu">
-        <a class="item">
-          <i class="add icon"></i> New Tab
-        </a>
-      </div>
-    </div>
+      </FuiItem>
+      <FuiMenu sub right>
+        <FuiItem a>
+          <FuiIcon name=add></FuiIcon> New Tab
+        </FuiItem>
+      </FuiMenu>
+    </FuiMenu>
   </div>
 </template>
 
@@ -26,7 +26,7 @@
 export default {
   name: 'CollectionMenuTabular3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Types',

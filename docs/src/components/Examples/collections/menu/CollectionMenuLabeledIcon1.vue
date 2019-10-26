@@ -1,34 +1,34 @@
 <template>
   <div>
-    <div class="ui labeled icon menu">
-      <a class="item">
-        <i class="gamepad icon"></i>
+    <FuiMenu icon=labeled>
+      <FuiItem a>
+        <FuiIcon name=gamepad></FuiIcon>
         Games
-      </a>
-      <a class="item">
-        <i class="video camera icon"></i>
+      </FuiItem>
+      <FuiItem a>
+        <FuiIcon name="video camera"></FuiIcon>
         Channels
-      </a>
-      <a class="item">
-        <i class="video play icon"></i>
+      </FuiItem>
+      <FuiItem a>
+        <FuiIcon name="video play"></FuiIcon>
         Videos
-      </a>
-    </div>
-    <br/><br/>
-    <div class="ui vertical labeled icon menu">
-      <a class="item">
-        <i class="gamepad icon"></i>
+      </FuiItem>
+    </FuiMenu>
+    <br><br>
+    <FuiMenu vertical icon=labeled>
+      <FuiItem a>
+        <FuiIcon name=gamepad></FuiIcon>
         Games
-      </a>
-      <a class="item">
-        <i class="video camera icon"></i>
+      </FuiItem>
+      <FuiItem a>
+        <FuiIcon name="video camera"></FuiIcon>
         Channels
-      </a>
-      <a class="item">
-        <i class="video play icon"></i>
+      </FuiItem>
+      <FuiItem a>
+        <FuiIcon name="video play"></FuiIcon>
         Videos
-      </a>
-    </div>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -36,7 +36,7 @@
 export default {
   name: 'CollectionMenuLabeledIcon1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',
@@ -56,7 +56,7 @@ export default {
       '        Videos\n' +
       '      </a>\n' +
       '    </div>\n' +
-      '    <br/><br/>\n' +
+      '    <br><br>\n' +
       '    <div class="ui vertical labeled icon menu">\n' +
       '      <a class="item">\n' +
       '        <i class="gamepad icon"></i>\n' +

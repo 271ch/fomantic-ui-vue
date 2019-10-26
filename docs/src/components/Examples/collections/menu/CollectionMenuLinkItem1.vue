@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="ui vertical menu">
-      <a href="http://www.google.com" class="item">
+    <FuiMenu vertical>
+      <FuiItem a href="http://www.google.com">
         Visit Google
-      </a>
-      <div class="link item">
+      </FuiItem>
+      <FuiItem link>
         Javascript Link
-      </div>
-    </div>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -15,14 +15,14 @@
 export default {
   name: 'CollectionMenuLinkItem1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Content',
     title2: 'Link Item',
     description: 'A menu may contain a link item, or an item formatted as if it is a link.',
     model: '    <div class="ui vertical menu">\n' +
-      '      <a href="http://www.google.com" class="item">\n' +
+      '      <a class="item" href="http://www.google.com">\n' +
       '        Visit Google\n' +
       '      </a>\n' +
       '      <div class="link item">\n' +

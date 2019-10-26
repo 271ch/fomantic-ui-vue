@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="ui menu">
-      <div class="item">
-        <div class="ui primary button">Sign up</div>
-      </div>
-      <div class="item">
-        <div class="ui button">Log-in</div>
-      </div>
-    </div>
+    <FuiMenu>
+      <FuiItem>
+        <FuiButton tag=div primary>Sign up</FuiButton>
+      </FuiItem>
+      <FuiItem>
+        <FuiButton tag=div>Log-in</FuiButton>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -15,7 +15,7 @@
 export default {
   name: 'CollectionMenuButton1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Content',

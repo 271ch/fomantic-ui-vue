@@ -1,46 +1,45 @@
 <template>
   <div>
-    <div class="ui top attached menu">
-      <div class="ui dropdown icon item">
-        <i class="wrench icon"></i>
-        <div class="menu">
-          <div class="item">
-            <i class="dropdown icon"></i>
-            <span class="text">New</span>
-            <div class="menu">
-              <div class="item">Document</div>
-              <div class="item">Image</div>
-            </div>
-          </div>
-          <div class="item">
+    <FuiMenu attached=top>
+      <FuiItem dropdown icon>
+        <FuiIcon name=wrench></FuiIcon>
+        <FuiMenu sub>
+          <FuiItem>
+            <FuiIcon name=dropdown></FuiIcon>
+            <FuiText int>New</FuiText>
+            <FuiMenu sub>
+              <FuiItem>Document</FuiItem>
+              <FuiItem>Image</FuiItem>
+            </FuiMenu>
+          </FuiItem>
+          <FuiItem>
             Open...
-          </div>
-          <div class="item">
+          </FuiItem>
+          <FuiItem>
             Save...
-          </div>
-          <div class="item">Edit Permissions</div>
+          </FuiItem>
+          <FuiItem>Edit Permissions</FuiItem>
           <div class="divider"/>
           <div class="header">
             Export
           </div>
-          <div class="item">
+          <FuiItem>
             Share...
-          </div>
-        </div>
-      </div>
-      <div class="right menu">
-        <div class="ui right aligned category search item">
-          <div class="ui transparent icon input">
-            <input class="prompt" type="text" placeholder="Search animals..."/>
-            <i class="search link icon"></i>
-          </div>
-          <div class="results"/>
-        </div>
-      </div>
-    </div>
-    <div class="ui bottom attached segment">
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-    </div>
+          </FuiItem>
+        </FuiMenu>
+      </FuiItem>
+      <FuiMenu sub right>
+        <FuiItem right search>
+          <FuiInput transparent icon prompt placeholder="Search animals...">
+            <FuiIcon name=search link></FuiIcon>
+          </FuiInput>
+          <div class="results"></div>
+        </FuiItem>
+      </FuiMenu>
+    </FuiMenu>
+    <FuiSegment attached=bottom>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -48,7 +47,7 @@
 export default {
   name: 'CollectionMenuMenu3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Types',
@@ -73,7 +72,7 @@ export default {
       '            Save...\n' +
       '          </div>\n' +
       '          <div class="item">Edit Permissions</div>\n' +
-      '          <div class="divider"/>\n' +
+      '          <div class="divider"></div>\n' +
       '          <div class="header">\n' +
       '            Export\n' +
       '          </div>\n' +
@@ -83,12 +82,12 @@ export default {
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="right menu">\n' +
-      '        <div class="ui right aligned category search item">\n' +
+      '        <div class="search right item">\n' +
       '          <div class="ui transparent icon input">\n' +
-      '            <input class="prompt" type="text" placeholder="Search animals..."/>\n' +
+      '            <input type="text" placeholder="Search animals..." class="prompt">\n' +
       '            <i class="search link icon"></i>\n' +
       '          </div>\n' +
-      '          <div class="results"/>\n' +
+      '          <div class="results"></div>\n' +
       '        </div>\n' +
       '      </div>\n' +
       '    </div>\n' +

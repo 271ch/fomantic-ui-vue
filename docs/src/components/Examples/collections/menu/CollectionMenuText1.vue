@@ -1,17 +1,17 @@
 <template>
   <div>
-    <div class="ui text menu">
-      <div class="header item">Sort By</div>
-      <a class="active item">
+    <FuiMenu text>
+      <FuiItem isHeader>Sort By</FuiItem>
+      <FuiItem a active>
         Closest
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Most Comments
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Most Popular
-      </a>
-    </div>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -19,7 +19,7 @@
 export default {
   name: 'CollectionMenuText1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Types',

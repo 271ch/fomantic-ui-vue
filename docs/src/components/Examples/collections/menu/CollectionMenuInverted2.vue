@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="ui inverted vertical menu">
-      <a class="active item">
+    <FuiMenu inverted vertical>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 export default {
   name: 'CollectionMenuInverted2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',

@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui compact menu">
-      <div class="active item">
+    <FuiMenu compact>
+      <FuiItem active>
         Link
-      </div>
-    </div>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'CollectionMenuActive1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'States',

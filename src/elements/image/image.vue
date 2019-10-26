@@ -51,6 +51,10 @@ export default {
       type: Boolean,
       description: '',
     },
+    mini: { // TODO: description
+      type: Boolean,
+      description: '',
+    },
     avatar: { // TODO: description
       type: Boolean,
       description: '',
@@ -103,6 +107,7 @@ export default {
         this.spaced !== true && this.spaced,
         this.spaced && 'spaced',
         this.avatar && 'avatar',
+        this.mini && 'mini',
         'image'
       );
     },

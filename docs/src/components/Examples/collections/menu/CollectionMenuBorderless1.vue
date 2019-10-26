@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="ui borderless menu">
-      <a class="item">1</a>
-      <a class="item">2</a>
-      <a class="item">3</a>
-      <a class="item">4</a>
-      <a class="item">5</a>
-      <a class="item">6</a>
-    </div>
+    <FuiMenu borderless>
+      <FuiItem a>1</FuiItem>
+      <FuiItem a>2</FuiItem>
+      <FuiItem a>3</FuiItem>
+      <FuiItem a>4</FuiItem>
+      <FuiItem a>5</FuiItem>
+      <FuiItem a>6</FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -15,7 +15,7 @@
 export default {
   name: 'CollectionMenuBorderless1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',

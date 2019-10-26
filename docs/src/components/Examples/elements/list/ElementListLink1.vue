@@ -2,9 +2,9 @@
   <div>
     <FuiList link>
       <FuiItem active>Home</FuiItem>
-      <FuiItem tag=a>About</FuiItem>
-      <FuiItem tag=a>Jobs</FuiItem>
-      <FuiItem tag=a>Team</FuiItem>
+      <FuiItem a>About</FuiItem>
+      <FuiItem a>Jobs</FuiItem>
+      <FuiItem a>Team</FuiItem>
     </FuiList>
   </div>
 </template>

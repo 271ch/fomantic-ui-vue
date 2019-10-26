@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui fluid three item menu">
-      <a class="item">Buy</a>
-      <a class="item">Sell</a>
-      <a class="item">Rent</a>
-    </div>
+    <FuiMenu fluid n=three>
+      <FuiItem a>Buy</FuiItem>
+      <FuiItem a>Sell</FuiItem>
+      <FuiItem a>Rent</FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'CollectionMenuEvenlyDivided1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',

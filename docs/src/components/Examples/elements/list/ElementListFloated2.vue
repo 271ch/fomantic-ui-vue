@@ -2,13 +2,13 @@
   <div>
     <FuiList floated=right horizontal>
       <FuiItem disabled href="#">© GitHub, Inc.</FuiItem>
-      <FuiItem tag=a href="#">Terms</FuiItem>
-      <FuiItem tag=a href="#">Privacy</FuiItem>
-      <FuiItem tag=a href="#">Contact</FuiItem>
+      <FuiItem a href="#">Terms</FuiItem>
+      <FuiItem a href="#">Privacy</FuiItem>
+      <FuiItem a href="#">Contact</FuiItem>
     </FuiList>
     <FuiList horizontal>
-      <FuiItem tag=a href="#">About Us</FuiItem>
-      <FuiItem tag=a href="#">Jobs</FuiItem>
+      <FuiItem a href="#">About Us</FuiItem>
+      <FuiItem a href="#">Jobs</FuiItem>
     </FuiList>
   </div>
 </template>

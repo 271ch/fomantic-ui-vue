@@ -1,17 +1,16 @@
 <template>
   <div>
-    <div class="ui menu">
-      <div class="ui category search item">
-        <div class="ui transparent icon input">
-          <input class="prompt" type="text" placeholder="Search animals..."/>
-          <i class="search link icon"></i>
-        </div>
+    <FuiMenu>
+      <FuiItem search>
+        <FuiInput transparent icon prompt placeholder="Search animals...">
+          <FuiIcon name=search link></FuiIcon>
+        </FuiInput>
         <div class="results"/>
-      </div>
-    </div>
-    <div class="ui segment">
-      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-    </div>
+      </FuiItem>
+    </FuiMenu>
+    <FuiSegment>
+      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+    </FuiSegment>
   </div>
 </template>
 
@@ -19,19 +18,19 @@
 export default {
   name: 'CollectionMenuSearch1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Content',
     title2: 'Search',
     description: 'A menu can contain a',
     model: '    <div class="ui menu">\n' +
-      '      <div class="ui category search item">\n' +
+      '      <div class="search item">\n' +
       '        <div class="ui transparent icon input">\n' +
-      '          <input class="prompt" type="text" placeholder="Search animals..."/>\n' +
+      '          <input type="text" placeholder="Search animals..." class="prompt">\n' +
       '          <i class="search link icon"></i>\n' +
       '        </div>\n' +
-      '        <div class="results"/>\n' +
+      '        <div class="results"></div>\n' +
       '      </div>\n' +
       '    </div>\n' +
       '    <div class="ui segment">\n' +

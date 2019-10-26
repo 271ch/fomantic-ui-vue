@@ -1,28 +1,28 @@
 <template>
   <div>
-    <div class="ui icon menu">
-      <a class="item">
-        <i class="gamepad icon"></i>
-      </a>
-      <a class="item">
-        <i class="video camera icon"></i>
-      </a>
-      <a class="item">
-        <i class="video play icon"></i>
-      </a>
-    </div>
-    <br/><br/>
-    <div class="ui vertical icon menu">
-      <a class="item">
-        <i class="gamepad icon"></i>
-      </a>
-      <a class="item">
-        <i class="video camera icon"></i>
-      </a>
-      <a class="item">
-        <i class="video play icon"></i>
-      </a>
-    </div>
+    <FuiMenu icon>
+      <FuiItem a>
+        <FuiIcon name=gamepad></FuiIcon>
+      </FuiItem>
+      <FuiItem a>
+        <FuiIcon name="video camera"></FuiIcon>
+      </FuiItem>
+      <FuiItem a>
+        <FuiIcon name="video play"></FuiIcon>
+      </FuiItem>
+    </FuiMenu>
+    <br><br>
+    <FuiMenu vertical icon>
+      <FuiItem a>
+        <FuiIcon name=gamepad></FuiIcon>
+      </FuiItem>
+      <FuiItem a>
+        <FuiIcon name="video camera"></FuiIcon>
+      </FuiItem>
+      <FuiItem a>
+        <FuiIcon name="video play"></FuiIcon>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -30,7 +30,7 @@
 export default {
   name: 'CollectionMenuIcons1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',
@@ -47,7 +47,7 @@ export default {
       '        <i class="video play icon"></i>\n' +
       '      </a>\n' +
       '    </div>\n' +
-      '    <br/><br/>\n' +
+      '    <br><br>\n' +
       '    <div class="ui vertical icon menu">\n' +
       '      <a class="item">\n' +
       '        <i class="gamepad icon"></i>\n' +

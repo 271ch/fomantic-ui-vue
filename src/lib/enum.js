@@ -63,6 +63,7 @@ const enums = {
   }),
   Fitted: Enum.from('vertically', 'horizontally'),
   Move: Enum.from('down', 'up', 'left', 'right'),
+  FixedMenu: Enum.from('top', 'bottom', 'left', 'right'),
 };
 
 export default enums;

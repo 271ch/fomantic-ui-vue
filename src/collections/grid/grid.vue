@@ -39,25 +39,18 @@ export default {
       type: Boolean,
       description: '',
     },
-    /*
-    prop1: { // TODO: Component FuiGrid
+    divided: { // TODO:descr
       type: Boolean,
       description: '',
     },
-    prop2: {
-      type: String,
+    equalHeight: { // TODO:descr
+      type: Boolean,
       description: '',
-      default: '',
     },
-    prop3: {
-      type: String,
+    equalWidth: { // TODO:descr
+      type: Boolean,
       description: '',
-      validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
-      },
-      default: '',
     },
-    */
   },
   events: {
     click: {
@@ -75,6 +68,9 @@ export default {
         this.relaxed && 'relaxed',
         this.stackable && 'stackable',
         ...this.getClassesAligned,
+        this.equalHeight && 'equal height',
+        this.equalWidth && 'equal width',
+        this.divided && 'divided',
         'grid'
       );
     },

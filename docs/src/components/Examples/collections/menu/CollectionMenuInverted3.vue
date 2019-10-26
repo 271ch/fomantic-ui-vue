@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="ui inverted vertical pointing menu">
-      <a class="active item">
+    <FuiMenu inverted vertical pointing>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -18,13 +18,13 @@
 export default {
   name: 'CollectionMenuInverted3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',
     title2: 'Inverted',
     description: 'A menu may have its colors inverted to show greater contrast',
-    model: '    <div class="ui inverted vertical pointing menu">\n' +
+    model: '    <div class="ui inverted pointing vertical menu">\n' +
       '      <a class="active item">\n' +
       '        Home\n' +
       '      </a>\n' +

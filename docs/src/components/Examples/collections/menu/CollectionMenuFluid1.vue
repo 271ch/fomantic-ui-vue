@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="ui fluid vertical menu">
-      <a class="item">Run</a>
-      <a class="item">Walk</a>
-      <a class="item">Bike</a>
-    </div>
+    <FuiMenu fluid vertical>
+      <FuiItem a>Run</FuiItem>
+      <FuiItem a>Walk</FuiItem>
+      <FuiItem a>Bike</FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 export default {
   name: 'CollectionMenuFluid1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',

@@ -1,19 +1,17 @@
 <template>
   <div>
-    <div class="ui menu">
-      <div class="item">
-        <div class="ui icon input">
-          <input type="text" placeholder="Search..."/>
-          <i class="search icon"></i>
-        </div>
-      </div>
-      <div class="right item">
-        <div class="ui action input">
-          <input type="text" placeholder="Navigate to..."/>
-          <div class="ui button">Go</div>
-        </div>
-      </div>
-    </div>
+    <FuiMenu>
+      <FuiItem>
+        <FuiInput icon placeholder="Search...">
+          <FuiIcon name=search></FuiIcon>
+        </FuiInput>
+      </FuiItem>
+      <FuiItem right>
+        <FuiInput action placeholder="Navigate to...">
+          <FuiButton tag=div>Go</FuiButton>
+        </FuiInput>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -21,7 +19,7 @@
 export default {
   name: 'CollectionMenuInput1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Content',
@@ -30,13 +28,13 @@ export default {
     model: '    <div class="ui menu">\n' +
       '      <div class="item">\n' +
       '        <div class="ui icon input">\n' +
-      '          <input type="text" placeholder="Search..."/>\n' +
+      '          <input type="text" placeholder="Search...">\n' +
       '          <i class="search icon"></i>\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="right item">\n' +
       '        <div class="ui action input">\n' +
-      '          <input type="text" placeholder="Navigate to..."/>\n' +
+      '          <input type="text" placeholder="Navigate to...">\n' +
       '          <div class="ui button">Go</div>\n' +
       '        </div>\n' +
       '      </div>\n' +

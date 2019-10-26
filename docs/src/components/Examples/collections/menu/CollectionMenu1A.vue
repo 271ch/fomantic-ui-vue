@@ -1,25 +1,24 @@
 <template>
   <div>
-    <div class="ui mini vertical menu">
-      <a class="active item">
-        <div class="ui teal label">1</div>
+    <FuiMenu size=mini vertical>
+      <FuiItem a active>
+        <FuiLabel color=teal>1</FuiLabel>
         Inbox
-      </a>
-      <a class="item">
-        <div class="ui label">51</div>
+      </FuiItem>
+      <FuiItem a>
+        <FuiLabel>51</FuiLabel>
         Spam
-      </a>
-      <a class="item">
-        <div class="ui label">1</div>
+      </FuiItem>
+      <FuiItem a>
+        <FuiLabel>1</FuiLabel>
         Updates
-      </a>
-      <div class="item">
-        <div class="ui icon input">
-          <input type="text" placeholder="Search mail..."/>
-          <i class="search icon"></i>
-        </div>
-      </div>
-    </div>
+      </FuiItem>
+      <FuiItem>
+        <FuiInput icon placeholder="Search mail...">
+          <FuiIcon name=search></FuiIcon>
+        </FuiInput>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -27,7 +26,7 @@
 export default {
   name: 'CollectionMenu1A',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',
@@ -48,7 +47,7 @@ export default {
       '      </a>\n' +
       '      <div class="item">\n' +
       '        <div class="ui icon input">\n' +
-      '          <input type="text" placeholder="Search mail..."/>\n' +
+      '          <input type="text" placeholder="Search mail...">\n' +
       '          <i class="search icon"></i>\n' +
       '        </div>\n' +
       '      </div>\n' +

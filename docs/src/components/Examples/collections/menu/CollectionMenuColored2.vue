@@ -1,137 +1,137 @@
 <template>
   <div>
-    <div class="ui red three item menu">
-      <a class="active item">
+    <FuiMenu color=red n=three>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui orange three item menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=orange n=three>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui yellow three item menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=yellow n=three>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui olive three item menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=olive n=three>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui green three item menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=green n=three>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui teal three item menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=teal n=three>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui blue three item menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=blue n=three>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui violet three item menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=violet n=three>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui purple three item menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=purple n=three>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui pink three item menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=pink n=three>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui brown three item menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=brown n=three>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
-    <div class="ui grey three item menu">
-      <a class="active item">
+      </FuiItem>
+    </FuiMenu>
+    <FuiMenu color=grey n=three>
+      <FuiItem a active>
         Home
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Messages
-      </a>
-      <a class="item">
+      </FuiItem>
+      <FuiItem a>
         Friends
-      </a>
-    </div>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -139,7 +139,7 @@
 export default {
   name: 'CollectionMenuColored2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',

@@ -1,26 +1,26 @@
 <template>
   <div>
-    <div class="ui pointing vertical menu">
-      <a class="item">
+    <FuiMenu pointing vertical>
+      <FuiItem a>
         Site Title
-      </a>
-      <div class="item">
+      </FuiItem>
+      <FuiItem>
         <b>Grouped Section</b>
-        <div class="menu">
-          <a class="item">Subsection 1</a>
-          <a class="active item">Subsection 1</a>
-          <a class="item">Subsection 1</a>
-        </div>
-      </div>
-      <div class="ui dropdown item">
-        Dropdown <i class="dropdown icon"></i>
-        <div class="menu">
-          <div class="item">Choice 1</div>
-          <div class="item">Choice 2</div>
-          <div class="item">Choice 3</div>
-        </div>
-      </div>
-    </div>
+        <FuiMenu sub>
+          <FuiItem a>Subsection 1</FuiItem>
+          <FuiItem a active>Subsection 1</FuiItem>
+          <FuiItem a>Subsection 1</FuiItem>
+        </FuiMenu>
+      </FuiItem>
+      <FuiItem dropdown>
+        Dropdown <FuiIcon name=dropdown></FuiIcon>
+        <FuiMenu sub>
+          <FuiItem>Choice 1</FuiItem>
+          <FuiItem>Choice 2</FuiItem>
+          <FuiItem>Choice 3</FuiItem>
+        </FuiMenu>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -28,7 +28,7 @@
 export default {
   name: 'CollectionMenu1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',

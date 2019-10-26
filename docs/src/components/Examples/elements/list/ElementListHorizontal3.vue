@@ -1,13 +1,13 @@
 <template>
   <div>
     <FuiList horizontal bulleted link>
-      <FuiItem tag=a>
+      <FuiItem a>
         Terms and Conditions
       </FuiItem>
-      <FuiItem tag=a>
+      <FuiItem a>
         Privacy Policy
       </FuiItem>
-      <FuiItem tag=a>
+      <FuiItem a>
         Contact Us
       </FuiItem>
     </FuiList>

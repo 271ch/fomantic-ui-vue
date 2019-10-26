@@ -1,28 +1,28 @@
 <template>
   <div>
-    <div class="ui grid">
-      <div class="four wide column">
-        <div class="ui vertical fluid tabular menu">
-          <a class="active item">
+    <FuiGrid>
+      <FuiColumn wide=four>
+        <FuiMenu vertical fluid tabular>
+          <FuiItem a active>
             Bio
-          </a>
-          <a class="item">
+          </FuiItem>
+          <FuiItem a>
             Pics
-          </a>
-          <a class="item">
+          </FuiItem>
+          <FuiItem a>
             Companies
-          </a>
-          <a class="item">
+          </FuiItem>
+          <FuiItem a>
             Links
-          </a>
-        </div>
-      </div>
-      <div class="twelve wide stretched column">
-        <div class="ui segment">
+          </FuiItem>
+        </FuiMenu>
+      </FuiColumn>
+      <FuiColumn wide=twelve stretched>
+        <FuiSegment>
           This is an stretched grid column. This segment will always match the tab height
-        </div>
-      </div>
-    </div>
+        </FuiSegment>
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -30,7 +30,7 @@
 export default {
   name: 'CollectionMenuTabular4',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Types',
@@ -38,7 +38,7 @@ export default {
     description: 'A menu can be formatted to show tabs of information',
     model: '    <div class="ui grid">\n' +
       '      <div class="four wide column">\n' +
-      '        <div class="ui vertical fluid tabular menu">\n' +
+      '        <div class="ui fluid vertical tabular menu">\n' +
       '          <a class="active item">\n' +
       '            Bio\n' +
       '          </a>\n' +

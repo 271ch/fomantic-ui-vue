@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="ui menu">
-      <div class="fitted item">
+    <FuiMenu>
+      <FuiItem fitted>
         No padding whatsoever
-      </div>
-      <div class="horizontally fitted item">
+      </FuiItem>
+      <FuiItem fitted=horizontally>
         No horizontal padding
-      </div>
-      <div class="vertically fitted item">
+      </FuiItem>
+      <FuiItem fitted=vertically>
         No vertical padding
-      </div>
-    </div>
+      </FuiItem>
+    </FuiMenu>
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 export default {
   name: 'CollectionMenuFitted1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'menu',
     title1: 'Variations',
