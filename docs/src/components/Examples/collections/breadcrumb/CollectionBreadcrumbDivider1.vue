@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="ui breadcrumb">
-      <a class="section">Home</a>
-      <span class="divider">/</span>
-      <a class="section">Registration</a>
-      <span class="divider">/</span>
-      <div class="active section">Personal Information</div>
-    </div>
+    <FuiBreadcrumb>
+      <FuiBCSection>Home</FuiBCSection>
+      <FuiBCDivider tag=span>/</FuiBCDivider>
+      <FuiBCSection>Registration</FuiBCSection>
+      <FuiBCDivider tag=span>/</FuiBCDivider>
+      <FuiBCSection tag=div active>Personal Information</FuiBCSection>
+    </FuiBreadcrumb>
   </div>
 </template>
 
@@ -14,7 +14,7 @@
 export default {
   name: 'CollectionBreadcrumbDivider1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'breadcrumb',
     title1: 'Content',

@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="ui large breadcrumb">
-      <a class="section">Home</a>
-      <i class="right chevron icon divider"></i>
-      <a class="section">Registration</a>
-      <i class="right chevron icon divider"></i>
-      <div class="active section">Personal Information</div>
-    </div>
+    <FuiBreadcrumb size=large>
+      <FuiBCSection>Home</FuiBCSection>
+      <FuiBCDivider iconName="right chevron"></FuiBCDivider>
+      <FuiBCSection>Registration</FuiBCSection>
+      <FuiBCDivider iconName="right chevron"></FuiBCDivider>
+      <FuiBCSection tag=div active>Personal Information</FuiBCSection>
+    </FuiBreadcrumb>
   </div>
 </template>
 
@@ -14,7 +14,7 @@
 export default {
   name: 'CollectionBreadcrumbSize4',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'breadcrumb',
     title1: 'Variations',

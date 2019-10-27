@@ -18837,7 +18837,7 @@ s.CollectionMenuMenu3 =
   '    </FuiMenu>\n' +
   '  </FuiItem>\n' +
   '  <FuiMenu sub right>\n' +
-  '    <FuiItem right aligned search>\n' +
+  '    <FuiItem right search>\n' +
   '      <FuiInput transparent icon prompt placeholder="Search animals...">\n' +
   '        <FuiIcon name=search link></FuiIcon>\n' +
   '      </FuiInput>\n' +
@@ -19742,50 +19742,50 @@ s.CollectionMenu1A =
   '</FuiMenu>' 
 s.CollectionMenuPopupMenu1 = 
   '<FuiMenu>\n' +
-  '  <FuiItem a browse>\n' +
+  '  <FuiItem a>\n' +
   '    Browse\n' +
   '    <FuiIcon name=dropdown></FuiIcon>\n' +
   '  </FuiItem>\n' +
   '</FuiMenu>\n' +
-  '<div class="ui fluid popup">\n' +
-  '  <div class="ui four column relaxed equal height divided grid">\n' +
-  '    <div class="column">\n' +
-  '      <h4 class="ui header">Fabrics</h4>\n' +
-  '      <div class="ui link list">\n' +
+  '<FuiPopup fluid>\n' +
+  '  <FuiGrid column=four relaxed equalHeight divided>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiHeader level=4>Fabrics</FuiHeader>\n' +
+  '      <FuiList link>\n' +
   '        <FuiItem a>Cashmere</FuiItem>\n' +
   '        <FuiItem a>Linen</FuiItem>\n' +
   '        <FuiItem a>Cotton</FuiItem>\n' +
   '        <FuiItem a>Viscose</FuiItem>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <h4 class="ui header">Size</h4>\n' +
-  '      <div class="ui link list">\n' +
+  '      </FuiList>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiHeader level=4>Size</FuiHeader>\n' +
+  '      <FuiList link>\n' +
   '        <FuiItem a>Small</FuiItem>\n' +
   '        <FuiItem a>Medium</FuiItem>\n' +
   '        <FuiItem a>Large</FuiItem>\n' +
   '        <FuiItem a>Plus Sizes</FuiItem>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <h4 class="ui header">Colored</h4>\n' +
-  '      <div class="ui link list">\n' +
+  '      </FuiList>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiHeader level=4>Colored</FuiHeader>\n' +
+  '      <FuiList link>\n' +
   '        <FuiItem a>Neutrals</FuiItem>\n' +
   '        <FuiItem a>Brights</FuiItem>\n' +
   '        <FuiItem a>Pastels</FuiItem>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <h4 class="ui header">Types</h4>\n' +
-  '      <div class="ui link list">\n' +
+  '      </FuiList>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiHeader level=4>Types</FuiHeader>\n' +
+  '      <FuiList link>\n' +
   '        <FuiItem a>Knitwear</FuiItem>\n' +
   '        <FuiItem a>Outerwear</FuiItem>\n' +
   '        <FuiItem a>Pants</FuiItem>\n' +
   '        <FuiItem a>Shoes</FuiItem>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>' 
+  '      </FuiList>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiGrid>\n' +
+  '</FuiPopup>' 
 s.CollectionMenuBorderless1 = 
   '<FuiMenu borderless>\n' +
   '  <FuiItem a>1</FuiItem>\n' +
@@ -23387,129 +23387,129 @@ s.CollectionTableColumnCount1 =
   '  </tfoot>\n' +
   '</table>' 
 s.CollectionBreadcrumbActive1 = 
-  '<div class="ui breadcrumb">\n' +
-  '  <a class="section">Products</a>\n' +
-  '  <div class="divider"> / </div>\n' +
-  '  <div class="active section">Paper Towels</div>\n' +
-  '</div>' 
+  '<FuiBreadcrumb>\n' +
+  '  <FuiBCSection>Products</FuiBCSection>\n' +
+  '  <FuiBCDivider> / </FuiBCDivider>\n' +
+  '  <FuiBCSection tag=div active>Paper Towels</FuiBCSection>\n' +
+  '</FuiBreadcrumb>' 
 s.CollectionBreadcrumbDivider2 = 
-  '<div class="ui breadcrumb">\n' +
-  '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <a class="section">Registration</a>\n' +
-  '  <i class="right arrow icon divider"></i>\n' +
-  '  <div class="active section">Personal Information</div>\n' +
-  '</div>' 
+  '<FuiBreadcrumb>\n' +
+  '  <FuiBCSection>Home</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection>Registration</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right arrow"></FuiBCDivider>\n' +
+  '  <FuiBCSection tag=div active>Personal Information</FuiBCSection>\n' +
+  '</FuiBreadcrumb>' 
 s.CollectionBreadcrumbSize5 = 
-  '<div class="ui big breadcrumb">\n' +
-  '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <a class="section">Registration</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <div class="active section">Personal Information</div>\n' +
-  '</div>' 
+  '<FuiBreadcrumb size=big>\n' +
+  '  <FuiBCSection>Home</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection>Registration</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection tag=div active>Personal Information</FuiBCSection>\n' +
+  '</FuiBreadcrumb>' 
 s.CollectionBreadcrumbInverted1 = 
-  '<div class="ui inverted segment">\n' +
-  '    <div class="ui inverted breadcrumb">\n' +
-  '        <a class="section">Home</a>\n' +
-  '        <i class="right chevron icon divider"></i>\n' +
-  '        <a class="section">Registration</a>\n' +
-  '        <i class="right chevron icon divider"></i>\n' +
-  '        <div class="active section">Personal Information</div>\n' +
-  '    </div>\n' +
+  '<FuiSegment inverted>\n' +
+  '    <FuiBreadcrumb inverted>\n' +
+  '        <FuiBCSection>Home</FuiBCSection>\n' +
+  '        <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '        <FuiBCSection>Registration</FuiBCSection>\n' +
+  '        <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '        <FuiBCSection tag=div active>Personal Information</FuiBCSection>\n' +
+  '    </FuiBreadcrumb>\n' +
   '    <p></p>\n' +
-  '    <div class="ui inverted breadcrumb">\n' +
-  '        <div class="section">Home</div>\n' +
-  '        <i class="right chevron icon divider"></i>\n' +
-  '        <div class="section">Registration</div>\n' +
-  '        <i class="right chevron icon divider"></i>\n' +
-  '        <div class="active section">Personal Information</div>\n' +
-  '    </div>\n' +
-  '</div>' 
+  '    <FuiBreadcrumb inverted>\n' +
+  '        <FuiBCSection tag=div>Home</FuiBCSection>\n' +
+  '        <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '        <FuiBCSection tag=div>Registration</FuiBCSection>\n' +
+  '        <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '        <FuiBCSection tag=div active>Personal Information</FuiBCSection>\n' +
+  '    </FuiBreadcrumb>\n' +
+  '</FuiSegment>' 
 s.CollectionBreadcrumbLink1 = 
-  '<div class="ui breadcrumb">\n' +
-  '  <a class="section">Home</a>\n' +
-  '  <div class="divider"> / </div>\n' +
-  '  <div class="active section">Search for: <a href="#">paper towels</a></div>\n' +
-  '</div>' 
+  '<FuiBreadcrumb>\n' +
+  '  <FuiBCSection>Home</FuiBCSection>\n' +
+  '  <FuiBCDivider> / </FuiBCDivider>\n' +
+  '  <FuiBCSection tag=div active>Search for: <a href="#">paper towels</a></FuiBCSection>\n' +
+  '</FuiBreadcrumb>' 
 s.CollectionBreadcrumbSize1 = 
-  '<div class="ui mini breadcrumb">\n' +
-  '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <a class="section">Registration</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <div class="active section">Personal Information</div>\n' +
-  '</div>' 
+  '<FuiBreadcrumb size=mini>\n' +
+  '  <FuiBCSection>Home</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection>Registration</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection tag=div active>Personal Information</FuiBCSection>\n' +
+  '</FuiBreadcrumb>' 
 s.CollectionBreadcrumbSize4 = 
-  '<div class="ui large breadcrumb">\n' +
-  '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <a class="section">Registration</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <div class="active section">Personal Information</div>\n' +
-  '</div>' 
+  '<FuiBreadcrumb size=large>\n' +
+  '  <FuiBCSection>Home</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection>Registration</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection tag=div active>Personal Information</FuiBCSection>\n' +
+  '</FuiBreadcrumb>' 
 s.CollectionBreadcrumbSize7 = 
-  '<div class="ui massive breadcrumb">\n' +
-  '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <a class="section">Registration</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <div class="active section">Personal Information</div>\n' +
-  '</div>' 
+  '<FuiBreadcrumb size=massive>\n' +
+  '  <FuiBCSection>Home</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection>Registration</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection tag=div active>Personal Information</FuiBCSection>\n' +
+  '</FuiBreadcrumb>' 
 s.CollectionBreadcrumbSection1 = 
-  '<div class="ui breadcrumb">\n' +
-  '  <div class="section">Home</div>\n' +
-  '  <div class="divider"> / </div>\n' +
-  '  <div class="active section">Search</div>\n' +
-  '</div>' 
+  '<FuiBreadcrumb>\n' +
+  '  <FuiBCSection tag=div>Home</FuiBCSection>\n' +
+  '  <FuiBCDivider> / </FuiBCDivider>\n' +
+  '  <FuiBCSection tag=div active>Search</FuiBCSection>\n' +
+  '</FuiBreadcrumb>' 
 s.CollectionBreadcrumbSize3 = 
-  '<div class="ui small breadcrumb">\n' +
-  '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <a class="section">Registration</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <div class="active section">Personal Information</div>\n' +
-  '</div>' 
+  '<FuiBreadcrumb size=small>\n' +
+  '  <FuiBCSection>Home</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection>Registration</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection tag=div active>Personal Information</FuiBCSection>\n' +
+  '</FuiBreadcrumb>' 
 s.CollectionBreadcrumbSize2 = 
-  '<div class="ui tiny breadcrumb">\n' +
-  '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <a class="section">Registration</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <div class="active section">Personal Information</div>\n' +
-  '</div>' 
+  '<FuiBreadcrumb size=tiny>\n' +
+  '  <FuiBCSection>Home</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection>Registration</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection tag=div active>Personal Information</FuiBCSection>\n' +
+  '</FuiBreadcrumb>' 
 s.CollectionBreadcrumbBreadcrumb2 = 
-  '<div class="ui breadcrumb">\n' +
-  '  <a class="section">Home</a>\n' +
-  '  <i class="right angle icon divider"></i>\n' +
-  '  <a class="section">Store</a>\n' +
-  '  <i class="right angle icon divider"></i>\n' +
-  '  <div class="active section">T-Shirt</div>\n' +
-  '</div>' 
+  '<FuiBreadcrumb>\n' +
+  '  <FuiBCSection>Home</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right angle"></FuiBCDivider>\n' +
+  '  <FuiBCSection>Store</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right angle"></FuiBCDivider>\n' +
+  '  <FuiBCSection tag=div active>T-Shirt</FuiBCSection>\n' +
+  '</FuiBreadcrumb>' 
 s.CollectionBreadcrumbDivider1 = 
-  '<div class="ui breadcrumb">\n' +
-  '  <a class="section">Home</a>\n' +
-  '  <span class="divider">/</span>\n' +
-  '  <a class="section">Registration</a>\n' +
-  '  <span class="divider">/</span>\n' +
-  '  <div class="active section">Personal Information</div>\n' +
-  '</div>' 
+  '<FuiBreadcrumb>\n' +
+  '  <FuiBCSection>Home</FuiBCSection>\n' +
+  '  <FuiBCDivider tag=span>/</FuiBCDivider>\n' +
+  '  <FuiBCSection>Registration</FuiBCSection>\n' +
+  '  <FuiBCDivider tag=span>/</FuiBCDivider>\n' +
+  '  <FuiBCSection tag=div active>Personal Information</FuiBCSection>\n' +
+  '</FuiBreadcrumb>' 
 s.CollectionBreadcrumbBreadcrumb1 = 
-  '<div class="ui breadcrumb">\n' +
-  '  <a class="section">Home</a>\n' +
-  '  <div class="divider"> / </div>\n' +
-  '  <a class="section">Store</a>\n' +
-  '  <div class="divider"> / </div>\n' +
-  '  <div class="active section">T-Shirt</div>\n' +
-  '</div>' 
+  '<FuiBreadcrumb>\n' +
+  '  <FuiBCSection>Home</FuiBCSection>\n' +
+  '  <FuiBCDivider> / </FuiBCDivider>\n' +
+  '  <FuiBCSection>Store</FuiBCSection>\n' +
+  '  <FuiBCDivider> / </FuiBCDivider>\n' +
+  '  <FuiBCSection tag=div active>T-Shirt</FuiBCSection>\n' +
+  '</FuiBreadcrumb>' 
 s.CollectionBreadcrumbSize6 = 
-  '<div class="ui huge breadcrumb">\n' +
-  '  <a class="section">Home</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <a class="section">Registration</a>\n' +
-  '  <i class="right chevron icon divider"></i>\n' +
-  '  <div class="active section">Personal Information</div>\n' +
-  '</div>' 
+  '<FuiBreadcrumb size=huge>\n' +
+  '  <FuiBCSection>Home</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection>Registration</FuiBCSection>\n' +
+  '  <FuiBCDivider iconName="right chevron"></FuiBCDivider>\n' +
+  '  <FuiBCSection tag=div active>Personal Information</FuiBCSection>\n' +
+  '</FuiBreadcrumb>' 
 s.ViewFeedFeed1 = 
   '<div class="ui feed">\n' +
   '  <div class="event">\n' +

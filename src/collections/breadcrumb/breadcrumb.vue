@@ -7,31 +7,18 @@
 <script>
 import u from '../../lib/util';
 // import Enum from '../../lib/enum';
-// import Mixins from '../../lib/mixins';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiBreadcrumb',
-  mixins: [],
+  mixins: [
+    Mixins.PSize
+  ],
   props: {
-    /*
-    prop1: { // TODO: Component FuiBreadcrumb
+    inverted: {
       type: Boolean,
-      description: '',
+      description: '', // TODO: descr
     },
-    prop2: {
-      type: String,
-      description: '',
-      default: '',
-    },
-    prop3: {
-      type: String,
-      description: '',
-      validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
-      },
-      default: '',
-    },
-    */
   },
   events: {
     click: {
@@ -41,6 +28,9 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
+        'ui',
+        ...this.getClassesSize,
+        this.inverted && 'inverted',
         'breadcrumb'
       );
     },

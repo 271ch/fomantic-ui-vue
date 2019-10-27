@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="ui breadcrumb">
-      <a class="section">Home</a>
-      <i class="right angle icon divider"></i>
-      <a class="section">Store</a>
-      <i class="right angle icon divider"></i>
-      <div class="active section">T-Shirt</div>
-    </div>
+    <FuiBreadcrumb>
+      <FuiBCSection>Home</FuiBCSection>
+      <FuiBCDivider iconName="right angle"></FuiBCDivider>
+      <FuiBCSection>Store</FuiBCSection>
+      <FuiBCDivider iconName="right angle"></FuiBCDivider>
+      <FuiBCSection tag=div active>T-Shirt</FuiBCSection>
+    </FuiBreadcrumb>
   </div>
 </template>
 
@@ -14,7 +14,7 @@
 export default {
   name: 'CollectionBreadcrumbBreadcrumb2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'breadcrumb',
     title1: 'Types',

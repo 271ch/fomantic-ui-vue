@@ -1,22 +1,22 @@
 <template>
   <div>
-    <div class="ui inverted segment">
-        <div class="ui inverted breadcrumb">
-            <a class="section">Home</a>
-            <i class="right chevron icon divider"></i>
-            <a class="section">Registration</a>
-            <i class="right chevron icon divider"></i>
-            <div class="active section">Personal Information</div>
-        </div>
+    <FuiSegment inverted>
+        <FuiBreadcrumb inverted>
+            <FuiBCSection>Home</FuiBCSection>
+            <FuiBCDivider iconName="right chevron"></FuiBCDivider>
+            <FuiBCSection>Registration</FuiBCSection>
+            <FuiBCDivider iconName="right chevron"></FuiBCDivider>
+            <FuiBCSection tag=div active>Personal Information</FuiBCSection>
+        </FuiBreadcrumb>
         <p></p>
-        <div class="ui inverted breadcrumb">
-            <div class="section">Home</div>
-            <i class="right chevron icon divider"></i>
-            <div class="section">Registration</div>
-            <i class="right chevron icon divider"></i>
-            <div class="active section">Personal Information</div>
-        </div>
-    </div>
+        <FuiBreadcrumb inverted>
+            <FuiBCSection tag=div>Home</FuiBCSection>
+            <FuiBCDivider iconName="right chevron"></FuiBCDivider>
+            <FuiBCSection tag=div>Registration</FuiBCSection>
+            <FuiBCDivider iconName="right chevron"></FuiBCDivider>
+            <FuiBCSection tag=div active>Personal Information</FuiBCSection>
+        </FuiBreadcrumb>
+    </FuiSegment>
   </div>
 </template>
 
@@ -24,7 +24,7 @@
 export default {
   name: 'CollectionBreadcrumbInverted1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'breadcrumb',
     title1: 'Variations',
