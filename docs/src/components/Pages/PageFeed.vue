@@ -14,6 +14,7 @@
     <ExampleWithSource example="ViewFeedAdditionalinformation1"></ExampleWithSource>
     <ExampleWithSource example="ViewFeedSize1"></ExampleWithSource>
     <ExampleWithSource example="ViewFeedSize2"></ExampleWithSource>
+    <ExampleWithSource example="ViewFeedInverted1"></ExampleWithSource>
   </FuiContainer>
 </template>
 

@@ -1424,6 +1424,8 @@ import ViewFeedSize1 from './views/feed/ViewFeedSize1';
 c.push(ViewFeedSize1);
 import ViewFeedSize2 from './views/feed/ViewFeedSize2';
 c.push(ViewFeedSize2);
+import ViewFeedInverted1 from './views/feed/ViewFeedInverted1';
+c.push(ViewFeedInverted1);
 b.push(['feed', c]); c = [];
 // end of element [feed]
 // begin of element [item]
