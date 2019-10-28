@@ -51,6 +51,25 @@
       <FuiHeader level=3>
         Modules
       </FuiHeader>
+      <router-link to="/accordion">Accordion</router-link>,
+      <router-link to="/calendar">Calendar</router-link>,
+      <router-link to="/checkbox">Checkbox</router-link>,
+      <router-link to="/dimmer">Dimmer</router-link>,
+      <router-link to="/dropdown">Dropdown</router-link>,
+      <router-link to="/embed">Embed</router-link>,
+      <router-link to="/modal">Modal</router-link>,
+      <router-link to="/nag">Nag</router-link>,
+      <router-link to="/popup">Popup</router-link>,
+      <router-link to="/progress">Progress</router-link>,
+      <router-link to="/rating">Rating</router-link>,
+      <router-link to="/search">Search</router-link>,
+      <router-link to="/shape">Shape</router-link>,
+      <router-link to="/sidebar">Sidebar</router-link>,
+      <router-link to="/slider">Slider</router-link>,
+      <router-link to="/sticky">Sticky</router-link>,
+      <router-link to="/tab">Tab</router-link>,
+      <router-link to="/toast">Toast</router-link>,
+      <router-link to="/transition">Transition</router-link>,
       <br /><br />
     </FuiContainer>
 
@@ -90,6 +109,26 @@ import PageFeed from './Pages/PageFeed'
 import PageItem from './Pages/PageItem'
 import PageStatistic from './Pages/PageStatistic'
 
+import PageAccordion from './Pages/PageAccordion'
+import PageCalendar from './Pages/PageCalendar'
+import PageCheckbox from './Pages/PageCheckbox'
+import PageDimmer from './Pages/PageDimmer'
+import PageDropdown from './Pages/PageDropdown'
+import PageEmbed from './Pages/PageEmbed'
+import PageModal from './Pages/PageModal'
+import PageNag from './Pages/PageNag'
+import PagePopup from './Pages/PagePopup'
+import PageProgress from './Pages/PageProgress'
+import PageRating from './Pages/PageRating'
+import PageSearch from './Pages/PageSearch'
+import PageShape from './Pages/PageShape'
+import PageSidebar from './Pages/PageSidebar'
+import PageSlider from './Pages/PageSlider'
+import PageSticky from './Pages/PageSticky'
+import PageTab from './Pages/PageTab'
+import PageToast from './Pages/PageToast'
+import PageTransition from './Pages/PageTransition'
+
 import VueRouter from 'vue-router'
 
 const routes = [
@@ -123,6 +162,26 @@ const routes = [
   { path: '/feed', component: PageFeed },
   { path: '/item', component: PageItem },
   { path: '/statistic', component: PageStatistic },
+
+  { path: '/accordion', component: PageAccordion },
+  { path: '/calendar', component: PageCalendar },
+  { path: '/checkbox', component: PageCheckbox },
+  { path: '/dimmer', component: PageDimmer },
+  { path: '/dropdown', component: PageDropdown },
+  { path: '/embed', component: PageEmbed },
+  { path: '/modal', component: PageModal },
+  { path: '/nag', component: PageNag },
+  { path: '/popup', component: PagePopup },
+  { path: '/progress', component: PageProgress },
+  { path: '/rating', component: PageRating },
+  { path: '/search', component: PageSearch },
+  { path: '/shape', component: PageShape },
+  { path: '/sidebar', component: PageSidebar },
+  { path: '/slider', component: PageSlider },
+  { path: '/sticky', component: PageSticky },
+  { path: '/tab', component: PageTab },
+  { path: '/toast', component: PageToast },
+  { path: '/transition', component: PageTransition },
 ];
 const router = new VueRouter({
   routes,

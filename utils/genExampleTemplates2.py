@@ -9,8 +9,8 @@ import os.path
 import re
 from pyquery import PyQuery as pq
 
-ElementTypes = ['elements', 'collections', 'views'] #, 'modules']
-Elements = ['grid']
+ElementTypes = ['modules']
+Elements = []
 
 def convQuote(str):
   return str.replace('\'', '\\\'')
@@ -107,7 +107,10 @@ class App:
         descr = '???'
         h4 = pq(c).children('h4')
         if len(h4) >= 1:
-          title2 = h4[0].text.strip()
+          if h4[0].text != None:
+            title2 = h4[0].text.strip()
+          else:
+            title2 = '???'
         p = pq(c).children('p')
         if len(p) == 1 and p[0].text != None:
           descr = p[0].text.strip()
