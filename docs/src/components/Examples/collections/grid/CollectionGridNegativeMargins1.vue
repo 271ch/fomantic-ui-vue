@@ -1,15 +1,15 @@
 <template>
   <div>
-       <div class="ui top attached button">Button before grid</div>
-       <div class="ui grid">
-        <div class="sixteen wide column"/>
-        <div class="ten wide column"/>
-        <div class="six wide column"/>
-      </div>
-      <div class="ui grid">
-        <div class="sixteen wide column"/>
-      </div>
-      <div class="ui bottom attached button">Button after grid</div>
+    <FuiButton tag=div attached=top>Button before grid</FuiButton>
+    <FuiGrid>
+      <FuiColumn wide=sixteen></FuiColumn>
+      <FuiColumn wide=ten></FuiColumn>
+      <FuiColumn wide=six></FuiColumn>
+    </FuiGrid>
+    <FuiGrid>
+      <FuiColumn wide=sixteen></FuiColumn>
+    </FuiGrid>
+    <FuiButton tag=div attached=bottom>Button after grid</FuiButton>
   </div>
 </template>
 
@@ -17,7 +17,7 @@
 export default {
   name: 'CollectionGridNegativeMargins1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Introduction',
@@ -25,12 +25,12 @@ export default {
     description: '???',
     model: '       <div class="ui top attached button">Button before grid</div>\n' +
       '       <div class="ui grid">\n' +
-      '        <div class="sixteen wide column"/>\n' +
-      '        <div class="ten wide column"/>\n' +
-      '        <div class="six wide column"/>\n' +
+      '        <div class="sixteen wide column"></div>\n' +
+      '        <div class="ten wide column"></div>\n' +
+      '        <div class="six wide column"></div>\n' +
       '      </div>\n' +
       '      <div class="ui grid">\n' +
-      '        <div class="sixteen wide column"/>\n' +
+      '        <div class="sixteen wide column"></div>\n' +
       '      </div>\n' +
       '      <div class="ui bottom attached button">Button after grid</div>\n',
   },

@@ -64,6 +64,7 @@ const enums = {
   Fitted: Enum.from('vertically', 'horizontally'),
   Move: Enum.from('down', 'up', 'left', 'right'),
   FixedMenu: Enum.from('top', 'bottom', 'left', 'right'),
+  Display: Enum.from('mobile', 'tablet', 'computer', 'large screen', 'widescreen'),
 };
 
 export default enums;

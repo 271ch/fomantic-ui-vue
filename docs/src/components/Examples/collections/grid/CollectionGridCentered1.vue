@@ -1,35 +1,35 @@
 <template>
   <div>
-      <div class="ui two column centered grid">
-        <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-        </div>
-        <div class="four column centered row">
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-        </div>
-        <div class="four column row">
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-        </div>
-      </div>
+      <FuiGrid column=two centered>
+        <FuiColumn>
+          <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+        </FuiColumn>
+        <FuiRow column=four centered>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+        </FuiRow>
+        <FuiRow column=four>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+        </FuiRow>
+      </FuiGrid>
   </div>
 </template>
 
@@ -37,7 +37,7 @@
 export default {
   name: 'CollectionGridCentered1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Variations',
@@ -45,31 +45,31 @@ export default {
     description: 'A grid can have its columns centered',
     model: '      <div class="ui two column centered grid">\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="four column centered row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="four column row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n',

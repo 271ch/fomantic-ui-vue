@@ -36,7 +36,7 @@ if (skipDoneElements) {
   skipElements = [...skipElements,...doneElements];
 }
 
-const skipTemplate = ['ViewItemImage1', 'ElementInputAction2', 'ElementInputAction3', 'ElementInputAction5'];
+const skipTemplate = ['ViewItemImage1', 'ElementInputAction2', 'ElementInputAction3', 'ElementInputAction5', 'CollectionGridResponsiveWidth2'];
 
 const html_std = function(html) {
   let html2 = html.replace(/<!---->/gm,'').replace(/</gm,'\n<').replace(/>/gm,'>\n').replace(/&amp;/gm,'&');

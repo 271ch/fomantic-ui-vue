@@ -1,64 +1,63 @@
 <template>
   <div>
-      <div class="ui ignored info message message">Reversed grids are compatible with <code>divided</code> grids and other complex grid types.</div>
-      <div class="ui computer reversed equal width grid">
-        <div class="row">
-          <div class="column">
-            Computer A Fourth
-          </div>
-          <div class="column">
-            Computer A Third
-          </div>
-          <div class="column">
-            Computer A Second
-          </div>
-          <div class="column">
-            Computer A First
-          </div>
-        </div>
-        <div class="row">
-          <div class="column">
-            Computer B Fourth
-          </div>
-          <div class="column">
-            Computer B Third
-          </div>
-          <div class="column">
-            Computer B Second
-          </div>
-          <div class="column">
-            Computer B First
-          </div>
-        </div>
-      </div>
-      <div class="ui tablet reversed equal width grid">
-        <div class="column">
-          Tablet Fourth
-        </div>
-        <div class="column">
-          Tablet Third
-        </div>
-        <div class="column">
-          Tablet Second
-        </div>
-        <div class="column">
-          Tablet First
-        </div>
-      </div>
-      <div class="ui mobile reversed equal width grid">
-        <div class="column">
-          Mobile Fourth
-        </div>
-        <div class="column">
-          Mobile Third
-        </div>
-        <div class="column">
-          Mobile Second
-        </div>
-        <div class="column">
-          Mobile First
-        </div>
-      </div>
+    <FuiGrid display=computer reversed equalWidth>
+      <FuiRow>
+        <FuiColumn>
+          Computer A Fourth
+        </FuiColumn>
+        <FuiColumn>
+          Computer A Third
+        </FuiColumn>
+        <FuiColumn>
+          Computer A Second
+        </FuiColumn>
+        <FuiColumn>
+          Computer A First
+        </FuiColumn>
+      </FuiRow>
+      <FuiRow>
+        <FuiColumn>
+          Computer B Fourth
+        </FuiColumn>
+        <FuiColumn>
+          Computer B Third
+        </FuiColumn>
+        <FuiColumn>
+          Computer B Second
+        </FuiColumn>
+        <FuiColumn>
+          Computer B First
+        </FuiColumn>
+      </FuiRow>
+    </FuiGrid>
+    <FuiGrid display=tablet reversed equalWidth>
+      <FuiColumn>
+        Tablet Fourth
+      </FuiColumn>
+      <FuiColumn>
+        Tablet Third
+      </FuiColumn>
+      <FuiColumn>
+        Tablet Second
+      </FuiColumn>
+      <FuiColumn>
+        Tablet First
+      </FuiColumn>
+    </FuiGrid>
+    <FuiGrid display=mobile reversed equalWidth>
+      <FuiColumn>
+        Mobile Fourth
+      </FuiColumn>
+      <FuiColumn>
+        Mobile Third
+      </FuiColumn>
+      <FuiColumn>
+        Mobile Second
+      </FuiColumn>
+      <FuiColumn>
+        Mobile First
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -66,14 +65,13 @@
 export default {
   name: 'CollectionGridReversed1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Responsive Variations',
     title2: 'Reversed',
     description: 'A grid or row can specify that its columns should reverse order at different device sizes',
-    model: '      <div class="ui ignored info message message">Reversed grids are compatible with <code>divided</code> grids and other complex grid types.</div>\n' +
-      '      <div class="ui computer reversed equal width grid">\n' +
+    model: '      <div class="ui computer reversed equal width grid">\n' +
       '        <div class="row">\n' +
       '          <div class="column">\n' +
       '            Computer A Fourth\n' +

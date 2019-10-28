@@ -1,19 +1,19 @@
 <template>
   <div>
-      <div class="ui computer vertically reversed grid">
-        <div class="row">
-          <div class="column">Computer Row 4</div>
-        </div>
-        <div class="row">
-          <div class="column">Computer Row 3</div>
-        </div>
-        <div class="row">
-          <div class="column">Computer Row 2</div>
-        </div>
-        <div class="row">
-          <div class="column">Computer Row 1</div>
-        </div>
-      </div>
+    <FuiGrid display=computer vertically reversed>
+      <FuiRow>
+        <FuiColumn>Computer Row 4</FuiColumn>
+      </FuiRow>
+      <FuiRow>
+        <FuiColumn>Computer Row 3</FuiColumn>
+      </FuiRow>
+      <FuiRow>
+        <FuiColumn>Computer Row 2</FuiColumn>
+      </FuiRow>
+      <FuiRow>
+        <FuiColumn>Computer Row 1</FuiColumn>
+      </FuiRow>
+    </FuiGrid>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
 export default {
   name: 'CollectionGridReversed2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Responsive Variations',

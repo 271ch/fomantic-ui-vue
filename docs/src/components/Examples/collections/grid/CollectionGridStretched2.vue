@@ -1,53 +1,53 @@
 <template>
   <div>
-      <div class="ui equal width grid">
-        <div class="stretched row">
-          <div class="column">
-            <div class="ui segment">
-              1
-            </div>
-            <div class="ui segment">
-              2
-            </div>
-          </div>
-          <div class="six wide column">
-            <div class="ui segment">
-              <img class="ui image" src="/images/wireframe/image.png"/>
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              1
-            </div>
-            <div class="ui segment">
-              2
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="column">
-            <div class="ui segment">
-              1
-            </div>
-            <div class="ui segment">
-              2
-            </div>
-          </div>
-          <div class="six wide column">
-            <div class="ui segment">
-              <img class="ui image" src="/images/wireframe/image.png"/>
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              1
-            </div>
-            <div class="ui segment">
-              2
-            </div>
-          </div>
-        </div>
-      </div>
+    <FuiGrid equalWidth>
+      <FuiRow stretched>
+        <FuiColumn>
+          <FuiSegment>
+            1
+          </FuiSegment>
+          <FuiSegment>
+            2
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn wide=six>
+          <FuiSegment>
+            <FuiImage src="/images/wireframe/image.png"></FuiImage>
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            1
+          </FuiSegment>
+          <FuiSegment>
+            2
+          </FuiSegment>
+        </FuiColumn>
+      </FuiRow>
+      <FuiRow>
+        <FuiColumn>
+          <FuiSegment>
+            1
+          </FuiSegment>
+          <FuiSegment>
+            2
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn wide=six>
+          <FuiSegment>
+            <FuiImage src="/images/wireframe/image.png"></FuiImage>
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            1
+          </FuiSegment>
+          <FuiSegment>
+            2
+          </FuiSegment>
+        </FuiColumn>
+      </FuiRow>
+    </FuiGrid>
   </div>
 </template>
 
@@ -55,7 +55,7 @@
 export default {
   name: 'CollectionGridStretched2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Variations',
@@ -73,7 +73,7 @@ export default {
       '          </div>\n' +
       '          <div class="six wide column">\n' +
       '            <div class="ui segment">\n' +
-      '              <img class="ui image" src="/images/wireframe/image.png"/>\n' +
+      '              <img src="/images/wireframe/image.png" class="ui image">\n' +
       '            </div>\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
@@ -96,7 +96,7 @@ export default {
       '          </div>\n' +
       '          <div class="six wide column">\n' +
       '            <div class="ui segment">\n' +
-      '              <img class="ui image" src="/images/wireframe/image.png"/>\n' +
+      '              <img src="/images/wireframe/image.png" class="ui image">\n' +
       '            </div>\n' +
       '          </div>\n' +
       '          <div class="column">\n' +

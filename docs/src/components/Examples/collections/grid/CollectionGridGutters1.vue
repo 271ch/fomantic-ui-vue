@@ -1,39 +1,39 @@
 <template>
   <div>
-      <div class="ui grid">
-        <div class="three column row">
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-        </div>
-        <div class="eight column row">
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-        </div>
-      </div>
-      <div class="ui relaxed grid">
-        <div class="three column row">
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-        </div>
-        <div class="eight column row">
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-        </div>
-      </div>
+    <FuiGrid>
+      <FuiRow column=three>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+      </FuiRow>
+      <FuiRow column=eight>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+      </FuiRow>
+    </FuiGrid>
+    <FuiGrid relaxed>
+      <FuiRow column=three>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+      </FuiRow>
+      <FuiRow column=eight>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+      </FuiRow>
+    </FuiGrid>
   </div>
 </template>
 
@@ -41,7 +41,7 @@
 export default {
   name: 'CollectionGridGutters1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Introduction',
@@ -49,36 +49,36 @@ export default {
     description: '???',
     model: '      <div class="ui grid">\n' +
       '        <div class="three column row">\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
       '        </div>\n' +
       '        <div class="eight column row">\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
       '        </div>\n' +
       '      </div>\n' +
       '      <div class="ui relaxed grid">\n' +
       '        <div class="three column row">\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
       '        </div>\n' +
       '        <div class="eight column row">\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
       '        </div>\n' +
       '      </div>\n',
   },

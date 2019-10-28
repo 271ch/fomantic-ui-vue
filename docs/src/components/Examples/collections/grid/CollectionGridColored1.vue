@@ -1,26 +1,26 @@
 <template>
   <div>
-      <div class="ui equal width center aligned padded grid">
-        <div class="row">
-          <div class="olive column">
-            Olive
-          </div>
-          <div class="black column">
-            Black
-          </div>
-        </div>
-        <div class="row" style="background-color: #869D05;color: #FFFFFF;">
-          <div class="column">Custom Row</div>
-        </div>
-        <div class="row">
-          <div class="black column">
-            Black
-          </div>
-          <div class="olive column">
-            Olive
-          </div>
-        </div>
-      </div>
+    <FuiGrid equalWidth aligned=center padded>
+      <FuiRow>
+        <FuiColumn color=olive>
+          Olive
+        </FuiColumn>
+        <FuiColumn color=black>
+          Black
+        </FuiColumn>
+      </FuiRow>
+      <FuiRow style="background-color: #869D05; color: #FFFFFF;">
+        <FuiColumn>Custom Row</FuiColumn>
+      </FuiRow>
+      <FuiRow>
+        <FuiColumn color=black>
+          Black
+        </FuiColumn>
+        <FuiColumn color=olive>
+          Olive
+        </FuiColumn>
+      </FuiRow>
+    </FuiGrid>
   </div>
 </template>
 
@@ -28,13 +28,13 @@
 export default {
   name: 'CollectionGridColored1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Varying Grids',
     title2: 'Colored',
     description: '???',
-    model: '      <div class="ui equal width center aligned padded grid">\n' +
+    model: '      <div class="ui center aligned equal width padded grid">\n' +
       '        <div class="row">\n' +
       '          <div class="olive column">\n' +
       '            Olive\n' +
@@ -43,7 +43,7 @@ export default {
       '            Black\n' +
       '          </div>\n' +
       '        </div>\n' +
-      '        <div class="row" style="background-color: #869D05;color: #FFFFFF;">\n' +
+      '        <div class="row" style="background-color: rgb(134, 157, 5); color: rgb(255, 255, 255);">\n' +
       '          <div class="column">Custom Row</div>\n' +
       '        </div>\n' +
       '        <div class="row">\n' +

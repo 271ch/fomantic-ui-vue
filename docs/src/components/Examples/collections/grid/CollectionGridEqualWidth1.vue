@@ -1,22 +1,22 @@
 <template>
   <div>
-      <div class="ui equal width grid">
-        <div class="column">
-          <div class="ui segment">
-            1
-          </div>
-        </div>
-        <div class="eight wide column">
-          <div class="ui segment">
-            2
-          </div>
-        </div>
-        <div class="column">
-          <div class="ui segment">
-            3
-          </div>
-        </div>
-      </div>
+    <FuiGrid equalWidth>
+      <FuiColumn>
+        <FuiSegment>
+          1
+        </FuiSegment>
+      </FuiColumn>
+      <FuiColumn wide=eight>
+        <FuiSegment>
+          2
+        </FuiSegment>
+      </FuiColumn>
+      <FuiColumn>
+        <FuiSegment>
+          3
+        </FuiSegment>
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -24,7 +24,7 @@
 export default {
   name: 'CollectionGridEqualWidth1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Variations',

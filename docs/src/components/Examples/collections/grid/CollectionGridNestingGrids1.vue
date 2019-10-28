@@ -1,22 +1,22 @@
 <template>
   <div>
-      <div class="ui two column grid">
-        <div class="column">
-          <div class="ui three column grid">
-            <div class="column"/>
-            <div class="column"/>
-            <div class="column"/>
-          </div>
-        </div>
-        <div class="column"/>
-        <div class="column"/>
-        <div class="column">
-          <div class="ui grid">
-            <div class="ten wide column"/>
-            <div class="six wide column"/>
-          </div>
-        </div>
-      </div>
+    <FuiGrid column=two>
+      <FuiColumn>
+        <FuiGrid column=three>
+          <FuiColumn></FuiColumn>
+          <FuiColumn></FuiColumn>
+          <FuiColumn></FuiColumn>
+        </FuiGrid>
+      </FuiColumn>
+      <FuiColumn></FuiColumn>
+      <FuiColumn></FuiColumn>
+      <FuiColumn>
+        <FuiGrid>
+          <FuiColumn wide=ten></FuiColumn>
+          <FuiColumn wide=six></FuiColumn>
+        </FuiGrid>
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -24,7 +24,7 @@
 export default {
   name: 'CollectionGridNestingGrids1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Varying Grids',
@@ -33,17 +33,17 @@ export default {
     model: '      <div class="ui two column grid">\n' +
       '        <div class="column">\n' +
       '          <div class="ui three column grid">\n' +
-      '            <div class="column"/>\n' +
-      '            <div class="column"/>\n' +
-      '            <div class="column"/>\n' +
+      '            <div class="column"></div>\n' +
+      '            <div class="column"></div>\n' +
+      '            <div class="column"></div>\n' +
       '          </div>\n' +
       '        </div>\n' +
-      '        <div class="column"/>\n' +
-      '        <div class="column"/>\n' +
+      '        <div class="column"></div>\n' +
+      '        <div class="column"></div>\n' +
       '        <div class="column">\n' +
       '          <div class="ui grid">\n' +
-      '            <div class="ten wide column"/>\n' +
-      '            <div class="six wide column"/>\n' +
+      '            <div class="ten wide column"></div>\n' +
+      '            <div class="six wide column"></div>\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n',

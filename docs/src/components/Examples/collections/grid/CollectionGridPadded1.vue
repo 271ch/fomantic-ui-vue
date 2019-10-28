@@ -1,14 +1,13 @@
 <template>
   <div>
-      <div class="ui divider"/>
-      <div class="ui two column padded grid">
-        <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-        </div>
-        <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-        </div>
-      </div>
+    <FuiGrid column=two padded>
+      <FuiColumn>
+        <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+      </FuiColumn>
+      <FuiColumn>
+        <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -16,19 +15,18 @@
 export default {
   name: 'CollectionGridPadded1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Variations',
     title2: 'Padded',
     description: '???',
-    model: '      <div class="ui divider"/>\n' +
-      '      <div class="ui two column padded grid">\n' +
+    model: '     <div class="ui two column padded grid">\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n',
   },

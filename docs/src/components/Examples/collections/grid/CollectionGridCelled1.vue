@@ -1,26 +1,26 @@
 <template>
   <div>
-      <div class="ui celled grid">
-        <div class="row">
-          <div class="three wide column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="thirteen wide column">
-            <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>
-          </div>
-        </div>
-        <div class="row">
-          <div class="three wide column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="ten wide column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-          </div>
-          <div class="three wide column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-        </div>
-      </div>
+      <FuiGrid celled>
+        <FuiRow>
+          <FuiColumn wide=three>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn wide=thirteen>
+            <FuiImage src="/images/wireframe/centered-paragraph.png" wireframe></FuiImage>
+          </FuiColumn>
+        </FuiRow>
+        <FuiRow>
+          <FuiColumn wide=three>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn wide=ten>
+            <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn wide=three>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+        </FuiRow>
+      </FuiGrid>
   </div>
 </template>
 
@@ -28,7 +28,7 @@
 export default {
   name: 'CollectionGridCelled1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Types',
@@ -37,21 +37,21 @@ export default {
     model: '      <div class="ui celled grid">\n' +
       '        <div class="row">\n' +
       '          <div class="three wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="thirteen wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/centered-paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="row">\n' +
       '          <div class="three wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="ten wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="three wide column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n',

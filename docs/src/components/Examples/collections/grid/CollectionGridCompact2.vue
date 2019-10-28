@@ -1,24 +1,24 @@
 <template>
   <div>
-      <div class="ui divider"/>
-      <div class="ui two column very compact internally celled grid">
-        <div class="row">
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-          </div>
-        </div>
-        <div class="row">
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-          </div>
-        </div>
-      </div>
+    <FuiDivider></FuiDivider>
+    <FuiGrid column=two compact=very celled=internally>
+      <FuiRow>
+        <FuiColumn>
+          <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+        </FuiColumn>
+      </FuiRow>
+      <FuiRow>
+        <FuiColumn>
+          <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+        </FuiColumn>
+      </FuiRow>
+    </FuiGrid>
   </div>
 </template>
 
@@ -26,28 +26,28 @@
 export default {
   name: 'CollectionGridCompact2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Variations',
     title2: 'Compact',
     description: '???',
-    model: '      <div class="ui divider"/>\n' +
+    model: '      <div class="ui divider"></div>\n' +
       '      <div class="ui two column very compact internally celled grid">\n' +
       '        <div class="row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n',

@@ -1,46 +1,46 @@
 <template>
   <div>
-      <div class="ui padded grid">
-        <div class="red row">
-          <div class="column">Red</div>
-        </div>
-        <div class="orange row">
-          <div class="column">Orange</div>
-        </div>
-        <div class="yellow row">
-          <div class="column">Yellow</div>
-        </div>
-        <div class="olive row">
-          <div class="column">Olive</div>
-        </div>
-        <div class="green row">
-          <div class="column">Green</div>
-        </div>
-        <div class="teal row">
-          <div class="column">Teal</div>
-        </div>
-        <div class="blue row">
-          <div class="column">Blue</div>
-        </div>
-        <div class="violet row">
-          <div class="column">Violet</div>
-        </div>
-        <div class="purple row">
-          <div class="column">Purple</div>
-        </div>
-        <div class="pink row">
-          <div class="column">Pink</div>
-        </div>
-        <div class="brown row">
-          <div class="column">Brown</div>
-        </div>
-        <div class="grey row">
-          <div class="column">Grey</div>
-        </div>
-        <div class="black row">
-          <div class="column">Black</div>
-        </div>
-      </div>
+      <FuiGrid padded>
+        <FuiRow color=red>
+          <FuiColumn>Red</FuiColumn>
+        </FuiRow>
+        <FuiRow color=orange>
+          <FuiColumn>Orange</FuiColumn>
+        </FuiRow>
+        <FuiRow color=yellow>
+          <FuiColumn>Yellow</FuiColumn>
+        </FuiRow>
+        <FuiRow color=olive>
+          <FuiColumn>Olive</FuiColumn>
+        </FuiRow>
+        <FuiRow color=green>
+          <FuiColumn>Green</FuiColumn>
+        </FuiRow>
+        <FuiRow color=teal>
+          <FuiColumn>Teal</FuiColumn>
+        </FuiRow>
+        <FuiRow color=blue>
+          <FuiColumn>Blue</FuiColumn>
+        </FuiRow>
+        <FuiRow color=violet>
+          <FuiColumn>Violet</FuiColumn>
+        </FuiRow>
+        <FuiRow color=purple>
+          <FuiColumn>Purple</FuiColumn>
+        </FuiRow>
+        <FuiRow color=pink>
+          <FuiColumn>Pink</FuiColumn>
+        </FuiRow>
+        <FuiRow color=brown>
+          <FuiColumn>Brown</FuiColumn>
+        </FuiRow>
+        <FuiRow color=grey>
+          <FuiColumn>Grey</FuiColumn>
+        </FuiRow>
+        <FuiRow color=black>
+          <FuiColumn>Black</FuiColumn>
+        </FuiRow>
+      </FuiGrid>
   </div>
 </template>
 
@@ -48,7 +48,7 @@
 export default {
   name: 'CollectionGridColored2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Variations',

@@ -1,36 +1,36 @@
 <template>
   <div>
-      <div class="ui right aligned three column grid">
-        <div class="row">
-          <div class="column">
-            <div class="ui vertical fluid menu">
-              <div class="header item">
-                Cats
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui vertical fluid menu">
-              <div class="header item">
-                Dogs
-              </div>
-              <div class="item">
-                Poodle
-              </div>
-              <div class="item">
-                Cockerspaniel
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui vertical fluid menu">
-              <div class="header item">
-                Monkeys
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <FuiGrid aligned=right column=three>
+      <FuiRow>
+        <FuiColumn>
+          <FuiMenu vertical fluid>
+            <FuiItem isHeader>
+              Cats
+            </FuiItem>
+          </FuiMenu>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiMenu vertical fluid>
+            <FuiItem isHeader>
+              Dogs
+            </FuiItem>
+            <FuiItem>
+              Poodle
+            </FuiItem>
+            <FuiItem>
+              Cockerspaniel
+            </FuiItem>
+          </FuiMenu>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiMenu vertical fluid>
+            <FuiItem isHeader>
+              Monkeys
+            </FuiItem>
+          </FuiMenu>
+        </FuiColumn>
+      </FuiRow>
+    </FuiGrid>
   </div>
 </template>
 
@@ -38,23 +38,23 @@
 export default {
   name: 'CollectionGridTextAlignment3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Variations',
     title2: 'Text Alignment',
     description: 'A grid, row, or column can specify its text alignment',
-    model: '      <div class="ui right aligned three column grid">\n' +
+    model: '      <div class="ui three column right aligned grid">\n' +
       '        <div class="row">\n' +
       '          <div class="column">\n' +
-      '            <div class="ui vertical fluid menu">\n' +
+      '            <div class="ui fluid vertical menu">\n' +
       '              <div class="header item">\n' +
       '                Cats\n' +
       '              </div>\n' +
       '            </div>\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <div class="ui vertical fluid menu">\n' +
+      '            <div class="ui fluid vertical menu">\n' +
       '              <div class="header item">\n' +
       '                Dogs\n' +
       '              </div>\n' +
@@ -67,7 +67,7 @@ export default {
       '            </div>\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <div class="ui vertical fluid menu">\n' +
+      '            <div class="ui fluid vertical menu">\n' +
       '              <div class="header item">\n' +
       '                Monkeys\n' +
       '              </div>\n' +

@@ -1,15 +1,15 @@
 <template>
   <div>
-      <div class="ui grid container">
-        <div class="four wide column"/>
-        <div class="four wide column"/>
-        <div class="four wide column"/>
-        <div class="four wide column"/>
-        <div class="four wide column"/>
-        <div class="four wide column"/>
-        <div class="four wide column"/>
-        <div class="four wide column"/>
-      </div>
+      <FuiGrid container>
+        <FuiColumn wide=four></FuiColumn>
+        <FuiColumn wide=four></FuiColumn>
+        <FuiColumn wide=four></FuiColumn>
+        <FuiColumn wide=four></FuiColumn>
+        <FuiColumn wide=four></FuiColumn>
+        <FuiColumn wide=four></FuiColumn>
+        <FuiColumn wide=four></FuiColumn>
+        <FuiColumn wide=four></FuiColumn>
+      </FuiGrid>
   </div>
 </template>
 
@@ -17,21 +17,21 @@
 export default {
   name: 'CollectionGridContainers1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Responsive Grids',
     title2: 'Containers',
     description: 'A',
     model: '      <div class="ui grid container">\n' +
-      '        <div class="four wide column"/>\n' +
-      '        <div class="four wide column"/>\n' +
-      '        <div class="four wide column"/>\n' +
-      '        <div class="four wide column"/>\n' +
-      '        <div class="four wide column"/>\n' +
-      '        <div class="four wide column"/>\n' +
-      '        <div class="four wide column"/>\n' +
-      '        <div class="four wide column"/>\n' +
+      '        <div class="four wide column"></div>\n' +
+      '        <div class="four wide column"></div>\n' +
+      '        <div class="four wide column"></div>\n' +
+      '        <div class="four wide column"></div>\n' +
+      '        <div class="four wide column"></div>\n' +
+      '        <div class="four wide column"></div>\n' +
+      '        <div class="four wide column"></div>\n' +
+      '        <div class="four wide column"></div>\n' +
       '      </div>\n',
   },
 };

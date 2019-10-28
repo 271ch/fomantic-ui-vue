@@ -236,7 +236,7 @@ mixins.getMixinAligned = function (values, def) {
         return [
           this.aligned === true && def,
           this.aligned !== true && this.aligned,
-          this.aligned && 'aligned',
+          this.aligned && this.aligned !== 'justified' && 'aligned',
         ];
       },
     },
@@ -307,6 +307,27 @@ mixins.PColor = {
   computed: {
     getClassesColor: function () {
       return [this.color];
+    },
+  },
+};
+
+// mixin for only display
+mixins.PDisplayOnly = {
+  props: {
+    only: {
+      type: [Boolean, String, Array],
+      description: ``,
+      validator: (value) => {
+        return value === false || (typeof value === 'string' && Enum.Display.check(value)) || value.every(v => (typeof v === 'string' && Enum.Display.check(v)));
+      },
+      default: false,
+    },
+  },
+  computed: {
+    getClassesDisplayOnly: function () {
+      if (this.only === false) return [];
+      if (typeof this.only === 'string') return [this.only, 'only'];
+      return [...this.only, 'only'];
     },
   },
 };

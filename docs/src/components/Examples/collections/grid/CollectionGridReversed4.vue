@@ -1,19 +1,19 @@
 <template>
   <div>
-      <div class="ui mobile vertically reversed grid">
-        <div class="row">
-          <div class="column">Mobile Row 4</div>
-        </div>
-        <div class="row">
-          <div class="column">Mobile Row 3</div>
-        </div>
-        <div class="row">
-          <div class="column">Mobile Row 2</div>
-        </div>
-        <div class="row">
-          <div class="column">Mobile Row 1</div>
-        </div>
-      </div>
+    <FuiGrid display=mobile vertically reversed>
+      <FuiRow>
+        <FuiColumn>Mobile Row 4</FuiColumn>
+      </FuiRow>
+      <FuiRow>
+        <FuiColumn>Mobile Row 3</FuiColumn>
+      </FuiRow>
+      <FuiRow>
+        <FuiColumn>Mobile Row 2</FuiColumn>
+      </FuiRow>
+      <FuiRow>
+        <FuiColumn>Mobile Row 1</FuiColumn>
+      </FuiRow>
+    </FuiGrid>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
 export default {
   name: 'CollectionGridReversed4',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Responsive Variations',

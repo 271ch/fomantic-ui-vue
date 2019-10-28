@@ -12,7 +12,7 @@ import Mixins from '../../lib/mixins';
 export default {
   name: 'FuiGrid',
   mixins: [
-    Mixins.getMixinAligned(['center'], null),
+    Mixins.getMixinAligned(['center', 'right', 'middle'], null),
   ],
   props: {
     column: {
@@ -39,6 +39,14 @@ export default {
       type: Boolean,
       description: '',
     },
+    vertically: { // TODO:descr
+      type: Boolean,
+      description: '',
+    },
+    reversed: { // TODO:descr
+      type: Boolean,
+      description: '',
+    },
     divided: { // TODO:descr
       type: Boolean,
       description: '',
@@ -51,6 +59,46 @@ export default {
       type: Boolean,
       description: '',
     },
+    container: { // TODO:descr
+      type: Boolean,
+      description: '',
+    },
+    padded: {
+      type: [Boolean, String],
+      descr: '', // TODO: descr
+      validator: (value) => {
+        return value === false || value === true || value === 'vertically' || value === 'horizontally';
+      },
+      default: false,
+    },
+    centered: { // TODO:descr
+      type: Boolean,
+      description: '',
+    },
+    celled: {
+      type: [Boolean, String],
+      descr: '', // TODO: descr
+      validator: (value) => {
+        return value === false || value === true || value === 'internally';
+      },
+      default: false,
+    },
+    compact: {
+      type: [Boolean, String],
+      descr: '', // TODO: descr
+      validator: (value) => {
+        return value === false || value === true || value === 'very';
+      },
+      default: false,
+    },
+    display: {
+      type: [Boolean, String],
+      descr: '', // TODO: descr
+      validator: (value) => {
+        return value === false || Enum.Display.check(value);
+      },
+      default: false,
+    },
   },
   events: {
     click: {
@@ -61,6 +109,7 @@ export default {
     classes: function () {
       return u.concatClasses(
         'ui',
+        this.display,
         this.doubling && 'doubling',
         this.column && this.column,
         this.column && 'column',
@@ -68,10 +117,20 @@ export default {
         this.relaxed && 'relaxed',
         this.stackable && 'stackable',
         ...this.getClassesAligned,
+        this.compact,
+        this.compact && 'compact',
+        this.vertically && 'vertically',
+        this.reversed && 'reversed',
+        this.divided && 'divided',
         this.equalHeight && 'equal height',
         this.equalWidth && 'equal width',
-        this.divided && 'divided',
-        'grid'
+        this.celled,
+        this.celled && 'celled',
+        this.padded,
+        this.padded && 'padded',
+        this.centered && 'centered',
+        'grid',
+        this.container && 'container'
       );
     },
   },

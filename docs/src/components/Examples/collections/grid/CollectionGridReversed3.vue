@@ -1,19 +1,19 @@
 <template>
   <div>
-      <div class="ui tablet vertically reversed grid">
-        <div class="row">
-          <div class="column">Tablet Row 4</div>
-        </div>
-        <div class="row">
-          <div class="column">Tablet Row 3</div>
-        </div>
-        <div class="row">
-          <div class="column">Tablet Row 2</div>
-        </div>
-        <div class="row">
-          <div class="column">Tablet Row 1</div>
-        </div>
-      </div>
+    <FuiGrid display=tablet vertically reversed>
+      <FuiRow>
+        <FuiColumn>Tablet Row 4</FuiColumn>
+      </FuiRow>
+      <FuiRow>
+        <FuiColumn>Tablet Row 3</FuiColumn>
+      </FuiRow>
+      <FuiRow>
+        <FuiColumn>Tablet Row 2</FuiColumn>
+      </FuiRow>
+      <FuiRow>
+        <FuiColumn>Tablet Row 1</FuiColumn>
+      </FuiRow>
+    </FuiGrid>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
 export default {
   name: 'CollectionGridReversed3',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Responsive Variations',

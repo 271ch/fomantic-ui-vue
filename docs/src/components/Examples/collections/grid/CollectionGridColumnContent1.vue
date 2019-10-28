@@ -1,22 +1,22 @@
 <template>
   <div>
-      <div class="ui three column grid">
-        <div class="column">
-          <div class="ui segment">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-        </div>
-        <div class="column">
-          <div class="ui segment">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-        </div>
-        <div class="column">
-          <div class="ui segment">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-        </div>
-      </div>
+    <FuiGrid column=three>
+      <FuiColumn>
+        <FuiSegment>
+          <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+        </FuiSegment>
+      </FuiColumn>
+      <FuiColumn>
+        <FuiSegment>
+          <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+        </FuiSegment>
+      </FuiColumn>
+      <FuiColumn>
+        <FuiSegment>
+          <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+        </FuiSegment>
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -24,7 +24,7 @@
 export default {
   name: 'CollectionGridColumnContent1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Columns',
@@ -33,17 +33,17 @@ export default {
     model: '      <div class="ui three column grid">\n' +
       '        <div class="column">\n' +
       '          <div class="ui segment">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
       '          <div class="ui segment">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
       '          <div class="ui segment">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n',

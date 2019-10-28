@@ -1,16 +1,16 @@
 <template>
   <div>
-      <div class="ui grid">
-        <div class="eight wide column"/>
-        <div class="eight wide column"/>
-        <div class="ten wide column"/>
-        <div class="six wide column"/>
-        <div class="four wide column"/>
-        <div class="twelve wide column"/>
-        <div class="two wide column"/>
-        <div class="fourteen wide column"/>
-        <div class="sixteen wide column"/>
-      </div>
+      <FuiGrid>
+        <FuiColumn wide=eight></FuiColumn>
+        <FuiColumn wide=eight></FuiColumn>
+        <FuiColumn wide=ten></FuiColumn>
+        <FuiColumn wide=six></FuiColumn>
+        <FuiColumn wide=four></FuiColumn>
+        <FuiColumn wide=twelve></FuiColumn>
+        <FuiColumn wide=two></FuiColumn>
+        <FuiColumn wide=fourteen></FuiColumn>
+        <FuiColumn wide=sixteen></FuiColumn>
+      </FuiGrid>
   </div>
 </template>
 
@@ -18,22 +18,22 @@
 export default {
   name: 'CollectionGridColumnWidths1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Columns',
     title2: 'Column Widths',
     description: 'Column widths can be specified using',
     model: '      <div class="ui grid">\n' +
-      '        <div class="eight wide column"/>\n' +
-      '        <div class="eight wide column"/>\n' +
-      '        <div class="ten wide column"/>\n' +
-      '        <div class="six wide column"/>\n' +
-      '        <div class="four wide column"/>\n' +
-      '        <div class="twelve wide column"/>\n' +
-      '        <div class="two wide column"/>\n' +
-      '        <div class="fourteen wide column"/>\n' +
-      '        <div class="sixteen wide column"/>\n' +
+      '        <div class="eight wide column"></div>\n' +
+      '        <div class="eight wide column"></div>\n' +
+      '        <div class="ten wide column"></div>\n' +
+      '        <div class="six wide column"></div>\n' +
+      '        <div class="four wide column"></div>\n' +
+      '        <div class="twelve wide column"></div>\n' +
+      '        <div class="two wide column"></div>\n' +
+      '        <div class="fourteen wide column"></div>\n' +
+      '        <div class="sixteen wide column"></div>\n' +
       '      </div>\n',
   },
 };

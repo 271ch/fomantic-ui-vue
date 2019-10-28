@@ -1,19 +1,19 @@
 <template>
   <div>
-      <div class="ui four column very relaxed grid">
-        <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-        </div>
-        <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-        </div>
-        <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-        </div>
-        <div class="column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-        </div>
-      </div>
+    <FuiGrid column=four relaxed=very>
+      <FuiColumn>
+        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+      </FuiColumn>
+      <FuiColumn>
+        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+      </FuiColumn>
+      <FuiColumn>
+        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+      </FuiColumn>
+      <FuiColumn>
+        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
 export default {
   name: 'CollectionGridRelaxed2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Variations',
@@ -29,16 +29,16 @@ export default {
     description: 'A grid can increase its gutters to allow for more negative space',
     model: '      <div class="ui four column very relaxed grid">\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n',
   },

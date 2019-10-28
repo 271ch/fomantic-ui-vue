@@ -1,16 +1,16 @@
 <template>
   <div>
-      <div class="ui mobile reversed equal width grid">
-        <div class="column">
-          First
-        </div>
-        <div class="column">
-          Second
-        </div>
-        <div class="column">
-          Third
-        </div>
-      </div>
+    <FuiGrid display=mobile reversed equalWidth>
+      <FuiColumn>
+        First
+      </FuiColumn>
+      <FuiColumn>
+        Second
+      </FuiColumn>
+      <FuiColumn>
+        Third
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 export default {
   name: 'CollectionGridReverseOrder1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Responsive Grids',

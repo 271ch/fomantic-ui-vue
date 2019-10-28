@@ -1,49 +1,49 @@
 <template>
   <div>
-      <div class="ui grid">
-        <div class="three column row">
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-        </div>
-        <div class="four column row">
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-        </div>
-        <div class="five column row">
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-          <div class="column">
-            <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-          </div>
-        </div>
-      </div>
+      <FuiGrid>
+        <FuiRow column=three>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+        </FuiRow>
+        <FuiRow column=four>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+        </FuiRow>
+        <FuiRow column=five>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+          <FuiColumn>
+            <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+          </FuiColumn>
+        </FuiRow>
+      </FuiGrid>
   </div>
 </template>
 
@@ -51,7 +51,7 @@
 export default {
   name: 'CollectionGridColumnCount1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Variations',
@@ -60,44 +60,44 @@ export default {
     model: '      <div class="ui grid">\n' +
       '        <div class="three column row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="four column row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="five column row">\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '            <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n',

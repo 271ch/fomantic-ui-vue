@@ -1,15 +1,15 @@
 <template>
   <div>
-      <div class="ui centered grid">
-        <div class="computer only row">
-          <div class="column"/>
-        </div>
-        <div class="six wide tablet eight wide computer column"/>
-        <div class="six wide tablet eight wide computer column"/>
-        <div class="six wide tablet eight wide computer column"/>
-        <div class="six wide tablet eight wide computer column"/>
-        <div class="six wide tablet eight wide computer column"/>
-      </div>
+    <FuiGrid centered>
+      <FuiRow only=computer>
+        <FuiColumn></FuiColumn>
+      </FuiRow>
+      <FuiColumn tablet=six computer=eight></FuiColumn>
+      <FuiColumn tablet=six computer=eight></FuiColumn>
+      <FuiColumn tablet=six computer=eight></FuiColumn>
+      <FuiColumn tablet=six computer=eight></FuiColumn>
+      <FuiColumn tablet=six computer=eight></FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -17,7 +17,7 @@
 export default {
   name: 'CollectionGridManualTweaks1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Responsive Grids',
@@ -25,13 +25,13 @@ export default {
     description: 'Although design patterns like',
     model: '      <div class="ui centered grid">\n' +
       '        <div class="computer only row">\n' +
-      '          <div class="column"/>\n' +
+      '          <div class="column"></div>\n' +
       '        </div>\n' +
-      '        <div class="six wide tablet eight wide computer column"/>\n' +
-      '        <div class="six wide tablet eight wide computer column"/>\n' +
-      '        <div class="six wide tablet eight wide computer column"/>\n' +
-      '        <div class="six wide tablet eight wide computer column"/>\n' +
-      '        <div class="six wide tablet eight wide computer column"/>\n' +
+      '        <div class="six wide tablet eight wide computer column"></div>\n' +
+      '        <div class="six wide tablet eight wide computer column"></div>\n' +
+      '        <div class="six wide tablet eight wide computer column"></div>\n' +
+      '        <div class="six wide tablet eight wide computer column"></div>\n' +
+      '        <div class="six wide tablet eight wide computer column"></div>\n' +
       '      </div>\n',
   },
 };

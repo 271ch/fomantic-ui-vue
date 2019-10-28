@@ -1,33 +1,33 @@
 <template>
   <div>
-      <div class="ui three column divided grid">
-        <div class="stretched row">
-          <div class="column">
-            <div class="ui segment">
-              1
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              1
-            </div>
-            <div class="ui segment">
-              2
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              1
-            </div>
-            <div class="ui segment">
-              2
-            </div>
-            <div class="ui segment">
-              3
-            </div>
-          </div>
-        </div>
-      </div>
+    <FuiGrid column=three divided>
+      <FuiRow stretched>
+        <FuiColumn>
+          <FuiSegment>
+            1
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            1
+          </FuiSegment>
+          <FuiSegment>
+            2
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            1
+          </FuiSegment>
+          <FuiSegment>
+            2
+          </FuiSegment>
+          <FuiSegment>
+            3
+          </FuiSegment>
+        </FuiColumn>
+      </FuiRow>
+    </FuiGrid>
   </div>
 </template>
 
@@ -35,7 +35,7 @@
 export default {
   name: 'CollectionGridStretched1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Variations',

@@ -1,19 +1,19 @@
 <template>
   <div>
-      <div class="ui grid">
-        <div class="four wide two wide large screen one wide widescreen column">
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
-        </div>
-        <div class="four wide two wide large screen one wide widescreen column">
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
-        </div>
-        <div class="four wide two wide large screen one wide widescreen column">
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
-        </div>
-        <div class="four wide two wide large screen one wide widescreen column">
-          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>
-        </div>
-      </div>
+    <FuiGrid>
+      <FuiColumn largescreen=two widescreen=one>
+        <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+      </FuiColumn>
+      <FuiColumn largescreen=two widescreen=one>
+        <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+      </FuiColumn>
+      <FuiColumn largescreen=two widescreen=one>
+        <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+      </FuiColumn>
+      <FuiColumn largescreen=two widescreen=one>
+        <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
 export default {
   name: 'CollectionGridResponsiveWidth2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Responsive Variations',
@@ -29,16 +29,16 @@ export default {
     description: 'A column can specify a width for a specific device',
     model: '      <div class="ui grid">\n' +
       '        <div class="four wide two wide large screen one wide widescreen column">\n' +
-      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="four wide two wide large screen one wide widescreen column">\n' +
-      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="four wide two wide large screen one wide widescreen column">\n' +
-      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="four wide two wide large screen one wide widescreen column">\n' +
-      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n',
   },

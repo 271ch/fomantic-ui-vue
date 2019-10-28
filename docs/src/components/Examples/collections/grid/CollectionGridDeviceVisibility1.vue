@@ -1,107 +1,104 @@
 <template>
   <div>
-      <div class="ui text message info ignore">
-        See <a href="/elements/container.html">container documentation</a> for information on breakpoint calculations
-      </div>
-      <div class="ui grid">
-        <div class="two column large screen only row">
-          <div class="column">
-            <div class="ui segment">
-              Large Screen
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              Large Screen
-            </div>
-          </div>
-        </div>
-        <div class="two column widescreen only row">
-          <div class="column">
-            <div class="ui segment">
-              Widescreen
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              Widescreen
-            </div>
-          </div>
-        </div>
-        <div class="two column mobile only row">
-          <div class="column">
-            <div class="ui segment">
-              Mobile
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              Mobile
-            </div>
-          </div>
-        </div>
-        <div class="three column row">
-          <div class="computer only column">
-            <div class="ui segment">
-              Computer
-            </div>
-          </div>
-          <div class="tablet mobile only column">
-            <div class="ui segment">
-              Tablet and Mobile
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              All Sizes
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              All Sizes
-            </div>
-          </div>
-        </div>
-        <div class="four column computer only row">
-          <div class="column">
-            <div class="ui segment">
-              Computer
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              Computer
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              Computer
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              Computer
-            </div>
-          </div>
-        </div>
-        <div class="three column tablet only row">
-          <div class="column">
-            <div class="ui segment">
-              Tablet
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              Tablet
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              Tablet
-            </div>
-          </div>
-        </div>
-      </div>
+    <FuiGrid>
+      <FuiRow column=two only="large screen">
+        <FuiColumn>
+          <FuiSegment>
+            Large Screen
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            Large Screen
+          </FuiSegment>
+        </FuiColumn>
+      </FuiRow>
+      <FuiRow column=two only=widescreen>
+        <FuiColumn>
+          <FuiSegment>
+            Widescreen
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            Widescreen
+          </FuiSegment>
+        </FuiColumn>
+      </FuiRow>
+      <FuiRow column=two only=mobile>
+        <FuiColumn>
+          <FuiSegment>
+            Mobile
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            Mobile
+          </FuiSegment>
+        </FuiColumn>
+      </FuiRow>
+      <FuiRow column=three>
+        <FuiColumn only=computer>
+          <FuiSegment>
+            Computer
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn :only="['tablet','mobile']">
+          <FuiSegment>
+            Tablet and Mobile
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            All Sizes
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            All Sizes
+          </FuiSegment>
+        </FuiColumn>
+      </FuiRow>
+      <FuiRow column=four only=computer>
+        <FuiColumn>
+          <FuiSegment>
+            Computer
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            Computer
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            Computer
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            Computer
+          </FuiSegment>
+        </FuiColumn>
+      </FuiRow>
+      <FuiRow column=three only=tablet>
+        <FuiColumn>
+          <FuiSegment>
+            Tablet
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            Tablet
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            Tablet
+          </FuiSegment>
+        </FuiColumn>
+      </FuiRow>
+    </FuiGrid>
   </div>
 </template>
 
@@ -109,16 +106,13 @@
 export default {
   name: 'CollectionGridDeviceVisibility1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Responsive Variations',
     title2: 'Device Visibility',
     description: 'A columns or row can appear only for a specific device, or screen sizes',
-    model: '      <div class="ui text message info ignore">\n' +
-      '        See <a href="/elements/container.html">container documentation</a> for information on breakpoint calculations\n' +
-      '      </div>\n' +
-      '      <div class="ui grid">\n' +
+    model: '      <div class="ui grid">\n' +
       '        <div class="two column large screen only row">\n' +
       '          <div class="column">\n' +
       '            <div class="ui segment">\n' +

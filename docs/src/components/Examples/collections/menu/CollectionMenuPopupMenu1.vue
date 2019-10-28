@@ -65,7 +65,7 @@ export default {
       '      </a>\n' +
       '    </div>\n' +
       '    <div class="ui fluid popup">\n' +
-      '      <div class="ui four column relaxed equal height divided grid">\n' +
+      '      <div class="ui four column relaxed divided equal height grid">\n' +
       '        <div class="column">\n' +
       '          <h4 class="ui header">Fabrics</h4>\n' +
       '          <div class="ui link list">\n' +

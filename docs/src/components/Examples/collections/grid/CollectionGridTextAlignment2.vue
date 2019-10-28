@@ -1,41 +1,41 @@
 <template>
   <div>
-      <div class="ui center aligned grid">
-        <div class="three column row">
-          <div class="column">
-            <div class="ui vertical fluid menu">
-              <div class="header item">
-                Cats
-              </div>
-            </div>
-          </div>
-          <div class="left aligned column">
-            <div class="ui vertical fluid menu">
-              <div class="header item">
-                Dogs
-              </div>
-              <div class="item">
-                Poodle
-              </div>
-              <div class="item">
-                Cockerspaniel
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui vertical fluid menu">
-              <div class="header item">
-                Monkeys
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="justified row">
-          <div class="column">
-            <p>Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other.</p>
-          </div>
-        </div>
-      </div>
+    <FuiGrid aligned=center>
+      <FuiRow column=three>
+        <FuiColumn>
+          <FuiMenu vertical fluid>
+            <FuiItem isHeader>
+              Cats
+            </FuiItem>
+          </FuiMenu>
+        </FuiColumn>
+        <FuiColumn aligned=left>
+          <FuiMenu vertical fluid>
+            <FuiItem isHeader>
+              Dogs
+            </FuiItem>
+            <FuiItem>
+              Poodle
+            </FuiItem>
+            <FuiItem>
+              Cockerspaniel
+            </FuiItem>
+          </FuiMenu>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiMenu vertical fluid>
+            <FuiItem isHeader>
+              Monkeys
+            </FuiItem>
+          </FuiMenu>
+        </FuiColumn>
+      </FuiRow>
+      <FuiRow aligned=justified>
+        <FuiColumn>
+          <p>Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other.</p>
+        </FuiColumn>
+      </FuiRow>
+    </FuiGrid>
   </div>
 </template>
 
@@ -43,7 +43,7 @@
 export default {
   name: 'CollectionGridTextAlignment2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Variations',
@@ -52,14 +52,14 @@ export default {
     model: '      <div class="ui center aligned grid">\n' +
       '        <div class="three column row">\n' +
       '          <div class="column">\n' +
-      '            <div class="ui vertical fluid menu">\n' +
+      '            <div class="ui fluid vertical menu">\n' +
       '              <div class="header item">\n' +
       '                Cats\n' +
       '              </div>\n' +
       '            </div>\n' +
       '          </div>\n' +
       '          <div class="left aligned column">\n' +
-      '            <div class="ui vertical fluid menu">\n' +
+      '            <div class="ui fluid vertical menu">\n' +
       '              <div class="header item">\n' +
       '                Dogs\n' +
       '              </div>\n' +
@@ -72,7 +72,7 @@ export default {
       '            </div>\n' +
       '          </div>\n' +
       '          <div class="column">\n' +
-      '            <div class="ui vertical fluid menu">\n' +
+      '            <div class="ui fluid vertical menu">\n' +
       '              <div class="header item">\n' +
       '                Monkeys\n' +
       '              </div>\n' +

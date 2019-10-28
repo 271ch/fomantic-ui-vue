@@ -51,14 +51,14 @@ module.exports = {
     'func-call-spacing': ['error', 'never'], // require or disallow spacing between function identifiers and their invocations
     'func-name-matching': ['error', 'always'], // require function names to match the name of the variable or property to which they are assigned
     'indent': ['error', 2], // enforce consistent indentation
-    'key-spacing' : 'error', // enforce consistent spacing between keys and values in object literal properties
-    'keyword-spacing' : 'error', // enforce consistent spacing before and after keywords
-    'no-multiple-empty-lines' : 'error', // disallow multiple empty lines
-    'no-tabs' : 'error', // disallow all tabs
-    'no-trailing-spaces' : 'error', // disallow trailing whitespace at the end of lines
-    'object-curly-newline' : 'error', // enforce consistent line breaks inside braces
-    'object-curly-spacing' : ["error", "always", { "objectsInObjects": false }], // enforce consistent spacing inside braces
-    'object-property-newline' : 'error', // enforce placing object properties on separate lines
+    'key-spacing': 'error', // enforce consistent spacing between keys and values in object literal properties
+    'keyword-spacing': 'error', // enforce consistent spacing before and after keywords
+    'no-multiple-empty-lines': 'error', // disallow multiple empty lines
+    'no-tabs': 'error', // disallow all tabs
+    'no-trailing-spaces': 'error', // disallow trailing whitespace at the end of lines
+    'object-curly-newline': 'error', // enforce consistent line breaks inside braces
+    'object-curly-spacing': ["error", "always", { "objectsInObjects": false }], // enforce consistent spacing inside braces
+    'object-property-newline': ['error', { "allowAllPropertiesOnSameLine": true}], // enforce placing object properties on separate lines
     'semi': 'error', // require or disallow semicolons instead of ASI
     'space-before-blocks': 'error', // enforce consistent spacing before blocks
     'space-before-function-paren': 'error', // enforce consistent spacing before function definition opening parenthesis

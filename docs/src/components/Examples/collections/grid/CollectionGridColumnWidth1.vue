@@ -1,16 +1,16 @@
 <template>
   <div>
-      <div class="ui grid">
-        <div class="four wide column">
-          <img class="ui wireframe image" src="/images/wireframe/image.png"/>
-        </div>
-        <div class="nine wide column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-        </div>
-        <div class="three wide column">
-          <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>
-        </div>
-      </div>
+    <FuiGrid>
+      <FuiColumn wide=four>
+        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>
+      </FuiColumn>
+      <FuiColumn wide=nine>
+        <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+      </FuiColumn>
+      <FuiColumn wide=three>
+        <FuiImage src="/images/wireframe/media-paragraph.png" wireframe></FuiImage>
+      </FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 export default {
   name: 'CollectionGridColumnWidth1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Variations',
@@ -26,13 +26,13 @@ export default {
     description: 'A column can vary in width taking up more than a single grid column.',
     model: '      <div class="ui grid">\n' +
       '        <div class="four wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+      '          <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="nine wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="three wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n',
   },

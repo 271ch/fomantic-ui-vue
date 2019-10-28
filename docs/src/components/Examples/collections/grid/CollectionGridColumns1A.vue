@@ -1,19 +1,19 @@
 <template>
   <div>
-      <div class="ui grid">
-        <div class="eight wide column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-        </div>
-        <div class="eight wide column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-        </div>
-        <div class="eight wide column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-        </div>
-        <div class="eight wide column">
-          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>
-        </div>
-      </div>
+      <FuiGrid>
+        <FuiColumn wide=eight>
+          <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+        </FuiColumn>
+        <FuiColumn wide=eight>
+          <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+        </FuiColumn>
+        <FuiColumn wide=eight>
+          <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+        </FuiColumn>
+        <FuiColumn wide=eight>
+          <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+        </FuiColumn>
+      </FuiGrid>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
 export default {
   name: 'CollectionGridColumns1A',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Content',
@@ -29,16 +29,16 @@ export default {
     description: 'Columns each contain gutters giving them equal spacing from other columns.',
     model: '      <div class="ui grid">\n' +
       '        <div class="eight wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="eight wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="eight wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '        <div class="eight wide column">\n' +
-      '          <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+      '          <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
       '        </div>\n' +
       '      </div>\n',
   },

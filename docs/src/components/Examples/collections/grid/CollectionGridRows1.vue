@@ -1,16 +1,16 @@
 <template>
   <div>
-      <div class="ui four column grid">
-        <div class="row">
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-        </div>
-        <div class="column"/>
-        <div class="column"/>
-        <div class="column"/>
-        <div class="column"/>
-      </div>
+    <FuiGrid column=four>
+      <FuiRow>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+      </FuiRow>
+      <FuiColumn></FuiColumn>
+      <FuiColumn></FuiColumn>
+      <FuiColumn></FuiColumn>
+      <FuiColumn></FuiColumn>
+    </FuiGrid>
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 export default {
   name: 'CollectionGridRows1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Introduction',
@@ -26,14 +26,14 @@ export default {
     description: '???',
     model: '      <div class="ui four column grid">\n' +
       '        <div class="row">\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
       '        </div>\n' +
-      '        <div class="column"/>\n' +
-      '        <div class="column"/>\n' +
-      '        <div class="column"/>\n' +
-      '        <div class="column"/>\n' +
+      '        <div class="column"></div>\n' +
+      '        <div class="column"></div>\n' +
+      '        <div class="column"></div>\n' +
+      '        <div class="column"></div>\n' +
       '      </div>\n',
   },
 };

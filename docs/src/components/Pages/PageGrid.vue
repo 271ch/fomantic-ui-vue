@@ -11,7 +11,6 @@
     <ExampleWithSource example="CollectionGridRows1"></ExampleWithSource>
     <ExampleWithSource example="CollectionGridGutters1"></ExampleWithSource>
     <ExampleWithSource example="CollectionGridNegativeMargins1"></ExampleWithSource>
-    <ExampleWithSource example="CollectionGridPageGrids1"></ExampleWithSource>
     <ExampleWithSource example="CollectionGridAutomaticFlow1"></ExampleWithSource>
     <ExampleWithSource example="CollectionGridColumnContent1"></ExampleWithSource>
     <ExampleWithSource example="CollectionGridColumnWidths1"></ExampleWithSource>

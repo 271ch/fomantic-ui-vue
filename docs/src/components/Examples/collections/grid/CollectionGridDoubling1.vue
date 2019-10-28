@@ -1,31 +1,31 @@
 <template>
   <div>
-      <div class="ui grid">
-        <div class="doubling eight column row">
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-        </div>
-        <div class="doubling six column row">
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-        </div>
-        <div class="doubling four column row">
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-          <div class="column"/>
-        </div>
-      </div>
+    <FuiGrid>
+      <FuiRow doubling column=eight>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+      </FuiRow>
+      <FuiRow doubling column=six>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+      </FuiRow>
+      <FuiRow doubling column=four>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+        <FuiColumn></FuiColumn>
+      </FuiRow>
+    </FuiGrid>
   </div>
 </template>
 
@@ -33,7 +33,7 @@
 export default {
   name: 'CollectionGridDoubling1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'grid',
     title1: 'Responsive Grids',
@@ -41,28 +41,28 @@ export default {
     description: 'A',
     model: '      <div class="ui grid">\n' +
       '        <div class="doubling eight column row">\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
       '        </div>\n' +
       '        <div class="doubling six column row">\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
       '        </div>\n' +
       '        <div class="doubling four column row">\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
-      '          <div class="column"/>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
+      '          <div class="column"></div>\n' +
       '        </div>\n' +
       '      </div>\n',
   },

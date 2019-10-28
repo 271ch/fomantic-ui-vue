@@ -17094,1308 +17094,1283 @@ s.ElementIconCornerIcon1 =
   '  <FuiIcon name=add corner></FuiIcon>\n' +
   '</FuiIcons>' 
 s.CollectionGridStretched2 = 
-  '  <div class="ui equal width grid">\n' +
-  '    <div class="stretched row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          1\n' +
-  '        </div>\n' +
-  '        <div class="ui segment">\n' +
-  '          2\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="six wide column">\n' +
-  '        <div class="ui segment">\n' +
-  '          <img class="ui image" src="/images/wireframe/image.png"/>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          1\n' +
-  '        </div>\n' +
-  '        <div class="ui segment">\n' +
-  '          2\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          1\n' +
-  '        </div>\n' +
-  '        <div class="ui segment">\n' +
-  '          2\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="six wide column">\n' +
-  '        <div class="ui segment">\n' +
-  '          <img class="ui image" src="/images/wireframe/image.png"/>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          1\n' +
-  '        </div>\n' +
-  '        <div class="ui segment">\n' +
-  '          2\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridRows1A = 
-  '  <div class="ui three column grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridTextAlignment1 = 
-  '  <div class="ui center aligned three column grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Cats\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Dogs\n' +
-  '          </div>\n' +
-  '          <div class="item">\n' +
-  '            Poodle\n' +
-  '          </div>\n' +
-  '          <div class="item">\n' +
-  '            Cockerspaniel\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Monkeys\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridReversed1 = 
-  '  <div class="ui ignored info message message">Reversed grids are compatible with <code>divided</code> grids and other complex grid types.</div>\n' +
-  '  <div class="ui computer reversed equal width grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        Computer A Fourth\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        Computer A Third\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        Computer A Second\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        Computer A First\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        Computer B Fourth\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        Computer B Third\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        Computer B Second\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        Computer B First\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui tablet reversed equal width grid">\n' +
-  '    <div class="column">\n' +
-  '      Tablet Fourth\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      Tablet Third\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      Tablet Second\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      Tablet First\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui mobile reversed equal width grid">\n' +
-  '    <div class="column">\n' +
-  '      Mobile Fourth\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      Mobile Third\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      Mobile Second\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      Mobile First\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridCentered1 = 
-  '  <div class="ui two column centered grid">\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="four column centered row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="four column row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridPadded3 = 
-  '  <div class="ui divider"/>\n' +
-  '  <div class="ui two column horizontally padded grid">\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridGrids1 = 
-  '  <div class="ui ignored toggle animation checkbox">\n' +
-  '    <input type="checkbox" name="animation"/>\n' +
-  '    <label>Toggle Animation</label>\n' +
-  '  </div>\n' +
-  '  <div class="ui ignored hidden divider"/>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '  </div>' 
-s.CollectionGridNegativeMargins1 = 
-  '   <div class="ui top attached button">Button before grid</div>\n' +
-  '   <div class="ui grid">\n' +
-  '    <div class="sixteen wide column"/>\n' +
-  '    <div class="ten wide column"/>\n' +
-  '    <div class="six wide column"/>\n' +
-  '  </div>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="sixteen wide column"/>\n' +
-  '  </div>\n' +
-  '  <div class="ui bottom attached button">Button after grid</div>' 
-s.CollectionGridTextAlignment3 = 
-  '  <div class="ui right aligned three column grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Cats\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Dogs\n' +
-  '          </div>\n' +
-  '          <div class="item">\n' +
-  '            Poodle\n' +
-  '          </div>\n' +
-  '          <div class="item">\n' +
-  '            Cockerspaniel\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Monkeys\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridVerticalAlignment2 = 
-  '  <div class="ui four column centered grid">\n' +
-  '    <div class="top aligned row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="middle aligned row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="bottom aligned row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridReverseOrder1 = 
-  '  <div class="ui mobile reversed equal width grid">\n' +
-  '    <div class="column">\n' +
-  '      First\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      Second\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      Third\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridGutters1 = 
-  '  <div class="ui grid">\n' +
-  '    <div class="three column row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '    <div class="eight column row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui relaxed grid">\n' +
-  '    <div class="three column row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '    <div class="eight column row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridDoubling1 = 
-  '  <div class="ui grid">\n' +
-  '    <div class="doubling eight column row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '    <div class="doubling six column row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '    <div class="doubling four column row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridAutomaticColumnCount1 = 
-  '  <div class="ui equal width grid">\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="equal width row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridRelaxed2 = 
-  '  <div class="ui four column very relaxed grid">\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridStackable1 = 
-  '  <div class="ui stackable four column grid">\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '  </div>' 
-s.CollectionGridDoubling1A = 
-  '  <div class="ui text message info ignore">\n' +
-  '    A grid will round its columns to the closest reasonable value when doubling, for example a <code>five column grid</code> will use <code>2 mobile, 3 tablet, 5 desktop</code>. To force 1 column on mobile you can add <a href="#stackable"><code>stackable</code></a>\n' +
-  '  </div>\n' +
-  '  <div class="five column doubling ui grid">\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridInternallyCelled1 = 
-  '  <div class="ui internally celled grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="ten wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="ten wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridRows1 = 
-  '  <div class="ui four column grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '  </div>' 
-s.CollectionGridColumns1 = 
-  '  <div class="ui grid">\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="two wide column"/>\n' +
-  '    <div class="eight wide column"/>\n' +
-  '    <div class="six wide column"/>\n' +
-  '  </div>' 
-s.CollectionGridSpecialGrids1 = 
-  '  <div class="ui internally celled grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="ten wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="ten wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridReversed2 = 
-  '  <div class="ui computer vertically reversed grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Computer Row 4</div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Computer Row 3</div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Computer Row 2</div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Computer Row 1</div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridContainers1 = 
-  '  <div class="ui grid container">\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '  </div>' 
-s.CollectionGridColored1A = 
-  '  <div class="ui five column padded grid">\n' +
-  '    <div class="red column">Red</div>\n' +
-  '    <div class="orange column">Orange</div>\n' +
-  '    <div class="yellow column">Yellow</div>\n' +
-  '    <div class="olive column">Olive</div>\n' +
-  '    <div class="green column">Green</div>\n' +
-  '    <div class="teal column">Teal</div>\n' +
-  '    <div class="blue column">Blue</div>\n' +
-  '    <div class="violet column">Violet</div>\n' +
-  '    <div class="purple column">Purple</div>\n' +
-  '    <div class="pink column">Pink</div>\n' +
-  '    <div class="brown column">Brown</div>\n' +
-  '    <div class="grey column">Grey</div>\n' +
-  '    <div class="black column">Black</div>\n' +
-  '  </div>' 
-s.CollectionGridVerticalAlignment1 = 
-  '  <div class="ui middle aligned four column centered grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridRelaxed1 = 
-  '  <div class="ui four column relaxed grid">\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridNestingGrids1 = 
-  '  <div class="ui two column grid">\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui three column grid">\n' +
-  '        <div class="column"/>\n' +
-  '        <div class="column"/>\n' +
-  '        <div class="column"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui grid">\n' +
-  '        <div class="ten wide column"/>\n' +
-  '        <div class="six wide column"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridColored2 = 
-  '  <div class="ui padded grid">\n' +
-  '    <div class="red row">\n' +
-  '      <div class="column">Red</div>\n' +
-  '    </div>\n' +
-  '    <div class="orange row">\n' +
-  '      <div class="column">Orange</div>\n' +
-  '    </div>\n' +
-  '    <div class="yellow row">\n' +
-  '      <div class="column">Yellow</div>\n' +
-  '    </div>\n' +
-  '    <div class="olive row">\n' +
-  '      <div class="column">Olive</div>\n' +
-  '    </div>\n' +
-  '    <div class="green row">\n' +
-  '      <div class="column">Green</div>\n' +
-  '    </div>\n' +
-  '    <div class="teal row">\n' +
-  '      <div class="column">Teal</div>\n' +
-  '    </div>\n' +
-  '    <div class="blue row">\n' +
-  '      <div class="column">Blue</div>\n' +
-  '    </div>\n' +
-  '    <div class="violet row">\n' +
-  '      <div class="column">Violet</div>\n' +
-  '    </div>\n' +
-  '    <div class="purple row">\n' +
-  '      <div class="column">Purple</div>\n' +
-  '    </div>\n' +
-  '    <div class="pink row">\n' +
-  '      <div class="column">Pink</div>\n' +
-  '    </div>\n' +
-  '    <div class="brown row">\n' +
-  '      <div class="column">Brown</div>\n' +
-  '    </div>\n' +
-  '    <div class="grey row">\n' +
-  '      <div class="column">Grey</div>\n' +
-  '    </div>\n' +
-  '    <div class="black row">\n' +
-  '      <div class="column">Black</div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridCompact2 = 
-  '  <div class="ui divider"/>\n' +
-  '  <div class="ui two column very compact internally celled grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridEqualWidth2 = 
-  '  <div class="ui equal width grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">1</div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">2</div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">3</div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">4</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">1</div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">2</div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">3</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">1</div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">2</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridColumns1A = 
-  '  <div class="ui grid">\n' +
-  '    <div class="eight wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="eight wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="eight wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="eight wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridClearingContent1 = 
-  '  <div class="ui grid">\n' +
-  '    <div class="four column row">\n' +
-  '      <div class="left floated column"/>\n' +
-  '      <div class="right floated column"/>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="three wide column"/>\n' +
-  '      <div class="eight wide column"/>\n' +
-  '      <div class="five wide column"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridPadded1 = 
-  '  <div class="ui divider"/>\n' +
-  '  <div class="ui two column padded grid">\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridResponsiveWidth2 = 
-  '  <div class="ui grid">\n' +
-  '    <div class="four wide two wide large screen one wide widescreen column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '    </div>\n' +
-  '    <div class="four wide two wide large screen one wide widescreen column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '    </div>\n' +
-  '    <div class="four wide two wide large screen one wide widescreen column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '    </div>\n' +
-  '    <div class="four wide two wide large screen one wide widescreen column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridColumnCount1 = 
-  '  <div class="ui grid">\n' +
-  '    <div class="three column row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="four column row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="five column row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridDeviceVisibility1 = 
-  '  <div class="ui text message info ignore">\n' +
-  '    See <a href="/elements/container.html">container documentation</a> for information on breakpoint calculations\n' +
-  '  </div>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="two column large screen only row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Large Screen\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Large Screen\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="two column widescreen only row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Widescreen\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Widescreen\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="two column mobile only row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Mobile\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Mobile\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="three column row">\n' +
-  '      <div class="computer only column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Computer\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="tablet mobile only column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Tablet and Mobile\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          All Sizes\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          All Sizes\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="four column computer only row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Computer\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Computer\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Computer\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Computer\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="three column tablet only row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Tablet\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Tablet\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          Tablet\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridColumnWidth1 = 
-  '  <div class="ui grid">\n' +
-  '    <div class="four wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="nine wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="three wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridPadded2 = 
-  '  <div class="ui divider"/>\n' +
-  '  <div class="ui two column vertically padded grid">\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridStretched1 = 
-  '  <div class="ui three column divided grid">\n' +
-  '    <div class="stretched row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          1\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          1\n' +
-  '        </div>\n' +
-  '        <div class="ui segment">\n' +
-  '          2\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          1\n' +
-  '        </div>\n' +
-  '        <div class="ui segment">\n' +
-  '          2\n' +
-  '        </div>\n' +
-  '        <div class="ui segment">\n' +
-  '          3\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridDivided1 = 
-  '  <div class="ui three column divided grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridGrouping1 = 
-  '  <div class="ui four column grid">\n' +
-  '    <div class="two column row">\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '  </div>' 
-s.CollectionGridColumnWidths1 = 
-  '  <div class="ui grid">\n' +
-  '    <div class="eight wide column"/>\n' +
-  '    <div class="eight wide column"/>\n' +
-  '    <div class="ten wide column"/>\n' +
-  '    <div class="six wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="twelve wide column"/>\n' +
-  '    <div class="two wide column"/>\n' +
-  '    <div class="fourteen wide column"/>\n' +
-  '    <div class="sixteen wide column"/>\n' +
-  '  </div>' 
-s.CollectionGridPageGrids1 = 
-  '  <div class="ui warning message">\n' +
-  '    <p>In version <code>1.x</code> of Semantic UI <code>page grid</code> were used to contain the maximum width of grids holding page content. Page grid have been deprecated in favor for the simpler <code>container</code> element.</p>\n' +
-  '  </div>' 
-s.CollectionGridVerticallyDivided1 = 
-  '  <div class="ui vertically divided grid">\n' +
-  '    <div class="two column row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="three column row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridCompact1 = 
-  '  <div class="ui divider"/>\n' +
-  '  <div class="ui two column compact internally celled grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridCenteringContent1 = 
-  '  <div class="ui two column centered grid">\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="four column centered row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridTextAlignment2 = 
-  '  <div class="ui center aligned grid">\n' +
-  '    <div class="three column row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Cats\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="left aligned column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Dogs\n' +
-  '          </div>\n' +
-  '          <div class="item">\n' +
-  '            Poodle\n' +
-  '          </div>\n' +
-  '          <div class="item">\n' +
-  '            Cockerspaniel\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Monkeys\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="justified row">\n' +
-  '      <div class="column">\n' +
-  '        <p>Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other.</p>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridReversed4 = 
-  '  <div class="ui mobile vertically reversed grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Mobile Row 4</div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Mobile Row 3</div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Mobile Row 2</div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Mobile Row 1</div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridFloated1 = 
-  '  <div class="ui grid">\n' +
-  '    <div class="left floated five wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '    </div>\n' +
-  '    <div class="right floated five wide column">\n' +
-  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridResponsiveWidth1 = 
-  '  <div class="ui ignored info message">\n' +
-  '    <p>It\'s recommended to use a responsive pattern like <a href="#doubling"><code>doubling</code></a> or <a href="#stackable"><code>stackable</code></a> to reduce complexity when designing responsively, however in some circumstances specifying exact widths for screen sizes may be necessary.</p>\n' +
-  '  </div>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '    </div>\n' +
-  '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '    </div>\n' +
-  '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '    </div>\n' +
-  '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '    </div>\n' +
-  '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridColumnContent1 = 
-  '  <div class="ui three column grid">\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui segment">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui segment">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui segment">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridReversed3 = 
-  '  <div class="ui tablet vertically reversed grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Tablet Row 4</div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Tablet Row 3</div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Tablet Row 2</div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Tablet Row 1</div>\n' +
-  '    </div>\n' +
-  '  </div>' 
-s.CollectionGridEqualWidth1 = 
-  '  <div class="ui equal width grid">\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui segment">\n' +
+  '<FuiGrid equalWidth>\n' +
+  '  <FuiRow stretched>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
   '        1\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="eight wide column">\n' +
-  '      <div class="ui segment">\n' +
+  '      </FuiSegment>\n' +
+  '      <FuiSegment>\n' +
   '        2\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui segment">\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn wide=six>\n' +
+  '      <FuiSegment>\n' +
+  '        <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        1\n' +
+  '      </FuiSegment>\n' +
+  '      <FuiSegment>\n' +
+  '        2\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        1\n' +
+  '      </FuiSegment>\n' +
+  '      <FuiSegment>\n' +
+  '        2\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn wide=six>\n' +
+  '      <FuiSegment>\n' +
+  '        <FuiImage src="/images/wireframe/image.png"></FuiImage>\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        1\n' +
+  '      </FuiSegment>\n' +
+  '      <FuiSegment>\n' +
+  '        2\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridRows1A = 
+  '<FuiGrid column=three>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridTextAlignment1 = 
+  '<FuiGrid aligned=center column=three>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiMenu vertical fluid>\n' +
+  '        <FuiItem isHeader>\n' +
+  '          Cats\n' +
+  '        </FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiMenu vertical fluid>\n' +
+  '        <FuiItem isHeader>\n' +
+  '          Dogs\n' +
+  '        </FuiItem>\n' +
+  '        <FuiItem>\n' +
+  '          Poodle\n' +
+  '        </FuiItem>\n' +
+  '        <FuiItem>\n' +
+  '          Cockerspaniel\n' +
+  '        </FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiMenu vertical fluid>\n' +
+  '        <FuiItem isHeader>\n' +
+  '          Monkeys\n' +
+  '        </FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridReversed1 = 
+  '<FuiGrid display=computer reversed equalWidth>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      Computer A Fourth\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      Computer A Third\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      Computer A Second\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      Computer A First\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      Computer B Fourth\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      Computer B Third\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      Computer B Second\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      Computer B First\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>\n' +
+  '<FuiGrid display=tablet reversed equalWidth>\n' +
+  '  <FuiColumn>\n' +
+  '    Tablet Fourth\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    Tablet Third\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    Tablet Second\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    Tablet First\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>\n' +
+  '<FuiGrid display=mobile reversed equalWidth>\n' +
+  '  <FuiColumn>\n' +
+  '    Mobile Fourth\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    Mobile Third\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    Mobile Second\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    Mobile First\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridCentered1 = 
+  '  <FuiGrid column=two centered>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiRow column=four centered>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow column=four>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '  </FuiGrid>' 
+s.CollectionGridPadded3 = 
+  '<FuiGrid column=two padded=horizontally>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridGrids1 = 
+  '<FuiGrid>\n' +
+  '  <FuiColumn wide=four></FuiColumn>\n' +
+  '  <FuiColumn wide=four></FuiColumn>\n' +
+  '  <FuiColumn wide=four></FuiColumn>\n' +
+  '  <FuiColumn wide=four></FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridNegativeMargins1 = 
+  '<FuiButton tag=div attached=top>Button before grid</FuiButton>\n' +
+  '<FuiGrid>\n' +
+  '  <FuiColumn wide=sixteen></FuiColumn>\n' +
+  '  <FuiColumn wide=ten></FuiColumn>\n' +
+  '  <FuiColumn wide=six></FuiColumn>\n' +
+  '</FuiGrid>\n' +
+  '<FuiGrid>\n' +
+  '  <FuiColumn wide=sixteen></FuiColumn>\n' +
+  '</FuiGrid>\n' +
+  '<FuiButton tag=div attached=bottom>Button after grid</FuiButton>' 
+s.CollectionGridTextAlignment3 = 
+  '<FuiGrid aligned=right column=three>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiMenu vertical fluid>\n' +
+  '        <FuiItem isHeader>\n' +
+  '          Cats\n' +
+  '        </FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiMenu vertical fluid>\n' +
+  '        <FuiItem isHeader>\n' +
+  '          Dogs\n' +
+  '        </FuiItem>\n' +
+  '        <FuiItem>\n' +
+  '          Poodle\n' +
+  '        </FuiItem>\n' +
+  '        <FuiItem>\n' +
+  '          Cockerspaniel\n' +
+  '        </FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiMenu vertical fluid>\n' +
+  '        <FuiItem isHeader>\n' +
+  '          Monkeys\n' +
+  '        </FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridVerticalAlignment2 = 
+  '<FuiGrid column=four centered>\n' +
+  '  <FuiRow aligned=top>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow aligned=middle>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow aligned=bottom>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridReverseOrder1 = 
+  '<FuiGrid display=mobile reversed equalWidth>\n' +
+  '  <FuiColumn>\n' +
+  '    First\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    Second\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    Third\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridGutters1 = 
+  '<FuiGrid>\n' +
+  '  <FuiRow column=three>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow column=eight>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>\n' +
+  '<FuiGrid relaxed>\n' +
+  '  <FuiRow column=three>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow column=eight>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridDoubling1 = 
+  '<FuiGrid>\n' +
+  '  <FuiRow doubling column=eight>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow doubling column=six>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow doubling column=four>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridAutomaticColumnCount1 = 
+  '  <FuiGrid equalWidth>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiRow equalWidth>\n' +
+  '      <FuiColumn></FuiColumn>\n' +
+  '      <FuiColumn></FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '  </FuiGrid>' 
+s.CollectionGridRelaxed2 = 
+  '<FuiGrid column=four relaxed=very>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridStackable1 = 
+  '<FuiGrid stackable column=four>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridDoubling1A = 
+  '<FuiGrid column=five doubling>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridInternallyCelled1 = 
+  '<FuiGrid celled=internally>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn wide=three>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn wide=ten>\n' +
+  '      <FuiImage src="/images/wireframe/centered-paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn wide=three>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn wide=three>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn wide=ten>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn wide=three>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridRows1 = 
+  '<FuiGrid column=four>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridColumns1 = 
+  '  <FuiGrid>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=two></FuiColumn>\n' +
+  '    <FuiColumn wide=eight></FuiColumn>\n' +
+  '    <FuiColumn wide=six></FuiColumn>\n' +
+  '  </FuiGrid>' 
+s.CollectionGridSpecialGrids1 = 
+  '<FuiGrid celled=internally>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn wide=three>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn wide=ten>\n' +
+  '      <FuiImage src="/images/wireframe/centered-paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn wide=three>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn wide=three>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn wide=ten>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn wide=three>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridReversed2 = 
+  '<FuiGrid display=computer vertically reversed>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>Computer Row 4</FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>Computer Row 3</FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>Computer Row 2</FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>Computer Row 1</FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridContainers1 = 
+  '  <FuiGrid container>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '  </FuiGrid>' 
+s.CollectionGridColored1A = 
+  '  <FuiGrid column=five padded>\n' +
+  '    <FuiColumn color=red>Red</FuiColumn>\n' +
+  '    <FuiColumn color=orange>Orange</FuiColumn>\n' +
+  '    <FuiColumn color=yellow>Yellow</FuiColumn>\n' +
+  '    <FuiColumn color=olive>Olive</FuiColumn>\n' +
+  '    <FuiColumn color=green>Green</FuiColumn>\n' +
+  '    <FuiColumn color=teal>Teal</FuiColumn>\n' +
+  '    <FuiColumn color=blue>Blue</FuiColumn>\n' +
+  '    <FuiColumn color=violet>Violet</FuiColumn>\n' +
+  '    <FuiColumn color=purple>Purple</FuiColumn>\n' +
+  '    <FuiColumn color=pink>Pink</FuiColumn>\n' +
+  '    <FuiColumn color=brown>Brown</FuiColumn>\n' +
+  '    <FuiColumn color=grey>Grey</FuiColumn>\n' +
+  '    <FuiColumn color=black>Black</FuiColumn>\n' +
+  '  </FuiGrid>' 
+s.CollectionGridVerticalAlignment1 = 
+  '<FuiGrid aligned=middle column=four centered>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridRelaxed1 = 
+  '<FuiGrid column=four relaxed>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridNestingGrids1 = 
+  '<FuiGrid column=two>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiGrid column=three>\n' +
+  '      <FuiColumn></FuiColumn>\n' +
+  '      <FuiColumn></FuiColumn>\n' +
+  '      <FuiColumn></FuiColumn>\n' +
+  '    </FuiGrid>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiGrid>\n' +
+  '      <FuiColumn wide=ten></FuiColumn>\n' +
+  '      <FuiColumn wide=six></FuiColumn>\n' +
+  '    </FuiGrid>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridColored2 = 
+  '  <FuiGrid padded>\n' +
+  '    <FuiRow color=red>\n' +
+  '      <FuiColumn>Red</FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow color=orange>\n' +
+  '      <FuiColumn>Orange</FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow color=yellow>\n' +
+  '      <FuiColumn>Yellow</FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow color=olive>\n' +
+  '      <FuiColumn>Olive</FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow color=green>\n' +
+  '      <FuiColumn>Green</FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow color=teal>\n' +
+  '      <FuiColumn>Teal</FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow color=blue>\n' +
+  '      <FuiColumn>Blue</FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow color=violet>\n' +
+  '      <FuiColumn>Violet</FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow color=purple>\n' +
+  '      <FuiColumn>Purple</FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow color=pink>\n' +
+  '      <FuiColumn>Pink</FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow color=brown>\n' +
+  '      <FuiColumn>Brown</FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow color=grey>\n' +
+  '      <FuiColumn>Grey</FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow color=black>\n' +
+  '      <FuiColumn>Black</FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '  </FuiGrid>' 
+s.CollectionGridCompact2 = 
+  '<FuiDivider></FuiDivider>\n' +
+  '<FuiGrid column=two compact=very celled=internally>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridEqualWidth2 = 
+  '<FuiGrid equalWidth>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>1</FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>2</FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>3</FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>4</FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>1</FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>2</FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>3</FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>1</FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>2</FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridColumns1A = 
+  '  <FuiGrid>\n' +
+  '    <FuiColumn wide=eight>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn wide=eight>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn wide=eight>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn wide=eight>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiGrid>' 
+s.CollectionGridClearingContent1 = 
+  '<FuiGrid>\n' +
+  '  <FuiRow column=four>\n' +
+  '    <FuiColumn floated=left></FuiColumn>\n' +
+  '    <FuiColumn floated=right></FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn wide=three></FuiColumn>\n' +
+  '    <FuiColumn wide=eight></FuiColumn>\n' +
+  '    <FuiColumn wide=five></FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridPadded1 = 
+  '<FuiGrid column=two padded>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridResponsiveWidth2 = 
+  '<FuiGrid>\n' +
+  '  <FuiColumn largescreen=two widescreen=one>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn largescreen=two widescreen=one>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn largescreen=two widescreen=one>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn largescreen=two widescreen=one>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridColumnCount1 = 
+  '  <FuiGrid>\n' +
+  '    <FuiRow column=three>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow column=four>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow column=five>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '  </FuiGrid>' 
+s.CollectionGridDeviceVisibility1 = 
+  '<FuiGrid>\n' +
+  '  <FuiRow column=two only="large screen">\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        Large Screen\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        Large Screen\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow column=two only=widescreen>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        Widescreen\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        Widescreen\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow column=two only=mobile>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        Mobile\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        Mobile\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow column=three>\n' +
+  '    <FuiColumn only=computer>\n' +
+  '      <FuiSegment>\n' +
+  '        Computer\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn :only="[\'tablet\',\'mobile\']">\n' +
+  '      <FuiSegment>\n' +
+  '        Tablet and Mobile\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        All Sizes\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        All Sizes\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow column=four only=computer>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        Computer\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        Computer\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        Computer\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        Computer\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow column=three only=tablet>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        Tablet\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        Tablet\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        Tablet\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridColumnWidth1 = 
+  '<FuiGrid>\n' +
+  '  <FuiColumn wide=four>\n' +
+  '    <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn wide=nine>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn wide=three>\n' +
+  '    <FuiImage src="/images/wireframe/media-paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridPadded2 = 
+  '<FuiGrid column=two padded=vertically>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridStretched1 = 
+  '<FuiGrid column=three divided>\n' +
+  '  <FuiRow stretched>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        1\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        1\n' +
+  '      </FuiSegment>\n' +
+  '      <FuiSegment>\n' +
+  '        2\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '        1\n' +
+  '      </FuiSegment>\n' +
+  '      <FuiSegment>\n' +
+  '        2\n' +
+  '      </FuiSegment>\n' +
+  '      <FuiSegment>\n' +
   '        3\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridDivided1 = 
+  '<FuiGrid column=three divided>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/media-paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/media-paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/media-paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/media-paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/media-paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/media-paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridGrouping1 = 
+  '<FuiGrid column=four>\n' +
+  '  <FuiRow column=two>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridColumnWidths1 = 
+  '  <FuiGrid>\n' +
+  '    <FuiColumn wide=eight></FuiColumn>\n' +
+  '    <FuiColumn wide=eight></FuiColumn>\n' +
+  '    <FuiColumn wide=ten></FuiColumn>\n' +
+  '    <FuiColumn wide=six></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=twelve></FuiColumn>\n' +
+  '    <FuiColumn wide=two></FuiColumn>\n' +
+  '    <FuiColumn wide=fourteen></FuiColumn>\n' +
+  '    <FuiColumn wide=sixteen></FuiColumn>\n' +
+  '  </FuiGrid>' 
+s.CollectionGridVerticallyDivided1 = 
+  '<FuiGrid vertically divided>\n' +
+  '  <FuiRow column=two>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow column=three>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridCompact1 = 
+  '<FuiDivider></FuiDivider>\n' +
+  '<FuiGrid column=two compact celled=internally>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridCenteringContent1 = 
+  '  <FuiGrid column=two centered>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '    <FuiRow column=four centered>\n' +
+  '      <FuiColumn></FuiColumn>\n' +
+  '      <FuiColumn></FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '  </FuiGrid>' 
+s.CollectionGridTextAlignment2 = 
+  '<FuiGrid aligned=center>\n' +
+  '  <FuiRow column=three>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiMenu vertical fluid>\n' +
+  '        <FuiItem isHeader>\n' +
+  '          Cats\n' +
+  '        </FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn aligned=left>\n' +
+  '      <FuiMenu vertical fluid>\n' +
+  '        <FuiItem isHeader>\n' +
+  '          Dogs\n' +
+  '        </FuiItem>\n' +
+  '        <FuiItem>\n' +
+  '          Poodle\n' +
+  '        </FuiItem>\n' +
+  '        <FuiItem>\n' +
+  '          Cockerspaniel\n' +
+  '        </FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiMenu vertical fluid>\n' +
+  '        <FuiItem isHeader>\n' +
+  '          Monkeys\n' +
+  '        </FuiItem>\n' +
+  '      </FuiMenu>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow aligned=justified>\n' +
+  '    <FuiColumn>\n' +
+  '      <p>Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other.</p>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridReversed4 = 
+  '<FuiGrid display=mobile vertically reversed>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>Mobile Row 4</FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>Mobile Row 3</FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>Mobile Row 2</FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>Mobile Row 1</FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridFloated1 = 
+  '<FuiGrid>\n' +
+  '  <FuiColumn floated=left wide=five>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn floated=right wide=five>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridResponsiveWidth1 = 
+  '<FuiGrid>\n' +
+  '  <FuiColumn mobile=sixteen tablet=eight computer=four>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn mobile=sixteen tablet=eight computer=four>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn mobile=sixteen tablet=eight computer=four>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn mobile=sixteen tablet=eight computer=four>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn mobile=sixteen tablet=eight computer=four>\n' +
+  '    <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridColumnContent1 = 
+  '<FuiGrid column=three>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiSegment>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiSegment>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiSegment>\n' +
+  '      <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
+s.CollectionGridReversed3 = 
+  '<FuiGrid display=tablet vertically reversed>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>Tablet Row 4</FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>Tablet Row 3</FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>Tablet Row 2</FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn>Tablet Row 1</FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
+s.CollectionGridEqualWidth1 = 
+  '<FuiGrid equalWidth>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiSegment>\n' +
+  '      1\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn wide=eight>\n' +
+  '    <FuiSegment>\n' +
+  '      2\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiSegment>\n' +
+  '      3\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
 s.CollectionGridAutomaticFlow1 = 
-  '  <div class="ui grid">\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '  </div>' 
+  '  <FuiGrid>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '    <FuiColumn wide=four></FuiColumn>\n' +
+  '  </FuiGrid>' 
 s.CollectionGridManualTweaks1 = 
-  '  <div class="ui centered grid">\n' +
-  '    <div class="computer only row">\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '    <div class="six wide tablet eight wide computer column"/>\n' +
-  '    <div class="six wide tablet eight wide computer column"/>\n' +
-  '    <div class="six wide tablet eight wide computer column"/>\n' +
-  '    <div class="six wide tablet eight wide computer column"/>\n' +
-  '    <div class="six wide tablet eight wide computer column"/>\n' +
-  '  </div>' 
+  '<FuiGrid centered>\n' +
+  '  <FuiRow only=computer>\n' +
+  '    <FuiColumn></FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiColumn tablet=six computer=eight></FuiColumn>\n' +
+  '  <FuiColumn tablet=six computer=eight></FuiColumn>\n' +
+  '  <FuiColumn tablet=six computer=eight></FuiColumn>\n' +
+  '  <FuiColumn tablet=six computer=eight></FuiColumn>\n' +
+  '  <FuiColumn tablet=six computer=eight></FuiColumn>\n' +
+  '</FuiGrid>' 
 s.CollectionGridSignificantWordOrder1 = 
-  '  <div class="ui right aligned grid">\n' +
-  '    <div class="left floated right aligned six wide column">\n' +
-  '      <div class="ui segment">\n' +
-  '        Left floated right aligned column\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="right floated left aligned six wide column">\n' +
-  '      <div class="ui segment">\n' +
-  '        Right floated left aligned column\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="center aligned two column row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '        Center aligned row\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '        Center aligned row\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="sixteen wide column">\n' +
-  '      <div class="ui segment">\n' +
-  '        Right Aligned Grid\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
+  '<FuiGrid aligned=right>\n' +
+  '  <FuiColumn floated=left aligned=right wide=six>\n' +
+  '    <FuiSegment>\n' +
+  '      Left floated right aligned column\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn floated=right aligned=left wide=six>\n' +
+  '    <FuiSegment>\n' +
+  '      Right floated left aligned column\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiRow aligned=center column=two>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '      Center aligned row\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn>\n' +
+  '      <FuiSegment>\n' +
+  '      Center aligned row\n' +
+  '      </FuiSegment>\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiColumn wide=sixteen>\n' +
+  '    <FuiSegment>\n' +
+  '      Right Aligned Grid\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
 s.CollectionGridCelled1 = 
-  '  <div class="ui celled grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="thirteen wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="ten wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '      <div class="three wide column">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
+  '  <FuiGrid celled>\n' +
+  '    <FuiRow>\n' +
+  '      <FuiColumn wide=three>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn wide=thirteen>\n' +
+  '        <FuiImage src="/images/wireframe/centered-paragraph.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '    <FuiRow>\n' +
+  '      <FuiColumn wide=three>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn wide=ten>\n' +
+  '        <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '      <FuiColumn wide=three>\n' +
+  '        <FuiImage src="/images/wireframe/image.png" wireframe></FuiImage>\n' +
+  '      </FuiColumn>\n' +
+  '    </FuiRow>\n' +
+  '  </FuiGrid>' 
 s.CollectionGridStackable1A = 
-  '  <div class="ui text message info ignore">\n' +
-  '    To see a grid stack, try resizing your browser to a small width\n' +
-  '  </div>\n' +
-  '  <div class="two column stackable ui grid">\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui segment">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui segment">\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
+  '<FuiGrid column=two stackable>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiSegment>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '  <FuiColumn>\n' +
+  '    <FuiSegment>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '      <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>\n' +
+  '    </FuiSegment>\n' +
+  '  </FuiColumn>\n' +
+  '</FuiGrid>' 
 s.CollectionGridColored1 = 
-  '  <div class="ui equal width center aligned padded grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="olive column">\n' +
-  '        Olive\n' +
-  '      </div>\n' +
-  '      <div class="black column">\n' +
-  '        Black\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row" style="background-color: #869D05;color: #FFFFFF;">\n' +
-  '      <div class="column">Custom Row</div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="black column">\n' +
-  '        Black\n' +
-  '      </div>\n' +
-  '      <div class="olive column">\n' +
-  '        Olive\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>' 
+  '<FuiGrid equalWidth aligned=center padded>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn color=olive>\n' +
+  '      Olive\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn color=black>\n' +
+  '      Black\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow style="background-color: #869D05; color: #FFFFFF;">\n' +
+  '    <FuiColumn>Custom Row</FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '  <FuiRow>\n' +
+  '    <FuiColumn color=black>\n' +
+  '      Black\n' +
+  '    </FuiColumn>\n' +
+  '    <FuiColumn color=olive>\n' +
+  '      Olive\n' +
+  '    </FuiColumn>\n' +
+  '  </FuiRow>\n' +
+  '</FuiGrid>' 
 s.CollectionGridGrid1 = 
-  '  <div class="ui grid">\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '  </div>' 
+  '<FuiGrid>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '  <FuiColumn></FuiColumn>\n' +
+  '</FuiGrid>' 
 s.CollectionMenuText1A = 
   '<FuiMenu vertical>\n' +
   '  <FuiItem a>\n' +
