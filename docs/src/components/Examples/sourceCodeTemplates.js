@@ -17093,781 +17093,7 @@ s.ElementIconCornerIcon1 =
   '  <FuiIcon name=puzzle></FuiIcon>\n' +
   '  <FuiIcon name=add corner></FuiIcon>\n' +
   '</FuiIcons>' 
-s.CollectionGrid1 = 
-  '<h2 class="ui dividing header">Introduction</h2>\n' +
-  '<div class="highlighted example" data-class="grid">\n' +
-  '  <h4 class="ui header">Grids</h4>\n' +
-  '  <p>A grid is a structure with a <a href="http://99designs.com/designer-blog/2013/03/21/history-of-the-grid-part-1/" target="_blank">long history</a> used to align negative space in designs.</p>\n' +
-  '  <p>Using a grid makes content appear to flow more naturally on your page.</p>\n' +
-  '  <div class="ui ignored toggle animation checkbox">\n' +
-  '    <input type="checkbox" name="animation"/>\n' +
-  '    <label>Toggle Animation</label>\n' +
-  '  </div>\n' +
-  '  <div class="ui ignored hidden divider"/>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="highlighted example" data-use-content="true" data-class="column">\n' +
-  '  <h4 class="ui header">Columns</h4>\n' +
-  '  <p>Grids divide horizontal space into indivisible units called "columns". All columns in a grid must specify their width as proportion of the total available row width.</p>\n' +
-  '  <p>All grid systems choose an arbitrary column count to allow per row. Semantic\'s default theme uses <b>16 columns</b>.</p>\n' +
-  '  <p>The example below shows four <code>four wide</code> columns will fit in the first row, <code>16 / 4 = 4</code>, and three various sized columns in the second row. <code>2 + 8 + 6 = 16</code></p>\n' +
-  '  <p>The default column count, and other arbitrary features of grids can be changed by adjusting Fomantic UI\'s underlying <a href="/usage/theming.html">theming variables</a>.</p>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="two wide column"/>\n' +
-  '    <div class="eight wide column"/>\n' +
-  '    <div class="six wide column"/>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="highlighted example" data-use-content="true" data-class="row">\n' +
-  '  <h4 class="ui header">Rows</h4>\n' +
-  '  <p>Rows are groups of columns which are aligned horizontally.</p>\n' +
-  '  <p>Rows can either be <em>explicit</em>, marked with an additional <code>row</code> element, or <em>implicit</em>, automatically occurring when no more space is left in a previous row.\n' +
-  '  </p>\n' +
-  '  <p>After each group of columns vertical spacing is added to separate each group of columns, creating vertical rhythm.\n' +
-  '  </p><div class="ui four column grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="highlighted negative example" data-use-content="true" data-class="relaxed">\n' +
-  '  <h4 class="ui header">Gutters</h4>\n' +
-  '  <p>Grid columns are separated by areas of white space referred to as "gutters". Gutters improve legibility by providing, <a href="https://en.wikipedia.org/wiki/Negative_space" target="_blank">negative space</a> between page elements.</p>\n' +
-  '  <p>Gutters remain a constant size regardless of the width of the grid, or how many columns are in a row. To increase the size of gutters in a particular grid, you can use a <a href="#relaxed"><code>relaxed grid</code></a> variation.</p>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="three column row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '    <div class="eight column row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '  <div class="ui relaxed grid">\n' +
-  '    <div class="three column row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '    <div class="eight column row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="highlighted negative example">\n' +
-  '  <h4 class="ui header">Negative Margins</h4>\n' +
-  '  <p>Since all grid columns include gutters, grids use <a href="http://csswizardry.com/2011/08/building-better-grid-systems/">negative margins</a> to make sure that the first and last columns sit flush with content outside the grid.</p>\n' +
-  '  <p>In the following example, you can see even though the top row has padding, the <a href="/elements/button.html#vertically-attached"><code>attached button</code></a> still sits flush with the edge of the grid.</p><p>\n' +
-  '  </p><p>In some cases, like when a column or row is <a href="#colored"><code>colored</code></a>, you may want to avoid using negative margins. You can do this by using a <a href="#padded"><code>padded grid</code></a> variation.</p>\n' +
-  '   <div class="ui top attached button">Button before grid</div>\n' +
-  '   <div class="ui grid">\n' +
-  '    <div class="sixteen wide column"/>\n' +
-  '    <div class="ten wide column"/>\n' +
-  '    <div class="six wide column"/>\n' +
-  '  </div>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="sixteen wide column"/>\n' +
-  '  </div>\n' +
-  '  <div class="ui bottom attached button">Button after grid</div>\n' +
-  '</div>\n' +
-  '<div class="no example">\n' +
-  '  <h4 class="ui header">Page Grids</h4>\n' +
-  '  <p>Grids are fluid and will automatically flow in size to take the maximum available width.</p>\n' +
-  '  <p><a href="/elements/container.html">Containers</a> are elements designed to limit page content to a reasonable maximum width for display based on the size of the user\'s screen.</p>\n' +
-  '  <p>Using a <a href="/elements/container.html#containers-using-grids"><code>ui grid container</code></a> is the best way to include top-level page content inside a grid.</p>\n' +
-  '  <div class="ui warning message">\n' +
-  '    <p>In version <code>1.x</code> of Semantic UI <code>page grid</code> were used to contain the maximum width of grids holding page content. Page grid have been deprecated in favor for the simpler <code>container</code> element.</p>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<h2 class="ui dividing header">Columns</h2>\n' +
-  '<div class="highlighted example">\n' +
-  '  <h4 class="ui header">Automatic Flow</h4>\n' +
-  '  <p>Most grids do not need to specify rows. Content will automatically flow to the next row when all the grid columns are taken in the current row.</p>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example">\n' +
-  '  <h4 class="ui header">Column Content</h4>\n' +
-  '  <p>Since columns use padding to create gutters, content stylings should not be applied directly to columns, but to elements inside of columns.</p>\n' +
-  '  <div class="ui three column grid">\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui segment">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui segment">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui segment">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="highlighted example" data-use-content="true" data-class="wide">\n' +
-  '  <h4 class="ui header">Column Widths</h4>\n' +
-  '  <p>Column widths can be specified using <a href="#column-width"><code>(x) wide</code></a> class names. If a column cannot fit in a row it will automatically flow to the next row</p>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="eight wide column"/>\n' +
-  '    <div class="eight wide column"/>\n' +
-  '    <div class="ten wide column"/>\n' +
-  '    <div class="six wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="twelve wide column"/>\n' +
-  '    <div class="two wide column"/>\n' +
-  '    <div class="fourteen wide column"/>\n' +
-  '    <div class="sixteen wide column"/>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<h2 class="ui dividing header">Rows</h2>\n' +
-  '<div class="highlighted example">\n' +
-  '  <h4 class="ui header">Grouping</h4>\n' +
-  '  <p>Row wrappers allow you to apply variations to a group of columns.</p>\n' +
-  '  <div class="ui four column grid">\n' +
-  '    <div class="two column row">\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="highlighted example" data-use-content="true" data-class="floated">\n' +
-  '  <h4 class="ui header">Clearing Content</h4>\n' +
-  '  <p>Row wrappers will automatically clear previous columns, making them useful when using <a href="#floated"><code>floated</code></a> variations.</p>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="four column row">\n' +
-  '      <div class="left floated column"/>\n' +
-  '      <div class="right floated column"/>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="three wide column"/>\n' +
-  '      <div class="eight wide column"/>\n' +
-  '      <div class="five wide column"/>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-class="internally celled">\n' +
-  '  <h4 class="ui header">Special Grids</h4>\n' +
-  '  <p>Additionally, some types of grids, like <a href="#divided"><code>divided</code></a> or <a href="#celled"><code>celled</code></a> require row wrappers to apply formatting correctly.</p>\n' +
-  '  <div class="ui internally celled grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="three wide column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="ten wide column">\n' +
-  '        <img src="/images/wireframe/centered-paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="three wide column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="three wide column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="ten wide column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="three wide column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<h2 class="ui dividing header">Varying Grids</h2>\n' +
-  '<div class="highlighted special example" data-use-content="true" data-class="grid">\n' +
-  '  <h4 class="ui header">Nesting Grids</h4>\n' +
-  '  <p>Grids can be placed inside of other grids, letting you sub-divide columns.</p>\n' +
-  '  <div class="ui two column grid">\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui three column grid">\n' +
-  '        <div class="column"/>\n' +
-  '        <div class="column"/>\n' +
-  '        <div class="column"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui grid">\n' +
-  '        <div class="ten wide column"/>\n' +
-  '        <div class="six wide column"/>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="colored example" data-use-content="true" data-class="colored, padded">\n' +
-  '  <h4 class="ui header">Colored</h4>\n' +
-  '  <p>Grids can use named <a href="#colored"><b>colors</b> variations</a> to add background colors, but only with <a href="#padded"><code>padded grid</code></a> that do not include negative margins.</p>\n' +
-  '  <p>To include a color that is not available in the default palette its perfectly fine to use CSS</p>\n' +
-  '  <div class="ui equal width center aligned padded grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="olive column">\n' +
-  '        Olive\n' +
-  '      </div>\n' +
-  '      <div class="black column">\n' +
-  '        Black\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row" style="background-color: #869D05;color: #FFFFFF;">\n' +
-  '      <div class="column">Custom Row</div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="black column">\n' +
-  '        Black\n' +
-  '      </div>\n' +
-  '      <div class="olive column">\n' +
-  '        Olive\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="highlighted example" data-class="equal width">\n' +
-  '  <h4 class="ui header">Automatic Column Count</h4>\n' +
-  '  <p>The <a href="#equal-width"><code>equal width</code></a> variation will automatically divide column width evenly. This is useful with dynamic content where you do not know the column count in advance.</p>\n' +
-  '  <div class="ui equal width grid">\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="equal width row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="highlighted example" data-class="centered">\n' +
-  '  <h4 class="ui header">Centering Content</h4>\n' +
-  '  <p>If a row does not take up all sixteen grid columns, you can use a <a href="#centered"><code>centered</code></a> variation to center the column contents inside the grid.\n' +
-  '  </p>\n' +
-  '  <div class="ui two column centered grid">\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="four column centered row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-use-content="true" data-class="left floated right aligned, right floated left aligned, center aligned, sixteen wide">\n' +
-  '  <h4 class="ui header">Significant Word Order</h4>\n' +
-  '  <p>Grids include many variations for adjusting things like vertical or horizontal alignment, text alignment, or default gutter sizes.</p>\n' +
-  '  <p>Some multi-word variations, like <a href="#floated"><code>left floated</code></a> or <a href="#text-alignment"><code>right aligned</code></a> are word-order dependent and require you to use adjacent class names.</p>\n' +
-  '  <div class="ui right aligned grid">\n' +
-  '    <div class="left floated right aligned six wide column">\n' +
-  '      <div class="ui segment">\n' +
-  '        Left floated right aligned column\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="right floated left aligned six wide column">\n' +
-  '      <div class="ui segment">\n' +
-  '        Right floated left aligned column\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="center aligned two column row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '        Center aligned row\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '        Center aligned row\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="sixteen wide column">\n' +
-  '      <div class="ui segment">\n' +
-  '        Right Aligned Grid\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<h2 class="ui dividing header">Responsive Grids</h2>\n' +
-  '<div class="highlighted example" data-class="container">\n' +
-  '  <h4 class="ui header">Containers</h4>\n' +
-  '  <p>A <a href="/elements/container.html">container</a> can be used alongside a grid to provide a responsive, fixed width container for wrapping the contents of a page.</p>\n' +
-  '  <div class="ui grid container">\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '    <div class="four wide column"/>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="highlighted example">\n' +
-  '  <h4 class="ui header">Stackable</h4>\n' +
-  '  <p>A <a href="#stackable"><code>stackable grid</code></a> will automatically stack rows to a single columns on mobile devices</p>\n' +
-  '  <div class="ui stackable four column grid">\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-class="mobile reversed">\n' +
-  '  <h4 class="ui header">Reverse Order</h4>\n' +
-  '  <p>Fomantic includes special <a href="#reversed"><code>reversed</code></a> variations that allow you to reverse the order of columns or rows by device</p>\n' +
-  '  <div class="ui mobile reversed equal width grid">\n' +
-  '    <div class="column">\n' +
-  '      First\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      Second\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      Third\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="highlighted example">\n' +
-  '  <h4 class="ui header">Doubling</h4>\n' +
-  '  <p>A <a href="#doubling"><code>doubling</code></a> grid will double column widths for each device jump.</p>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="doubling eight column row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '    <div class="doubling six column row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '    <div class="doubling four column row">\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="highlighted example" data-class="computer only, six wide tablet eight wide computer" data-use-content="true">\n' +
-  '  <h4 class="ui header">Manual Tweaks</h4>\n' +
-  '  <p>Although design patterns like <a href="#doubling"><code>doubling</code></a> or <a href="#stackable"><code>stackable</code></a> are useful at simplifying responsive styling, you can also manually tweak device presentation by specifying <a href="#device-width"><code>(x) wide device</code></a> or <a href="#device-visibility"><code>device only</code></a> columns or rows.\n' +
-  '  </p><div class="ui centered grid">\n' +
-  '    <div class="computer only row">\n' +
-  '      <div class="column"/>\n' +
-  '    </div>\n' +
-  '    <div class="six wide tablet eight wide computer column"/>\n' +
-  '    <div class="six wide tablet eight wide computer column"/>\n' +
-  '    <div class="six wide tablet eight wide computer column"/>\n' +
-  '    <div class="six wide tablet eight wide computer column"/>\n' +
-  '    <div class="six wide tablet eight wide computer column"/>\n' +
-  '  </div>\n' +
-  '</div>' 
-s.CollectionGrid1A = 
-  '<h2 class="ui dividing header">Types</h2>\n' +
-  '<div class="highlighted example">\n' +
-  '  <h4 class="ui header">\n' +
-  '    Grid\n' +
-  '    <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes" target="_blank" class="ui teal label">Flexbox</a>\n' +
-  '  </h4>\n' +
-  '  <p>A basic grid</p>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '    <div class="column"/>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example">\n' +
-  '  <h4 class="ui header">\n' +
-  '    Divided\n' +
-  '    <span class="ui black label">Requires Rows</span>\n' +
-  '  </h4>\n' +
-  '  <p>A grid can have dividers between its columns</p>\n' +
-  '  <div class="ui three column divided grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example">\n' +
-  '  <h4 class="ui header">\n' +
-  '    Vertically Divided\n' +
-  '    <span class="ui black label">Requires Rows</span>\n' +
-  '  </h4>\n' +
-  '  <p>A grid can have dividers between rows</p>\n' +
-  '  <div class="ui vertically divided grid">\n' +
-  '    <div class="two column row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="three column row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example">\n' +
-  '  <h4 class="ui header">\n' +
-  '    Celled\n' +
-  '    <span class="ui black label">Requires Rows</span>\n' +
-  '  </h4>\n' +
-  '  <p>A grid can have rows divided into cells</p>\n' +
-  '  <div class="ui celled grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="three wide column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="thirteen wide column">\n' +
-  '        <img src="/images/wireframe/centered-paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="three wide column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="ten wide column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="three wide column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example">\n' +
-  '  <h4 class="ui header">\n' +
-  '    Internally Celled\n' +
-  '    <span class="ui black label">Requires Rows</span>\n' +
-  '  </h4>\n' +
-  '  <p>A grid can have rows divisions only between internal rows</p>\n' +
-  '  <div class="ui internally celled grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="three wide column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="ten wide column">\n' +
-  '        <img src="/images/wireframe/centered-paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="three wide column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="three wide column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="ten wide column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="three wide column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<h2 class="ui dividing header">Content</h2>\n' +
-  '<div class="example" data-use-content="true" data-class="row">\n' +
-  '  <h4 class="ui header">Rows</h4>\n' +
-  '  <p>A row is a horizontal grouping of columns</p>\n' +
-  '  <div class="ui three column grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-use-content="true" data-class="column">\n' +
-  '  <h4 class="ui header">Columns</h4>\n' +
-  '  <p>Columns each contain gutters giving them equal spacing from other columns.</p>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="eight wide column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="eight wide column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="eight wide column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="eight wide column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<h2 class="ui dividing header">Variations</h2>\n' +
-  '<div class="example" data-use-content="true">\n' +
-  '  <h4 class="ui header">Floated</h4>\n' +
-  '  <p>A column can sit flush against the left or right edge of a row</p>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="left floated five wide column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="right floated five wide column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-use-content="true" data-class="wide">\n' +
-  '  <h4 class="ui header">Column Width</h4>\n' +
-  '  <p>A column can vary in width taking up more than a single grid column.</p>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="four wide column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="nine wide column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="three wide column">\n' +
-  '      <img src="/images/wireframe/media-paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-use-content="true" data-class="column count">\n' +
-  '  <h4 class="ui header">Column Count</h4>\n' +
-  '  <p>A grid can have a different number of columns per row</p>\n' +
-  '  <div class="ui grid">\n' +
-  '    <div class="three column row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="four column row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="five column row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-use-content="true">\n' +
-  '  <h4 class="ui header">\n' +
-  '    Equal Width\n' +
-  '  </h4>\n' +
-  '  <p>A grid can automatically resize all elements to split the available width evenly</p>\n' +
-  '  <div class="ui equal width grid">\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui segment">\n' +
-  '        1\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="eight wide column">\n' +
-  '      <div class="ui segment">\n' +
-  '        2\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui segment">\n' +
-  '        3\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="another example">\n' +
-  '  <div class="ui equal width grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">1</div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">2</div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">3</div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">4</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">1</div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">2</div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">3</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">1</div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">2</div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="stretched example" data-use-content="true">\n' +
-  '  <h4 class="ui header">\n' +
-  '    Stretched\n' +
-  '  </h4>\n' +
-  '  <p>A row can stretch its contents to take up the entire column height</p>\n' +
-  '  <div class="ui three column divided grid">\n' +
-  '    <div class="stretched row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          1\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          1\n' +
-  '        </div>\n' +
-  '        <div class="ui segment">\n' +
-  '          2\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui segment">\n' +
-  '          1\n' +
-  '        </div>\n' +
-  '        <div class="ui segment">\n' +
-  '          2\n' +
-  '        </div>\n' +
-  '        <div class="ui segment">\n' +
-  '          3\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="another example">\n' +
+s.CollectionGridStretched2 = 
   '  <div class="ui equal width grid">\n' +
   '    <div class="stretched row">\n' +
   '      <div class="column">\n' +
@@ -17880,7 +17106,7 @@ s.CollectionGrid1A =
   '      </div>\n' +
   '      <div class="six wide column">\n' +
   '        <div class="ui segment">\n' +
-  '          <img src="/images/wireframe/image.png" class="ui image">\n' +
+  '          <img class="ui image" src="/images/wireframe/image.png"/>\n' +
   '        </div>\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
@@ -17903,7 +17129,7 @@ s.CollectionGrid1A =
   '      </div>\n' +
   '      <div class="six wide column">\n' +
   '        <div class="ui segment">\n' +
-  '          <img src="/images/wireframe/image.png" class="ui image">\n' +
+  '          <img class="ui image" src="/images/wireframe/image.png"/>\n' +
   '        </div>\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
@@ -17915,225 +17141,30 @@ s.CollectionGrid1A =
   '        </div>\n' +
   '      </div>\n' +
   '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-class="vertically padded, horizontally padded, padded">\n' +
-  '  <h4 class="ui header">Padded</h4>\n' +
-  '  <p>A grid can preserve its vertical and horizontal gutters on first and last columns</p>\n' +
-  '  <p>The following grid has vertical and horizontal gutters</p>\n' +
-  '  <div class="ui divider"/>\n' +
-  '  <div class="ui two column padded grid">\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="another example">\n' +
-  '  <p>The following grid has vertical gutters.</p>\n' +
-  '  <div class="ui divider"/>\n' +
-  '  <div class="ui two column vertically padded grid">\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="another example">\n' +
-  '  <p>The following grid has horizontal gutters</p>\n' +
-  '  <div class="ui divider"/>\n' +
-  '  <div class="ui two column horizontally padded grid">\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-class="very compact, compact">\n' +
-  '  <h4 class="ui header">Compact</h4>\n' +
-  '  <p>A grid can appear compact with no or very little padding</p>\n' +
-  '  <p>The following grid is compact.</p>\n' +
-  '  <div class="ui divider"/>\n' +
-  '  <div class="ui two column compact internally celled grid">\n' +
+  '  </div>' 
+s.CollectionGridRows1A = 
+  '  <div class="ui three column grid">\n' +
   '    <div class="row">\n' +
   '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
   '      </div>\n' +
   '    </div>\n' +
   '    <div class="row">\n' +
   '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="another example">\n' +
-  '  <p>The following grid is very compact.</p>\n' +
-  '  <div class="ui divider"/>\n' +
-  '  <div class="ui two column very compact internally celled grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
   '      </div>\n' +
   '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
   '      </div>\n' +
   '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example">\n' +
-  '  <h4 class="ui header">Relaxed</h4>\n' +
-  '  <p>A grid can increase its gutters to allow for more negative space</p>\n' +
-  '  <div class="ui four column relaxed grid">\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="another example">\n' +
-  '  <div class="ui four column very relaxed grid">\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-use-content="true">\n' +
-  '  <h4 class="ui header">Colored</h4>\n' +
-  '  <p>A row or column can be colored</p>\n' +
-  '  <div class="ui five column padded grid">\n' +
-  '    <div class="red column">Red</div>\n' +
-  '    <div class="orange column">Orange</div>\n' +
-  '    <div class="yellow column">Yellow</div>\n' +
-  '    <div class="olive column">Olive</div>\n' +
-  '    <div class="green column">Green</div>\n' +
-  '    <div class="teal column">Teal</div>\n' +
-  '    <div class="blue column">Blue</div>\n' +
-  '    <div class="violet column">Violet</div>\n' +
-  '    <div class="purple column">Purple</div>\n' +
-  '    <div class="pink column">Pink</div>\n' +
-  '    <div class="brown column">Brown</div>\n' +
-  '    <div class="grey column">Grey</div>\n' +
-  '    <div class="black column">Black</div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="another example">\n' +
-  '  <div class="ui padded grid">\n' +
-  '    <div class="red row">\n' +
-  '      <div class="column">Red</div>\n' +
-  '    </div>\n' +
-  '    <div class="orange row">\n' +
-  '      <div class="column">Orange</div>\n' +
-  '    </div>\n' +
-  '    <div class="yellow row">\n' +
-  '      <div class="column">Yellow</div>\n' +
-  '    </div>\n' +
-  '    <div class="olive row">\n' +
-  '      <div class="column">Olive</div>\n' +
-  '    </div>\n' +
-  '    <div class="green row">\n' +
-  '      <div class="column">Green</div>\n' +
-  '    </div>\n' +
-  '    <div class="teal row">\n' +
-  '      <div class="column">Teal</div>\n' +
-  '    </div>\n' +
-  '    <div class="blue row">\n' +
-  '      <div class="column">Blue</div>\n' +
-  '    </div>\n' +
-  '    <div class="violet row">\n' +
-  '      <div class="column">Violet</div>\n' +
-  '    </div>\n' +
-  '    <div class="purple row">\n' +
-  '      <div class="column">Purple</div>\n' +
-  '    </div>\n' +
-  '    <div class="pink row">\n' +
-  '      <div class="column">Pink</div>\n' +
-  '    </div>\n' +
-  '    <div class="brown row">\n' +
-  '      <div class="column">Brown</div>\n' +
-  '    </div>\n' +
-  '    <div class="grey row">\n' +
-  '      <div class="column">Grey</div>\n' +
-  '    </div>\n' +
-  '    <div class="black row">\n' +
-  '      <div class="column">Black</div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example">\n' +
-  '  <h4 class="ui header">Centered</h4>\n' +
-  '  <p>A grid can have its columns centered</p>\n' +
-  '  <div class="ui two column centered grid">\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="four column centered row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="four column row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-use-content="true">\n' +
-  '  <h4 class="ui header">Text Alignment</h4>\n' +
-  '  <p>A grid, row, or column can specify its text alignment</p>\n' +
+  '  </div>' 
+s.CollectionGridTextAlignment1 = 
   '  <div class="ui center aligned three column grid">\n' +
   '    <div class="row">\n' +
   '      <div class="column">\n' +
@@ -18164,186 +17195,8 @@ s.CollectionGrid1A =
   '        </div>\n' +
   '      </div>\n' +
   '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="another example">\n' +
-  '  <div class="ui center aligned grid">\n' +
-  '    <div class="three column row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Cats\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="left aligned column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Dogs\n' +
-  '          </div>\n' +
-  '          <div class="item">\n' +
-  '            Poodle\n' +
-  '          </div>\n' +
-  '          <div class="item">\n' +
-  '            Cockerspaniel\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Monkeys\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="justified row">\n' +
-  '      <div class="column">\n' +
-  '        <p>Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other.</p>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="another example">\n' +
-  '  <div class="ui right aligned three column grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Cats\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Dogs\n' +
-  '          </div>\n' +
-  '          <div class="item">\n' +
-  '            Poodle\n' +
-  '          </div>\n' +
-  '          <div class="item">\n' +
-  '            Cockerspaniel\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <div class="ui vertical fluid menu">\n' +
-  '          <div class="header item">\n' +
-  '            Monkeys\n' +
-  '          </div>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-use-content="true">\n' +
-  '  <h4 class="ui header">Vertical Alignment</h4>\n' +
-  '  <p>A grid, row, or column can specify its vertical alignment to have all its columns vertically centered.</p>\n' +
-  '  <div class="ui middle aligned four column centered grid">\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="another example">\n' +
-  '  <div class="ui four column centered grid">\n' +
-  '    <div class="top aligned row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="middle aligned row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="bottom aligned row">\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '      <div class="column">\n' +
-  '        <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<h2 class="ui dividing header">Responsive Variations</h2>\n' +
-  '<div class="example">\n' +
-  '  <h4 class="ui header">Doubling</h4>\n' +
-  '  <p>A grid can double its column width on tablet and mobile sizes</p>\n' +
-  '  <div class="ui text message info ignore">\n' +
-  '    A grid will round its columns to the closest reasonable value when doubling, for example a <code>five column grid</code> will use <code>2 mobile, 3 tablet, 5 desktop</code>. To force 1 column on mobile you can add <a href="#stackable"><code>stackable</code></a>\n' +
-  '  </div>\n' +
-  '  <div class="five column doubling ui grid">\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <img src="/images/wireframe/image.png" class="ui wireframe image">\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example">\n' +
-  '  <h4 class="ui header">Stackable</h4>\n' +
-  '  <p>A grid can have its columns stack on-top of each other after reaching mobile breakpoints</p>\n' +
-  '  <div class="ui text message info ignore">\n' +
-  '    To see a grid stack, try resizing your browser to a small width\n' +
-  '  </div>\n' +
-  '  <div class="two column stackable ui grid">\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui segment">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '    <div class="column">\n' +
-  '      <div class="ui segment">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '        <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
-  '      </div>\n' +
-  '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-use-content="true" data-class="computer reversed, tablet reversed, mobile reversed, computer vertically reversed, mobile vertically reversed, tablet vertically reversed">\n' +
-  '  <h4 class="ui header">Reversed</h4>\n' +
-  '  <p>A grid or row can specify that its columns should reverse order at different device sizes</p>\n' +
+  '  </div>' 
+s.CollectionGridReversed1 = 
   '  <div class="ui ignored info message message">Reversed grids are compatible with <code>divided</code> grids and other complex grid types.</div>\n' +
   '  <div class="ui computer reversed equal width grid">\n' +
   '    <div class="row">\n' +
@@ -18402,9 +17255,342 @@ s.CollectionGrid1A =
   '    <div class="column">\n' +
   '      Mobile First\n' +
   '    </div>\n' +
+  '  </div>' 
+s.CollectionGridCentered1 = 
+  '  <div class="ui two column centered grid">\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="four column centered row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="four column row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridPadded3 = 
+  '  <div class="ui divider"/>\n' +
+  '  <div class="ui two column horizontally padded grid">\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridGrids1 = 
+  '  <div class="ui ignored toggle animation checkbox">\n' +
+  '    <input type="checkbox" name="animation"/>\n' +
+  '    <label>Toggle Animation</label>\n' +
   '  </div>\n' +
-  '</div>\n' +
-  '<div class="another example">\n' +
+  '  <div class="ui ignored hidden divider"/>\n' +
+  '  <div class="ui grid">\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '  </div>' 
+s.CollectionGridNegativeMargins1 = 
+  '   <div class="ui top attached button">Button before grid</div>\n' +
+  '   <div class="ui grid">\n' +
+  '    <div class="sixteen wide column"/>\n' +
+  '    <div class="ten wide column"/>\n' +
+  '    <div class="six wide column"/>\n' +
+  '  </div>\n' +
+  '  <div class="ui grid">\n' +
+  '    <div class="sixteen wide column"/>\n' +
+  '  </div>\n' +
+  '  <div class="ui bottom attached button">Button after grid</div>' 
+s.CollectionGridTextAlignment3 = 
+  '  <div class="ui right aligned three column grid">\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui vertical fluid menu">\n' +
+  '          <div class="header item">\n' +
+  '            Cats\n' +
+  '          </div>\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui vertical fluid menu">\n' +
+  '          <div class="header item">\n' +
+  '            Dogs\n' +
+  '          </div>\n' +
+  '          <div class="item">\n' +
+  '            Poodle\n' +
+  '          </div>\n' +
+  '          <div class="item">\n' +
+  '            Cockerspaniel\n' +
+  '          </div>\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui vertical fluid menu">\n' +
+  '          <div class="header item">\n' +
+  '            Monkeys\n' +
+  '          </div>\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridVerticalAlignment2 = 
+  '  <div class="ui four column centered grid">\n' +
+  '    <div class="top aligned row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="middle aligned row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="bottom aligned row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridReverseOrder1 = 
+  '  <div class="ui mobile reversed equal width grid">\n' +
+  '    <div class="column">\n' +
+  '      First\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      Second\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      Third\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridGutters1 = 
+  '  <div class="ui grid">\n' +
+  '    <div class="three column row">\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '    </div>\n' +
+  '    <div class="eight column row">\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '    </div>\n' +
+  '  </div>\n' +
+  '  <div class="ui relaxed grid">\n' +
+  '    <div class="three column row">\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '    </div>\n' +
+  '    <div class="eight column row">\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridDoubling1 = 
+  '  <div class="ui grid">\n' +
+  '    <div class="doubling eight column row">\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '    </div>\n' +
+  '    <div class="doubling six column row">\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '    </div>\n' +
+  '    <div class="doubling four column row">\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridAutomaticColumnCount1 = 
+  '  <div class="ui equal width grid">\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="equal width row">\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridRelaxed2 = 
+  '  <div class="ui four column very relaxed grid">\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridStackable1 = 
+  '  <div class="ui stackable four column grid">\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '  </div>' 
+s.CollectionGridDoubling1A = 
+  '  <div class="ui text message info ignore">\n' +
+  '    A grid will round its columns to the closest reasonable value when doubling, for example a <code>five column grid</code> will use <code>2 mobile, 3 tablet, 5 desktop</code>. To force 1 column on mobile you can add <a href="#stackable"><code>stackable</code></a>\n' +
+  '  </div>\n' +
+  '  <div class="five column doubling ui grid">\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridInternallyCelled1 = 
+  '  <div class="ui internally celled grid">\n' +
+  '    <div class="row">\n' +
+  '      <div class="three wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="ten wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="three wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="row">\n' +
+  '      <div class="three wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="ten wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="three wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridRows1 = 
+  '  <div class="ui four column grid">\n' +
+  '    <div class="row">\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '    </div>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '  </div>' 
+s.CollectionGridColumns1 = 
+  '  <div class="ui grid">\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="two wide column"/>\n' +
+  '    <div class="eight wide column"/>\n' +
+  '    <div class="six wide column"/>\n' +
+  '  </div>' 
+s.CollectionGridSpecialGrids1 = 
+  '  <div class="ui internally celled grid">\n' +
+  '    <div class="row">\n' +
+  '      <div class="three wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="ten wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="three wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="row">\n' +
+  '      <div class="three wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="ten wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="three wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridReversed2 = 
   '  <div class="ui computer vertically reversed grid">\n' +
   '    <div class="row">\n' +
   '      <div class="column">Computer Row 4</div>\n' +
@@ -18418,43 +17604,278 @@ s.CollectionGrid1A =
   '    <div class="row">\n' +
   '      <div class="column">Computer Row 1</div>\n' +
   '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="another example">\n' +
-  '  <div class="ui tablet vertically reversed grid">\n' +
+  '  </div>' 
+s.CollectionGridContainers1 = 
+  '  <div class="ui grid container">\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '  </div>' 
+s.CollectionGridColored1A = 
+  '  <div class="ui five column padded grid">\n' +
+  '    <div class="red column">Red</div>\n' +
+  '    <div class="orange column">Orange</div>\n' +
+  '    <div class="yellow column">Yellow</div>\n' +
+  '    <div class="olive column">Olive</div>\n' +
+  '    <div class="green column">Green</div>\n' +
+  '    <div class="teal column">Teal</div>\n' +
+  '    <div class="blue column">Blue</div>\n' +
+  '    <div class="violet column">Violet</div>\n' +
+  '    <div class="purple column">Purple</div>\n' +
+  '    <div class="pink column">Pink</div>\n' +
+  '    <div class="brown column">Brown</div>\n' +
+  '    <div class="grey column">Grey</div>\n' +
+  '    <div class="black column">Black</div>\n' +
+  '  </div>' 
+s.CollectionGridVerticalAlignment1 = 
+  '  <div class="ui middle aligned four column centered grid">\n' +
   '    <div class="row">\n' +
-  '      <div class="column">Tablet Row 4</div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridRelaxed1 = 
+  '  <div class="ui four column relaxed grid">\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridNestingGrids1 = 
+  '  <div class="ui two column grid">\n' +
+  '    <div class="column">\n' +
+  '      <div class="ui three column grid">\n' +
+  '        <div class="column"/>\n' +
+  '        <div class="column"/>\n' +
+  '        <div class="column"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column">\n' +
+  '      <div class="ui grid">\n' +
+  '        <div class="ten wide column"/>\n' +
+  '        <div class="six wide column"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridColored2 = 
+  '  <div class="ui padded grid">\n' +
+  '    <div class="red row">\n' +
+  '      <div class="column">Red</div>\n' +
+  '    </div>\n' +
+  '    <div class="orange row">\n' +
+  '      <div class="column">Orange</div>\n' +
+  '    </div>\n' +
+  '    <div class="yellow row">\n' +
+  '      <div class="column">Yellow</div>\n' +
+  '    </div>\n' +
+  '    <div class="olive row">\n' +
+  '      <div class="column">Olive</div>\n' +
+  '    </div>\n' +
+  '    <div class="green row">\n' +
+  '      <div class="column">Green</div>\n' +
+  '    </div>\n' +
+  '    <div class="teal row">\n' +
+  '      <div class="column">Teal</div>\n' +
+  '    </div>\n' +
+  '    <div class="blue row">\n' +
+  '      <div class="column">Blue</div>\n' +
+  '    </div>\n' +
+  '    <div class="violet row">\n' +
+  '      <div class="column">Violet</div>\n' +
+  '    </div>\n' +
+  '    <div class="purple row">\n' +
+  '      <div class="column">Purple</div>\n' +
+  '    </div>\n' +
+  '    <div class="pink row">\n' +
+  '      <div class="column">Pink</div>\n' +
+  '    </div>\n' +
+  '    <div class="brown row">\n' +
+  '      <div class="column">Brown</div>\n' +
+  '    </div>\n' +
+  '    <div class="grey row">\n' +
+  '      <div class="column">Grey</div>\n' +
+  '    </div>\n' +
+  '    <div class="black row">\n' +
+  '      <div class="column">Black</div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridCompact2 = 
+  '  <div class="ui divider"/>\n' +
+  '  <div class="ui two column very compact internally celled grid">\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
   '    </div>\n' +
   '    <div class="row">\n' +
-  '      <div class="column">Tablet Row 3</div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridEqualWidth2 = 
+  '  <div class="ui equal width grid">\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui segment">1</div>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui segment">2</div>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui segment">3</div>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui segment">4</div>\n' +
+  '      </div>\n' +
   '    </div>\n' +
   '    <div class="row">\n' +
-  '      <div class="column">Tablet Row 2</div>\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui segment">1</div>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui segment">2</div>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui segment">3</div>\n' +
+  '      </div>\n' +
   '    </div>\n' +
   '    <div class="row">\n' +
-  '      <div class="column">Tablet Row 1</div>\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui segment">1</div>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui segment">2</div>\n' +
+  '      </div>\n' +
   '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="another example">\n' +
-  '  <div class="ui mobile vertically reversed grid">\n' +
+  '  </div>' 
+s.CollectionGridColumns1A = 
+  '  <div class="ui grid">\n' +
+  '    <div class="eight wide column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="eight wide column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="eight wide column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="eight wide column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridClearingContent1 = 
+  '  <div class="ui grid">\n' +
+  '    <div class="four column row">\n' +
+  '      <div class="left floated column"/>\n' +
+  '      <div class="right floated column"/>\n' +
+  '    </div>\n' +
   '    <div class="row">\n' +
-  '      <div class="column">Mobile Row 4</div>\n' +
+  '      <div class="three wide column"/>\n' +
+  '      <div class="eight wide column"/>\n' +
+  '      <div class="five wide column"/>\n' +
   '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Mobile Row 3</div>\n' +
+  '  </div>' 
+s.CollectionGridPadded1 = 
+  '  <div class="ui divider"/>\n' +
+  '  <div class="ui two column padded grid">\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
   '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Mobile Row 2</div>\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
   '    </div>\n' +
-  '    <div class="row">\n' +
-  '      <div class="column">Mobile Row 1</div>\n' +
+  '  </div>' 
+s.CollectionGridResponsiveWidth2 = 
+  '  <div class="ui grid">\n' +
+  '    <div class="four wide two wide large screen one wide widescreen column">\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
   '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-use-content="true" data-class="widescreen only, large screen only, computer only, tablet only, mobile only">\n' +
-  '  <h4 class="ui header">Device Visibility</h4>\n' +
-  '  <p>A columns or row can appear only for a specific device, or screen sizes</p>\n' +
+  '    <div class="four wide two wide large screen one wide widescreen column">\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '    </div>\n' +
+  '    <div class="four wide two wide large screen one wide widescreen column">\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '    </div>\n' +
+  '    <div class="four wide two wide large screen one wide widescreen column">\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridColumnCount1 = 
+  '  <div class="ui grid">\n' +
+  '    <div class="three column row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="four column row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="five column row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridDeviceVisibility1 = 
   '  <div class="ui text message info ignore">\n' +
   '    See <a href="/elements/container.html">container documentation</a> for information on breakpoint calculations\n' +
   '  </div>\n' +
@@ -18556,48 +17977,425 @@ s.CollectionGrid1A =
   '        </div>\n' +
   '      </div>\n' +
   '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="example" data-use-content="true">\n' +
-  '  <h4 class="ui header">Responsive Width</h4>\n' +
-  '  <p>A column can specify a width for a specific device</p>\n' +
+  '  </div>' 
+s.CollectionGridColumnWidth1 = 
+  '  <div class="ui grid">\n' +
+  '    <div class="four wide column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="nine wide column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="three wide column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridPadded2 = 
+  '  <div class="ui divider"/>\n' +
+  '  <div class="ui two column vertically padded grid">\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridStretched1 = 
+  '  <div class="ui three column divided grid">\n' +
+  '    <div class="stretched row">\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui segment">\n' +
+  '          1\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui segment">\n' +
+  '          1\n' +
+  '        </div>\n' +
+  '        <div class="ui segment">\n' +
+  '          2\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui segment">\n' +
+  '          1\n' +
+  '        </div>\n' +
+  '        <div class="ui segment">\n' +
+  '          2\n' +
+  '        </div>\n' +
+  '        <div class="ui segment">\n' +
+  '          3\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridDivided1 = 
+  '  <div class="ui three column divided grid">\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/media-paragraph.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridGrouping1 = 
+  '  <div class="ui four column grid">\n' +
+  '    <div class="two column row">\n' +
+  '      <div class="column"/>\n' +
+  '    </div>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '  </div>' 
+s.CollectionGridColumnWidths1 = 
+  '  <div class="ui grid">\n' +
+  '    <div class="eight wide column"/>\n' +
+  '    <div class="eight wide column"/>\n' +
+  '    <div class="ten wide column"/>\n' +
+  '    <div class="six wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="twelve wide column"/>\n' +
+  '    <div class="two wide column"/>\n' +
+  '    <div class="fourteen wide column"/>\n' +
+  '    <div class="sixteen wide column"/>\n' +
+  '  </div>' 
+s.CollectionGridPageGrids1 = 
+  '  <div class="ui warning message">\n' +
+  '    <p>In version <code>1.x</code> of Semantic UI <code>page grid</code> were used to contain the maximum width of grids holding page content. Page grid have been deprecated in favor for the simpler <code>container</code> element.</p>\n' +
+  '  </div>' 
+s.CollectionGridVerticallyDivided1 = 
+  '  <div class="ui vertically divided grid">\n' +
+  '    <div class="two column row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="three column row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridCompact1 = 
+  '  <div class="ui divider"/>\n' +
+  '  <div class="ui two column compact internally celled grid">\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridCenteringContent1 = 
+  '  <div class="ui two column centered grid">\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="four column centered row">\n' +
+  '      <div class="column"/>\n' +
+  '      <div class="column"/>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridTextAlignment2 = 
+  '  <div class="ui center aligned grid">\n' +
+  '    <div class="three column row">\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui vertical fluid menu">\n' +
+  '          <div class="header item">\n' +
+  '            Cats\n' +
+  '          </div>\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '      <div class="left aligned column">\n' +
+  '        <div class="ui vertical fluid menu">\n' +
+  '          <div class="header item">\n' +
+  '            Dogs\n' +
+  '          </div>\n' +
+  '          <div class="item">\n' +
+  '            Poodle\n' +
+  '          </div>\n' +
+  '          <div class="item">\n' +
+  '            Cockerspaniel\n' +
+  '          </div>\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui vertical fluid menu">\n' +
+  '          <div class="header item">\n' +
+  '            Monkeys\n' +
+  '          </div>\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="justified row">\n' +
+  '      <div class="column">\n' +
+  '        <p>Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other. Justified content fits exactly inside the grid column, taking up the entire width from one side to the other.</p>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridReversed4 = 
+  '  <div class="ui mobile vertically reversed grid">\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">Mobile Row 4</div>\n' +
+  '    </div>\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">Mobile Row 3</div>\n' +
+  '    </div>\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">Mobile Row 2</div>\n' +
+  '    </div>\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">Mobile Row 1</div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridFloated1 = 
+  '  <div class="ui grid">\n' +
+  '    <div class="left floated five wide column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '    </div>\n' +
+  '    <div class="right floated five wide column">\n' +
+  '      <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridResponsiveWidth1 = 
   '  <div class="ui ignored info message">\n' +
   '    <p>It\'s recommended to use a responsive pattern like <a href="#doubling"><code>doubling</code></a> or <a href="#stackable"><code>stackable</code></a> to reduce complexity when designing responsively, however in some circumstances specifying exact widths for screen sizes may be necessary.</p>\n' +
   '  </div>\n' +
   '  <div class="ui grid">\n' +
   '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
   '    </div>\n' +
   '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
   '    </div>\n' +
   '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
   '    </div>\n' +
   '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
   '    </div>\n' +
   '    <div class="sixteen wide mobile eight wide tablet four wide computer column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image"/>\n' +
   '    </div>\n' +
-  '  </div>\n' +
-  '</div>\n' +
-  '<div class="another example">\n' +
+  '  </div>' 
+s.CollectionGridColumnContent1 = 
+  '  <div class="ui three column grid">\n' +
+  '    <div class="column">\n' +
+  '      <div class="ui segment">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <div class="ui segment">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <div class="ui segment">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridReversed3 = 
+  '  <div class="ui tablet vertically reversed grid">\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">Tablet Row 4</div>\n' +
+  '    </div>\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">Tablet Row 3</div>\n' +
+  '    </div>\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">Tablet Row 2</div>\n' +
+  '    </div>\n' +
+  '    <div class="row">\n' +
+  '      <div class="column">Tablet Row 1</div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridEqualWidth1 = 
+  '  <div class="ui equal width grid">\n' +
+  '    <div class="column">\n' +
+  '      <div class="ui segment">\n' +
+  '        1\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="eight wide column">\n' +
+  '      <div class="ui segment">\n' +
+  '        2\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <div class="ui segment">\n' +
+  '        3\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridAutomaticFlow1 = 
   '  <div class="ui grid">\n' +
-  '    <div class="four wide two wide large screen one wide widescreen column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '    <div class="four wide column"/>\n' +
+  '  </div>' 
+s.CollectionGridManualTweaks1 = 
+  '  <div class="ui centered grid">\n' +
+  '    <div class="computer only row">\n' +
+  '      <div class="column"/>\n' +
   '    </div>\n' +
-  '    <div class="four wide two wide large screen one wide widescreen column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '    <div class="six wide tablet eight wide computer column"/>\n' +
+  '    <div class="six wide tablet eight wide computer column"/>\n' +
+  '    <div class="six wide tablet eight wide computer column"/>\n' +
+  '    <div class="six wide tablet eight wide computer column"/>\n' +
+  '    <div class="six wide tablet eight wide computer column"/>\n' +
+  '  </div>' 
+s.CollectionGridSignificantWordOrder1 = 
+  '  <div class="ui right aligned grid">\n' +
+  '    <div class="left floated right aligned six wide column">\n' +
+  '      <div class="ui segment">\n' +
+  '        Left floated right aligned column\n' +
+  '      </div>\n' +
   '    </div>\n' +
-  '    <div class="four wide two wide large screen one wide widescreen column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '    <div class="right floated left aligned six wide column">\n' +
+  '      <div class="ui segment">\n' +
+  '        Right floated left aligned column\n' +
+  '      </div>\n' +
   '    </div>\n' +
-  '    <div class="four wide two wide large screen one wide widescreen column">\n' +
-  '      <img src="/images/wireframe/paragraph.png" class="ui wireframe image">\n' +
+  '    <div class="center aligned two column row">\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui segment">\n' +
+  '        Center aligned row\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '      <div class="column">\n' +
+  '        <div class="ui segment">\n' +
+  '        Center aligned row\n' +
+  '        </div>\n' +
+  '      </div>\n' +
   '    </div>\n' +
+  '    <div class="sixteen wide column">\n' +
+  '      <div class="ui segment">\n' +
+  '        Right Aligned Grid\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridCelled1 = 
+  '  <div class="ui celled grid">\n' +
+  '    <div class="row">\n' +
+  '      <div class="three wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="thirteen wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/centered-paragraph.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="row">\n' +
+  '      <div class="three wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="ten wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '      <div class="three wide column">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/image.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridStackable1A = 
+  '  <div class="ui text message info ignore">\n' +
+  '    To see a grid stack, try resizing your browser to a small width\n' +
   '  </div>\n' +
-  '</div>' 
+  '  <div class="two column stackable ui grid">\n' +
+  '    <div class="column">\n' +
+  '      <div class="ui segment">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="column">\n' +
+  '      <div class="ui segment">\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '        <img class="ui wireframe image" src="/images/wireframe/paragraph.png"/>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridColored1 = 
+  '  <div class="ui equal width center aligned padded grid">\n' +
+  '    <div class="row">\n' +
+  '      <div class="olive column">\n' +
+  '        Olive\n' +
+  '      </div>\n' +
+  '      <div class="black column">\n' +
+  '        Black\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '    <div class="row" style="background-color: #869D05;color: #FFFFFF;">\n' +
+  '      <div class="column">Custom Row</div>\n' +
+  '    </div>\n' +
+  '    <div class="row">\n' +
+  '      <div class="black column">\n' +
+  '        Black\n' +
+  '      </div>\n' +
+  '      <div class="olive column">\n' +
+  '        Olive\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>' 
+s.CollectionGridGrid1 = 
+  '  <div class="ui grid">\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '    <div class="column"/>\n' +
+  '  </div>' 
 s.CollectionMenuText1A = 
   '<FuiMenu vertical>\n' +
   '  <FuiItem a>\n' +
@@ -23935,6 +23733,129 @@ s.ViewFeedSize2 =
   '    </div>\n' +
   '  </div>\n' +
   '</div>' 
+s.ViewFeedInverted1 = 
+  '<div class="ui inverted segment">\n' +
+  '<div class="ui inverted feed">\n' +
+  '  <div class="event">\n' +
+  '    <div class="label">\n' +
+  '      <img src="/images/avatar/small/elliot.jpg">\n' +
+  '    </div>\n' +
+  '    <div class="content">\n' +
+  '      <div class="date">\n' +
+  '          Just now\n' +
+  '        </div>\n' +
+  '      <div class="summary">\n' +
+  '        <a class="user">\n' +
+  '          Elliot Fu\n' +
+  '        </a> posted on his page\n' +
+  '      </div>\n' +
+  '      <div class="extra text">\n' +
+  '          Hey there !\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>\n' +
+  '  <div class="event">\n' +
+  '    <div class="label">\n' +
+  '      <img src="/images/avatar/small/elliot.jpg">\n' +
+  '    </div>\n' +
+  '    <div class="content">\n' +
+  '      <div class="summary">\n' +
+  '        <a class="user">\n' +
+  '          Elliot Fu\n' +
+  '        </a> added you as a friend\n' +
+  '        <div class="date">\n' +
+  '          1 Hour Ago\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>\n' +
+  '  <div class="event">\n' +
+  '    <div class="label">\n' +
+  '      <img src="/images/avatar/small/helen.jpg">\n' +
+  '    </div>\n' +
+  '    <div class="content">\n' +
+  '      <div class="summary">\n' +
+  '        <a>Helen Troy</a> added <a>2 new illustrations</a>\n' +
+  '        <div class="date">\n' +
+  '          4 days ago\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '      <div class="extra images">\n' +
+  '        <a><img src="/images/wireframe/image.png"></a>\n' +
+  '        <a><img src="/images/wireframe/image.png"></a>\n' +
+  '      </div>\n' +
+  '      <div class="meta">\n' +
+  '        <a class="like">\n' +
+  '          <i class="like icon"></i> 1 Like\n' +
+  '        </a>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>\n' +
+  '  <div class="event">\n' +
+  '    <div class="label">\n' +
+  '      <img src="/images/avatar/small/jenny.jpg">\n' +
+  '    </div>\n' +
+  '    <div class="content">\n' +
+  '      <div class="summary">\n' +
+  '        <a class="user">\n' +
+  '          Jenny Hess\n' +
+  '        </a> added you as a friend\n' +
+  '        <div class="date">\n' +
+  '          2 Days Ago\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '      <div class="meta">\n' +
+  '        <a class="like">\n' +
+  '          <i class="like icon"></i> 8 Likes\n' +
+  '        </a>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>\n' +
+  '  <div class="event">\n' +
+  '    <div class="label">\n' +
+  '      <img src="/images/avatar/small/joe.jpg">\n' +
+  '    </div>\n' +
+  '    <div class="content">\n' +
+  '      <div class="summary">\n' +
+  '        <a>Joe Henderson</a> posted on his page\n' +
+  '        <div class="date">\n' +
+  '          3 days ago\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '      <div class="extra text">\n' +
+  '        Ours is a life of constant reruns. We\'re always circling back to where we\'d we started, then starting all over again. Even if we don\'t run extra laps that day, we surely will come back for more of the same another day soon.\n' +
+  '      </div>\n' +
+  '      <div class="meta">\n' +
+  '        <a class="like">\n' +
+  '          <i class="like icon"></i> 5 Likes\n' +
+  '        </a>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>\n' +
+  '  <div class="event">\n' +
+  '    <div class="label">\n' +
+  '      <img src="/images/avatar/small/justen.jpg">\n' +
+  '    </div>\n' +
+  '    <div class="content">\n' +
+  '      <div class="summary">\n' +
+  '        <a>Justen Kitsune</a> added <a>2 new photos</a> of you\n' +
+  '        <div class="date">\n' +
+  '          4 days ago\n' +
+  '        </div>\n' +
+  '      </div>\n' +
+  '      <div class="extra images">\n' +
+  '        <a><img src="/images/wireframe/image.png"></a>\n' +
+  '        <a><img src="/images/wireframe/image.png"></a>\n' +
+  '      </div>\n' +
+  '      <div class="meta">\n' +
+  '        <a class="like">\n' +
+  '          <i class="like icon"></i> 41 Likes\n' +
+  '        </a>\n' +
+  '      </div>\n' +
+  '    </div>\n' +
+  '  </div>\n' +
+  '</div>\n' +
+  '  </div>' 
 s.ViewAdvertisementAd1 = 
   'bad template' 
 s.ViewAdvertisementLeaderboards1 = 

@@ -1,36 +1,58 @@
 <template>
   <div>
-    <router-link to="/button">Button</router-link>,
-    <router-link to="/divider">Divider</router-link>,
-    <router-link to="/flag">Flag</router-link>,
-    <router-link to="/header">Header</router-link>,
-    <router-link to="/icon">Icon</router-link>,
-    <router-link to="/image">Image</router-link>,
-    <router-link to="/input">Input</router-link>,
-    <router-link to="/label">Label</router-link>,
-    <router-link to="/list">List</router-link>,
-    <router-link to="/loader">Loader</router-link>,
-    <router-link to="/placeholder">Placeholder</router-link>,
-    <router-link to="/rail">Rail</router-link>,
-    <router-link to="/reveal">Reveal</router-link>,
-    <router-link to="/segment">Segment</router-link>,
-    <router-link to="/step">Step</router-link>,
-    <router-link to="/text">Text</router-link>,
-    <br /><br />
-    <router-link to="/breadcrumb">Breadcrumb</router-link>,
-    <router-link to="/form">Form</router-link>,
-    <router-link to="/grid">Grid</router-link>,
-    <router-link to="/menu">Menu</router-link>,
-    <router-link to="/message">Message</router-link>,
-    <router-link to="/table">Table</router-link>,
-    <br /><br />
-    <router-link to="/advertisement">Advertisement</router-link>,
-    <router-link to="/card">Card</router-link>,
-    <router-link to="/comment">Comment</router-link>,
-    <router-link to="/feed">Feed</router-link>,
-    <router-link to="/item">Item</router-link>,
-    <router-link to="/statistic">Statistic</router-link>,
-    <br /><br />
+    <FuiContainer main>
+      <FuiHeader level=1>
+        Fomantic UI - vue.js
+        <FuiHeader sub>
+          Catalogue of components
+        </FuiHeader>
+      </FuiHeader>
+
+      <FuiHeader level=3>
+        Elements
+      </FuiHeader>
+      <router-link to="/button">Button</router-link>,
+      <router-link to="/divider">Divider</router-link>,
+      <router-link to="/flag">Flag</router-link>,
+      <router-link to="/header">Header</router-link>,
+      <router-link to="/icon">Icon</router-link>,
+      <router-link to="/image">Image</router-link>,
+      <router-link to="/input">Input</router-link>,
+      <router-link to="/label">Label</router-link>,
+      <router-link to="/list">List</router-link>,
+      <router-link to="/loader">Loader</router-link>,
+      <router-link to="/placeholder">Placeholder</router-link>,
+      <router-link to="/rail">Rail</router-link>,
+      <router-link to="/reveal">Reveal</router-link>,
+      <router-link to="/segment">Segment</router-link>,
+      <router-link to="/step">Step</router-link>,
+      <router-link to="/text">Text</router-link>,
+      <br /><br />
+      <FuiHeader level=3>
+        Collections
+      </FuiHeader>
+      <router-link to="/breadcrumb">Breadcrumb</router-link>,
+      <router-link to="/form">Form</router-link>,
+      <router-link to="/grid">Grid</router-link>,
+      <router-link to="/menu">Menu</router-link>,
+      <router-link to="/message">Message</router-link>,
+      <router-link to="/table">Table</router-link>,
+      <br /><br />
+      <FuiHeader level=3>
+        Views
+      </FuiHeader>
+      <router-link to="/advertisement">Advertisement</router-link>,
+      <router-link to="/card">Card</router-link>,
+      <router-link to="/comment">Comment</router-link>,
+      <router-link to="/feed">Feed</router-link>,
+      <router-link to="/item">Item</router-link>,
+      <router-link to="/statistic">Statistic</router-link>,
+      <br /><br />
+      <FuiHeader level=3>
+        Modules
+      </FuiHeader>
+      <br /><br />
+    </FuiContainer>
 
     <router-view></router-view>
   </div>
