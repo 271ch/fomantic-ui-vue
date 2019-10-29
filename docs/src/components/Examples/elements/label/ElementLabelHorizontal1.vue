@@ -1,23 +1,23 @@
 <template>
   <div>
-    <div class="ui divided selection list">
-      <a class="item">
-        <div class="ui red horizontal label">Fruit</div>
+    <FuiList divided selection>
+      <FuiItem a>
+        <FuiLabel color=red horizontal>Fruit</FuiLabel>
         Kumquats
-      </a>
-      <a class="item">
-        <div class="ui purple horizontal label">Candy</div>
+      </FuiItem>
+      <FuiItem a>
+        <FuiLabel color=purple horizontal>Candy</FuiLabel>
         Ice Cream
-      </a>
-      <a class="item">
-        <div class="ui red horizontal label">Fruit</div>
+      </FuiItem>
+      <FuiItem a>
+        <FuiLabel color=red horizontal>Fruit</FuiLabel>
         Orange
-      </a>
-      <a class="item">
-        <div class="ui horizontal label">Dog</div>
+      </FuiItem>
+      <FuiItem a>
+        <FuiLabel horizontal>Dog</FuiLabel>
         Poodle
-      </a>
-    </div>
+      </FuiItem>
+    </FuiList>
   </div>
 </template>
 
@@ -25,13 +25,13 @@
 export default {
   name: 'ElementLabelHorizontal1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Types',
     title2: 'Horizontal',
     description: 'A horizontal label is formatted to label content along-side it horizontally',
-    model: '    <div class="ui divided selection list">\n' +
+    model: '    <div class="ui selection divided list">\n' +
       '      <a class="item">\n' +
       '        <div class="ui red horizontal label">Fruit</div>\n' +
       '        Kumquats\n' +

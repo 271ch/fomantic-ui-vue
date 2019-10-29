@@ -1,13 +1,12 @@
 <template>
   <div>
-    <a class="ui label">
-      <img src="/images/avatar/small/elliot.jpg" class="ui right spaced avatar image">
+    <FuiLabel tag=a>
+      <FuiImage src="/images/avatar/small/elliot.jpg" spaced=right avatar></FuiImage>
       Elliot
-    </a>
-    <a class="ui label">
-      <img src="/images/avatar/small/stevie.jpg"/>
+    </FuiLabel>
+    <FuiLabel tag=a src="/images/avatar/small/stevie.jpg">
       Stevie
-    </a>
+    </FuiLabel>
   </div>
 </template>
 
@@ -15,7 +14,7 @@
 export default {
   name: 'ElementLabelImage1A',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Content',
@@ -26,7 +25,7 @@ export default {
       '      Elliot\n' +
       '    </a>\n' +
       '    <a class="ui label">\n' +
-      '      <img src="/images/avatar/small/stevie.jpg"/>\n' +
+      '      <img src="/images/avatar/small/stevie.jpg">\n' +
       '      Stevie\n' +
       '    </a>\n',
   },

@@ -1,16 +1,16 @@
 <template>
   <div>
     <FuiGrid>
-      <FuiColumn largescreen=two widescreen=one>
+      <FuiColumn wide=four largescreen=two widescreen=one>
         <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
       </FuiColumn>
-      <FuiColumn largescreen=two widescreen=one>
+      <FuiColumn wide=four largescreen=two widescreen=one>
         <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
       </FuiColumn>
-      <FuiColumn largescreen=two widescreen=one>
+      <FuiColumn wide=four largescreen=two widescreen=one>
         <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
       </FuiColumn>
-      <FuiColumn largescreen=two widescreen=one>
+      <FuiColumn wide=four largescreen=two widescreen=one>
         <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
       </FuiColumn>
     </FuiGrid>

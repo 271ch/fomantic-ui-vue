@@ -1,7 +1,7 @@
 <template>
-  <div :class="classes">
-    <slot />
-  </div>
+  <input
+    :type="type===false?'text':type"
+  >
 </template>
 
 <script>
@@ -10,12 +10,16 @@ import u from '../../lib/util';
 // import Mixins from '../../lib/mixins';
 
 export default {
-  name: 'FuiField',
+  name: 'FuiFieldInput',
   mixins: [],
   props: {
-    inline: {
-      type: Boolean,
-      description: '', // TODO:
+    type: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
+      validator: (value) => {
+        return value !== true;
+      },
+      default: false,
     },
   },
   events: {
@@ -26,8 +30,6 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
-        this.inline && 'inline',
-        'field'
       );
     },
   },

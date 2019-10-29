@@ -7,6 +7,10 @@
       v-if="image!==false"
       :src="image"
     >
+    <img
+      v-if="src!==false"
+      :src="src"
+    >
     <slot />
     <component
       :is="detail?'div':'a'"
@@ -36,9 +40,18 @@ export default {
     ),
     Mixins.PColor,
     Mixins.PSize,
+    Mixins.getMixinAligned(['right', 'left'], null),
   ],
   props: {
     image: {
+      type: [Boolean, String],
+      validator: (value) => {
+        return value !== true;
+      },
+      description: 'A label can be formatted to emphasize an image.',
+      default: false,
+    },
+    src: {
       type: [Boolean, String],
       validator: (value) => {
         return value !== true;
@@ -102,11 +115,23 @@ export default {
       },
       default: '',
     },
+    floating: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
+      validator: (value) => {
+        return value === false || value === true || Enum.FloatingLabel.check(value);
+      },
+      default: false,
+    },
     horizontal: {
       type: Boolean,
       description: 'A horizontal label is formatted to label content along-side it horizontally.',
     },
     basic: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
+    inverted: {
       type: Boolean,
       description: '', // TODO: descr
     },
@@ -132,8 +157,9 @@ export default {
     classes: function () {
       return u.concatClasses(
         'ui',
-        this.pointing !== 'above' && this.pointing,
+        this.pointing !== 'above' && this.pointing !== 'below' && this.pointing,
         this.pointing && 'pointing',
+        this.pointing === 'below' && 'below',
         ...this.getClassesColor,
         ...this.getClassesSize,
         ...this.getClassesEmphasis,
@@ -145,6 +171,12 @@ export default {
         this.ribbon,
         this.ribbon && 'ribbon',
         this.horizontal && 'horizontal',
+        ...this.getClassesAligned,
+        this.floating,
+        this.floating && 'floating',
+        this.attached,
+        this.attached && 'attached',
+        this.inverted && 'inverted',
         this.basic && 'basic',
         this.empty && 'empty',
         this.circular && 'circular',

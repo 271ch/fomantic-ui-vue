@@ -1,55 +1,55 @@
 <template>
   <div>
-    <div class="ui three column grid">
-      <div class="row">
-        <div class="column">
-          <div class="ui segment">
-            <div class="ui top attached label">HTML</div>
-            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-          </div>
-        </div>
-        <div class="column">
-          <div class="ui segment">
-            <div class="ui bottom attached label">CSS</div>
-            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-          </div>
-        </div>
-        <div class="column">
-          <div class="ui segment">
-            <div class="ui top right attached label">Code</div>
-            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <div class="ui segment">
-            <div class="ui top left attached label">View</div>
-            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-          </div>
-        </div>
-        <div class="column">
-          <div class="ui segment">
-            <div class="ui bottom left attached label">User View</div>
-            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-          </div>
-        </div>
-        <div class="column">
-          <div class="ui segment">
-            <div class="ui bottom right attached label">Admin View</div>
-            <img src="/images/wireframe/paragraph.png" class="ui wireframe image">
-          </div>
-        </div>
-      </div>
+    <FuiGrid column=three>
+      <FuiRow>
+        <FuiColumn>
+          <FuiSegment>
+            <FuiLabel attached=top>HTML</FuiLabel>
+            <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            <FuiLabel attached=bottom>CSS</FuiLabel>
+            <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            <FuiLabel attached="top right">Code</FuiLabel>
+            <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+          </FuiSegment>
+        </FuiColumn>
+      </FuiRow>
+      <FuiRow>
+        <FuiColumn>
+          <FuiSegment>
+            <FuiLabel attached="top left">View</FuiLabel>
+            <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            <FuiLabel attached="bottom left">User View</FuiLabel>
+            <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+          </FuiSegment>
+        </FuiColumn>
+        <FuiColumn>
+          <FuiSegment>
+            <FuiLabel attached="bottom right">Admin View</FuiLabel>
+            <FuiImage src="/images/wireframe/paragraph.png" wireframe></FuiImage>
+          </FuiSegment>
+        </FuiColumn>
+      </FuiRow>
+    </FuiGrid>
+    <div class="existing code">
+      <FuiLabel attached=top>HTML</FuiLabel>
+      <FuiLabel attached=bottom>CSS</FuiLabel>
+      <FuiLabel attached="top right">Code</FuiLabel>
+      <FuiLabel attached="top left">View</FuiLabel>
+      <FuiLabel attached="bottom left">User View</FuiLabel>
+      <FuiLabel attached="bottom right">Admin View</FuiLabel>
     </div>
-      <div class="existing code">
-    <div class="ui top attached label">HTML</div>
-    <div class="ui bottom attached label">CSS</div>
-    <div class="ui top right attached label">Code</div>
-    <div class="ui top left attached label">View</div>
-    <div class="ui bottom left attached label">User View</div>
-    <div class="ui bottom right attached label">Admin View</div>
-      </div>
   </div>
 </template>
 
@@ -57,7 +57,7 @@
 export default {
   name: 'ElementLabelAttached1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Types',

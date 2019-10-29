@@ -1,23 +1,32 @@
 <template>
   <div :class="classes">
     <slot name="before" />
-    <input
-      v-if="!prompt"
+    <component
+      :is="'input'"
+      v-if="!prompt&&!textarea"
       :id="id"
       :type="type"
       :placeholder="placeholder"
       :value="value"
       :disabled="inputDisabled"
-    >
-    <input
-      v-if="prompt"
+    />
+    <component
+      :is="'input'"
+      v-if="prompt&&!textarea"
       :id="id"
       :type="type"
       :placeholder="placeholder"
       :value="value"
       class="prompt"
       :disabled="inputDisabled"
-    >
+    />
+    <textarea
+      v-if="textarea"
+      :id="id"
+      v-model="content"
+      :placeholder="placeholder"
+      :disabled="inputDisabled"
+    />
     <slot />
   </div>
 </template>
@@ -46,9 +55,12 @@ export default {
       default: false,
     },
     value: {
-      type: String,
+      type: [Boolean, String],
       description: '', // TODO: descr
-      default: '',
+      validator: (value) => {
+        return value !== true;
+      },
+      default: false,
     },
     type: {
       type: String,
@@ -67,6 +79,10 @@ export default {
       description: '', // TODO: descr
     },
     disabled: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
+    inverted: {
       type: Boolean,
       description: '', // TODO: descr
     },
@@ -130,10 +146,19 @@ export default {
       },
       default: false,
     },
+    textarea: {
+      type: Boolean,
+      description: '', // TODO: descr
+    },
     prompt: {
       type: Boolean,
       description: '', // TODO: descr
     },
+  },
+  data () {
+    return {
+      content: '',
+    };
   },
   events: {
     click: {
@@ -147,6 +172,7 @@ export default {
         this.focus && 'focus',
         this.fluid && 'fluid',
         this.disabled && 'disabled',
+        this.inverted && 'inverted',
         this.transparent && 'transparent',
         ...this.getClassesSize,
         this.action === 'right' && this.action,

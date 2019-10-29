@@ -1,34 +1,34 @@
 <template>
   <div>
-    <form class="ui fluid form">
-      <div class="field">
-        <input type="text" placeholder="First name"/>
-        <div class="ui pointing red basic label">
+    <FuiForm form fluid>
+      <FuiField >
+        <FuiFieldInput placeholder="First name"></FuiFieldInput>
+        <FuiLabel color=red basic pointing>
           Please enter a value
-        </div>
-      </div>
-      <div class="ui divider"/>
-      <div class="field" placeholder="Last Name">
-        <div class="ui pointing below red basic label">
+        </FuiLabel>
+      </FuiField>
+      <FuiDivider></FuiDivider>
+      <FuiField placeholder="Last name">
+        <FuiLabel color=red basic pointing=below>
           Please enter a value
-        </div>
-        <input type="text"/>
-      </div>
-      <div class="ui divider"/>
-      <div class="inline field">
-        <input type="text" placeholder="Username"/>
-        <div class="ui left pointing red basic label">
+        </FuiLabel>
+        <FuiFieldInput ></FuiFieldInput>
+      </FuiField>
+      <FuiDivider></FuiDivider>
+      <FuiField inline>
+        <FuiFieldInput placeholder="Username"></FuiFieldInput>
+        <FuiLabel color=red basic pointing=left>
           That name is taken!
-        </div>
-      </div>
-      <div class="ui divider"/>
-      <div class="inline field">
-        <div class="ui right pointing red basic label">
+        </FuiLabel>
+      </FuiField>
+      <FuiDivider></FuiDivider>
+      <FuiField inline>
+        <FuiLabel color=red basic pointing=right>
           Your password must be 6 characters or more
-        </div>
-        <input type="password"/>
-      </div>
-    </form>
+        </FuiLabel>
+        <FuiFieldInput type="password"></FuiFieldInput>
+      </FuiField>
+    </FuiForm>
   </div>
 </template>
 
@@ -36,7 +36,7 @@
 export default {
   name: 'ElementLabelPointing2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Types',
@@ -44,31 +44,31 @@ export default {
     description: 'A label can point to content next to it',
     model: '    <form class="ui fluid form">\n' +
       '      <div class="field">\n' +
-      '        <input type="text" placeholder="First name"/>\n' +
+      '        <input type="text" placeholder="First name">\n' +
       '        <div class="ui pointing red basic label">\n' +
       '          Please enter a value\n' +
       '        </div>\n' +
       '      </div>\n' +
-      '      <div class="ui divider"/>\n' +
-      '      <div class="field" placeholder="Last Name">\n' +
+      '      <div class="ui divider"></div>\n' +
+      '      <div class="field" placeholder="Last name">\n' +
       '        <div class="ui pointing below red basic label">\n' +
       '          Please enter a value\n' +
       '        </div>\n' +
-      '        <input type="text"/>\n' +
+      '        <input type="text">\n' +
       '      </div>\n' +
-      '      <div class="ui divider"/>\n' +
+      '      <div class="ui divider"></div>\n' +
       '      <div class="inline field">\n' +
-      '        <input type="text" placeholder="Username"/>\n' +
+      '        <input type="text" placeholder="Username">\n' +
       '        <div class="ui left pointing red basic label">\n' +
       '          That name is taken!\n' +
       '        </div>\n' +
       '      </div>\n' +
-      '      <div class="ui divider"/>\n' +
+      '      <div class="ui divider"></div>\n' +
       '      <div class="inline field">\n' +
       '        <div class="ui right pointing red basic label">\n' +
       '          Your password must be 6 characters or more\n' +
       '        </div>\n' +
-      '        <input type="password"/>\n' +
+      '        <input type="password">\n' +
       '      </div>\n' +
       '    </form>\n',
   },

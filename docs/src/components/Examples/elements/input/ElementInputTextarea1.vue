@@ -1,41 +1,43 @@
 <template>
   <div>
-    <div class="ui form">
-        <div class="ui left corner labeled input">
-            <div class="ui left corner label">
-                <i class="asterisk icon"></i>
-            </div>
-            <textarea> I have a left corner label</textarea>
-        </div>
-        <div class="ui corner labeled input">
-            <div class="ui corner label">
-                <i class="asterisk icon"></i>
-            </div>
-            <textarea> I have a right corner label</textarea>
-        </div>
-        <div class="ui left icon input">
-            <textarea> I have an left icon</textarea>
-            <i class="search icon"></i>
-        </div>
-        <div class="ui icon input">
-            <textarea> I have a right icon</textarea>
-            <i class="search icon"></i>
-        </div>
-        <div class="ui left corner labeled left icon input">
-            <div class="ui left corner label">
-                <i class="asterisk icon"></i>
-            </div>
-            <textarea> I have a left icon and left corner label</textarea>
-            <i class="search icon"></i>
-        </div>
-        <div class="ui corner labeled icon input">
-            <div class="ui  corner label">
-                <i class="asterisk icon"></i>
-            </div>
-            <textarea>I have a right icon and right corner label</textarea>
-            <i class="search icon"></i>
-        </div>
-    </div>
+    <FuiForm>
+      <FuiInput corner=left labeled textarea placeholder="I have a left corner label">
+        <template #before>
+          <FuiLabel corner=left>
+              <FuiIcon name=asterisk></FuiIcon>
+          </FuiLabel>
+        </template>
+      </FuiInput>
+      <FuiInput corner labeled textarea placeholder="I have a right corner label">
+        <template #before>
+          <FuiLabel corner>
+              <FuiIcon name=asterisk></FuiIcon>
+          </FuiLabel>
+        </template>
+      </FuiInput>
+      <FuiInput icon=left textarea placeholder="I have a left icon">
+          <FuiIcon name=search></FuiIcon>
+      </FuiInput>
+      <FuiInput icon textarea placeholder="I have a right icon">
+          <FuiIcon name=search></FuiIcon>
+      </FuiInput>
+      <FuiInput corner=left labeled=left icon textarea placeholder="I have a left icon and left corner label">
+        <template #before>
+          <FuiLabel corner=left>
+              <FuiIcon name=asterisk></FuiIcon>
+          </FuiLabel>
+        </template>
+        <FuiIcon name=search></FuiIcon>
+      </FuiInput>
+      <FuiInput corner labeled icon textarea placeholder="I have a right icon and right corner label">
+        <template #before>
+          <FuiLabel corner>
+              <FuiIcon name=asterisk></FuiIcon>
+          </FuiLabel>
+        </template>
+        <FuiIcon name=search></FuiIcon>
+      </FuiInput>
+    </FuiForm>
   </div>
 </template>
 
@@ -43,7 +45,7 @@
 export default {
   name: 'ElementInputTextarea1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'input',
     title1: 'Variations',
@@ -63,22 +65,22 @@ export default {
       '            <textarea> I have a right corner label</textarea>\n' +
       '        </div>\n' +
       '        <div class="ui left icon input">\n' +
-      '            <textarea> I have an left icon</textarea>\n' +
+      '            <textarea> I have a left icon</textarea>\n' +
       '            <i class="search icon"></i>\n' +
       '        </div>\n' +
       '        <div class="ui icon input">\n' +
       '            <textarea> I have a right icon</textarea>\n' +
       '            <i class="search icon"></i>\n' +
       '        </div>\n' +
-      '        <div class="ui left corner labeled left icon input">\n' +
+      '        <div class="ui icon left corner left labeled input">\n' +
       '            <div class="ui left corner label">\n' +
       '                <i class="asterisk icon"></i>\n' +
       '            </div>\n' +
       '            <textarea> I have a left icon and left corner label</textarea>\n' +
       '            <i class="search icon"></i>\n' +
       '        </div>\n' +
-      '        <div class="ui corner labeled icon input">\n' +
-      '            <div class="ui  corner label">\n' +
+      '        <div class="ui icon corner labeled input">\n' +
+      '            <div class="ui corner label">\n' +
       '                <i class="asterisk icon"></i>\n' +
       '            </div>\n' +
       '            <textarea>I have a right icon and right corner label</textarea>\n' +

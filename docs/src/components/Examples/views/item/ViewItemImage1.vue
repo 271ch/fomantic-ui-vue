@@ -2,17 +2,17 @@
   <div>
     <FuiItems divided>
       <FuiItem>
-        <FuiImage tag=div>
+        <FuiImage tag=div int>
           <img src="/images/wireframe/image.png">
         </FuiImage>
       </FuiItem>
       <FuiItem>
-        <FuiImage tag=div>
+        <FuiImage tag=div int>
           <img src="/images/wireframe/image.png">
         </FuiImage>
       </FuiItem>
       <FuiItem>
-        <FuiImage tag=div>
+        <FuiImage tag=div int>
           <img src="/images/wireframe/image.png">
         </FuiImage>
       </FuiItem>

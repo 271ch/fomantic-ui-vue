@@ -1,13 +1,17 @@
 <template>
-  <img v-if="gTag === 'img'"
+  <img
+    v-if="gTag === 'img'"
     :src="src"
     :class="classes"
   >
-  <component v-else
+  <component
+    :is="gTag"
+    v-else
     :class="classes"
-    :is="gTag">
+  >
     <slot />
-    <img v-if="src !== false"
+    <img
+      v-if="src !== false"
       :src="src"
     >
   </component>
@@ -75,6 +79,10 @@ export default {
       },
       default: false,
     },
+    int: { // TODO: description
+      type: Boolean,
+      description: 'Internal image (no ui class)',
+    },
     src: {
       type: [Boolean, String],
       description: '', // TODO: descr
@@ -92,7 +100,7 @@ export default {
   computed: {
     classes: function () {
       return u.concatClasses(
-        'ui',
+        !this.int && 'ui',
         this.hidden && 'hidden',
         this.disabled && 'disabled',
         this.wireframe && 'wireframe',

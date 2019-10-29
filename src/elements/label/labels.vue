@@ -13,6 +13,7 @@ export default {
   name: 'FuiLabels',
   mixins: [
     Mixins.PColor,
+    Mixins.PSize,
   ],
   props: {
     basic: {
@@ -41,6 +42,7 @@ export default {
         this.circular && 'circular',
         this.tagged && 'tag',
         ...this.getClassesColor,
+        ...this.getClassesSize,
         'labels'
       );
     },

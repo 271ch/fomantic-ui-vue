@@ -2,20 +2,18 @@
   <div>
     <FuiGrid column=two>
       <FuiColumn>
-        <div class="ui fluid image">
-          <a class="ui left corner label">
-            <i class="heart icon"></i>
-          </a>
-          <img src="/images/wireframe/image.png">
-        </div>
+        <FuiImage tag=div fluid src="/images/wireframe/image.png">
+          <FuiLabel tag=a corner=left>
+            <FuiIcon name=heart></FuiIcon>
+          </FuiLabel>
+        </FuiImage>
       </FuiColumn>
       <FuiColumn>
-        <div class="ui fluid image">
-          <a class="ui red right corner label">
-            <i class="save icon"></i>
-          </a>
-          <img src="/images/wireframe/image.png">
-        </div>
+        <FuiImage tag=div fluid src="/images/wireframe/image.png">
+          <FuiLabel tag=a corner=right color=red>
+            <FuiIcon name=save></FuiIcon>
+          </FuiLabel>
+        </FuiImage>
       </FuiColumn>
     </FuiGrid>
   </div>
@@ -25,7 +23,7 @@
 export default {
   name: 'ElementLabelCorner1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Types',

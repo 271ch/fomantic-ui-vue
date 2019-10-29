@@ -1,19 +1,19 @@
 <template>
   <div>
-    <div class="ui huge labels">
-      <div class="ui label">
+    <FuiLabels size=huge>
+      <FuiLabel>
         Fun
-      </div>
-      <div class="ui label">
+      </FuiLabel>
+      <FuiLabel>
         Happy
-      </div>
-      <div class="ui label">
+      </FuiLabel>
+      <FuiLabel>
         Smart
-      </div>
-      <div class="ui label">
+      </FuiLabel>
+      <FuiLabel>
         Witty
-      </div>
-    </div>
+      </FuiLabel>
+    </FuiLabels>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
 export default {
   name: 'ElementLabelGroupSize1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'label',
     title1: 'Groups',

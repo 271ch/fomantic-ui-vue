@@ -30,13 +30,14 @@ FuiVue.registerAll(Vue)
 
 const skipDoneElements = true;
 
-let doneElements = ['button', 'divider', 'flag', 'header', 'icon', 'image', 'list', 'loader', 'placeholder', 'rail', 'reveal', 'segment', 'step', 'text', 'menu'];
+let doneElements = ['button', 'divider', 'flag', 'header', 'icon', 'image', 'label', 'list', 'loader', 'placeholder', 'rail', 'reveal', 'segment', 'step', 'text', 'breadcrumb', 'grid', 'menu'];
 let skipElements = [];
 if (skipDoneElements) {
   skipElements = [...skipElements,...doneElements];
 }
 
-const skipTemplate = ['ViewItemImage1', 'ElementInputAction2', 'ElementInputAction3', 'ElementInputAction5', 'CollectionGridResponsiveWidth2'];
+// const skipTemplate = [ElementInputAction3'];
+const skipTemplate = [];
 
 const html_std = function(html) {
   let html2 = html.replace(/<!---->/gm,'').replace(/</gm,'\n<').replace(/>/gm,'>\n').replace(/&amp;/gm,'&');

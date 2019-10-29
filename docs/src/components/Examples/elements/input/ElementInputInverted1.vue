@@ -1,20 +1,16 @@
 <template>
   <div>
-    <div class="ui inverted segment">
-      <div class="ui inverted input">
-        <input type="text" placeholder="Search..."/>
-      </div>
-      <div class="ui inverted divider"/>
-      <div class="ui inverted left icon input">
-        <input type="text" placeholder="Search..."/>
-        <i class="search icon"></i>
-      </div>
-      <div class="ui inverted divider"/>
-      <div class="ui inverted transparent icon input">
-        <input type="text" placeholder="Search..."/>
-        <i class="search icon"></i>
-      </div>
-    </div>
+    <FuiSegment inverted>
+      <FuiInput inverted placeholder="Search..."></FuiInput>
+      <FuiDivider inverted></FuiDivider>
+      <FuiInput inverted icon=left placeholder="Search...">
+        <FuiIcon name=search></FuiIcon>
+      </FuiInput>
+      <FuiDivider inverted></FuiDivider>
+      <FuiInput inverted transparent icon placeholder="Search...">
+        <FuiIcon name=search></FuiIcon>
+      </FuiInput>
+    </FuiSegment>
   </div>
 </template>
 
@@ -22,7 +18,7 @@
 export default {
   name: 'ElementInputInverted1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'elements',
     element: 'input',
     title1: 'Variations',
@@ -30,16 +26,16 @@ export default {
     description: 'An input can be formatted to appear on dark backgrounds',
     model: '    <div class="ui inverted segment">\n' +
       '      <div class="ui inverted input">\n' +
-      '        <input type="text" placeholder="Search..."/>\n' +
+      '        <input type="text" placeholder="Search...">\n' +
       '      </div>\n' +
-      '      <div class="ui inverted divider"/>\n' +
+      '      <div class="ui inverted divider"></div>\n' +
       '      <div class="ui inverted left icon input">\n' +
-      '        <input type="text" placeholder="Search..."/>\n' +
+      '        <input type="text" placeholder="Search...">\n' +
       '        <i class="search icon"></i>\n' +
       '      </div>\n' +
-      '      <div class="ui inverted divider"/>\n' +
+      '      <div class="ui inverted divider"></div>\n' +
       '      <div class="ui inverted transparent icon input">\n' +
-      '        <input type="text" placeholder="Search..."/>\n' +
+      '        <input type="text" placeholder="Search...">\n' +
       '        <i class="search icon"></i>\n' +
       '      </div>\n' +
       '    </div>\n',

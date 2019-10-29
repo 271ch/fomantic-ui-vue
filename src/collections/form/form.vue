@@ -1,7 +1,10 @@
 <template>
-  <div :class="classes">
+  <component
+    :is="form?'form':'div'"
+    :class="classes"
+  >
     <slot />
-  </div>
+  </component>
 </template>
 
 <script>
@@ -13,25 +16,14 @@ export default {
   name: 'FuiForm',
   mixins: [],
   props: {
-    /*
-    prop1: { // TODO: Component FuiForm
+    form: {
       type: Boolean,
-      description: '',
+      description: '', // TODO: descr
     },
-    prop2: {
-      type: String,
-      description: '',
-      default: '',
+    fluid: {
+      type: Boolean,
+      description: '', // TODO: descr
     },
-    prop3: {
-      type: String,
-      description: '',
-      validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
-      },
-      default: '',
-    },
-    */
   },
   events: {
     click: {
@@ -42,6 +34,7 @@ export default {
     classes: function () {
       return u.concatClasses(
         'ui',
+        this.fluid && 'fluid',
         'form'
       );
     },
