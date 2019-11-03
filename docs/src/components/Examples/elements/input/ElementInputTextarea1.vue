@@ -56,34 +56,34 @@ export default {
       '            <div class="ui left corner label">\n' +
       '                <i class="asterisk icon"></i>\n' +
       '            </div>\n' +
-      '            <textarea> I have a left corner label</textarea>\n' +
+      '            <textarea placeholder="I have a left corner label"></textarea>\n' +
       '        </div>\n' +
       '        <div class="ui corner labeled input">\n' +
       '            <div class="ui corner label">\n' +
       '                <i class="asterisk icon"></i>\n' +
       '            </div>\n' +
-      '            <textarea> I have a right corner label</textarea>\n' +
+      '            <textarea placeholder="I have a right corner label"></textarea>\n' +
       '        </div>\n' +
       '        <div class="ui left icon input">\n' +
-      '            <textarea> I have a left icon</textarea>\n' +
+      '            <textarea placeholder="I have a left icon"></textarea>\n' +
       '            <i class="search icon"></i>\n' +
       '        </div>\n' +
       '        <div class="ui icon input">\n' +
-      '            <textarea> I have a right icon</textarea>\n' +
+      '            <textarea placeholder="I have a right icon"></textarea>\n' +
       '            <i class="search icon"></i>\n' +
       '        </div>\n' +
       '        <div class="ui icon left corner left labeled input">\n' +
       '            <div class="ui left corner label">\n' +
       '                <i class="asterisk icon"></i>\n' +
       '            </div>\n' +
-      '            <textarea> I have a left icon and left corner label</textarea>\n' +
+      '            <textarea placeholder="I have a left icon and left corner label"></textarea>\n' +
       '            <i class="search icon"></i>\n' +
       '        </div>\n' +
       '        <div class="ui icon corner labeled input">\n' +
       '            <div class="ui corner label">\n' +
       '                <i class="asterisk icon"></i>\n' +
       '            </div>\n' +
-      '            <textarea>I have a right icon and right corner label</textarea>\n' +
+      '            <textarea placeholder="I have a right icon and right corner label"></textarea>\n' +
       '            <i class="search icon"></i>\n' +
       '        </div>\n' +
       '    </div>\n',
