@@ -2,7 +2,7 @@
   <div>
     <div class="ui ignored warning message">Adding the class <code>ascending</code> or <code>descending</code> to the <code>th</code> will show the user the sorting direction. This example uses a modified version of the kylefox's <a href="https://github.com/kylefox/jquery-tablesort">tablesort plugin</a> to provide the proper class names. To make sortable tables work, include <a href="http://semantic-ui.com/javascript/library/tablesort.js">this javascript</a> into your page and call <code>$('table').tablesort()</code> when the DOM is ready.
     </div>
-    <table class="ui sortable celled table">
+    <FuiTable sortable celled>
       <thead>
         <tr>
           <th>Name</th>
@@ -30,9 +30,9 @@
       <tfoot>
         <th>3 People</th>
         <th>2 Approved</th>
-        <th/>
+        <th></th>
       </tfoot>
-    </table>
+    </FuiTable>
   </div>
 </template>
 
@@ -76,7 +76,7 @@ export default {
       '      <tfoot>\n' +
       '        <th>3 People</th>\n' +
       '        <th>2 Approved</th>\n' +
-      '        <th/>\n' +
+      '        <th></th>\n' +
       '      </tfoot>\n' +
       '    </table>\n',
   },

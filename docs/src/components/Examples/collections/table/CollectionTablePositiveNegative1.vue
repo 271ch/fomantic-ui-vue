@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui celled table">
+    <FuiTable celled>
       <thead>
         <tr>
           <th>Name</th>
@@ -16,13 +16,13 @@
         </tr>
         <tr class="positive">
           <td>Jimmy</td>
-          <td><i class="icon checkmark"></i> Approved</td>
+          <td><FuiIcon name=checkmark></FuiIcon> Approved</td>
           <td>None</td>
         </tr>
         <tr>
           <td>Jamie</td>
           <td>Unknown</td>
-          <td class="positive"><i class="icon close"></i> Requires call</td>
+          <td class="positive"><FuiIcon name=close></FuiIcon> Requires call</td>
         </tr>
         <tr class="negative">
           <td>Jill</td>
@@ -30,7 +30,7 @@
           <td>None</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 
@@ -38,7 +38,7 @@
 export default {
   name: 'CollectionTablePositiveNegative1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'table',
     title1: 'States',
@@ -60,13 +60,13 @@ export default {
       '        </tr>\n' +
       '        <tr class="positive">\n' +
       '          <td>Jimmy</td>\n' +
-      '          <td><i class="icon checkmark"></i> Approved</td>\n' +
+      '          <td><i class="checkmark icon"></i> Approved</td>\n' +
       '          <td>None</td>\n' +
       '        </tr>\n' +
       '        <tr>\n' +
       '          <td>Jamie</td>\n' +
       '          <td>Unknown</td>\n' +
-      '          <td class="positive"><i class="icon close"></i> Requires call</td>\n' +
+      '          <td class="positive"><i class="close icon"></i> Requires call</td>\n' +
       '        </tr>\n' +
       '        <tr class="negative">\n' +
       '          <td>Jill</td>\n' +

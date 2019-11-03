@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui celled table">
+    <FuiTable celled>
       <thead>
         <tr>
           <th>Name</th>
@@ -30,7 +30,7 @@
           <td>None</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

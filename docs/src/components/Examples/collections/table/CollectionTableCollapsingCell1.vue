@@ -1,36 +1,30 @@
 <template>
   <div>
-    <div class="ui ignored warning icon message">
-      <i class="warning icon"></i>
-      <div class="content">
-        To ensure icons don't wrap to a separate line you must either specify collapsing on the widest row in the collapsing column, or on all rows
-      </div>
-    </div>
-    <table class="ui table">
+    <FuiTable>
       <tbody>
         <tr>
           <td class="collapsing">
-            <i class="folder icon"></i> node_modules
+            <FuiIcon name=folder></FuiIcon> node_modules
           </td>
           <td>Initial commit</td>
           <td>10 hours ago</td>
         </tr>
         <tr>
           <td>
-            <i class="folder icon"></i> test
+            <FuiIcon name=folder></FuiIcon> test
           </td>
           <td>Initial commit</td>
           <td>10 hours ago</td>
         </tr>
         <tr>
           <td>
-            <i class="folder icon"></i> build
+            <FuiIcon name=folder></FuiIcon> build
           </td>
           <td>Initial commit</td>
           <td>10 hours ago</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui celled table">
+    <FuiTable celled>
       <thead>
         <tr>
           <th>Name</th>
@@ -16,13 +16,13 @@
         </tr>
         <tr class="warning">
           <td>Jimmy</td>
-          <td><i class="attention icon"></i> Requires Action</td>
+          <td><FuiIcon name=attention></FuiIcon> Requires Action</td>
           <td>None</td>
         </tr>
         <tr>
           <td>Jamie</td>
           <td>Unknown</td>
-          <td class="warning"><i class="attention icon"></i> Hostile</td>
+          <td class="warning"><FuiIcon name=attention></FuiIcon> Hostile</td>
         </tr>
         <tr>
           <td>Jill</td>
@@ -30,7 +30,7 @@
           <td>None</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

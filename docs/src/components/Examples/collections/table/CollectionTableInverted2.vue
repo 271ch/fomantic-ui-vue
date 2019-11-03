@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui inverted red table">
+    <FuiTable inverted red>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -17,8 +17,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui inverted orange table">
+    </FuiTable>
+    <FuiTable inverted orange>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -35,8 +35,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui inverted yellow table">
+    </FuiTable>
+    <FuiTable inverted yellow>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -53,8 +53,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui inverted olive table">
+    </FuiTable>
+    <FuiTable inverted olive>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -71,8 +71,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui inverted green table">
+    </FuiTable>
+    <FuiTable inverted green>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -89,8 +89,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui inverted teal table">
+    </FuiTable>
+    <FuiTable inverted teal>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -107,8 +107,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui inverted blue table">
+    </FuiTable>
+    <FuiTable inverted blue>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -125,8 +125,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui inverted violet table">
+    </FuiTable>
+    <FuiTable inverted violet>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -143,8 +143,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui inverted purple table">
+    </FuiTable>
+    <FuiTable inverted purple>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -161,8 +161,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui inverted pink table">
+    </FuiTable>
+    <FuiTable inverted pink>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -179,8 +179,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui inverted brown table">
+    </FuiTable>
+    <FuiTable inverted brown>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -197,8 +197,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui inverted grey table">
+    </FuiTable>
+    <FuiTable inverted grey>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -215,7 +215,7 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

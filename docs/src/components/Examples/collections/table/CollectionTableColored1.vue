@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui red table">
+    <FuiTable color=red>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -17,8 +17,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui orange table">
+    </FuiTable>
+    <FuiTable color=orange>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -35,8 +35,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui yellow table">
+    </FuiTable>
+    <FuiTable color=yellow>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -53,8 +53,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-  </table>
-    <table class="ui olive table">
+  </FuiTable>
+    <FuiTable color=olive>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -71,8 +71,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui green table">
+    </FuiTable>
+    <FuiTable color=green>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -89,8 +89,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui teal table">
+    </FuiTable>
+    <FuiTable color=teal>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -107,8 +107,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui blue table">
+    </FuiTable>
+    <FuiTable color=blue>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -125,8 +125,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui violet table">
+    </FuiTable>
+    <FuiTable color=violet>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -143,8 +143,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui purple table">
+    </FuiTable>
+    <FuiTable color=purple>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -161,8 +161,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui pink table">
+    </FuiTable>
+    <FuiTable color=pink>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -179,8 +179,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui grey table">
+    </FuiTable>
+    <FuiTable color=grey>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -197,8 +197,8 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui black table">
+    </FuiTable>
+    <FuiTable color=black>
       <thead>
         <th>Food</th>
         <th>Calories</th>
@@ -215,7 +215,7 @@
           <td>0g</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 
@@ -223,7 +223,7 @@
 export default {
   name: 'CollectionTableColored1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'table',
     title1: 'Variations',

@@ -1,10 +1,8 @@
 <template>
   <div>
-    <div class="existing code">
-      <div class="ui hidden message">
-        <p>You can't see me</p>
-      </div>
-    </div>
+    <FuiMessage hidden>
+      <p>You can't see me</p>
+    </FuiMessage>
   </div>
 </template>
 
@@ -12,17 +10,15 @@
 export default {
   name: 'CollectionMessageHidden1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'message',
     title1: 'States',
     title2: 'Hidden',
     description: 'A message can be hidden',
-    model: '    <div class="existing code">\n' +
-      '      <div class="ui hidden message">\n' +
+    model: '    <div class="ui hidden message">\n' +
       '        <p>You can\'t see me</p>\n' +
-      '      </div>\n' +
-      '    </div>\n',
+      '      </div>\n',
   },
 };
 </script>

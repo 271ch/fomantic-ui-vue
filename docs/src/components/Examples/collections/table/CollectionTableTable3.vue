@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui very basic collapsing celled table">
+    <FuiTable very basic collapsing celled>
       <thead>
         <th>Employee</th>
         <th>Correct Guesses</th>
@@ -63,7 +63,7 @@
           </td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

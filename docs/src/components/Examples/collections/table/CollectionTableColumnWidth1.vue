@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div class="ui ignored info message">Tables use a 16 column grid similar to <a href="/collections/grid.html">ui grid</a></div>
-    <table class="ui table">
+    <FuiTable>
       <thead>
         <th class="ten wide">Name</th>
         <th class="six wide">Status</th>
@@ -24,7 +23,7 @@
         <th>3 People</th>
         <th>2 Approved</th>
       </tfoot>
-    </table>
+    </FuiTable>
   </div>
 </template>
 
@@ -38,8 +37,7 @@ export default {
     title1: 'Variations',
     title2: 'Column Width',
     description: 'A table can specify the width of individual columns independently.',
-    model: '    <div class="ui ignored info message">Tables use a 16 column grid similar to <a href="/collections/grid.html">ui grid</a></div>\n' +
-      '    <table class="ui table">\n' +
+    model: '    <table class="ui table">\n' +
       '      <thead>\n' +
       '        <th class="ten wide">Name</th>\n' +
       '        <th class="six wide">Status</th>\n' +

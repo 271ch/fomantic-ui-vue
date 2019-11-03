@@ -1,6 +1,6 @@
 <template>
   <component
-    :is="a?'a':'div'"
+    :is="gTag"
     :class="classes"
   >
     <img
@@ -79,6 +79,10 @@ export default {
       type: Boolean,
       description: 'Use tag a istead of div.',
     },
+    li: {
+      type: Boolean,
+      description: 'Use tag li istead of div.',
+    },
     active: {
       type: Boolean,
       description: '',
@@ -114,8 +118,13 @@ export default {
     },
   },
   computed: {
+    gTag: function () {
+      if (this.a) return 'a';
+      if (this.li) return 'li';
+      return 'div';
+    },
     classes: function () {
-      return u.concatClasses(
+      const r = u.concatClasses(
         this.dropdown && 'ui dropdown',
         this.disabled && 'disabled',
         this.active && 'active',
@@ -126,8 +135,9 @@ export default {
         this.isHeader && 'header',
         this.right && 'right',
         this.icon && 'icon',
-        'item'
-      );
+        !this.li && 'item'
+      ).trim();
+      return r === '' ? false : r;
     },
   },
 };

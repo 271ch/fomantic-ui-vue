@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui very basic table">
+    <FuiTable basic=very>
       <thead>
         <tr>
           <th>Name</th>
@@ -25,7 +25,7 @@
           <td>None</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 
@@ -33,7 +33,7 @@
 export default {
   name: 'CollectionTableBasic2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'table',
     title1: 'Variations',

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui five column table">
+    <FuiTable column=five>
       <thead>
         <th>Name</th>
         <th>Status</th>
@@ -34,11 +34,11 @@
       <tfoot>
         <th>3 People</th>
         <th>2 Approved</th>
-        <th/>
-        <th/>
-        <th/>
+        <th></th>
+        <th></th>
+        <th></th>
       </tfoot>
-    </table>
+    </FuiTable>
   </div>
 </template>
 
@@ -46,7 +46,7 @@
 export default {
   name: 'CollectionTableColumnCount1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'table',
     title1: 'Variations',
@@ -86,9 +86,9 @@ export default {
       '      <tfoot>\n' +
       '        <th>3 People</th>\n' +
       '        <th>2 Approved</th>\n' +
-      '        <th/>\n' +
-      '        <th/>\n' +
-      '        <th/>\n' +
+      '        <th></th>\n' +
+      '        <th></th>\n' +
+      '        <th></th>\n' +
       '      </tfoot>\n' +
       '    </table>\n',
   },

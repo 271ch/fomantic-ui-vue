@@ -1,10 +1,10 @@
 <template>
   <div>
     <FuiMessage info iconName=close header="Was this what you wanted?">
-      <ul class="list">
-        <li>It's good to see you again.</li>
-        <li>Did you know it's been a while?</li>
-      </ul>
+      <FuiList tag=ul sub>
+        <FuiLItem>It's good to see you again.</FuiLItem>
+        <FuiLItem>Did you know it's been a while?</FuiLItem>
+      </FuiList>
     </FuiMessage>
   </div>
 </template>
@@ -13,7 +13,7 @@
 export default {
   name: 'CollectionMessageInfo1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'message',
     title1: 'Variations',

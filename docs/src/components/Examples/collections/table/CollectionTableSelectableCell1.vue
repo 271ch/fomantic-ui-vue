@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div class="ui ignored info message">Using an <code>a</code> link inside a selectable cell will automatically make the hit box the entire cell area. By default links will inherit their cell color.</div>
-    <table class="ui celled table">
+    <FuiTable celled>
       <thead>
         <tr>
           <th>Name</th>
@@ -53,7 +52,7 @@
           </td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 
@@ -67,8 +66,7 @@ export default {
     title1: 'Variations',
     title2: 'Selectable Cell',
     description: 'A table cell can be selectable',
-    model: '    <div class="ui ignored info message">Using an <code>a</code> link inside a selectable cell will automatically make the hit box the entire cell area. By default links will inherit their cell color.</div>\n' +
-      '    <table class="ui celled table">\n' +
+    model: '    <table class="ui celled table">\n' +
       '      <thead>\n' +
       '        <tr>\n' +
       '          <th>Name</th>\n' +

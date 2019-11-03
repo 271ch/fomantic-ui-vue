@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui compact table">
+    <FuiTable compact>
       <thead>
         <tr>
           <th>Name</th>
@@ -50,7 +50,7 @@
           <td>Requires call</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 
@@ -58,7 +58,7 @@
 export default {
   name: 'CollectionTableCompact1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'table',
     title1: 'Variations',

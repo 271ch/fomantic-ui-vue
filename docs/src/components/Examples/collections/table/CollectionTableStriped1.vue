@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui striped table">
+    <FuiTable striped>
       <thead>
         <tr>
           <th>Name</th>
@@ -59,7 +59,7 @@
           <td>No</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

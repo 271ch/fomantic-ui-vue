@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui very padded table">
+    <FuiTable padded=very>
       <thead>
         <tr>
           <th>Name</th>
@@ -20,7 +20,7 @@
           <td>Jamie was not interested in purchasing our product.</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 
@@ -28,7 +28,7 @@
 export default {
   name: 'CollectionTablePadded2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'table',
     title1: 'Variations',

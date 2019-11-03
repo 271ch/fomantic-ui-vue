@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui celled padded table">
+    <FuiTable celled padded>
       <thead>
         <th class="single line">Evidence Rating</th>
         <th>Effect</th>
@@ -58,7 +58,7 @@
           </div>
         </th>
       </tfoot>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

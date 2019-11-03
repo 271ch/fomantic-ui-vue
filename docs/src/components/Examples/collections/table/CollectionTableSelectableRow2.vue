@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui selectable inverted table">
+    <FuiTable selectable inverted>
       <thead>
         <tr>
           <th>Name</th>
@@ -25,7 +25,7 @@
           <td class="right aligned">None</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

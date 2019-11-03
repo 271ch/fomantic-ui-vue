@@ -42,6 +42,10 @@ export default {
       type: Boolean,
       description: '',
     },
+    hidden: { // TODO: descr
+      type: Boolean,
+      description: '',
+    },
     floating: { // TODO: descr
       type: Boolean,
       description: '',
@@ -86,6 +90,7 @@ export default {
         ...this.getClassesKind,
         this.icon && 'icon',
         this.visible && 'visible',
+        this.hidden && 'hidden',
         this.floating && 'floating',
         this.compact && 'compact',
         'message'

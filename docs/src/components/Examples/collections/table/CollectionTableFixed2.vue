@@ -1,9 +1,6 @@
 <template>
   <div>
-    <div class="ui ignored info message">
-      Fixed <code>single line</code> tables will automatically ensure content that does not fit in a single line will receive "..." ellipsis
-    </div>
-    <table class="ui fixed single line celled table">
+    <FuiTable fixed single line celled>
       <thead>
         <th>Name</th>
         <th>Status</th>
@@ -26,7 +23,7 @@
           <td>Shorter description</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 
@@ -40,10 +37,7 @@ export default {
     title1: 'Variations',
     title2: 'Fixed',
     description: 'A table can use',
-    model: '    <div class="ui ignored info message">\n' +
-      '      Fixed <code>single line</code> tables will automatically ensure content that does not fit in a single line will receive "..." ellipsis\n' +
-      '    </div>\n' +
-      '    <table class="ui fixed single line celled table">\n' +
+    model: '    <table class="ui fixed single line celled table">\n' +
       '      <thead>\n' +
       '        <th>Name</th>\n' +
       '        <th>Status</th>\n' +

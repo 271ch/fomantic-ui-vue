@@ -1,10 +1,10 @@
 <template>
   <div>
     <FuiMessage header="New Site Features">
-      <ul class="list">
-        <li>You can now have cover images on blog pages</li>
-        <li>Drafts will now auto-save while writing</li>
-      </ul>
+      <FuiList tag=ul sub>
+        <FuiLItem>You can now have cover images on blog pages</FuiLItem>
+        <FuiLItem>Drafts will now auto-save while writing</FuiLItem>
+      </FuiList>
     </FuiMessage>
   </div>
 </template>
@@ -13,7 +13,7 @@
 export default {
   name: 'CollectionMessageListMessage1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'message',
     title1: 'Types',

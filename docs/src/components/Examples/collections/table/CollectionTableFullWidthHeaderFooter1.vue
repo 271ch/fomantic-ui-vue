@@ -1,9 +1,9 @@
 <template>
   <div>
-    <table class="ui compact celled definition table">
+    <FuiTable compact celled definition>
       <thead class="full-width">
         <tr>
-          <th/>
+          <th></th>
           <th>Name</th>
           <th>Registration Date</th>
           <th>E-mail address</th>
@@ -47,10 +47,10 @@
       </tbody>
       <tfoot class="full-width">
         <tr>
-          <th/>
+          <th></th>
           <th colspan="4">
             <div class="ui right floated small primary labeled icon button">
-              <i class="user icon"></i> Add User
+              <FuiIcon name=user></FuiIcon> Add User
             </div>
             <div class="ui small  button">
               Approve
@@ -61,7 +61,7 @@
           </th>
         </tr>
       </tfoot>
-    </table>
+    </FuiTable>
   </div>
 </template>
 
@@ -78,7 +78,7 @@ export default {
     model: '    <table class="ui compact celled definition table">\n' +
       '      <thead class="full-width">\n' +
       '        <tr>\n' +
-      '          <th/>\n' +
+      '          <th></th>\n' +
       '          <th>Name</th>\n' +
       '          <th>Registration Date</th>\n' +
       '          <th>E-mail address</th>\n' +
@@ -122,7 +122,7 @@ export default {
       '      </tbody>\n' +
       '      <tfoot class="full-width">\n' +
       '        <tr>\n' +
-      '          <th/>\n' +
+      '          <th></th>\n' +
       '          <th colspan="4">\n' +
       '            <div class="ui right floated small primary labeled icon button">\n' +
       '              <i class="user icon"></i> Add User\n' +

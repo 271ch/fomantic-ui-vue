@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui celled striped table">
+    <FuiTable celled striped>
       <thead>
         <th colspan="3">
           Git Repository
@@ -9,41 +9,41 @@
       <tbody>
         <tr>
           <td class="collapsing">
-            <i class="folder icon"></i> node_modules
+            <FuiIcon name=folder></FuiIcon> node_modules
           </td>
           <td>Initial commit</td>
           <td class="right aligned collapsing">10 hours ago</td>
         </tr>
         <tr>
           <td>
-            <i class="folder icon"></i> test
+            <FuiIcon name=folder></FuiIcon> test
           </td>
           <td>Initial commit</td>
           <td class="right aligned">10 hours ago</td>
         </tr>
         <tr>
           <td>
-            <i class="folder icon"></i> build
+            <FuiIcon name=folder></FuiIcon> build
           </td>
           <td>Initial commit</td>
           <td class="right aligned">10 hours ago</td>
         </tr>
         <tr>
           <td>
-            <i class="file outline icon"></i> package.json
+            <FuiIcon name=file outline></FuiIcon> package.json
           </td>
           <td>Initial commit</td>
           <td class="right aligned">10 hours ago</td>
         </tr>
         <tr>
           <td>
-            <i class="file outline icon"></i> Gruntfile.js
+            <FuiIcon name=file outline></FuiIcon> Gruntfile.js
           </td>
           <td>Initial commit</td>
           <td class="right aligned">10 hours ago</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

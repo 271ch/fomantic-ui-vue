@@ -3,7 +3,7 @@
     <div class="ui ignored positive message">
       Tables will automatically stack their layouts for mobile devices. To disable this behavior, use the <code>unstackable</code> variation or <code>tablet stackable</code> to allow responsive adjustments for tablet.
     </div>
-    <table class="ui celled table">
+    <FuiTable celled>
       <thead>
         <th>Name</th>
         <th>Age</th>
@@ -26,7 +26,7 @@
           <td data-label="Job">Designer</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

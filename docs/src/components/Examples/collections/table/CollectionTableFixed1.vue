@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui fixed table">
+    <FuiTable fixed>
       <thead>
         <th>Name</th>
         <th>Status</th>
@@ -23,7 +23,7 @@
           <td>Jill is an alright girl but sometimes you don't really have enough room to describe everything you'd like</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

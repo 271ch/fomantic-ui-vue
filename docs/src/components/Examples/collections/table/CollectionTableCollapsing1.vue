@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui collapsing table">
+    <FuiTable collapsing>
       <thead>
         <tr>
           <th>Name</th>
@@ -28,9 +28,9 @@
       <tfoot>
         <th>3 People</th>
         <th>2 Approved</th>
-        <th/>
+        <th></th>
       </tfoot>
-    </table>
+    </FuiTable>
   </div>
 </template>
 
@@ -38,7 +38,7 @@
 export default {
   name: 'CollectionTableCollapsing1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'table',
     title1: 'Variations',
@@ -72,7 +72,7 @@ export default {
       '      <tfoot>\n' +
       '        <th>3 People</th>\n' +
       '        <th>2 Approved</th>\n' +
-      '        <th/>\n' +
+      '        <th></th>\n' +
       '      </tfoot>\n' +
       '    </table>\n',
   },

@@ -1,10 +1,10 @@
 <template>
   <div>
     <FuiMessage error iconName=close header="There were some errors with your submission">
-      <ul class="list">
-        <li>You must include both a upper and lower case letters in your password.</li>
-        <li>You need to select your home country.</li>
-      </ul>
+      <FuiList tag=ul sub>
+        <FuiLItem>You must include both a upper and lower case letters in your password.</FuiLItem>
+        <FuiLItem>You need to select your home country.</FuiLItem>
+      </FuiList>
     </FuiMessage>
   </div>
 </template>
@@ -13,7 +13,7 @@
 export default {
   name: 'CollectionMessageNegativeError2',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'message',
     title1: 'Variations',

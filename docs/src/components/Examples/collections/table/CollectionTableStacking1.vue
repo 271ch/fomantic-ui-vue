@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui unstackable table">
+    <FuiTable unstackable>
       <thead>
         <tr>
           <th>Name</th>
@@ -25,8 +25,8 @@
           <td class="right aligned">None</td>
         </tr>
       </tbody>
-    </table>
-    <table class="ui tablet stackable table">
+    </FuiTable>
+    <FuiTable tablet stackable>
       <thead>
         <tr>
           <th>Name</th>
@@ -51,7 +51,7 @@
           <td class="right aligned">None</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

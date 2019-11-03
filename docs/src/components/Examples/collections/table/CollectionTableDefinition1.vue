@@ -1,9 +1,8 @@
 <template>
   <div>
-    <div class="ui ignored info message">Definition tables are designed to display on a single background color. You can adjust this by changing <code>@definitionPageBackground</code>, or specifying a background color on the first cell</div>
-    <table class="ui definition table">
+    <FuiTable definition>
       <thead>
-        <th/>
+        <th></th>
         <th>Arguments</th>
         <th>Description</th>
       </thead>
@@ -18,7 +17,8 @@
           <td>rating (integer)</td>
           <td>Sets the current star rating to specified value</td>
         </tr>
-    </tbody></table>
+      </tbody>
+    </FuiTable>
   </div>
 </template>
 
@@ -26,16 +26,15 @@
 export default {
   name: 'CollectionTableDefinition1',
   info: {
-    converted: false,
+    converted: true,
     elementType: 'collections',
     element: 'table',
     title1: 'Types',
     title2: 'Definition',
     description: 'A table may be formatted to emphasize a first column that defines a rows content',
-    model: '    <div class="ui ignored info message">Definition tables are designed to display on a single background color. You can adjust this by changing <code>@definitionPageBackground</code>, or specifying a background color on the first cell</div>\n' +
-      '    <table class="ui definition table">\n' +
+    model: '    <table class="ui definition table">\n' +
       '      <thead>\n' +
-      '        <th/>\n' +
+      '        <th></th>\n' +
       '        <th>Arguments</th>\n' +
       '        <th>Description</th>\n' +
       '      </thead>\n' +

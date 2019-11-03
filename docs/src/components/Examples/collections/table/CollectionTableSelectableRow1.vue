@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui selectable celled table">
+    <FuiTable selectable celled>
       <thead>
         <tr>
           <th>Name</th>
@@ -40,7 +40,7 @@
           <td>None</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

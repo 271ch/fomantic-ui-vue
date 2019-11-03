@@ -6,36 +6,59 @@
 
 <script>
 import u from '../../lib/util';
-// import Enum from '../../lib/enum';
-// import Mixins from '../../lib/mixins';
+import Enum from '../../lib/enum';
+import Mixins from '../../lib/mixins';
 
 export default {
   name: 'FuiTable',
-  mixins: [],
+  mixins: [
+    Mixins.PColor,
+  ],
   props: {
     definition: {
       type: Boolean,
       description: '', // TODO: descr
     },
-    /*
-    prop1: { // TODO: Component FuiTable
+    collapsing: {
       type: Boolean,
-      description: '',
+      description: '', // TODO: descr
     },
-    prop2: {
-      type: String,
-      description: '',
-      default: '',
+    celled: {
+      type: Boolean,
+      description: '', // TODO: descr
     },
-    prop3: {
-      type: String,
-      description: '',
+    column: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
       validator: (value) => {
-        return !value || Enum.LeftRight.check(value);
+        return value === false || Enum.Number.check(value);
       },
-      default: '',
+      default: false,
     },
-    */
+    padded: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
+      validator: (value) => {
+        return value === false || value === true || value === 'very';
+      },
+      default: false,
+    },
+    compact: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
+      validator: (value) => {
+        return value === false || value === true || value === 'very';
+      },
+      default: false,
+    },
+    basic: {
+      type: [Boolean, String],
+      description: '', // TODO: descr
+      validator: (value) => {
+        return value === false || value === true || value === 'very';
+      },
+      default: false,
+    },
   },
   events: {
     click: {
@@ -46,7 +69,18 @@ export default {
     classes: function () {
       return u.concatClasses(
         'ui',
+        ...this.getClassesColor,
         this.definition && 'definition',
+        this.compact,
+        this.compact && 'compact',
+        this.basic,
+        this.basic && 'basic',
+        this.column,
+        this.column && 'column',
+        this.collapsing && 'collapsing',
+        this.celled && 'celled',
+        this.padded,
+        this.padded && 'padded',
         'table'
       );
     },

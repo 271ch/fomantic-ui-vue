@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui celled table">
+    <FuiTable celled>
       <thead>
         <tr>
           <th>Name</th>
@@ -22,7 +22,7 @@
         <tr>
           <td>Jamie</td>
           <td>Approved</td>
-          <td class="error"><i class="attention icon"></i> Classified</td>
+          <td class="error"><FuiIcon name=attention></FuiIcon> Classified</td>
         </tr>
         <tr>
           <td>Jill</td>
@@ -30,7 +30,7 @@
           <td>None</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

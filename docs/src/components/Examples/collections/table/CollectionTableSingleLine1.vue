@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="ui single line table">
+    <FuiTable single line>
       <thead>
         <tr>
           <th>Name</th>
@@ -29,7 +29,7 @@
           <td>Yes</td>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 

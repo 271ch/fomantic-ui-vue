@@ -4,7 +4,7 @@
       <p>UI tables use <code>border-collapse: separate</code> to allow for tables to receive styles that cannot usually be applied to tables like <code>border-radius</code>. However this can cause some cell borders to appear missing with complex layouts that use <code>rowspan</code> or <code>colspan</code> and rows with varying column count.</p>
       <p><code>ui structured table</code> does not support some style features, but can correctly display all valid HTML table content.</p>
     </div>
-    <table class="ui celled structured table">
+    <FuiTable celled structured>
       <thead>
         <tr>
           <th rowspan="2">Name</th>
@@ -58,7 +58,7 @@
           <td/>
         </tr>
       </tbody>
-    </table>
+    </FuiTable>
   </div>
 </template>
 
